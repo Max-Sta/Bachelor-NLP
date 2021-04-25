@@ -40,4 +40,5 @@ Thumbs.db
 ################
 
 *.Settings
-/NLPServiceEndpoint/packages/*
+/packages/*
+*.config
