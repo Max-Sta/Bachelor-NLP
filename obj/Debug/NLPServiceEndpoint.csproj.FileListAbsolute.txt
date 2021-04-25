@@ -1,0 +1,200 @@
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\NLPServiceEndpoint.exe.config
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\NLPServiceEndpoint.exe
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\NLPServiceEndpoint.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\IBM.Cloud.SDK.Core.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\IBM.Watson.Common.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\IBM.Watson.NaturalLanguageUnderstanding.v1.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\JsonSubTypes.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\JWT.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Newtonsoft.Json.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Net.Http.Formatting.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\JWT.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Newtonsoft.Json.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Net.Http.Formatting.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\obj\Debug\NLPServiceEndpoint.csprojAssemblyReference.cache
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\obj\Debug\NLPServiceEndpoint.Form1.resources
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\obj\Debug\NLPServiceEndpoint.Properties.Resources.resources
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\obj\Debug\NLPServiceEndpoint.csproj.GenerateResource.cache
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\obj\Debug\NLPServiceEndpoint.csproj.CoreCompileInputs.cache
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\obj\Debug\NLPServiceEndpoint.csproj.CopyComplete
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\obj\Debug\NLPServiceEndpoint.exe
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\obj\Debug\NLPServiceEndpoint.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\grpc_csharp_ext.x86.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\grpc_csharp_ext.x64.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\libgrpc_csharp_ext.x86.so
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\libgrpc_csharp_ext.x64.so
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\libgrpc_csharp_ext.x86.dylib
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\libgrpc_csharp_ext.x64.dylib
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.CommonProtos.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.Grpc.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.Grpc.GrpcCore.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.Auth.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.Core.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.PlatformServices.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Cloud.Language.V1.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Protobuf.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Auth.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Core.Api.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Core.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Buffers.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Memory.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Numerics.Vectors.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.CommonProtos.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.CommonProtos.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.Grpc.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.Grpc.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.Grpc.GrpcCore.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Api.Gax.Grpc.GrpcCore.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.Auth.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.Auth.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.Core.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Apis.Core.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Cloud.Language.V1.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Cloud.Language.V1.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Protobuf.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Google.Protobuf.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Auth.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Auth.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Core.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Core.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Core.Api.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Grpc.Core.Api.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Buffers.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Memory.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Numerics.Vectors.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Azure.AI.TextAnalytics.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Azure.Core.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Memory.Data.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Text.Encodings.Web.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Text.Json.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.ValueTuple.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Azure.AI.TextAnalytics.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\Azure.Core.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Memory.Data.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Text.Encodings.Web.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.Text.Json.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\System.ValueTuple.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.Comprehend.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.Core.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.S3.dll
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.Comprehend.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.Comprehend.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.Core.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.Core.xml
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.S3.pdb
+D:\Bachelor_Pallas\Bachelor - Code\NLPServiceEndpoint\bin\Debug\AWSSDK.S3.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\grpc_csharp_ext.x86.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\grpc_csharp_ext.x64.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\libgrpc_csharp_ext.x86.so
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\libgrpc_csharp_ext.x64.so
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\libgrpc_csharp_ext.x86.dylib
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\libgrpc_csharp_ext.x64.dylib
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\NLPServiceEndpoint.exe.config
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\NLPServiceEndpoint.exe
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\NLPServiceEndpoint.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.Comprehend.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.Core.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.S3.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Azure.AI.TextAnalytics.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Azure.Core.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.CommonProtos.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.Grpc.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.Grpc.GrpcCore.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.Auth.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.Core.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.PlatformServices.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Cloud.Language.V1.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Protobuf.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Auth.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Core.Api.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Core.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\IBM.Cloud.SDK.Core.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\IBM.Watson.Common.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\IBM.Watson.NaturalLanguageUnderstanding.v1.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\JsonSubTypes.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\JWT.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Newtonsoft.Json.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Buffers.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Memory.Data.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Memory.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Net.Http.Formatting.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Numerics.Vectors.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Text.Encodings.Web.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Text.Json.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.ValueTuple.dll
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.Comprehend.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.Comprehend.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.Core.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.Core.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.S3.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\AWSSDK.S3.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Azure.AI.TextAnalytics.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Azure.Core.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.CommonProtos.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.CommonProtos.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.Grpc.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.Grpc.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.Grpc.GrpcCore.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Api.Gax.Grpc.GrpcCore.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.Auth.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.Auth.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.Core.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Apis.Core.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Cloud.Language.V1.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Cloud.Language.V1.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Protobuf.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Google.Protobuf.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Auth.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Auth.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Core.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Core.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Core.Api.pdb
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Grpc.Core.Api.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\JWT.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\Newtonsoft.Json.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Buffers.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Memory.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Memory.Data.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Net.Http.Formatting.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Numerics.Vectors.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Text.Encodings.Web.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Text.Json.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\bin\Debug\System.ValueTuple.xml
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\obj\Debug\NLPServiceEndpoint.csprojAssemblyReference.cache
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\obj\Debug\NLPServiceEndpoint.Form1.resources
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\obj\Debug\NLPServiceEndpoint.Properties.Resources.resources
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\obj\Debug\NLPServiceEndpoint.csproj.GenerateResource.cache
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\obj\Debug\NLPServiceEndpoint.csproj.CoreCompileInputs.cache
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\obj\Debug\NLPServiceEndpoint.csproj.CopyComplete
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\obj\Debug\NLPServiceEndpoint.exe
+D:\Maximilian\D-Bibliothek\D-_Informatik\git\Bachelor-NLP\obj\Debug\NLPServiceEndpoint.pdb
