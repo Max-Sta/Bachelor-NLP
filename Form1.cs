@@ -41,25 +41,19 @@ namespace NLPServiceEndpoint
             NaturalLanguageUnderstandingService naturalLanguageUnderstanding = new NaturalLanguageUnderstandingService("2020-08-01", authenticator);
             naturalLanguageUnderstanding.SetServiceUrl(Properties.Settings.Default.ibm_service_url);
 
-            var features = new Features()
-            {
-                //Keywords = new KeywordsOptions()
-                //{
-                //    Limit = 2,
-                //    Sentiment = true,
-                //    Emotion = true
-                //},
-                Entities = new EntitiesOptions()
-                {
-                    Sentiment = true,
-                    Limit = 5
-                }
-            };
-
             var result = naturalLanguageUnderstanding.Analyze(
-                features: features,
-                text: richTextBoxInput.Text
-                );
+                text: richTextBoxInput.Text,
+                features: new Features()
+                {
+                    Entities = new EntitiesOptions()
+                    {
+                        Sentiment = true,
+                        Limit = 50,
+                        Mentions = true
+                    }
+                }
+            );
+
             //IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries.
             //Console.WriteLine(result.Response);
 
@@ -151,10 +145,7 @@ namespace NLPServiceEndpoint
             disableButtons();
 
             var client = new TextAnalyticsClient(endpoint, credentials);
-            // You will implement these methods later in the quickstart.
-            //SentimentAnalysisExample(client);
-            //SentimentAnalysisWithOpinionMiningExample(client);
-            //LanguageDetectionExample(client);
+
             EntityRecognitionExample(client);
             //EntityLinkingExample(client);
             //RecognizePIIExample(client);
@@ -218,6 +209,24 @@ namespace NLPServiceEndpoint
         private void btnClearLog_Click(object sender, EventArgs e)
         {
             richTextBoxLog.Text = "";
+        }
+
+        private void btnDurchsuchen_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog fbd = new FolderBrowserDialog();
+            if (fbd.ShowDialog() == DialogResult.OK && !String.IsNullOrEmpty(fbd.SelectedPath))
+            {
+                textBoxKorpusOrdner.Text = fbd.SelectedPath;
+            }
+        }
+
+        private void btnDurchsuchen2_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog fbd = new FolderBrowserDialog();
+            if (fbd.ShowDialog() == DialogResult.OK && !String.IsNullOrEmpty(fbd.SelectedPath))
+            {
+                textBoxAusgabeOrdner.Text = fbd.SelectedPath;
+            }
         }
     }
 }

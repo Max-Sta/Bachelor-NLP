@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBoxInput.Text" xml:space="preserve">
-    <value>Common natural fibres for rope are manila hemp, hemp, linen, cotton, coir, jute, straw, and sisal. Synthetic fibres in use for rope-making include polypropylene, nylon, polyesters (e.g. PET, LCP, Vectran), polyethylene (e.g. Dyneema and Spectra), Aramids (e.g. Twaron, Technora and Kevlar) and acrylics (e.g. Dralon).</value>
+    <value>The long history of rope means that many systems have been used to state the size of a rope. In systems that use the "inch" (British Imperial and United States Customary Measure), large ropes over 1 inch (25.4 mm) diameter such as are used on ships are measured by their circumference in inches; smaller ropes have a nominal diameter based on the circumference divided by three (rounded-down value for pi). In metric systems of measurement, nominal diameter is given in millimetres. The current preferred international standard for rope sizes is to give the mass per unit length, in kilograms per metre. However, even sources otherwise using metric units may still give a "rope number" for large ropes, which is the circumference in inches.</value>
   </data>
 </root>
