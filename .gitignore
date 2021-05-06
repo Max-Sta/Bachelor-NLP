@@ -38,7 +38,14 @@ Thumbs.db
 
 # Added by Max #
 ################
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
 
 *.Settings
 /packages/*
 *.config
+
+!packages.config
