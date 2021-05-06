@@ -28,11 +28,12 @@ namespace NLPServiceEndpoint
         public Form1()
         {
             InitializeComponent();
-            
         }
 
         private void btnIBMTest_Click(object sender, EventArgs e)
         {
+            disableButtons();
+
             IamAuthenticator authenticator = new IamAuthenticator(
             apikey: Properties.Settings.Default.ibm_api_key
             );
@@ -63,6 +64,10 @@ namespace NLPServiceEndpoint
             //Console.WriteLine(result.Response);
 
             richTextBoxConsole.Text = result.Response;
+            richTextBoxLog.Text += "IBM - Done" + "\n";
+
+            enableButtons();
+
             return;
         }
 
@@ -104,6 +109,8 @@ namespace NLPServiceEndpoint
 
         private void btnGoogleTest_Click(object sender, EventArgs e)
         {
+            disableButtons();
+
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", Properties.Settings.Default.google_api_path);
 
             var client = LanguageServiceClient.Create();
@@ -113,6 +120,25 @@ namespace NLPServiceEndpoint
                 Type = Document.Types.Type.PlainText
             });
             WriteEntities(response.Entities);
+
+            richTextBoxLog.Text += "Google - Done" + "\n";
+
+            enableButtons();
+        }
+
+        private void disableButtons()
+        {
+            btnAmazonTest.Enabled = false;
+            btnIBMTest.Enabled = false;
+            btnMicrosoftTest.Enabled = false;
+            btnGoogleTest.Enabled = false;
+        }
+        private void enableButtons()
+        {
+            btnAmazonTest.Enabled = true;
+            btnIBMTest.Enabled = true;
+            btnMicrosoftTest.Enabled = true;
+            btnGoogleTest.Enabled = true;
         }
 
         private void btn_Clear_Click(object sender, EventArgs e)
@@ -122,6 +148,7 @@ namespace NLPServiceEndpoint
 
         private void btnMicrosoftTest_Click(object sender, EventArgs e)
         {
+            disableButtons();
 
             var client = new TextAnalyticsClient(endpoint, credentials);
             // You will implement these methods later in the quickstart.
@@ -132,6 +159,8 @@ namespace NLPServiceEndpoint
             //EntityLinkingExample(client);
             //RecognizePIIExample(client);
             //KeyPhraseExtractionExample(client);
+            richTextBoxLog.Text += "Microsoft - Done" + "\n";
+            enableButtons();
         }
 
         private void EntityRecognitionExample(TextAnalyticsClient client)
@@ -151,7 +180,7 @@ namespace NLPServiceEndpoint
 
         private void btnAmazonTest_Click(object sender, EventArgs e)
         {
-
+            disableButtons();
             string text = richTextBoxInput.Text;
 
             AmazonComprehendClient comprehendClient = new AmazonComprehendClient(Amazon.RegionEndpoint.EUCentral1);
@@ -172,9 +201,23 @@ namespace NLPServiceEndpoint
                 Console.WriteLine("Text: {1}, Type: {1}, Score: {2}, BeginOffset: {3}, EndOffset: {4}",
                         ent.Text, ent.Type, ent.Score, ent.BeginOffset, ent.EndOffset);
             }
-            richTextBoxConsole.Text += "Done" + "\n";
-            Console.WriteLine("Done");
+            richTextBoxLog.Text += "AWS - Done" + "\n";
+            enableButtons();
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog SaveDia = new SaveFileDialog();
+            if(SaveDia.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
+
+        private void btnClearLog_Click(object sender, EventArgs e)
+        {
+            richTextBoxLog.Text = "";
         }
     }
 }
