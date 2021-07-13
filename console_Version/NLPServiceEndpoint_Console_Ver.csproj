@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Comprehend" Version="3.7.1.25" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.0.31" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.1" />
+    <PackageReference Include="Azure.AI.TextAnalytics" Version="5.1.0-beta.7" />
+    <PackageReference Include="Azure.Core" Version="1.14.0" />
+    <PackageReference Include="Google.Cloud.Language.V1" Version="2.2.0" />
+    <PackageReference Include="IBM.Cloud.SDK.Core" Version="1.2.0" />
+    <PackageReference Include="IBM.Watson.NaturalLanguageUnderstanding.v1" Version="5.1.0" />
+    <PackageReference Include="Newtonsoft.json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
