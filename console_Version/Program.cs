@@ -26,6 +26,9 @@ namespace NLPServiceEndpoint_Console_Ver
         private static string ibm_api_key;
         private static string ibm_service_url;
         private static string google_api_path;
+        private static string datenschutzerkl = "";
+        private static List<string> ibmOrgaBadWords = new List<string>(new string[] { "DSGVO", "EU", "TLS", "IP", "GOOGLE" });
+
         static void Main(string[] args)
         {
             if (LoadCredentials() == 0)
@@ -177,35 +180,81 @@ namespace NLPServiceEndpoint_Console_Ver
         {
             return;
         }
-        private static void AnalyseIBMEntityResponse(string response)
+        private static TIL AnalyseIBMEntityResponse(IBMEntity result)
         {
             TIL ibm_til = new TIL();
-            try
+            string earliestOrga = "";
+            string mostMentionedOrga = "";
+            int earliestOrgaStart = int.MaxValue;
+            int mostMentions = 0;
+            int newMentions = 0;
+            int mostWe = 0;
+            int newWe = 0;
+            string mostWeOrga = "";
+            IBMEntity.entity mostweOrgaEntity = new IBMEntity.entity();
+            foreach (var entity in result.entities)
             {
-                IBMEntity result = JsonConvert.DeserializeObject<IBMEntity>(response);
-                string earliestOrga = "";
-                int earliestOrgaStart = int.MaxValue;
-                foreach (var entity in result.entities)
+                #region Organizations
+                if (String.Compare(entity.type, "Organization") == 0 || String.Compare(entity.type, "Company") == 0)
                 {
-                    if (String.Compare(entity.type, "Organization") == 0)
+                    if (ibmOrgaBadWords.Where(item => entity.text.ToLower().StartsWith(item.ToLower())).ToList().Count > 0)
                     {
-                        foreach (var mention in entity.mentions)
+                        Console.WriteLine("Filtered Organization Entity \""+entity.text+"\"."); //debug
+                        continue;
+                    }
+                    if (ibmOrgaBadWords.Where(item => entity.text.ToLower().EndsWith(item.ToLower())).ToList().Count > 0)
+                    {
+                        Console.WriteLine("Filtered Organization Entity \"" + entity.text + "\"."); //debug
+                        continue;
+                    }
+                    newMentions = 0;
+                    newWe = 0;
+                    foreach (var mention in entity.mentions)
+                    {
+                        newMentions++;
+                        if (earliestOrgaStart > mention.location[0]/* && entity.mentions.Count > 3*/)
                         {
-                            if (earliestOrgaStart > mention.location[0])
-                            {
-                                earliestOrgaStart = mention.location[0];
-                                earliestOrga = entity.text;
-                            }
+                            earliestOrgaStart = mention.location[0];
+                            earliestOrga = entity.text;
+                        }
+                        if (IsThisCloseTo(" us ", mention.location[0], 20) || IsThisCloseTo(" we ", mention.location[0], 20)
+                            || IsThisCloseTo(" uns ", mention.location[0], 20) || IsThisCloseTo(" wir ", mention.location[0], 20)
+                            || IsThisCloseTo(" us,", mention.location[0], 20) || IsThisCloseTo(" we,", mention.location[0], 20)
+                            || IsThisCloseTo(" uns,", mention.location[0], 20) || IsThisCloseTo(" wir,", mention.location[0], 20))
+                        {
+                            newWe++;
+                            //Console.WriteLine("The organizational/company Entity \""+entity.text+"\" has been found " +
+                            //    "within range of at least one of the words \"us\", \"we\", \"uns\" and \"wir\".");
                         }
                     }
+                    if (newMentions>mostMentions)
+                    {
+                        mostMentions = newMentions;
+                        mostMentionedOrga = entity.text;
+                    }
+                    if (newWe > mostWe)
+                    {
+                        mostWeOrga = entity.text;
+                        mostWe = newWe;
+                        mostweOrgaEntity = entity;
+                    }
                 }
-                Console.WriteLine("The earliest Organization is: " + earliestOrga);
+                #endregion
+
             }
-            catch (Exception)
-            {
-                Console.WriteLine("Error parsing response JSON");
-            }
-            return;
+            //Console.WriteLine("The earliest organization is: " + earliestOrga);
+            //Console.WriteLine("The most mentioned organization is: " + mostMentionedOrga);
+            Console.WriteLine("The organization/company with the most WeUsWirUns context mentions is: " + mostWeOrga);
+            string typeToCheck = "Person";
+            Console.WriteLine("The closest Entity of type \""+typeToCheck+"\" to that is: " + GetOverallClosestOfType(result, typeToCheck, mostweOrgaEntity).text);
+            //Console.WriteLine("These results do not include Organizations that were removed due to a filter.");
+
+            ibm_til.meta.language = result.language;
+            ibm_til.controller.name = mostWeOrga;
+            //ibm_til.controller.representative.name = "bob";
+
+
+            return ibm_til;
         }
         private static void AnalyseMicrosoftEntityResponse(CategorizedEntityCollection response)
         {
@@ -219,7 +268,6 @@ namespace NLPServiceEndpoint_Console_Ver
         public static void DemoRun(string DeMode)
         {
             string inputLine = "";
-            string fileContent = "";
             string read = "";
 
             for (int i = 0; i < 100000; i++)
@@ -228,7 +276,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 Console.WriteLine("Please choose (A)WS, (M)icrosoft, (G)oogle, (I)BM or (q)uit\n");
                 read = Console.ReadLine();
                 inputLine = "";
-                fileContent = "";
+                datenschutzerkl = "";
                 switch (read)
                 {
                     case "A":   //CASE AWS
@@ -243,8 +291,8 @@ namespace NLPServiceEndpoint_Console_Ver
                         inputLine = Console.ReadLine();
                         if (File.Exists(inputLine))
                         {
-                            fileContent = File.ReadAllText(inputLine);
-                            var response = AwsEntityRecognize(fileContent);
+                            datenschutzerkl = File.ReadAllText(inputLine);
+                            var response = AwsEntityRecognize(datenschutzerkl);
                             PrintAWSEntityResponse(response);
                             if (DeMode == "a")
                             {
@@ -276,8 +324,8 @@ namespace NLPServiceEndpoint_Console_Ver
                         inputLine = Console.ReadLine();
                         if (File.Exists(inputLine))
                         {
-                            fileContent = File.ReadAllText(inputLine);
-                            var response = MicrosoftEntityRecognize(fileContent);
+                            datenschutzerkl = File.ReadAllText(inputLine);
+                            var response = MicrosoftEntityRecognize(datenschutzerkl);
                             PrintMicrosoftEntities(response);
                             if (DeMode == "a")
                             {
@@ -307,8 +355,8 @@ namespace NLPServiceEndpoint_Console_Ver
                         inputLine = Console.ReadLine();
                         if (File.Exists(inputLine))
                         {
-                            fileContent = File.ReadAllText(inputLine);
-                            var response = GoogleEntityRecognize(fileContent);
+                            datenschutzerkl = File.ReadAllText(inputLine);
+                            var response = GoogleEntityRecognize(datenschutzerkl);
                             GoogleWriteEntities(response);
                             if (DeMode == "a")
                             {
@@ -336,21 +384,42 @@ namespace NLPServiceEndpoint_Console_Ver
                             Console.WriteLine("Please insert text or filename of a text to be analysed\n");
                         }
                         inputLine = Console.ReadLine();
+                        if (String.IsNullOrEmpty(inputLine))
+                        {
+                            Console.WriteLine("Error - Input empty.");
+                            continue;
+                        }
                         if (File.Exists(inputLine))
                         {
-                            fileContent = File.ReadAllText(inputLine);
-                            string response = IBMEntityRecognize(fileContent);
-                            if (String.IsNullOrEmpty(response)) { Console.Write("Result empty"); }
-                            else
-                            {
-                                Console.WriteLine(response);
-                                Console.WriteLine("IBM - Done");
+                            datenschutzerkl = File.ReadAllText(inputLine);
+                            Console.WriteLine("IBM - Beginning recognition...");
+                            IBMEntity responseEntity = IBMCompleteEntityRecognition(datenschutzerkl);
+                            //string response = IBMEntityRecognize(datenschutzerkl);
+                            Console.WriteLine("IBM - Recognition finished.");
 
-                                if (DeMode == "a")
-                                {
-                                    AnalyseIBMEntityResponse(response);
-                                }
+                            if (DeMode == "a")
+                            {
+                                Console.WriteLine("IBM - Beginning processing...");
+
+                                AnalyseIBMEntityResponse(responseEntity);
+                                Console.WriteLine("IBM - Processing finished.");
+
                             }
+                            //if (String.IsNullOrEmpty(response)) { Console.Write("Result empty"); }
+                            //else
+                            //{
+                            //    //Console.WriteLine(response);
+                            //    Console.WriteLine("IBM - Recognition finished.");
+
+                            //    if (DeMode == "a")
+                            //    {
+                            //        Console.WriteLine("IBM - Beginning processing...");
+
+                            //        AnalyseIBMEntityResponse(responseEntity);
+                            //        Console.WriteLine("IBM - Processing finished.");
+
+                            //    }
+                            //}
                         }
                         else
                         {
@@ -387,21 +456,201 @@ namespace NLPServiceEndpoint_Console_Ver
             try
             {
                 IBMEntity result = JsonConvert.DeserializeObject<IBMEntity>(jsonString);
-                //Console.WriteLine(result.ToString());
-                foreach (var entity in result.entities)
-                {
-                    Console.WriteLine("text: " + entity.text);
-                }
-
                 return result;
             }
             catch (Exception)
             {
                 Console.WriteLine("Error parsing response JSON");
             }
-
             return null;
         }
+        /// <summary>
+        /// Returns whether or not a specified string can be found
+        /// in the given range around the start offset of another.
+        /// Checks in the string "datenschutzerkl".
+        /// </summary>
+        /// <param name="text"></param>
+        /// <param name="start"></param>
+        /// <param name="range"></param>
+        /// <returns>boolean result of Search within range</returns>
+        private static Boolean IsThisCloseTo(string text, int start, int range = 20) {
+            int datLen = datenschutzerkl.Length;
+            if (datLen-start <= range && start <=range)
+            {
+                return datenschutzerkl.Substring(0, datLen).Contains(text);
+            }
+            else if (start <=range)
+            {
+                return datenschutzerkl.Substring(0, range+start).Contains(text);
+            }
+            else if (datLen-start>=range)
+            {
+                return datenschutzerkl.Substring(start - range, datLen-start+range).Contains(text);
+            }
+            else
+            {
+                return datenschutzerkl.Substring(start-range, start + 2*range).Contains(text);
+            }
+        }
+        private static string GetTextAroundHere(int start, int leftrange, int rightrange = -1)
+        {
+            int datLen = datenschutzerkl.Length;
+            if (rightrange == -1)
+            { rightrange = leftrange; }
 
+            if (datLen - 1 < start + rightrange && start < leftrange)
+            {
+                return datenschutzerkl.Substring(0, datLen);
+            }
+            else if (datLen - 1 <= start + rightrange)
+            {
+                return datenschutzerkl.Substring(start - leftrange, leftrange + datLen - start);
+            }
+            else if (start <= leftrange)
+            {
+                return datenschutzerkl.Substring(0, start + rightrange);
+            }
+            else return datenschutzerkl.Substring(start-leftrange, leftrange+rightrange);
+        }
+        private static string[] SplitDatenschutz(string input, int size = 5000)
+        {
+            string[] res = new string[(int)Math.Ceiling((double)input.Length/size)];
+            string partRes = "";
+            int count = 0;
+            int placeInArray = 0;
+            while (count < input.Length)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    if (count < input.Length)
+                    {
+                        partRes += input[count];
+                        count++;
+                    }
+                }
+                res[placeInArray] = partRes;
+                placeInArray++;
+                partRes = "";
+            }
+            return res;
+        }
+        private static IBMEntity IBMCompleteEntityRecognition(string input)
+        {
+            string[] datenSplit = SplitDatenschutz(input);
+            string[] entResults = new string[datenSplit.Length];
+            for(int i = 0; i<datenSplit.Length; i++)
+            {
+                entResults[i] = IBMEntityRecognize(datenSplit[i]);
+                //Console.WriteLine(entResults[i]);
+            }
+            Console.WriteLine("ibm rec done, combining results...");
+            IBMEntity ibmResEnt = CombineIBMEntities(entResults);
+            Console.WriteLine("ibm results successfully combined.");
+
+            return ibmResEnt;
+        }
+        private static IBMEntity CombineIBMEntities(string[] input)
+        {
+            if (input.Length == 0)
+            {
+                return null;
+            }
+            IBMEntity resEntity = ConvertIBMJson(input[0]);
+            for (int i = 1; i < input.Length; i++)
+            {
+                IBMEntity midEntity = ConvertIBMJson(input[i]);
+                resEntity += midEntity;
+            }
+            foreach (IBMEntity.entity item in resEntity.entities)
+            {
+                Console.WriteLine("Found Entity: " + item.text + " of type "+ item.type);
+            }
+            return resEntity;
+        }
+        private static IBMEntity.entity FindClosestEntityOfType(IBMEntity root, string type, int start, string[] ignoreList = null)
+        {
+            IBMEntity.entity closestEntity = new IBMEntity.entity();
+            closestEntity.text = "[No entity of type \""+type+"\" found.]";
+            int closestDistance = int.MaxValue;
+
+            foreach (IBMEntity.entity entity in root.entities)
+            {
+                if (String.Compare(entity.type, type) != 0)
+                {
+                    continue;
+                }
+                
+                if (ignoreList != null)
+                {
+                    bool foundInIgnore = false;
+
+                    if (ignoreList.Where(item => entity.text.ToLower().StartsWith(item.ToLower())).ToList().Count > 0)
+                    {   foundInIgnore = true;   }
+                    if (ignoreList.Where(item => entity.text.ToLower().EndsWith(item.ToLower())).ToList().Count > 0)
+                    {   foundInIgnore = true;   }
+
+                    if (foundInIgnore)
+                    {
+                        continue;
+                    }
+                }
+                foreach (IBMEntity.mention mention in entity.mentions)
+                {
+                    if (Math.Abs(mention.location[0]-start)<closestDistance)
+                    {
+                        closestDistance = Math.Abs(mention.location[0] - start);
+                        closestEntity = entity;
+                    }
+                }
+            }
+            return closestEntity;
+        }
+        private static int GetEarliestMention(IBMEntity.entity entity)
+        {
+            int earliest = int.MaxValue;
+            foreach (IBMEntity.mention mention in entity.mentions)
+            {
+                if (mention.location[0] < earliest)
+                {
+                    earliest = mention.location[0];
+                }
+            }
+            return earliest;
+        }
+        private static IBMEntity.entity GetOverallClosestOfType(IBMEntity root, string type, IBMEntity.entity entity, string[] ignoreList = null)
+        {
+            IBMEntity.entity closestEntity = new IBMEntity.entity();
+            closestEntity.text = "[No entity of type \"" + type + "\" found.]";
+            int closestDistance = int.MaxValue;
+            foreach (IBMEntity.entity item in root.entities)
+            {
+                if (String.Compare(item.text, entity.text) == 0 || String.Compare(type, item.type) != 0)
+                {   continue;   }
+                if (ignoreList != null)
+                {
+                    bool ignoreFound = false;
+
+                    if (ignoreList.Where(something => item.text.ToLower().StartsWith(something.ToLower())).ToList().Count > 0)
+                        { ignoreFound = true; }
+                    if (ignoreList.Where(something => item.text.ToLower().EndsWith(something.ToLower())).ToList().Count > 0)
+                        { ignoreFound = true; }
+
+                    if (ignoreFound)
+                    {   continue;   }
+                }
+                foreach (IBMEntity.mention entityMention in entity.mentions)
+                {
+                    foreach (IBMEntity.mention itemMention in item.mentions)
+                    {
+                        if (Math.Abs(itemMention.location[0]-entityMention.location[0]) < closestDistance)
+                        {
+                            closestDistance = Math.Abs(itemMention.location[0] - entityMention.location[0]);
+                            closestEntity = item;
+                        }
+                    }
+                }
+            }
+            return closestEntity;
+        }
     }
 }

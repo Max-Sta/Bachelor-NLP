@@ -7,6 +7,41 @@ namespace NLPServiceEndpoint_Console_Ver
     class TIL
     {
         // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
+        //public Root root { get; set; }
+        public TIL()
+        {
+            meta = new Meta();
+            controller = new Controller();
+            controller.representative = new Representative();
+            dataProtectionOfficer = new DataProtectionOfficer();
+            dataDisclosed = new List<DataDisclosed>();
+            thirdCountryTransfers = new List<ThirdCountryTransfer>();
+            accessAndDataPortability = new AccessAndDataPortability();
+            sources = new List<String>();
+            rightToInformation = new RightToInformation();
+            rightToRectificationOrDeletion = new RightToRectificationOrDeletion();
+            rightToDataPortability = new RightToDataPortability();
+            rightToWithdrawConsent = new RightToWithdrawConsent();
+            rightToComplain = new RightToComplain();
+            automatedDecisionMaking = new AutomatedDecisionMaking();
+            changesOfPurpose = new List<ChangesOfPurpose>();
+        }
+
+        public Meta meta { get; set; }
+        public Controller controller { get; set; }
+        public DataProtectionOfficer dataProtectionOfficer { get; set; }
+        public List<DataDisclosed> dataDisclosed { get; set; }
+        public List<ThirdCountryTransfer> thirdCountryTransfers { get; set; }
+        public AccessAndDataPortability accessAndDataPortability { get; set; }
+        public List<String> sources { get; set; }
+        public RightToInformation rightToInformation { get; set; }
+        public RightToRectificationOrDeletion rightToRectificationOrDeletion { get; set; }
+        public RightToDataPortability rightToDataPortability { get; set; }
+        public RightToWithdrawConsent rightToWithdrawConsent { get; set; }
+        public RightToComplain rightToComplain { get; set; }
+        public AutomatedDecisionMaking automatedDecisionMaking { get; set; }
+        public List<ChangesOfPurpose> changesOfPurpose { get; set; }
+
         public class Meta
         {
             public string _id { get; set; }
@@ -164,7 +199,7 @@ namespace NLPServiceEndpoint_Console_Ver
             public bool publiclyAvailable { get; set; }
             public string _id { get; set; }
             public string dataCategory { get; set; }
-            public List<Source> sources { get; set; }
+            public List<String> sources { get; set; }
         }
 
         public class RightToInformation
@@ -237,24 +272,23 @@ namespace NLPServiceEndpoint_Console_Ver
             public string urlOfNewVersion { get; set; }
         }
 
-        public class Root
-        {
-            public Meta meta { get; set; }
-            public Controller controller { get; set; }
-            public DataProtectionOfficer dataProtectionOfficer { get; set; }
-            public List<DataDisclosed> dataDisclosed { get; set; }
-            public List<ThirdCountryTransfer> thirdCountryTransfers { get; set; }
-            public AccessAndDataPortability accessAndDataPortability { get; set; }
-            public List<Source> sources { get; set; }
-            public RightToInformation rightToInformation { get; set; }
-            public RightToRectificationOrDeletion rightToRectificationOrDeletion { get; set; }
-            public RightToDataPortability rightToDataPortability { get; set; }
-            public RightToWithdrawConsent rightToWithdrawConsent { get; set; }
-            public RightToComplain rightToComplain { get; set; }
-            public AutomatedDecisionMaking automatedDecisionMaking { get; set; }
-            public List<ChangesOfPurpose> changesOfPurpose { get; set; }
-        }
-
+        //public class Root
+        //{
+        //    public Meta meta { get; set; }
+        //    public Controller controller { get; set; }
+        //    public DataProtectionOfficer dataProtectionOfficer { get; set; }
+        //    public List<DataDisclosed> dataDisclosed { get; set; }
+        //    public List<ThirdCountryTransfer> thirdCountryTransfers { get; set; }
+        //    public AccessAndDataPortability accessAndDataPortability { get; set; }
+        //    public List<String> sources { get; set; }
+        //    public RightToInformation rightToInformation { get; set; }
+        //    public RightToRectificationOrDeletion rightToRectificationOrDeletion { get; set; }
+        //    public RightToDataPortability rightToDataPortability { get; set; }
+        //    public RightToWithdrawConsent rightToWithdrawConsent { get; set; }
+        //    public RightToComplain rightToComplain { get; set; }
+        //    public AutomatedDecisionMaking automatedDecisionMaking { get; set; }
+        //    public List<ChangesOfPurpose> changesOfPurpose { get; set; }
+        //}
 
     }
 }
