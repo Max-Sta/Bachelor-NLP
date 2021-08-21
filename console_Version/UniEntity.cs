@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NLPServiceEndpoint_Console_Ver
 {
-    class IBMEntity
+    class UniEntity
     {
         public usageInfo usage { get; set; }
         public string language { get; set; }
@@ -19,12 +19,14 @@ namespace NLPServiceEndpoint_Console_Ver
         public class entity
         {
             public string type { get; set; }
+            public string subcategory { get; set; } //Microsoft only
             public string text { get; set; }
             public sentim sentiment { get; set; }
             public float relevance { get; set; }
             public List<mention> mentions { get; set; }
             public int count { get; set; }
             public float confidence { get; set; }
+            public Dictionary<string, string> Metadata { get; set; }
         }
         public class sentim
         {
@@ -37,11 +39,14 @@ namespace NLPServiceEndpoint_Console_Ver
             public List<int> location { get; set; }
             public float confidence { get; set; }
         }
-        public static IBMEntity operator +(IBMEntity ent, IBMEntity ity)
+        public static UniEntity operator +(UniEntity ent, UniEntity ity)
         {
-            ent.usage.text_units += ity.usage.text_units;
-            ent.usage.text_characters += ity.usage.text_characters;
-            ent.usage.features = Math.Max(ent.usage.features, ity.usage.features);
+            if (ent.usage != null)
+            {
+                ent.usage.text_units += ity.usage.text_units;
+                ent.usage.text_characters += ity.usage.text_characters;
+                ent.usage.features = Math.Max(ent.usage.features, ity.usage.features);
+            }
             foreach (entity entEntity in ent.entities)
             {
                 foreach (entity ityEntity in ity.entities)

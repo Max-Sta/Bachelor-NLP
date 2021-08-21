@@ -23,7 +23,7 @@ namespace NLPServiceEndpoint_Console_Ver
         private static string ibm_service_url;
         private static string google_api_path;
         private static string datenschutzerkl = "";
-        private static int splitsize = 5000;
+        private static int splitsize = 4500;
         private static List<string> ibmOrgaBadWords = new List<string>(new string[] { "DSGVO", "EU", "TLS", "IP", "GOOGLE" });
 
         static void Main(string[] args)
@@ -77,6 +77,9 @@ namespace NLPServiceEndpoint_Console_Ver
             Console.WriteLine("Config file not Found, please put a file by the name of nlpConfig.config in the same folder as the program.");
             return 1;
         }
+
+        #region Microsoft
+
         public static CategorizedEntityCollection MicrosoftEntityRecognize(string input)
         {
             var client = new TextAnalyticsClient(azureEndpoint, azureCredentials);
@@ -89,36 +92,116 @@ namespace NLPServiceEndpoint_Console_Ver
             string result = "";
             foreach (var entity in response)
             {
-                result += $"\tText: {entity.Text},\tPosition: {entity.Offset}-{entity.Offset+entity.Length},\tCategory: {entity.Category},\tSub-Category: {entity.SubCategory}" + "\n";
+                result += $"\tText: {entity.Text},\tPosition: {entity.Offset}-{entity.Offset + entity.Length},\tCategory: {entity.Category},\tSub-Category: {entity.SubCategory}" + "\n";
             }
             if (String.IsNullOrEmpty(result)) { Console.Write("Result empty"); }
             Console.WriteLine(result);
             Console.WriteLine("Microsoft - Done");
             return;
         }
-        public static string IBMEntityRecognize(string input)
+        private static void AnalyseMicrosoftEntityResponse(UniEntity response)
         {
-            IamAuthenticator authenticator = new IamAuthenticator(
-           apikey: ibm_api_key
-           );
+            AnalyseIBMEntityResponse(response);
+            return;
+        }
+        private static UniEntity MicrosoftCompleteEntityRecognition(string input)
+        {
+            string[] datenSplit = SplitDatenschutz(input);
 
-            NaturalLanguageUnderstandingService naturalLanguageUnderstanding = new NaturalLanguageUnderstandingService("2020-08-01", authenticator);
-            naturalLanguageUnderstanding.SetServiceUrl(ibm_service_url);
+            UniEntity[] entResultEntities = new UniEntity[datenSplit.Length];
+            for (int i = 0; i < datenSplit.Length; i++)
+            {
+                entResultEntities[i] = ConvertMicrosoftToUniEntity(MicrosoftEntityRecognize(datenSplit[i]));
+                //Console.WriteLine(entResults[i]);
+            }
+            Console.WriteLine("Microsoft rec. done, combining results...");
+            UniEntity microsoftResEnt = CombineUniEntities(entResultEntities);
+            Console.WriteLine("Microsoft results successfully combined.");
 
-            var result = naturalLanguageUnderstanding.Analyze(
-                text: input,
-                features: new Features()
+            return microsoftResEnt;
+        }
+        private static UniEntity ConvertMicrosoftToUniEntity(CategorizedEntityCollection microsoftResponse)
+        {
+            UniEntity result = new UniEntity();
+            result.entities = new List<UniEntity.entity>();
+            result.language = "no language code found";     //TODO
+            Boolean EntityAlreadyExists;
+            foreach (var microsoftEntity in microsoftResponse)
+            {
+                EntityAlreadyExists = false;
+
+                if (result.entities.Count > 0)
                 {
-                    Entities = new EntitiesOptions()
+                    foreach (var resultEntity in result.entities) //Check für gleiche Entities
                     {
-                        Sentiment = true,
-                        Limit = 50,
-                        Mentions = true
+                        if (String.Compare(resultEntity.text, microsoftEntity.Text) == 0 && String.Compare(resultEntity.type.ToLower(), microsoftEntity.Category.ToString().ToLower()) == 0)
+                        {
+                            //Combining existing entities. Should mainly be adding mentions.
+
+                            UniEntity.mention newMention = new UniEntity.mention();
+                            newMention.confidence = (float)microsoftEntity.ConfidenceScore;
+
+                            newMention.text = microsoftEntity.Text;
+                            newMention.location = new List<int>();
+                            newMention.location.Add(microsoftEntity.Offset);
+                            newMention.location.Add(microsoftEntity.Offset + microsoftEntity.Length);
+                            resultEntity.mentions.Add(newMention);
+                            EntityAlreadyExists = true;
+
+                        }
                     }
                 }
-            ); 
-            return result.Response;
+
+                if (!EntityAlreadyExists)
+                {
+                    //Add new Entity
+                    UniEntity.entity resEnt = new UniEntity.entity();
+                    resEnt.type = microsoftEntity.Category.ToString();
+                    resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
+                    if (microsoftEntity.SubCategory != null)
+                    {
+                        resEnt.subcategory = microsoftEntity.SubCategory;
+                        resEnt.subcategory = char.ToUpper(resEnt.subcategory[0]) + resEnt.subcategory[1..].ToLower();
+
+                    }
+                    else { resEnt.subcategory = ""; }
+
+                    resEnt.text = microsoftEntity.Text;
+                    resEnt.sentiment = new UniEntity.sentim();
+                    resEnt.confidence = (float)microsoftEntity.ConfidenceScore;
+                    //if (microsoftEntity. != null)
+                    //{
+                    //    resEnt.sentiment.score = microsoftEntity.Sentiment.Score;
+                    //    resEnt.sentiment.label = microsoftEntity.Sentiment.Magnitude.ToString();    //ACHTUNG nongleich
+                    //}
+                    //resEnt.relevance = microsoftEntity.Salience;
+
+                    resEnt.mentions = new List<UniEntity.mention>();
+
+                    UniEntity.mention newMention = new UniEntity.mention();
+
+                    newMention.confidence = (float)microsoftEntity.ConfidenceScore;
+                    newMention.text = microsoftEntity.Text;
+                    newMention.location = new List<int>();
+                    newMention.location.Add(microsoftEntity.Offset);
+                    newMention.location.Add(microsoftEntity.Offset + microsoftEntity.Length);
+                    resEnt.mentions.Add(newMention);
+
+                    //resEnt.Metadata = new Dictionary<string, string>();
+                    //foreach (var meta in microsoftEntity.Metadata)
+                    //{
+                    //    resEnt.Metadata.Add(meta.Key, meta.Value);
+                    //}
+
+                    result.entities.Add(resEnt);
+                }
+            }
+            return result;
         }
+        #endregion
+
+        #region Google
+
         public static AnalyzeEntitiesResponse GoogleEntityRecognize(string input)
         {
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", google_api_path);
@@ -151,33 +234,151 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             Console.WriteLine("Google - Done");
         }
-        public static DetectEntitiesResponse AwsEntityRecognize(string inputText)
+        private static UniEntity ConvertGoogleToUniEntity(AnalyzeEntitiesResponse googleResponse)
         {
-
-            var client = new AmazonComprehendClient(Amazon.RegionEndpoint.EUCentral1);
-            DetectEntitiesRequest detectEntitiesRequest = new DetectEntitiesRequest
+            UniEntity result = new UniEntity();
+            result.entities = new List<UniEntity.entity>();
+            result.language = googleResponse.Language;
+            Boolean EntityAlreadyExists = false;
+            foreach (var googleEntity in googleResponse.Entities)
             {
-                Text = inputText,
-                LanguageCode = "en"
-            };
-            return client.DetectEntitiesAsync(detectEntitiesRequest).Result;
-        }
+                EntityAlreadyExists = false;
+                if (result.entities.Count > 0)
+                {
+                    foreach (var resultEntity in result.entities) //Check für gleiche Entities
+                    {
+                        if (String.Compare(resultEntity.text, googleEntity.Name) == 0 && String.Compare(resultEntity.type.ToLower(), googleEntity.Type.ToString().ToLower()) == 0)
+                        {
+                            //Combining existing entities. Should mainly be adding mentions.
+                            foreach (var responseMention in googleEntity.Mentions)
+                            {
+                                UniEntity.mention newMention = new UniEntity.mention();
+                                //resMention.confidence = responseMention.N/A;
+                                newMention.text = responseMention.Text.Content;
+                                newMention.location = new List<int>();
+                                newMention.location.Add(responseMention.Text.BeginOffset);
+                                newMention.location.Add(responseMention.Text.BeginOffset + responseMention.Text.Content.Length);
+                                resultEntity.mentions.Add(newMention);
+                            }
+                            EntityAlreadyExists = true;
 
-        public static void PrintAWSEntityResponse(DetectEntitiesResponse response)
-        {
-            foreach (var e in response.Entities.ToList())
-            {
-                Console.WriteLine("Text: {0}, Type: {1}, Score: {2}, BeginOffset: {3}, EndOffset: {4}",
-                    e.Text, e.Type, e.Score, e.BeginOffset, e.EndOffset);
+                        }
+                    }
+                }
+
+                if (!EntityAlreadyExists)
+                {
+                    //Add new Entity
+                    UniEntity.entity resEnt = new UniEntity.entity();
+                    resEnt.type = googleEntity.Type.ToString();
+                    resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
+                    resEnt.text = googleEntity.Name;
+                    resEnt.sentiment = new UniEntity.sentim();
+                    if (googleEntity.Sentiment != null)
+                    {
+                        resEnt.sentiment.score = googleEntity.Sentiment.Score;
+                        resEnt.sentiment.label = googleEntity.Sentiment.Magnitude.ToString();    //ACHTUNG nongleich
+                    }
+                    resEnt.relevance = googleEntity.Salience;
+                    resEnt.mentions = new List<UniEntity.mention>();
+                    foreach (var responseMention in googleEntity.Mentions)
+                    {
+                        UniEntity.mention newMention = new UniEntity.mention();
+                        //resMention.confidence = responseMention.N/A;
+                        newMention.text = responseMention.Text.Content;
+                        newMention.location = new List<int>();
+                        newMention.location.Add(responseMention.Text.BeginOffset);
+                        newMention.location.Add(responseMention.Text.BeginOffset + responseMention.Text.Content.Length);
+                        resEnt.mentions.Add(newMention);
+                    }
+                    resEnt.Metadata = new Dictionary<string, string>();
+                    foreach (var meta in googleEntity.Metadata)
+                    {
+                        resEnt.Metadata.Add(meta.Key, meta.Value);
+                    }
+                    result.entities.Add(resEnt);
+                }
             }
-
-            Console.WriteLine("Done");
+            return result;
         }
-        private static void AnalyseAWSEntityResponse(DetectEntitiesResponse response)
+        private static UniEntity GoogleCompleteEntityRecognition(string input)
         {
+            string[] datenSplit = SplitDatenschutz(input);
+            //AnalyzeEntitiesResponse[] entResults = new AnalyzeEntitiesResponse[datenSplit.Length];
+            UniEntity[] entResultEntities = new UniEntity[datenSplit.Length];
+            for (int i = 0; i < datenSplit.Length; i++)
+            {
+                entResultEntities[i] = ConvertGoogleToUniEntity(GoogleEntityRecognize(datenSplit[i]));
+                //Console.WriteLine(entResults[i]);
+            }
+            Console.WriteLine("Google rec. done, combining results...");
+            UniEntity googleResEnt = CombineUniEntities(entResultEntities);
+            Console.WriteLine("Google results successfully combined.");
+
+            return googleResEnt;
+        }
+        private static void AnalyseGoogleEntityResponse(UniEntity response)
+        {
+            AnalyseIBMEntityResponse(response);
             return;
         }
-        private static TIL AnalyseIBMEntityResponse(IBMEntity result)
+
+        #endregion
+
+        #region IBM
+
+        public static string IBMEntityRecognize(string input)
+        {
+            IamAuthenticator authenticator = new IamAuthenticator(
+           apikey: ibm_api_key
+           );
+
+            NaturalLanguageUnderstandingService naturalLanguageUnderstanding = new NaturalLanguageUnderstandingService("2020-08-01", authenticator);
+            naturalLanguageUnderstanding.SetServiceUrl(ibm_service_url);
+
+            var result = naturalLanguageUnderstanding.Analyze(
+                text: input,
+                features: new Features()
+                {
+                    Entities = new EntitiesOptions()
+                    {
+                        Sentiment = true,
+                        Limit = 50,
+                        Mentions = true
+                    }
+                }
+            );
+            return result.Response;
+        }
+        private static UniEntity IBMCompleteEntityRecognition(string input)
+        {
+            string[] datenSplit = SplitDatenschutz(input);
+            UniEntity[] entResultEntities = new UniEntity[datenSplit.Length];
+            for (int i = 0; i < datenSplit.Length; i++)
+            {
+                entResultEntities[i] = ConvertIBMJson(IBMEntityRecognize(datenSplit[i]));
+            }
+            //TODO umformen in unientities
+            Console.WriteLine("ibm rec. done, combining results...");
+            UniEntity ibmResEnt = CombineUniEntities(entResultEntities);
+            Console.WriteLine("ibm results successfully combined.");
+
+            return ibmResEnt;
+        }
+        private static UniEntity ConvertIBMJson(string jsonString)
+        {
+            try
+            {
+                UniEntity result = JsonConvert.DeserializeObject<UniEntity>(jsonString);
+                return result;
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error parsing response JSON");
+            }
+            return null;
+        }
+        private static TIL AnalyseIBMEntityResponse(UniEntity result)
         {
             TIL ibm_til = new TIL();
             string earliestOrga = "";
@@ -188,13 +389,13 @@ namespace NLPServiceEndpoint_Console_Ver
             int mostWe = 0;
             int newWe = 0;
             string mostWeOrga = "";
-            IBMEntity.entity mostweOrgaEntity = new IBMEntity.entity();
+            UniEntity.entity mostweOrgaEntity = new UniEntity.entity();
             result.entities = result.entities.OrderBy(ent => ent.type).ToList();
             foreach (var ent1 in result.entities)
             {
                 foreach (var ent2 in result.entities)
                 {
-                    if (String.Compare(ent1.type, ent2.type)==0 && (ent1.text.Contains(" "+ent2.text) || ent1.text.Contains(ent2.text+" ")))
+                    if (String.Compare(ent1.type, ent2.type) == 0 && (ent1.text.Contains(" " + ent2.text) || ent1.text.Contains(ent2.text + " ")))
                     {
                         foreach (var ment in ent1.mentions)
                         {
@@ -207,7 +408,7 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 if (!entity.type.Contains("IP") && String.Compare(entity.type, "Number") != 0/* && item.mentions.Count>1*/)
                 {
-                    Console.WriteLine("Found this \"" +entity.type+"\" "+ entity.mentions.Count + " times: \"" + entity.text+"\"");
+                    Console.WriteLine("Found this \"" + entity.type + "\" " + entity.mentions.Count + " times: \"" + entity.text + "\"");
                 }
                 //Console.WriteLine("Found Entity " + entity.text + " of type " + entity.type);
 
@@ -261,9 +462,9 @@ namespace NLPServiceEndpoint_Console_Ver
             }
 
             string[] typesToCheck = { "Location", "Facility" };
-            IBMEntity.mention firstClosestMention = FindClosestMentionOfType(result, typesToCheck, GetEarliestMention(mostweOrgaEntity));
-            IBMEntity.mention closestMention = GetOverallClosestMentionOfType(result, typesToCheck, mostweOrgaEntity);
-            IBMEntity.mention overallClosestFollowingMention = GetOverallClosestMentionOfType(result, typesToCheck, mostweOrgaEntity, "after");
+            UniEntity.mention firstClosestMention = FindClosestMentionOfType(result, typesToCheck, GetEarliestMention(mostweOrgaEntity));
+            UniEntity.mention closestMention = GetOverallClosestMentionOfType(result, typesToCheck, mostweOrgaEntity);
+            UniEntity.mention overallClosestFollowingMention = GetOverallClosestMentionOfType(result, typesToCheck, mostweOrgaEntity, "after");
 
             //Console.WriteLine("The earliest organization is: " + earliestOrga);
             //Console.WriteLine("The most mentioned organization is: " + mostMentionedOrga);
@@ -272,15 +473,20 @@ namespace NLPServiceEndpoint_Console_Ver
             Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(firstClosestMention.location[0], 40, 30));
             Console.WriteLine("\nThe overall closest Entity of types including  \"" + typesToCheck[0] + "\" to that is: " + closestMention.text);
             Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(closestMention.location[0], 40, 30));
-            Console.WriteLine("\nOverall closest following Mention of type Location/Facility: "+overallClosestFollowingMention.text);
-            Console.WriteLine("The text around that is:\n"+ GetTextAroundHere(overallClosestFollowingMention.location[0], 40, 30)+"\n");
+            Console.WriteLine("\nOverall closest following Mention of type Location/Facility: " + overallClosestFollowingMention.text);
+            Console.WriteLine("The text around that is:\n" + GetTextAroundHere(overallClosestFollowingMention.location[0], 40, 30) + "\n");
             //Console.WriteLine("These results do not include Organizations that were removed due to a filter.");
 
             ibm_til.meta.language = result.language;
             ibm_til.controller.name = mostWeOrga;
             ibm_til.controller.address = GetTextAroundHere(closestMention.location[0], 40, 30);
-            string[] typesToCheck2 = { "Facility" };
-            ibm_til.controller.division = GetTextAroundHere(FindClosestMentionOfType(result, typesToCheck2, firstClosestMention.location[0]).location[0], 40, 30);
+            string[] typesToCheck2 = { "Facility" }; //TODO Achtung IBM only..
+
+            UniEntity.mention help = FindClosestMentionOfType(result, typesToCheck2, firstClosestMention.location[0]);
+            if (!help.text.Contains("[No entity"))
+            {
+                ibm_til.controller.division = GetTextAroundHere(help.location[0], 40, 30);
+            }
 
 
             Console.WriteLine("Result TIL: meta.language: " + ibm_til.meta.language);
@@ -301,227 +507,143 @@ namespace NLPServiceEndpoint_Console_Ver
 
             return ibm_til;
         }
-        private static void AnalyseMicrosoftEntityResponse(CategorizedEntityCollection response)
+
+
+        #endregion
+        
+        #region AWS
+
+        public static DetectEntitiesResponse AWSEntityRecognize(string inputText)
         {
-            return;
-        }
 
-
-        private static void AnalyseGoogleEntityResponse(AnalyzeEntitiesResponse response)
-        {
-            return;
-        }
-
-        public static void DemoRun(string DeMode)
-        {
-            string inputLine = "";
-            string read = "";
-
-            for (int i = 0; i < 100000; i++)
+            var client = new AmazonComprehendClient(Amazon.RegionEndpoint.EUCentral1);
+            DetectEntitiesRequest detectEntitiesRequest = new DetectEntitiesRequest
             {
+                Text = inputText,
+                LanguageCode = "en"
+            };
+            return client.DetectEntitiesAsync(detectEntitiesRequest).Result;
+        }
+        public static void PrintAWSEntityResponse(DetectEntitiesResponse response)
+        {
 
-                Console.WriteLine("Please choose (A)WS, (M)icrosoft, (G)oogle, (I)BM or (q)uit\n");
-                read = Console.ReadLine();
-                inputLine = "";
-                datenschutzerkl = "";
-                switch (read)
+            foreach (var e in response.Entities.ToList())
+            {
+                Console.WriteLine("Text: {0}, Type: {1}, Score: {2}, BeginOffset: {3}, EndOffset: {4}",
+                    e.Text, e.Type, e.Score, e.BeginOffset, e.EndOffset);
+            }
+            foreach (var item in response.ResponseMetadata.Metadata)
+            {
+                Console.WriteLine("key: "+item.Key+" value: "+item.Value+"");
+            }
+
+            Console.WriteLine("Done");
+        }
+        private static void AnalyseAWSEntityResponse(UniEntity response)
+        {
+            AnalyseIBMEntityResponse(response);
+            return;
+        }
+        private static UniEntity AWSCompleteEntityRecognition(string input)
+        {
+            string[] datenSplit = SplitDatenschutz(input);
+            UniEntity[] entResultEntities = new UniEntity[datenSplit.Length];
+            for (int i = 0; i < datenSplit.Length; i++)
+            {
+                entResultEntities[i] = ConvertAWSToUniEntity(AWSEntityRecognize(datenSplit[i]));
+            }
+            Console.WriteLine("Google rec. done, combining results...");
+            UniEntity googleResEnt = CombineUniEntities(entResultEntities);
+            Console.WriteLine("Google results successfully combined.");
+
+            return googleResEnt;
+        }
+        private static UniEntity ConvertAWSToUniEntity(DetectEntitiesResponse awsResponse)
+        {
+
+            UniEntity result = new UniEntity();
+            result.entities = new List<UniEntity.entity>();
+            result.language = "";
+            Boolean EntityAlreadyExists;
+            foreach (var awsEntity in awsResponse.Entities)
+            {
+                EntityAlreadyExists = false;
+
+                if (result.entities.Count > 0)
                 {
-                    case "A":   //CASE AWS
-                        if (DeMode == "a")
+                    foreach (var resultEntity in result.entities) //Check für gleiche Entities
+                    {
+                        if (String.Compare(resultEntity.text, awsEntity.Text) == 0 && String.Compare(resultEntity.type.ToLower(), awsEntity.Type.ToString().ToLower()) == 0)
                         {
-                            Console.WriteLine("Please insert the filename of a text to be analysed\n");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Please insert text or filename of a text to be analysed\n");
-                        }
-                        inputLine = Console.ReadLine();
-                        if (File.Exists(inputLine))
-                        {
-                            datenschutzerkl = File.ReadAllText(inputLine);
-                            var response = AwsEntityRecognize(datenschutzerkl);
-                            PrintAWSEntityResponse(response);
-                            if (DeMode == "a")
-                            {
-                                AnalyseAWSEntityResponse(response);
-                            }
-                        }
-                        else
-                        {
-                            var response = AwsEntityRecognize(inputLine);
-                            PrintAWSEntityResponse(response);
-                            if (DeMode == "a")
-                            {
-                                Console.WriteLine("Note that the response wasn't analysed due to no file with the given name having been found.");
-                            }
-                        }
-                        //Console.WriteLine("Would you like to save the answer to a file (y/n)?");
-                        //read = Console.ReadLine();
-                        return;
+                            //Combining existing entities. Should mainly be adding mentions.
 
-                    case "M":   //CASE MICROSOFT AZURE
-                        if (DeMode == "a")
-                        {
-                            Console.WriteLine("Please insert the filename of a text to be analysed\n");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Please insert text or filename of a text to be analysed\n");
-                        }
-                        inputLine = Console.ReadLine();
-                        if (File.Exists(inputLine))
-                        {
-                            datenschutzerkl = File.ReadAllText(inputLine);
-                            var response = MicrosoftEntityRecognize(datenschutzerkl);
-                            PrintMicrosoftEntities(response);
-                            if (DeMode == "a")
-                            {
-                                AnalyseMicrosoftEntityResponse(response);
-                            }
-                        }
-                        else
-                        {
-                            var response = MicrosoftEntityRecognize(inputLine); 
-                            PrintMicrosoftEntities(response);
-                            if (DeMode == "a")
-                            {
-                                Console.WriteLine("Note that the response wasn't analysed due to no file with the given name having been found.");
-                            }
-                        }
-                        return;
+                            UniEntity.mention newMention = new UniEntity.mention();
+                            newMention.confidence = awsEntity.Score;
+                            newMention.text = awsEntity.Text;
+                            newMention.location = new List<int>();
+                            newMention.location.Add(awsEntity.BeginOffset);
+                            newMention.location.Add(awsEntity.EndOffset);
 
-                    case "G":   //CASE GOOGLE
-                        if (DeMode == "a")
-                        {
-                            Console.WriteLine("Please insert the filename of a text to be analysed\n");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Please insert text or filename of a text to be analysed\n");
-                        }
-                        inputLine = Console.ReadLine();
-                        if (File.Exists(inputLine))
-                        {
-                            datenschutzerkl = File.ReadAllText(inputLine);
-                            var response = GoogleEntityRecognize(datenschutzerkl);
-                            GoogleWriteEntities(response);
-                            if (DeMode == "a")
-                            {
-                                AnalyseGoogleEntityResponse(response);
-                            }
-                        }
-                        else
-                        {
-                            var response = GoogleEntityRecognize(inputLine);
-                            GoogleWriteEntities(response);
-                            if (DeMode == "a")
-                            {
-                                Console.WriteLine("Note that the response wasn't analysed due to no file with the given name having been found.");
-                            }
-                        }
-                        return;
+                            resultEntity.mentions.Add(newMention);
 
-                    case "I":   //CASE IBM
-                        if (DeMode == "a")
-                        {
-                            Console.WriteLine("Please insert the filename of a text to be analysed\n");
+                            EntityAlreadyExists = true;
                         }
-                        else
-                        {
-                            Console.WriteLine("Please insert text or filename of a text to be analysed\n");
-                        }
-                        inputLine = Console.ReadLine();
-                        if (String.IsNullOrEmpty(inputLine))
-                        {
-                            Console.WriteLine("Error - Input empty.");
-                            continue;
-                        }
-                        if (File.Exists(inputLine))
-                        {
-                            datenschutzerkl = File.ReadAllText(inputLine);
-                            Console.WriteLine("IBM - Beginning recognition...");
-                            IBMEntity responseEntity = IBMCompleteEntityRecognition(datenschutzerkl);
-                            //string response = IBMEntityRecognize(datenschutzerkl);
-                            Console.WriteLine("IBM - Recognition finished.");
+                    }
+                }
 
-                            if (DeMode == "a")
-                            {
-                                Console.WriteLine("IBM - Beginning processing...");
+                if (!EntityAlreadyExists)
+                {
+                    //Add new Entity
+                    UniEntity.entity resEnt = new UniEntity.entity();
+                    resEnt.type = awsEntity.Type.ToString();
+                    resEnt.type = resEnt.type[0] + resEnt.type[1..].ToLower();
+                    resEnt.text = awsEntity.Text;
+                    resEnt.confidence = awsEntity.Score;
+                    resEnt.relevance = 0;
+                    resEnt.mentions = new List<UniEntity.mention>();
 
-                                AnalyseIBMEntityResponse(responseEntity);
-                                Console.WriteLine("IBM - Processing finished.");
+                    UniEntity.mention newMention = new UniEntity.mention();
 
-                            }
-                        }
-                        else
-                        {
-                            string response = IBMEntityRecognize(inputLine);
-                            if (String.IsNullOrEmpty(response)) { Console.Write("Result empty"); }
-                            else
-                            {
-                                Console.WriteLine(response);
-                                Console.WriteLine("IBM - Done");
+                    //adding the mention
+                    newMention.text = awsEntity.Text;
+                    newMention.location = new List<int>();
+                    newMention.location.Add(awsEntity.BeginOffset);
+                    newMention.location.Add(awsEntity.EndOffset);
+                    resEnt.mentions.Add(newMention);
 
-                                if (DeMode == "a")
-                                {
-                                    Console.WriteLine("Note that the response wasn't analysed due to no file with the given name having been found.");
-                                }
-                            }
-                        }
-                        return;
-                    case "q":
-                        return;
-                    default:
-                        Console.WriteLine("Command not recognized");
-                        break;
+                    //resEnt.Metadata = new Dictionary<string, string>();
+                    //foreach (var meta in awsResponse.ResponseMetadata.Metadata)
+                    //{
+                    //    resEnt.Metadata.Add(meta.Key, meta.Value);
+                    //}
+                    result.entities.Add(resEnt);
                 }
             }
-            return;
+            return result;
         }
-        public static void FullRun()
+
+        #endregion
+
+        #region Hilfsfunktionen Analysis
+
+        private static Boolean IsThisCloseTo(string text, int start, int range = 30)
         {
-            Console.WriteLine("Not yet implemented");
-            return;
-        }
-        private static IBMEntity ConvertIBMJson(string jsonString)
-        {
-            try
-            {
-                IBMEntity result = JsonConvert.DeserializeObject<IBMEntity>(jsonString);
-                return result;
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Error parsing response JSON");
-            }
-            return null;
-        }
-        /// <summary>
-        /// Returns whether or not a specified string can be found
-        /// in the given range around the start offset of another.
-        /// Checks in the string "datenschutzerkl".
-        /// </summary>
-        /// <param name="text"></param>
-        /// <param name="start"></param>
-        /// <param name="range"></param>
-        /// <returns>boolean result of Search within range</returns>
-        private static Boolean IsThisCloseTo(string text, int start, int range = 30) {
             int datLen = datenschutzerkl.Length;
-            if (datLen-start <= range && start <=range)
+            if (datLen - start <= range && start <= range)
             {
                 return datenschutzerkl.Substring(0, datLen).Contains(text);
             }
-            else if (start <=range)
+            else if (start <= range)
             {
-                return datenschutzerkl.Substring(0, range+start).Contains(text);
+                return datenschutzerkl.Substring(0, range + start).Contains(text);
             }
-            else if (datLen-start>=range)
+            else if (datLen - start >= range)
             {
-                return datenschutzerkl.Substring(start - range, datLen-start+range).Contains(text);
+                return datenschutzerkl.Substring(start - range, datLen - start + range).Contains(text);
             }
             else
             {
-                return datenschutzerkl.Substring(start-range, start + 2*range).Contains(text);
+                return datenschutzerkl.Substring(start - range, start + 2 * range).Contains(text);
             }
         }
         private static string GetTextAroundHere(int start, int leftrange, int rightrange = -1)
@@ -542,8 +664,323 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 return datenschutzerkl.Substring(0, start + rightrange);
             }
-            else return datenschutzerkl.Substring(start-leftrange, leftrange+rightrange);
+            else return datenschutzerkl.Substring(start - leftrange, leftrange + rightrange);
         }
+        private static UniEntity.mention FindClosestMentionOfType(UniEntity root, string[] types, int start, string[] ignoreList = null)
+        {
+            UniEntity.entity closestEntity = new UniEntity.entity();
+            UniEntity.mention closestMention = new UniEntity.mention();
+            closestEntity.text = "[No entity of type \"" + types + "\" found.]";
+            closestMention.text = "[No entity of type \"" + types + "\" found.]";
+            int closestDistance = int.MaxValue;
+            bool isOfCorrectType = false;
+            bool foundInIgnore = false;
+
+            foreach (UniEntity.entity entity in root.entities)
+            {
+                isOfCorrectType = false;
+                for (int i = 0; i < types.Length; i++)
+                {
+                    if (String.Compare(entity.type, types[i]) == 0)
+                    {
+                        isOfCorrectType = true;
+                    }
+                }
+                if (!isOfCorrectType)
+                { continue; }
+                if (ignoreList != null)
+                {
+                    foundInIgnore = false;
+
+                    if (ignoreList.Where(item => entity.text.ToLower().StartsWith(item.ToLower())).ToList().Count > 0)
+                    { foundInIgnore = true; }
+                    if (ignoreList.Where(item => entity.text.ToLower().EndsWith(item.ToLower())).ToList().Count > 0)
+                    { foundInIgnore = true; }
+
+                    if (foundInIgnore)
+                    { continue; }
+                }
+                foreach (UniEntity.mention mention in entity.mentions)
+                {
+                    if (Math.Abs(mention.location[0] - start) < closestDistance)
+                    {
+                        closestDistance = Math.Abs(mention.location[0] - start);
+                        closestEntity = entity;
+                        closestMention = mention;
+                    }
+                }
+            }
+            return closestMention;
+        }
+        private static int GetEarliestMention(UniEntity.entity entity)
+        {
+            int earliest = int.MaxValue;
+            if (entity.mentions != null)
+            {
+                foreach (UniEntity.mention mention in entity.mentions)
+                {
+                    if (mention.location[0] < earliest)
+                    {
+                        earliest = mention.location[0];
+                    }
+                }
+            }
+            return earliest;
+        }
+        private static UniEntity.mention GetOverallClosestMentionOfType(UniEntity root, string[] types, UniEntity.entity entity, string mode = "normal", string[] ignoreList = null)
+        {
+            //IBMEntity.entity closestEntity = new IBMEntity.entity();
+            UniEntity.mention closestMention = new UniEntity.mention();
+            //closestEntity.text = "[No entity of type \"" + types + "\" found.]";
+            //closestMention.location = new List<int>; //TODO watch out for empty locations
+            //closestMention.location.Add(0);
+            //closestMention.location.Add(0);
+            int closestDistance = int.MaxValue;
+            bool isOfCorrectType = false;
+            foreach (UniEntity.entity item in root.entities)
+            {
+                isOfCorrectType = false;
+                for (int i = 0; i < types.Length; i++)
+                {
+                    if (String.Compare(item.type, types[i]) == 0)
+                    {
+                        isOfCorrectType = true;
+                    }
+                }
+                if (!isOfCorrectType || String.Compare(item.text, entity.text) == 0)
+                { continue; }
+
+                if (ignoreList != null)
+                {
+                    bool ignoreFound = false;
+
+                    if (ignoreList.Where(something => item.text.ToLower().StartsWith(something.ToLower())).ToList().Count > 0)
+                    { ignoreFound = true; }
+                    if (ignoreList.Where(something => item.text.ToLower().EndsWith(something.ToLower())).ToList().Count > 0)
+                    { ignoreFound = true; }
+
+                    if (ignoreFound)
+                    { continue; }
+                }
+                foreach (UniEntity.mention entityMention in entity.mentions)
+                {
+                    foreach (UniEntity.mention itemMention in item.mentions)
+                    {
+                        if (String.Compare(mode, "after") == 0)
+                        {
+                            if (itemMention.location[0] > entityMention.location[1] && Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2)) < closestDistance)
+                            {
+                                closestDistance = Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2));
+                                //closestEntity = item;
+                                closestMention = itemMention;
+                            }
+                            continue;
+                        }
+                        else if (String.Compare(mode, "before") == 0)
+                        {
+                            if (itemMention.location[0] < entityMention.location[1] && Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2)) < closestDistance)
+                            {
+                                closestDistance = Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2));
+                                //closestEntity = item;
+                                closestMention = itemMention;
+                            }
+                            continue;
+                        }
+                        else if (Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2)) < closestDistance)
+                        {
+                            closestDistance = Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2));
+                            //closestEntity = item;
+                            closestMention = itemMention;
+                            continue;
+                        }
+                    }
+                }
+            }
+            return closestMention;
+        }
+
+        #endregion
+
+        public static void DemoRun(string deMode)
+        {
+            string read;
+
+            for (int i = 0; i < 100000; i++)
+            {
+                Console.WriteLine("Please choose (A)WS, (M)icrosoft, (G)oogle, (I)BM or (q)uit\n");
+                read = Console.ReadLine();
+                datenschutzerkl = "";
+                switch (read)
+                {
+                    case "A":   //CASE AWS
+                        entityDemoExecute(deMode, "A");
+                        return;
+                    case "M":   //CASE MICROSOFT AZURE
+                        entityDemoExecute(deMode, "M");
+                        return;
+                    case "G":   //CASE GOOGLE
+                        entityDemoExecute(deMode, "G");
+                        return;
+                    case "I":   //CASE IBM
+                        entityDemoExecute(deMode, "I");
+                        return;
+                    case "q":
+                        return;
+                    default:
+                        Console.WriteLine("Command not recognized");
+                        break;
+                }
+            }
+            return;
+        }
+        public static void FullRun()
+        {
+            Console.WriteLine("Not yet implemented");
+            return;
+        }
+        private static void entityDemoExecute(string deMode, string serviceCode)
+        {
+            //if (deMode == "a")
+            //{ Console.WriteLine("Please insert the filename of a text to be analysed\n"); }
+            //else
+            //{ Console.WriteLine("Please insert text or filename of a text to be analysed\n"); }
+
+            Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+            string inputLine = Console.ReadLine();
+
+            if (String.IsNullOrEmpty(inputLine))
+            {
+                Console.WriteLine("Error - Input empty.");
+                return;
+            }
+            if (File.Exists(inputLine))
+            {
+                datenschutzerkl = File.ReadAllText(inputLine); //TODO eher jedes Mal wenn nötig einlesen.
+                UniEntity responseEntity = new UniEntity();
+                switch (serviceCode)
+                {
+                    case "I":
+                        Console.WriteLine("IBM - Beginning recognition...");
+                        responseEntity = IBMCompleteEntityRecognition(datenschutzerkl);
+                        Console.Write("IBM");
+                        break;
+                    case "A":
+                        Console.WriteLine("AWS - Beginning recognition...");
+                        responseEntity = AWSCompleteEntityRecognition(datenschutzerkl);
+                        Console.Write("AWS");
+                        break;
+                    case "M":
+                        Console.WriteLine("Microsoft - Beginning recognition...");
+                        responseEntity = MicrosoftCompleteEntityRecognition(datenschutzerkl);
+                        Console.Write("Microsoft");
+                        break;
+                    case "G":
+                        Console.WriteLine("Google - Beginning recognition...");
+                        responseEntity = GoogleCompleteEntityRecognition(datenschutzerkl);
+                        Console.Write("Google");
+                        break;
+                    default:
+                        return;
+                }
+                Console.WriteLine(" - Recognition finished.");
+
+                if (deMode == "a")
+                {
+                    switch (serviceCode)
+                    {
+                        case "I":
+                            Console.WriteLine("IBM - Beginning processing...");
+                            AnalyseIBMEntityResponse(responseEntity);
+                            Console.Write("IBM");
+                            break;
+                        case "A":
+                            Console.WriteLine("AWS - Beginning processing...");
+                            AnalyseAWSEntityResponse(responseEntity);
+                            Console.Write("AWS");
+                            break;
+                        case "M":
+                            Console.WriteLine("Microsoft - Beginning processing...");
+                            AnalyseMicrosoftEntityResponse(responseEntity);
+                            Console.Write("Microsoft");
+                            break;
+                        case "G":
+                            Console.WriteLine("Google - Beginning processing...");
+                            AnalyseGoogleEntityResponse(responseEntity);
+                            Console.Write("Google");
+                            break;
+                        default:
+                            return;
+                    }
+                    Console.WriteLine(" - Processing finished.");
+                }
+                else
+                {
+                    foreach (var entity in responseEntity.entities)
+                    {
+                        Console.WriteLine("Text: " + entity.text + ", type: " + entity.type + ", mentions:");
+                        foreach (var mention in entity.mentions)
+                        {
+                            Console.WriteLine("\t"+mention.text);
+                            Console.WriteLine("\t"+mention.location[0]);
+                            Console.WriteLine("\t"+mention.location[1]);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Sorry, no file with that path/name could be found."); //Text input not used anymore
+                //switch (serviceCode)
+                //{
+                //    case "I":
+                //        Console.WriteLine("IBM - Beginning recognition...");
+                //        responseEntity = IBMCompleteEntityRecognition(datenschutzerkl);
+                //        Console.Write("IBM");
+                //        break;
+                //    case "A":
+                //        Console.WriteLine("AWS - Beginning recognition...");
+                //        responseEntity = AWSCompleteEntityRecognition(datenschutzerkl);
+                //        Console.Write("AWS");
+                //        break;
+                //    case "M":
+                //        Console.WriteLine("Microsoft - Beginning recognition...");
+                //        responseEntity = MicrosoftCompleteEntityRecognition(datenschutzerkl);
+                //        Console.Write("Microsoft");
+                //        break;
+                //    case "G":
+                //        Console.WriteLine("Google - Beginning recognition...");
+                //        responseEntity = GoogleCompleteEntityRecognition(datenschutzerkl);
+                //        Console.Write("Google");
+                //        break;
+                //    default:
+                //        return;
+                //}
+                //string response = IBMEntityRecognize(inputLine);
+                //if (String.IsNullOrEmpty(response)) { Console.Write("Result empty"); }
+                //else
+                //{
+                //    Console.WriteLine(response);
+                //    Console.WriteLine("IBM - Done");
+
+                //    if (deMode == "a")
+                //    {
+                //        Console.WriteLine("Note that the response wasn't analysed " +
+                //        "due to no file with the given name having been found.");
+                //    }
+                //}
+            }
+            return;
+        }
+
+        /// <summary>
+        /// Returns whether or not a specified string can be found
+        /// in the given range around the start offset of another.
+        /// Checks in the string "datenschutzerkl".
+        /// </summary>
+        /// <param name="text"></param>
+        /// <param name="start"></param>
+        /// <param name="range"></param>
+        /// <returns>boolean result of Search within range</returns>
         private static string[] SplitDatenschutz(string input, int size = -1)
         {
             if (size == -1)
@@ -570,34 +1007,20 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return res;
         }
-        private static IBMEntity IBMCompleteEntityRecognition(string input)
-        {
-            string[] datenSplit = SplitDatenschutz(input);
-            string[] entResults = new string[datenSplit.Length];
-            for(int i = 0; i<datenSplit.Length; i++)
-            {
-                entResults[i] = IBMEntityRecognize(datenSplit[i]);
-                //Console.WriteLine(entResults[i]);
-            }
-            Console.WriteLine("ibm rec done, combining results...");
-            IBMEntity ibmResEnt = CombineIBMEntities(entResults);
-            Console.WriteLine("ibm results successfully combined.");
-
-            return ibmResEnt;
-        }
-        private static IBMEntity CombineIBMEntities(string[] input)
+        private static UniEntity CombineUniEntities(UniEntity[] input)
         {
             if (input.Length == 0)
             {
                 return null;
             }
-            IBMEntity resEntity = ConvertIBMJson(input[0]);
+            UniEntity resEntity = input[0];
+            //UniEntity resEntity = ConvertIBMJson(input[0]);
             for (int i = 1; i < input.Length; i++)
             {
-                IBMEntity midEntity = ConvertIBMJson(input[i]);
-                foreach (IBMEntity.entity entity in midEntity.entities)
+                UniEntity midEntity = input[i];
+                foreach (UniEntity.entity entity in midEntity.entities)
                 {
-                    foreach (IBMEntity.mention mention in entity.mentions)
+                    foreach (UniEntity.mention mention in entity.mentions)
                     {
                         mention.location[0] += splitsize * i;
                         mention.location[1] += splitsize * i;
@@ -614,134 +1037,6 @@ namespace NLPServiceEndpoint_Console_Ver
             //}
             return resEntity;
         }
-        private static IBMEntity.mention FindClosestMentionOfType(IBMEntity root, string[] types, int start, string[] ignoreList = null)
-        {
-            IBMEntity.entity closestEntity = new IBMEntity.entity();
-            IBMEntity.mention closestMention = new IBMEntity.mention();
-            closestEntity.text = "[No entity of type \""+types+"\" found.]";
-            int closestDistance = int.MaxValue;
-            bool isOfCorrectType = false;
-            bool foundInIgnore = false;
-
-            foreach (IBMEntity.entity entity in root.entities)
-            {
-                isOfCorrectType = false;
-                for (int i = 0; i < types.Length; i++)
-                {
-                    if (String.Compare(entity.type, types[i]) == 0)
-                    {
-                        isOfCorrectType = true;
-                    }
-                }
-                if (!isOfCorrectType)
-                {   continue;   }
-                if (ignoreList != null)
-                {
-                        foundInIgnore = false;
-
-                        if (ignoreList.Where(item => entity.text.ToLower().StartsWith(item.ToLower())).ToList().Count > 0)
-                        {   foundInIgnore = true;   }
-                        if (ignoreList.Where(item => entity.text.ToLower().EndsWith(item.ToLower())).ToList().Count > 0)
-                        {   foundInIgnore = true;   }
-
-                        if (foundInIgnore)
-                        {   continue;   }
-                }
-                foreach (IBMEntity.mention mention in entity.mentions)
-                {
-                    if (Math.Abs(mention.location[0]-start)<closestDistance)
-                    {
-                        closestDistance = Math.Abs(mention.location[0] - start);
-                        closestEntity = entity;
-                        closestMention = mention;
-                    }
-                }
-            }
-            return closestMention;
-        }
-        private static int GetEarliestMention(IBMEntity.entity entity)
-        {
-            int earliest = int.MaxValue;
-            foreach (IBMEntity.mention mention in entity.mentions)
-            {
-                if (mention.location[0] < earliest)
-                {
-                    earliest = mention.location[0];
-                }
-            }
-            return earliest;
-        }
-        private static IBMEntity.mention GetOverallClosestMentionOfType(IBMEntity root, string[] types, IBMEntity.entity entity, string mode = "normal", string[] ignoreList = null)
-        {
-            //IBMEntity.entity closestEntity = new IBMEntity.entity();
-            IBMEntity.mention closestMention = new IBMEntity.mention();
-            //closestEntity.text = "[No entity of type \"" + types + "\" found.]";
-            //closestMention.location = new List<int>; //TODO watch out for empty locations
-            //closestMention.location.Add(0);
-            //closestMention.location.Add(0);
-            int closestDistance = int.MaxValue; 
-            bool isOfCorrectType = false;
-            foreach (IBMEntity.entity item in root.entities)
-            {
-                isOfCorrectType = false;
-                for (int i = 0; i < types.Length; i++)
-                {
-                    if (String.Compare(item.type, types[i]) == 0)
-                    {
-                        isOfCorrectType = true;
-                    }
-                }
-                if (!isOfCorrectType || String.Compare(item.text, entity.text) == 0)
-                { continue; }
-
-                if (ignoreList != null)
-                {
-                    bool ignoreFound = false;
-
-                    if (ignoreList.Where(something => item.text.ToLower().StartsWith(something.ToLower())).ToList().Count > 0)
-                        { ignoreFound = true; }
-                    if (ignoreList.Where(something => item.text.ToLower().EndsWith(something.ToLower())).ToList().Count > 0)
-                        { ignoreFound = true; }
-
-                    if (ignoreFound)
-                    {   continue;   }
-                }
-                foreach (IBMEntity.mention entityMention in entity.mentions)
-                {
-                    foreach (IBMEntity.mention itemMention in item.mentions)
-                    {
-                        if (String.Compare(mode, "after") == 0)
-                        {
-                            if (itemMention.location[0] > entityMention.location[1] &&  Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2)) < closestDistance)
-                            {
-                                closestDistance = Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2));
-                                //closestEntity = item;
-                                closestMention = itemMention;
-                            }
-                            continue;
-                        }
-                        else if (String.Compare(mode, "before")==0)
-                        {
-                            if (itemMention.location[0] < entityMention.location[1] && Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2)) < closestDistance)
-                            {
-                                closestDistance = Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0]) / 2));
-                                //closestEntity = item;
-                                closestMention = itemMention;
-                            }
-                            continue;
-                        }
-                        else if(Math.Abs(itemMention.location[0]-((entityMention.location[1]+entityMention.location[0])/2)) < closestDistance)
-                        {
-                            closestDistance = Math.Abs(itemMention.location[0] - ((entityMention.location[1] + entityMention.location[0])/2));
-                            //closestEntity = item;
-                            closestMention = itemMention;
-                            continue;
-                        }
-                    }
-                }
-            }
-            return closestMention;
-        }
         private static void printTILResult(TIL resultTIL)
         {
             
@@ -749,3 +1044,11 @@ namespace NLPServiceEndpoint_Console_Ver
         }
     }
 }
+
+//NOTIZEN
+
+    //TODO:
+    //  Evtl Bei Google Entities mit den gleichen Metadaten (zB Wikieinträge) zu einem kombinieren.
+    //  AWS noch enablen
+    //  Microsoft noch enablen.
+    // maybe für die wo es pro mention nen confidence value gibt diese der mention hinzufügen. confidence schon a thing in mentions.
