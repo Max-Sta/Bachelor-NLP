@@ -487,12 +487,13 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 ibm_til.controller.division = GetTextAroundHere(help.location[0], 40, 30);
             }
+            printTILResult(ibm_til);
 
+            //Console.WriteLine("Result TIL: meta.language: " + ibm_til.meta.language);
+            //Console.WriteLine("Result TIL: controller.name: " + ibm_til.controller.name);
+            //Console.WriteLine("Result TIL: controller.address: " + ibm_til.controller.address);
+            //Console.WriteLine("Result TIL: controller.division: " + ibm_til.controller.division);
 
-            Console.WriteLine("Result TIL: meta.language: " + ibm_til.meta.language);
-            Console.WriteLine("Result TIL: controller.name: " + ibm_til.controller.name);
-            Console.WriteLine("Result TIL: controller.address: " + ibm_til.controller.address);
-            Console.WriteLine("Result TIL: controller.division: " + ibm_til.controller.division);
             //Console.WriteLine("Result TIL: controller.country: " + ibm_til.controller.country);
             //Console.WriteLine("Result TIL: controller.representative.name: " + ibm_til.controller.representative.name);
             //Console.WriteLine("Result TIL: controller.representative.email: " + ibm_til.controller.representative.email);
@@ -1039,7 +1040,37 @@ namespace NLPServiceEndpoint_Console_Ver
         }
         private static void printTILResult(TIL resultTIL)
         {
-            
+            Console.WriteLine(JsonConvert.SerializeObject(resultTIL));
+            ////Meta
+            //Console.WriteLine("meta: ");
+            //Console.WriteLine("\tmeta._id: "+resultTIL.meta._id);
+            //Console.WriteLine("\tmeta.name: "+resultTIL.meta.name);
+            //Console.WriteLine("\tmeta.created: "+resultTIL.meta.created);
+            //Console.WriteLine("\tmeta.modified: "+resultTIL.meta.modified);
+            //Console.WriteLine("\tmeta.version: "+resultTIL.meta.version);
+            //Console.WriteLine("\tmete.language: "+resultTIL.meta.language);
+            //Console.WriteLine("\tmeta.status: "+resultTIL.meta.status);
+            //Console.WriteLine("\tmeta.url: "+resultTIL.meta.url);
+            //Console.WriteLine("\tmeta.hash: "+resultTIL.meta._hash);
+
+            ////Controller
+            //Console.WriteLine("controller: ");
+            //Console.WriteLine("\tcontroller.name: "+resultTIL.controller.name);
+            //Console.WriteLine("\tcontroller.division: "+resultTIL.controller.division);
+            //Console.WriteLine("\tcontroller.address: "+resultTIL.controller.address);
+            //Console.WriteLine("\tcontroller.country: "+resultTIL.controller.country);
+            //Console.WriteLine("\tcontroller.representative: ");
+            //Console.WriteLine("\t\tcontroller.representative.name: "+resultTIL.controller.representative.name);
+            //Console.WriteLine("\t\tcontroller.representative.email: "+resultTIL.controller.representative.email);
+            //Console.WriteLine("\t\tcontroller.representative.phone: "+resultTIL.controller.representative.phone);
+
+            ////DataProtectionOfficer
+            //Console.WriteLine("dataProtectionOfficer: ");
+            //Console.WriteLine("\tdataProtectionOfficer.name: ");
+            //Console.WriteLine("\tdataProtectionOfficer.address: ");
+            //Console.WriteLine("\tdataProtectionOfficer.country: ");
+            //Console.WriteLine("\tdataProtectionOfficer.email: ");
+            //Console.WriteLine("\tdataProtectionOfficer.phone: ");
             return;
         }
     }
