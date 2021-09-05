@@ -78,7 +78,7 @@ namespace NLPServiceEndpoint_Console_Ver
             return 1;
         }
 
-        #region Microsoft
+      #region Microsoft
 
         public static CategorizedEntityCollection MicrosoftEntityRecognize(string input)
         {
@@ -197,9 +197,9 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return result;
         }
-        #endregion
+      #endregion
 
-        #region Google
+      #region Google
 
         public static AnalyzeEntitiesResponse GoogleEntityRecognize(string input)
         {
@@ -321,9 +321,9 @@ namespace NLPServiceEndpoint_Console_Ver
             return AnalyseIBMEntityResponse(response);
         }
 
-        #endregion
+      #endregion
 
-        #region IBM
+      #region IBM
 
         public static string IBMEntityRecognize(string input)
         {
@@ -346,6 +346,17 @@ namespace NLPServiceEndpoint_Console_Ver
                     }
                 }
             );
+            
+            //Relations Analysis
+
+            //var result2 = naturalLanguageUnderstanding.Analyze(   
+            //    text: input,
+            //    features: new Features()
+            //    {
+            //        Relations = new RelationsOptions()
+            //    }
+            //    );
+            //Console.WriteLine(result2.Response);
             return result.Response;
         }
         private static UniEntity IBMCompleteEntityRecognition(string input)
@@ -407,13 +418,13 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             foreach (var entity in result.entities)
             {
-                if (!entity.type.Contains("IP") && String.Compare(entity.type, "Number") != 0/* && item.mentions.Count>1*/)
+                if (true)//!entity.type.Contains("IP") && String.Compare(entity.type, "Number") != 0/* && item.mentions.Count>1*/)
                 {
                     Console.WriteLine("Found this \"" + entity.type + "\" " + entity.mentions.Count + " times: \"" + entity.text + "\"");
                 }
                 //Console.WriteLine("Found Entity " + entity.text + " of type " + entity.type);
 
-                #region Organizations
+          #region Organizations
                 if (String.Compare(entity.type, "Organization") == 0 || String.Compare(entity.type, "Company") == 0)
                 {
                     if (ibmOrgaBadWords.Where(item => entity.text.ToLower().StartsWith(item.ToLower())).ToList().Count > 0)
@@ -462,21 +473,23 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             Console.WriteLine("\n##########################################################################################\n");
 
-            string[] typesToCheck = { "Location", "Facility" };
+            string[] typesToCheck = { "Location", "Facility", "Company" };
             //UniEntity.mention firstClosestMention = FindClosestMentionOfType(result, "", GetEarliestMention(mostweOrgaEntity), typesToCheck);
             //UniEntity.mention closestLocationMention = GetOverallClosestMentionOfType(result, "", mostweOrgaEntity, "normal", typesToCheck);
             //UniEntity.mention overallClosestFollowingMention = GetOverallClosestMentionOfType(result, "", mostweOrgaEntity, "after", typesToCheck);
 
-            UniEntity.mention firstClosestMention = FindClosestMentionOfType(result, "", GetEarliestMention(mostMentionedOrgaEntity), typesToCheck);
+            UniEntity.mention firstClosestMention = FindClosestMentionOfType(result, "", GetEarliestMention(mostMentionedOrgaEntity).location[0], typesToCheck);
             UniEntity.mention closestLocationMention = GetOverallClosestMentionOfType(result, "", mostMentionedOrgaEntity, "normal", typesToCheck);
             UniEntity.mention overallClosestFollowingMention = GetOverallClosestMentionOfType(result, "", mostMentionedOrgaEntity, "after", typesToCheck);
 
             //Console.WriteLine("The earliest organization is: " + earliestOrga);
             Console.WriteLine("The most mentioned organization is: " + mostMentionedOrga);
-
+            Console.WriteLine("Earliest mention of that found at: " + GetEarliestMention(mostMentionedOrgaEntity).location[0]);
             //Console.WriteLine("\nThe organization/company with the most WeUsWirUns context mentions is: " + mostWeOrga);
             Console.WriteLine("\nThe first closest Entity of types including \"" + typesToCheck[0] + "\" to that is: " + firstClosestMention.text);
-            Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(firstClosestMention.location[0], 40, 30));
+            if (!firstClosestMention.text.Contains("[No")){
+                Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(firstClosestMention.location[0], 40, 30));
+            }
             Console.WriteLine("\nThe overall closest Entity of types including  \"" + typesToCheck[0] + "\" to that is: " + closestLocationMention.text);
             Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(closestLocationMention.location[0], 40, 30));
             Console.WriteLine("\nOverall closest following Mention of type Location/Facility: " + overallClosestFollowingMention.text);
@@ -498,7 +511,8 @@ namespace NLPServiceEndpoint_Console_Ver
             }
 
             //dataProt might also work with just FindClosestMention after the first result.
-            #region dataProtectionOfficer
+
+        #region dataProtectionOfficer
             string dataProtMode = "before";
             string deutschDatenschutz = "atenschutzbeauf";
 
@@ -528,12 +542,12 @@ namespace NLPServiceEndpoint_Console_Ver
             //DataProtectionOfficer.name
 
             UniEntity.mention closestDatenschutzbeaufPersonMention = GetOverallClosestMentionOfTypeToString(result, "Person", deutschDatenschutz, dataProtMode);
-            int closestDatenschutzbeaufPersonDistanz = HowCloseTo(closestDatenschutzbeaufPersonMention.location[0], deutschDatenschutz, 150);
+            int closestDatenschutzbeaufPersonDistanz = HowCloseTo(closestDatenschutzbeaufPersonMention.location[0], deutschDatenschutz, 250);
 
             UniEntity.mention closestOfficerPersonMention = GetOverallClosestMentionOfTypeToString(result, "Person", "fficer", dataProtMode);
-            int closestOfficerPersonDistanz = HowCloseTo(closestOfficerPersonMention.location[0], "fficer", 150);
+            int closestOfficerPersonDistanz = HowCloseTo(closestOfficerPersonMention.location[0], "fficer", 250);
 
-            if (closestOfficerDistanz < 150 || closestDatenschutzbeaufDistanz < 150)
+            if (closestOfficerDistanz < 250 || closestDatenschutzbeaufDistanz < 250)
             {
                 if (closestOfficerPersonDistanz < closestDatenschutzbeaufPersonDistanz)
                 {
@@ -551,12 +565,12 @@ namespace NLPServiceEndpoint_Console_Ver
             //DataProtectionOfficer.email
 
             UniEntity.mention datProtEmailMentionDE = GetOverallClosestMentionOfTypeToString(result, "EmailAddress", deutschDatenschutz, dataProtMode);
-            int datProtEmailDistanzDE = HowCloseTo(datProtEmailMentionDE.location[0], deutschDatenschutz, 150);
+            int datProtEmailDistanzDE = HowCloseTo(datProtEmailMentionDE.location[0], deutschDatenschutz, 250);
 
             UniEntity.mention datProtEmailMentionEN = GetOverallClosestMentionOfTypeToString(result, "EmailAddress", "fficer", dataProtMode);
-            int datProtEmailDistanzEN = HowCloseTo(datProtEmailMentionEN.location[0], "fficer", 150);
+            int datProtEmailDistanzEN = HowCloseTo(datProtEmailMentionEN.location[0], "fficer", 250);
 
-            if(datProtEmailDistanzDE < 150 || datProtEmailDistanzEN < 150)
+            if(datProtEmailDistanzDE < 250 || datProtEmailDistanzEN < 250)
             {
                 if (datProtEmailDistanzDE < datProtEmailDistanzEN)
                 {
@@ -574,12 +588,12 @@ namespace NLPServiceEndpoint_Console_Ver
             //DataProtectionOfficer.phone
 
             UniEntity.mention datProtPhoneMentionDE = GetOverallClosestMentionOfTypeToString(result, "PhoneNumber", deutschDatenschutz, dataProtMode);
-            int datProtPhoneDistanzDE = HowCloseTo(datProtPhoneMentionDE.location[0], deutschDatenschutz, 150);
+            int datProtPhoneDistanzDE = HowCloseTo(datProtPhoneMentionDE.location[0], deutschDatenschutz, 250);
 
             UniEntity.mention datProtPhoneMentionEN = GetOverallClosestMentionOfTypeToString(result, "PhoneNumber", "fficer", dataProtMode);
-            int datProtPhoneDistanzEN = HowCloseTo(datProtPhoneMentionEN.location[0], "fficer", 150);
+            int datProtPhoneDistanzEN = HowCloseTo(datProtPhoneMentionEN.location[0], "fficer", 250);
 
-            if (datProtPhoneDistanzDE < 150 || datProtPhoneDistanzEN < 150)
+            if (datProtPhoneDistanzDE < 250 || datProtPhoneDistanzEN < 250)
             {
                 if (datProtPhoneDistanzDE < datProtPhoneDistanzEN)
                 {
@@ -594,22 +608,266 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             #endregion
 
+        #region dataDisclosed TODO
+
+            foreach (var resultEntity in result.entities)
+            {
+                if (String.Compare(resultEntity.type, "Ordinal") == 0 && (resultEntity.text.Length > 15))
+                {
+                    TIL.DataDisclosed newDataDisclosed = new TIL.DataDisclosed();
+                    newDataDisclosed.category = resultEntity.text;
 
 
 
+                    foreach (var innerEntity in result.entities)
+                    {
+                        //todo fill datadisclosed elem
+                    }
+
+                    ibm_til.dataDisclosed.Add(newDataDisclosed);
+
+                }
+            }
+
+            #endregion
+
+        #region thirdCountryTransfers TODO
+
+            #endregion
+
+        #region accessAndDataPortability TODO
+
+            #endregion
+
+        #region sources TODO
+
+            #endregion
+
+        #region rightsTo
+            //TODO maybe combined location, one right location has to also be close to another right location (or all)
+            int closestDistance = int.MaxValue;
+            int closestRightLocation = int.MaxValue;
+            int rightRelevantLocation = int.MaxValue;
+            string rightRelevantEN = "";
+            string rightRelevantDE = "";
+            string rightRelevantENControl = "";
+            string rightRelevantDEControl = "";
+            List<int> rightLocations = AllOccurrancesOfText("right");
+            foreach (var item in AllOccurrancesOfText("Recht"))
+            {
+                rightLocations.Add(item);
+            }
+
+            #region rightToInformation todo
+            closestDistance = int.MaxValue;
+            closestRightLocation = int.MaxValue;
+            rightRelevantLocation = int.MaxValue;
+
+            rightRelevantEN = "informat";
+            rightRelevantDE = "nformation";
+
+            rightRelevantENControl = "delet";
+            rightRelevantDEControl = "ösch";
+
+            int[] rightToInformationResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl);
+            closestDistance = rightToInformationResults[0];
+            closestRightLocation = rightToInformationResults[1];
+            rightRelevantLocation = rightToInformationResults[2];
+
+            if (closestDistance != int.MaxValue)
+            {
+                ibm_til.rightToInformation.available = true;
+                ibm_til.rightToInformation.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
+                ibm_til.rightToInformation.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToInformation.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
+            }
+            #endregion
+
+            #region rightToRectificationOrDeletion todo
+            closestDistance = int.MaxValue;
+            closestRightLocation = int.MaxValue;
+            rightRelevantLocation = int.MaxValue;
+
+            rightRelevantEN = "delet";
+            rightRelevantDE = "ösch";
+
+            rightRelevantENControl = "complain";
+            rightRelevantDEControl = "atenschutzaufsichtsbehörde";
+
+            int[] rightToRectificationResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl);
+            closestDistance = rightToRectificationResults[0];
+            closestRightLocation = rightToRectificationResults[1];
+            rightRelevantLocation = rightToRectificationResults[2];
+
+            if (closestDistance != int.MaxValue)
+            {
+                ibm_til.rightToRectificationOrDeletion.available = true;
+                ibm_til.rightToRectificationOrDeletion.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
+                ibm_til.rightToRectificationOrDeletion.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToRectificationOrDeletion.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
+
+            }
+            #endregion
+
+            #region rightToDataPortability
+            closestDistance = int.MaxValue;
+            closestRightLocation = int.MaxValue;
+            rightRelevantLocation = int.MaxValue;
+
+            rightRelevantEN = " transfer ";
+            rightRelevantDE = " über";
+
+            rightRelevantENControl = "delet";
+            rightRelevantDEControl = "ösch";
+
+            int[] rightToDataPortabilityResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl);
+            closestDistance = rightToDataPortabilityResults[0];
+            closestRightLocation = rightToDataPortabilityResults[1];
+            rightRelevantLocation = rightToDataPortabilityResults[2];
+
+            if (closestDistance != int.MaxValue)
+            {
+                ibm_til.rightToDataPortability.available = true;
+                ibm_til.rightToDataPortability.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
+                ibm_til.rightToDataPortability.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToDataPortability.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
+            }
+
+            #endregion
+
+            #region rightToWithdrawConsent 
+            closestDistance = int.MaxValue;
+            closestRightLocation = int.MaxValue;
+            rightRelevantLocation = int.MaxValue;
+
+            rightRelevantEN = "withdraw";
+            rightRelevantDE = "iderruf";
+
+            rightRelevantENControl = "delet";
+            rightRelevantDEControl = "ösch";
+
+            int[] rightToWithdrawConsentResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl);
+            closestDistance = rightToWithdrawConsentResults[0];
+            closestRightLocation = rightToWithdrawConsentResults[1];
+            rightRelevantLocation = rightToWithdrawConsentResults[2];
+
+            if (closestDistance != int.MaxValue)
+            {
+                ibm_til.rightToWithdrawConsent.available = true;
+                ibm_til.rightToWithdrawConsent.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
+                ibm_til.rightToWithdrawConsent.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToWithdrawConsent.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
+            }
+
+            #endregion
+
+            #region rightToComplain todo
+            closestDistance = int.MaxValue;
+            closestRightLocation = int.MaxValue;
+            rightRelevantLocation = int.MaxValue;
+
+            rightRelevantEN = "complain";
+            rightRelevantDE = "atenschutzaufsichtsbehörde";
+
+            rightRelevantENControl = "delet";
+            rightRelevantDEControl = "ösch";
+
+            int[] rightToComplainResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl);
+            closestDistance = rightToComplainResults[0];
+            closestRightLocation = rightToComplainResults[1];
+            rightRelevantLocation = rightToComplainResults[2];
+
+            if (closestDistance != int.MaxValue)
+            {
+                //if (IsThisCloseTo("nicht ", closestRightLocation, 20, "before") || IsThisCloseTo("not ", closestRightLocation, 20, "before"))
+                //{
+                //    ibm_til.rightToComplain.available = false;
+                //}
+                //else
+                //{
+                    ibm_til.rightToComplain.available = true;
+                    ibm_til.rightToComplain.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
+                ibm_til.rightToComplain.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToComplain.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
+                string[] supervisoryAuthTypes = { "Location", "Facility" };
+                ibm_til.rightToComplain.supervisoryAuthority.address = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes).location[0], 45);
+                ibm_til.rightToComplain.supervisoryAuthority.country = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes).location[0], 45);
+                ibm_til.rightToComplain.supervisoryAuthority.name = FindClosestMentionOfType(result, "Organization", rightRelevantLocation).text;
+                ibm_til.rightToComplain.supervisoryAuthority.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToComplain.supervisoryAuthority.phone = FindClosestMentionOfType(result, "PhoneNumber", rightRelevantLocation).text;
+                //foreach( var evidence in collection)
+                //{
+                //    ibm_til.rightToComplain.identificationEvidences.Add();
+                //}
+                //TODO AT COMPLAIN
+                //}
+            }
+            #endregion
+          #endregion
+
+          #region automatedDecisionMaking todo
+
+            foreach ( var location in AllOccurrancesOfText("automat"))
+            {
+                if (!IsThisCloseTo("nicht ", location, 30) 
+                    && !IsThisCloseTo("keine ", location, 30)
+                    && !IsThisCloseTo(" no ", location, 30)
+                    && !IsThisCloseTo(" not ", location, 30))
+                {
+                    //if (IsThisCloseTo("erarbeit", location, 30) || IsThisCloseTo("process", location, 30))
+                    //{
+
+                    //}
+                    ibm_til.automatedDecisionMaking.inUse = true;
+                    ibm_til.automatedDecisionMaking.logicInvolved = GetTextAroundHere(location, 50); //TODO
+                    ibm_til.automatedDecisionMaking.scopeAndIntendedEffects = GetTextAroundHere(location, 50);
+                }
+            }
+
+          #endregion
+
+          #region changesOfPurpose todo
+            List<int> allChangeLocations = AllOccurrancesOfText("changes");
+            //foreach (var item in AllOccurrancesOfText("änderung"))
+            //{
+            //    allChangeLocations.Add(item);
+            //}
+            foreach (var item in AllOccurrancesOfText("Änderung"))
+            {
+                allChangeLocations.Add(item);
+            }
+
+            foreach (var changeLocation in allChangeLocations)
+            {
+                //string empty = "N/A";
+                TIL.ChangesOfPurpose changeOfPurpose = new TIL.ChangesOfPurpose();
+
+                changeOfPurpose.description = GetTextAroundHere(changeLocation, 40);
+                //foreach (var affecteddataCategory in affectedDataCategories)
+                //{
+                //    changeOfPurpose.affectedDataCategories.Add(affecteddataCategory.text); //TODO
+                //}
+
+                changeOfPurpose.plannedDateOfChange = FindClosestMentionOfType(result, "Date", changeLocation).text;
+                changeOfPurpose.urlOfNewVersion = FindClosestMentionOfType(result, "URL", changeLocation).text;
+
+                ibm_til.changesOfPurpose.Add(changeOfPurpose);
+            }
+          #endregion
 
 
 
             ibm_til.meta.language = result.language;
             ibm_til.controller.name = mostMentionedOrga;
             ibm_til.controller.address = GetTextAroundHere(closestLocationMention.location[0], 40, 30);
-
-            UniEntity.mention help = FindClosestMentionOfType(result, "Facility", firstClosestMention.location[0]);//TODO Watch out, IBM only..
-            if (!help.text.Contains("[No entity"))
+            if (!firstClosestMention.text.Contains("[No"))
             {
-                ibm_til.controller.division = GetTextAroundHere(help.location[0], 40, 30);
+                UniEntity.mention help = FindClosestMentionOfType(result, "Facility", firstClosestMention.location[0]);//TODO Watch out, IBM only..
+                if (!help.text.Contains("[No entity"))
+                {
+                    ibm_til.controller.division = GetTextAroundHere(help.location[0], 40, 30);
+                }
             }
-
             //evtl bei facility eine Mindestlänge fordern
             return ibm_til;
         }
@@ -618,7 +876,7 @@ namespace NLPServiceEndpoint_Console_Ver
 
         #endregion
 
-        #region AWS
+      #region AWS
 
         public static DetectEntitiesResponse AWSEntityRecognize(string inputText)
         {
@@ -728,10 +986,75 @@ namespace NLPServiceEndpoint_Console_Ver
             return result;
         }
 
-        #endregion
+      #endregion
 
-        #region Hilfsfunktionen Analysis
+      #region Hilfsfunktionen Analysis
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="rightLocations"></param>
+        /// <param name="rightRelevantEN"></param>
+        /// <param name="rightRelevantDE"></param>
+        /// <returns>Array with the values closestDistance, closestRightLocation, rightRelevantLocation</returns>
+        private static int[] CheckForRights(List<int> rightLocations, string rightRelevantEN, string rightRelevantDE, string rightRelevantENControl = "", string rightRelevantDEControl = "")
+        {
+            int distanceRight = int.MaxValue;
+            int closestDistance = int.MaxValue;
+            int closestRightLocation = int.MaxValue;
+            int rightRelevantLocation = int.MaxValue;
 
+            int distanceRightControl = int.MaxValue;
+            rightRelevantENControl = "";
+            rightRelevantDEControl = ""; //TODO REMOVE
+
+            foreach (var location in rightLocations) //Determine correct location
+            {
+                if (IsThisCloseTo(rightRelevantEN, location, 300)
+                    || IsThisCloseTo(rightRelevantDE, location, 300))
+                {
+                    distanceRight = HowCloseTo(location, rightRelevantEN);
+                    distanceRightControl = HowCloseTo(location, rightRelevantENControl, 800);
+                    if (distanceRight < closestDistance)
+                    {
+                        if (distanceRightControl < 800)
+                        {
+                            closestDistance = distanceRight;
+                            closestRightLocation = location;
+
+                            if (HowCloseTo(location, rightRelevantEN, 500, "after") < HowCloseTo(location, rightRelevantEN, 500, "before"))
+                            {
+                                rightRelevantLocation = location + closestDistance;
+                            }
+                            else
+                            {
+                                rightRelevantLocation = location - closestDistance;
+                            }
+                        }
+                    }
+                    distanceRight = HowCloseTo(location, rightRelevantDE);
+                    distanceRightControl = HowCloseTo(location, rightRelevantDEControl, 800);
+
+                    if (distanceRight < closestDistance)
+                    {
+                        if (distanceRightControl < 800)
+                        {
+                            closestDistance = distanceRight;
+                            closestRightLocation = location;
+                            if (HowCloseTo(location, rightRelevantDE, 500, "after") < HowCloseTo(location, rightRelevantDE, 500, "before"))
+                            {
+                                rightRelevantLocation = location + closestDistance;
+                            }
+                            else
+                            {
+                                rightRelevantLocation = location - closestDistance;
+                            }
+                        }
+                    }
+                }
+            }
+            int[] result = new int[] { closestDistance, closestRightLocation, rightRelevantLocation };
+            return result;
+        }
         private static Boolean IsThisCloseTo(string text, int start, int range = 100, string mode = "normal")
         {
             int datLen = datenschutzerkl.Length;
@@ -807,24 +1130,32 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             else if (start <= leftrange)
             {
-                return Readable(datenschutzerkl.Substring(0, FindReadableTextRange(0, start, start + rightrange)));
+                return Readable(datenschutzerkl.Substring(0, FindReadableTextRange(0, start + (rightrange / 2), start + rightrange)));
             }
-            else return Readable(datenschutzerkl.Substring(start - leftrange, FindReadableTextRange(start-leftrange, leftrange, leftrange + rightrange)));
+            else return Readable(datenschutzerkl.Substring(start - leftrange, FindReadableTextRange(start-leftrange, leftrange + (rightrange / 2), leftrange + rightrange)));
         }
         private static int FindReadableTextRange(int start, int minrange, int maxrange)
         {
-            for (int i = start+maxrange; i > start+minrange+1; i--)
+            for (int i = start + maxrange; i > start + minrange + 2; i--)
             {
-                if (datenschutzerkl[i] == '\n')
+                if (String.Compare(datenschutzerkl.Substring(i - 2, 2), "\r\n") == 0)
                 {
-                    if(datenschutzerkl[i-1] == '\n')
-                    {
-                        return i;
-                    }
-                    else if (datenschutzerkl[i-1] == '.')
-                    {
-                        return i;
-                    }
+                    return i - start;
+                }
+            }
+            for (int i = start + maxrange; i > start + minrange + 1; i--)
+            {
+                if (String.Compare(datenschutzerkl.Substring(i - 1, 1), ".") == 0 
+                    || String.Compare(datenschutzerkl.Substring(i - 1, 1), ";") == 0)
+                {
+                    return i - start;
+                }
+            }
+            for (int i = start + maxrange; i > start + minrange + 1; i--)
+            {
+                if (Char.IsWhiteSpace(datenschutzerkl[i]))
+                {
+                    return i - start;
                 }
             }
             return maxrange;
@@ -836,10 +1167,23 @@ namespace NLPServiceEndpoint_Console_Ver
         /// <returns>string</returns>
         private static string Readable(string input)
         {
-            //return input.Trim().Replace("\n", "\t\n");
-            return input;
+            return input.Replace("\r", "").Replace("\n", "\n\t");
+            //return input;
         }
-        private static UniEntity.mention FindClosestMentionOfType(UniEntity root, string type, int start, string[] types = null, string[] ignoreList = null)
+        /// <summary>
+        /// Finds the Entity Mention of the given type closest to the start location.
+        /// mode = after -> search only after the start location.
+        /// mode = before -> search only before the start location.
+        /// else, search both ways.
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="type"></param>
+        /// <param name="start"></param>
+        /// <param name="types"></param>
+        /// <param name="mode"></param>
+        /// <param name="ignoreList"></param>
+        /// <returns>Entity Mention of the given type closest to the start location</returns>
+        private static UniEntity.mention FindClosestMentionOfType(UniEntity root, string type, int start, string[] types = null, string mode = "normal", string[] ignoreList = null)
         {
             UniEntity.entity closestEntity = new UniEntity.entity();
             UniEntity.mention closestMention = new UniEntity.mention();
@@ -885,19 +1229,33 @@ namespace NLPServiceEndpoint_Console_Ver
                 }
                 foreach (UniEntity.mention mention in entity.mentions)
                 {
-                    if (Math.Abs(mention.location[0] - start) < closestDistance)
+                    if (String.Compare(mode, "before") == 0)
                     {
-                        closestDistance = Math.Abs(mention.location[0] - start);
-                        closestEntity = entity;
-                        closestMention = mention;
+                        if (mention.location[0] > start)
+                        {   continue;   }
+                    }
+                    else if (String.Compare(mode, "after") == 0)
+                    {
+                        if (mention.location[0] < start)
+                        {   continue;   }
+                    }
+                    else
+                    {
+                        if (Math.Abs(mention.location[0] - start) < closestDistance)
+                        {
+                            closestDistance = Math.Abs(mention.location[0] - start);
+                            closestEntity = entity;
+                            closestMention = mention;
+                        }
                     }
                 }
             }
             return closestMention;
         }
-        private static int GetEarliestMention(UniEntity.entity entity)
+        private static UniEntity.mention GetEarliestMention(UniEntity.entity entity)
         {
             int earliest = int.MaxValue;
+            UniEntity.mention earliestMention = new UniEntity.mention();
             if (entity.mentions != null)
             {
                 foreach (UniEntity.mention mention in entity.mentions)
@@ -905,10 +1263,11 @@ namespace NLPServiceEndpoint_Console_Ver
                     if (mention.location[0] < earliest)
                     {
                         earliest = mention.location[0];
+                        earliestMention = mention;
                     }
                 }
             }
-            return earliest;
+            return earliestMention;
         }
         private static UniEntity.mention GetOverallClosestMentionOfType(UniEntity root, string type, UniEntity.entity entity, string mode = "normal", string[] types = null, string[] ignoreList = null)
         {
@@ -1042,6 +1401,22 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return maxRange;
         }
+        private static List<int> AllOccurrancesOfText(string text)
+        {
+            List<int> result = new List<int>();
+            int textLen = text.Length;
+            for (int i = 0; i < datenschutzerkl.Length-textLen; i++)
+            {
+                if (datenschutzerkl.Substring(i, textLen).Contains(text))
+                {
+                    result.Add(i);
+                }
+            }
+            //TODO optimize
+
+            return result;
+        }
+
         #endregion
 
         public static void DemoRun(string deMode)
@@ -1333,6 +1708,7 @@ namespace NLPServiceEndpoint_Console_Ver
             //Console.WriteLine("\tmeta.hash: " + resultTIL.meta._hash);
             //Console.WriteLine("");
 
+            #region Controller
             //Controller
             Console.WriteLine("controller: ");
             Console.WriteLine("\tcontroller.name: " + resultTIL.controller.name);
@@ -1344,7 +1720,9 @@ namespace NLPServiceEndpoint_Console_Ver
             Console.WriteLine("\t\tcontroller.representative.email: " + resultTIL.controller.representative.email);
             Console.WriteLine("\t\tcontroller.representative.phone: " + resultTIL.controller.representative.phone);
             Console.WriteLine("");
+            #endregion
 
+            #region DataProtectionOfficer
             //DataProtectionOfficer
             Console.WriteLine("dataProtectionOfficer: ");
             Console.WriteLine("\tdataProtectionOfficer.name: "+ resultTIL.dataProtectionOfficer.name);
@@ -1353,6 +1731,7 @@ namespace NLPServiceEndpoint_Console_Ver
             Console.WriteLine("\tdataProtectionOfficer.email: "+resultTIL.dataProtectionOfficer.email);
             Console.WriteLine("\tdataProtectionOfficer.phone: "+resultTIL.dataProtectionOfficer.phone);
             Console.WriteLine("");
+            #endregion
 
             //DataDisclosed
             Console.WriteLine("dataDisclosed: ");
@@ -1360,9 +1739,242 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 Console.WriteLine("\tdataDisclosed._id: " + item._id);
                 Console.WriteLine("\tdataDisclosed.category: " + item.category);
-                Console.WriteLine("");
+                Console.WriteLine("\tdataDisclosed.purposes: ");
+                //Purposes
+                foreach (var purpose in item.purposes)
+                {
+                    Console.WriteLine("\t\tdataDisclosed.purpose.purpose: " + purpose.purpose);
+                    Console.WriteLine("\t\tdataDisclosed.purpose.description: " + purpose.description);
+                }
+
+                //legalBases
+                Console.WriteLine("\tdataDisclosed.legalBases ");
+                foreach (var legalBase in item.legalBases)
+                {
+                    Console.WriteLine("\t\tdataDisclosed.legalBase.reference: " + legalBase.reference);
+                    Console.WriteLine("\t\tdataDisclosed.legalBase.description: " + legalBase.description);
+                }
+
+                //legitimateInterests
+                Console.WriteLine("\tdataDisclosed.legitimateInterests ");
+                foreach (var legitimateInterest in item.legitimateInterests)
+                {
+                    Console.WriteLine("\t\tdataDisclosed.legitimateInterest.exists: " + legitimateInterest.exists);
+                    Console.WriteLine("\t\tdataDisclosed.legitimateInterest.reasoning: " + legitimateInterest.reasoning);
+                }
+                
+                //recipients
+                Console.WriteLine("\tdataDisclosed.recipients: ");
+                foreach (var recipient in item.recipients)
+                {
+
+                    Console.WriteLine("\t\tdataDisclosed.recipient.name" + recipient.name);
+                    Console.WriteLine("\t\tdataDisclosed.recipient.division" + recipient.division);
+                    Console.WriteLine("\t\tdataDisclosed.recipient.address" + recipient.address);
+                    Console.WriteLine("\t\tdataDisclosed.recipient.country" + recipient.country);
+                    Console.WriteLine("\t\tdataDisclosed.recipient.address" + recipient.address);
+
+                    //recipient.representative
+                    Console.WriteLine("\t\tdataDisclosed.recipient.representative: ");
+                    Console.WriteLine("\t\t\tdataDisclosed.recipient.representative.name: " + recipient.representative.name);
+                    Console.WriteLine("\t\t\tdataDisclosed.recipient.representative.email: " + recipient.representative.email);
+                    Console.WriteLine("\t\t\tdataDisclosed.recipient.representative.phone: " + recipient.representative.phone);
+
+                    Console.WriteLine("\t\tdataDisclosed.recipient.category" + recipient.category);
+                }
+
+                Console.WriteLine("\tdataDisclosed.storage: ");
+                //storage
+                foreach (var storageItem in item.storage)
+                {
+                    //temporal
+                    Console.WriteLine("\t\tdataDisclosed.storage.temporal: ");
+                    foreach (var tempo in storageItem.temporal)
+                    {
+                        Console.WriteLine("\t\t\tdataDisclosed.storage.temporal.description: " + tempo.description);
+                        Console.WriteLine("\t\t\tdataDisclosed.storage.temporal.ttl: " + tempo.ttl);
+                    }
+                    //purposeConditional
+                    Console.WriteLine("\t\tdataDisclosed.storage.purposeConditional: ");
+                    foreach (var purposeCondition in storageItem.purposeConditional)
+                    {
+                        Console.WriteLine("\t\t\tdataDisclosed.storage.purposeConditional: "+ purposeCondition);
+                    }
+                    //legalBasisConditional
+                    Console.WriteLine("\t\tdataDisclosed.storage.legalBasisConditional: ");
+                    foreach (var legalBasisCondition in storageItem.legalBasisConditional)
+                    {
+                        Console.WriteLine("\t\t\tdataDisclosed.storage.legalBasisConditional: " + legalBasisCondition);
+                    }
+                    //aggregationFunction
+                    Console.WriteLine("\t\tdataDisclosed.storage.aggregationFunction: " + storageItem.aggregationFunction);
+                }
+                //nonDisclosure
+                Console.WriteLine("\tdataDisclosed.nonDisclosure: ");
+                Console.WriteLine("\t\tdataDisclosed.nonDisclosure.legalRequirement: " + item.nonDisclosure.legalRequirement);
+                Console.WriteLine("\t\tdataDisclosed.nonDisclosure.contractualRegulation: " + item.nonDisclosure.contractualRegulation);
+                Console.WriteLine("\t\tdataDisclosed.nonDisclosure.obligationToProvide: " + item.nonDisclosure.obligationToProvide);
+                Console.WriteLine("\t\tdataDisclosed.nonDisclosure.consequences: " + item.nonDisclosure.consequences);
+            }
+            //ThirdCountryTransfers
+            Console.WriteLine("thirdCountryTransfers: ");
+            foreach (var thirdCountryTransfer in resultTIL.thirdCountryTransfers)
+            {
+                Console.WriteLine("\tthirdCountryTransfer.country: " + thirdCountryTransfer.country);
+
+                //adequacyDecision
+                Console.WriteLine("\tthirdCountryTransfer.adequacyDecision: ");
+                    Console.WriteLine("\t\tthirdCountryTransfer.adequacyDecision.available: " + thirdCountryTransfer.adequacyDecision.available);
+                    Console.WriteLine("\t\tthirdCountryTransfer.adequacyDecision.description: " + thirdCountryTransfer.adequacyDecision.description);
+
+                //appropriateGuarantees
+                Console.WriteLine("\tthirdCountryTransfer.appropriateGuarantees: ");
+                Console.WriteLine("\t\tthirdCountryTransfer.appropriateGuarantees.available: " + thirdCountryTransfer.appropriateGuarantees.available);
+                Console.WriteLine("\t\tthirdCountryTransfer.appropriateGuarantees.description: " + thirdCountryTransfer.appropriateGuarantees.description);
+
+                //presenceOfEnforcableRightsAndEffectiveRemedies
+                Console.WriteLine("\tthirdCountryTransfer.presenceOfEnforcableRightsAndEffectiveRemedies");
+                    Console.WriteLine("\t\tthirdCountryTransfer.presenceOfEnforcableRightsAndEffectiveRemedies.available" + thirdCountryTransfer.presenceOfEnforcableRightsAndEffectiveRemedies.available);
+                    Console.WriteLine("\t\tthirdCountryTransfer.presenceOfEnforcableRightsAndEffectiveRemedies.description" + thirdCountryTransfer.presenceOfEnforcableRightsAndEffectiveRemedies.description);
+
+                //standardDataProtectionClause
+                Console.WriteLine("\tthirdCountryTransfer.standardDataProtectionClause: ");
+                    Console.WriteLine("\t\tthirdCountryTransfer.standardDataProtectionClause.available: " + thirdCountryTransfer.standardDataProtectionClause.available);
+                    Console.WriteLine("\t\tthirdCountryTransfer.standardDataProtectionClause.description: " + thirdCountryTransfer.standardDataProtectionClause.description);
+            }
+
+            //accessAndDataPortability
+            Console.WriteLine("accessAndDataPortability: ");
+            Console.WriteLine("\taccessAndDataPortability.available: " + resultTIL.accessAndDataPortability.available);
+            Console.WriteLine("\taccessAndDataPortability.description: " + resultTIL.accessAndDataPortability.description);
+            Console.WriteLine("\taccessAndDataPortability.url: " + resultTIL.accessAndDataPortability.url);
+            Console.WriteLine("\taccessAndDataPortability.email: " + resultTIL.accessAndDataPortability.email);
+                //identificationEvidences
+            Console.WriteLine("\taccessAndDataPortability.identificationEvidences: ");
+            foreach (var identificationEvidence in resultTIL.accessAndDataPortability.identificationEvidences)
+            {
+                Console.WriteLine("\t\taccessAndDataPortability.identificationEvidence: " + identificationEvidence);
+            }
+            //administrativeFee
+            Console.WriteLine("\taccessAndDataPortability.administrativeFee: ");
+                Console.WriteLine("\t\taccessAndDataPortability.administrativeFee.amount: " + resultTIL.accessAndDataPortability.administrativeFee.amount);
+                Console.WriteLine("\t\taccessAndDataPortability.administrativeFee.currency: " + resultTIL.accessAndDataPortability.administrativeFee.currency);
+            //dataFormats
+            Console.WriteLine("\taccessAndDataPortability.dataFormats: ");
+            foreach (var format in resultTIL.accessAndDataPortability.dataFormats)
+            {
+
+                Console.WriteLine("\t\taccessAndDataPortability.dataFormat: " + format);
+            }
+            //Sources2
+            Console.WriteLine("sources: ");
+
+            foreach (var source in resultTIL.sources)
+            {
+                Console.WriteLine("\tsource._id: " + source._id);
+                Console.WriteLine("\tsource.dataCategory: " + source.dataCategory);
+                //sources1
+                Console.WriteLine("\tsource.sources: ");
+                foreach (var source1 in source.sources)
+                {
+                    Console.WriteLine("\t\tsource.sources.description: " + source1.description);
+                    Console.WriteLine("\t\tsource.sources.url: " + source1.url);
+                    Console.WriteLine("\t\tsource.sources.publiclyAvailable: " + source1.publiclyAvailable);
+                }
+            }
+
+            //rightToInformation
+            Console.WriteLine("rightToInformation: ");
+            Console.WriteLine("\trightToInformation.available: " + resultTIL.rightToInformation.available);
+            Console.WriteLine("\trightToInformation.description: " + resultTIL.rightToInformation.description);
+            Console.WriteLine("\trightToInformation.url: " + resultTIL.rightToInformation.url);
+            Console.WriteLine("\trightToInformation.email: " + resultTIL.rightToInformation.email);
+                //identificationEvidences
+            Console.WriteLine("\trightToInformation.identificationEvidences: ");
+            foreach (var evidence in resultTIL.rightToInformation.identificationEvidences)
+            {
+                Console.WriteLine("\t\trightToInformation.identificationEvidence: " + evidence);
+            }
+
+            //rightToRectificationOrDeletion
+            Console.WriteLine("rightToRectificationOrDeletion: ");
+            Console.WriteLine("\trightToRectificationOrDeletion.available: " + resultTIL.rightToRectificationOrDeletion.available);
+            Console.WriteLine("\trightToRectificationOrDeletion.description: " + resultTIL.rightToRectificationOrDeletion.description);
+            Console.WriteLine("\trightToRectificationOrDeletion.url: " + resultTIL.rightToRectificationOrDeletion.url);
+            Console.WriteLine("\trightToRectificationOrDeletion.email: " + resultTIL.rightToRectificationOrDeletion.email);
+                //identificationEvidences
+            Console.WriteLine("\trightToRectificationOrDeletion.identificationEvidences: ");
+            foreach (var evidence in resultTIL.rightToRectificationOrDeletion.identificationEvidences)
+            {
+                Console.WriteLine("\t\trightToRectificationOrDeletion.identificationEvidence: " + evidence);
+            }
+            //rightToDataPortability
+
+            Console.WriteLine("rightToDataPortability: ");
+            Console.WriteLine("\trightToDataPortability.available: " + resultTIL.rightToDataPortability.available);
+            Console.WriteLine("\trightToDataPortability.description: " + resultTIL.rightToDataPortability.description);
+            Console.WriteLine("\trightToDataPortability.url: " + resultTIL.rightToDataPortability.url);
+            Console.WriteLine("\trightToDataPortability.email: " + resultTIL.rightToDataPortability.email);
+            //identificationEvidences
+            Console.WriteLine("\trightToDataPortability.identificationEvidences: ");
+            foreach (var evidence in resultTIL.rightToDataPortability.identificationEvidences)
+            {
+                Console.WriteLine("\t\trightToDataPortability.identificationEvidence: " + evidence);
+            }
+            //rightToWithdrawConsent
+
+            Console.WriteLine("rightToWithdrawConsent: ");
+            Console.WriteLine("\trightToWithdrawConsent.available: " + resultTIL.rightToWithdrawConsent.available);
+            Console.WriteLine("\trightToWithdrawConsent.description: " + resultTIL.rightToWithdrawConsent.description);
+            Console.WriteLine("\trightToWithdrawConsent.url: " + resultTIL.rightToWithdrawConsent.url);
+            Console.WriteLine("\trightToWithdrawConsent.email: " + resultTIL.rightToWithdrawConsent.email);
+            //identificationEvidences
+            Console.WriteLine("\trightToWithdrawConsent.identificationEvidences: ");
+            foreach (var evidence in resultTIL.rightToWithdrawConsent.identificationEvidences)
+            {
+                Console.WriteLine("\t\trightToWithdrawConsent.identificationEvidence: " + evidence);
+            }
+            //rightToComplain
+
+            Console.WriteLine("rightToComplain: ");
+            Console.WriteLine("\trightToComplain.available: " + resultTIL.rightToComplain.available);
+            Console.WriteLine("\trightToComplain.description: " + resultTIL.rightToComplain.description);
+            Console.WriteLine("\trightToComplain.url: " + resultTIL.rightToComplain.url);
+            Console.WriteLine("\trightToComplain.email: " + resultTIL.rightToComplain.email);
+            //identificationEvidences
+            Console.WriteLine("\trightToComplain.identificationEvidences: ");
+            foreach (var evidence in resultTIL.rightToComplain.identificationEvidences)
+            {
+                Console.WriteLine("\t\trightToComplain.identificationEvidence: " + evidence);
+            }
+            //supervisoryAuthority
+            Console.WriteLine("\trightToComplain.supervisoryAuthority: ");
+            Console.WriteLine("\t\trightToComplain.supervisoryAuthority.name: " + resultTIL.rightToComplain.supervisoryAuthority.name);
+            Console.WriteLine("\t\trightToComplain.supervisoryAuthority.address: " + resultTIL.rightToComplain.supervisoryAuthority.address);
+            Console.WriteLine("\t\trightToComplain.supervisoryAuthority.country: " + resultTIL.rightToComplain.supervisoryAuthority.country);
+            Console.WriteLine("\t\trightToComplain.supervisoryAuthority.email: " + resultTIL.rightToComplain.supervisoryAuthority.email);
+            Console.WriteLine("\t\trightToComplain.supervisoryAuthority.phone: " + resultTIL.rightToComplain.supervisoryAuthority.phone);
+
+            //automatedDecisionMaking
+            Console.WriteLine("automatedDecisionMaking: ");
+            Console.WriteLine("\tautomatedDecisionMaking.inUse: " + resultTIL.automatedDecisionMaking.inUse);
+            Console.WriteLine("\tautomatedDecisionMaking.logicInvolved: " + resultTIL.automatedDecisionMaking.logicInvolved);
+            Console.WriteLine("\tautomatedDecisionMaking.scopeAndIntendedEffects: " + resultTIL.automatedDecisionMaking.scopeAndIntendedEffects);
+
+            //changesOfPurpose
+                Console.WriteLine("changesOfPurpose: ");
+            foreach (var changeOfPurpose in resultTIL.changesOfPurpose)
+            {
+                Console.WriteLine("\tchangesOfPurpose.description: " + changeOfPurpose.description);
+                foreach (var dataCateg in changeOfPurpose.affectedDataCategories)
+                {
+                    Console.WriteLine("\tchangesOfPurpose.affectedDataCategories: " + dataCateg);
+                }
+                Console.WriteLine("\tchangesOfPurpose.plannedDateOfChange: " + changeOfPurpose.plannedDateOfChange);
+                Console.WriteLine("\tchangesOfPurpose.urlOfNewVersion: " + changeOfPurpose.urlOfNewVersion);
             }
             Console.WriteLine("");
+            //Console.WriteLine(datenschutzerkl.Replace("\r\n", "WHAT"));
             return;
         }
     }
@@ -1372,7 +1984,6 @@ namespace NLPServiceEndpoint_Console_Ver
 
     //TODO:
     //  Evtl Bei Google Entities mit den gleichen Metadaten (zB Wikieinträge) zu einem kombinieren.
-    //  AWS noch enablen - done
-    //  Microsoft noch enablen. - done
-    // maybe für die wo es pro mention nen confidence value gibt diese der mention hinzufügen. confidence schon a thing in mentions. - done
     //maybe die Datenschutzrichtlinie einteilen / trennen nach Absätzen zB 3.3.3.3
+    //make all categories capitalized
+    //make it so if a txt file has been processed before, draw the results from a file if found. (toJSON, save in file -> extract from file, fromJson)

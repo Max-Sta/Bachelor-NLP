@@ -10,14 +10,14 @@ namespace NLPServiceEndpoint_Console_Ver
         //public Root root { get; set; }
         public TIL()
         {
-                //string empty = "N/A";
+            //string empty = "N/A";
             meta = new Meta();
             controller = new Controller();
             dataProtectionOfficer = new DataProtectionOfficer();
             dataDisclosed = new List<DataDisclosed>();
             thirdCountryTransfers = new List<ThirdCountryTransfer>();
             accessAndDataPortability = new AccessAndDataPortability();
-            sources = new List<String>();
+            sources = new List<Source2>();
             rightToInformation = new RightToInformation();
             rightToRectificationOrDeletion = new RightToRectificationOrDeletion();
             rightToDataPortability = new RightToDataPortability();
@@ -33,7 +33,7 @@ namespace NLPServiceEndpoint_Console_Ver
         public List<DataDisclosed> dataDisclosed { get; set; }
         public List<ThirdCountryTransfer> thirdCountryTransfers { get; set; }
         public AccessAndDataPortability accessAndDataPortability { get; set; }
-        public List<String> sources { get; set; }
+        public List<Source2> sources { get; set; }
         public RightToInformation rightToInformation { get; set; }
         public RightToRectificationOrDeletion rightToRectificationOrDeletion { get; set; }
         public RightToDataPortability rightToDataPortability { get; set; }
@@ -108,7 +108,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 name = empty;
                 address = empty;
                 country = empty;
-                email = empty; 
+                email = empty;
                 phone = empty;
             }
             public string name { get; set; }
@@ -347,20 +347,26 @@ namespace NLPServiceEndpoint_Console_Ver
             public Source2()
             {
                 string empty = "N/A";
+                _id = empty;
+                dataCategory = empty;
+                sources = new List<Source1>();
+            }
+            public string _id { get; set; }
+            public string dataCategory { get; set; }
+            public List<Source1> sources { get; set; }
+        }
+        public class Source1{
+            public Source1()
+            {
+                string empty = "N/A";
                 description = empty;
                 url = empty;
                 publiclyAvailable = false;
-                _id = empty;
-                dataCategory = empty;
-                sources = new List<string>();
             }
             public string description { get; set; }
             public string url { get; set; }
             public bool publiclyAvailable { get; set; }
-            public string _id { get; set; }
-            public string dataCategory { get; set; }
-            public List<String> sources { get; set; }
-        }
+            }
 
         public class RightToInformation
         {
