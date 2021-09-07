@@ -528,3 +528,5 @@ namespace NLPServiceEndpoint_Console_Ver
 
     }
 }
+//done microsoft und aws und google und ibm
+//fehlen nix

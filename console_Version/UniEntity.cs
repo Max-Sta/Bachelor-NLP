@@ -21,12 +21,49 @@ namespace NLPServiceEndpoint_Console_Ver
             public string type { get; set; }
             public string subcategory { get; set; } //Microsoft only
             public string text { get; set; }
-            public sentim sentiment { get; set; }
+            public sentim sentiment { get; set; } // useless
             public float relevance { get; set; }
             public List<mention> mentions { get; set; }
             public int count { get; set; }
             public float confidence { get; set; }
-            public Dictionary<string, string> Metadata { get; set; }
+            public Dictionary<string, string> Metadata { get; set; } //Google only?
+            ///// <summary>
+            ///// Ideally only use if type and text are the same
+            ///// </summary>
+            ///// <param name="ent"></param>
+            ///// <param name="ity"></param>
+            ///// <returns></returns>
+            //public static UniEntity.entity operator +(UniEntity.entity ent, UniEntity.entity ity)
+            //{
+            //    if (ent.subcategory == null && ity.subcategory != null)
+            //    {   ent.subcategory = ity.subcategory;  }
+            //    if (ent.relevance != 0 && ity.relevance != 0)
+            //    {   ent.relevance = ((ent.relevance + ity.relevance) / 2);  }
+            //    foreach (mention ityMention in ity.mentions)
+            //    {
+            //        bool mentionAlreadyExists = false;
+            //        foreach (var item in ent.mentions)
+            //        {
+            //            if (item.location[0] == ityMention.location[0])
+            //            {
+            //                item.confidence = ((item.confidence + ityMention.confidence) / 2);
+            //                mentionAlreadyExists = true;
+            //            }
+            //        }
+            //        if (!mentionAlreadyExists)
+            //        { 
+            //            ent.mentions.Add(ityMention);
+            //            ent.count += 1;
+            //        }
+            //    }
+            //    if (ent.Metadata == null && ity.Metadata != null)
+            //    {
+            //        ent.Metadata = new Dictionary<string, string>();
+            //        foreach (var metDat in ity.Metadata)
+            //        {    ent.Metadata.Add(metDat.Key, metDat.Value);   }
+            //    }
+            //    return ent;
+            //}
         }
         public class sentim
         {
@@ -39,45 +76,75 @@ namespace NLPServiceEndpoint_Console_Ver
             public List<int> location { get; set; }
             public float confidence { get; set; }
         }
-        public static UniEntity operator +(UniEntity ent, UniEntity ity)
+        public static UniEntity operator +(UniEntity combineEnt, UniEntity combineIty)
         {
-            if (ent.usage != null)
+            //usage
+
+            if (combineEnt.usage != null && combineIty.usage != null)
             {
-                ent.usage.text_units += ity.usage.text_units;
-                ent.usage.text_characters += ity.usage.text_characters;
-                ent.usage.features = Math.Max(ent.usage.features, ity.usage.features);
-            }
-            foreach (entity entEntity in ent.entities)
-            {
-                foreach (entity ityEntity in ity.entities)
-                {
-                    if (String.Compare(entEntity.text, ityEntity.text) == 0 && String.Compare(entEntity.type, ityEntity.type) == 0)
-                    {
-                        foreach (mention ityMention in ityEntity.mentions)
-                        {
-                            entEntity.mentions.Add(ityMention);
-                        }
-                        entEntity.count += ityEntity.count;
-                    }
-                }
-            }
-            foreach (entity ityEntity in ity.entities)
-            {
-                bool ityEntityFound = false;
-                foreach (entity entEntity in ent.entities)
-                {
-                    if (String.Compare(entEntity.text, ityEntity.text) == 0 && String.Compare(entEntity.type, ityEntity.type) == 0)
-                    {
-                        ityEntityFound = true;
-                    }
-                }
-                if (!ityEntityFound)
-                {
-                    ent.entities.Add(ityEntity);
-                }
+                combineEnt.usage.text_units += combineIty.usage.text_units;
+                combineEnt.usage.text_characters += combineIty.usage.text_characters;
+                combineEnt.usage.features = Math.Max(combineEnt.usage.features, combineIty.usage.features);
             }
 
-            return ent;
+            //language
+
+            if (combineIty.language != null && combineEnt.language == null)
+            {
+                combineEnt.language = combineIty.language;
+            }
+
+            //entities
+
+
+            foreach (entity ity in combineIty.entities)
+            {
+                bool ityEntityFound = false;
+                foreach (entity ent in combineEnt.entities)
+                {
+                    //"same" entity found
+                    if (String.Compare(ent.text, ity.text) == 0 && String.Compare(ent.type, ity.type) == 0)
+                    {
+                        ityEntityFound = true;
+                        if (ent.subcategory == null && ity.subcategory != null)
+                        { ent.subcategory = ity.subcategory; }
+                        if (ent.relevance != 0 && ity.relevance != 0)
+                        { ent.relevance = ((ent.relevance + ity.relevance) / 2); }
+                        if (ent.confidence != 0 && ity.confidence != 0)
+                        { ent.confidence = ((ent.confidence + ity.confidence) / 2); }
+                        //mentions
+                        foreach (mention ityMention in ity.mentions)
+                        {
+                            bool mentionAlreadyExists = false;
+                            foreach (var item in ent.mentions)
+                            {
+                                if (item.location[0] == ityMention.location[0])
+                                {
+                                    item.confidence = ((item.confidence + ityMention.confidence) / 2);
+                                    mentionAlreadyExists = true;
+                                }
+                            }
+                            if (!mentionAlreadyExists)
+                            {
+                                ent.mentions.Add(ityMention);
+                                ent.count += 1;
+                            }
+                        }
+                        if (ent.Metadata == null && ity.Metadata != null)
+                        {
+                            ent.Metadata = new Dictionary<string, string>();
+                            foreach (var metDat in ity.Metadata)
+                            { ent.Metadata.Add(metDat.Key, metDat.Value); }
+                        }
+
+                    }
+                }
+                //"same" entity not found
+                if (!ityEntityFound)
+                {   combineEnt.entities.Add(ity);    }
+            }
+
+            return combineEnt;
         }
     }
 }

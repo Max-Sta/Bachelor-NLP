@@ -114,7 +114,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 //Console.WriteLine(entResults[i]);
             }
             Console.WriteLine("Microsoft rec. done, combining results...");
-            UniEntity microsoftResEnt = CombineUniEntities(entResultEntities);
+            UniEntity microsoftResEnt = CombineUniEntitySplitParts(entResultEntities);
             Console.WriteLine("Microsoft results successfully combined.");
 
             return microsoftResEnt;
@@ -123,7 +123,7 @@ namespace NLPServiceEndpoint_Console_Ver
         {
             UniEntity result = new UniEntity();
             result.entities = new List<UniEntity.entity>();
-            result.language = "no language code found";     //TODO
+            result.language = "no language code found";     //can't todo this can I 
             Boolean EntityAlreadyExists;
             foreach (var microsoftEntity in microsoftResponse)
             {
@@ -155,12 +155,12 @@ namespace NLPServiceEndpoint_Console_Ver
                 {
                     //Add new Entity
                     UniEntity.entity resEnt = new UniEntity.entity();
-                    resEnt.type = microsoftEntity.Category.ToString();
-                    resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
+                    resEnt.type = microsoftEntity.Category.ToString().ToUpper().Replace(" ", "");
+                    //resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
                     if (microsoftEntity.SubCategory != null)
                     {
-                        resEnt.subcategory = microsoftEntity.SubCategory;
-                        resEnt.subcategory = char.ToUpper(resEnt.subcategory[0]) + resEnt.subcategory[1..].ToLower();
+                        resEnt.subcategory = microsoftEntity.SubCategory.ToUpper();
+                        //resEnt.subcategory = char.ToUpper(resEnt.subcategory[0]) + resEnt.subcategory[1..].ToLower();
 
                     }
                     else { resEnt.subcategory = ""; }
@@ -220,7 +220,7 @@ namespace NLPServiceEndpoint_Console_Ver
             foreach (var entity in entities)
             {
                 Console.WriteLine($"\tName: {entity.Name}");
-                Console.WriteLine($"\tType: {entity.Type}");
+                Console.WriteLine($"\tType: {entity.Type.ToString().ToUpper()}");
                 Console.WriteLine($"\tSalience: {entity.Salience}");
                 Console.WriteLine("\tMentions:");
                 foreach (var mention in entity.Mentions)
@@ -269,8 +269,8 @@ namespace NLPServiceEndpoint_Console_Ver
                 {
                     //Add new Entity
                     UniEntity.entity resEnt = new UniEntity.entity();
-                    resEnt.type = googleEntity.Type.ToString();
-                    resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
+                    resEnt.type = googleEntity.Type.ToString().ToUpper().Replace("_", "");
+                    //resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
                     resEnt.text = googleEntity.Name;
                     resEnt.sentiment = new UniEntity.sentim();
                     if (googleEntity.Sentiment != null)
@@ -311,7 +311,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 //Console.WriteLine(entResults[i]);
             }
             Console.WriteLine("Google rec. done, combining results...");
-            UniEntity googleResEnt = CombineUniEntities(entResultEntities);
+            UniEntity googleResEnt = CombineUniEntitySplitParts(entResultEntities);
             Console.WriteLine("Google results successfully combined.");
 
             return googleResEnt;
@@ -369,8 +369,11 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             //TODO umformen in unientities
             Console.WriteLine("ibm rec. done, combining results...");
-            UniEntity ibmResEnt = CombineUniEntities(entResultEntities);
+            UniEntity ibmResEnt = CombineUniEntitySplitParts(entResultEntities);
             Console.WriteLine("ibm results successfully combined.");
+
+            foreach (UniEntity.entity entity in ibmResEnt.entities) //CAPITALIZE the entity types
+            {   entity.type = entity.type.ToUpper();    }
 
             return ibmResEnt;
         }
@@ -425,7 +428,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 //Console.WriteLine("Found Entity " + entity.text + " of type " + entity.type);
 
           #region Organizations
-                if (String.Compare(entity.type, "Organization") == 0 || String.Compare(entity.type, "Company") == 0)
+                if (String.Compare(entity.type, "ORGANIZATION") == 0 || String.Compare(entity.type, "COMPANY") == 0)
                 {
                     if (ibmOrgaBadWords.Where(item => entity.text.ToLower().StartsWith(item.ToLower())).ToList().Count > 0)
                     {
@@ -473,7 +476,7 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             Console.WriteLine("\n##########################################################################################\n");
 
-            string[] typesToCheck = { "Location", "Facility", "Company" };
+            string[] typesToCheck = { "LOCATION", "FACILITY", "COMPANY" };
             //UniEntity.mention firstClosestMention = FindClosestMentionOfType(result, "", GetEarliestMention(mostweOrgaEntity), typesToCheck);
             //UniEntity.mention closestLocationMention = GetOverallClosestMentionOfType(result, "", mostweOrgaEntity, "normal", typesToCheck);
             //UniEntity.mention overallClosestFollowingMention = GetOverallClosestMentionOfType(result, "", mostweOrgaEntity, "after", typesToCheck);
@@ -484,26 +487,26 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //Console.WriteLine("The earliest organization is: " + earliestOrga);
             Console.WriteLine("The most mentioned organization is: " + mostMentionedOrga);
-            Console.WriteLine("Earliest mention of that found at: " + GetEarliestMention(mostMentionedOrgaEntity).location[0]);
+            //Console.WriteLine("Earliest mention of that found at: " + GetEarliestMention(mostMentionedOrgaEntity).location[0]);
             //Console.WriteLine("\nThe organization/company with the most WeUsWirUns context mentions is: " + mostWeOrga);
-            Console.WriteLine("\nThe first closest Entity of types including \"" + typesToCheck[0] + "\" to that is: " + firstClosestMention.text);
-            if (!firstClosestMention.text.Contains("[No")){
-                Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(firstClosestMention.location[0], 40, 30));
-            }
-            Console.WriteLine("\nThe overall closest Entity of types including  \"" + typesToCheck[0] + "\" to that is: " + closestLocationMention.text);
-            Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(closestLocationMention.location[0], 40, 30));
-            Console.WriteLine("\nOverall closest following Mention of type Location/Facility: " + overallClosestFollowingMention.text);
-            Console.WriteLine("The text around that is:\n" + GetTextAroundHere(overallClosestFollowingMention.location[0], 40, 30) + "\n");
+            //Console.WriteLine("\nThe first closest Entity of types including \"" + typesToCheck[0] + "\" to that is: " + firstClosestMention.text);
+            //if (!firstClosestMention.text.Contains("[No")){
+            //    Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(firstClosestMention.location[0], 40, 30));
+            //}
+            //Console.WriteLine("\nThe overall closest Entity of types including  \"" + typesToCheck[0] + "\" to that is: " + closestLocationMention.text);
+            //Console.WriteLine("The text around this entity is as follows:\n" + GetTextAroundHere(closestLocationMention.location[0], 40, 30));
+            //Console.WriteLine("\nOverall closest following Mention of type Location/Facility: " + overallClosestFollowingMention.text);
+            //Console.WriteLine("The text around that is:\n" + GetTextAroundHere(overallClosestFollowingMention.location[0], 40, 30) + "\n");
 
             if (IsThisCloseTo("erantwortlich", closestLocationMention.location[0], 50)
                 || IsThisCloseTo("epresentative", closestLocationMention.location[0], 50)
                 || IsThisCloseTo("orsitzend", closestLocationMention.location[0], 50))
             {
-                UniEntity.mention reprMailMention = FindClosestMentionOfType(result, "EmailAddress", closestLocationMention.location[0]);
+                UniEntity.mention reprMailMention = FindClosestMentionOfType(result, "EMAILADDRESS", closestLocationMention.location[0]);
                 Console.WriteLine("reprMailMention: " + reprMailMention.text);
-                UniEntity.mention reprNameMention = FindClosestMentionOfType(result, "Person", closestLocationMention.location[0]);
+                UniEntity.mention reprNameMention = FindClosestMentionOfType(result, "PERSON", closestLocationMention.location[0]);
                 Console.WriteLine("reprNameMention: " + reprNameMention.text);
-                UniEntity.mention reprPhoneMention = FindClosestMentionOfType(result, "PhoneNumber", closestLocationMention.location[0]);
+                UniEntity.mention reprPhoneMention = FindClosestMentionOfType(result, "PHONENUMBER", closestLocationMention.location[0]);
                 Console.WriteLine("reprPhoneMention: " + reprPhoneMention.text);
                 ibm_til.controller.representative.email = reprMailMention.text;
                 ibm_til.controller.representative.name = reprNameMention.text;
@@ -518,10 +521,10 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //DataProtectionOfficer.address
 
-            UniEntity.mention closestDatenschutzbeaufMention = GetOverallClosestMentionOfTypeToString(result, "Location", deutschDatenschutz, dataProtMode, typesToCheck);
+            UniEntity.mention closestDatenschutzbeaufMention = GetOverallClosestMentionOfTypeToString(result, "LOCATION", deutschDatenschutz, dataProtMode, typesToCheck);
             int closestDatenschutzbeaufDistanz = HowCloseTo(closestDatenschutzbeaufMention.location[0], deutschDatenschutz, 500);
 
-            UniEntity.mention closestOfficerMention = GetOverallClosestMentionOfTypeToString(result, "Location", "fficer", dataProtMode, typesToCheck);
+            UniEntity.mention closestOfficerMention = GetOverallClosestMentionOfTypeToString(result, "LOCATION", "fficer", dataProtMode, typesToCheck);
             int closestOfficerDistanz = HowCloseTo(closestOfficerMention.location[0], "fficer", 500);
 
             if (closestOfficerDistanz < 500 || closestDatenschutzbeaufDistanz < 500)
@@ -541,10 +544,10 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //DataProtectionOfficer.name
 
-            UniEntity.mention closestDatenschutzbeaufPersonMention = GetOverallClosestMentionOfTypeToString(result, "Person", deutschDatenschutz, dataProtMode);
+            UniEntity.mention closestDatenschutzbeaufPersonMention = GetOverallClosestMentionOfTypeToString(result, "PERSON", deutschDatenschutz, dataProtMode);
             int closestDatenschutzbeaufPersonDistanz = HowCloseTo(closestDatenschutzbeaufPersonMention.location[0], deutschDatenschutz, 250);
 
-            UniEntity.mention closestOfficerPersonMention = GetOverallClosestMentionOfTypeToString(result, "Person", "fficer", dataProtMode);
+            UniEntity.mention closestOfficerPersonMention = GetOverallClosestMentionOfTypeToString(result, "PERSON", "fficer", dataProtMode);
             int closestOfficerPersonDistanz = HowCloseTo(closestOfficerPersonMention.location[0], "fficer", 250);
 
             if (closestOfficerDistanz < 250 || closestDatenschutzbeaufDistanz < 250)
@@ -564,10 +567,10 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //DataProtectionOfficer.email
 
-            UniEntity.mention datProtEmailMentionDE = GetOverallClosestMentionOfTypeToString(result, "EmailAddress", deutschDatenschutz, dataProtMode);
+            UniEntity.mention datProtEmailMentionDE = GetOverallClosestMentionOfTypeToString(result, "EMAILADDRESS", deutschDatenschutz, dataProtMode);
             int datProtEmailDistanzDE = HowCloseTo(datProtEmailMentionDE.location[0], deutschDatenschutz, 250);
 
-            UniEntity.mention datProtEmailMentionEN = GetOverallClosestMentionOfTypeToString(result, "EmailAddress", "fficer", dataProtMode);
+            UniEntity.mention datProtEmailMentionEN = GetOverallClosestMentionOfTypeToString(result, "EMAILADDRESS", "fficer", dataProtMode);
             int datProtEmailDistanzEN = HowCloseTo(datProtEmailMentionEN.location[0], "fficer", 250);
 
             if(datProtEmailDistanzDE < 250 || datProtEmailDistanzEN < 250)
@@ -587,10 +590,10 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //DataProtectionOfficer.phone
 
-            UniEntity.mention datProtPhoneMentionDE = GetOverallClosestMentionOfTypeToString(result, "PhoneNumber", deutschDatenschutz, dataProtMode);
+            UniEntity.mention datProtPhoneMentionDE = GetOverallClosestMentionOfTypeToString(result, "PHONENUMBER", deutschDatenschutz, dataProtMode);
             int datProtPhoneDistanzDE = HowCloseTo(datProtPhoneMentionDE.location[0], deutschDatenschutz, 250);
 
-            UniEntity.mention datProtPhoneMentionEN = GetOverallClosestMentionOfTypeToString(result, "PhoneNumber", "fficer", dataProtMode);
+            UniEntity.mention datProtPhoneMentionEN = GetOverallClosestMentionOfTypeToString(result, "PHONENUMBER", "fficer", dataProtMode);
             int datProtPhoneDistanzEN = HowCloseTo(datProtPhoneMentionEN.location[0], "fficer", 250);
 
             if (datProtPhoneDistanzDE < 250 || datProtPhoneDistanzEN < 250)
@@ -653,10 +656,19 @@ namespace NLPServiceEndpoint_Console_Ver
             string rightRelevantENControl = "";
             string rightRelevantDEControl = "";
             List<int> rightLocations = AllOccurrancesOfText("right");
-            foreach (var item in AllOccurrancesOfText("Recht"))
-            {
-                rightLocations.Add(item);
-            }
+
+            foreach (var item in AllOccurrancesOfText("Recht "))
+            { rightLocations.Add(item); }
+            foreach (var item in AllOccurrancesOfText("Recht, "))
+            { rightLocations.Add(item); }
+            foreach (var item in AllOccurrancesOfText("Rechte"))
+            { rightLocations.Add(item); }
+            foreach (var item in AllOccurrancesOfText("recht "))
+            {   rightLocations.Add(item);   }
+            foreach (var item in AllOccurrancesOfText("recht,"))
+            {   rightLocations.Add(item);   }
+            foreach (var item in AllOccurrancesOfText("rechte"))
+            {   rightLocations.Add(item);   }
 
             #region rightToInformation todo
             closestDistance = int.MaxValue;
@@ -664,7 +676,7 @@ namespace NLPServiceEndpoint_Console_Ver
             rightRelevantLocation = int.MaxValue;
 
             rightRelevantEN = "informat";
-            rightRelevantDE = "nformation";
+            rightRelevantDE = "Auskunft"; //todo oder Auskunft..?
 
             rightRelevantENControl = "delet";
             rightRelevantDEControl = "ösch";
@@ -678,7 +690,7 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 ibm_til.rightToInformation.available = true;
                 ibm_til.rightToInformation.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
-                ibm_til.rightToInformation.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToInformation.email = FindClosestMentionOfType(result, "EMAILADDRESS", rightRelevantLocation).text;
                 ibm_til.rightToInformation.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
             }
             #endregion
@@ -689,12 +701,12 @@ namespace NLPServiceEndpoint_Console_Ver
             rightRelevantLocation = int.MaxValue;
 
             rightRelevantEN = "delet";
-            rightRelevantDE = "ösch";
+            rightRelevantDE = "lösch";
 
             rightRelevantENControl = "complain";
-            rightRelevantDEControl = "atenschutzaufsichtsbehörde";
+            rightRelevantDEControl = "ehörde";
 
-            int[] rightToRectificationResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl);
+            int[] rightToRectificationResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl, true);
             closestDistance = rightToRectificationResults[0];
             closestRightLocation = rightToRectificationResults[1];
             rightRelevantLocation = rightToRectificationResults[2];
@@ -703,7 +715,7 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 ibm_til.rightToRectificationOrDeletion.available = true;
                 ibm_til.rightToRectificationOrDeletion.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
-                ibm_til.rightToRectificationOrDeletion.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToRectificationOrDeletion.email = FindClosestMentionOfType(result, "EMAILADDRESS", rightRelevantLocation).text;
                 ibm_til.rightToRectificationOrDeletion.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
 
             }
@@ -715,12 +727,12 @@ namespace NLPServiceEndpoint_Console_Ver
             rightRelevantLocation = int.MaxValue;
 
             rightRelevantEN = " transfer ";
-            rightRelevantDE = " über";
+            rightRelevantDE = " über"; //todo maybe mit regex...
 
             rightRelevantENControl = "delet";
             rightRelevantDEControl = "ösch";
 
-            int[] rightToDataPortabilityResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl);
+            int[] rightToDataPortabilityResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl, true);
             closestDistance = rightToDataPortabilityResults[0];
             closestRightLocation = rightToDataPortabilityResults[1];
             rightRelevantLocation = rightToDataPortabilityResults[2];
@@ -729,7 +741,7 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 ibm_til.rightToDataPortability.available = true;
                 ibm_til.rightToDataPortability.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
-                ibm_til.rightToDataPortability.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToDataPortability.email = FindClosestMentionOfType(result, "EMAILADDRESS", rightRelevantLocation).text;
                 ibm_til.rightToDataPortability.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
             }
 
@@ -741,12 +753,12 @@ namespace NLPServiceEndpoint_Console_Ver
             rightRelevantLocation = int.MaxValue;
 
             rightRelevantEN = "withdraw";
-            rightRelevantDE = "iderruf";
+            rightRelevantDE = " wider";
 
             rightRelevantENControl = "delet";
             rightRelevantDEControl = "ösch";
 
-            int[] rightToWithdrawConsentResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl);
+            int[] rightToWithdrawConsentResults = CheckForRights(rightLocations, rightRelevantEN, rightRelevantDE, rightRelevantENControl, rightRelevantDEControl, true);
             closestDistance = rightToWithdrawConsentResults[0];
             closestRightLocation = rightToWithdrawConsentResults[1];
             rightRelevantLocation = rightToWithdrawConsentResults[2];
@@ -755,7 +767,7 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 ibm_til.rightToWithdrawConsent.available = true;
                 ibm_til.rightToWithdrawConsent.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
-                ibm_til.rightToWithdrawConsent.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToWithdrawConsent.email = FindClosestMentionOfType(result, "EMAILADDRESS", rightRelevantLocation).text;
                 ibm_til.rightToWithdrawConsent.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
             }
 
@@ -767,7 +779,7 @@ namespace NLPServiceEndpoint_Console_Ver
             rightRelevantLocation = int.MaxValue;
 
             rightRelevantEN = "complain";
-            rightRelevantDE = "atenschutzaufsichtsbehörde";
+            rightRelevantDE = "ehörde";
 
             rightRelevantENControl = "delet";
             rightRelevantDEControl = "ösch";
@@ -787,14 +799,15 @@ namespace NLPServiceEndpoint_Console_Ver
                 //{
                     ibm_til.rightToComplain.available = true;
                     ibm_til.rightToComplain.description = GetTextAroundHere(rightRelevantLocation, 50, 80);
-                ibm_til.rightToComplain.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
+                ibm_til.rightToComplain.email = FindClosestMentionOfType(result, "EMAILADDRESS", rightRelevantLocation).text;
                 ibm_til.rightToComplain.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
-                string[] supervisoryAuthTypes = { "Location", "Facility" };
-                ibm_til.rightToComplain.supervisoryAuthority.address = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes).location[0], 45);
-                ibm_til.rightToComplain.supervisoryAuthority.country = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes).location[0], 45);
-                ibm_til.rightToComplain.supervisoryAuthority.name = FindClosestMentionOfType(result, "Organization", rightRelevantLocation).text;
-                ibm_til.rightToComplain.supervisoryAuthority.email = FindClosestMentionOfType(result, "EmailAddress", rightRelevantLocation).text;
-                ibm_til.rightToComplain.supervisoryAuthority.phone = FindClosestMentionOfType(result, "PhoneNumber", rightRelevantLocation).text;
+                string[] supervisoryAuthTypes = { "LOCATION", "FACILITY" };
+                string[] ignoreMostMentioned = { mostMentionedOrgaEntity.text };
+                ibm_til.rightToComplain.supervisoryAuthority.address = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes, "normal", ignoreMostMentioned).location[0], 45);
+                ibm_til.rightToComplain.supervisoryAuthority.country = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes, "normal", ignoreMostMentioned).location[0], 45);
+                ibm_til.rightToComplain.supervisoryAuthority.name = FindClosestMentionOfType(result, "ORGANIZATION", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
+                ibm_til.rightToComplain.supervisoryAuthority.email = FindClosestMentionOfType(result, "EMAILADDRESS", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
+                ibm_til.rightToComplain.supervisoryAuthority.phone = FindClosestMentionOfType(result, "PHONENUMBER", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
                 //foreach( var evidence in collection)
                 //{
                 //    ibm_til.rightToComplain.identificationEvidences.Add();
@@ -848,7 +861,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 //    changeOfPurpose.affectedDataCategories.Add(affecteddataCategory.text); //TODO
                 //}
 
-                changeOfPurpose.plannedDateOfChange = FindClosestMentionOfType(result, "Date", changeLocation).text;
+                changeOfPurpose.plannedDateOfChange = FindClosestMentionOfType(result, "DATE", changeLocation).text;
                 changeOfPurpose.urlOfNewVersion = FindClosestMentionOfType(result, "URL", changeLocation).text;
 
                 ibm_til.changesOfPurpose.Add(changeOfPurpose);
@@ -862,7 +875,7 @@ namespace NLPServiceEndpoint_Console_Ver
             ibm_til.controller.address = GetTextAroundHere(closestLocationMention.location[0], 40, 30);
             if (!firstClosestMention.text.Contains("[No"))
             {
-                UniEntity.mention help = FindClosestMentionOfType(result, "Facility", firstClosestMention.location[0]);//TODO Watch out, IBM only..
+                UniEntity.mention help = FindClosestMentionOfType(result, "FACILITY", firstClosestMention.location[0]);//TODO Watch out, IBM only..
                 if (!help.text.Contains("[No entity"))
                 {
                     ibm_til.controller.division = GetTextAroundHere(help.location[0], 40, 30);
@@ -895,7 +908,7 @@ namespace NLPServiceEndpoint_Console_Ver
             foreach (var e in response.Entities.ToList())
             {
                 Console.WriteLine("Text: {0}, Type: {1}, Score: {2}, BeginOffset: {3}, EndOffset: {4}",
-                    e.Text, e.Type, e.Score, e.BeginOffset, e.EndOffset);
+                    e.Text, e.Type.ToString().ToUpper(), e.Score, e.BeginOffset, e.EndOffset);
             }
             foreach (var item in response.ResponseMetadata.Metadata)
             {
@@ -916,9 +929,9 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 entResultEntities[i] = ConvertAWSToUniEntity(AWSEntityRecognize(datenSplit[i]));
             }
-            Console.WriteLine("Google rec. done, combining results...");
-            UniEntity googleResEnt = CombineUniEntities(entResultEntities);
-            Console.WriteLine("Google results successfully combined.");
+            Console.WriteLine("AWS rec. done, combining results...");
+            UniEntity googleResEnt = CombineUniEntitySplitParts(entResultEntities);
+            Console.WriteLine("AWS results successfully combined.");
 
             return googleResEnt;
         }
@@ -959,8 +972,8 @@ namespace NLPServiceEndpoint_Console_Ver
                 {
                     //Add new Entity
                     UniEntity.entity resEnt = new UniEntity.entity();
-                    resEnt.type = awsEntity.Type.ToString();
-                    resEnt.type = resEnt.type[0] + resEnt.type[1..].ToLower();
+                    resEnt.type = awsEntity.Type.ToString().ToUpper();
+                    //resEnt.type = resEnt.type[0] + resEnt.type[1..].ToLower();
                     resEnt.text = awsEntity.Text;
                     resEnt.confidence = awsEntity.Score;
                     resEnt.relevance = 0;
@@ -986,9 +999,9 @@ namespace NLPServiceEndpoint_Console_Ver
             return result;
         }
 
-      #endregion
+        #endregion
 
-      #region Hilfsfunktionen Analysis
+        #region Hilfsfunktionen Analysis
         /// <summary>
         /// 
         /// </summary>
@@ -996,7 +1009,7 @@ namespace NLPServiceEndpoint_Console_Ver
         /// <param name="rightRelevantEN"></param>
         /// <param name="rightRelevantDE"></param>
         /// <returns>Array with the values closestDistance, closestRightLocation, rightRelevantLocation</returns>
-        private static int[] CheckForRights(List<int> rightLocations, string rightRelevantEN, string rightRelevantDE, string rightRelevantENControl = "", string rightRelevantDEControl = "")
+        private static int[] CheckForRights(List<int> rightLocations, string rightRelevantEN, string rightRelevantDE, string rightRelevantENControl = "", string rightRelevantDEControl = "", bool caseInsensitive = false)
         {
             int distanceRight = int.MaxValue;
             int closestDistance = int.MaxValue;
@@ -1004,16 +1017,16 @@ namespace NLPServiceEndpoint_Console_Ver
             int rightRelevantLocation = int.MaxValue;
 
             int distanceRightControl = int.MaxValue;
-            rightRelevantENControl = "";
-            rightRelevantDEControl = ""; //TODO REMOVE
+            rightRelevantENControl = ""; //TODO This Should be removed but these don't work well yet..
+            rightRelevantDEControl = ""; //TODO This Should be removed but these don't work well yet..
 
             foreach (var location in rightLocations) //Determine correct location
             {
-                if (IsThisCloseTo(rightRelevantEN, location, 300)
-                    || IsThisCloseTo(rightRelevantDE, location, 300))
+                if (IsThisCloseTo(rightRelevantEN, location, 300, "normal", caseInsensitive)
+                    || IsThisCloseTo(rightRelevantDE, location, 300, "normal", caseInsensitive))
                 {
-                    distanceRight = HowCloseTo(location, rightRelevantEN);
-                    distanceRightControl = HowCloseTo(location, rightRelevantENControl, 800);
+                    distanceRight = HowCloseTo(location, rightRelevantEN, 500, "normal", caseInsensitive);
+                    distanceRightControl = HowCloseTo(location, rightRelevantENControl, 800, "normal", caseInsensitive);
                     if (distanceRight < closestDistance)
                     {
                         if (distanceRightControl < 800)
@@ -1021,7 +1034,7 @@ namespace NLPServiceEndpoint_Console_Ver
                             closestDistance = distanceRight;
                             closestRightLocation = location;
 
-                            if (HowCloseTo(location, rightRelevantEN, 500, "after") < HowCloseTo(location, rightRelevantEN, 500, "before"))
+                            if (HowCloseTo(location, rightRelevantEN, 500, "after", caseInsensitive) < HowCloseTo(location, rightRelevantEN, 500, "before", caseInsensitive))
                             {
                                 rightRelevantLocation = location + closestDistance;
                             }
@@ -1031,8 +1044,8 @@ namespace NLPServiceEndpoint_Console_Ver
                             }
                         }
                     }
-                    distanceRight = HowCloseTo(location, rightRelevantDE);
-                    distanceRightControl = HowCloseTo(location, rightRelevantDEControl, 800);
+                    distanceRight = HowCloseTo(location, rightRelevantDE, 500, "normal", caseInsensitive);
+                    distanceRightControl = HowCloseTo(location, rightRelevantDEControl, 800, "normal", caseInsensitive);
 
                     if (distanceRight < closestDistance)
                     {
@@ -1040,7 +1053,7 @@ namespace NLPServiceEndpoint_Console_Ver
                         {
                             closestDistance = distanceRight;
                             closestRightLocation = location;
-                            if (HowCloseTo(location, rightRelevantDE, 500, "after") < HowCloseTo(location, rightRelevantDE, 500, "before"))
+                            if (HowCloseTo(location, rightRelevantDE, 500, "after", caseInsensitive) < HowCloseTo(location, rightRelevantDE, 500, "before", caseInsensitive))
                             {
                                 rightRelevantLocation = location + closestDistance;
                             }
@@ -1055,45 +1068,54 @@ namespace NLPServiceEndpoint_Console_Ver
             int[] result = new int[] { closestDistance, closestRightLocation, rightRelevantLocation };
             return result;
         }
-        private static Boolean IsThisCloseTo(string text, int start, int range = 100, string mode = "normal")
+        private static Boolean IsThisCloseTo(string text, int start, int range = 100, string mode = "normal", bool caseInsensitive = false) //todo give List<String> to search for
         {
             int datLen = datenschutzerkl.Length;
             if (String.Compare(mode, "normal")==0)
             {
                 if (datLen - start <= range && start <= range)
                 {
-                    return datenschutzerkl.Substring(0, datLen).Contains(text);
+                    if (caseInsensitive)
+                    { return datenschutzerkl.Substring(0, datLen).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(0, datLen).Contains(text); }
                 }
                 else if (start <= range)
                 {
-                    return datenschutzerkl.Substring(0, range + start).Contains(text);
+                    if (caseInsensitive){ return datenschutzerkl.Substring(0, range + start).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(0, range + start).Contains(text); }
                 }
                 else if (datLen - start <= range)
                 {
-                    return datenschutzerkl.Substring(start - range, datLen - start + range).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(start - range, datLen - start + range).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(start - range, datLen - start + range).Contains(text); }
                 }
                 else
                 {
-                    return datenschutzerkl.Substring(start - range, 2 * range).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(start - range, 2 * range).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(start - range, 2 * range).Contains(text); }
                 }
             }
             else if (String.Compare(mode, "after") == 0)
             {
                 if (datLen - start <= range && start <= range)
                 {
-                    return datenschutzerkl.Substring(start, datLen - start).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(start, datLen - start).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(start, datLen - start).Contains(text); }
                 }
                 else if (start <= range)
                 {
-                    return datenschutzerkl.Substring(start, range + start).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(start, range + start).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(start, range + start).Contains(text); }
                 }
                 else if (datLen - start <= range)
                 {
-                    return datenschutzerkl.Substring(start, datLen - start).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(start, datLen - start).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(start, datLen - start).Contains(text); }
                 }
                 else
                 {
-                    return datenschutzerkl.Substring(start, range).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(start, range).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(start, range).Contains(text); }
                 }
             }
 
@@ -1101,20 +1123,23 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 if (datLen - start <= range && start <= range)
                 {
-                    return datenschutzerkl.Substring(0, datLen).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(0, datLen).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(0, datLen).Contains(text); }
                 }
                 else if (start <= range)
                 {
-                    return datenschutzerkl.Substring(0, range).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(0, range).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(0, range).Contains(text); }
                 }
                 else
                 {
-                    return datenschutzerkl.Substring(start-range, range).Contains(text);
+                    if (caseInsensitive) { return datenschutzerkl.Substring(start - range, range).ToUpper().Contains(text.ToUpper()); }
+                    else { return datenschutzerkl.Substring(start - range, range).Contains(text); }
                 }
             }
             return false;
         }
-        private static string GetTextAroundHere(int start, int leftrange, int rightrange = -1) //TODO make more readable results and such
+        private static string GetTextAroundHere(int start, int leftrange, int rightrange = -1) //TODO make more readable results and such - done
         {
             int datLen = datenschutzerkl.Length;
             if (rightrange == -1)
@@ -1126,35 +1151,76 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             else if (datLen - 1 <= start + rightrange)
             {
-                return Readable(datenschutzerkl.Substring(start - leftrange, leftrange + datLen - start));
+                int startoffset = start - leftrange - FindReadableTextStart(start - leftrange);
+                return Readable(datenschutzerkl.Substring(FindReadableTextStart(start - leftrange), FindReadableTextRange(start-leftrange-startoffset, leftrange +((datLen-start)/2)+startoffset, leftrange + datLen - start+startoffset))); 
             }
             else if (start <= leftrange)
             {
                 return Readable(datenschutzerkl.Substring(0, FindReadableTextRange(0, start + (rightrange / 2), start + rightrange)));
             }
-            else return Readable(datenschutzerkl.Substring(start - leftrange, FindReadableTextRange(start-leftrange, leftrange + (rightrange / 2), leftrange + rightrange)));
+            else
+            {
+                int startoffset = start - leftrange - FindReadableTextStart(start - leftrange);
+                return Readable(datenschutzerkl.Substring(FindReadableTextStart(start - leftrange), FindReadableTextRange(start-leftrange-startoffset, leftrange + (rightrange / 2)+startoffset, leftrange + rightrange+startoffset)));
+            }
+        }
+        private static int FindReadableTextStart(int start)
+        {
+            for (int i = start; i >= 0; i--)
+            {
+                if (datenschutzerkl[i] == '.')
+                {
+                    return i + 1;
+                }
+                if (datenschutzerkl[i] == '\n')
+                {
+                    return i + 1;
+                }
+            }
+            return start;
         }
         private static int FindReadableTextRange(int start, int minrange, int maxrange)
         {
             for (int i = start + maxrange; i > start + minrange + 2; i--)
             {
-                if (String.Compare(datenschutzerkl.Substring(i - 2, 2), "\r\n") == 0)
+                if (datenschutzerkl[i] == '\n')
                 {
-                    return i - start;
+                    if (datenschutzerkl[i - 1] == '\r')
+                    {
+                        //Console.WriteLine("Debug Code 1");
+                        return i - 2 - start;
+                    }
                 }
             }
             for (int i = start + maxrange; i > start + minrange + 1; i--)
             {
-                if (String.Compare(datenschutzerkl.Substring(i - 1, 1), ".") == 0 
-                    || String.Compare(datenschutzerkl.Substring(i - 1, 1), ";") == 0)
+                if (datenschutzerkl[i].Equals('.') || datenschutzerkl[i].Equals(';'))
                 {
-                    return i - start;
+                    //Console.WriteLine("Debug Code 2");
+                    return i + 1 - start;
+                }
+            }
+            for (int i = start+maxrange; i < datenschutzerkl.Length-1; i++)
+            {
+                if (datenschutzerkl[i].Equals('.'))
+                {
+                    //Console.WriteLine("Debug Code 3");
+                    return i + 1 - start;
+                }
+                if (datenschutzerkl[i].Equals('\n'))
+                {
+                    if (datenschutzerkl[i-1].Equals('\r'))
+                    {
+                        //Console.WriteLine("Debug Code 4");
+                        return i - 2 - start;
+                    }
                 }
             }
             for (int i = start + maxrange; i > start + minrange + 1; i--)
             {
                 if (Char.IsWhiteSpace(datenschutzerkl[i]))
                 {
+                    //Console.WriteLine("Debug Code 5");
                     return i - start;
                 }
             }
@@ -1390,11 +1456,11 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return closestMention;
         }
-        private static int HowCloseTo(int location, string text, int maxRange = 500, string mode = "normal")
+        private static int HowCloseTo(int location, string text, int maxRange = 500, string mode = "normal", bool caseInsensitive = false)
         { 
             for (int i = 0; i < maxRange; i++)
             {
-                if (IsThisCloseTo(text, location, i, mode))
+                if (IsThisCloseTo(text, location, i, mode, caseInsensitive))
                 {
                     return i;
                 }
@@ -1417,15 +1483,16 @@ namespace NLPServiceEndpoint_Console_Ver
             return result;
         }
 
-        #endregion
+      #endregion
 
+      #region Allgemein
         public static void DemoRun(string deMode)
         {
             string read;
 
             for (int i = 0; i < 100000; i++)
             {
-                Console.WriteLine("Please choose (A)WS, (M)icrosoft, (G)oogle, (I)BM or (q)uit\n");
+                Console.WriteLine("Please choose (A)WS, (M)icrosoft, (G)oogle, (I)BM, (C)ombined or (q)uit\n");
                 read = Console.ReadLine();
                 datenschutzerkl = "";
                 switch (read)
@@ -1441,6 +1508,9 @@ namespace NLPServiceEndpoint_Console_Ver
                         return;
                     case "I":   //CASE IBM
                         entityDemoExecute(deMode, "I");
+                        return;
+                    case "C": //CASE COMBINED
+                        entityDemoExecute(deMode, "C");
                         return;
                     case "q":
                         return;
@@ -1497,6 +1567,34 @@ namespace NLPServiceEndpoint_Console_Ver
                         responseEntity = GoogleCompleteEntityRecognition(datenschutzerkl);
                         Console.Write("Google");
                         break;
+                    case "C":
+                        Console.WriteLine("Beginning Combined recognition...");
+                        UniEntity[] allServiceResults = new UniEntity[4];
+
+                        Console.WriteLine("Google - Beginning recognition...");
+                        allServiceResults[0] = GoogleCompleteEntityRecognition(datenschutzerkl);
+                        Console.WriteLine("Google - Recognition finished.");
+
+                        Console.WriteLine("IBM - Beginning recognition...");
+                        allServiceResults[1] = IBMCompleteEntityRecognition(datenschutzerkl);
+                        Console.WriteLine("IBM - Recognition finished.");
+
+                        Console.WriteLine("AWS - Beginning recognition...");
+                        allServiceResults[2] = AWSCompleteEntityRecognition(datenschutzerkl);
+                        Console.WriteLine("AWS - Recognition finished.");
+
+                        Console.WriteLine("Microsoft - Beginning recognition...");
+                        allServiceResults[3] = MicrosoftCompleteEntityRecognition(datenschutzerkl);
+                        Console.WriteLine("Microsoft - Recognition finished.");
+
+                        Console.WriteLine("Combining results...");
+
+                        responseEntity = CombineUniEntities(allServiceResults);
+
+                        Console.WriteLine("Results successfully combined.");
+
+                        Console.Write("Combined recognition");
+                        break;
                     default:
                         return;
                 }
@@ -1527,6 +1625,12 @@ namespace NLPServiceEndpoint_Console_Ver
                             printTILResult(AnalyseGoogleEntityResponse(responseEntity));
                             Console.Write("Google");
                             break;
+                        case "C":
+                            Console.WriteLine("Beginning combined processing...");
+                            //printTILResult(AnalyseCombinedEntityResponse(responseEntity));
+                            printTILResultReadable(AnalyseCombinedEntityResponse(responseEntity));
+                            Console.Write("Combined processing");
+                            break;
                         default:
                             return;
                     }
@@ -1534,61 +1638,27 @@ namespace NLPServiceEndpoint_Console_Ver
                 }
                 else
                 {
+                    responseEntity.entities = responseEntity.entities.OrderBy(ent => ent.type).ToList();    //order by type 
                     foreach (var entity in responseEntity.entities)
                     {
-                        Console.WriteLine("Text: " + entity.text + ", type: " + entity.type + ", mentions:");
+                        Console.Write("Type: " + entity.type + ", Text: \"" + entity.text + "\", mentions:\t");
                         foreach (var mention in entity.mentions)
                         {
-                            Console.WriteLine("\t"+mention.text);
-                            Console.WriteLine("\t"+mention.location[0]);
-                            Console.WriteLine("\t"+mention.location[1]);
+                            Console.Write("" + mention.location[0] + "-" + mention.location[1]+"; "); ;
+                            //Console.Write("\t"+mention.text+ " at location \t" + mention.location[0] + " - " + mention.location[1] + ";\n");
                         }
+                        Console.WriteLine("\n");
                     }
                 }
             }
             else
-            {
-                Console.WriteLine("Sorry, no file with that path/name could be found."); //Text input not used anymore
-                //switch (serviceCode)
-                //{
-                //    case "I":
-                //        Console.WriteLine("IBM - Beginning recognition...");
-                //        responseEntity = IBMCompleteEntityRecognition(datenschutzerkl);
-                //        Console.Write("IBM");
-                //        break;
-                //    case "A":
-                //        Console.WriteLine("AWS - Beginning recognition...");
-                //        responseEntity = AWSCompleteEntityRecognition(datenschutzerkl);
-                //        Console.Write("AWS");
-                //        break;
-                //    case "M":
-                //        Console.WriteLine("Microsoft - Beginning recognition...");
-                //        responseEntity = MicrosoftCompleteEntityRecognition(datenschutzerkl);
-                //        Console.Write("Microsoft");
-                //        break;
-                //    case "G":
-                //        Console.WriteLine("Google - Beginning recognition...");
-                //        responseEntity = GoogleCompleteEntityRecognition(datenschutzerkl);
-                //        Console.Write("Google");
-                //        break;
-                //    default:
-                //        return;
-                //}
-                //string response = IBMEntityRecognize(inputLine);
-                //if (String.IsNullOrEmpty(response)) { Console.Write("Result empty"); }
-                //else
-                //{
-                //    Console.WriteLine(response);
-                //    Console.WriteLine("IBM - Done");
-
-                //    if (deMode == "a")
-                //    {
-                //        Console.WriteLine("Note that the response wasn't analysed " +
-                //        "due to no file with the given name having been found.");
-                //    }
-                //}
-            }
+            {   Console.WriteLine("Sorry, no file with that path/name could be found.");    }
             return;
+        }
+
+        private static TIL AnalyseCombinedEntityResponse(UniEntity responseEntity)
+        {
+            return AnalyseIBMEntityResponse(responseEntity);
         }
 
         /// <summary>
@@ -1626,7 +1696,14 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return res;
         }
-        private static UniEntity CombineUniEntities(UniEntity[] input)
+        /// <summary>
+        /// Combines UniEntities 
+        /// Fixes locations in mentions
+        /// ONLY USE ON PARTS OF A WHOLE, single Service only!
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns>The combined entity as if the service had processed the entire file</returns>
+        private static UniEntity CombineUniEntitySplitParts(UniEntity[] input)
         {
             if (input.Length == 0)
             {
@@ -1656,39 +1733,32 @@ namespace NLPServiceEndpoint_Console_Ver
             //}
             return resEntity;
         }
+        /// <summary>
+        /// Combines multiple UniEntities without touching the data.
+        /// Can be used to cómbine multiple Services' results
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns>The combined UniEntity</returns>
+        private static UniEntity CombineUniEntities(UniEntity[] input)
+        {
+            if (input.Length == 0)
+            {
+                return null;
+            }
+            UniEntity resEntity = input[0];
+            for (int i = 1; i < input.Length; i++)
+            {
+                resEntity += input[i];
+            }
+            return resEntity;
+        }
+
+        #endregion Allgemein
+
+        #region printing
         private static void printTILResult(TIL resultTIL)
         {
             Console.WriteLine(JsonConvert.SerializeObject(resultTIL));
-            ////Meta
-            //Console.WriteLine("meta: ");
-            //Console.WriteLine("\tmeta._id: "+resultTIL.meta._id);
-            //Console.WriteLine("\tmeta.name: "+resultTIL.meta.name);
-            //Console.WriteLine("\tmeta.created: "+resultTIL.meta.created);
-            //Console.WriteLine("\tmeta.modified: "+resultTIL.meta.modified);
-            //Console.WriteLine("\tmeta.version: "+resultTIL.meta.version);
-            //Console.WriteLine("\tmete.language: "+resultTIL.meta.language);
-            //Console.WriteLine("\tmeta.status: "+resultTIL.meta.status);
-            //Console.WriteLine("\tmeta.url: "+resultTIL.meta.url);
-            //Console.WriteLine("\tmeta.hash: "+resultTIL.meta._hash);
-
-            ////Controller
-            //Console.WriteLine("controller: ");
-            //Console.WriteLine("\tcontroller.name: "+resultTIL.controller.name);
-            //Console.WriteLine("\tcontroller.division: "+resultTIL.controller.division);
-            //Console.WriteLine("\tcontroller.address: "+resultTIL.controller.address);
-            //Console.WriteLine("\tcontroller.country: "+resultTIL.controller.country);
-            //Console.WriteLine("\tcontroller.representative: ");
-            //Console.WriteLine("\t\tcontroller.representative.name: "+resultTIL.controller.representative.name);
-            //Console.WriteLine("\t\tcontroller.representative.email: "+resultTIL.controller.representative.email);
-            //Console.WriteLine("\t\tcontroller.representative.phone: "+resultTIL.controller.representative.phone);
-
-            ////DataProtectionOfficer
-            //Console.WriteLine("dataProtectionOfficer: ");
-            //Console.WriteLine("\tdataProtectionOfficer.name: ");
-            //Console.WriteLine("\tdataProtectionOfficer.address: ");
-            //Console.WriteLine("\tdataProtectionOfficer.country: ");
-            //Console.WriteLine("\tdataProtectionOfficer.email: ");
-            //Console.WriteLine("\tdataProtectionOfficer.phone: ");
             return;
         }
 
@@ -1977,6 +2047,7 @@ namespace NLPServiceEndpoint_Console_Ver
             //Console.WriteLine(datenschutzerkl.Replace("\r\n", "WHAT"));
             return;
         }
+      #endregion
     }
 }
 
@@ -1987,3 +2058,4 @@ namespace NLPServiceEndpoint_Console_Ver
     //maybe die Datenschutzrichtlinie einteilen / trennen nach Absätzen zB 3.3.3.3
     //make all categories capitalized
     //make it so if a txt file has been processed before, draw the results from a file if found. (toJSON, save in file -> extract from file, fromJson)
+    //bei PERSON type die rausfiltern die "street" idN haben oder mit B. anfangen.
