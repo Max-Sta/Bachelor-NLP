@@ -638,15 +638,12 @@ namespace NLPServiceEndpoint_Console_Ver
 
             #endregion
 
-        #region accessAndDataPortability TODO
-
-            #endregion
-
         #region sources TODO
 
             #endregion
 
-        #region rightsTo
+        #region rightsTo 
+            //TODO all rights need identificationEvidences
             //TODO maybe combined location, one right location has to also be close to another right location (or all)
             int closestDistance = int.MaxValue;
             int closestRightLocation = int.MaxValue;
@@ -668,7 +665,25 @@ namespace NLPServiceEndpoint_Console_Ver
             foreach (var item in AllOccurrancesOfText("recht,"))
             {   rightLocations.Add(item);   }
             foreach (var item in AllOccurrancesOfText("rechte"))
-            {   rightLocations.Add(item);   }
+            {   rightLocations.Add(item); }
+
+            #region accessAndDataPortability TODO
+            //available
+                //ibm_til.accessAndDataPortability.available = 
+            //description
+                //ibm_til.accessAndDataPortability.description = 
+            //url
+                //ibm_til.accessAndDataPortability.url = 
+            //email
+                //ibm_til.accessAndDataPortability.email = 
+            //identificationEvidences
+                //ibm_til.accessAndDataPortability.identificationEvidences.Add(
+            //administrativeFee
+                //ibm_til.accessAndDataPortability.administrativeFee.amount = 
+                //ibm_til.accessAndDataPortability.administrativeFee.currency = 
+            //dataFormats
+                //ibm_til.accessAndDataPortability.dataFormats = 
+            #endregion
 
             #region rightToInformation todo
             closestDistance = int.MaxValue;
@@ -1641,13 +1656,28 @@ namespace NLPServiceEndpoint_Console_Ver
                     responseEntity.entities = responseEntity.entities.OrderBy(ent => ent.type).ToList();    //order by type 
                     foreach (var entity in responseEntity.entities)
                     {
-                        Console.Write("Type: " + entity.type + ", Text: \"" + entity.text + "\", mentions:\t");
+                        Console.Write("Type: " + entity.type);
+                        if (entity.subcategory != null && String.Compare(entity.subcategory, "")!=0)
+                        { Console.Write(", Subcategory: " + entity.subcategory); }
+                        if (entity.relevance != 0)
+                        { Console.Write(", Relevance: " + entity.relevance); }
+                        Console.Write(", Text: \"" + entity.text + "\", mentions:\t");
                         foreach (var mention in entity.mentions)
                         {
                             Console.Write("" + mention.location[0] + "-" + mention.location[1]+"; "); ;
-                            //Console.Write("\t"+mention.text+ " at location \t" + mention.location[0] + " - " + mention.location[1] + ";\n");
                         }
-                        Console.WriteLine("\n");
+                        Console.WriteLine("");
+                        if (entity.Metadata != null)
+                        {
+                            if (entity.Metadata.Count > 0)
+                            {
+                                Console.WriteLine("\tMetaData: ");
+                        
+                                foreach (var meta in entity.Metadata)
+                                {   Console.WriteLine("\tKey: "+meta.Key+"; Value: "+meta.Value);   }
+
+                            }
+                        }
                     }
                 }
             }
@@ -2056,6 +2086,6 @@ namespace NLPServiceEndpoint_Console_Ver
     //TODO:
     //  Evtl Bei Google Entities mit den gleichen Metadaten (zB Wikieinträge) zu einem kombinieren.
     //maybe die Datenschutzrichtlinie einteilen / trennen nach Absätzen zB 3.3.3.3
-    //make all categories capitalized
+    //make all categories capitalized done
     //make it so if a txt file has been processed before, draw the results from a file if found. (toJSON, save in file -> extract from file, fromJson)
     //bei PERSON type die rausfiltern die "street" idN haben oder mit B. anfangen.
