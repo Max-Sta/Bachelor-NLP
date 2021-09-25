@@ -25,6 +25,7 @@ namespace NLPServiceEndpoint_Console_Ver
         private static string datenschutzerkl = "";
         private static int splitsize = 4500;
         private static List<string> ibmOrgaBadWords = new List<string>(new string[] { "DSGVO", "EU", "TLS", "IP", "GOOGLE" });
+        private static string inputPath;
 
         static void Main(string[] args)
         {
@@ -408,9 +409,11 @@ namespace NLPServiceEndpoint_Console_Ver
             result.entities = result.entities.OrderBy(ent => ent.type).ToList();
             foreach (var ent1 in result.entities)
             {
+                ent1.type = ent1.type.Replace(" ", "").Replace("_", "");
                 foreach (var ent2 in result.entities)
                 {
-                    if (String.Compare(ent1.type, ent2.type) == 0 && (ent1.text.Contains(" " + ent2.text) || ent1.text.Contains(ent2.text + " ")))
+                    ent2.type = ent2.type.Replace(" ", "").Replace("_", "");
+                    if (String.Compare(ent1.type, ent2.type) == 0 && (ent1.text.Contains(" " + ent2.text) || ent1.text.Contains(ent2.text + " ")) && ent1 != ent2) //last one is new at 25/09/2021
                     {
                         foreach (var ment in ent1.mentions)
                         {
@@ -638,15 +641,12 @@ namespace NLPServiceEndpoint_Console_Ver
 
             #endregion
 
-        #region accessAndDataPortability TODO
-
-            #endregion
-
         #region sources TODO
 
             #endregion
 
-        #region rightsTo
+        #region rightsTo 
+            //TODO all rights need identificationEvidences
             //TODO maybe combined location, one right location has to also be close to another right location (or all)
             int closestDistance = int.MaxValue;
             int closestRightLocation = int.MaxValue;
@@ -668,7 +668,31 @@ namespace NLPServiceEndpoint_Console_Ver
             foreach (var item in AllOccurrancesOfText("recht,"))
             {   rightLocations.Add(item);   }
             foreach (var item in AllOccurrancesOfText("rechte"))
-            {   rightLocations.Add(item);   }
+            {   rightLocations.Add(item); }
+
+            #region accessAndDataPortability TODO
+            closestDistance = int.MaxValue;
+            closestRightLocation = int.MaxValue;
+            rightRelevantLocation = int.MaxValue;
+
+            rightRelevantEN = "informat";
+            rightRelevantDE = "Kopie";
+            //available
+            //ibm_til.accessAndDataPortability.available = 
+            //description
+            //ibm_til.accessAndDataPortability.description = 
+            //url
+            //ibm_til.accessAndDataPortability.url = 
+            //email
+            //ibm_til.accessAndDataPortability.email = 
+            //identificationEvidences
+            //ibm_til.accessAndDataPortability.identificationEvidences.Add(
+            //administrativeFee
+            //ibm_til.accessAndDataPortability.administrativeFee.amount = 
+            //ibm_til.accessAndDataPortability.administrativeFee.currency = 
+            //dataFormats
+            //ibm_til.accessAndDataPortability.dataFormats = 
+            #endregion
 
             #region rightToInformation todo
             closestDistance = int.MaxValue;
@@ -676,7 +700,7 @@ namespace NLPServiceEndpoint_Console_Ver
             rightRelevantLocation = int.MaxValue;
 
             rightRelevantEN = "informat";
-            rightRelevantDE = "Auskunft"; //todo oder Auskunft..?
+            rightRelevantDE = "Auskunft";
 
             rightRelevantENControl = "delet";
             rightRelevantDEControl = "ösch";
@@ -866,9 +890,26 @@ namespace NLPServiceEndpoint_Console_Ver
 
                 ibm_til.changesOfPurpose.Add(changeOfPurpose);
             }
-          #endregion
+            #endregion
 
+            //Organizations and their affiliated data
+            string orgasOutput = "";
+            foreach (var entityA in result.entities)
+            {
+                if (String.Compare(entityA.type, "ORGANIZATION") != 0)
+                {   continue; }
+                orgasOutput += "Organization found: " + entityA.text + "\n";
+                orgasOutput += "Closest Location: " + GetOverallClosestMentionOfType(result, "LOCATION", entityA).text + "\n";
+                orgasOutput += "Closest Mail: " + GetOverallClosestMentionOfType(result, "EMAILADDRESS", entityA).text + "\n";
+                orgasOutput += "Closest URL: " + GetOverallClosestMentionOfType(result, "URL", entityA).text + "\n";
+                orgasOutput += "Closest Phone Number: " + GetOverallClosestMentionOfType(result, "PHONENUMBER", entityA).text + "\n";
+                orgasOutput += "Closest Ordinance: " + GetOverallClosestMentionOfType(result, "ORDINANCE", entityA).text + "\n";
+                orgasOutput += "Closest Measure: " + GetOverallClosestMentionOfType(result, "MEASURE", entityA).text + "\n\n";
+            }
 
+            Console.WriteLine("\n##########################################################################################\n");
+            Console.WriteLine(orgasOutput);
+            Console.WriteLine("\n##########################################################################################\n");
 
             ibm_til.meta.language = result.language;
             ibm_til.controller.name = mostMentionedOrga;
@@ -1495,22 +1536,33 @@ namespace NLPServiceEndpoint_Console_Ver
                 Console.WriteLine("Please choose (A)WS, (M)icrosoft, (G)oogle, (I)BM, (C)ombined or (q)uit\n");
                 read = Console.ReadLine();
                 datenschutzerkl = "";
+                string inputLine = "";
                 switch (read)
                 {
                     case "A":   //CASE AWS
-                        entityDemoExecute(deMode, "A");
+                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        inputLine = Console.ReadLine();
+                        entityRecognitionExecute(deMode, "A", inputLine);
                         return;
                     case "M":   //CASE MICROSOFT AZURE
-                        entityDemoExecute(deMode, "M");
+                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        inputLine = Console.ReadLine();
+                        entityRecognitionExecute(deMode, "M", inputLine);
                         return;
                     case "G":   //CASE GOOGLE
-                        entityDemoExecute(deMode, "G");
+                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        inputLine = Console.ReadLine();
+                        entityRecognitionExecute(deMode, "G", inputLine);
                         return;
                     case "I":   //CASE IBM
-                        entityDemoExecute(deMode, "I");
+                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        inputLine = Console.ReadLine();
+                        entityRecognitionExecute(deMode, "I", inputLine);
                         return;
                     case "C": //CASE COMBINED
-                        entityDemoExecute(deMode, "C");
+                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        inputLine = Console.ReadLine();
+                        entityRecognitionExecute(deMode, "C", inputLine);
                         return;
                     case "q":
                         return;
@@ -1523,18 +1575,45 @@ namespace NLPServiceEndpoint_Console_Ver
         }
         public static void FullRun()
         {
+            Dictionary<int, string> serviceCodes = new Dictionary<int, string>();
+            serviceCodes.Add(0, "A");
+            serviceCodes.Add(1, "M");
+            serviceCodes.Add(2, "G");
+            serviceCodes.Add(3, "I");
+            serviceCodes.Add(4, "C");
+
+            Console.WriteLine("Please insert input directory name");
+            string read = Console.ReadLine();
+
+            if (!Directory.Exists(read))
+            {
+                Console.WriteLine("Sorry, this directory could not be found.");
+                return;
+            }
+            foreach (var fileName in Directory.GetFiles(read))
+            {
+                if(String.Compare(Path.GetExtension(fileName), ".txt") == 0)
+                {
+                    for (int i = 0; i < 5; i++)
+                    {
+                        entityRecognitionExecute("a", serviceCodes[i], fileName);
+                    }
+                }
+            }
+
             Console.WriteLine("Not yet implemented");
             return;
         }
-        private static void entityDemoExecute(string deMode, string serviceCode)
+        private static void entityRecognitionExecute(string deMode, string serviceCode, string inputLine)
         {
             //if (deMode == "a")
             //{ Console.WriteLine("Please insert the filename of a text to be analysed\n"); }
             //else
             //{ Console.WriteLine("Please insert text or filename of a text to be analysed\n"); }
 
-            Console.WriteLine("Please insert text or filename of a text to be analysed\n");
-            string inputLine = Console.ReadLine();
+            //Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+            //string inputLine = Console.ReadLine();
+            string outputPathWithoutFileExtension;
 
             if (String.IsNullOrEmpty(inputLine))
             {
@@ -1543,6 +1622,8 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             if (File.Exists(inputLine))
             {
+                inputPath = inputLine;
+                outputPathWithoutFileExtension = Path.GetDirectoryName(inputPath)+ "\\" +Path.GetFileNameWithoutExtension(inputPath)+"#"+serviceCode;
                 datenschutzerkl = File.ReadAllText(inputLine); //TODO eher jedes Mal wenn nötig einlesen.
                 UniEntity responseEntity = new UniEntity();
                 switch (serviceCode)
@@ -1602,57 +1683,124 @@ namespace NLPServiceEndpoint_Console_Ver
 
                 if (deMode == "a")
                 {
+                    TIL res;
                     switch (serviceCode)
                     {
                         case "I":
                             Console.WriteLine("IBM - Beginning processing...");
                             //printTILResult(AnalyseIBMEntityResponse(responseEntity));
+                            res = AnalyseIBMEntityResponse(responseEntity);
                             printTILResultReadable(AnalyseIBMEntityResponse(responseEntity));
                             Console.Write("IBM");
                             break;
                         case "A":
                             Console.WriteLine("AWS - Beginning processing...");
-                            printTILResult(AnalyseAWSEntityResponse(responseEntity));
+                            res = AnalyseAWSEntityResponse(responseEntity);
+                            printTILResultReadable(res);
                             Console.Write("AWS");
                             break;
                         case "M":
                             Console.WriteLine("Microsoft - Beginning processing...");
-                            printTILResult(AnalyseMicrosoftEntityResponse(responseEntity));
+                            res = AnalyseMicrosoftEntityResponse(responseEntity);
+                            printTILResultReadable(res);
                             Console.Write("Microsoft");
                             break;
                         case "G":
                             Console.WriteLine("Google - Beginning processing...");
-                            printTILResult(AnalyseGoogleEntityResponse(responseEntity));
+                            res = AnalyseGoogleEntityResponse(responseEntity);
+                            printTILResultReadable(res);
                             Console.Write("Google");
                             break;
                         case "C":
                             Console.WriteLine("Beginning combined processing...");
                             //printTILResult(AnalyseCombinedEntityResponse(responseEntity));
-                            printTILResultReadable(AnalyseCombinedEntityResponse(responseEntity));
+                            res = AnalyseCombinedEntityResponse(responseEntity);
+                            printTILResultReadable(res);
                             Console.Write("Combined processing");
                             break;
                         default:
                             return;
                     }
+                    saveTILResult(res, outputPathWithoutFileExtension);
                     Console.WriteLine(" - Processing finished.");
                 }
                 else
                 {
                     responseEntity.entities = responseEntity.entities.OrderBy(ent => ent.type).ToList();    //order by type 
+                    string output = "";
                     foreach (var entity in responseEntity.entities)
                     {
-                        Console.Write("Type: " + entity.type + ", Text: \"" + entity.text + "\", mentions:\t");
+                        output += "Type: " + entity.type;
+                        //Console.Write("Type: " + entity.type);
+                        if (entity.subcategory != null && String.Compare(entity.subcategory, "")!=0)
+                        {
+                            output += ", Subcategory: " + entity.subcategory;
+                            //Console.Write(", Subcategory: " + entity.subcategory); 
+                        }
+                        if (entity.relevance != 0)
+                        {
+                            output += ", Relevance: " + entity.relevance;
+                            //Console.Write(", Relevance: " + entity.relevance); 
+                        }
+                        output += ", Text: \"" + entity.text + "\", mentions:\t";
+                        //Console.Write(", Text: \"" + entity.text + "\", mentions:\t");
                         foreach (var mention in entity.mentions)
                         {
-                            Console.Write("" + mention.location[0] + "-" + mention.location[1]+"; "); ;
-                            //Console.Write("\t"+mention.text+ " at location \t" + mention.location[0] + " - " + mention.location[1] + ";\n");
+                            output += "" + mention.location[0] + "-" + mention.location[1] + "; ";
+                            //Console.Write("" + mention.location[0] + "-" + mention.location[1]+"; ");
                         }
-                        Console.WriteLine("\n");
+                        output += "\n";
+                        //Console.WriteLine("");
+                        if (entity.Metadata != null)
+                        {
+                            if (entity.Metadata.Count > 0)
+                            {
+                                output += "\tMetaData: \n";
+                                //Console.WriteLine("\tMetaData: ");
+                        
+                                foreach (var meta in entity.Metadata)
+                                {
+                                    output += "\tKey: " + meta.Key + "; Value: " + meta.Value + "\n";
+                                    //Console.WriteLine("\tKey: "+meta.Key+"; Value: "+meta.Value);   
+                                }
+
+                            }
+                        }
                     }
+                    Console.WriteLine(output);
+                    saveEntityResult(output, outputPathWithoutFileExtension);
                 }
             }
             else
             {   Console.WriteLine("Sorry, no file with that path/name could be found.");    }
+            return;
+        }
+        private static void saveEntityResult(string output, string filePathWithoutExtension)
+        {
+            string resultDirectory = Path.GetDirectoryName(filePathWithoutExtension) + "\\Responses";
+            if (!Directory.Exists(resultDirectory))
+            {
+                Directory.CreateDirectory(resultDirectory);
+            }
+            filePathWithoutExtension += ".txt";
+            filePathWithoutExtension = resultDirectory + "\\" + Path.GetFileName(filePathWithoutExtension);
+            //Console.WriteLine("Trying to save file " + filePathWithoutExtension);
+            File.WriteAllText(filePathWithoutExtension, JsonConvert.SerializeObject(output).Replace("\",", "\",\n").Replace(",\"", ",\n\"").Replace("{", "{\n"));
+
+            return;
+        }
+        private static void saveTILResult(TIL resultTIL, string filePathWithoutExtension)
+        {
+            string resultDirectory = Path.GetDirectoryName(filePathWithoutExtension)+"\\Results";
+            if (!Directory.Exists(resultDirectory))
+            {
+                Directory.CreateDirectory(resultDirectory);
+            }
+            filePathWithoutExtension += ".json";
+            filePathWithoutExtension = resultDirectory + "\\" + Path.GetFileName(filePathWithoutExtension);
+            //Console.WriteLine("Trying to save file " + filePathWithoutExtension);
+            File.WriteAllText(filePathWithoutExtension, JsonConvert.SerializeObject(resultTIL).Replace("\",", "\",\n").Replace(",\"", ",\n\"").Replace("{","{\n"));
+
             return;
         }
 
@@ -2056,6 +2204,6 @@ namespace NLPServiceEndpoint_Console_Ver
     //TODO:
     //  Evtl Bei Google Entities mit den gleichen Metadaten (zB Wikieinträge) zu einem kombinieren.
     //maybe die Datenschutzrichtlinie einteilen / trennen nach Absätzen zB 3.3.3.3
-    //make all categories capitalized
+    //make all categories capitalized done
     //make it so if a txt file has been processed before, draw the results from a file if found. (toJSON, save in file -> extract from file, fromJson)
     //bei PERSON type die rausfiltern die "street" idN haben oder mit B. anfangen.
