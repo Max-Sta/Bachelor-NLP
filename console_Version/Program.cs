@@ -827,16 +827,23 @@ namespace NLPServiceEndpoint_Console_Ver
                 ibm_til.rightToComplain.url = FindClosestMentionOfType(result, "URL", rightRelevantLocation).text;
                 string[] supervisoryAuthTypes = { "LOCATION", "FACILITY" };
                 string[] ignoreMostMentioned = { mostMentionedOrgaEntity.text };
-                ibm_til.rightToComplain.supervisoryAuthority.address = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes, "normal", ignoreMostMentioned).location[0], 45);
-                ibm_til.rightToComplain.supervisoryAuthority.country = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes, "normal", ignoreMostMentioned).location[0], 45);
-                ibm_til.rightToComplain.supervisoryAuthority.name = FindClosestMentionOfType(result, "ORGANIZATION", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
-                ibm_til.rightToComplain.supervisoryAuthority.email = FindClosestMentionOfType(result, "EMAILADDRESS", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
-                ibm_til.rightToComplain.supervisoryAuthority.phone = FindClosestMentionOfType(result, "PHONENUMBER", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
+                try
+                {
+                    ibm_til.rightToComplain.supervisoryAuthority.address = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes, "normal", ignoreMostMentioned).location[0], 45);
+                    ibm_til.rightToComplain.supervisoryAuthority.country = GetTextAroundHere(FindClosestMentionOfType(result, "", rightRelevantLocation, supervisoryAuthTypes, "normal", ignoreMostMentioned).location[0], 45);
+                    ibm_til.rightToComplain.supervisoryAuthority.name = FindClosestMentionOfType(result, "ORGANIZATION", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
+                    ibm_til.rightToComplain.supervisoryAuthority.email = FindClosestMentionOfType(result, "EMAILADDRESS", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
+                    ibm_til.rightToComplain.supervisoryAuthority.phone = FindClosestMentionOfType(result, "PHONENUMBER", rightRelevantLocation, null, "normal", ignoreMostMentioned).text;
+
+                }
+                catch (Exception)
+                {
+                    ibm_til.rightToComplain.supervisoryAuthority.name = "None found.";
+                }
                 //foreach( var evidence in collection)
                 //{
                 //    ibm_til.rightToComplain.identificationEvidences.Add();
                 //}
-                //TODO AT COMPLAIN
                 //}
             }
             #endregion
@@ -1222,49 +1229,57 @@ namespace NLPServiceEndpoint_Console_Ver
         }
         private static int FindReadableTextRange(int start, int minrange, int maxrange)
         {
-            for (int i = start + maxrange; i > start + minrange + 2; i--)
+            try
             {
-                if (datenschutzerkl[i] == '\n')
+                for (int i = start + maxrange; i > start + minrange + 2; i--)
                 {
-                    if (datenschutzerkl[i - 1] == '\r')
+                    if (datenschutzerkl[i] == '\n')
                     {
-                        //Console.WriteLine("Debug Code 1");
-                        return i - 2 - start;
+                        if (datenschutzerkl[i - 1] == '\r')
+                        {
+                            //Console.WriteLine("Debug Code 1");
+                            return i - 2 - start;
+                        }
+                    }
+                }
+                for (int i = start + maxrange; i > start + minrange + 1; i--)
+                {
+                    if (datenschutzerkl[i].Equals('.') || datenschutzerkl[i].Equals(';'))
+                    {
+                        //Console.WriteLine("Debug Code 2");
+                        return i + 1 - start;
+                    }
+                }
+                for (int i = start + maxrange; i < datenschutzerkl.Length - 1; i++)
+                {
+                    if (datenschutzerkl[i].Equals('.'))
+                    {
+                        //Console.WriteLine("Debug Code 3");
+                        return i + 1 - start;
+                    }
+                    if (datenschutzerkl[i].Equals('\n'))
+                    {
+                        if (datenschutzerkl[i - 1].Equals('\r'))
+                        {
+                            //Console.WriteLine("Debug Code 4");
+                            return i - 2 - start;
+                        }
+                    }
+                }
+                for (int i = start + maxrange; i > start + minrange + 1; i--)
+                {
+                    if (Char.IsWhiteSpace(datenschutzerkl[i]))
+                    {
+                        //Console.WriteLine("Debug Code 5");
+                        return i - start;
                     }
                 }
             }
-            for (int i = start + maxrange; i > start + minrange + 1; i--)
+            catch (Exception)
             {
-                if (datenschutzerkl[i].Equals('.') || datenschutzerkl[i].Equals(';'))
-                {
-                    //Console.WriteLine("Debug Code 2");
-                    return i + 1 - start;
-                }
+                return maxrange;
             }
-            for (int i = start+maxrange; i < datenschutzerkl.Length-1; i++)
-            {
-                if (datenschutzerkl[i].Equals('.'))
-                {
-                    //Console.WriteLine("Debug Code 3");
-                    return i + 1 - start;
-                }
-                if (datenschutzerkl[i].Equals('\n'))
-                {
-                    if (datenschutzerkl[i-1].Equals('\r'))
-                    {
-                        //Console.WriteLine("Debug Code 4");
-                        return i - 2 - start;
-                    }
-                }
-            }
-            for (int i = start + maxrange; i > start + minrange + 1; i--)
-            {
-                if (Char.IsWhiteSpace(datenschutzerkl[i]))
-                {
-                    //Console.WriteLine("Debug Code 5");
-                    return i - start;
-                }
-            }
+            
             return maxrange;
         }
         /// <summary>
@@ -1600,8 +1615,7 @@ namespace NLPServiceEndpoint_Console_Ver
                     }
                 }
             }
-
-            Console.WriteLine("Not yet implemented");
+            Console.WriteLine("Execution complete.");
             return;
         }
         private static void entityRecognitionExecute(string deMode, string serviceCode, string inputLine)
