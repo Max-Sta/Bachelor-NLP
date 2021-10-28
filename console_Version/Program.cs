@@ -26,6 +26,8 @@ namespace NLPServiceEndpoint_Console_Ver
         private static int splitsize = 4500;
         private static List<string> ibmOrgaBadWords = new List<string>(new string[] { "DSGVO", "EU", "TLS", "IP", "GOOGLE" });
         private static string inputPath;
+        private static UniEntity calcEntity;
+        private static string calcSaveFilePath = "";
 
         static void Main(string[] args)
         {
@@ -33,7 +35,7 @@ namespace NLPServiceEndpoint_Console_Ver
             {
                 for (int i = 0; i < 100000; i++)
                 {
-                    Console.WriteLine("Please choose (d)emo, (a)nalyseDemo, (f)ullRun or (q)uit\n");
+                    Console.WriteLine("Please choose (d)emo, (a)nalyseDemo, (f)ullRun, (c)alculateAccuracy or (q)uit\n");
                     string read = Console.ReadLine();
                     switch (read)
                     {
@@ -49,15 +51,757 @@ namespace NLPServiceEndpoint_Console_Ver
                         case "q":
                             i += 1000000;
                             break;
-                        case "jsonTest":
-                            ConvertIBMJson(File.ReadAllText("C:\\MAX\\$INFORMATIK\\C - Bachelor\\Datenschutzerklärungen\\bvg.de_short - ResponseIBM.json"));
+                        case "c":
+                            CalculateAccuracy();
                             break;
+                        //case "jsonTest":
+                        //    ConvertIBMJson(File.ReadAllText("filePath"));
+                        //    break;
                         default:
                             Console.WriteLine("Command not recognized");
                             break;
                     }
                 }
             }
+        }
+
+        private static void CalculateAccuracy()
+        {
+            Console.WriteLine("Please enter the base privacy policy directory path, or (q)uit.");
+            string baseDirectory = Console.ReadLine();
+            if (String.Compare(baseDirectory, "q")==0)
+            {   return; }
+            if (!Directory.Exists(baseDirectory))
+            {
+                Console.WriteLine("The specified path could not be found");
+                CalculateAccuracy();
+                return;
+            }
+            else
+            {
+                string tilDirectory = baseDirectory + "\\TIL";
+                string resDirectory = baseDirectory + "\\Results";
+                string entityResponseDirectory = baseDirectory + "\\Responses";
+
+                foreach (var resultFile in Directory.GetFiles(resDirectory))
+                {
+                    //Console.WriteLine("\nNow calculating "+resultFile);
+
+                    string fileWithoutExt = /*resDirectory + "\\" +*/ Path.GetFileNameWithoutExtension(resultFile);
+                    string[] fileParts = fileWithoutExt.Split("#");
+                    string rawTextFilePath = baseDirectory + "\\" + fileParts[0] + ".txt";
+                    string tilFilePath = tilDirectory + "\\" + fileParts[0] + ".json";
+
+                    //Console.WriteLine("Trying to find the files " + resultFile + " and " + tilFilePath + " and " + rawTextFilePath);
+
+                    if (Directory.GetFiles(baseDirectory).Contains(rawTextFilePath)
+                        && Directory.GetFiles(tilDirectory).Contains(tilFilePath))
+                    {
+                        Console.WriteLine("\nMatching files found for " + fileWithoutExt + ". Beginning analysis.");
+
+                        float[] contrAcc = new float[5];
+                        float[] reprAcc = new float[3];
+                        float[] dataProtAcc = new float[5];
+                        float[] accessAndAcc = new float[4];    //no identEvid., administrativeFee or dataFormat
+                        float[] rightToInfoAcc = new float[4]; //no identificationEvidences
+                        float[] rightToRectiAcc = new float[4]; //no identificationEvidences
+                        float[] rightToDataPortAcc = new float[4]; //no identificationEvidences
+                        float[] rightToWithdrawAcc = new float[4]; //no identificationEvidences
+                        float[] rightToComplainAcc = new float[5]; //no identificationEvidences
+                        float[] supervisoryAcc = new float[5];
+                        float[] automatedDecAcc = new float[3];
+                        float changesOfAcc = 0;
+                        float overallAcc = 0;
+
+
+                        try
+                        {
+                            //TODO Check result file completion compared to TIL file
+                            TIL tilFile = JsonConvert.DeserializeObject<TIL>(File.ReadAllText(tilFilePath).Replace("null", "false"));
+                            TIL resFile = JsonConvert.DeserializeObject<TIL>(File.ReadAllText(resultFile));
+
+
+                        //Controller
+                            if (resFile.controller.name.Contains(tilFile.controller.name))
+                            { contrAcc[0] = 1; }
+                            if (RWS(resFile.controller.division).Contains(RWS(tilFile.controller.division)))
+                            { contrAcc[1] = 1; }
+                            if (RWS(resFile.controller.address).Contains(RWS(tilFile.controller.address)))
+                            { contrAcc[2] = 1; }
+                            if (RWS(resFile.controller.country).Contains(RWS(tilFile.controller.country)))
+                            { contrAcc[3] = 1; }
+                        //Controller.representative
+                            if (RWS(resFile.controller.representative.name).Contains(RWS(tilFile.controller.representative.name)))
+                            { reprAcc[0] = 1; }
+                            if (RWS(resFile.controller.representative.email).Contains(RWS(tilFile.controller.representative.email)))
+                            { reprAcc[1] = 1; }
+                            if (RWS(resFile.controller.representative.phone).Contains(RWS(tilFile.controller.representative.phone)))
+                            { reprAcc[2] = 1; }
+                            contrAcc[4] = reprAcc.Sum() / 3;
+                            Console.WriteLine("ControllerAccuracy: " + contrAcc.Sum() / 5);
+
+                        //DataProtectionOfficer
+                            if (RWS(resFile.dataProtectionOfficer.name).Contains(RWS(tilFile.dataProtectionOfficer.name)))
+                            { dataProtAcc[0] = 1; }
+                            if (RWS(resFile.dataProtectionOfficer.address).Contains(RWS(tilFile.dataProtectionOfficer.address)))
+                            { dataProtAcc[1] = 1; }
+                            if (RWS(resFile.dataProtectionOfficer.country).Contains(RWS(tilFile.dataProtectionOfficer.country)))
+                            { dataProtAcc[2] = 1; }
+                            if (RWS(resFile.dataProtectionOfficer.email).Contains(RWS(tilFile.dataProtectionOfficer.email)))
+                            { dataProtAcc[3] = 1; }
+                            if (RWS(resFile.dataProtectionOfficer.phone).Contains(RWS(tilFile.dataProtectionOfficer.phone)))
+                            { dataProtAcc[4] = 1; }
+                            Console.WriteLine("dataProtectionOfficerAccuracy: " + dataProtAcc.Sum() / 5);
+
+                        //AccessAndDataPortability
+                            if (resFile.accessAndDataPortability.available == tilFile.accessAndDataPortability.available)
+                            { accessAndAcc[0] = 1; }
+                            if (RWS(resFile.accessAndDataPortability.description).Contains(RWS(tilFile.accessAndDataPortability.description)))
+                            { accessAndAcc[1] = 1; }
+                            if (RWS(resFile.accessAndDataPortability.url).Contains(RWS(tilFile.accessAndDataPortability.url)))
+                            { accessAndAcc[2] = 1; }
+                            if (RWS(resFile.accessAndDataPortability.email).Contains(RWS(tilFile.accessAndDataPortability.email)))
+                            { accessAndAcc[3] = 1; }
+                            Console.WriteLine("AccessAndDataPortabilityAccuracy: " + accessAndAcc.Sum() / 4);
+
+                        //rightToInformation
+                            if (resFile.rightToInformation.available == tilFile.rightToInformation.available)
+                            { rightToInfoAcc[0] = 1; }
+                            if (RWS(resFile.rightToInformation.description).Contains(RWS(tilFile.rightToInformation.description)))
+                            { rightToInfoAcc[1] = 1; }
+                            if (RWS(resFile.rightToInformation.url).Contains(RWS(tilFile.rightToInformation.url)))
+                            { rightToInfoAcc[2] = 1; }
+                            if (RWS(resFile.rightToInformation.email).Contains(RWS(tilFile.rightToInformation.email)))
+                            { rightToInfoAcc[3] = 1; }
+                            Console.WriteLine("RightToInformationAccuracy: " + rightToInfoAcc.Sum() / 4);
+
+                        //rightToRectificationOrDeletion
+                            if (resFile.rightToRectificationOrDeletion.available == tilFile.rightToRectificationOrDeletion.available)
+                            { rightToRectiAcc[0] = 1; }
+                            if (RWS(resFile.rightToRectificationOrDeletion.description).Contains(RWS(tilFile.rightToRectificationOrDeletion.description)))
+                            { rightToRectiAcc[1] = 1; }
+                            if (RWS(resFile.rightToRectificationOrDeletion.url).Contains(RWS(tilFile.rightToRectificationOrDeletion.url)))
+                            { rightToRectiAcc[2] = 1; }
+                            if (RWS(resFile.rightToRectificationOrDeletion.email).Contains(RWS(tilFile.rightToRectificationOrDeletion.email)))
+                            { rightToRectiAcc[3] = 1; }
+                            Console.WriteLine("RightToRectificationOrDeletionAccuracy: " + rightToRectiAcc.Sum() / 4);
+
+                        //rightToDataPortability
+                            if (resFile.rightToDataPortability.available == tilFile.rightToDataPortability.available)
+                            { rightToDataPortAcc[0] = 1; }
+                            if (RWS(resFile.rightToDataPortability.description).Contains(RWS(tilFile.rightToDataPortability.description)))
+                            { rightToDataPortAcc[1] = 1; }
+                            if (RWS(resFile.rightToDataPortability.url).Contains(RWS(tilFile.rightToDataPortability.url)))
+                            { rightToDataPortAcc[2] = 1; }
+                            if (RWS(resFile.rightToDataPortability.email).Contains(RWS(tilFile.rightToDataPortability.email)))
+                            { rightToDataPortAcc[3] = 1; }
+                            Console.WriteLine("rightToDataPortabilityAccuracy: " + rightToDataPortAcc.Sum() / 4);
+
+                        //rightToWithdrawConsent
+                            if (resFile.rightToWithdrawConsent.available == tilFile.rightToWithdrawConsent.available)
+                            { rightToWithdrawAcc[0] = 1; }
+                            if (RWS(resFile.rightToWithdrawConsent.description).Contains(RWS(tilFile.rightToWithdrawConsent.description)))
+                            { rightToWithdrawAcc[1] = 1; }
+                            if (RWS(resFile.rightToWithdrawConsent.url).Contains(RWS(tilFile.rightToWithdrawConsent.url)))
+                            { rightToWithdrawAcc[2] = 1; }
+                            if (RWS(resFile.rightToWithdrawConsent.email).Contains(RWS(tilFile.rightToWithdrawConsent.email)))
+                            { rightToWithdrawAcc[3] = 1; }
+                            Console.WriteLine("rightToWithdrawConsentAccuracy: " + rightToWithdrawAcc.Sum() / 4);
+
+                        //rightToComplain
+                            if (resFile.rightToComplain.available == tilFile.rightToComplain.available)
+                            { rightToComplainAcc[0] = 1; }
+                            if (RWS(resFile.rightToComplain.description).Contains(RWS(tilFile.rightToComplain.description)))
+                            { rightToComplainAcc[1] = 1; }
+                            if (RWS(resFile.rightToComplain.url).Contains(RWS(tilFile.rightToComplain.url)))
+                            { rightToComplainAcc[2] = 1; }
+                            if (RWS(resFile.rightToComplain.email).Contains(RWS(tilFile.rightToComplain.email)))
+                            { rightToComplainAcc[3] = 1; }
+
+                        //supervisoryAuthority
+                            if (RWS(resFile.rightToComplain.supervisoryAuthority.name).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.name)))
+                            { supervisoryAcc[0] = 1; }
+                            if (RWS(resFile.rightToComplain.supervisoryAuthority.address).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.address)))
+                            { supervisoryAcc[1] = 1; }
+                            if (RWS(resFile.rightToComplain.supervisoryAuthority.country).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.country)))
+                            { supervisoryAcc[2] = 1; }
+                            if (RWS(resFile.rightToComplain.supervisoryAuthority.email).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.email)))
+                            { supervisoryAcc[3] = 1; }
+                            if (RWS(resFile.rightToComplain.supervisoryAuthority.phone).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.phone)))
+                            { supervisoryAcc[4] = 1; }
+
+                            rightToComplainAcc[4] = supervisoryAcc.Sum() / 5;
+                            Console.WriteLine("rightToComplainAccuracy: " + rightToComplainAcc.Sum() / 5);
+
+                        //AutomatedDecisionMaking
+                            if (resFile.automatedDecisionMaking.inUse == tilFile.automatedDecisionMaking.inUse)
+                            { automatedDecAcc[0] = 1; }
+                            if (RWS(resFile.automatedDecisionMaking.logicInvolved).Contains(RWS(tilFile.automatedDecisionMaking.logicInvolved)))
+                            { automatedDecAcc[1] = 1; }
+                            if (RWS(resFile.automatedDecisionMaking.scopeAndIntendedEffects).Contains(RWS(tilFile.automatedDecisionMaking.scopeAndIntendedEffects)))
+                            { automatedDecAcc[2] = 1; }
+                            Console.WriteLine("automatedDecisionMakingAccuracy: " + automatedDecAcc.Sum() / 3);
+
+                            //ChangesOfPurpose
+                            int changeCount = 0;
+                            foreach (var tilFileChange in tilFile.changesOfPurpose)
+                            {
+                                float[] singularchangeOfAcc = new float[4];
+                                foreach (var resFileChange in resFile.changesOfPurpose)
+                                {
+                                    if (RWS(resFileChange.description).Contains(RWS(tilFileChange.description)))
+                                    { singularchangeOfAcc[0] = 1; }
+
+                                    foreach (var tilFileaffectedDataCat in tilFileChange.affectedDataCategories)
+                                    {
+                                        foreach (var resFileaffectedDataCat in resFileChange.affectedDataCategories)
+                                        {
+                                            if (RWS(resFileaffectedDataCat).Contains(RWS(tilFileaffectedDataCat)))
+                                            {
+                                                singularchangeOfAcc[1]++;
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    singularchangeOfAcc[1] = (singularchangeOfAcc[1] / tilFileChange.affectedDataCategories.Count());
+
+                                    if (RWS(resFileChange.plannedDateOfChange).Contains(RWS(tilFileChange.plannedDateOfChange)))
+                                    { singularchangeOfAcc[2] = 1; }
+                                    if (RWS(resFileChange.urlOfNewVersion).Contains(RWS(tilFileChange.urlOfNewVersion)))
+                                    { singularchangeOfAcc[3] = 1; }
+
+                                    if (singularchangeOfAcc.Sum() >= 1)
+                                    {
+                                        changeCount++;
+                                        changesOfAcc += (singularchangeOfAcc.Sum() / 4);
+                                    }
+                                }
+                            }
+                            changesOfAcc = changesOfAcc / changeCount;
+
+                            Console.WriteLine("changesOfPurposeAccuracy: " + changesOfAcc);
+                            if (float.IsNaN(changesOfAcc))
+                            {
+                                changesOfAcc = 0;
+                            }
+
+
+                        //overall
+                            overallAcc = ((contrAcc.Sum() / 5) + (dataProtAcc.Sum() / 5)
+                                + (accessAndAcc.Sum() / 4) + (rightToInfoAcc.Sum() / 4) + (rightToRectiAcc.Sum() / 4)
+                                + (rightToDataPortAcc.Sum() / 4) + (rightToWithdrawAcc.Sum() / 4) + (rightToComplainAcc.Sum() / 5)
+                                + (automatedDecAcc.Sum() / 3) + changesOfAcc) / 10;
+
+                            Console.WriteLine("+++ overallAccuracy: " + overallAcc + " +++");
+
+
+
+
+
+                        }
+                        catch (Exception)
+                        {   Console.WriteLine("Error while loading or comparing TIL Jsons");   }
+                        if (!Directory.Exists(baseDirectory+"\\Calculations"))
+                        {
+                            Directory.CreateDirectory(baseDirectory + "\\Calculations");
+                        }
+                        string calcFileName = baseDirectory + "\\Calculations\\" + Path.GetFileNameWithoutExtension(resultFile) + "#Calc.txt";
+                        if (File.Exists(calcFileName))
+                        {
+                            File.Delete(calcFileName);
+                        }
+                        File.WriteAllText(calcFileName, contrAcc.Sum() / 5 + "\t" + dataProtAcc.Sum() / 5 + "\t" + accessAndAcc.Sum() / 4
+                             + "\t" + rightToInfoAcc.Sum() / 4 + "\t" + rightToRectiAcc.Sum() / 4 + "\t" + rightToDataPortAcc.Sum() / 4
+                             + "\t" + rightToWithdrawAcc.Sum() / 4 + "\t" + rightToComplainAcc.Sum() / 5 + "\t" + automatedDecAcc.Sum() / 3
+                             + "\t" + changesOfAcc + "\t" + overallAcc);
+
+
+
+                        //File.WriteAllText(calcFileName, "ControllerAccuracy: " + contrAcc.Sum() / 5 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "dataProtectionOfficerAccuracy: " + dataProtAcc.Sum() / 5 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "AccessAndDataPortabilityAccuracy: " + accessAndAcc.Sum() / 4 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "RightToInformationAccuracy: " + rightToInfoAcc.Sum() / 4 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "RightToRectificationOrDeletionAccuracy: " + rightToRectiAcc.Sum() / 4 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "rightToDataPortabilityAccuracy: " + rightToDataPortAcc.Sum() / 4 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "rightToWithdrawConsentAccuracy: " + rightToWithdrawAcc.Sum() / 4 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "rightToComplainAccuracy: " + rightToComplainAcc.Sum() / 5 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "automatedDecisionMakingAccuracy: " + automatedDecAcc.Sum() / 3 + Environment.NewLine);
+                        //File.AppendAllText(calcFileName, "changesOfPurposeAccuracy: " + changesOfAcc + Environment.NewLine);
+
+                        //File.AppendAllText(calcFileName, "\n+++ overallAccuracy: " + overallAcc + " +++" + Environment.NewLine);
+
+
+
+
+
+
+
+
+
+                        //TODO Check recognized entity recognition compared to TIL file? More difficult. I think.
+
+
+                    } //if
+                } //foreach
+
+                foreach (var responseFile in Directory.GetFiles(entityResponseDirectory))
+                {
+                    string fileWithoutExt = /*resDirectory + "\\" +*/ Path.GetFileNameWithoutExtension(responseFile);
+                    string[] fileParts = fileWithoutExt.Split("#");
+                    string tilFilePath = tilDirectory + "\\" + fileParts[0] + ".json";
+
+                    if (Directory.GetFiles(tilDirectory).Contains(tilFilePath)) //Vergleiche Entitäten mit manuell erstellten TILs
+                    {
+                        try
+                        {
+
+                            if (!Directory.Exists(baseDirectory + "\\Calculations_new"))
+                            {
+                                Directory.CreateDirectory(baseDirectory + "\\Calculations_new");
+                            }
+
+                            calcSaveFilePath = baseDirectory + "\\Calculations_new\\" + Path.GetFileNameWithoutExtension(responseFile) + "#Calc.txt";
+                            
+
+                            Console.WriteLine("\nMatching files found for " + fileWithoutExt + ". Beginning entity analysis.");
+                            UniEntity resUniEntity = JsonConvert.DeserializeObject<UniEntity>(File.ReadAllText(responseFile));
+                            calcEntity = null;
+                            calcEntity = JsonConvert.DeserializeObject<UniEntity>(File.ReadAllText(responseFile));
+                            TIL manTIL = JsonConvert.DeserializeObject<TIL>(File.ReadAllText(tilFilePath).Replace("null", "false"));
+
+                            Dictionary<string, float> usefulEntities = new Dictionary<string, float>();
+
+                            Dictionary<string, float> ulE = new Dictionary<string, float>(); //uselessEntities
+
+                            dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(tilFilePath).Replace("null", "false"));
+
+                            List<float> iterateResults = IterateCalc(jsonObj, resUniEntity, 0);
+
+                            #region auskommentiert
+
+                            //float[] reprAcc = new float[3];
+                            //float[] controlAcc = new float[5];
+                            //float[] dataProtOffAcc = new float[5];
+
+                            ////float [] purpAcc = new float[2];              //List<> in DataDisc
+                            ////float [] legalBaseAcc = new float[2];         //List<> in DataDisc
+                            ////float [] legitAcc = new float[1];             //List<> in DataDisc
+                            ////float [] recipAcc = new float[6];             //List<> in DataDisc
+                            ////float [] tempAcc = new float[2];              //List<Temporal>() in storage
+                            ////float [] storageAcc = new float[4];           //List<> in DataDisc
+                            ////float [] nondiscAcc = new float[1];
+                            ////float[] datadiscAcc = new float[8 * manTIL.dataDisclosed.Count]; //List<dd<() in TIL
+                            ////float adequacyAcc = 0;
+                            ////float approAcc = 0;
+                            ////float presenceOfAcc = 0;
+                            ////float standardDataProtAcc = 0; /*standardDataProtAcc[1] = 1;*/
+                            //float[] thirdCountryAcc = new float[5 * manTIL.thirdCountryTransfers.Count];    //List<> in TIL
+                            ////float administrativeAcc = 0;   /*administrativeAcc[1] = 1;*/   
+                            //float[] accessAndAcc = new float[7];
+                            //float[] source2Acc = new float[3 * manTIL.sources.Count];            //List<> in TIL
+                            ////int source1Count = 0;
+                            ////foreach (var source2 in manTIL.sources)
+                            ////{
+                            ////    foreach (var source1 in source2.sources)
+                            ////    { source1Count++; }
+                            ////}
+                            ////float[] source1Acc = new float[2 * source1Count];   //List in Source2
+                            //float[] rightToInfoAcc = new float[4];
+                            //float[] rightToRectifAcc = new float[4];
+                            //float[] rightToDataPortAcc = new float[4];
+                            //float[] rightToWithdrawAcc = new float[4];
+                            //float[] supervisoryAcc = new float[5];
+                            //float[] rightToComplainAcc = new float[5];
+                            //float[] automatedDecAcc = new float[2];
+                            //float[] changesOfAcc = new float[4 * manTIL.changesOfPurpose.Count()];    //List<> in TIL
+
+                            //stringlist in righttoInfo, righttorect, righttodata, righttowith, righttocomplain, changesof, 
+                            //              storage x2, accessanddata x2
+
+                            //Iterate(jsonObj, "Google");
+
+                            //foreach (var ent in resUniEntity.entities)
+                            //{
+                            //    //string checkfor = "";
+                            //    string type = ent.type;
+                            //    if (!ulE.ContainsKey(type))
+                            //    {
+                            //        ulE.Add(type, 0);
+                            //        usefulEntities.Add(type, 0);
+                            //    }                                
+
+                            //    if (ent.text.Length < 3)
+                            //    {
+                            //        ulE[type] = ulE[type] + 1;
+                            //        continue;
+                            //    }
+
+                            //    List<float> iterateResults = Iterate(jsonObj, resUniEntity, 0);
+                            //    float abdeckung = iterateResults.GetRange(1, iterateResults.Count - 1).Sum() / (iterateResults.Count - 1);
+                            //    Console.WriteLine("Entity: " + ent.text + " Usefulness: " + iterateResults[0] + " Abdeckung: " + abdeckung);
+                            //    for (int i = 1; i < iterateResults.Count; i++)
+                            //    {
+                            //        Console.WriteLine("\tUnterabdeckung: " + iterateResults[i]);
+                            //    }
+                            //    if (iterateResults[0] == 1)
+                            //    {
+                            //        ulE[type]++;
+                            //    }
+                            //    else
+                            //    {
+                            //        usefulEntities[type]++;
+                            //    }
+
+                            //    //    bool nFY = true; //notFoundYet
+
+
+
+                            //    //    //Controller
+                            //    //    checkfor = manTIL.controller.name;
+                            //    //    if (checkfor.Contains(ent.text) || String.Compare(checkfor, "") == 0)
+                            //    //    {
+                            //    //        controlAcc[0] = 1;
+                            //    //        if (nFY && String.Compare(manTIL.controller.name, "") != 0)
+                            //    //        {
+                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
+                            //    //            nFY = false;
+                            //    //        }
+                            //    //    }   
+                            //    //    checkfor = "";
+
+                            //    //    if (manTIL.controller.division.Contains(ent.text))
+                            //    //    {
+                            //    //        controlAcc[1] = 1;
+                            //    //        if (nFY)
+                            //    //        {
+                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
+                            //    //            nFY = false;
+                            //    //        }
+                            //    //    }
+                            //    //    if (manTIL.controller.address.Contains(ent.text))
+                            //    //    {
+                            //    //        controlAcc[2] = 1;
+                            //    //        if (nFY)
+                            //    //        {
+                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
+                            //    //            nFY = false;
+                            //    //        }
+                            //    //    }
+                            //    //    if (manTIL.controller.country.Contains(ent.text))
+                            //    //    {
+                            //    //        controlAcc[3] = 1;
+                            //    //        if (nFY)
+                            //    //        {
+                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
+                            //    //            nFY = false;
+                            //    //        }
+                            //    //    }
+                            //    //    if (manTIL.controller.representative.name.Contains(ent.text))
+                            //    //    {
+                            //    //        reprAcc[0] = 1;
+                            //    //        if (nFY)
+                            //    //        {
+                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
+                            //    //            nFY = false;
+                            //    //        }
+                            //    //    }
+                            //    //    if (manTIL.controller.representative.email.Contains(ent.text))
+                            //    //    {
+                            //    //        reprAcc[1] = 1;
+                            //    //        if (nFY)
+                            //    //        { usefulEntities[type]++; nFY = false; }
+                            //    //    }
+                            //    //    if (manTIL.controller.representative.phone.Contains(ent.text))
+                            //    //    {
+                            //    //        reprAcc[0]++;
+                            //    //        if (nFY)
+                            //    //        { usefulEntities[type]++; nFY = false; }
+                            //    //    }
+                            //    //    controlAcc[4] = reprAcc[0] / reprAcc[1];
+
+
+                            //    //    //DataProt
+                            //    //    if (manTIL.dataProtectionOfficer.name.Contains(ent.text))
+                            //    //    {
+                            //    //        dataProtOffAcc[0] = 1;
+                            //    //        if (nFY)
+                            //    //        { usefulEntities[type]++; nFY = false; }
+                            //    //    }
+                            //    //    if (manTIL.dataProtectionOfficer.address.Contains(ent.text))
+                            //    //    {
+                            //    //        dataProtOffAcc[1] = 1;
+                            //    //        if (nFY)
+                            //    //        { usefulEntities[type]++; nFY = false; }
+                            //    //    }
+                            //    //    if (manTIL.dataProtectionOfficer.country.Contains(ent.text))
+                            //    //    {
+                            //    //        dataProtOffAcc[2] = 1;
+                            //    //        if (nFY)
+                            //    //        { usefulEntities[type]++; nFY = false; }
+                            //    //    }
+                            //    //    if (manTIL.dataProtectionOfficer.email.Contains(ent.text))
+                            //    //    {
+                            //    //        dataProtOffAcc[3] = 1;
+                            //    //        if (nFY)
+                            //    //        { usefulEntities[type]++; nFY = false; }
+                            //    //    }
+                            //    //    if (manTIL.dataProtectionOfficer.phone.Contains(ent.text))
+                            //    //    {
+                            //    //        dataProtOffAcc[4] = 1;
+                            //    //        if (nFY)
+                            //    //        { usefulEntities[type]++; nFY = false; }
+                            //    //    }
+                            //    //    //Purpose
+                            //    //    //foreach (var dataDisc in manTIL.dataDisclosed)
+                            //    //    //{
+
+                            //    //    //}
+
+                            //    //    if (nFY)
+                            //    //    { ulE[type]++; }
+                            //}
+
+                            //string resultstring = "";
+                            //foreach (var entType in usefulEntities.Keys)
+                            //{
+                            //    float usefulness = usefulEntities[entType];
+                            //    float uselessness = ulE[entType];
+                            //    float Quotient = usefulness / (usefulness + uselessness);
+                            //    if (float.IsNaN(Quotient))
+                            //    { Quotient = 0; }
+                            //    resultstring += "Type: " + entType + " useful: " + usefulness + " times. Useless: " + uselessness + " times. Quotient: " + Quotient + "\n";
+                            //}
+                            //Console.WriteLine(resultstring);
+                            //float controlres = controlAcc.Sum() / 5;
+                            //float dataprotRes = dataProtOffAcc.Sum() / 5;
+                            //if (float.IsNaN(controlres))
+                            //{ controlres = 0; }
+                            //if (float.IsNaN(dataprotRes))
+                            //{ dataprotRes = 0; }
+                            //resultstring += "ControllerAccuracy: " + controlAcc.Sum() / 5 + "\n"; //Eigentlich Abdeckung!!
+                            //resultstring += "DataProtectionOfficerAccuracy: " + dataProtOffAcc.Sum() / 5 + "\n";
+
+                            //if (!Directory.Exists(baseDirectory + "\\Calculations_new"))
+                            //{
+                            //    Directory.CreateDirectory(baseDirectory + "\\Calculations_new");
+                            //}
+
+                            //calcSaveFilePath = baseDirectory + "\\Calculations_new\\" + Path.GetFileNameWithoutExtension(responseFile) + "#Calc.txt";
+                            //if (File.Exists(calcFileName))
+                            //{
+                            //    File.Delete(calcFileName);
+                            //}
+                            //File.WriteAllText(calcFileName, resultstring);
+                            #endregion
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            continue;
+                        }
+                    }
+                }
+
+            } //else
+            Console.WriteLine("Calculation terminated.");
+            return;
+        } //CalculateAccuracy
+
+        public static string RWS(string input)
+        {
+            return input.Replace("\n", "").Replace("\r", "").Replace("\t", "").Trim();
+        }
+        public static List<float> IterateCalc(dynamic variable, UniEntity entObj, int depth = 0)
+        {
+            string AbdeckungString = "";
+            List<float> returnVal = new List<float>();  //attention: returnVal[0] is usefulness where 0 ^= useful. //old
+                                                        //rest is "accuracies / Abdeckung" of objects in variable.  //aktuell
+            returnVal.Add(1);
+
+            if (variable.GetType() == typeof(Newtonsoft.Json.Linq.JObject))
+            {
+                //Console.WriteLine("type is Object");
+                foreach (var property in variable)
+                {
+                    //Console.WriteLine("property name: " + property.Name.ToString());
+                    //Console.WriteLine("property type: " + property.GetType().ToString());
+                    List<float> tempErg = IterateCalc(property.Value, entObj, depth+1);
+                    if (tempErg.Count > 1)
+                    {
+                        float abd = tempErg.GetRange(1, tempErg.Count - 1).Sum() / (tempErg.Count - 1);
+                        returnVal.Add(abd);
+                        //AbdeckungString += ("Property name: \t" + property.Name.ToString() + "\tCoverage: \t" + abd + "\n");
+                        AbdeckungString += (property.Name.ToString() + "\t" + abd + "\n");
+                    }
+                    else
+                    {
+                        //AbdeckungString += ("Property name: \t" + property.Name.ToString() + "\tCoverage: \t" + 0 + "\t (empty object)\n");
+                        AbdeckungString += (property.Name.ToString() + "\t" + 0 + "\t (empty object)\n");
+
+                    }
+                    returnVal[0] = Math.Min(returnVal[0], tempErg[0]);  //old
+                }
+            }
+
+            else if (variable.GetType() == typeof(Newtonsoft.Json.Linq.JArray))
+            {
+                //Console.WriteLine("type is Array");
+                foreach (var item in variable)
+                {
+                    List<float> tempErg = IterateCalc(item, entObj, depth+1);
+                    if (tempErg.Count > 1)
+                    { returnVal.Add(tempErg.GetRange(1, tempErg.Count - 1).Sum() / (tempErg.Count - 1)); }
+                    returnVal[0] = Math.Min(returnVal[0], tempErg[0]);
+                }
+                //if (returnVal.Count > 1)  //very old
+                //{
+                //    float abdeckung = returnVal.GetRange(1, returnVal.Count - 1).Sum() / (returnVal.Count - 1);
+                //    if (float.IsNaN(abdeckung))
+                //    { Console.WriteLine("Abdeckung: " + 0); }
+                //    else
+                //    { Console.WriteLine("Abdeckung: " + abdeckung); }
+                //}
+            }
+
+            else if (variable.GetType() == typeof(Newtonsoft.Json.Linq.JValue))
+            {
+                string varSmall = variable.ToString().ToLower();
+                //Console.WriteLine("type is Variable, value: " + variable.ToString());
+                if (String.Compare(varSmall, "false") == 0 || String.Compare(varSmall, "true")==0 || String.Compare(varSmall, "")==0)
+                { return returnVal;   }
+                bool abgedeckt = false;
+                foreach (var item in calcEntity.entities)
+                {
+                    string entityText = item.text;
+                    if (entityText.Length < 3)
+                    { continue; }
+
+                    if (variable.ToString().Contains(entityText))
+                    {
+                        item.usefulness = true;    //means useful
+                        returnVal[0] = 0;   //old
+                        returnVal.Add(1);
+                        abgedeckt = true;
+                        //Console.WriteLine("Found match");
+                    }
+                    //else
+                    //{   item.usefulness = false;   }
+                }
+                if (!abgedeckt)
+                {
+                    returnVal.Add(0);   
+                }
+            }
+            //else
+            //{   returnVal.Add(1);   }
+
+            if (depth == 0)
+            {
+                Console.WriteLine(AbdeckungString);
+
+                Dictionary<string, float> usefulEntities = new Dictionary<string, float>();
+                usefulEntities.Add("ORGANIZATION", 0);
+                usefulEntities.Add("COMMERCIALITEM", 0);
+                usefulEntities.Add("DATE", 0);
+                usefulEntities.Add("EVENT", 0);
+                usefulEntities.Add("LOCATION", 0);
+                usefulEntities.Add("OTHER", 0);
+                usefulEntities.Add("PERSON", 0);
+                usefulEntities.Add("QUANTITY", 0);
+                usefulEntities.Add("TITLE", 0);
+                usefulEntities.Add("PERSONTYPE", 0);
+                usefulEntities.Add("PRODUCT", 0);
+                usefulEntities.Add("SKILL", 0);
+                usefulEntities.Add("ADDRESS", 0);
+                usefulEntities.Add("PHONENUMBER", 0);
+                usefulEntities.Add("EMAILADDRESS", 0);
+                usefulEntities.Add("URL", 0);
+                usefulEntities.Add("IPADDRESS", 0);
+                usefulEntities.Add("UNKNOWN", 0);
+                usefulEntities.Add("WORKOFART", 0);
+                usefulEntities.Add("CONSUMERGOOD", 0);
+                usefulEntities.Add("NUMBER", 0);
+                usefulEntities.Add("PRICE", 0);
+                usefulEntities.Add("COMPANY", 0);
+                usefulEntities.Add("DURATION", 0);
+                usefulEntities.Add("FACILITY", 0);
+                usefulEntities.Add("GEOGRAPHICFEATURE", 0);
+                usefulEntities.Add("HASHTAG", 0);
+                usefulEntities.Add("JOBTITLE", 0);
+                usefulEntities.Add("MEASURE", 0);
+                usefulEntities.Add("MONEY", 0);
+                usefulEntities.Add("ORDINAL", 0);
+                usefulEntities.Add("PERCENT", 0);
+                usefulEntities.Add("TIME", 0);
+                usefulEntities.Add("TWITTERHANDLE", 0);
+
+                Dictionary<string, float> ulE = new Dictionary<string, float>(); //uselessEntities
+                ulE.Add("ORGANIZATION", 0);
+                ulE.Add("COMMERCIALITEM", 0);
+                ulE.Add("DATE", 0);
+                ulE.Add("EVENT", 0);
+                ulE.Add("LOCATION", 0);
+                ulE.Add("OTHER", 0);
+                ulE.Add("PERSON", 0);
+                ulE.Add("QUANTITY", 0);
+                ulE.Add("TITLE", 0);
+                ulE.Add("PERSONTYPE", 0);
+                ulE.Add("PRODUCT", 0);
+                ulE.Add("SKILL", 0);
+                ulE.Add("ADDRESS", 0);
+                ulE.Add("PHONENUMBER", 0);
+                ulE.Add("EMAILADDRESS", 0);
+                ulE.Add("URL", 0);
+                ulE.Add("IPADDRESS", 0);
+                ulE.Add("UNKNOWN", 0);
+                ulE.Add("WORKOFART", 0);
+                ulE.Add("CONSUMERGOOD", 0);
+                ulE.Add("NUMBER", 0);
+                ulE.Add("PRICE", 0);
+                ulE.Add("COMPANY", 0);
+                ulE.Add("DURATION", 0);
+                ulE.Add("FACILITY", 0);
+                ulE.Add("GEOGRAPHICFEATURE", 0);
+                ulE.Add("HASHTAG", 0);
+                ulE.Add("JOBTITLE", 0);
+                ulE.Add("MEASURE", 0);
+                ulE.Add("MONEY", 0);
+                ulE.Add("ORDINAL", 0);
+                ulE.Add("PERCENT", 0);
+                ulE.Add("TIME", 0);
+                ulE.Add("TWITTERHANDLE", 0);
+
+                foreach (var ent in calcEntity.entities)
+                {
+                    if (String.Compare(ent.type, "IPADDRESSADDRESS")==0)
+                    {
+                        ent.type = "IPADDRESS";
+                    }
+                    if (ent.usefulness)
+                    {
+                        usefulEntities[ent.type]++;
+                    }
+                    else
+                    {
+                        ulE[ent.type]++;
+                    }
+                }
+                string resultstring = "";
+                foreach (var entType in usefulEntities.Keys)
+                {
+                    float usefulness = usefulEntities[entType];
+                    float uselessness = ulE[entType];
+                    float Quotient = usefulness / (usefulness + uselessness);
+                    if (float.IsNaN(Quotient))
+                    { Quotient = 0; }
+                    //resultstring += "Type: \t" + entType + "\t useful: \t" + usefulness + " \ttimes. Useless: \t" + uselessness + "\t times. Quotient: \t" + Quotient + "\n";
+                    resultstring +=  usefulness + "\t" + uselessness + "\n";
+                }
+                Console.WriteLine(resultstring);
+                resultstring += "\n" + AbdeckungString;
+                File.WriteAllText(calcSaveFilePath, resultstring);
+            }
+            return returnVal;
         }
         public static int LoadCredentials()
         {
@@ -79,7 +823,7 @@ namespace NLPServiceEndpoint_Console_Ver
             return 1;
         }
 
-      #region Microsoft
+        #region Microsoft
 
         public static CategorizedEntityCollection MicrosoftEntityRecognize(string input)
         {
@@ -156,7 +900,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 {
                     //Add new Entity
                     UniEntity.entity resEnt = new UniEntity.entity();
-                    resEnt.type = microsoftEntity.Category.ToString().ToUpper().Replace(" ", "");
+                    resEnt.type = microsoftEntity.Category.ToString().ToUpper().Replace(" ", "").Replace("EMAIL", "EMAILADDRESS")./*Replace("IP","IPADDRESS").*/Replace("DATETIME", "DATE");
                     //resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
                     if (microsoftEntity.SubCategory != null)
                     {
@@ -374,7 +1118,7 @@ namespace NLPServiceEndpoint_Console_Ver
             Console.WriteLine("ibm results successfully combined.");
 
             foreach (UniEntity.entity entity in ibmResEnt.entities) //CAPITALIZE the entity types
-            {   entity.type = entity.type.ToUpper();    }
+            {   entity.type = entity.type.ToUpper().Replace("_", "").Replace(" ","");    }
 
             return ibmResEnt;
         }
@@ -978,10 +1722,10 @@ namespace NLPServiceEndpoint_Console_Ver
                 entResultEntities[i] = ConvertAWSToUniEntity(AWSEntityRecognize(datenSplit[i]));
             }
             Console.WriteLine("AWS rec. done, combining results...");
-            UniEntity googleResEnt = CombineUniEntitySplitParts(entResultEntities);
+            UniEntity awsResEnt = CombineUniEntitySplitParts(entResultEntities);
             Console.WriteLine("AWS results successfully combined.");
 
-            return googleResEnt;
+            return awsResEnt;
         }
         private static UniEntity ConvertAWSToUniEntity(DetectEntitiesResponse awsResponse)
         {
@@ -1020,7 +1764,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 {
                     //Add new Entity
                     UniEntity.entity resEnt = new UniEntity.entity();
-                    resEnt.type = awsEntity.Type.ToString().ToUpper();
+                    resEnt.type = awsEntity.Type.ToString().ToUpper().Replace("_", "");
                     //resEnt.type = resEnt.type[0] + resEnt.type[1..].ToLower();
                     resEnt.text = awsEntity.Text;
                     resEnt.confidence = awsEntity.Score;
@@ -1737,6 +2481,9 @@ namespace NLPServiceEndpoint_Console_Ver
                     }
                     saveTILResult(res, outputPathWithoutFileExtension);
                     Console.WriteLine(" - Processing finished.");
+
+                    responseEntity.entities = responseEntity.entities.OrderBy(ent => ent.type).ToList();    //order by type 
+                    saveEntityResult(responseEntity, outputPathWithoutFileExtension);
                 }
                 else
                 {
@@ -1782,24 +2529,24 @@ namespace NLPServiceEndpoint_Console_Ver
                         }
                     }
                     Console.WriteLine(output);
-                    saveEntityResult(output, outputPathWithoutFileExtension);
+                    saveEntityResult(responseEntity, outputPathWithoutFileExtension);
                 }
             }
             else
             {   Console.WriteLine("Sorry, no file with that path/name could be found.");    }
             return;
         }
-        private static void saveEntityResult(string output, string filePathWithoutExtension)
+        private static void saveEntityResult(UniEntity entityRes, string filePathWithoutExtension)
         {
             string resultDirectory = Path.GetDirectoryName(filePathWithoutExtension) + "\\Responses";
             if (!Directory.Exists(resultDirectory))
             {
                 Directory.CreateDirectory(resultDirectory);
             }
-            filePathWithoutExtension += ".txt";
+            filePathWithoutExtension += ".json";
             filePathWithoutExtension = resultDirectory + "\\" + Path.GetFileName(filePathWithoutExtension);
-            //Console.WriteLine("Trying to save file " + filePathWithoutExtension);
-            File.WriteAllText(filePathWithoutExtension, JsonConvert.SerializeObject(output).Replace("\",", "\",\n").Replace(",\"", ",\n\"").Replace("{", "{\n"));
+            Console.WriteLine("Trying to save file " + filePathWithoutExtension);
+            File.WriteAllText(filePathWithoutExtension, JsonConvert.SerializeObject(entityRes));//.Replace("\",", "\",\n\t").Replace(",\"", ",\n\t\"").Replace(",{", ",\n{\n"));
 
             return;
         }
@@ -2221,3 +2968,4 @@ namespace NLPServiceEndpoint_Console_Ver
     //make all categories capitalized done
     //make it so if a txt file has been processed before, draw the results from a file if found. (toJSON, save in file -> extract from file, fromJson)
     //bei PERSON type die rausfiltern die "street" idN haben oder mit B. anfangen.
+    //Clean up.

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NLPServiceEndpoint_Console_Ver
 {
-    class UniEntity
+    public class UniEntity
     {
         public usageInfo usage { get; set; }
         public string language { get; set; }
@@ -26,6 +26,7 @@ namespace NLPServiceEndpoint_Console_Ver
             public List<mention> mentions { get; set; }
             public int count { get; set; }
             public float confidence { get; set; }
+            public bool usefulness { get; set; }
             public Dictionary<string, string> Metadata { get; set; } //Google only?
             ///// <summary>
             ///// Ideally only use if type and text are the same
