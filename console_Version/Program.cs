@@ -26,8 +26,10 @@ namespace NLPServiceEndpoint_Console_Ver
         private static int splitsize = 4500;
         private static List<string> ibmOrgaBadWords = new List<string>(new string[] { "DSGVO", "EU", "TLS", "IP", "GOOGLE" });
         private static string inputPath;
-        private static UniEntity calcEntity;
+        private static UniEntityResponse calcEntity;
         private static string calcSaveFilePath = "";
+        private static string calcNewAllFilesString = "";
+        private static string calcNewAlleAbdeckung = "";
 
         static void Main(string[] args)
         {
@@ -54,9 +56,6 @@ namespace NLPServiceEndpoint_Console_Ver
                         case "c":
                             CalculateAccuracy();
                             break;
-                        //case "jsonTest":
-                        //    ConvertIBMJson(File.ReadAllText("filePath"));
-                        //    break;
                         default:
                             Console.WriteLine("Command not recognized");
                             break;
@@ -67,6 +66,12 @@ namespace NLPServiceEndpoint_Console_Ver
 
         private static void CalculateAccuracy()
         {
+            calcNewAllFilesString = "FileName\tUsefulness\tORGANIZATION\tCOMMERCIALITEM\tDATE\tEVENT\tLOCATION\tOTHER\tPERSON\t" +
+                    "QUANTITY\tTITLE\tPERSONTYPE\tPRODUCT\tSKILL\tADDRESS\tPHONENUMBER\tEMAILADDRESS\tURL\tIPADDRESS\t" +
+                    "UNKNOWN\tWORKOFART\tCONSUMERGOOD\tNUMBER\tPRICE\tCOMPANY\tDURATION\tFACILITY\tGEOGRAPHICFEATURE\tHASHTAG\tJOBTITLE\t" +
+                    "MEASURE\tMONEY\tORDINAL\tPERCENT\tTIME\tTWITTERHANDLE\r\n";
+            calcNewAlleAbdeckung = "";
+
             Console.WriteLine("Please enter the base privacy policy directory path, or (q)uit.");
             string baseDirectory = Console.ReadLine();
             if (String.Compare(baseDirectory, "q")==0)
@@ -82,271 +87,432 @@ namespace NLPServiceEndpoint_Console_Ver
                 string tilDirectory = baseDirectory + "\\TIL";
                 string resDirectory = baseDirectory + "\\Results";
                 string entityResponseDirectory = baseDirectory + "\\Responses";
+                string allF1ScoresString = "F1-Scores\r\nFileName#ServiceCode\tController\tDataProtectionOfficer\tRightToInformation\tRightToRectificationOrDeletion\t" +  //AccessAndDataPortability\t
+                    "RightToDataPortability\tRightToWithdrawConsent\tRightToComplain\tAutomatedDecisionMaking\tChangesOfPurpose\tInsgesamt" +"\r\n";
+                string allAccuraciesString = "Accuracies (TP + TN / tn+tp+fp+fn)\r\n";
 
-                foreach (var resultFile in Directory.GetFiles(resDirectory))
+                foreach (var resultFile in Directory.GetFiles(resDirectory))    //Check result file completion compared to TIL file
                 {
-                    //Console.WriteLine("\nNow calculating "+resultFile);
-
-                    string fileWithoutExt = /*resDirectory + "\\" +*/ Path.GetFileNameWithoutExtension(resultFile);
+                    
+                    string fileWithoutExt = Path.GetFileNameWithoutExtension(resultFile);
                     string[] fileParts = fileWithoutExt.Split("#");
                     string rawTextFilePath = baseDirectory + "\\" + fileParts[0] + ".txt";
                     string tilFilePath = tilDirectory + "\\" + fileParts[0] + ".json";
-
-                    //Console.WriteLine("Trying to find the files " + resultFile + " and " + tilFilePath + " and " + rawTextFilePath);
 
                     if (Directory.GetFiles(baseDirectory).Contains(rawTextFilePath)
                         && Directory.GetFiles(tilDirectory).Contains(tilFilePath))
                     {
                         Console.WriteLine("\nMatching files found for " + fileWithoutExt + ". Beginning analysis.");
 
-                        float[] contrAcc = new float[5];
-                        float[] reprAcc = new float[3];
-                        float[] dataProtAcc = new float[5];
-                        float[] accessAndAcc = new float[4];    //no identEvid., administrativeFee or dataFormat
-                        float[] rightToInfoAcc = new float[4]; //no identificationEvidences
-                        float[] rightToRectiAcc = new float[4]; //no identificationEvidences
-                        float[] rightToDataPortAcc = new float[4]; //no identificationEvidences
-                        float[] rightToWithdrawAcc = new float[4]; //no identificationEvidences
-                        float[] rightToComplainAcc = new float[5]; //no identificationEvidences
-                        float[] supervisoryAcc = new float[5];
-                        float[] automatedDecAcc = new float[3];
-                        float changesOfAcc = 0;
-                        float overallAcc = 0;
+                        List<float> contrAccNew = new List<float>();
+                        List<float> reprAccNew = new List<float>();
+                        List<float> dataProtAccNew = new List<float>();
+                        List<float> accessAndAccNew = new List<float>();
+                        List<float> rightToInfoAccNew = new List<float>();
+                        List<float> rightToRectiAccNew = new List<float>();
+                        List<float> rightToDataPortAccNew = new List<float>();
+                        List<float> rightToWithdrawAccNew = new List<float>();
+                        List<float> rightToComplainAccNew = new List<float>();
+                        List<float> supervisoryAccNew = new List<float>();
+                        List<float> automatedDecAccNew = new List<float>();
+                        List<float> changeOfAccTILRecall = new List<float>();
+                        List<float> changeOfAccRESPrecision = new List<float>();
+                        List<float> changeOfAccNewTotal = new List<float>();
+                        List<float> overallAccNew = new List<float>();
+
+
+                        //float[] contrAcc = new float[5];
+                        //float[] reprAcc = new float[3];
+                        //float[] dataProtAcc = new float[5];
+                        //float[] accessAndAcc = new float[4];    //no identEvid., administrativeFee or dataFormat
+                        //float[] rightToInfoAcc = new float[4]; //no identificationEvidences
+                        //float[] rightToRectiAcc = new float[4]; //no identificationEvidences
+                        //float[] rightToDataPortAcc = new float[4]; //no identificationEvidences
+                        //float[] rightToWithdrawAcc = new float[4]; //no identificationEvidences
+                        //float[] rightToComplainAcc = new float[5]; //no identificationEvidences
+                        //float[] supervisoryAcc = new float[5];
+                        //float[] automatedDecAcc = new float[3];
+                        //float changesOfAcc = 0;
+                        //float overallAcc = 0;
 
 
                         try
                         {
-                            //TODO Check result file completion compared to TIL file
                             TIL tilFile = JsonConvert.DeserializeObject<TIL>(File.ReadAllText(tilFilePath).Replace("null", "false"));
-                            TIL resFile = JsonConvert.DeserializeObject<TIL>(File.ReadAllText(resultFile));
+                            TIL resFile = JsonConvert.DeserializeObject<TIL>(File.ReadAllText(resultFile).Replace("N/A", ""));
+                            #region old accuracy
+                            ////Controller
+                            //    contrAcc[0] = CompareResToTIL(resFile.controller.name, tilFile.controller.name);
+                            //    contrAcc[1] = CompareResToTIL(resFile.controller.division, tilFile.controller.division);
+                            //    contrAcc[2] = CompareResToTIL(resFile.controller.address, tilFile.controller.address);
+                            //    contrAcc[3] = CompareResToTIL(resFile.controller.country, tilFile.controller.country);
+
+                            ////Controller.representative
+                            //    reprAcc[0] = CompareResToTIL(resFile.controller.representative.name, tilFile.controller.representative.name);
+                            //    reprAcc[1] = CompareResToTIL(resFile.controller.representative.email, tilFile.controller.representative.email);
+                            //    reprAcc[2] = CompareResToTIL(resFile.controller.representative.phone, tilFile.controller.representative.phone);
+                            //    contrAcc[4] = reprAcc.Sum() / 3;
+                            //    Console.WriteLine("ControllerAccuracy: " + contrAcc.Sum() / 5);
+
+                            ////DataProtectionOfficer
+                            //    dataProtAcc[0] = CompareResToTIL(resFile.dataProtectionOfficer.name, tilFile.dataProtectionOfficer.name);
+                            //    dataProtAcc[1] = CompareResToTIL(resFile.dataProtectionOfficer.address, tilFile.dataProtectionOfficer.address);
+                            //    dataProtAcc[2] = CompareResToTIL(resFile.dataProtectionOfficer.country, tilFile.dataProtectionOfficer.country);
+                            //    dataProtAcc[3] = CompareResToTIL(resFile.dataProtectionOfficer.email, tilFile.dataProtectionOfficer.email);
+                            //    dataProtAcc[4] = CompareResToTIL(resFile.dataProtectionOfficer.phone, tilFile.dataProtectionOfficer.phone);
+                            //    Console.WriteLine("dataProtectionOfficerAccuracy: " + dataProtAcc.Sum() / 5);
+
+                            ////AccessAndDataPortabilityforeach (var item in accessAndAcc)
+
+                            //    accessAndAcc[0] = CompareResToTIL(resFile.accessAndDataPortability.available.ToString(), tilFile.accessAndDataPortability.available.ToString());
+                            //    accessAndAcc[1] = CompareResToTIL(resFile.accessAndDataPortability.description, tilFile.accessAndDataPortability.description);
+                            //    accessAndAcc[2] = CompareResToTIL(resFile.accessAndDataPortability.url, tilFile.accessAndDataPortability.url);
+                            //    accessAndAcc[3] = CompareResToTIL(resFile.accessAndDataPortability.email, tilFile.accessAndDataPortability.email);
+                            //    Console.WriteLine("AccessAndDataPortabilityAccuracy: " + accessAndAcc.Sum() / 4);
 
 
-                        //Controller
-                            if (resFile.controller.name.Contains(tilFile.controller.name))
-                            { contrAcc[0] = 1; }
-                            if (RWS(resFile.controller.division).Contains(RWS(tilFile.controller.division)))
-                            { contrAcc[1] = 1; }
-                            if (RWS(resFile.controller.address).Contains(RWS(tilFile.controller.address)))
-                            { contrAcc[2] = 1; }
-                            if (RWS(resFile.controller.country).Contains(RWS(tilFile.controller.country)))
-                            { contrAcc[3] = 1; }
-                        //Controller.representative
-                            if (RWS(resFile.controller.representative.name).Contains(RWS(tilFile.controller.representative.name)))
-                            { reprAcc[0] = 1; }
-                            if (RWS(resFile.controller.representative.email).Contains(RWS(tilFile.controller.representative.email)))
-                            { reprAcc[1] = 1; }
-                            if (RWS(resFile.controller.representative.phone).Contains(RWS(tilFile.controller.representative.phone)))
-                            { reprAcc[2] = 1; }
-                            contrAcc[4] = reprAcc.Sum() / 3;
-                            Console.WriteLine("ControllerAccuracy: " + contrAcc.Sum() / 5);
+                            ////rightToInformation
+                            //    rightToInfoAcc[0] = CompareResToTIL(resFile.rightToInformation.available.ToString(), tilFile.rightToInformation.available.ToString());
+                            //    rightToInfoAcc[1] = CompareResToTIL(resFile.rightToInformation.description, tilFile.rightToInformation.description);
+                            //    rightToInfoAcc[2] = CompareResToTIL(resFile.rightToInformation.url, tilFile.rightToInformation.url);
+                            //    rightToInfoAcc[3] = CompareResToTIL(resFile.rightToInformation.email, tilFile.rightToInformation.email);
+                            //    Console.WriteLine("RightToInformationAccuracy: " + rightToInfoAcc.Sum() / 4);
 
-                        //DataProtectionOfficer
-                            if (RWS(resFile.dataProtectionOfficer.name).Contains(RWS(tilFile.dataProtectionOfficer.name)))
-                            { dataProtAcc[0] = 1; }
-                            if (RWS(resFile.dataProtectionOfficer.address).Contains(RWS(tilFile.dataProtectionOfficer.address)))
-                            { dataProtAcc[1] = 1; }
-                            if (RWS(resFile.dataProtectionOfficer.country).Contains(RWS(tilFile.dataProtectionOfficer.country)))
-                            { dataProtAcc[2] = 1; }
-                            if (RWS(resFile.dataProtectionOfficer.email).Contains(RWS(tilFile.dataProtectionOfficer.email)))
-                            { dataProtAcc[3] = 1; }
-                            if (RWS(resFile.dataProtectionOfficer.phone).Contains(RWS(tilFile.dataProtectionOfficer.phone)))
-                            { dataProtAcc[4] = 1; }
-                            Console.WriteLine("dataProtectionOfficerAccuracy: " + dataProtAcc.Sum() / 5);
+                            ////rightToRectificationOrDeletion
+                            //    rightToRectiAcc[0] = CompareResToTIL(resFile.rightToRectificationOrDeletion.available.ToString(), tilFile.rightToRectificationOrDeletion.available.ToString());
+                            //    rightToRectiAcc[1] = CompareResToTIL(resFile.rightToRectificationOrDeletion.description, tilFile.rightToRectificationOrDeletion.description);
+                            //    rightToRectiAcc[2] = CompareResToTIL(resFile.rightToRectificationOrDeletion.url, tilFile.rightToRectificationOrDeletion.url);
+                            //    rightToRectiAcc[3] = CompareResToTIL(resFile.rightToRectificationOrDeletion.email, tilFile.rightToRectificationOrDeletion.email);
+                            //    Console.WriteLine("RightToRectificationOrDeletionAccuracy: " + rightToRectiAcc.Sum() / 4);
 
-                        //AccessAndDataPortability
-                            if (resFile.accessAndDataPortability.available == tilFile.accessAndDataPortability.available)
-                            { accessAndAcc[0] = 1; }
-                            if (RWS(resFile.accessAndDataPortability.description).Contains(RWS(tilFile.accessAndDataPortability.description)))
-                            { accessAndAcc[1] = 1; }
-                            if (RWS(resFile.accessAndDataPortability.url).Contains(RWS(tilFile.accessAndDataPortability.url)))
-                            { accessAndAcc[2] = 1; }
-                            if (RWS(resFile.accessAndDataPortability.email).Contains(RWS(tilFile.accessAndDataPortability.email)))
-                            { accessAndAcc[3] = 1; }
-                            Console.WriteLine("AccessAndDataPortabilityAccuracy: " + accessAndAcc.Sum() / 4);
+                            ////rightToDataPortability
+                            //    rightToDataPortAcc[0] = CompareResToTIL(resFile.rightToDataPortability.available.ToString(), tilFile.rightToDataPortability.available.ToString());
+                            //    rightToDataPortAcc[1] = CompareResToTIL(resFile.rightToDataPortability.description, tilFile.rightToDataPortability.description);
+                            //    rightToDataPortAcc[2] = CompareResToTIL(resFile.rightToDataPortability.url, tilFile.rightToDataPortability.url);
+                            //    rightToDataPortAcc[3] = CompareResToTIL(resFile.rightToDataPortability.email, tilFile.rightToDataPortability.email);
+                            //    Console.WriteLine("rightToDataPortabilityAccuracy: " + rightToDataPortAcc.Sum() / 4);
 
-                        //rightToInformation
-                            if (resFile.rightToInformation.available == tilFile.rightToInformation.available)
-                            { rightToInfoAcc[0] = 1; }
-                            if (RWS(resFile.rightToInformation.description).Contains(RWS(tilFile.rightToInformation.description)))
-                            { rightToInfoAcc[1] = 1; }
-                            if (RWS(resFile.rightToInformation.url).Contains(RWS(tilFile.rightToInformation.url)))
-                            { rightToInfoAcc[2] = 1; }
-                            if (RWS(resFile.rightToInformation.email).Contains(RWS(tilFile.rightToInformation.email)))
-                            { rightToInfoAcc[3] = 1; }
-                            Console.WriteLine("RightToInformationAccuracy: " + rightToInfoAcc.Sum() / 4);
+                            ////rightToWithdrawConsent
+                            //    rightToWithdrawAcc[0] = CompareResToTIL(resFile.rightToWithdrawConsent.available.ToString(), tilFile.rightToWithdrawConsent.available.ToString());
+                            //    rightToWithdrawAcc[1] = CompareResToTIL(resFile.rightToWithdrawConsent.description, tilFile.rightToWithdrawConsent.description);
+                            //    rightToWithdrawAcc[2] = CompareResToTIL(resFile.rightToWithdrawConsent.url, tilFile.rightToWithdrawConsent.url);
+                            //    rightToWithdrawAcc[3] = CompareResToTIL(resFile.rightToWithdrawConsent.email, tilFile.rightToWithdrawConsent.email);
+                            //    Console.WriteLine("rightToWithdrawConsentAccuracy: " + rightToWithdrawAcc.Sum() / 4);
 
-                        //rightToRectificationOrDeletion
-                            if (resFile.rightToRectificationOrDeletion.available == tilFile.rightToRectificationOrDeletion.available)
-                            { rightToRectiAcc[0] = 1; }
-                            if (RWS(resFile.rightToRectificationOrDeletion.description).Contains(RWS(tilFile.rightToRectificationOrDeletion.description)))
-                            { rightToRectiAcc[1] = 1; }
-                            if (RWS(resFile.rightToRectificationOrDeletion.url).Contains(RWS(tilFile.rightToRectificationOrDeletion.url)))
-                            { rightToRectiAcc[2] = 1; }
-                            if (RWS(resFile.rightToRectificationOrDeletion.email).Contains(RWS(tilFile.rightToRectificationOrDeletion.email)))
-                            { rightToRectiAcc[3] = 1; }
-                            Console.WriteLine("RightToRectificationOrDeletionAccuracy: " + rightToRectiAcc.Sum() / 4);
+                            ////rightToComplain
+                            //    rightToComplainAcc[0] = CompareResToTIL(resFile.rightToComplain.available.ToString(), tilFile.rightToComplain.available.ToString());
+                            //    rightToComplainAcc[1] = CompareResToTIL(resFile.rightToComplain.description, tilFile.rightToComplain.description);
+                            //    rightToComplainAcc[2] = CompareResToTIL(resFile.rightToComplain.url, tilFile.rightToComplain.url);
+                            //    rightToComplainAcc[3] = CompareResToTIL(resFile.rightToComplain.email, tilFile.rightToComplain.email);
+                            ////supervisoryAuthority
+                            //    supervisoryAcc[0] = CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.name, tilFile.rightToComplain.supervisoryAuthority.name);
+                            //    supervisoryAcc[1] = CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.address, tilFile.rightToComplain.supervisoryAuthority.address);
+                            //    supervisoryAcc[2] = CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.country, tilFile.rightToComplain.supervisoryAuthority.country);
+                            //    supervisoryAcc[3] = CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.email, tilFile.rightToComplain.supervisoryAuthority.email);
+                            //    supervisoryAcc[4] = CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.phone, tilFile.rightToComplain.supervisoryAuthority.phone);
 
-                        //rightToDataPortability
-                            if (resFile.rightToDataPortability.available == tilFile.rightToDataPortability.available)
-                            { rightToDataPortAcc[0] = 1; }
-                            if (RWS(resFile.rightToDataPortability.description).Contains(RWS(tilFile.rightToDataPortability.description)))
-                            { rightToDataPortAcc[1] = 1; }
-                            if (RWS(resFile.rightToDataPortability.url).Contains(RWS(tilFile.rightToDataPortability.url)))
-                            { rightToDataPortAcc[2] = 1; }
-                            if (RWS(resFile.rightToDataPortability.email).Contains(RWS(tilFile.rightToDataPortability.email)))
-                            { rightToDataPortAcc[3] = 1; }
-                            Console.WriteLine("rightToDataPortabilityAccuracy: " + rightToDataPortAcc.Sum() / 4);
+                            //    rightToComplainAcc[4] = supervisoryAcc.Sum() / 5;
+                            //    Console.WriteLine("rightToComplainAccuracy: " + rightToComplainAcc.Sum() / 5);
 
-                        //rightToWithdrawConsent
-                            if (resFile.rightToWithdrawConsent.available == tilFile.rightToWithdrawConsent.available)
-                            { rightToWithdrawAcc[0] = 1; }
-                            if (RWS(resFile.rightToWithdrawConsent.description).Contains(RWS(tilFile.rightToWithdrawConsent.description)))
-                            { rightToWithdrawAcc[1] = 1; }
-                            if (RWS(resFile.rightToWithdrawConsent.url).Contains(RWS(tilFile.rightToWithdrawConsent.url)))
-                            { rightToWithdrawAcc[2] = 1; }
-                            if (RWS(resFile.rightToWithdrawConsent.email).Contains(RWS(tilFile.rightToWithdrawConsent.email)))
-                            { rightToWithdrawAcc[3] = 1; }
-                            Console.WriteLine("rightToWithdrawConsentAccuracy: " + rightToWithdrawAcc.Sum() / 4);
+                            ////AutomatedDecisionMaking
+                            //    automatedDecAcc[0] = CompareResToTIL(resFile.automatedDecisionMaking.inUse.ToString(), tilFile.automatedDecisionMaking.inUse.ToString());
+                            //    automatedDecAcc[1] = CompareResToTIL(resFile.automatedDecisionMaking.logicInvolved, tilFile.automatedDecisionMaking.logicInvolved);
+                            //    automatedDecAcc[2] = CompareResToTIL(resFile.automatedDecisionMaking.scopeAndIntendedEffects, tilFile.automatedDecisionMaking.scopeAndIntendedEffects);
+                            //    Console.WriteLine("automatedDecisionMakingAccuracy: " + automatedDecAcc.Sum() / 3);
 
-                        //rightToComplain
-                            if (resFile.rightToComplain.available == tilFile.rightToComplain.available)
-                            { rightToComplainAcc[0] = 1; }
-                            if (RWS(resFile.rightToComplain.description).Contains(RWS(tilFile.rightToComplain.description)))
-                            { rightToComplainAcc[1] = 1; }
-                            if (RWS(resFile.rightToComplain.url).Contains(RWS(tilFile.rightToComplain.url)))
-                            { rightToComplainAcc[2] = 1; }
-                            if (RWS(resFile.rightToComplain.email).Contains(RWS(tilFile.rightToComplain.email)))
-                            { rightToComplainAcc[3] = 1; }
+                            ////ChangesOfPurpose
+                            //    int changeCount = 0;
+                            //    foreach (var tilFileChange in tilFile.changesOfPurpose)
+                            //    {
+                            //        float[] singularchangeOfAcc = new float[4];
+                            //        foreach (var resFileChange in resFile.changesOfPurpose)
+                            //        {
+                            //            singularchangeOfAcc[0] = CompareResToTIL(resFileChange.description, tilFileChange.description);
 
-                        //supervisoryAuthority
-                            if (RWS(resFile.rightToComplain.supervisoryAuthority.name).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.name)))
-                            { supervisoryAcc[0] = 1; }
-                            if (RWS(resFile.rightToComplain.supervisoryAuthority.address).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.address)))
-                            { supervisoryAcc[1] = 1; }
-                            if (RWS(resFile.rightToComplain.supervisoryAuthority.country).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.country)))
-                            { supervisoryAcc[2] = 1; }
-                            if (RWS(resFile.rightToComplain.supervisoryAuthority.email).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.email)))
-                            { supervisoryAcc[3] = 1; }
-                            if (RWS(resFile.rightToComplain.supervisoryAuthority.phone).Contains(RWS(tilFile.rightToComplain.supervisoryAuthority.phone)))
-                            { supervisoryAcc[4] = 1; }
+                            //            foreach (var tilFileaffectedDataCat in tilFileChange.affectedDataCategories)
+                            //            {
+                            //                foreach (var resFileaffectedDataCat in resFileChange.affectedDataCategories)
+                            //                {
+                            //                    if (CompareResToTIL(resFileaffectedDataCat, tilFileaffectedDataCat) == 1) 
+                            //                    {
+                            //                        singularchangeOfAcc[1]++;
+                            //                        break;
+                            //                    }
+                            //                }
+                            //            }
+                            //            singularchangeOfAcc[1] = (singularchangeOfAcc[1] / tilFileChange.affectedDataCategories.Count());
 
-                            rightToComplainAcc[4] = supervisoryAcc.Sum() / 5;
-                            Console.WriteLine("rightToComplainAccuracy: " + rightToComplainAcc.Sum() / 5);
+                            //            singularchangeOfAcc[2] = CompareResToTIL(resFileChange.plannedDateOfChange, tilFileChange.plannedDateOfChange);
+                            //            singularchangeOfAcc[3] = CompareResToTIL(resFileChange.urlOfNewVersion, tilFileChange.urlOfNewVersion);
 
-                        //AutomatedDecisionMaking
-                            if (resFile.automatedDecisionMaking.inUse == tilFile.automatedDecisionMaking.inUse)
-                            { automatedDecAcc[0] = 1; }
-                            if (RWS(resFile.automatedDecisionMaking.logicInvolved).Contains(RWS(tilFile.automatedDecisionMaking.logicInvolved)))
-                            { automatedDecAcc[1] = 1; }
-                            if (RWS(resFile.automatedDecisionMaking.scopeAndIntendedEffects).Contains(RWS(tilFile.automatedDecisionMaking.scopeAndIntendedEffects)))
-                            { automatedDecAcc[2] = 1; }
-                            Console.WriteLine("automatedDecisionMakingAccuracy: " + automatedDecAcc.Sum() / 3);
+                            //            if (singularchangeOfAcc.Sum() >= 1)
+                            //            {
+                            //                changeCount++;
+                            //                changesOfAcc += (singularchangeOfAcc.Sum() / 4);
+                            //            }
+                            //        }
+                            //    }
+                            //    changesOfAcc = changesOfAcc / changeCount;
+
+                            //    Console.WriteLine("changesOfPurposeAccuracy: " + changesOfAcc);
+                            //    if (float.IsNaN(changesOfAcc))
+                            //    {
+                            //        changesOfAcc = 0;
+                            //    }
+
+                            #endregion
+
+
+
+                            //Controller
+                            contrAccNew.Add(CompareResToTIL(resFile.controller.name, tilFile.controller.name));
+                            contrAccNew.Add(CompareResToTIL(resFile.controller.division, tilFile.controller.division));
+                            contrAccNew.Add(CompareResToTIL(resFile.controller.address, tilFile.controller.address));
+                            contrAccNew.Add(CompareResToTIL(resFile.controller.country, tilFile.controller.country));
+
+                            //Controller.representative
+                            reprAccNew.Add(CompareResToTIL(resFile.controller.representative.name, tilFile.controller.representative.name));
+                            reprAccNew.Add(CompareResToTIL(resFile.controller.representative.email, tilFile.controller.representative.email));
+                            reprAccNew.Add(CompareResToTIL(resFile.controller.representative.phone, tilFile.controller.representative.phone));
+
+                            contrAccNew.AddRange(reprAccNew);
+
+                            //DataProtectionOfficer
+                            dataProtAccNew.Add(CompareResToTIL(resFile.dataProtectionOfficer.name, tilFile.dataProtectionOfficer.name));
+                            dataProtAccNew.Add(CompareResToTIL(resFile.dataProtectionOfficer.address, tilFile.dataProtectionOfficer.address));
+                            dataProtAccNew.Add(CompareResToTIL(resFile.dataProtectionOfficer.country, tilFile.dataProtectionOfficer.country));
+                            dataProtAccNew.Add(CompareResToTIL(resFile.dataProtectionOfficer.email, tilFile.dataProtectionOfficer.email));
+                            dataProtAccNew.Add(CompareResToTIL(resFile.dataProtectionOfficer.phone, tilFile.dataProtectionOfficer.phone));
+
+                            //AccessAndDataPortability
+
+                            accessAndAccNew.Add(CompareResToTIL(resFile.accessAndDataPortability.available.ToString(), tilFile.accessAndDataPortability.available.ToString()));
+                            accessAndAccNew.Add(CompareResToTIL(resFile.accessAndDataPortability.description, tilFile.accessAndDataPortability.description));
+                            accessAndAccNew.Add(CompareResToTIL(resFile.accessAndDataPortability.url, tilFile.accessAndDataPortability.url));
+                            accessAndAccNew.Add(CompareResToTIL(resFile.accessAndDataPortability.email, tilFile.accessAndDataPortability.email));
+
+
+                            //rightToInformation
+                            rightToInfoAccNew.Add(CompareResToTIL(resFile.rightToInformation.available.ToString(), tilFile.rightToInformation.available.ToString()));
+                            rightToInfoAccNew.Add(CompareResToTIL(resFile.rightToInformation.description, tilFile.rightToInformation.description));
+                            rightToInfoAccNew.Add(CompareResToTIL(resFile.rightToInformation.url, tilFile.rightToInformation.url));
+                            rightToInfoAccNew.Add(CompareResToTIL(resFile.rightToInformation.email, tilFile.rightToInformation.email));
+
+                            //rightToRectificationOrDeletion
+                            rightToRectiAccNew.Add(CompareResToTIL(resFile.rightToRectificationOrDeletion.available.ToString(), tilFile.rightToRectificationOrDeletion.available.ToString()));
+                            rightToRectiAccNew.Add(CompareResToTIL(resFile.rightToRectificationOrDeletion.description, tilFile.rightToRectificationOrDeletion.description));
+                            rightToRectiAccNew.Add(CompareResToTIL(resFile.rightToRectificationOrDeletion.url, tilFile.rightToRectificationOrDeletion.url));
+                            rightToRectiAccNew.Add(CompareResToTIL(resFile.rightToRectificationOrDeletion.email, tilFile.rightToRectificationOrDeletion.email));
+
+                            //rightToDataPortability
+                            rightToDataPortAccNew.Add(CompareResToTIL(resFile.rightToDataPortability.available.ToString(), tilFile.rightToDataPortability.available.ToString()));
+                            rightToDataPortAccNew.Add(CompareResToTIL(resFile.rightToDataPortability.description, tilFile.rightToDataPortability.description));
+                            rightToDataPortAccNew.Add(CompareResToTIL(resFile.rightToDataPortability.url, tilFile.rightToDataPortability.url));
+                            rightToDataPortAccNew.Add(CompareResToTIL(resFile.rightToDataPortability.email, tilFile.rightToDataPortability.email));
+
+                            //rightToWithdrawConsent
+                            rightToWithdrawAccNew.Add(CompareResToTIL(resFile.rightToWithdrawConsent.available.ToString(), tilFile.rightToWithdrawConsent.available.ToString()));
+                            rightToWithdrawAccNew.Add(CompareResToTIL(resFile.rightToWithdrawConsent.description, tilFile.rightToWithdrawConsent.description));
+                            rightToWithdrawAccNew.Add(CompareResToTIL(resFile.rightToWithdrawConsent.url, tilFile.rightToWithdrawConsent.url));
+                            rightToWithdrawAccNew.Add(CompareResToTIL(resFile.rightToWithdrawConsent.email, tilFile.rightToWithdrawConsent.email));
+
+                            //rightToComplain
+                            rightToComplainAccNew.Add(CompareResToTIL(resFile.rightToComplain.available.ToString(), tilFile.rightToComplain.available.ToString()));
+                            rightToComplainAccNew.Add(CompareResToTIL(resFile.rightToComplain.description, tilFile.rightToComplain.description));
+                            rightToComplainAccNew.Add(CompareResToTIL(resFile.rightToComplain.url, tilFile.rightToComplain.url));
+                            rightToComplainAccNew.Add(CompareResToTIL(resFile.rightToComplain.email, tilFile.rightToComplain.email));
+                            //rightToComplain.supervisoryAuthority
+                            supervisoryAccNew.Add(CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.name, tilFile.rightToComplain.supervisoryAuthority.name));
+                            supervisoryAccNew.Add(CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.address, tilFile.rightToComplain.supervisoryAuthority.address));
+                            supervisoryAccNew.Add(CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.country, tilFile.rightToComplain.supervisoryAuthority.country));
+                            supervisoryAccNew.Add(CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.email, tilFile.rightToComplain.supervisoryAuthority.email));
+                            supervisoryAccNew.Add(CompareResToTIL(resFile.rightToComplain.supervisoryAuthority.phone, tilFile.rightToComplain.supervisoryAuthority.phone));
+
+                            rightToComplainAccNew.AddRange(supervisoryAccNew);
+
+                            //AutomatedDecisionMaking
+                            automatedDecAccNew.Add(CompareResToTIL(resFile.automatedDecisionMaking.inUse.ToString(), tilFile.automatedDecisionMaking.inUse.ToString()));
+                            automatedDecAccNew.Add(CompareResToTIL(resFile.automatedDecisionMaking.logicInvolved, tilFile.automatedDecisionMaking.logicInvolved));
+                            automatedDecAccNew.Add(CompareResToTIL(resFile.automatedDecisionMaking.scopeAndIntendedEffects, tilFile.automatedDecisionMaking.scopeAndIntendedEffects));
 
                             //ChangesOfPurpose
-                            int changeCount = 0;
                             foreach (var tilFileChange in tilFile.changesOfPurpose)
                             {
-                                float[] singularchangeOfAcc = new float[4];
+                                int maxAccuracy = 0;
+                                List<float> singularChangeNew = new List<float>();
                                 foreach (var resFileChange in resFile.changesOfPurpose)
                                 {
-                                    if (RWS(resFileChange.description).Contains(RWS(tilFileChange.description)))
-                                    { singularchangeOfAcc[0] = 1; }
-
-                                    foreach (var tilFileaffectedDataCat in tilFileChange.affectedDataCategories)
+                                    List<float> resFileResults = new List<float>();
+                                    int currAccuracy = 0;
+                                    resFileResults.Add(CompareResToTIL(resFileChange.description, tilFileChange.description));
+                                    resFileResults.Add(CompareResToTIL(resFileChange.plannedDateOfChange, tilFileChange.plannedDateOfChange));
+                                    resFileResults.Add(CompareResToTIL(resFileChange.urlOfNewVersion, tilFileChange.urlOfNewVersion));
+                                    foreach (var gg in resFileResults)
                                     {
-                                        foreach (var resFileaffectedDataCat in resFileChange.affectedDataCategories)
+                                        if (gg == 1)
                                         {
-                                            if (RWS(resFileaffectedDataCat).Contains(RWS(tilFileaffectedDataCat)))
-                                            {
-                                                singularchangeOfAcc[1]++;
-                                                break;
-                                            }
+                                            currAccuracy++;
                                         }
                                     }
-                                    singularchangeOfAcc[1] = (singularchangeOfAcc[1] / tilFileChange.affectedDataCategories.Count());
-
-                                    if (RWS(resFileChange.plannedDateOfChange).Contains(RWS(tilFileChange.plannedDateOfChange)))
-                                    { singularchangeOfAcc[2] = 1; }
-                                    if (RWS(resFileChange.urlOfNewVersion).Contains(RWS(tilFileChange.urlOfNewVersion)))
-                                    { singularchangeOfAcc[3] = 1; }
-
-                                    if (singularchangeOfAcc.Sum() >= 1)
+                                    if (currAccuracy > maxAccuracy)
                                     {
-                                        changeCount++;
-                                        changesOfAcc += (singularchangeOfAcc.Sum() / 4);
+                                        singularChangeNew.Clear();
+                                        foreach (var zi in resFileResults)
+                                        {
+                                            singularChangeNew.Add(zi);
+                                        }
+                                    }
+                                    else if (maxAccuracy == 0)
+                                    {
+                                        singularChangeNew.Clear();
+                                        foreach (var zi in resFileResults)
+                                        {
+                                            singularChangeNew.Add(zi);
+                                        }
                                     }
                                 }
+                                foreach (var acc in singularChangeNew)
+                                {
+                                    changeOfAccTILRecall.Add(acc);
+                                }
                             }
-                            changesOfAcc = changesOfAcc / changeCount;
 
-                            Console.WriteLine("changesOfPurposeAccuracy: " + changesOfAcc);
-                            if (float.IsNaN(changesOfAcc))
+
+                            foreach (var resFileChange in resFile.changesOfPurpose)
                             {
-                                changesOfAcc = 0;
+                                List<float> singularChangeNew = new List<float>();
+                                int maxAccuracy = 0;
+                                foreach (var tilFileChange in resFile.changesOfPurpose)
+                                {
+                                    List<float> resFileResults = new List<float>();
+                                    int currAccuracy = 0;
+
+                                    resFileResults.Add(CompareResToTIL(resFileChange.description, tilFileChange.description));
+                                    resFileResults.Add(CompareResToTIL(resFileChange.plannedDateOfChange, tilFileChange.plannedDateOfChange));
+                                    resFileResults.Add(CompareResToTIL(resFileChange.urlOfNewVersion, tilFileChange.urlOfNewVersion));
+
+                                    foreach (var gg in resFileResults)
+                                    {
+                                        if (gg == 1)
+                                        {
+                                            currAccuracy++;
+                                        }
+                                    }
+                                    if (currAccuracy > maxAccuracy)
+                                    {
+                                        singularChangeNew.Clear();
+                                        foreach (var zi in resFileResults)
+                                        {
+                                            singularChangeNew.Add(zi);
+                                        }
+                                    }
+                                    else if (maxAccuracy == 0)
+                                    {
+                                        singularChangeNew.Clear();
+                                        foreach (var zi in resFileResults)
+                                        {
+                                            singularChangeNew.Add(zi);
+                                        }
+                                    }
+                                }
+                                foreach (var acc in singularChangeNew)
+                                {
+                                    changeOfAccRESPrecision.Add(acc);
+                                }
                             }
 
 
-                        //overall
-                            overallAcc = ((contrAcc.Sum() / 5) + (dataProtAcc.Sum() / 5)
-                                + (accessAndAcc.Sum() / 4) + (rightToInfoAcc.Sum() / 4) + (rightToRectiAcc.Sum() / 4)
-                                + (rightToDataPortAcc.Sum() / 4) + (rightToWithdrawAcc.Sum() / 4) + (rightToComplainAcc.Sum() / 5)
-                                + (automatedDecAcc.Sum() / 3) + changesOfAcc) / 10;
+                            foreach (var num in changeOfAccTILRecall)
+                            {
+                                if (num == 1 || num == -2)
+                                {
+                                    changeOfAccNewTotal.Add(num);
+                                }
+                            }
+                            foreach (var num in changeOfAccRESPrecision)
+                            {
+                                if (num == -1)
+                                {
+                                    changeOfAccNewTotal.Add(num);
+                                }
+                            }
 
-                            Console.WriteLine("+++ overallAccuracy: " + overallAcc + " +++");
+
+
+
+
+                            //overall
+                            overallAccNew.AddRange(contrAccNew);
+                            overallAccNew.AddRange(reprAccNew);
+                            overallAccNew.AddRange(dataProtAccNew);
+                            //overallAccNew.AddRange(accessAndAccNew);
+                            overallAccNew.AddRange(rightToInfoAccNew);
+                            overallAccNew.AddRange(rightToRectiAccNew);
+                            overallAccNew.AddRange(rightToDataPortAccNew);
+                            overallAccNew.AddRange(rightToWithdrawAccNew);
+                            overallAccNew.AddRange(rightToComplainAccNew);
+                            overallAccNew.AddRange(supervisoryAccNew);
+                            overallAccNew.AddRange(automatedDecAccNew);
+                            overallAccNew.AddRange(changeOfAccNewTotal);
+
+
+
+
+                            //overallAcc = ((contrAccNew.Sum() / 5) + (dataProtAcc.Sum() / 5)
+                            //    + (accessAndAcc.Sum() / 4) + (rightToInfoAcc.Sum() / 4) + (rightToRectiAcc.Sum() / 4)
+                            //    + (rightToDataPortAcc.Sum() / 4) + (rightToWithdrawAcc.Sum() / 4) + (rightToComplainAcc.Sum() / 5)
+                            //    + (automatedDecAcc.Sum() / 3) + changesOfAcc) / 10;
+
+                            //Console.WriteLine("+++ overallAccuracy: " + overallAcc + " +++");
 
 
 
 
 
                         }
-                        catch (Exception)
-                        {   Console.WriteLine("Error while loading or comparing TIL Jsons");   }
-                        if (!Directory.Exists(baseDirectory+"\\Calculations"))
+                        catch (Exception ex)
+                        {   
+                            Console.WriteLine("Error while loading or comparing TIL Jsons: "+ex);
+                            continue;
+                        }
+                        if (!Directory.Exists(baseDirectory+"\\Calculations_Accuracy"))
                         {
-                            Directory.CreateDirectory(baseDirectory + "\\Calculations");
+                            Directory.CreateDirectory(baseDirectory + "\\Calculations_Accuracy");
                         }
-                        string calcFileName = baseDirectory + "\\Calculations\\" + Path.GetFileNameWithoutExtension(resultFile) + "#Calc.txt";
+                        string calcFileName = baseDirectory + "\\Calculations_Accuracy\\" + Path.GetFileNameWithoutExtension(resultFile) + "#Calc.txt";
                         if (File.Exists(calcFileName))
                         {
                             File.Delete(calcFileName);
                         }
-                        File.WriteAllText(calcFileName, contrAcc.Sum() / 5 + "\t" + dataProtAcc.Sum() / 5 + "\t" + accessAndAcc.Sum() / 4
-                             + "\t" + rightToInfoAcc.Sum() / 4 + "\t" + rightToRectiAcc.Sum() / 4 + "\t" + rightToDataPortAcc.Sum() / 4
-                             + "\t" + rightToWithdrawAcc.Sum() / 4 + "\t" + rightToComplainAcc.Sum() / 5 + "\t" + automatedDecAcc.Sum() / 3
-                             + "\t" + changesOfAcc + "\t" + overallAcc);
-
-
-
-                        //File.WriteAllText(calcFileName, "ControllerAccuracy: " + contrAcc.Sum() / 5 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "dataProtectionOfficerAccuracy: " + dataProtAcc.Sum() / 5 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "AccessAndDataPortabilityAccuracy: " + accessAndAcc.Sum() / 4 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "RightToInformationAccuracy: " + rightToInfoAcc.Sum() / 4 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "RightToRectificationOrDeletionAccuracy: " + rightToRectiAcc.Sum() / 4 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "rightToDataPortabilityAccuracy: " + rightToDataPortAcc.Sum() / 4 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "rightToWithdrawConsentAccuracy: " + rightToWithdrawAcc.Sum() / 4 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "rightToComplainAccuracy: " + rightToComplainAcc.Sum() / 5 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "automatedDecisionMakingAccuracy: " + automatedDecAcc.Sum() / 3 + Environment.NewLine);
-                        //File.AppendAllText(calcFileName, "changesOfPurposeAccuracy: " + changesOfAcc + Environment.NewLine);
-
-                        //File.AppendAllText(calcFileName, "\n+++ overallAccuracy: " + overallAcc + " +++" + Environment.NewLine);
-
-
-
-
-
-
-
-
-
-                        //TODO Check recognized entity recognition compared to TIL file? More difficult. I think.
-
+                        //string finalString = contrAcc.Sum() / 5 + "\t" + dataProtAcc.Sum() / 5 + "\t" + accessAndAcc.Sum() / 4
+                        //     + "\t" + rightToInfoAcc.Sum() / 4 + "\t" + rightToRectiAcc.Sum() / 4 + "\t" + rightToDataPortAcc.Sum() / 4
+                        //     + "\t" + rightToWithdrawAcc.Sum() / 4 + "\t" + rightToComplainAcc.Sum() / 5 + "\t" + automatedDecAcc.Sum() / 3
+                        //     + "\t" + changesOfAcc + "\t" + overallAcc;
+                        string finalString = "" + CalculateF1Score(contrAccNew) + "\t" + CalculateF1Score(dataProtAccNew) + "\t" + /*CalculateF1Score(accessAndAccNew) + "\t" +*/
+                            CalculateF1Score(rightToInfoAccNew) + "\t" + CalculateF1Score(rightToRectiAccNew) + "\t" + CalculateF1Score(rightToDataPortAccNew) + "\t" +
+                            CalculateF1Score(rightToWithdrawAccNew) + "\t" + CalculateF1Score(rightToComplainAccNew) + "\t" + CalculateF1Score(automatedDecAccNew) + "\t" +
+                            CalculateF1Score(changeOfAccNewTotal) + "\t" + CalculateF1Score(overallAccNew);
+                        File.WriteAllText(calcFileName, finalString);
+                        allF1ScoresString += (Path.GetFileNameWithoutExtension(resultFile)) + "\t" + finalString + "\r\n";
+                        allAccuraciesString += (Path.GetFileNameWithoutExtension(resultFile)) + "\t" + CalculateAccuracyScore(contrAccNew) + "\t" + CalculateAccuracyScore(dataProtAccNew) + "\t" + /*CalculateF1Score(accessAndAccNew) + "\t" +*/
+                            CalculateAccuracyScore(rightToInfoAccNew) + "\t" + CalculateAccuracyScore(rightToRectiAccNew) + "\t" + CalculateAccuracyScore(rightToDataPortAccNew) + "\t" +
+                            CalculateAccuracyScore(rightToWithdrawAccNew) + "\t" + CalculateAccuracyScore(rightToComplainAccNew) + "\t" + CalculateAccuracyScore(automatedDecAccNew) + "\t" +
+                            CalculateAccuracyScore(changeOfAccNewTotal) + "\t" + CalculateAccuracyScore(overallAccNew) + "\r\n";
 
                     } //if
                 } //foreach
+                if (!Directory.Exists(baseDirectory + "\\Calculations_Accuracy"))
+                {   Directory.CreateDirectory(baseDirectory + "\\Calculations_Accuracy");   }
 
-                foreach (var responseFile in Directory.GetFiles(entityResponseDirectory))
+                string allAccFileName = baseDirectory + "\\Calculations_Accuracy\\" + "allAccuracies#Calc.txt";
+                if (File.Exists(allAccFileName))
+                {   File.Delete(allAccFileName);    }
+                allF1ScoresString += "\r\n" +  allAccuraciesString;
+                File.WriteAllText(allAccFileName, allF1ScoresString);
+
+                foreach (var responseFile in Directory.GetFiles(entityResponseDirectory))   //Check recognized entities compared to TIL file
                 {
-                    string fileWithoutExt = /*resDirectory + "\\" +*/ Path.GetFileNameWithoutExtension(responseFile);
+                    string fileWithoutExt = Path.GetFileNameWithoutExtension(responseFile);
                     string[] fileParts = fileWithoutExt.Split("#");
                     string tilFilePath = tilDirectory + "\\" + fileParts[0] + ".json";
 
@@ -364,9 +530,9 @@ namespace NLPServiceEndpoint_Console_Ver
                             
 
                             Console.WriteLine("\nMatching files found for " + fileWithoutExt + ". Beginning entity analysis.");
-                            UniEntity resUniEntity = JsonConvert.DeserializeObject<UniEntity>(File.ReadAllText(responseFile));
+                            UniEntityResponse resUniEntity = JsonConvert.DeserializeObject<UniEntityResponse>(File.ReadAllText(responseFile));
                             calcEntity = null;
-                            calcEntity = JsonConvert.DeserializeObject<UniEntity>(File.ReadAllText(responseFile));
+                            calcEntity = JsonConvert.DeserializeObject<UniEntityResponse>(File.ReadAllText(responseFile));
                             TIL manTIL = JsonConvert.DeserializeObject<TIL>(File.ReadAllText(tilFilePath).Replace("null", "false"));
 
                             Dictionary<string, float> usefulEntities = new Dictionary<string, float>();
@@ -374,272 +540,138 @@ namespace NLPServiceEndpoint_Console_Ver
                             Dictionary<string, float> ulE = new Dictionary<string, float>(); //uselessEntities
 
                             dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(tilFilePath).Replace("null", "false"));
-
+                            calcNewAllFilesString += Path.GetFileNameWithoutExtension(responseFile) + "\tUseful\t";
+                            calcNewAlleAbdeckung += Path.GetFileNameWithoutExtension(responseFile) + "\t" + Path.GetFileNameWithoutExtension(responseFile) + "\r\n";
                             List<float> iterateResults = IterateCalc(jsonObj, resUniEntity, 0);
 
-                            #region auskommentiert
-
-                            //float[] reprAcc = new float[3];
-                            //float[] controlAcc = new float[5];
-                            //float[] dataProtOffAcc = new float[5];
-
-                            ////float [] purpAcc = new float[2];              //List<> in DataDisc
-                            ////float [] legalBaseAcc = new float[2];         //List<> in DataDisc
-                            ////float [] legitAcc = new float[1];             //List<> in DataDisc
-                            ////float [] recipAcc = new float[6];             //List<> in DataDisc
-                            ////float [] tempAcc = new float[2];              //List<Temporal>() in storage
-                            ////float [] storageAcc = new float[4];           //List<> in DataDisc
-                            ////float [] nondiscAcc = new float[1];
-                            ////float[] datadiscAcc = new float[8 * manTIL.dataDisclosed.Count]; //List<dd<() in TIL
-                            ////float adequacyAcc = 0;
-                            ////float approAcc = 0;
-                            ////float presenceOfAcc = 0;
-                            ////float standardDataProtAcc = 0; /*standardDataProtAcc[1] = 1;*/
-                            //float[] thirdCountryAcc = new float[5 * manTIL.thirdCountryTransfers.Count];    //List<> in TIL
-                            ////float administrativeAcc = 0;   /*administrativeAcc[1] = 1;*/   
-                            //float[] accessAndAcc = new float[7];
-                            //float[] source2Acc = new float[3 * manTIL.sources.Count];            //List<> in TIL
-                            ////int source1Count = 0;
-                            ////foreach (var source2 in manTIL.sources)
-                            ////{
-                            ////    foreach (var source1 in source2.sources)
-                            ////    { source1Count++; }
-                            ////}
-                            ////float[] source1Acc = new float[2 * source1Count];   //List in Source2
-                            //float[] rightToInfoAcc = new float[4];
-                            //float[] rightToRectifAcc = new float[4];
-                            //float[] rightToDataPortAcc = new float[4];
-                            //float[] rightToWithdrawAcc = new float[4];
-                            //float[] supervisoryAcc = new float[5];
-                            //float[] rightToComplainAcc = new float[5];
-                            //float[] automatedDecAcc = new float[2];
-                            //float[] changesOfAcc = new float[4 * manTIL.changesOfPurpose.Count()];    //List<> in TIL
-
-                            //stringlist in righttoInfo, righttorect, righttodata, righttowith, righttocomplain, changesof, 
-                            //              storage x2, accessanddata x2
-
-                            //Iterate(jsonObj, "Google");
-
-                            //foreach (var ent in resUniEntity.entities)
-                            //{
-                            //    //string checkfor = "";
-                            //    string type = ent.type;
-                            //    if (!ulE.ContainsKey(type))
-                            //    {
-                            //        ulE.Add(type, 0);
-                            //        usefulEntities.Add(type, 0);
-                            //    }                                
-
-                            //    if (ent.text.Length < 3)
-                            //    {
-                            //        ulE[type] = ulE[type] + 1;
-                            //        continue;
-                            //    }
-
-                            //    List<float> iterateResults = Iterate(jsonObj, resUniEntity, 0);
-                            //    float abdeckung = iterateResults.GetRange(1, iterateResults.Count - 1).Sum() / (iterateResults.Count - 1);
-                            //    Console.WriteLine("Entity: " + ent.text + " Usefulness: " + iterateResults[0] + " Abdeckung: " + abdeckung);
-                            //    for (int i = 1; i < iterateResults.Count; i++)
-                            //    {
-                            //        Console.WriteLine("\tUnterabdeckung: " + iterateResults[i]);
-                            //    }
-                            //    if (iterateResults[0] == 1)
-                            //    {
-                            //        ulE[type]++;
-                            //    }
-                            //    else
-                            //    {
-                            //        usefulEntities[type]++;
-                            //    }
-
-                            //    //    bool nFY = true; //notFoundYet
-
-
-
-                            //    //    //Controller
-                            //    //    checkfor = manTIL.controller.name;
-                            //    //    if (checkfor.Contains(ent.text) || String.Compare(checkfor, "") == 0)
-                            //    //    {
-                            //    //        controlAcc[0] = 1;
-                            //    //        if (nFY && String.Compare(manTIL.controller.name, "") != 0)
-                            //    //        {
-                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
-                            //    //            nFY = false;
-                            //    //        }
-                            //    //    }   
-                            //    //    checkfor = "";
-
-                            //    //    if (manTIL.controller.division.Contains(ent.text))
-                            //    //    {
-                            //    //        controlAcc[1] = 1;
-                            //    //        if (nFY)
-                            //    //        {
-                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
-                            //    //            nFY = false;
-                            //    //        }
-                            //    //    }
-                            //    //    if (manTIL.controller.address.Contains(ent.text))
-                            //    //    {
-                            //    //        controlAcc[2] = 1;
-                            //    //        if (nFY)
-                            //    //        {
-                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
-                            //    //            nFY = false;
-                            //    //        }
-                            //    //    }
-                            //    //    if (manTIL.controller.country.Contains(ent.text))
-                            //    //    {
-                            //    //        controlAcc[3] = 1;
-                            //    //        if (nFY)
-                            //    //        {
-                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
-                            //    //            nFY = false;
-                            //    //        }
-                            //    //    }
-                            //    //    if (manTIL.controller.representative.name.Contains(ent.text))
-                            //    //    {
-                            //    //        reprAcc[0] = 1;
-                            //    //        if (nFY)
-                            //    //        {
-                            //    //            usefulEntities[type] = usefulEntities[type] + 1;
-                            //    //            nFY = false;
-                            //    //        }
-                            //    //    }
-                            //    //    if (manTIL.controller.representative.email.Contains(ent.text))
-                            //    //    {
-                            //    //        reprAcc[1] = 1;
-                            //    //        if (nFY)
-                            //    //        { usefulEntities[type]++; nFY = false; }
-                            //    //    }
-                            //    //    if (manTIL.controller.representative.phone.Contains(ent.text))
-                            //    //    {
-                            //    //        reprAcc[0]++;
-                            //    //        if (nFY)
-                            //    //        { usefulEntities[type]++; nFY = false; }
-                            //    //    }
-                            //    //    controlAcc[4] = reprAcc[0] / reprAcc[1];
-
-
-                            //    //    //DataProt
-                            //    //    if (manTIL.dataProtectionOfficer.name.Contains(ent.text))
-                            //    //    {
-                            //    //        dataProtOffAcc[0] = 1;
-                            //    //        if (nFY)
-                            //    //        { usefulEntities[type]++; nFY = false; }
-                            //    //    }
-                            //    //    if (manTIL.dataProtectionOfficer.address.Contains(ent.text))
-                            //    //    {
-                            //    //        dataProtOffAcc[1] = 1;
-                            //    //        if (nFY)
-                            //    //        { usefulEntities[type]++; nFY = false; }
-                            //    //    }
-                            //    //    if (manTIL.dataProtectionOfficer.country.Contains(ent.text))
-                            //    //    {
-                            //    //        dataProtOffAcc[2] = 1;
-                            //    //        if (nFY)
-                            //    //        { usefulEntities[type]++; nFY = false; }
-                            //    //    }
-                            //    //    if (manTIL.dataProtectionOfficer.email.Contains(ent.text))
-                            //    //    {
-                            //    //        dataProtOffAcc[3] = 1;
-                            //    //        if (nFY)
-                            //    //        { usefulEntities[type]++; nFY = false; }
-                            //    //    }
-                            //    //    if (manTIL.dataProtectionOfficer.phone.Contains(ent.text))
-                            //    //    {
-                            //    //        dataProtOffAcc[4] = 1;
-                            //    //        if (nFY)
-                            //    //        { usefulEntities[type]++; nFY = false; }
-                            //    //    }
-                            //    //    //Purpose
-                            //    //    //foreach (var dataDisc in manTIL.dataDisclosed)
-                            //    //    //{
-
-                            //    //    //}
-
-                            //    //    if (nFY)
-                            //    //    { ulE[type]++; }
-                            //}
-
-                            //string resultstring = "";
-                            //foreach (var entType in usefulEntities.Keys)
-                            //{
-                            //    float usefulness = usefulEntities[entType];
-                            //    float uselessness = ulE[entType];
-                            //    float Quotient = usefulness / (usefulness + uselessness);
-                            //    if (float.IsNaN(Quotient))
-                            //    { Quotient = 0; }
-                            //    resultstring += "Type: " + entType + " useful: " + usefulness + " times. Useless: " + uselessness + " times. Quotient: " + Quotient + "\n";
-                            //}
-                            //Console.WriteLine(resultstring);
-                            //float controlres = controlAcc.Sum() / 5;
-                            //float dataprotRes = dataProtOffAcc.Sum() / 5;
-                            //if (float.IsNaN(controlres))
-                            //{ controlres = 0; }
-                            //if (float.IsNaN(dataprotRes))
-                            //{ dataprotRes = 0; }
-                            //resultstring += "ControllerAccuracy: " + controlAcc.Sum() / 5 + "\n"; //Eigentlich Abdeckung!!
-                            //resultstring += "DataProtectionOfficerAccuracy: " + dataProtOffAcc.Sum() / 5 + "\n";
-
-                            //if (!Directory.Exists(baseDirectory + "\\Calculations_new"))
-                            //{
-                            //    Directory.CreateDirectory(baseDirectory + "\\Calculations_new");
-                            //}
-
-                            //calcSaveFilePath = baseDirectory + "\\Calculations_new\\" + Path.GetFileNameWithoutExtension(responseFile) + "#Calc.txt";
-                            //if (File.Exists(calcFileName))
-                            //{
-                            //    File.Delete(calcFileName);
-                            //}
-                            //File.WriteAllText(calcFileName, resultstring);
-                            #endregion
                         }
-                        catch (Exception e)
+                        catch (Exception ex)
                         {
-                            Console.WriteLine(e);
+                            Console.WriteLine(ex);
                             continue;
                         }
                     }
                 }
+                if (!Directory.Exists(baseDirectory + "\\Calculations_new"))
+                { Directory.CreateDirectory(baseDirectory + "\\Calculations_new"); }
+
+                string allUsabilitiesFileName = baseDirectory + "\\Calculations_new\\" + "allUsabilities#Calc.txt";
+                if (File.Exists(allUsabilitiesFileName))
+                { File.Delete(allUsabilitiesFileName); }
+
+                string allAbdeckungFileName = baseDirectory + "\\Calculations_new\\" + "alleAbdeckungen#Calc.txt";
+                if (File.Exists(allAbdeckungFileName))
+                { File.Delete(allAbdeckungFileName); }
+
+                File.WriteAllText(allUsabilitiesFileName, calcNewAllFilesString);
+                File.WriteAllText(allAbdeckungFileName, calcNewAlleAbdeckung);
 
             } //else
             Console.WriteLine("Calculation terminated.");
             return;
         } //CalculateAccuracy
+        public static float CalculateAccuracyScore(List<float> floatList)
+        {
+            int countTP = 0;    //true positive, 1
+            int countFP = 0;    //false positive, -1
+            int countTN = 0;    //true negative, 0
+            int countFN = 0;    //false negative, -2
 
+            foreach (var item in floatList)
+            {
+                if (item == 0)
+                { countTN++; }
+                else if (item == 1)
+                { countTP++; }
+                else if (item == -1)
+                { countFP++; }
+                else if (item == -2)
+                { countFN++; }
+            }
+            float insgCount = floatList.Count();
+            if (insgCount == 0)
+            {
+                insgCount = 1;
+            }
+            return (countTP + countTN) / (insgCount);
+        }
+        public static float CalculateF1Score(List<float> floatList)
+        {
+            int countTP = 0;    //true positive, 1
+            int countFP = 0;    //false positive, -1
+            int countTN = 0;    //true negative, 0
+            int countFN = 0;    //false negative, -2
+
+            foreach (var item in floatList)
+            {
+                if (item == 0)
+                {   countTN++;  }
+                else if (item == 1)
+                {   countTP++;  }
+                else if (item == -1)
+                {   countFP++;  }
+                else if (item == -2)
+                {   countFN++;  }
+            }
+
+            return (float)(countTP / (countTP + 0.5 * (countFP + countFN)));
+        }
+        public static float CompareResToTIL(string res, string til)
+        {
+            if ((String.IsNullOrEmpty(RWS(res)) && String.IsNullOrEmpty(RWS(til))) || (String.Compare(til, "false") == 0 && String.Compare(res, "false") == 0))
+            {
+                return 0;  //true negative
+            }
+            else if ((!String.IsNullOrEmpty(RWS(til)) && RWS(res).Contains(RWS(til)))
+                || (!String.IsNullOrEmpty(RWS(res)) && (RWS(til).Contains(RWS(res)))))
+            {
+                return 1;   //true positive
+            }
+            else if (String.IsNullOrEmpty(til) || String.Compare(til, "false") == 0 || (!String.IsNullOrEmpty(til) && !String.IsNullOrEmpty(res)))
+            {
+                return -1; //false positive
+            }
+            else if (!String.IsNullOrEmpty(til) && String.IsNullOrEmpty(res))
+            {
+                return -2;  //false negative
+            }
+            else
+            {
+                return -1;
+            }
+        }
         public static string RWS(string input)
         {
             return input.Replace("\n", "").Replace("\r", "").Replace("\t", "").Trim();
         }
-        public static List<float> IterateCalc(dynamic variable, UniEntity entObj, int depth = 0)
+        public static List<float> IterateCalc(dynamic variable, UniEntityResponse entObj, int depth = 0)
         {
             string AbdeckungString = "";
-            List<float> returnVal = new List<float>();  //attention: returnVal[0] is usefulness where 0 ^= useful. //old
+            List<float> returnVal = new List<float>();  //attention: returnVal[0] is usefulness where 0 ^= useful. //old but ingrained into code
                                                         //rest is "accuracies / Abdeckung" of objects in variable.  //aktuell
-            returnVal.Add(1);
+            //returnVal.Add(1);
 
             if (variable.GetType() == typeof(Newtonsoft.Json.Linq.JObject))
             {
-                //Console.WriteLine("type is Object");
                 foreach (var property in variable)
                 {
                     //Console.WriteLine("property name: " + property.Name.ToString());
                     //Console.WriteLine("property type: " + property.GetType().ToString());
                     List<float> tempErg = IterateCalc(property.Value, entObj, depth+1);
-                    if (tempErg.Count > 1)
+                    if (tempErg.Count > 0)
                     {
-                        float abd = tempErg.GetRange(1, tempErg.Count - 1).Sum() / (tempErg.Count - 1);
-                        returnVal.Add(abd);
-                        //AbdeckungString += ("Property name: \t" + property.Name.ToString() + "\tCoverage: \t" + abd + "\n");
+                        float abd = tempErg.Sum() / (tempErg.Count);
+                        foreach (var erg in tempErg)
+                        {
+                            returnVal.Add(erg); //new
+                        }
+                        //returnVal.Add(abd); //old
                         AbdeckungString += (property.Name.ToString() + "\t" + abd + "\n");
                     }
                     else
                     {
-                        //AbdeckungString += ("Property name: \t" + property.Name.ToString() + "\tCoverage: \t" + 0 + "\t (empty object)\n");
-                        AbdeckungString += (property.Name.ToString() + "\t" + 0 + "\t (empty object)\n");
-
+                        AbdeckungString += (property.Name.ToString() + "\t\n");
                     }
-                    returnVal[0] = Math.Min(returnVal[0], tempErg[0]);  //old
                 }
             }
 
@@ -649,55 +681,50 @@ namespace NLPServiceEndpoint_Console_Ver
                 foreach (var item in variable)
                 {
                     List<float> tempErg = IterateCalc(item, entObj, depth+1);
-                    if (tempErg.Count > 1)
-                    { returnVal.Add(tempErg.GetRange(1, tempErg.Count - 1).Sum() / (tempErg.Count - 1)); }
-                    returnVal[0] = Math.Min(returnVal[0], tempErg[0]);
+                    if (tempErg.Count > 0)
+                    {
+                        //returnVal.Add(tempErg.Sum() / (tempErg.Count));  //old
+                        foreach (var erg in tempErg)
+                        {
+                            returnVal.Add(erg);
+                        }
+                    }
                 }
-                //if (returnVal.Count > 1)  //very old
-                //{
-                //    float abdeckung = returnVal.GetRange(1, returnVal.Count - 1).Sum() / (returnVal.Count - 1);
-                //    if (float.IsNaN(abdeckung))
-                //    { Console.WriteLine("Abdeckung: " + 0); }
-                //    else
-                //    { Console.WriteLine("Abdeckung: " + abdeckung); }
-                //}
             }
 
             else if (variable.GetType() == typeof(Newtonsoft.Json.Linq.JValue))
             {
                 string varSmall = variable.ToString().ToLower();
                 //Console.WriteLine("type is Variable, value: " + variable.ToString());
-                if (String.Compare(varSmall, "false") == 0 || String.Compare(varSmall, "true")==0 || String.Compare(varSmall, "")==0)
-                { return returnVal;   }
-                bool abgedeckt = false;
-                foreach (var item in calcEntity.entities)
+                if (String.Compare(varSmall, "false") == 0 || String.Compare(varSmall, "true")==0 || String.Compare(varSmall, "") == 0 || String.Compare(varSmall, "N/A") == 0)
                 {
-                    string entityText = item.text;
+                    return returnVal;
+                }
+                bool abgedeckt = false;
+                foreach (var ent in calcEntity.entities)
+                {
+                    string entityText = ent.text;
                     if (entityText.Length < 3)
                     { continue; }
 
                     if (variable.ToString().Contains(entityText))
                     {
-                        item.usefulness = true;    //means useful
-                        returnVal[0] = 0;   //old
+                        ent.usefulness = true;    //means useful
                         returnVal.Add(1);
                         abgedeckt = true;
                         //Console.WriteLine("Found match");
                     }
-                    //else
-                    //{   item.usefulness = false;   }
                 }
                 if (!abgedeckt)
                 {
                     returnVal.Add(0);   
                 }
             }
-            //else
-            //{   returnVal.Add(1);   }
 
             if (depth == 0)
             {
-                Console.WriteLine(AbdeckungString);
+                //Console.WriteLine(AbdeckungString);
+                AbdeckungString += "Overall:\t" + (returnVal.Sum() / returnVal.Count) + "\n";
 
                 Dictionary<string, float> usefulEntities = new Dictionary<string, float>();
                 usefulEntities.Add("ORGANIZATION", 0);
@@ -734,6 +761,8 @@ namespace NLPServiceEndpoint_Console_Ver
                 usefulEntities.Add("PERCENT", 0);
                 usefulEntities.Add("TIME", 0);
                 usefulEntities.Add("TWITTERHANDLE", 0);
+
+                
 
                 Dictionary<string, float> ulE = new Dictionary<string, float>(); //uselessEntities
                 ulE.Add("ORGANIZATION", 0);
@@ -779,16 +808,23 @@ namespace NLPServiceEndpoint_Console_Ver
                     }
                     if (ent.usefulness)
                     {
-                        usefulEntities[ent.type]++;
+                        if (usefulEntities.ContainsKey(ent.type))
+                        {
+                            usefulEntities[ent.type]++;
+                        }
                     }
                     else
                     {
-                        ulE[ent.type]++;
+                        if (usefulEntities.ContainsKey(ent.type))
+                        {
+                            ulE[ent.type]++;
+                        }
                     }
                 }
                 string resultstring = "";
                 foreach (var entType in usefulEntities.Keys)
                 {
+                    //Console.WriteLine("to:" + entType);
                     float usefulness = usefulEntities[entType];
                     float uselessness = ulE[entType];
                     float Quotient = usefulness / (usefulness + uselessness);
@@ -797,8 +833,20 @@ namespace NLPServiceEndpoint_Console_Ver
                     //resultstring += "Type: \t" + entType + "\t useful: \t" + usefulness + " \ttimes. Useless: \t" + uselessness + "\t times. Quotient: \t" + Quotient + "\n";
                     resultstring +=  usefulness + "\t" + uselessness + "\n";
                 }
-                Console.WriteLine(resultstring);
+                foreach (var usefulType in usefulEntities.Keys)
+                {
+                    calcNewAllFilesString += usefulEntities[usefulType] + "\t";
+                }
+                calcNewAllFilesString += "\r\n\"\"\tUseless\t";
+                foreach (var usefulType in ulE.Keys)
+                {
+                    calcNewAllFilesString += ulE[usefulType] + "\t";
+                }
+                calcNewAllFilesString += "\r\n";
+
+                //Console.WriteLine(resultstring);
                 resultstring += "\n" + AbdeckungString;
+                calcNewAlleAbdeckung += AbdeckungString + "\r\n";
                 File.WriteAllText(calcSaveFilePath, resultstring);
             }
             return returnVal;
@@ -807,17 +855,24 @@ namespace NLPServiceEndpoint_Console_Ver
         {
             if (File.Exists("nlpConfig.config"))
             {
-                var fileName = "nlpConfig.config";
-                using var sr = new StreamReader(fileName);
-                string[] lines = File.ReadAllLines(fileName);
-                ibm_api_key = lines[0];
-                ibm_service_url = lines[1];
-                google_api_path = lines[2];
-                azureCredentials = new AzureKeyCredential(lines[3]);
-                azureEndpoint = new Uri(lines[4]);
-                microsoft_standort = lines[5];
-                Console.WriteLine("Config File Found");
-                return 0;
+                try
+                {
+                    var fileName = "nlpConfig.config";
+                    using var sr = new StreamReader(fileName);
+                    string[] lines = File.ReadAllLines(fileName);
+                    ibm_api_key = lines[0];
+                    ibm_service_url = lines[1];
+                    google_api_path = lines[2];
+                    azureCredentials = new AzureKeyCredential(lines[3]);
+                    azureEndpoint = new Uri(lines[4]);
+                    microsoft_standort = lines[5];
+                    Console.WriteLine("Config File Found");
+                    return 0;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error while loading credentials: " + ex);
+                }
             }
             Console.WriteLine("Config file not Found, please put a file by the name of nlpConfig.config in the same folder as the program.");
             return 1;
@@ -844,31 +899,27 @@ namespace NLPServiceEndpoint_Console_Ver
             Console.WriteLine("Microsoft - Done");
             return;
         }
-        private static TIL AnalyseMicrosoftEntityResponse(UniEntity response)
-        {
-            return AnalyseIBMEntityResponse(response);
-        }
-        private static UniEntity MicrosoftCompleteEntityRecognition(string input)
+        private static UniEntityResponse MicrosoftCompleteEntityRecognition(string input)
         {
             string[] datenSplit = SplitDatenschutz(input);
 
-            UniEntity[] entResultEntities = new UniEntity[datenSplit.Length];
+            UniEntityResponse[] entResultEntities = new UniEntityResponse[datenSplit.Length];
             for (int i = 0; i < datenSplit.Length; i++)
             {
                 entResultEntities[i] = ConvertMicrosoftToUniEntity(MicrosoftEntityRecognize(datenSplit[i]));
                 //Console.WriteLine(entResults[i]);
             }
             Console.WriteLine("Microsoft rec. done, combining results...");
-            UniEntity microsoftResEnt = CombineUniEntitySplitParts(entResultEntities);
+            UniEntityResponse microsoftResEnt = CombineUniEntitySplitParts(entResultEntities);
             Console.WriteLine("Microsoft results successfully combined.");
 
             return microsoftResEnt;
         }
-        private static UniEntity ConvertMicrosoftToUniEntity(CategorizedEntityCollection microsoftResponse)
+        private static UniEntityResponse ConvertMicrosoftToUniEntity(CategorizedEntityCollection microsoftResponse)
         {
-            UniEntity result = new UniEntity();
-            result.entities = new List<UniEntity.entity>();
-            result.language = "no language code found";     //can't todo this can I 
+            UniEntityResponse result = new UniEntityResponse();
+            result.entities = new List<UniEntityResponse.entity>();
+            result.language = "";
             Boolean EntityAlreadyExists;
             foreach (var microsoftEntity in microsoftResponse)
             {
@@ -880,9 +931,9 @@ namespace NLPServiceEndpoint_Console_Ver
                     {
                         if (String.Compare(resultEntity.text, microsoftEntity.Text) == 0 && String.Compare(resultEntity.type.ToLower(), microsoftEntity.Category.ToString().ToLower()) == 0)
                         {
-                            //Combining existing entities. Should mainly be adding mentions.
+                            //Combining existing entities alias adding mentions.
 
-                            UniEntity.mention newMention = new UniEntity.mention();
+                            UniEntityResponse.mention newMention = new UniEntityResponse.mention();
                             newMention.confidence = (float)microsoftEntity.ConfidenceScore;
 
                             newMention.text = microsoftEntity.Text;
@@ -891,7 +942,6 @@ namespace NLPServiceEndpoint_Console_Ver
                             newMention.location.Add(microsoftEntity.Offset + microsoftEntity.Length);
                             resultEntity.mentions.Add(newMention);
                             EntityAlreadyExists = true;
-
                         }
                     }
                 }
@@ -899,30 +949,25 @@ namespace NLPServiceEndpoint_Console_Ver
                 if (!EntityAlreadyExists)
                 {
                     //Add new Entity
-                    UniEntity.entity resEnt = new UniEntity.entity();
-                    resEnt.type = microsoftEntity.Category.ToString().ToUpper().Replace(" ", "").Replace("EMAIL", "EMAILADDRESS")./*Replace("IP","IPADDRESS").*/Replace("DATETIME", "DATE");
-                    //resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
-                    if (microsoftEntity.SubCategory != null)
-                    {
-                        resEnt.subcategory = microsoftEntity.SubCategory.ToUpper();
-                        //resEnt.subcategory = char.ToUpper(resEnt.subcategory[0]) + resEnt.subcategory[1..].ToLower();
-
-                    }
+                    UniEntityResponse.entity resEnt = new UniEntityResponse.entity();
+                    resEnt.type = microsoftEntity.Category.ToString().ToUpper().Replace(" ", "").Replace("EMAIL", "EMAILADDRESS").Replace("DATETIME", "DATE");
+                    if (microsoftEntity.SubCategory != null && String.Compare(microsoftEntity.SubCategory, "") != 0)
+                    {      resEnt.subcategory =microsoftEntity.SubCategory.ToUpper();     }
                     else { resEnt.subcategory = ""; }
 
                     resEnt.text = microsoftEntity.Text;
-                    resEnt.sentiment = new UniEntity.sentim();
+                    resEnt.sentiment = new UniEntityResponse.sentim();
                     resEnt.confidence = (float)microsoftEntity.ConfidenceScore;
                     //if (microsoftEntity. != null)
                     //{
                     //    resEnt.sentiment.score = microsoftEntity.Sentiment.Score;
                     //    resEnt.sentiment.label = microsoftEntity.Sentiment.Magnitude.ToString();    //ACHTUNG nongleich
                     //}
-                    //resEnt.relevance = microsoftEntity.Salience;
+                    //resEnt.relevance = microsoftEntity.Salience;  //hat nicht viel ausgesagt und Probleme verursacht
 
-                    resEnt.mentions = new List<UniEntity.mention>();
+                    resEnt.mentions = new List<UniEntityResponse.mention>();
 
-                    UniEntity.mention newMention = new UniEntity.mention();
+                    UniEntityResponse.mention newMention = new UniEntityResponse.mention();
 
                     newMention.confidence = (float)microsoftEntity.ConfidenceScore;
                     newMention.text = microsoftEntity.Text;
@@ -931,17 +976,12 @@ namespace NLPServiceEndpoint_Console_Ver
                     newMention.location.Add(microsoftEntity.Offset + microsoftEntity.Length);
                     resEnt.mentions.Add(newMention);
 
-                    //resEnt.Metadata = new Dictionary<string, string>();
-                    //foreach (var meta in microsoftEntity.Metadata)
-                    //{
-                    //    resEnt.Metadata.Add(meta.Key, meta.Value);
-                    //}
-
                     result.entities.Add(resEnt);
                 }
             }
             return result;
         }
+
       #endregion
 
       #region Google
@@ -978,10 +1018,10 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             Console.WriteLine("Google - Done");
         }
-        private static UniEntity ConvertGoogleToUniEntity(AnalyzeEntitiesResponse googleResponse)
+        private static UniEntityResponse ConvertGoogleToUniEntity(AnalyzeEntitiesResponse googleResponse)
         {
-            UniEntity result = new UniEntity();
-            result.entities = new List<UniEntity.entity>();
+            UniEntityResponse result = new UniEntityResponse();
+            result.entities = new List<UniEntityResponse.entity>();
             result.language = googleResponse.Language;
             Boolean EntityAlreadyExists = false;
             foreach (var googleEntity in googleResponse.Entities)
@@ -996,8 +1036,7 @@ namespace NLPServiceEndpoint_Console_Ver
                             //Combining existing entities. Should mainly be adding mentions.
                             foreach (var responseMention in googleEntity.Mentions)
                             {
-                                UniEntity.mention newMention = new UniEntity.mention();
-                                //resMention.confidence = responseMention.N/A;
+                                UniEntityResponse.mention newMention = new UniEntityResponse.mention();
                                 newMention.text = responseMention.Text.Content;
                                 newMention.location = new List<int>();
                                 newMention.location.Add(responseMention.Text.BeginOffset);
@@ -1013,22 +1052,20 @@ namespace NLPServiceEndpoint_Console_Ver
                 if (!EntityAlreadyExists)
                 {
                     //Add new Entity
-                    UniEntity.entity resEnt = new UniEntity.entity();
+                    UniEntityResponse.entity resEnt = new UniEntityResponse.entity();
                     resEnt.type = googleEntity.Type.ToString().ToUpper().Replace("_", "");
-                    //resEnt.type = char.ToUpper(resEnt.type[0]) + resEnt.type[1..].ToLower();
                     resEnt.text = googleEntity.Name;
-                    resEnt.sentiment = new UniEntity.sentim();
+                    resEnt.sentiment = new UniEntityResponse.sentim();
                     if (googleEntity.Sentiment != null)
                     {
                         resEnt.sentiment.score = googleEntity.Sentiment.Score;
                         resEnt.sentiment.label = googleEntity.Sentiment.Magnitude.ToString();    //ACHTUNG nongleich
                     }
                     resEnt.relevance = googleEntity.Salience;
-                    resEnt.mentions = new List<UniEntity.mention>();
+                    resEnt.mentions = new List<UniEntityResponse.mention>();
                     foreach (var responseMention in googleEntity.Mentions)
                     {
-                        UniEntity.mention newMention = new UniEntity.mention();
-                        //resMention.confidence = responseMention.N/A;
+                        UniEntityResponse.mention newMention = new UniEntityResponse.mention();
                         newMention.text = responseMention.Text.Content;
                         newMention.location = new List<int>();
                         newMention.location.Add(responseMention.Text.BeginOffset);
@@ -1045,25 +1082,20 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return result;
         }
-        private static UniEntity GoogleCompleteEntityRecognition(string input)
+        private static UniEntityResponse GoogleCompleteEntityRecognition(string input)
         {
             string[] datenSplit = SplitDatenschutz(input);
-            //AnalyzeEntitiesResponse[] entResults = new AnalyzeEntitiesResponse[datenSplit.Length];
-            UniEntity[] entResultEntities = new UniEntity[datenSplit.Length];
+            UniEntityResponse[] entResultEntities = new UniEntityResponse[datenSplit.Length];
             for (int i = 0; i < datenSplit.Length; i++)
             {
                 entResultEntities[i] = ConvertGoogleToUniEntity(GoogleEntityRecognize(datenSplit[i]));
                 //Console.WriteLine(entResults[i]);
             }
             Console.WriteLine("Google rec. done, combining results...");
-            UniEntity googleResEnt = CombineUniEntitySplitParts(entResultEntities);
+            UniEntityResponse googleResEnt = CombineUniEntitySplitParts(entResultEntities);
             Console.WriteLine("Google results successfully combined.");
 
             return googleResEnt;
-        }
-        private static TIL AnalyseGoogleEntityResponse(UniEntity response)
-        {
-            return AnalyseIBMEntityResponse(response);
         }
 
       #endregion
@@ -1104,29 +1136,31 @@ namespace NLPServiceEndpoint_Console_Ver
             //Console.WriteLine(result2.Response);
             return result.Response;
         }
-        private static UniEntity IBMCompleteEntityRecognition(string input)
+        private static UniEntityResponse IBMCompleteEntityRecognition(string input)
         {
             string[] datenSplit = SplitDatenschutz(input);
-            UniEntity[] entResultEntities = new UniEntity[datenSplit.Length];
+            UniEntityResponse[] entResultEntities = new UniEntityResponse[datenSplit.Length];
             for (int i = 0; i < datenSplit.Length; i++)
             {
-                entResultEntities[i] = ConvertIBMJson(IBMEntityRecognize(datenSplit[i]));
+                string response = IBMEntityRecognize(datenSplit[i]);
+                //Console.WriteLine(response);
+                entResultEntities[i] = ConvertIBMJson(response);
             }
             //TODO umformen in unientities
             Console.WriteLine("ibm rec. done, combining results...");
-            UniEntity ibmResEnt = CombineUniEntitySplitParts(entResultEntities);
+            UniEntityResponse ibmResEnt = CombineUniEntitySplitParts(entResultEntities);
             Console.WriteLine("ibm results successfully combined.");
 
-            foreach (UniEntity.entity entity in ibmResEnt.entities) //CAPITALIZE the entity types
+            foreach (UniEntityResponse.entity entity in ibmResEnt.entities) //CAPITALIZE the entity types
             {   entity.type = entity.type.ToUpper().Replace("_", "").Replace(" ","");    }
 
             return ibmResEnt;
         }
-        private static UniEntity ConvertIBMJson(string jsonString)
+        private static UniEntityResponse ConvertIBMJson(string jsonString)
         {
             try
             {
-                UniEntity result = JsonConvert.DeserializeObject<UniEntity>(jsonString);
+                UniEntityResponse result = JsonConvert.DeserializeObject<UniEntityResponse>(jsonString);
                 return result;
             }
             catch (Exception)
@@ -1135,7 +1169,7 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return null;
         }
-        private static TIL AnalyseIBMEntityResponse(UniEntity result)
+        private static TIL AnalyseResponseUniEntity(UniEntityResponse result)
         {
             Console.WriteLine("\n##########################################################################################\n");
 
@@ -1148,8 +1182,8 @@ namespace NLPServiceEndpoint_Console_Ver
             int mostWe = 0;
             int newWe = 0;
             string mostWeOrga = "";
-            UniEntity.entity mostweOrgaEntity = new UniEntity.entity();
-            UniEntity.entity mostMentionedOrgaEntity = new UniEntity.entity();
+            UniEntityResponse.entity mostweOrgaEntity = new UniEntityResponse.entity();
+            UniEntityResponse.entity mostMentionedOrgaEntity = new UniEntityResponse.entity();
             result.entities = result.entities.OrderBy(ent => ent.type).ToList();
             foreach (var ent1 in result.entities)
             {
@@ -1224,13 +1258,9 @@ namespace NLPServiceEndpoint_Console_Ver
             Console.WriteLine("\n##########################################################################################\n");
 
             string[] typesToCheck = { "LOCATION", "FACILITY", "COMPANY" };
-            //UniEntity.mention firstClosestMention = FindClosestMentionOfType(result, "", GetEarliestMention(mostweOrgaEntity), typesToCheck);
-            //UniEntity.mention closestLocationMention = GetOverallClosestMentionOfType(result, "", mostweOrgaEntity, "normal", typesToCheck);
-            //UniEntity.mention overallClosestFollowingMention = GetOverallClosestMentionOfType(result, "", mostweOrgaEntity, "after", typesToCheck);
-
-            UniEntity.mention firstClosestMention = FindClosestMentionOfType(result, "", GetEarliestMention(mostMentionedOrgaEntity).location[0], typesToCheck);
-            UniEntity.mention closestLocationMention = GetOverallClosestMentionOfType(result, "", mostMentionedOrgaEntity, "normal", typesToCheck);
-            UniEntity.mention overallClosestFollowingMention = GetOverallClosestMentionOfType(result, "", mostMentionedOrgaEntity, "after", typesToCheck);
+            UniEntityResponse.mention firstClosestMention = FindClosestMentionOfType(result, "", GetEarliestMention(mostMentionedOrgaEntity).location[0], typesToCheck);
+            UniEntityResponse.mention closestLocationMention = GetOverallClosestMentionOfType(result, "", mostMentionedOrgaEntity, "normal", typesToCheck);
+            UniEntityResponse.mention overallClosestFollowingMention = GetOverallClosestMentionOfType(result, "", mostMentionedOrgaEntity, "after", typesToCheck);
 
             //Console.WriteLine("The earliest organization is: " + earliestOrga);
             Console.WriteLine("The most mentioned organization is: " + mostMentionedOrga);
@@ -1246,21 +1276,21 @@ namespace NLPServiceEndpoint_Console_Ver
             //Console.WriteLine("The text around that is:\n" + GetTextAroundHere(overallClosestFollowingMention.location[0], 40, 30) + "\n");
 
             if (IsThisCloseTo("erantwortlich", closestLocationMention.location[0], 50)
-                || IsThisCloseTo("epresentative", closestLocationMention.location[0], 50)
+                || IsThisCloseTo("epresent", closestLocationMention.location[0], 50)
                 || IsThisCloseTo("orsitzend", closestLocationMention.location[0], 50))
             {
-                UniEntity.mention reprMailMention = FindClosestMentionOfType(result, "EMAILADDRESS", closestLocationMention.location[0]);
+                UniEntityResponse.mention reprMailMention = FindClosestMentionOfType(result, "EMAILADDRESS", closestLocationMention.location[0]);
                 Console.WriteLine("reprMailMention: " + reprMailMention.text);
-                UniEntity.mention reprNameMention = FindClosestMentionOfType(result, "PERSON", closestLocationMention.location[0]);
+                UniEntityResponse.mention reprNameMention = FindClosestMentionOfType(result, "PERSON", closestLocationMention.location[0]);
                 Console.WriteLine("reprNameMention: " + reprNameMention.text);
-                UniEntity.mention reprPhoneMention = FindClosestMentionOfType(result, "PHONENUMBER", closestLocationMention.location[0]);
+                UniEntityResponse.mention reprPhoneMention = FindClosestMentionOfType(result, "PHONENUMBER", closestLocationMention.location[0]);
                 Console.WriteLine("reprPhoneMention: " + reprPhoneMention.text);
                 ibm_til.controller.representative.email = reprMailMention.text;
                 ibm_til.controller.representative.name = reprNameMention.text;
                 ibm_til.controller.representative.phone = reprPhoneMention.text;
             }
 
-            //dataProt might also work with just FindClosestMention after the first result.
+            //dataProt might also work with just FindClosestMention after the first result. 
 
         #region dataProtectionOfficer
             string dataProtMode = "before";
@@ -1268,10 +1298,10 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //DataProtectionOfficer.address
 
-            UniEntity.mention closestDatenschutzbeaufMention = GetOverallClosestMentionOfTypeToString(result, "LOCATION", deutschDatenschutz, dataProtMode, typesToCheck);
+            UniEntityResponse.mention closestDatenschutzbeaufMention = GetOverallClosestMentionOfTypeToString(result, "LOCATION", deutschDatenschutz, dataProtMode, typesToCheck);
             int closestDatenschutzbeaufDistanz = HowCloseTo(closestDatenschutzbeaufMention.location[0], deutschDatenschutz, 500);
 
-            UniEntity.mention closestOfficerMention = GetOverallClosestMentionOfTypeToString(result, "LOCATION", "fficer", dataProtMode, typesToCheck);
+            UniEntityResponse.mention closestOfficerMention = GetOverallClosestMentionOfTypeToString(result, "LOCATION", "fficer", dataProtMode, typesToCheck);
             int closestOfficerDistanz = HowCloseTo(closestOfficerMention.location[0], "fficer", 500);
 
             if (closestOfficerDistanz < 500 || closestDatenschutzbeaufDistanz < 500)
@@ -1291,10 +1321,10 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //DataProtectionOfficer.name
 
-            UniEntity.mention closestDatenschutzbeaufPersonMention = GetOverallClosestMentionOfTypeToString(result, "PERSON", deutschDatenschutz, dataProtMode);
+            UniEntityResponse.mention closestDatenschutzbeaufPersonMention = GetOverallClosestMentionOfTypeToString(result, "PERSON", deutschDatenschutz, dataProtMode);
             int closestDatenschutzbeaufPersonDistanz = HowCloseTo(closestDatenschutzbeaufPersonMention.location[0], deutschDatenschutz, 250);
 
-            UniEntity.mention closestOfficerPersonMention = GetOverallClosestMentionOfTypeToString(result, "PERSON", "fficer", dataProtMode);
+            UniEntityResponse.mention closestOfficerPersonMention = GetOverallClosestMentionOfTypeToString(result, "PERSON", "fficer", dataProtMode);
             int closestOfficerPersonDistanz = HowCloseTo(closestOfficerPersonMention.location[0], "fficer", 250);
 
             if (closestOfficerDistanz < 250 || closestDatenschutzbeaufDistanz < 250)
@@ -1314,10 +1344,10 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //DataProtectionOfficer.email
 
-            UniEntity.mention datProtEmailMentionDE = GetOverallClosestMentionOfTypeToString(result, "EMAILADDRESS", deutschDatenschutz, dataProtMode);
+            UniEntityResponse.mention datProtEmailMentionDE = GetOverallClosestMentionOfTypeToString(result, "EMAILADDRESS", deutschDatenschutz, dataProtMode);
             int datProtEmailDistanzDE = HowCloseTo(datProtEmailMentionDE.location[0], deutschDatenschutz, 250);
 
-            UniEntity.mention datProtEmailMentionEN = GetOverallClosestMentionOfTypeToString(result, "EMAILADDRESS", "fficer", dataProtMode);
+            UniEntityResponse.mention datProtEmailMentionEN = GetOverallClosestMentionOfTypeToString(result, "EMAILADDRESS", "fficer", dataProtMode);
             int datProtEmailDistanzEN = HowCloseTo(datProtEmailMentionEN.location[0], "fficer", 250);
 
             if(datProtEmailDistanzDE < 250 || datProtEmailDistanzEN < 250)
@@ -1337,10 +1367,10 @@ namespace NLPServiceEndpoint_Console_Ver
 
             //DataProtectionOfficer.phone
 
-            UniEntity.mention datProtPhoneMentionDE = GetOverallClosestMentionOfTypeToString(result, "PHONENUMBER", deutschDatenschutz, dataProtMode);
+            UniEntityResponse.mention datProtPhoneMentionDE = GetOverallClosestMentionOfTypeToString(result, "PHONENUMBER", deutschDatenschutz, dataProtMode);
             int datProtPhoneDistanzDE = HowCloseTo(datProtPhoneMentionDE.location[0], deutschDatenschutz, 250);
 
-            UniEntity.mention datProtPhoneMentionEN = GetOverallClosestMentionOfTypeToString(result, "PHONENUMBER", "fficer", dataProtMode);
+            UniEntityResponse.mention datProtPhoneMentionEN = GetOverallClosestMentionOfTypeToString(result, "PHONENUMBER", "fficer", dataProtMode);
             int datProtPhoneDistanzEN = HowCloseTo(datProtPhoneMentionEN.location[0], "fficer", 250);
 
             if (datProtPhoneDistanzDE < 250 || datProtPhoneDistanzEN < 250)
@@ -1362,7 +1392,8 @@ namespace NLPServiceEndpoint_Console_Ver
 
             foreach (var resultEntity in result.entities)
             {
-                if (String.Compare(resultEntity.type, "Ordinal") == 0 && (resultEntity.text.Length > 15))
+                //Should be if it is a type of information that is collected. Barely represented in the Entities.
+                if (String.Compare(resultEntity.type, "Ordinal") == 0 && (resultEntity.text.Length > 15))   //ordinal not really accurate
                 {
                     TIL.DataDisclosed newDataDisclosed = new TIL.DataDisclosed();
                     newDataDisclosed.category = resultEntity.text;
@@ -1371,7 +1402,7 @@ namespace NLPServiceEndpoint_Console_Ver
 
                     foreach (var innerEntity in result.entities)
                     {
-                        //todo fill datadisclosed elem
+                        //fill datadisclosed elem - fruitless if ordinal is not correct.
                     }
 
                     ibm_til.dataDisclosed.Add(newDataDisclosed);
@@ -1381,11 +1412,11 @@ namespace NLPServiceEndpoint_Console_Ver
 
             #endregion
 
-        #region thirdCountryTransfers TODO
+        #region thirdCountryTransfers 
 
             #endregion
 
-        #region sources TODO
+        #region sources 
 
             #endregion
 
@@ -1414,7 +1445,7 @@ namespace NLPServiceEndpoint_Console_Ver
             foreach (var item in AllOccurrancesOfText("rechte"))
             {   rightLocations.Add(item); }
 
-            #region accessAndDataPortability TODO
+            #region accessAndDataPortability 
             closestDistance = int.MaxValue;
             closestRightLocation = int.MaxValue;
             rightRelevantLocation = int.MaxValue;
@@ -1438,7 +1469,7 @@ namespace NLPServiceEndpoint_Console_Ver
             //ibm_til.accessAndDataPortability.dataFormats = 
             #endregion
 
-            #region rightToInformation todo
+            #region rightToInformation 
             closestDistance = int.MaxValue;
             closestRightLocation = int.MaxValue;
             rightRelevantLocation = int.MaxValue;
@@ -1463,7 +1494,7 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             #endregion
 
-            #region rightToRectificationOrDeletion todo
+            #region rightToRectificationOrDeletion 
             closestDistance = int.MaxValue;
             closestRightLocation = int.MaxValue;
             rightRelevantLocation = int.MaxValue;
@@ -1495,7 +1526,7 @@ namespace NLPServiceEndpoint_Console_Ver
             rightRelevantLocation = int.MaxValue;
 
             rightRelevantEN = " transfer ";
-            rightRelevantDE = " über"; //todo maybe mit regex...
+            rightRelevantDE = " über"; 
 
             rightRelevantENControl = "delet";
             rightRelevantDEControl = "ösch";
@@ -1667,7 +1698,7 @@ namespace NLPServiceEndpoint_Console_Ver
             ibm_til.controller.address = GetTextAroundHere(closestLocationMention.location[0], 40, 30);
             if (!firstClosestMention.text.Contains("[No"))
             {
-                UniEntity.mention help = FindClosestMentionOfType(result, "FACILITY", firstClosestMention.location[0]);//TODO Watch out, IBM only..
+                UniEntityResponse.mention help = FindClosestMentionOfType(result, "FACILITY", firstClosestMention.location[0], typesToCheck);//TODO Watch out, IBM only..
                 if (!help.text.Contains("[No entity"))
                 {
                     ibm_til.controller.division = GetTextAroundHere(help.location[0], 40, 30);
@@ -1676,8 +1707,6 @@ namespace NLPServiceEndpoint_Console_Ver
             //evtl bei facility eine Mindestlänge fordern
             return ibm_til;
         }
-
-
 
         #endregion
 
@@ -1709,29 +1738,25 @@ namespace NLPServiceEndpoint_Console_Ver
 
             Console.WriteLine("Done");
         }
-        private static TIL AnalyseAWSEntityResponse(UniEntity response)
-        {
-            return AnalyseIBMEntityResponse(response);
-        }
-        private static UniEntity AWSCompleteEntityRecognition(string input)
+        private static UniEntityResponse AWSCompleteEntityRecognition(string input)
         {
             string[] datenSplit = SplitDatenschutz(input);
-            UniEntity[] entResultEntities = new UniEntity[datenSplit.Length];
+            UniEntityResponse[] entResultEntities = new UniEntityResponse[datenSplit.Length];
             for (int i = 0; i < datenSplit.Length; i++)
             {
                 entResultEntities[i] = ConvertAWSToUniEntity(AWSEntityRecognize(datenSplit[i]));
             }
             Console.WriteLine("AWS rec. done, combining results...");
-            UniEntity awsResEnt = CombineUniEntitySplitParts(entResultEntities);
+            UniEntityResponse awsResEnt = CombineUniEntitySplitParts(entResultEntities);
             Console.WriteLine("AWS results successfully combined.");
 
             return awsResEnt;
         }
-        private static UniEntity ConvertAWSToUniEntity(DetectEntitiesResponse awsResponse)
+        private static UniEntityResponse ConvertAWSToUniEntity(DetectEntitiesResponse awsResponse)
         {
 
-            UniEntity result = new UniEntity();
-            result.entities = new List<UniEntity.entity>();
+            UniEntityResponse result = new UniEntityResponse();
+            result.entities = new List<UniEntityResponse.entity>();
             result.language = "";
             Boolean EntityAlreadyExists;
             foreach (var awsEntity in awsResponse.Entities)
@@ -1746,7 +1771,7 @@ namespace NLPServiceEndpoint_Console_Ver
                         {
                             //Combining existing entities. Should mainly be adding mentions.
 
-                            UniEntity.mention newMention = new UniEntity.mention();
+                            UniEntityResponse.mention newMention = new UniEntityResponse.mention();
                             newMention.confidence = awsEntity.Score;
                             newMention.text = awsEntity.Text;
                             newMention.location = new List<int>();
@@ -1763,15 +1788,15 @@ namespace NLPServiceEndpoint_Console_Ver
                 if (!EntityAlreadyExists)
                 {
                     //Add new Entity
-                    UniEntity.entity resEnt = new UniEntity.entity();
+                    UniEntityResponse.entity resEnt = new UniEntityResponse.entity();
                     resEnt.type = awsEntity.Type.ToString().ToUpper().Replace("_", "");
                     //resEnt.type = resEnt.type[0] + resEnt.type[1..].ToLower();
                     resEnt.text = awsEntity.Text;
                     resEnt.confidence = awsEntity.Score;
                     resEnt.relevance = 0;
-                    resEnt.mentions = new List<UniEntity.mention>();
+                    resEnt.mentions = new List<UniEntityResponse.mention>();
 
-                    UniEntity.mention newMention = new UniEntity.mention();
+                    UniEntityResponse.mention newMention = new UniEntityResponse.mention();
 
                     //adding the mention
                     newMention.text = awsEntity.Text;
@@ -1860,6 +1885,15 @@ namespace NLPServiceEndpoint_Console_Ver
             int[] result = new int[] { closestDistance, closestRightLocation, rightRelevantLocation };
             return result;
         }
+        /// <summary>
+        /// Returns whether or not a specified string can be found
+        /// in the given range around the start offset.
+        /// Checks in the string "datenschutzerkl".
+        /// </summary>
+        /// <param name="text"></param>
+        /// <param name="start"></param>
+        /// <param name="range"></param>
+        /// <returns>boolean result of Search within range</returns>
         private static Boolean IsThisCloseTo(string text, int start, int range = 100, string mode = "normal", bool caseInsensitive = false) //todo give List<String> to search for
         {
             int datLen = datenschutzerkl.Length;
@@ -1931,12 +1965,20 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return false;
         }
-        private static string GetTextAroundHere(int start, int leftrange, int rightrange = -1) //TODO make more readable results and such - done
+        /// <summary>
+        /// Liest aus "datenschutzerkl." in dem angegebenen Radius. 
+        /// </summary>
+        /// <param name="start"></param>
+        /// <param name="leftrange"></param>
+        /// <param name="rightrange"></param>
+        /// <returns></returns>
+        private static string GetTextAroundHere(int start, int leftrange, int rightrange = -1)
         {
             int datLen = datenschutzerkl.Length;
             if (rightrange == -1)
             { rightrange = leftrange; }
 
+            //if-Abfragen verhindern outOfBounds-exceptions
             if (datLen - 1 < start + rightrange && start < leftrange)
             {
                 return Readable(datenschutzerkl.Substring(0, datLen));
@@ -2049,17 +2091,17 @@ namespace NLPServiceEndpoint_Console_Ver
         /// <param name="mode"></param>
         /// <param name="ignoreList"></param>
         /// <returns>Entity Mention of the given type closest to the start location</returns>
-        private static UniEntity.mention FindClosestMentionOfType(UniEntity root, string type, int start, string[] types = null, string mode = "normal", string[] ignoreList = null)
+        private static UniEntityResponse.mention FindClosestMentionOfType(UniEntityResponse root, string type, int start, string[] types = null, string mode = "normal", string[] ignoreList = null)
         {
-            UniEntity.entity closestEntity = new UniEntity.entity();
-            UniEntity.mention closestMention = new UniEntity.mention();
+            UniEntityResponse.entity closestEntity = new UniEntityResponse.entity();
+            UniEntityResponse.mention closestMention = new UniEntityResponse.mention();
             closestEntity.text = "[No entity of type \"" + type + "\" found.]";
             closestMention.text = "[No entity of type \"" + type + "\" found.]";
             int closestDistance = int.MaxValue;
             bool isOfCorrectType = false;
             bool foundInIgnore = false;
 
-            foreach (UniEntity.entity entity in root.entities)
+            foreach (UniEntityResponse.entity entity in root.entities)
             {
                 isOfCorrectType = false;
                 if (types != null)
@@ -2093,7 +2135,7 @@ namespace NLPServiceEndpoint_Console_Ver
                     if (foundInIgnore)
                     { continue; }
                 }
-                foreach (UniEntity.mention mention in entity.mentions)
+                foreach (UniEntityResponse.mention mention in entity.mentions)
                 {
                     if (String.Compare(mode, "before") == 0)
                     {
@@ -2118,13 +2160,13 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return closestMention;
         }
-        private static UniEntity.mention GetEarliestMention(UniEntity.entity entity)
+        private static UniEntityResponse.mention GetEarliestMention(UniEntityResponse.entity entity)
         {
             int earliest = int.MaxValue;
-            UniEntity.mention earliestMention = new UniEntity.mention();
+            UniEntityResponse.mention earliestMention = new UniEntityResponse.mention();
             if (entity.mentions != null)
             {
-                foreach (UniEntity.mention mention in entity.mentions)
+                foreach (UniEntityResponse.mention mention in entity.mentions)
                 {
                     if (mention.location[0] < earliest)
                     {
@@ -2135,10 +2177,20 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return earliestMention;
         }
-        private static UniEntity.mention GetOverallClosestMentionOfType(UniEntity root, string type, UniEntity.entity entity, string mode = "normal", string[] types = null, string[] ignoreList = null)
+        /// <summary>
+        /// Finds the mention (of the correct type) that is closest to any of the mentions of the input entity.
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="type"></param>
+        /// <param name="entity"></param>
+        /// <param name="mode"></param>
+        /// <param name="types"></param>
+        /// <param name="ignoreList"></param>
+        /// <returns></returns>
+        private static UniEntityResponse.mention GetOverallClosestMentionOfType(UniEntityResponse root, string type, UniEntityResponse.entity entity, string mode = "normal", string[] types = null, string[] ignoreList = null)
         {
             //IBMEntity.entity closestEntity = new IBMEntity.entity();
-            UniEntity.mention closestMention = new UniEntity.mention();
+            UniEntityResponse.mention closestMention = new UniEntityResponse.mention();
             //closestEntity.text = "[No entity of type \"" + types + "\" found.]";
             closestMention.location = new List<int>(); //TODO watch out for empty locations
             closestMention.location.Add(0);
@@ -2148,7 +2200,7 @@ namespace NLPServiceEndpoint_Console_Ver
 
             int closestDistance = int.MaxValue;
             bool isOfCorrectType = false;
-            foreach (UniEntity.entity item in root.entities)
+            foreach (UniEntityResponse.entity item in root.entities)
             {
                 isOfCorrectType = false;
                 if (types != null)
@@ -2180,9 +2232,9 @@ namespace NLPServiceEndpoint_Console_Ver
                     if (ignoreFound)
                     { continue; }
                 }
-                foreach (UniEntity.mention entityMention in entity.mentions)
+                foreach (UniEntityResponse.mention entityMention in entity.mentions)
                 {
-                    foreach (UniEntity.mention itemMention in item.mentions)
+                    foreach (UniEntityResponse.mention itemMention in item.mentions)
                     {
                         if (String.Compare(mode, "after") == 0)
                         {
@@ -2216,11 +2268,20 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return closestMention;
         }
-        private static UniEntity.mention GetOverallClosestMentionOfTypeToString(UniEntity root, string type, string text, string mode = "normal", string[] types = null)
+        /// <summary>
+        /// Finds the closest mention (of the correct type) to all occurances of the input text in the string datenschutzerkl
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="type"></param>
+        /// <param name="text"></param>
+        /// <param name="mode"></param>
+        /// <param name="types"></param>
+        /// <returns></returns>
+        private static UniEntityResponse.mention GetOverallClosestMentionOfTypeToString(UniEntityResponse root, string type, string text, string mode = "normal", string[] types = null)
         {
             int ClosestDistance = int.MaxValue;
             int distance;
-            UniEntity.mention closestMention = new UniEntity.mention();
+            UniEntityResponse.mention closestMention = new UniEntityResponse.mention();
             closestMention.location = new List<int>();
             closestMention.location.Add(0);
             closestMention.location.Add(0);
@@ -2256,6 +2317,7 @@ namespace NLPServiceEndpoint_Console_Ver
             }
             return closestMention;
         }
+        
         private static int HowCloseTo(int location, string text, int maxRange = 500, string mode = "normal", bool caseInsensitive = false)
         { 
             for (int i = 0; i < maxRange; i++)
@@ -2292,36 +2354,41 @@ namespace NLPServiceEndpoint_Console_Ver
 
             for (int i = 0; i < 100000; i++)
             {
-                Console.WriteLine("Please choose (A)WS, (M)icrosoft, (G)oogle, (I)BM, (C)ombined or (q)uit\n");
+                Console.WriteLine("Please choose (A)WS, (M)icrosoft, (G)oogle, (I)BM, (C)ombined, (T)ype specific combined or (q)uit\n");
                 read = Console.ReadLine();
                 datenschutzerkl = "";
                 string inputLine = "";
                 switch (read)
                 {
                     case "A":   //CASE AWS
-                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        Console.WriteLine("Please insert the filename of a text to be analysed\n");
                         inputLine = Console.ReadLine();
                         entityRecognitionExecute(deMode, "A", inputLine);
                         return;
                     case "M":   //CASE MICROSOFT AZURE
-                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        Console.WriteLine("Please insert the filename of a text to be analysed\n");
                         inputLine = Console.ReadLine();
                         entityRecognitionExecute(deMode, "M", inputLine);
                         return;
                     case "G":   //CASE GOOGLE
-                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        Console.WriteLine("Please insert the filename of a text to be analysed\n");
                         inputLine = Console.ReadLine();
                         entityRecognitionExecute(deMode, "G", inputLine);
                         return;
                     case "I":   //CASE IBM
-                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        Console.WriteLine("Please insert the filename of a text to be analysed\n");
                         inputLine = Console.ReadLine();
                         entityRecognitionExecute(deMode, "I", inputLine);
                         return;
                     case "C": //CASE COMBINED
-                        Console.WriteLine("Please insert text or filename of a text to be analysed\n");
+                        Console.WriteLine("Please insert the filename of a text to be analysed\n");
                         inputLine = Console.ReadLine();
                         entityRecognitionExecute(deMode, "C", inputLine);
+                        return;
+                    case "T": //CASE COMBINED
+                        Console.WriteLine("Please insert the filename of a text to be analysed\n");
+                        inputLine = Console.ReadLine();
+                        entityRecognitionExecute(deMode, "T", inputLine);
                         return;
                     case "q":
                         return;
@@ -2334,12 +2401,13 @@ namespace NLPServiceEndpoint_Console_Ver
         }
         public static void FullRun()
         {
-            Dictionary<int, string> serviceCodes = new Dictionary<int, string>();
-            serviceCodes.Add(0, "A");
-            serviceCodes.Add(1, "M");
-            serviceCodes.Add(2, "G");
-            serviceCodes.Add(3, "I");
-            serviceCodes.Add(4, "C");
+            Dictionary<string, int> serviceCodes = new Dictionary<string, int>();
+            serviceCodes.Add("A", 1);
+            serviceCodes.Add("M", 1);
+            serviceCodes.Add("G", 1);
+            serviceCodes.Add("I", 1);
+            serviceCodes.Add("C", 1);
+            serviceCodes.Add("T", 1);
 
             Console.WriteLine("Please insert input directory name");
             string read = Console.ReadLine();
@@ -2349,13 +2417,29 @@ namespace NLPServiceEndpoint_Console_Ver
                 Console.WriteLine("Sorry, this directory could not be found.");
                 return;
             }
+
+            Console.WriteLine("If you do NOT want to use certain services, please enter the corresponding letters separated by a space. \nOtherwise, just press enter.");
+            Console.WriteLine("The Service Codes are: (A)WS, (M)icrosoft, (G)oogle, (I)BM, (C)ombined and (T)ype specific combined");
+            string read2 = Console.ReadLine();
+            string[] read3 = read2.Split(" ");
+            foreach (var item in read3)
+            {
+                if (serviceCodes.ContainsKey(item))
+                {
+                    serviceCodes[item] = 0;
+                }
+            }
+
             foreach (var fileName in Directory.GetFiles(read))
             {
                 if(String.Compare(Path.GetExtension(fileName), ".txt") == 0)
                 {
-                    for (int i = 0; i < 5; i++)
+                    foreach (var key in serviceCodes.Keys)
                     {
-                        entityRecognitionExecute("a", serviceCodes[i], fileName);
+                        if (serviceCodes[key] == 1)
+                        {
+                            entityRecognitionExecute("a", key, fileName);
+                        }
                     }
                 }
             }
@@ -2364,13 +2448,7 @@ namespace NLPServiceEndpoint_Console_Ver
         }
         private static void entityRecognitionExecute(string deMode, string serviceCode, string inputLine)
         {
-            //if (deMode == "a")
-            //{ Console.WriteLine("Please insert the filename of a text to be analysed\n"); }
-            //else
-            //{ Console.WriteLine("Please insert text or filename of a text to be analysed\n"); }
 
-            //Console.WriteLine("Please insert text or filename of a text to be analysed\n");
-            //string inputLine = Console.ReadLine();
             string outputPathWithoutFileExtension;
 
             if (String.IsNullOrEmpty(inputLine))
@@ -2383,7 +2461,7 @@ namespace NLPServiceEndpoint_Console_Ver
                 inputPath = inputLine;
                 outputPathWithoutFileExtension = Path.GetDirectoryName(inputPath)+ "\\" +Path.GetFileNameWithoutExtension(inputPath)+"#"+serviceCode;
                 datenschutzerkl = File.ReadAllText(inputLine); //TODO eher jedes Mal wenn nötig einlesen.
-                UniEntity responseEntity = new UniEntity();
+                UniEntityResponse responseEntity = new UniEntityResponse();
                 switch (serviceCode)
                 {
                     case "I":
@@ -2408,7 +2486,7 @@ namespace NLPServiceEndpoint_Console_Ver
                         break;
                     case "C":
                         Console.WriteLine("Beginning Combined recognition...");
-                        UniEntity[] allServiceResults = new UniEntity[4];
+                        UniEntityResponse[] allServiceResults = new UniEntityResponse[4];
 
                         Console.WriteLine("Google - Beginning recognition...");
                         allServiceResults[0] = GoogleCompleteEntityRecognition(datenschutzerkl);
@@ -2428,11 +2506,40 @@ namespace NLPServiceEndpoint_Console_Ver
 
                         Console.WriteLine("Combining results...");
 
-                        responseEntity = CombineUniEntities(allServiceResults);
+                        //responseEntity = CombineUniEntities(allServiceResults);
+                        responseEntity = FuseUniEntities(allServiceResults, false);
 
                         Console.WriteLine("Results successfully combined.");
 
                         Console.Write("Combined recognition");
+                        break;
+                    case "T":
+                        Console.WriteLine("Beginning type specific combined recognition...");
+                        UniEntityResponse[] allServiceResults2 = new UniEntityResponse[4];
+
+                        Console.WriteLine("Google - Beginning recognition...");
+                        allServiceResults2[0] = GoogleCompleteEntityRecognition(datenschutzerkl);
+                        Console.WriteLine("Google - Recognition finished.");
+
+                        Console.WriteLine("IBM - Beginning recognition...");
+                        allServiceResults2[1] = IBMCompleteEntityRecognition(datenschutzerkl);
+                        Console.WriteLine("IBM - Recognition finished.");
+
+                        Console.WriteLine("AWS - Beginning recognition...");
+                        allServiceResults2[2] = AWSCompleteEntityRecognition(datenschutzerkl);
+                        Console.WriteLine("AWS - Recognition finished.");
+
+                        Console.WriteLine("Microsoft - Beginning recognition...");
+                        allServiceResults2[3] = MicrosoftCompleteEntityRecognition(datenschutzerkl);
+                        Console.WriteLine("Microsoft - Recognition finished.");
+
+                        Console.WriteLine("Combining results...");
+
+                        responseEntity = FuseUniEntities(allServiceResults2, true);
+
+                        Console.WriteLine("Results successfully combined.");
+
+                        Console.Write("Type specific combined recognition");
                         break;
                     default:
                         return;
@@ -2447,34 +2554,40 @@ namespace NLPServiceEndpoint_Console_Ver
                         case "I":
                             Console.WriteLine("IBM - Beginning processing...");
                             //printTILResult(AnalyseIBMEntityResponse(responseEntity));
-                            res = AnalyseIBMEntityResponse(responseEntity);
-                            printTILResultReadable(AnalyseIBMEntityResponse(responseEntity));
+                            res = AnalyseResponseUniEntity(responseEntity);
+                            printTILResultReadable(AnalyseResponseUniEntity(responseEntity));
                             Console.Write("IBM");
                             break;
                         case "A":
                             Console.WriteLine("AWS - Beginning processing...");
-                            res = AnalyseAWSEntityResponse(responseEntity);
+                            res = AnalyseResponseUniEntity(responseEntity);
                             printTILResultReadable(res);
                             Console.Write("AWS");
                             break;
                         case "M":
                             Console.WriteLine("Microsoft - Beginning processing...");
-                            res = AnalyseMicrosoftEntityResponse(responseEntity);
+                            res = AnalyseResponseUniEntity(responseEntity);
                             printTILResultReadable(res);
                             Console.Write("Microsoft");
                             break;
                         case "G":
                             Console.WriteLine("Google - Beginning processing...");
-                            res = AnalyseGoogleEntityResponse(responseEntity);
+                            res = AnalyseResponseUniEntity(responseEntity);
                             printTILResultReadable(res);
                             Console.Write("Google");
                             break;
                         case "C":
                             Console.WriteLine("Beginning combined processing...");
                             //printTILResult(AnalyseCombinedEntityResponse(responseEntity));
-                            res = AnalyseCombinedEntityResponse(responseEntity);
+                            res = AnalyseResponseUniEntity(responseEntity);
                             printTILResultReadable(res);
                             Console.Write("Combined processing");
+                            break;
+                        case "T":
+                            Console.WriteLine("Beginning type specific combined processing...");
+                            res = AnalyseResponseUniEntity(responseEntity);
+                            printTILResultReadable(res);
+                            Console.Write("Type specific combined processing");
                             break;
                         default:
                             return;
@@ -2486,43 +2599,32 @@ namespace NLPServiceEndpoint_Console_Ver
                     saveEntityResult(responseEntity, outputPathWithoutFileExtension);
                 }
                 else
-                {
+                {   //print entities
                     responseEntity.entities = responseEntity.entities.OrderBy(ent => ent.type).ToList();    //order by type 
                     string output = "";
                     foreach (var entity in responseEntity.entities)
                     {
                         output += "Type: " + entity.type;
-                        //Console.Write("Type: " + entity.type);
-                        if (entity.subcategory != null && String.Compare(entity.subcategory, "")!=0)
-                        {
-                            output += ", Subcategory: " + entity.subcategory;
-                            //Console.Write(", Subcategory: " + entity.subcategory); 
-                        }
+                        if (entity.subcategory != null && String.Compare(entity.subcategory, "") != 0)
+                        {   output += ", Subcategory: " + entity.subcategory;   }
+
                         if (entity.relevance != 0)
-                        {
-                            output += ", Relevance: " + entity.relevance;
-                            //Console.Write(", Relevance: " + entity.relevance); 
-                        }
+                        {   output += ", Relevance: " + entity.relevance;   }
+
                         output += ", Text: \"" + entity.text + "\", mentions:\t";
-                        //Console.Write(", Text: \"" + entity.text + "\", mentions:\t");
                         foreach (var mention in entity.mentions)
-                        {
-                            output += "" + mention.location[0] + "-" + mention.location[1] + "; ";
-                            //Console.Write("" + mention.location[0] + "-" + mention.location[1]+"; ");
-                        }
+                        {   output += "" + mention.location[0] + "-" + mention.location[1] + "; ";  }
+
                         output += "\n";
-                        //Console.WriteLine("");
                         if (entity.Metadata != null)
                         {
                             if (entity.Metadata.Count > 0)
                             {
                                 output += "\tMetaData: \n";
-                                //Console.WriteLine("\tMetaData: ");
                         
                                 foreach (var meta in entity.Metadata)
                                 {
                                     output += "\tKey: " + meta.Key + "; Value: " + meta.Value + "\n";
-                                    //Console.WriteLine("\tKey: "+meta.Key+"; Value: "+meta.Value);   
                                 }
 
                             }
@@ -2536,7 +2638,7 @@ namespace NLPServiceEndpoint_Console_Ver
             {   Console.WriteLine("Sorry, no file with that path/name could be found.");    }
             return;
         }
-        private static void saveEntityResult(UniEntity entityRes, string filePathWithoutExtension)
+        private static void saveEntityResult(UniEntityResponse entityRes, string filePathWithoutExtension)
         {
             string resultDirectory = Path.GetDirectoryName(filePathWithoutExtension) + "\\Responses";
             if (!Directory.Exists(resultDirectory))
@@ -2546,7 +2648,7 @@ namespace NLPServiceEndpoint_Console_Ver
             filePathWithoutExtension += ".json";
             filePathWithoutExtension = resultDirectory + "\\" + Path.GetFileName(filePathWithoutExtension);
             Console.WriteLine("Trying to save file " + filePathWithoutExtension);
-            File.WriteAllText(filePathWithoutExtension, JsonConvert.SerializeObject(entityRes));//.Replace("\",", "\",\n\t").Replace(",\"", ",\n\t\"").Replace(",{", ",\n{\n"));
+            File.WriteAllText(filePathWithoutExtension, JsonConvert.SerializeObject(entityRes));//.Replace("\",", "\",\n\t").Replace(",\"", ",\n\t\"").Replace(",{", ",\n{\n"));    //für Lesbarkeit
 
             return;
         }
@@ -2565,20 +2667,12 @@ namespace NLPServiceEndpoint_Console_Ver
             return;
         }
 
-        private static TIL AnalyseCombinedEntityResponse(UniEntity responseEntity)
-        {
-            return AnalyseIBMEntityResponse(responseEntity);
-        }
-
         /// <summary>
-        /// Returns whether or not a specified string can be found
-        /// in the given range around the start offset of another.
-        /// Checks in the string "datenschutzerkl".
+        /// Gibt den Inputstring in size (standardmäßig splitsize) großen Teilen zurück.
         /// </summary>
-        /// <param name="text"></param>
-        /// <param name="start"></param>
-        /// <param name="range"></param>
-        /// <returns>boolean result of Search within range</returns>
+        /// <param name="input"></param>
+        /// <param name="size"></param>
+        /// <returns></returns>
         private static string[] SplitDatenschutz(string input, int size = -1)
         {
             if (size == -1)
@@ -2612,21 +2706,20 @@ namespace NLPServiceEndpoint_Console_Ver
         /// </summary>
         /// <param name="input"></param>
         /// <returns>The combined entity as if the service had processed the entire file</returns>
-        private static UniEntity CombineUniEntitySplitParts(UniEntity[] input)
+        private static UniEntityResponse CombineUniEntitySplitParts(UniEntityResponse[] input)
         {
             if (input.Length == 0)
             {
                 return null;
             }
-            UniEntity resEntity = input[0];
-            //UniEntity resEntity = ConvertIBMJson(input[0]);
+            UniEntityResponse resEntity = input[0];
             for (int i = 1; i < input.Length; i++)
             {
-                UniEntity midEntity = input[i];
-                foreach (UniEntity.entity entity in midEntity.entities)
+                UniEntityResponse midEntity = input[i];
+                foreach (UniEntityResponse.entity entity in midEntity.entities)
                 {
-                    foreach (UniEntity.mention mention in entity.mentions)
-                    {
+                    foreach (UniEntityResponse.mention mention in entity.mentions)
+                    {   //fixt die location-offsets da der Text in Segmenten verschickt wurde
                         mention.location[0] += splitsize * i;
                         mention.location[1] += splitsize * i;
                     }
@@ -2647,20 +2740,104 @@ namespace NLPServiceEndpoint_Console_Ver
         /// Can be used to cómbine multiple Services' results
         /// </summary>
         /// <param name="input"></param>
-        /// <returns>The combined UniEntity</returns>
-        private static UniEntity CombineUniEntities(UniEntity[] input)
+        /// <returns>The combined UniEntityResponse</returns>
+        private static UniEntityResponse CombineUniEntities(UniEntityResponse[] input)
         {
             if (input.Length == 0)
             {
                 return null;
             }
-            UniEntity resEntity = input[0];
+            UniEntityResponse resEntity = input[0];
             for (int i = 1; i < input.Length; i++)
             {
                 resEntity += input[i];
             }
             return resEntity;
         }
+        /// <summary>
+        /// Combines multiple UniEntities with certain restrictions.
+        /// Can be used to cómbine multiple Services' results
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns>The combined UniEntityResponse</returns>
+        private static UniEntityResponse FuseUniEntities(UniEntityResponse[] input, bool sameTypesOnly)
+        {
+            if (input.Length == 0)
+            {    return null;    }
+            UniEntityResponse resEntity = new UniEntityResponse();
+            resEntity.usage = input[0].usage;
+            resEntity.language = input[0].language;
+            resEntity.entities = new List<UniEntityResponse.entity>();
+
+
+            foreach (UniEntityResponse iER1 in input)
+            {
+                if (String.Compare(iER1.language, "")!=0)
+                {   resEntity.language = iER1.language;   }
+                foreach (UniEntityResponse.entity ent1 in iER1.entities)
+                {
+                    List<UniEntityResponse.mention> entMentions = new List<UniEntityResponse.mention>();
+
+                    foreach (UniEntityResponse iER2 in input)
+                    {
+                        bool found = false;
+                        if (iER1 == iER2)
+                        {   continue;   }
+                        foreach (UniEntityResponse.entity ent0 in resEntity.entities)
+                        {
+                            if (String.Compare(ent1.text, ent0.text) == 0)
+                            {
+                                if (!sameTypesOnly)
+                                {
+                                    found = true;
+                                    break;
+                                }
+                                else if(String.Compare(ent1.type, ent0.type) == 0)
+                                {
+                                    found = true;
+                                    break;
+                                }
+                            }
+                        }
+                        if (found)
+                        { break; }
+                        foreach (UniEntityResponse.entity ent2 in iER2.entities)
+                        {
+
+                            if (String.Compare(ent1.text, ent2.text)==0)
+                            {
+                                if (sameTypesOnly && String.Compare(ent1.type, ent2.type) != 0)
+                                { continue; }
+
+                                foreach (UniEntityResponse.mention ment1 in ent1.mentions)
+                                {
+                                    foreach (UniEntityResponse.mention ment2 in ent2.mentions)
+                                    {
+                                        if (ment1.location[0] == ment2.location[0])
+                                        {
+                                            entMentions.Add(ment1);
+                                            break;
+                                        }
+                                    }
+                                }
+                                if (entMentions.Count != 0)
+                                {
+                                    ent1.mentions = entMentions;
+                                    resEntity.entities.Add(ent1);
+                                    found = true;
+                                    break;
+                                }
+                            }
+                        }
+                        if (found)
+                        {   break;  }
+                    }
+                }
+            }
+            //todo
+            return resEntity;
+        }
+
 
         #endregion Allgemein
 
@@ -2953,7 +3130,6 @@ namespace NLPServiceEndpoint_Console_Ver
                 Console.WriteLine("\tchangesOfPurpose.urlOfNewVersion: " + changeOfPurpose.urlOfNewVersion);
             }
             Console.WriteLine("");
-            //Console.WriteLine(datenschutzerkl.Replace("\r\n", "WHAT"));
             return;
         }
       #endregion
@@ -2962,10 +3138,9 @@ namespace NLPServiceEndpoint_Console_Ver
 
 //NOTIZEN
 
-    //TODO:
+    //TODO / Mögliche Verbesserungen:
     //  Evtl Bei Google Entities mit den gleichen Metadaten (zB Wikieinträge) zu einem kombinieren.
-    //maybe die Datenschutzrichtlinie einteilen / trennen nach Absätzen zB 3.3.3.3
-    //make all categories capitalized done
+    // die Datenschutzrichtlinie einteilen / trennen nach Absätzen zB 3.3.3.3 ?
     //make it so if a txt file has been processed before, draw the results from a file if found. (toJSON, save in file -> extract from file, fromJson)
     //bei PERSON type die rausfiltern die "street" idN haben oder mit B. anfangen.
     //Clean up.
