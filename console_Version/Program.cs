@@ -39,26 +39,34 @@ namespace NLPServiceEndpoint_Console_Ver
                 {
                     Console.WriteLine("Please choose (d)emo, (a)nalyseDemo, (f)ullRun, (c)alculateAccuracy or (q)uit\n");
                     string read = Console.ReadLine();
-                    switch (read)
+                    try
                     {
-                        case "d":
-                            DemoRun("d");
-                            break;
-                        case "a":
-                            DemoRun("a");
-                            break;
-                        case "f":
-                            FullRun();
-                            break;
-                        case "q":
-                            i += 1000000;
-                            break;
-                        case "c":
-                            CalculateAccuracy();
-                            break;
-                        default:
-                            Console.WriteLine("Command not recognized");
-                            break;
+                        switch (read)
+                        {
+                            case "d":
+                                DemoRun("d");
+                                break;
+                            case "a":
+                                DemoRun("a");
+                                break;
+                            case "f":
+                                FullRun();
+                                break;
+                            case "q":
+                                i += 1000000;
+                                break;
+                            case "c":
+                                CalculateAccuracy();
+                                break;
+                            default:
+                                Console.WriteLine("Command not recognized");
+                                break;
+                        }
+
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("An error has arisen during execution: " + ex);
                     }
                 }
             }
@@ -872,9 +880,25 @@ namespace NLPServiceEndpoint_Console_Ver
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error while loading credentials: " + ex);
+                    Console.WriteLine("Continue anyways? Y/N");
+                    string akl = Console.ReadLine();
+                    if (String.Compare(akl, "Y")==0)
+                    {
+                        return 0;
+                    }
+                    else
+                    {
+                        return 1;
+                    }
                 }
             }
             Console.WriteLine("Config file not Found, please put a file by the name of nlpConfig.config in the same folder as the program.");
+            Console.WriteLine("Continue anyways? Y/N");
+            string ak = Console.ReadLine();
+            if (String.Compare(ak, "Y") == 0)
+            {
+                return 0;
+            }
             return 1;
         }
 
