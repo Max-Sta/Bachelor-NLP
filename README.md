@@ -17,3 +17,4 @@ In dieser Reihenfolge, beginnend in der ersten Zeile, und danach in jeweils eine
 Für selektive Services (z.B. wenn nur Microsoft-Authentifizierungsdaten zur Hand sind) die anderen Zeilen leer lassen, aber trotzdem die Zeilenreihenfolge beachten.
 
 Bisher ist eine eigenständige Kompilierung notwendig.
+Um den NLP-Service von AWS zu nutzen, muss vor der Kompilierung auch noch das "AWS Toolkit for Visual Studio" installiert, und ein entsprechendes Profil angelegt werden.
