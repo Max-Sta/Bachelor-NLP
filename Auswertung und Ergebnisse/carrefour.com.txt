@@ -1,0 +1,119 @@
+Introduction
+Carrefour is engaged in a policy aiming at respecting and maintening high standards in terms of ethics and in particular for the protection of personal data. 
+
+On the www.carrefour.com website, Carrefour implements processing of personal data, acting as data controller. Identification and contact details for Carrefour are set out in the “Legal Notices” section.
+
+The purpose of this External Personal Data Protection Policy is to inform you on the manner in which the data are processed by Carrefour and the scope of your rights.
+
+It may be subject to change depending on the applicable legal and regulatory framework. 
+
+1. Legal bases and purposes of processing
+Carrefour implements various types of processing operations with the following legal bases and purposes: 
+
+o    management and tracking of requests for information and complaints, where applicable;
+o    management and tracking of requests for stock subscriptions and/or subscriptions to publications and various communications, in addition to news flows;
+o    management of cookies not subject to consent;
+o    sales canvassing.
+
+-    Purposes of processing operations based on your consent:
+o    management of cookies subject to consent.
+
+Processing operations that are based on the pursuit of Carrefour’s legitimate interests are implemented ensuring respect of your rights and freedoms.
+
+If Carrefour is required to process your data for purposes other than those listed in the paragraph above, we will inform you and take all additional steps that may be necessary.
+ 
+
+2.  Data processed
+Carrefour collects data via the website's contact form. The data concerned are the following
+
+•    Identification information: title, first and last names of investors, shareholders and members of the Carrefour Corporate Foundation  wishing to contact Carrefour;
+
+•    Contact details: the electronic mail addresses of investors, shareholders and members of the Carrefour Corporate Carrefour Foundation wishing to contact Carrefour.
+
+In addition, due to the devices, applications, tools and protocols used by them, users of the website may be linked to online identifiers such as IP addresses, login trackers (“cookies”) and other user identifiers. Such identifiers can leave traces which may, especially if they are combined with unique login details and other information received by servers, be used to build profiles of the individuals concerned and to identify them. For more information on the cookies used by Carrefour, click here.
+
+3.   Data subjects (to be finalised in accordance with the persons targeted by the contact form)
+The data subjects are:
+-    investors and shareholders contacting Carrefour via the website's contact form;
+-    members of the Carrefour Corporate Foundation contacting Carrefour via the website's contact form;
+-    all users of the website. 
+
+4.    Data recipients
+In order to achieve the purposes described above, and within the limits necessary for the pursuit of such purposes, the data collected by Carrefour may be transferred to all or part of the following recipients:
+
+•    accredited individuals in relevant Carrefour departments;
+•    Carrefour’s service providers and subcontractors, where applicable;
+•    official and judicial authorities, where applicable, in connection with Carrefour's compliance with its legal obligations or to enable Carrefour to defend its rights and interests.
+
+5.  Data retention period
+Respectuf of the right to privacy, Carrefour retains the personal data it collects only for the time necessary for the purposes of processing operations and in accordance with applicable legislation. 
+
+The data collected by Carrefour will thus be retained for the time necessary to achieve the purposes described above, plus the statutory period required by law.
+
+More specifically, Carrefour's data retention policy is as follows : 
+
+See the cookie table
+ 
+
+6.    Data security
+Carrefour values the importance of ensuring the security of personal data. 
+
+It has implemented technical, material and organisational measures adapted to the level of sensitivity of the personal data, in order to ensure the integrity and confidentiality of the data and to protect the data against any malicious intrusion, loss, alteration or disclosure to unauthorised third parties.
+
+Carrefour carries out regular audits to verify that data security rules are properly applied on an operational level.
+
+Nonetheless, the security and confidentiality of personal data shall be ensured by all by applying good practices. Please remain vigilant on this issue. 
+
+Carrefour selects its subcontractors and service providers with care and requires them to:
+
+-    ensure a level of protection of personal data that is identical to its own;
+-    use personal data or information solely to manage the services they are required to provide; 
+-    strictly comply with applicable legislation and regulations on privacy and personal data;
+-    implement all appropriate measures to ensure protection of the personal data they may be required to process;
+-    apply the technical and organisational measures it has defined to ensure data security.
+
+In accordance with its legal obligations, Carrefour enters into agreements with its processors which precisely define the conditions and procedures for processing personal data.
+ 
+
+7.    Transfers of data outside the European Union
+Carrefour may transfer personal data outside the European Union. To secure this type of transfer, Carrefour:
+
+-    selects service providers located outside the European Union in a country with an adequate level of protection of personal data as recognized by the European Commission, or 
+-    if the service provider is not located in a country with an adequate level of protection, except if Carrefour is not eligible for the derogations provided for in applicable laws, Carrefour shall secure such transfers by:
+o    entering into an agreement on cross-border data flows established in compliance with the standard contractual provisions issued by the European Commission, or
+o    using a service provider who has adopted binding rules recognized by the European supervisory authorities.
+
+In order to obtain a copy of these measures or to find out where they are available, you may send a written request to the Data Protection Officer by postal mail at the following address: (.) or by electronic mail: (.).
+ 
+
+8. Rights of data subjects
+8.1 Scope of your rights
+All data subjects enjoy the following rights with regard to data relating to them:
+
+-    a right to information;
+-    a right of access; 
+-    a right of correction; 
+-    a right of deletion (unless the data are required for service provision, or necessary to enable Carrefour to comply with its legal obligations or to establish or exercise its rights);
+-    a right to give instructions regarding management of the data following the death of the concerned person. 
+
+In connection with the right of access, Carrefour may request that you pay reasonable charges based on the administrative costs for any additional copy of the data to that provided.
+
+You also enjoy:
+
+•    a right to limitation of processing;
+•    a right to portability of the data provided; 
+•    a right of opposition.
+
+You may seek to exercise your right of opposition to the processing of personal data for reasons relating to your specific situation where that processing is based on the legitimate interests of Carrefour. This right of opposition also applies to user profiling. 
+
+Where the above right of opposition is exercised, Carrefour shall cease processing unless there are legitimate and imperative reasons that prevail over your interests, rights and liberties or unless required for the establishment, exercise or defence of right before the courts. 
+
+8.2 Exercising your rights
+The communication of specific instructions for post-mortem data management and the exercise of rights shall be addressed to the Data Protection Officer by electronic mail to the email address (.) or by postal mail at the following postal address: Carrefour Service du DPO, 93, Avenue de Paris - CS 15105 - 91342 Massy Cedex. You must provide proof of identity by any appropriate means. 
+
+8.3 Withdrawal of your consent
+You may also withdraw your consent at any time, whenever your consent has been requested (withdrawal of consent will not affect the lawfulness of the processing carried out prior to the withdrawal of your consent).
+
+8.4 Lodging a complaint
+
+Where, after having contacted us, that your rights over you data have not been respected, you may send a complaint to the National Commission on Information Technology and Liberties (CNIL), the French Data Protection Authority. 

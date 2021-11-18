@@ -1,0 +1,96 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Facebook",
+"division":" Auch dann, wenn du unsere standortbezogenen Funktionen nicht nutzt, verwenden wir IP-Adressen und andere Informationen wie Telefonvorwahlen, um deinen ungefähren Standort bestimmen zu können (z. B. Ort/Stadt und Land). Wir nutzen deine Standortinformationen außerdem für Diagnose- und Fehlerbehebungszwecke.",
+"address":" WhatsApp nutzt die globale Infrastruktur und die Rechenzentren von Facebook, unter anderem in den USA. Diese Übertragungen sind zur Bereitstellung der in unseren Nutzungsbedingungen festgehaltenen weltweiten Dienstleistungen notwendig.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Weitere Informationen zu unseren Praktiken in Bezug auf die Löschung und Aufbewahrung von Daten und dazu, wie du deinen Account löschen kannst, findest du hier.\n\t\n\tZurück nach obe",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"California Consumer Privacy Act\n\t\n\tEinwohner Kaliforniens können hier mehr über ihre Rechte erfahren, einschließlich der Ausübung ihrer Rechte gemäß dem California Consumer Privacy Act von 2018.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":" Du kannst deinen WhatsApp Account jederzeit löschen (einschließlich, wenn du deine Einwilligung zu unserer Verwendung deiner Informationen in Übereinstimmung mit dem anwendbaren Recht widerrufen möchtest), indem du unsere In-App-Funktion „Meinen Account löschen“ nutzt.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"automatedDecisionMaking":{
+"inUse":false,
+"logicInvolved":"N/A",
+"scopeAndIntendedEffects":"N/A"},
+"changesOfPurpose":[{
+"description":"Letzte Änderung: 4. Januar 2021 (archivierte Versionen",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"Nähere Informationen über die anderen Facebook-Unternehmen sowie deren Datenschutzpraktiken findest du in deren jeweiligen Datenschutzrichtlinien.\n\t\n\tZurück nach oben\n\tAbtretung, Änderung der Eigentumsverhältnisse und Übertragun",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"Wir können unsere Datenschutzrichtlinie ändern oder aktualisieren. Wir werden dich ggf. von Änderungen an dieser Datenschutzrichtlinie in Kenntnis setzen und das Datum „Letzte Änderung“ oben in dieser Datenschutzrichtlinie aktualisieren.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" von Änderungen an dieser Datenschutzrichtlinie in Kenntnis setzen und das Datum „Letzte Änderung“ oben in dieser Datenschutzrichtlinie aktualisieren.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

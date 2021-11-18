@@ -1,0 +1,304 @@
+# Datenschutz
+
+Der Schutz Deiner persönlichen Daten ist uns ein besonderes Anliegen. Wir
+verarbeiten Deine Daten daher ausschließlich auf Grundlage der gesetzlichen
+Bestimmungen (EU-Datenschutzgrundverordnung, Telemediengesetz). In diesen
+Datenschutzinformationen informieren wir Dich über die wichtigsten Aspekte der
+Datenverarbeitung im Rahmen unserer Website.
+
+### Persönliche Daten
+
+Persönliche Daten, die Du bei BÜNDNIS 90/DIE GRÜNEN, Bundesgeschäftsstelle
+elektronisch übermittelst, z.B. Deinen Namen, Postanschrift, E-Mail-Adresse
+oder andere persönlichen Angaben, werden von uns nur zum jeweils angegebenen
+Zweck verwendet, sicher verwahrt und nicht an Dritte weitergegeben. BÜNDNIS
+90/DIE GRÜNEN Bundesgeschäftsstelle wird Dir nur Informationen zuschicken,
+sofern Du dich für entsprechende Dienste angemeldet hast.  
+
+### Kontakt mit uns
+
+Wenn Du per Formular auf der Website oder per E-Mail Kontakt mit uns
+aufnimmst, werden Deine angegebenen Daten zwecks Bearbeitung der Anfrage und
+für den Fall von Anschlussfragen sechs Monate bei uns gespeichert.  
+
+### Datenlöschung und Speicherung
+
+Deine personenbezogenen Daten werden gelöscht oder gesperrt, sobald der Zweck
+der Speicherung entfällt. Eine längere Speicherung kann dann erfolgen, wenn
+der Löschung eine gesetzliche Aufbewahrungsfrist z.B. entsprechend des
+Parteienrechts entgegensteht. Eine Weitergabe an Dritte erfolgt nicht.  
+
+### Nutzungsdaten, Web-Analyse und Verwendung von Cookies
+
+Unsere Website verwendet Matomo (150 Willis St, 6011 Wellington, New Zealand;
+vormals: Piwik), dabei handelt es sich um einen sogenannten Webanalysedienst.
+Piwik verwendet sog. “Cookies”, das sind Textdateien, die auf Deinem Computer
+gespeichert werden und die unsererseits eine Analyse der Benutzung der
+Webseite ermöglichen. Zu diesem Zweck werden die durch den Cookie erzeugten
+Nutzungsinformationen (einschließlich Deiner gekürzten IP-Adresse) an unseren
+Server bei 'HostEurope' in unserem High-Tech Rechenzentrum datadock in
+Straßburg übertragen und auf einem Qualitäts- und Sicherheitsniveau wie in
+Deutschland gehostet. Das datadock zählt zu den sichersten und grünsten
+Rechenzentren Europas und wurde im Rahmen des eco Datacenter Star Audit mit
+der Bestnote „5 Sterne“ ausgezeichnet. Die Daten werden von uns für ein Jahr
+zu Nutzungsanalysezwecken gespeichert, was der Webseitenoptimierung
+unsererseits dient. Deine IP-Adresse wird bei diesem Vorgang umgehend
+anonymisiert, so dass Du als Nutzer für uns anonym bleibst. Die durch den
+Cookie erzeugten Informationen über Deine Benutzung dieser Webseite werden
+nicht an Dritte weiter gegeben.  
+
+Für unsere Mitmach-Aktionen verwenden wir das Toolset von Action Network (1900
+L St NW, Suite 900, Washington DC 20036). Zur Webanalyse werden dabei
+ebenfalls “Cookies” angelegt, die unsererseits eine Analyse der Benutzung der
+Mitmach-Aktionen ermöglichen. Zu diesem Zweck werden die durch den Cookie
+erzeugten Nutzungsinformationen (einschließlich Deiner gekürzten IP-Adresse)
+an Action Network übertragen und unter Einhaltung des Datenschutzniveaus in
+Europa gemäß Datenschutz-Grundverordnung (DSGVO) gehostet. Die Daten werden zu
+Nutzungsanalysezwecken gespeichert, was der Optimierung der Mitmach-Aktionen
+unsererseits dient. Ausführlichere Informationen findest Du in der ['Cookie
+Notice' von Action Network](https://actionnetwork.org/cookies) sowie in
+unserer allgemeinen Datenschutzerklärung.  
+
+Wenn Du mit der Speicherung und Auswertung dieser Daten aus Deinem Besuch
+nicht einverstanden bist, kannst Du der Speicherung und Nutzung nachfolgend
+per Mausklick jederzeit widersprechen. In diesem Fall wird in Deinem Browser
+ein sog. Opt-Out-Cookie abgelegt, was zur Folge hat, dass Matomo keinerlei
+Sitzungsdaten erhebt. Achtung: Wenn Du Deine Cookies löschst, so hat dies zur
+Folge, dass auch das Opt-Out-Cookie gelöscht wird und ggf. von Dir erneut
+aktiviert werden muss. Wenn Du der Speicherung und Nutzung von Cookies
+widersprichst, kann es jedoch sein, dass Du in diesem Fall gegebenenfalls
+nicht sämtliche Funktionen dieser Website vollumfänglich nutzen kannst.
+
+[Hier kannst Du Deine Cookie-Einstellung
+ändern.](https://gruene.matomo.cloud/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=00331c&fontColor=ffffff&fontSize=17px&fontFamily=PT%20Sans)  
+
+### Rechtsgrundlage
+
+Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen und
+folgender Rechtsgrundlagen gemäß Artikel 6 Abs. 1 der Europäischen
+Datenschutz-Grundverordnung:
+
+  * Einwilligung
+  * Vertragserfüllung oder vorvertragliche Maßnahmen
+  * rechtliche Verpflichtungen
+  * Zur Wahrung eines berechtigten Interesses. Die schutzwürdigen Interessen der Betroffenen überwiegen das erstgenannte Interesse nicht.
+
+Unser Anliegen im Sinne der DSGVO (berechtigtes Interesse) ist die
+Verbesserung unseres Angebotes und unseres Webauftritts. Da uns die
+Privatsphäre unserer Nutzer wichtig ist, werden die Nutzerdaten
+pseudonymisiert. Die Daten werden von uns für ein Jahr zu
+Nutzungsanalysezwecken gespeichert. Deine IP-Adresse wird bei diesem Vorgang
+umgehend anonymisiert, so dass Du als Nutzer für uns anonym bleibst. Die durch
+den Cookie erzeugten Informationen über Deine Benutzung dieser Webseite werden
+nicht an Dritte weiter gegeben.  
+
+### Google Maps
+
+Die Webseite gruene.de verwendet Google Maps API, um geographische
+Informationen visuell darzustellen. Bei der Nutzung von Google Maps werden von
+Google auch Daten über die Nutzung der Maps-Funktionen durch Besucher der
+Webseiten erhoben, verarbeitet und genutzt. Nähere Informationen über die
+Datenverarbeitung durch Google kannst Du den [Datenschutzhinweisen von
+Google](http://www.google.com/privacypolicy.html "Opens external link in new
+window") entnehmen. Dort kannst Du im Datenschutzcenter auch Deine
+Einstellungen verändern, so dass Du Deine Daten verwalten und schützen kannst.
+
+[Hier findest Du weitergehende Anleitungen zum Verwalten der eigenen Daten im
+Zusammenhang mit Google-Produkten.  
+](http://www.dataliberation.org/ "Opens external link in new window")
+
+### Verwendung von Social Plugins (Twitter, Facebook, WhatsApp)
+
+Die Webseite gruene.de verwendet mit den "Teilen" Buttons am Anfang der
+Artikel sogenannte Social Plugins von Twitter, Facebook, Facebook Messenger
+und WhatsApp. Das Plugin ist mit den entsprechenden Logos gekennzeichnet. Wenn
+Du dieses Plugin durch Anklicken des jeweiligen Buttons aufrufst, wird eine
+Verbindung z.B. zu den Facebook-Servern hergestellt. Damit werden Daten an ein
+außereuropäisches Drittland übertragen. Hierdurch wird an den Facebook-Server
+übermittelt, welche unserer Internetseiten Du besucht hast. Bist du dabei als
+Mitglied bei Facebook eingeloggt, ordnet Facebook diese Information Deinem
+persönlichen Facebook-Benutzerkonto zu. Beim Anklicken des „Empfehlen“-Buttons
+werden diese Informationen Deinem Facebook-Konto zugeordnet, was Du nur durch
+Ausloggen vor Nutzung des Plugins verhindern kannst. Nähere Informationen zur
+Erhebung und Nutzung der Daten durch Facebook, über Deine diesbezüglichen
+Rechte und Möglichkeiten zum Schutz Deiner Privatsphäre findest Du in den
+Datenschutzhinweisen von Facebook.  
+
+### E-Mail-Updates und telefonische Kontaktaufnahme zu Kampagnen und Aktionen
+
+Du hast die Möglichkeit, über unsere Website unsere[ E-Mail-Updates zu
+abonnieren](https://www.gruene.de/aktionen/newsletter), damit wir Dich
+regelmäßig zu Kampagnen und Aktionen informieren dürfen. Dazu verarbeiten wir
+auf Grundlage von Artikel 6 Abs. 1a der Europäischen Datenschutz-
+Grundverordnung Deine persönlichen Daten (Name und E-Mail-Adresse). Für den
+Versand der E-Mails verwenden wir das Toolset von Action Network (1900 L St
+NW, Suite 900, Washington DC 20036). [Weitere Informationen zum Datenschutz
+findest Du hier](https://www.gruene.de/service/informationen-zum-datenschutz-
+gruene-mitmach-aktionen). Mit dem Abonnement erklärst Du Dich mit dem Bezug
+der E-Mail-Updates und den hier beschriebenen Maßnahmen zur Datenverarbeitung
+und zum Datenschutz einverstanden. Eine Weitergabe dieser Daten an Dritte
+erfolgt nicht.
+
+Um Dich zielgerichtet mit Informationen zu versorgen, erheben und verarbeiten
+wir außerdem freiwillig gemachte Angaben zu Deiner Postleitzahl. Übermittelst
+Du uns überdies freiwillig Deine Telefonnummer, willigst Du ein, dass wir Dich
+per SMS oder Anruf über Aktionen und Kampagnen informieren dürfen.
+
+Sobald Du Dich für die E-Mail-Updates angemeldet hast, senden wir Dir eine
+Bestätigungs-E-Mail mit einem Link zur Bestätigung der Anmeldung.
+
+Die E-Mail-Updates kannst Du jederzeit stornieren. Einen entsprechenden
+Abbestellungslink findest Du in jeder verschickten E-Mail. Wir löschen
+anschließend umgehend Deine Daten im Zusammenhang mit dem E-Mail-Versand.  
+
+### Facebook
+
+Die Webseite greift für den hier angebotenen Informationsdienst auf die
+technische Plattform und die Dienste der Facebook Ireland Ltd., 4 Grand Canal
+Square Grand Canal Harbour, Dublin 2, Ireland zurück.
+
+Wir weisen Dich darauf hin, dass Du die Facebook-Seite "BÜNDNIS 90/DIE GRÜNEN"
+und ihre Funktionen in eigener Verantwortung nutzt. Dies gilt insbesondere für
+die Nutzung der interaktiven Funktionen (z.B. Kommentieren, Teilen, Bewerten).
+
+Beim Besuch unserer Facebook-Seite erfasst Facebook u.a. Deine IP-Adresse
+sowie weitere Informationen, die in Form von Cookies auf Deinem PC vorhanden
+sind. Diese Informationen werden verwendet, um uns als Betreiber der Facebook-
+Seiten statistische Informationen über die Inanspruchnahme der Facebook-Seite
+zur Verfügung zu stellen. Nähere Informationen hierzu stellt Facebook unter
+folgendem Link zur Verfügung:  
+[de-de.facebook.com/help/pages/insights](http://de-
+de.facebook.com/help/pages/insights).
+
+Die in diesem Zusammenhang über Dich erhobenen Daten werden von der Facebook
+Ltd. verarbeitet und dabei gegebenenfalls in Länder außerhalb der Europäischen
+Union übertragen. Welche Informationen Facebook erhält und wie diese verwendet
+werden, beschreibt Facebook in allgemeiner Form in seinen
+Datenverwendungsrichtlinien. Dort findest Du auch Informationen über
+Kontaktmöglichkeiten zu Facebook sowie zu den Einstellmöglichkeiten für
+Werbeanzeigen. Die Datenverwendungsrichtlinien sind unter folgendem Link
+verfügbar: [de-de.facebook.com/about/privacy](http://de-
+de.facebook.com/about/privacy) Die vollständigen Datenrichtlinien von Facebook
+findest Du hier: [de-de.facebook.com/full_data_use_policy](https://de-
+de.facebook.com/full_data_use_policy)
+
+In welcher Weise Facebook die Daten aus dem Besuch von Facebook-Seiten für
+eigene Zwecke verwendet, in welchem Umfang Aktivitäten auf der Facebook-Seite
+einzelnen Nutzern zugeordnet werden, wie lange Facebook diese Daten speichert
+und ob Daten aus einem Besuch der Facebook-Seite an Dritte weitergegeben
+werden, wird von Facebook nicht abschließend und klar benannt und ist uns
+nicht bekannt.
+
+Beim Zugriff auf eine Facebook-Seite wird die Deinem Endgerät zugeteilte IP-
+Adresse an Facebook übermittelt. Nach Auskunft von Facebook wird diese IP-
+Adresse anonymisiert (bei "deutschen" IP-Adressen) und nach 90 Tagen gelöscht.
+Facebook speichert darüber hinaus Informationen über die Endgeräte seiner
+Nutzer (z.B. im Rahmen der Funktion “Anmeldebenachrichtigung“); gegebenenfalls
+ist Facebook damit eine Zuordnung von IP-Adressen zu einzelnen Nutzern
+möglich.
+
+Wenn Du als Nutzerin oder Nutzer aktuell bei Facebook angemeldet bist,
+befindet sich auf Deinem Endgerät ein Cookie mit Deiner Facebook-Kennung.
+Dadurch ist Facebook in der Lage nachzuvollziehen, dass Du diese Seite
+aufgesucht und wie Du sie genutzt hast. Dies gilt auch für alle anderen
+Facebook-Seiten. Über in Webseiten eingebundene Facebook-Buttons ist es
+Facebook möglich, Deine Besuche auf diesen Webseiten zu erfassen und Deinem
+Facebook-Profil zuzuordnen. Anhand dieser Daten können Inhalte oder Werbung
+auf Dich zugeschnitten angeboten werden.
+
+Wenn Du dies vermeiden möchtest, solltest Du Dich bei Facebook abmelden bzw.
+die Funktion "angemeldet bleiben" deaktivieren, die auf Deinem Gerät
+vorhandenen Cookies löschen und Deinen Browser beenden und neu starten. Auf
+diese Weise werden Facebook-Informationen, über die Du unmittelbar
+identifiziert werden könntest, gelöscht. Damit kannst Du unsere Facebook-Seite
+nutzen, ohne dass Deine Facebook-Kennung offenbart wird. Wenn Du auf
+interaktive Funktionen der Seite zugreifst (Gefällt mir, Kommentieren, Teilen,
+Nachrichten etc.), erscheint eine Facebook-Anmeldemaske.
+
+Nach einer etwaigen Anmeldung bist Du für Facebook erneut als bestimmte/r
+Nutzer in/Nutzer erkennbar. Informationen dazu, wie Du über Dich vorhandene
+Informationen verwalten oder löschen kannst, findest Du auf folgenden Facebook
+Support-Seiten: de-de.facebook.com/about/privacy
+
+[Die Datenschutzerklärung für unsere Facebook-Seite findest Du
+hier.](https://www.gruene.de/artikel/datenschutzerklaerung-fuer-facebook)
+
+### Instagram
+
+[Die Datenschutzerklärung für unsere Instagram-Seite findest du
+hier.](https://www.gruene.de/artikel/datenschutzerklaerung-fuer-instagram)
+
+### Grüne Mitmach-Aktionen
+
+Für unsere Mitmach-Aktionen verwenden wir das Toolset von Action Network (1900
+L St NW, Suite 900, Washington DC 20036). Die Daten, die Du uns dort
+übermittelst, gehen ausschließlich an BÜNDNIS 90/DIE GRÜNEN. BÜNDNIS 90/DIE
+GRÜNEN nutzen zur Verarbeitung der Daten das Toolset von "Action Network".
+"Action Network" ist eine Nonprofit-Plattform, die Individuen und Gruppen
+dabei unterstützt, für progressive Ziele zu mobilisieren und zu organisieren.
+"Action Network" hat keine Rechte, die von Dir an BÜNDNIS 90/DIE GRÜNEN
+übermittelten Daten zu kontrollieren, zu nutzen, einzusehen, zu teilen oder zu
+verbreiten. Mehr findest Du in unseren [Informationen zum Datenschutz bei
+grünen Mitmach-Aktionen.](https://www.gruene.de/service/informationen-zum-
+datenschutz-gruene-mitmach-aktionen)
+
+### Grüne Online-Veranstaltungen
+
+Die Verarbeitung personenbezogener Daten, die wir im Rahmen einer Online-
+Veranstaltung erhalten, beschreiben wir in den [Datenschutzhinweisen für Grüne
+Online-Veranstaltungen](https://www.gruene.de/artikel/datenschutzhinweise-
+fuer-gruene-online-veranstaltungen).
+
+### Bewerbungen  
+
+Die Verarbeitung personenbezogener Daten, die wir im Rahmen einer Bewerbung
+auf eine Stelle bei BÜNDNIS 90/DIE GRÜNEN erhalten, beschreiben wir in den
+[Datenschutzhinweisen für
+Bewerber*innen](https://www.gruene.de/artikel/datenschutzhinweise-fuer-
+bewerber-innen).
+
+### Links zu anderen Webseiten
+
+Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte
+wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch
+keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der
+jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten
+Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße
+überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht
+erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist
+jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei
+bekannt werden von Rechtsverletzungen werden wir derartige Links umgehend
+entfernen.  
+
+### Spenden
+
+Die Verarbeitung personenbezogener Daten, die wir im Rahmen einer Online-
+Spende erhalten, beschreiben wir in den [Datenschutzhinweisen für
+Spender*innen](https://www.gruene.de/service/datenschutzhinweis-fuer-
+spenderinnen-und-spender).
+
+### Nutzungsbedingungen und Kontakt
+
+Weitere Informationen zur Nutzung dieses Internetangebots findest Du in
+unseren
+[Nutzungsbedingungen](https://www.gruene.de/service/nutzungsbedingungen) und
+in unserem [Impressum](https://www.gruene.de/service/impressum).  
+
+### Deine Rechte
+
+Dir stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung,
+Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Du
+glaubst, dass die Verarbeitung Deiner Daten gegen das Datenschutzrecht
+verstößt oder Deine datenschutzrechtlichen Ansprüche sonst in einer Weise
+verletzt worden sind, kannst Du Dich bei der Aufsichtsbehörde beschweren. In
+Deutschland sind dies die jeweiligen Landes-Datenschutzbeauftragten.  
+
+### Du erreichst uns unter folgenden Kontaktdaten
+
+E-Mail: [info@gruene.de](mailto:info@gruene.de)  
+Post: BÜNDNIS 90/DIE GRÜNEN, Org. Geschäftsführung, Platz vor dem Neuen Tor 1,
+10115 Berlin.
+
+ **Unseren Datenschutzbeauftragten** erreichst Du unter: SCO-CON:SULT,
+Hauptstraße 27, 53604 Bad Honnef; datenschutz@gruene.de; Tel.: 02224/988290
+

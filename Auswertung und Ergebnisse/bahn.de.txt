@@ -1,0 +1,501 @@
+****** Datenschutzhinweise (bahn.de/bahn.com) ******
+Eine Nutzung unserer Website ist grundsätzlich ohne Angabe personenbezogener
+Daten möglich. Sofern Sie besondere Services unseres Unternehmens über unsere
+Website in Anspruch nehmen möchten oder Sie über unsere Website eine Reise
+buchen, kann jedoch eine Verarbeitung personenbezogener Daten erforderlich
+werden. Ist die Verarbeitung personenbezogener Daten erforderlich und besteht
+für eine solche Verarbeitung keine gesetzliche Grundlage (z.B. die Durchführung
+einer vertraglichen Vereinbarung), bitten wir Sie um Ihre Einwilligung.
+
+Mit diesem Hinweis informieren wir Sie darüber, welche Daten wir von Ihnen
+erheben, wie wir sie nutzen und wie Sie der Datennutzung widersprechen können.
+****  Wer ist verantwortlich für die Datenerhebung und -verarbeitung?   ****
+Bei Nutzung von bahn.de/bahn.com verarbeiten die DB Gesellschaften (DB Vertrieb
+GmbH, die DB Fernverkehr AG, und die DB Regio AG) Ihre Daten als gemeinsam
+Verantwortliche. Diese haben in einer Vereinbarung festgelegt, wer von ihnen
+welche datenschutzrechtlichen Verpflichtungen erfüllt. Das Wesentliche dieser
+Vereinbarung finden Sie im Abschnitt "Welche Daten erheben wir und wie und
+warum verarbeiten wir Ihre Daten?"
+Sollten Sie Fragen oder Anregungen zum Datenschutz haben, kontaktieren Sie
+bitte eine der aufgeführten Verantwortlichen:
+DB Vertrieb GmbH
+Europa-Allee 78- 84
+60486 Frankfurt
+E-Mail: ecommerce-datenschutz@bahn.de
+DB Fernverkehr AG
+Europa-Allee 78- 84
+60486 Frankfurt
+E-Mail: fv‐datenschutz@deutschebahn.com
+DB Regio AG
+Europa-Allee 70-76
+60486 Frankfurt
+E-Mail: datenschutz.regio@deutschebahn.com
+Die bestellte Datenschutzbeauftragte für alle drei genannten Verantwortlichen
+ist Frau Chris Newiger.
+****  Welche Daten erheben wir und wie und warum verarbeiten wir Ihre Daten?
+****
+Für die Datenverarbeitung im Zusammenhang mit bahn.de/bahn.com sind die oben
+aufgeführten Unternehmen gemeinsam verantwortlich. Sie haben in einer
+Vereinbarung festgelegt, wer von ihnen welche Aufgaben bei der gemeinsamen
+Verarbeitung wahrnimmt und welchen Zwecken diese dient, wie diese organisiert
+ist und wer welche Verpflichtungen gemäß der DSGVO, insbesondere die
+Informationspflichten, erfüllt. Das Wesentliche dieser Vereinbarung ist
+nachfolgend für Sie aufgeführt.
+Für die folgenden Zwecke liegen dieVerantwortlichkeiten bei der DB Vertrieb
+GmbH und der DB Fernverkehr AG
+    * Verkauf von BahnCards und deren Verlängerung im Abonnement
+    * Durchführung von Marketingkommunikation und Kundeninformation im Rahmen
+      des Kampagnenmanagements der DB Vertrieb GmbH (mit Beteiligung der DB
+      Fernverkehr AG).
+Für die folgenden Zwecke liegen dieVerantwortlichkeiten bei der DB Vertrieb
+GmbH und der DB Regio AG
+    * Kundenschreiben (z.B. Abo-Kunden) und Werbemaßnahmen.
+    * Regionale Angebote.
+Für die folgenden Zwecke liegen dieVerantwortlichkeiten bei der DB Vertrieb
+GmbH, der DB Fernverkehr AG und der DB Regio AG
+    * Nutzung von Websites für den Vertrieb von Produkten und Services, die
+      Bereitstellung von Informationen und zur Marketing-Kommunikation.
+    * Ausgabe von Gutscheinen und Erfassung der Einlösung, sowie die
+      Bereitstellung der benötigten Informationen für Kampagnen
+    * Nutzung von Kundendatenbank(en) zur gesamthaften Bearbeitung von
+      Kundenvorgängen sowie Austausch von Kundendaten, u.a. zur
+      Betrugsprävention
+    * Abwicklung und Auszahlung von Kulanzen und Entschädigungen (z.B. bei
+      Störungen, unvorhergesehenen Ereignissen)
+    * Beschwerdemanagement, Serviceanliegen und Kundendialog inkl.
+      Bereitstellung der Kontaktformulare
+Wir verarbeiten Ihre Daten ausschließlich zu bestimmten Zwecken. Diese können
+sich aus technischen Notwendigkeiten, vertraglichen Erfordernissen oder
+ausdrücklichen Nutzerwünschen ergeben.
+
+Aus technischen Gründen müssen beim Besuch von bahn.de/bahn.com bestimmte Daten
+erhoben und gespeichert werden wie z.B. das Datum und die Dauer des Besuchs,
+die genutzten Webseiten, die Erkennungsdaten des verwendeten Browser- und
+Betriebssystemtyps sowie die Webseite, von der aus Sie uns besuchen).
+
+Zur Erfüllung eines Vertrages benötigen wir von Ihnen bestimmte
+personenbezogene Daten. Diese Daten werden dazu benötigt, Ticketbuchungen,
+Zahlungsabwicklungen, im Falle von Postversand die Zustellung an die genannte
+Adresse und um ggf. die Abwicklung von Stornierungen und Erstattungen
+durchzuführen.
+
+In diesem Fall ist der Vertrag nach Artikel 6 Absatz 1 lit. b) DSGVO die
+Rechtsgrundlage für die Verarbeitung Ihrer personenbezogenen Daten. Artikel 6
+Absatz 1 lit. b) DSGVO gilt auch für Verarbeitungsvorgänge, die zur
+Durchführung vorvertraglicher Maßnahmen erforderlich sind, etwa in Fällen von
+Anfragen zu unseren Produkten oder Leistungen.
+
+Soweit wir für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung
+von Ihnen einholen (z.B. wenn Sie den Newsletter bestellen) dient diese nach
+Artikel 6 Absatz 1 lit. a) DSGVO als Rechtsgrundlage.
+
+Unterliegt unser Unternehmen einer rechtlichen Verpflichtung, durch welche eine
+Verarbeitung von personenbezogenen Daten erforderlich wird, wie beispielsweise
+zur Erfüllung steuerlicher Pflichten, so basiert die Verarbeitung auf Art. 6
+Abs. 1 lit. c) DSGVO.
+
+Wir möchten Ihnen auf Basis vorheriger und aktueller Nutzung von bahn.de/
+bahn.com personalisierte Inhalte zeigen, um unser Angebot für Sie als Nutzer
+interessanter auszugestalten. Hierzu speichern und analysieren wir
+Nutzungsdaten aus dem Online-Bereich auf pseudonymer Basis. Bei einer weiteren
+Ticketbuchung können wir Ihnen dann besondere Vorteile wie Fahrvergünstigungen
+und kostenlose Sitzplatzreservierungen anbieten. Rechtsgrundlage hierfür ist
+Art. 6 Abs. 1 lit. f) DSGVO.
+Wir sind zudem daran interessiert, die Kundenbeziehung mit Ihnen zu pflegen und
+Ihnen Informationen und Angebote zukommen zu lassen, von denen wir glauben,
+dass sie zu Ihren Reisewünschen und Interessen passen. Deshalb verarbeiten wir
+auf Grundlage von Artikel 6 Abs. 1 lit. f) DSGVO (auch mit Hilfe von
+Dienstleistern) Ihre Daten, um Ihnen Informationen und Angebote zuzusenden. Wir
+verwenden Ihre Kontaktdaten (Name, Anschrift und E-Mail-Adresse, die wir aus
+unserer Geschäftsbeziehung mit Ihnen erhalten haben) für Werbung per Post und
+für ähnliche Waren oder Dienstleistungen per E-Mail, insbesondere
+Marktforschung, sofern Sie einer solchen Verwendung nicht widersprechen.
+
+Dieser werblichen Verwendung Ihrer Daten können Sie jederzeit mit Wirkung für
+die Zukunft widersprechen. Ihren Widerspruch können Sie per E-Mail
+an ecommerce-datenschutz@bahn.de richten (Werbewiderspruch).
+
+Im Folgenden finden Sie diejenigen Datenverarbeitungen näher beschrieben, die
+bei der Buchung einer Fahrkarte über bahn.de/bahn.com stattfinden können.
+Weitere Informationen beispielsweise zur Datenverarbeitung am Ticket-Automaten
+oder wenn Sie unsere Seiten in sozialen Netzwerken besuchen, finden Sie unter:
+ https://www.db-vertrieb.com/datenschutz.
+Dies betrifft im Einzelnen:
+    * Anlegen eines Kundenkontos
+      Für das Anlegen eines Kundenkontos auf bahn.de/bahn.com ist eine
+      Registrierung erforderlich (Hier_geht's_zur_Anmeldung). Die
+      Datenschutzhinweise zum Kundenkonto finden Sie unter bahn.de/datenschutz-
+      kundenkonto.
+    * Buchung eines Digitalen Tickets
+      Bei der Buchung von Digitalen Tickets werden Adressdaten sowie Name,
+      Vorname und E-Mail-Adresse erfasst. Bei Buchung von internationalen
+      Fahrkarten über international-bahn.de und einigen regionalen Angeboten
+      wird zusätzlich das Geburtsdatum erfasst. Im Zug werden bei der Kontrolle
+      diejenigen Informationen im Kontrollgerät (mobilen Terminal) angezeigt,
+      die sich auf dem Ticket befinden (Vorname und Name).
+    * Zahlungsdaten auf bahn.de/bahn.com
+      Für die sichere Abwicklung der von Ihnen veranlassten Zahlungen werden
+      die erforderlichen Zahlungsdaten (Betrag, Buchungsreferenz,
+      Buchungsbeschreibung, Zahlungspflichtiger) an Zahlungsdienstleistern
+      übermittelt. 
+       
+          o Zahlung mittels Kreditkarte
+            Unser Zahlungsdienstleister für die Abwicklung von
+            Kreditkartenzahlungen ist die PAYONE GmbH, Lyoner Straße 9, 60528
+            Frankfurt am Main. Wie Payone Ihre Daten verarbeitet, finden Sie im
+            Datenschutzhinweis von Payone: https://www.payone.com/dsgvo/. Die
+            Verarbeitung der Daten Ihrer Kreditkarte für die Zahlung sowie die
+            Anwendung der Sicherheitsmaßnahmen des Herausgebers Ihrer
+            Kreditkarte wie 3D-Secure und starke Kundenauthentifizierung
+            erfolgen unmittelbar beim Zahlungsdienstleister. Wir erhalten
+            keinen Zugang zu Ihren vollständigen Kreditkartendaten und
+            speichern nur eine Referenz in Form einer gekürzten
+            Kreditkartennummer, damit Sie sie wiedererkennen können. Für Zwecke
+            der Betrugsprävention wird mithilfe eines Auftragsverarbeiters ein
+            Fingerprint Ihres Gerätes oder Browsers zusammen mit den
+            Zahlungsdaten verarbeitet. Dies dient Ihrem und unserem Schutz, um
+            der missbräuchlichen Verwendung Ihres Zahlungsmittels zur Zahlung
+            bei bahn.de/bahn.com vorbeugen zu können. Rechtsgrundlage hierfür
+            ist Art. 6 Abs. 1 lit. f) DSGVO.
+             
+          o Zahlung über Paypal
+            Bei Zahlung via PayPal werden Ihre Zahlungsdaten im Rahmen der
+            Zahlungsabwicklung an die PayPal (Europe) S.à r.l. et Cie, S.C.A.,
+            22-24 Boulevard Royal, L-2449 Luxembourg (nachfolgend
+            "PayPal") weitergeleitet. Weitere datenschutzrechtliche
+            Informationen entnehmen Sie bitte der Datenschutzerklärung_von
+            Paypal.
+             
+          o Zahlung über paydirekt
+            Bei Zahlung via paydirekt werden Ihre Zahlungsdaten im Rahmen der
+            Zahlungsabwicklung an die paydirekt GmbH, Hamburger Allee 26-28,
+            60486 Frankfurt am Main weitergeleitet. Nähere Informationen
+            erhalten Sie in der paydirekt_Datenschutzerklärung.
+             
+          o Zahlung über Klarna
+            Wenn Sie sich für eine Zahlung per Ratenzahlungskauf oder
+            Sofortüberweisung entscheiden, übernimmt der Zahlungsdienstleister
+            Klarna Bank AB (publ), Sveavägen 46, 111 34 Stockholm, Schweden die
+            Abwicklung der Zahlung. Nähere Informationen erhalten Sie in der
+            Datenschutzerklärung_von_Klarna.
+             
+    * Buchung einer BahnCard
+      Beim Erwerb einer BahnCard werden Kontakt- und Identifizierungsdaten
+      (bspw. Geburtsdatum) erfasst. Nähere Informationen zur Datenverarbeitung
+      im Zusammenhang mit der BahnCard finden Sie unter: www.db-vertrieb.com/
+      datenschutz
+    * Anfrage rund um Ihre Buchung auf bahn.de/bahn.com
+      Wenn Sie uns eine Anfrage rund um Ihre Buchung mittels des
+      Kontaktformulars auf unserer Website stellen, werden Ihre Angaben aus dem
+      Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten
+      zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen auf
+      Grundlage von Art. 6 Abs. 1 lit. b DSGVO durch uns verarbeitet.
+    * Abo-Online-Bestellung
+      Bei der Bestellung einer Zeitkarte im Abo werden Kontakt- und
+      Zahlungsdaten erhoben. Je nach Angebot können auch Identifizierungsdaten,
+      wie z.B. Geburtsdatum oder Lichtbild, erforderlich sein.
+    * Anmeldung zum Newsletter
+      Melden Sie sich zu einem Newsletter von uns an, wird als Pflichtangabe
+      die E-Mail-Adresse erhoben.
+
+      Bei der Anmeldung zum Newsletter speichern wir zudem die vom Internet-
+      Service-Provider (ISP) vergebene IP-Adresse Ihres zum Zeitpunkt der
+      Anmeldung verwendeten Endgerätes sowie das Datum und die Uhrzeit der
+      Anmeldung. Die Erhebung dieser Daten ist erforderlich, um den (möglichen)
+      Missbrauch der E-Mail-Adresse einer betroffenen Person zu einem späteren
+      Zeitpunkt nachvollziehen zu können und dient deshalb unserer rechtlichen
+      Absicherung. Um Ihnen ansprechende und für Sie relevante Inhalte anbieten
+      zu können, erfassen wir Ihr Interesse an den Inhalten des bahn.de-
+      Newsletters anhand des Anklickens und der Anzeige von Inhalten mittels
+      individualisierter Links.
+
+      Ihre E-Mail-Adresse kann in diesem Fall von uns für werbliche Zwecke
+      genutzt werden. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. a) DSGVO.
+      Sie können sich jederzeit vom Newsletter wieder abmelden unter ecommerce-
+      datenschutz@bahn.de oder indem Sie den Abmelde-Link unten in Ihrem
+      Newsletter anklicken. Sofern Sie der werblichen Nutzung Ihrer Daten
+      widersprechen, werden Ihre Daten nur anonymisiert zu statistischen
+      Auswertungszwecken genutzt.
+    * Teilnahme an Gewinnspielen
+      Im Rahmen von Gewinnspielen werden Daten zu deren Abwicklung erhoben. Die
+      Einzelheiten hierzu, wie z.B. welche Daten zu welchem Zweck erhoben
+      werden, finden Sie auf der Seite des jeweiligen Gewinnspiels.
+    * Virtuelle Chatassistenten
+      Auf bahn.de wird der virtuelle Assistent (auch Chatbot genannt) DB Smile
+      eigesetzt. Der Chatbot dient als Informations- und Kundenkontaktkanal für
+      Anliegen rund um den Personenverkehr der DB. Mit ihm können Kund:
+      innen auf eine einfache Art kommunizieren, Informationen erhalten und
+      ihre Anfragen schnell beantworten lassen. DB Smile beantwortet eine
+      Vielzahl von Anliegen mit Hilfe von Künstlicher Intelligenz automatisiert
+      auf Basis von Schlüsselworterkennung, bietet weitere Vorschläge und
+      Hilfestellungen zur Dialogführung an oder verweist Nutzer:innen an einen
+      anderen Kundenservicekanal (Hotline oder Kontaktformular). Er kann
+      aktuell keine komplexen oder individuellen Kundenanfragen beantworten.
+      Falls ein Anliegen über unserem Bot automatisiert nicht beantwortet
+      werden kann, haben Sie die Möglichkeit, live mit einem
+      Mitarbeitenden weiter zu chatten.  
+
+      Aktuell werden weder automatisiert noch im Live Chat vertragsspezifische
+      Kundenanfragen bearbeitet oder gelöst. Solche Anfragen werden nach wie
+      vor persönlich per Telefon oder E-Mail bearbeitet. Persönliche Angaben
+      sind zur Nutzung des Chatbots daher weder erforderlich noch gewünscht. 
+
+      Ihre Anfragen werden maximal für 30 Tage im Chatbot gespeichert, um den
+      Chatbot zu trainieren und die Antworterkennung und Treffgenauigkeit zu
+      optimieren. Der Chatbot wird so fortlaufend inhaltlich und funktional
+      weiterentwickelt. Personenbezogene Daten werden nicht ausgewertet.
+      Nutzungsdaten wie Chatdauer, Zeitstempel der Nachrichten, Anzahl der
+      Dialognachrichten oder verwendetes Betriebssystem werden nur für
+      statistische Zwecke gespeichert. Wir verarbeiten Ihre Daten
+      ausschließlich zur Bearbeitung Ihres Anliegens und zu internen Zwecken,
+      z.B. die Steuerung und Verbesserung unserer Geschäfts- und
+      Serviceprozesse (Art.6 Abs.1 lit. b) Datenschutzgrundverordnung). 
+    * Buchung eines digitalen Tickets nach Besuch einer Partnerseite (im Rahmen
+      des Affiliate-Marketings)
+      Wenn Sie nach Klick auf ein DB-Affiliate-Werbemittel auf einer externen
+      Partnerseite eine Buchung tätigen, werden die vom Partner dort gesetzten
+      Cookies ausgelesen. Die Cookies haben eine Laufzeit von 30 Tagen. Dies
+      ist nötig, um dem Partner eine Vergütung für die initiierte Buchung
+      zukommen zu lassen. Im Rahmen des Affiliate-Marketings arbeiten wir mit
+      dem Netzwerk Awin zusammen.
+****  Werden Daten weitergegeben?   ****
+Für die Vertragsabwicklung ist in der Regel die Einschaltung weisungsabhängiger
+Auftragsverarbeiter erforderlich, wie z. B. von Rechenzentrumsbetreibern,
+Druck- oder Versanddienstleistern oder sonstigen an der Vertragserfüllung
+Beteiligten.
+Externe Dienstleister, die für uns im Auftrag Daten verarbeiten, werden von uns
+sorgfältig ausgewählt und vertraglich streng verpflichtet. Die Dienstleister
+arbeiten nach unserer Weisung, was durch strenge vertragliche Regelungen, durch
+technische und organisatorische Maßnahmen und durch ergänzende Kontrollen
+sichergestellt wird.
+Eine Übermittlung Ihrer Daten erfolgt im Übrigen nur, wenn Sie uns dazu eine
+ausdrückliche Einwilligung erteilt haben oder aufgrund einer gesetzlichen
+Regelung. Eine Übermittlung in Drittstaaten außerhalb der EU/des EWR oder an
+eine internationale Organisation findet nicht statt, es sei denn, es liegen
+angemessene Garantien vor. Dazu gehören die EU-Standardvertragsklauseln sowie
+ein Angemessenheitsbeschluss der EU-Kommission. Eine Weitergabe kann
+beispielsweise in folgenden Konstellationen zum Zwecke der Vertragsabwicklung
+bei Buchung auf bahn.de/bahn.com erforderlich sein:
+    * Reiseversicherungen unseres Partners Europäische Reiseversicherung AG,
+    * Hotelleistungen über unseren Hotelreservierungspartner HRS
+    * Nutzung des DB Mietwagenangebots der Anbieter DB Rent, Europcar und Sixt
+    * Bei der Inanspruchnahme des Mobilitätsservice werden Ihre Daten an die
+      jeweiligen Stellen im DB-Konzern weitergegeben, die daran beteiligt sind
+    * Im Falle von Zahlungsunregelmäßigkeiten / Zahlungsausfall können
+      Forderungsdaten an ein Inkassounternehmen weitergegeben werden.
+Die Partnerangebote, die Sie auf bahn.de/bahn.com finden, buchen Sie direkt bei
+diesen Partnern. Weitere Informationen dazu finden Sie unter dem Punkt "Werden
+Inhalte von Dritten eingebunden?".
+****  Wie lange werden Ihre Daten gespeichert?   ****
+Wir speichern Ihre Daten nur so lange, wie sie für die Erfüllung des Zwecks, zu
+dem sie erhoben wurden (bspw. im Rahmen eines Vertragsverhältnisses)
+erforderlich sind oder sofern dies gesetzlich vorgesehen ist. So speichern wir
+im Rahmen eines Vertragsverhältnisses Ihre Daten mindestens bis zur
+vollständigen Beendigung des Vertrages. Anschließend werden die Daten für die
+Dauer der gesetzlichen Aufbewahrungsfristen aufbewahrt.
+****  Werden Cookies eingesetzt?   ****
+Wir setzen für Funktionssicherung, Mess- und Analysezwecken auf unserer Website
+Cookies ein. Cookies sind kleine Textdateien, in denen Daten auf Ihrem Endgerät
+gespeichert werden können. Wir unterscheiden zwischen Cookies, die für die
+technischen Funktionen der Website erforderlich sind, und solchen Cookies, die
+für die technische Funktion der Website nicht zwingend erforderlich sind, wie
+z.B. Reichweitenmessung. Einige dieser Cookies werden nach Ende der Browser-
+Sitzung automatisch wieder gelöscht bzw. ungültig (sog. Sitzungs- bzw. Session-
+Cookies).
+
+Die Nutzung von bahn.de/bahn.com ist generell ohne Cookies, die nicht
+technischen Zwecken dienen, möglich. Sie können also in Ihrem Browser die
+Nachverfolgbarkeit durch Cookies verhindern (Do-not-track, Tracking-Protection-
+List) bzw. das Speichern von Drittanbietercookies untersagen. Außerdem
+empfehlen wir eine regelmäßige Kontrolle der gespeicherten Cookies vorzunehmen,
+sofern diese nicht ausdrücklich gewünscht sind.
+Sie können Ihre Cookie-Einstellungen mit dem nachfolgenden Button "Cookie-
+Einstellungen verwalten" jederzeit erneut aufrufen und Änderungen vornehmen.
+ Cookie-Einstellungen
+*** Cookies und ähnliche Technologien, die für die Nutzung bestimmter
+Funktionen der Seite erforderlich sind ***
+Die im Folgenden aufgeführten und von uns eingesetzten Tracking-Maßnahmen
+werden auf Grundlage des Art. 6 Abs. 1 lit. b) DSGVO durchgeführt und dienen
+der bedarfsgerechten Gestaltung und fortlaufenden Optimierung unserer Webseite.
+Um die Wirksamkeit unserer Maßnahmen zur Verbesserung der Funktionalitäten und
+Ihres Nutzungserlebnisses messen zu können, erheben wir kontinuierlich
+erforderliche Kennzahlen über die Nutzung von bahn.de/bahn.com. Hierfür nutzen
+wir die Analyse-Tools, Tealium, Adobe Analytics, Optimizely, Qualtrics und m-
+pathy. Sofern Ihre IP-Adresse verarbeitet werden muss, wird sie anonymisiert.
+Alle Dienstleister haben wir vertraglich zum datenschutzkonformen Umgang mit
+Ihren Daten verpflichtet.
+Einsatz von Tealium
+Für Zwecke der dynamischen Anpassbarkeit dieser Webseite und für die Verwaltung
+der dynamischen Inhalte setzen wir den Tag Management Dienst Tealium iQ
+(Tealium Inc., 11095 Torreyana Road, San Diego, CA 92121) ein. Dies umfasst
+auch die Verarbeitung der von Ihnen gewählten Cookie-Einstellungen. Die hierfür
+eingesetzten Cookies werden auf Ihrem Endgerät für 12 Monate gespeichert.
+Einsatz von Adobe Analytics
+Um unsere Website zu steuern und die Performance optimieren zu können, nutzen
+wir den Webanalysedienst  der Adobe Systems Software Ireland Limited (Adobe
+Systems Software Ireland Limited, 4-6 Riverwalk, Citywest Business Campus,
+Dublin 24, Republic of Ireland). Die verwendeten Cookies haben eine Laufzeit
+von 24 Monaten. Die mittels des Cookies verarbeiteten Informationen sind nicht
+personenbezogen oder auf eine Person zurückzuführen und werden an einen Server
+von Adobe in den USA übertragen und dort für uns gespeichert. Mithilfe dieser
+Informationen messen und bewerten wir die Nutzung der Website und erstellen
+Statistiken. Auf diese Weise können wir sehen, welche Rubriken und Texte auf
+unseren Seiten wie oft gelesen und genutzt werden und ob die Gestaltung unserer
+Seite einen Einfluss auf den Umfang der Nutzung hat. Über die gewonnenen
+Statistiken können wir unser Angebot verbessern und für Sie als Nutzer
+interessanter ausgestalten.
+Einsatz von Optimizely
+Um Ihnen unsere Website mit leicht variierten Inhalten anzeigen zu können,
+führen wir ein sog. A/B-Testing mithilfe des Webanalysedienstes 'Optimizely'
+durch.
+Hierfür werden Cookies auf Ihrem Endgerät mit einer Laufzeit von 24 Monaten
+gespeichert. Betreiber des Dienstes ist Optimizely (631 Howard Street, Suite
+100, San Francisco, CA 94105, United States). Die anonymisierten Daten werden
+in der Regel auf einem Server von Optimizely in den USA verarbeitet.
+Einsatz von Qualtrics
+Zur kontinuierlichen Verbesserung unserer Angebote und Services laden wir
+Nutzer unserer Website zu Umfragen ein. Dazu verwenden wir die Technologien von
+Qualtrics LLC (333 W. River Park Drive, Provo UT 84604, USA). Die Daten werden
+anonym erhoben.Die von Qualtrics gesetzten Cookies haben den Zweck, Nutzer
+innerhalb eines bestimmten Zeitraums von Mehrfachteilnahmen auszuschließen. Die
+Cookies haben eine Laufzeit von 12 Monaten. Die Teilnahme an den Umfragen ist
+freiwillig.
+Einsatz von m-pathy
+Auf dieser Website werden durch Technologien der Verint Systems GmbH mit dem
+Produkt m-pathy (Ziegelteich 29, 24103 Kiel) Sitzungs- und Interaktionsdaten
+der Website-Besucher gesammelt und gespeichert. Diese Informationen werden
+verwendet, um den Inhalt und die Benutzerfreundlichkeit der Seiten zu
+verbessern. Zu diesem Zweck werden auch Cookies eingesetzt, welche eine
+Laufzeit von 24 Monaten haben.
+Einsatz von CrossEngage 
+Wenn Sie Inhaber eines bahn.de/bahn.com-Kundenkontos sind, können Ihnen im
+eingeloggten Zustand persönliche Angebote und Aktionen angezeigt werden. Um
+diese Inhalte gestalten zu können, wird beim Nutzen von bahn.de/bahn.com ein
+Cookie mit einer Laufzeit von 12 Monaten in Ihrem Browser gesetzt. Die über das
+Cookie ermittelten Daten werden pseudonymisiert auf Servern unseres
+Dienstleisters CrossEngage GmbH (Gontardstr. 11, 10178 Berlin) verarbeitet. 
+Einsatz von hCaptcha
+Um unsere Webseite vor der Überlastung durch automatisierte Dateneingaben
+mittels Bots zu schützen, setzen wir die hcaptcha-Technologie des Anbieters
+Intuition Machines Inc. (350 Alabama St, San Francisco, CA 94110, USA) ein.
+Mittels maschineller Lernmethoden wird überwiegend automatisch bewertet, ob ein
+menschlicher Besucher unsere Webseite benutzt. Bei Bedarf wird auf
+Formularseiten eine interaktive Aufgabe zur Validierung der Eingabe
+eingeblendet. Falls Sie sich für den Barrierefrei-Dienst des Anbieters
+registriert haben, wird das dabei verwendete Cookie ausgewertet.
+Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. f) DSGVO.
+Einsatz von JSC-Tools
+Für Zwecke der Betrugsprävention verwenden wir die Technologie JSC-Tools der
+Risk.Ident GmbH (Am Sandtorkai 50, 20457 Hamburg). Dies dient Ihrem und unserem
+Schutz, um der missbräuchlichen Verwendung Ihres Zahlungsmittels zur Zahlung
+bei bahn.de/bahn.com vorbeugen zu können. Rechtsgrundlage hierfür ist Art. 6
+Abs. 1 lit. f) DSGVO. Hierbei kann ein Cookie mit einer Laufzeit von 24 Monaten
+verarbeitet werden. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. f) DSGVO.
+Easy marketing
+Mit den Technologien von Easy Marketing GmbH (Asselner Hellweg 124, 44319
+Dortmund) stellen wir die Vergütung von Partnern nach Buchung auf einer
+Partnerseite durch DB-Affiliate-Werbemittel sicher. Hierfür werden Cookies
+ausgewertet, in die Sie zuvor auf diesen Partnerseiten eingewilligt haben.
+*** Cookies, die nicht zwingend für die Nutzung der Seite erforderlich sind:
+***
+Die nachfolgenden Cookies sind nicht zwingend für die Nutzung der Seite
+erforderlich und werden nur dann verarbeitet, wenn Sie zuvor eingewilligt
+haben.
+Einsatz von Exactag
+Wir nutzen den Analysedienst der Exactag GmbH (Wanheimer Straße 68, 40468
+Düsseldorf) auf unserer Website. Über Cookies werden Daten darüber gespeichert,
+wie Sie bahn.de/bahn.com nutzen. Das von Exactag gesetzte Cookie hat eine
+Laufzeit von 12 Monaten. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. a)
+DSGVO.
+Einsatz von AdForm
+Zur Schaltung interessenbezogener Werbung werden Cookies der AdForm A/S
+(Wildersgade 10B, 1, 1408 Copenhagen K, Denmark) gesetzt. Dafür werden in
+pseudonymen Nutzungsprofilen beispielsweise Informationen zu Betriebssystem,
+Browserversion, anonymisierte IP-Adressen, geographische Lage sowie Anzahl der
+Klicks oder Views gespeichert. Das von AdForm gesetzte Cookie hat eine Laufzeit
+von 12 Monaten. Diese Daten werden zu folgenden Zwecken genutzt:
+    * Erfassung der Anzahl der Besucher auf bahn.de/bahn.com.
+    * Erfassen der Reihenfolge, in der ein Besucher die verschiedenen Seiten
+      von bahn.de/bahn.com besucht.
+    * Optimierung der Website
+Adform verwendet diese Information, um gezieltere, nutzungsbasierte Online-
+Werbung auszusteuern. Um die Werbeflächen von anderen Webseiten nutzen zu
+können, werden die Cookies mit folgenden Plattformen synchronisiert: Google,
+Doubleclick, Appnexus, DataXu, Mediamath, TURN, TheTradeDesk, Active Agent,
+TheAdex. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. a) DSGVO.
+****  Welche Rechte haben Nutzerinnen und Nutzer von bahn.de/bahn.com?   ****
+    * Sie können Auskunft darüber verlangen, welche Daten über Sie gespeichert
+      sind.
+    * Sie können Berichtigung, Löschung und Einschränkung der Bearbeitung
+      (Sperrung) ihrer personenbezogenen Daten verlangen, solange dies
+      gesetzlich zulässig und im Rahmen eines bestehenden Vertragsverhältnisses
+      möglich ist.
+    * Sie haben das Recht, Beschwerde bei einer Aufsichtsbehörde einzulegen.
+      Die für die DB Vertrieb GmbH zuständige Aufsichtsbehörde ist: Der
+      Hessische Datenschutzbeauftragte, Gustav-Stresemann-Ring 1, 65189
+      Wiesbaden, E-Mail: poststelle@datenschutz.hessen.de
+    * Sie haben das Recht auf Übertragbarkeit derjenigen Daten, die Sie uns auf
+      der Basis einer Einwilligung oder eines Vertrages bereitgestellt haben
+      (Datenübertragbarkeit).
+    * Wenn Sie uns eine Einwilligung zur Datenverarbeitung erteilt haben,
+      können Sie diese jederzeit auf demselben Wege widerrufen, auf dem Sie sie
+      erteilt haben. Durch den Widerruf der Einwilligung wird die
+      Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten
+      Verarbeitung nicht berührt.
+    * Sie können der Datenverarbeitung aus Gründen, die sich aus Ihrer
+      besonderen Situation ergeben, widersprechen, wenn die Datenverarbeitung
+      aufgrund unserer berechtigten Interessen erfolgt.
+    * Sie können der werblichen Ansprache jederzeit mit Wirkung für die Zukunft
+      widersprechen (Werbewiderspruch).
+Zwischen DB Vertrieb, DB Fernverkehr und DB Regio besteht eine gemeinsame
+Verantwortung nach Art. 26 DSGVO. In einer Vereinbarung haben die Parteien
+festgelegt, wer welche Verpflichtungen aus der DSGVO erfüllt. Unabhängig davon
+können Sie Ihre Rechte jederzeit gegenüber den oben genannten Vertragspartnern
+geltend machen. Sofern Sie uns anschreiben, Ihr Anliegen aber den
+Verantwortungsbereich des von Ihnen genutzten Dienstes betrifft, leiten wir
+dieses an ihn weiter. Es kann deshalb sein, dass Sie nicht von uns, sondern von
+dem verantwortlichen DB-Dienst eine Antwort auf Ihr Anliegen erhalten.
+Für die Ausübung Ihrer Rechte reicht ein Schreiben auf dem Postweg an
+
+DB Vertrieb GmbH
+Europa-Allee 78-84
+60486 Frankfurt
+
+oder per E-Mail an ecommerce-datenschutz@bahn.de.
+ 
+****  Werden Inhalte von Dritten eingebunden?   ****
+Wir binden Inhalte von Dritten ein, um Ihnen Angebote entlang der kompletten
+Mobilitätskette anbieten zu können (Partnerangebote). Hierbei geben Sie Ihre
+Daten direkt bei den entsprechenden Drittseiten ein. Diese sind in bahn.de/
+bahn.com integriert und wurden dahingehend angepasst, dass sie optisch ein
+einheitliches Bild abgeben. Inhalte von Dritten sind immer mit einem eigenen
+Impressum und eigenen Datenschutzhinweisen versehen.
+
+Im Einzelnen binden wir Inhalte folgender Partner ein:
+    * AMEROPA: für Bahn- und Städtereisen
+    * FlyLoco: für Flug-Städtereisen
+    * Weg.de: für Flug-Pauschal- und LastMinute-Reisen
+    * HRS: als Hotelanbieter
+    * Eventim: für Musical- und Event-Tickets
+    * ERGO: als Reiseversicherungsanbieter
+    * DB Regio Bus Ost GmbH: als Fernbusanbieter
+    * Avis: als Mietwagenanbieter
+    * Europcar: als Mietwagenanbieter
+    * Sixt: als Mietwagenanbieter
+    * Ypsilon.Net: für den Mietwagen Preisvergleich
+    * Auto Europe: als Mietwagen-Broker im Mietwagenpreisvergleich von
+      Ypsilon.Net
+****  Was passiert bei Links zu externen Seiten?   ****
+Wenn Sie einen Link auf eine externe Seite anklicken, bewegen Sie sich
+außerhalb der Seiten von bahn.de/bahn.com. Die DB Vertrieb GmbH ist somit nicht
+verantwortlich für den Inhalt, die Dienste oder Produkte, die auf der
+verlinkten Website angeboten werden und auch nicht für den Datenschutz und die
+technische Sicherheit auf der verlinkten Website.
+****  Wie aktuell sind diese Datenschutzhinweise?   ****
+Wir passen den Datenschutzhinweis an veränderte Funktionalitäten oder geänderte
+Rechtslagen an. Daher empfehlen wir, den Datenschutzhinweis in regelmäßigen
+Abständen zu Kenntnis zu nehmen. Sofern Ihre Einwilligung erforderlich ist oder
+Bestandteile des Datenschutzhinweises Regelungen des Vertragsverhältnisses mit
+Ihnen enthalten, erfolgen die Änderungen nur mit Ihrer Zustimmung.
+
+Aktueller Stand: Oktober 2021

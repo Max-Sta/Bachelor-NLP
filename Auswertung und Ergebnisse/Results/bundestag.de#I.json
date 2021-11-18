@@ -1,0 +1,80 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Deutschen",
+"division":"analysieren und sie zu verbessern. IP-Adressen werden in Matomo in\n\tanonymisierter Form erfasst.",
+"address":"analysieren und sie zu verbessern. IP-Adressen werden in Matomo in\n\tanonymisierter Form erfasst.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"datenschutz.bdb@bundestag.de",
+"phone":"Platz der Republik 1\n\tD - 11011 Berlin\n\tTelefon: +49 30 227-0\n\tE-Mail: mail@bundestag."},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Sie können unter der oben genannten Adresse Auskunft (Art. 15 DSGVO) über die\n\tzu Ihrer Person gespeicherten Daten sowie unter bestimmten Voraussetzungen die\n\tBerichtigung (Art.",
+"url":"https://hockeyapp.net/privacy/",
+"email":"vorzimmer.ik2@bundestag.de",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"zu Ihrer Person gespeicherten Daten sowie unter bestimmten Voraussetzungen die\n\tBerichtigung (Art. 16 DSGVO) oder die Löschung (Art. 17 DSGVO) Ihrer Daten\n\tverlangen.",
+"url":"https://hockeyapp.net/privacy/",
+"email":"vorzimmer.ik2@bundestag.de",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Ihrer personenbezo­genen Daten durch die Verwaltung des Deutschen Bundestages,\n\tinformieren Sie über Ihre Rechte und versetzen Sie in die Lage, über den Umgang\n\tmit Ihren personenbezogenen Daten informiert zu entschei­den.",
+"url":"https://hockeyapp.net/privacy/",
+"email":"mail@bundestag.de",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Situation ergeben, rechtmäßigen und auf gesetzlicher Grundlage erfolgenden\n\tDatenverarbeitungen zu widersprechen. Das Widerspruchsrecht besteht nicht,\n\tsoweit an der Verarbeitung ein zwingendes öffentliches Interesse besteht,\n\twelches Ihren Interessen überwiegt oder eine Rechtsvorschrift zur Verarbeitung\n\tverpflichtet.",
+"url":"https://hockeyapp.net/privacy/",
+"email":"vorzimmer.ik2@bundestag.de",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Weiterhin haben Sie die Möglichkeit, sich an eine Datenschutzaufsichtsbehörde\n\tzu wenden. Die für den Deutschen Bundestag zuständige Behörde ist:\n\tDer",
+"url":"https://hockeyapp.net/privacy/",
+"email":"vorzimmer.ik2@bundestag.de",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"D - 53117 Bonn",
+"address":"Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit\n\tGraurheindorfer Straße 153\n\tD - 53117 Bonn\n\t",
+"country":"Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit\n\tGraurheindorfer Straße 153\n\tD - 53117 Bonn\n\t",
+"email":"vorzimmer.ik2@bundestag.de",
+"phone":"+49 30 227-0"}},
+"automatedDecisionMaking":{
+"inUse":false,
+"logicInvolved":"N/A",
+"scopeAndIntendedEffects":"N/A"},
+"changesOfPurpose":[]}

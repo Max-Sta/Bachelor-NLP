@@ -1,0 +1,259 @@
+
+Eine Suchmaschine, die Ihre Privatsphäre respektiert
+
+Bei Qwant wissen wir nicht, wer Sie sind. Wir suchen nicht gezielt nach Ihnen und speichern auch nicht Ihren Suchverlauf: Ihr Alter, Ihr Geschlecht und Ihre Interessen gehören allein Ihnen. Jedes Mal, wenn Sie eine Suche starten, beginnen Sie bei Null. 
+
+
+Ein offenes und neutrales Netz für Sie
+
+Da wir unsere User nicht tracken, bietet Ihnen unsere Suchmaschine ein umfassendes Bild vom Web und garantiert Ihnen neutrale Ergebnisse ohne den Einfluss von Filtern. Sie verfangen sich nicht im Netz Ihrer Gewohnheiten. Ihre früheren Recherchen haben keinen Einfluss auf Ihre künftigen Suchergebnisse! 
+
+
+Surfen ohne gezielte Werbung!
+
+Qwant platziert keine Werbe-Cookies in Ihrem Browser. Das bedeutet, dass die Werbung, die in Ihrem Browser erscheint, mit Ihren Suchbegriffen verknüpft ist und nicht mit Ihrem Userprofil. 
+
+
+Ihre Daten sind keine Währung
+
+Man hört heutzutage oft, dass Daten das neue „schwarze Gold“ sind. Nicht bei Qwant. Wir verkaufen Ihre Daten nicht an Dritte, weder zu Werbe- noch zu anderen Zwecken. 
+
+
+Eine in Frankreich entwickelte Alternative, die die europäischen Gesetze erfüllt
+
+Um den französischen und europäischen Gesetzesrahmen einzuhalten, wendet Qwant die DSGVO rigoros an. Wir respektieren die Grundrechte, einschließlich des Rechts auf Vergessenwerden, das Ihnen die Möglichkeit bietet, Ihre Daten löschen zu lassen. 
+
+
+FAQ - Datenschutzerklärung
+
+Wenn Sie Fragen zum Datenschutz bei Qwant haben, finden Sie unten eine Seite mit häufig gestellten Fragen (FAQ), die die Datenschutzerklärung von Qwant zusammenfasst, sie aber nicht ersetzen soll. Alle Informationen finden Sie im vollständigen Text der Datenschutzerklärung am Ende der Seite. 
+Warum ist Qwant so sehr darauf bedacht, meine Privatsphäre zu respektieren?
+
+Qwant weiß, dass Ihre täglichen Suchanfragen viel über Sie und Ihre Privatsphäre verraten können (Ihre Gewohnheiten, Ihre Interessen, Ihre Gesundheit, Ihre religiösen oder philosophischen Überzeugungen, Ihre politischen Ansichten, Ihre sexuellen Vorlieben, Ihre Ernährung, Ihre Kaufkraft, Ihre kulturellen Hintergründe usw.). Sie geben bei Ihren Recherchen viele Dinge preis, die Sie Ihrer Familie und Ihren Freunden oder in den sozialen Netzwerken nicht preisgeben würden. Sie sollten sicher sein, nach allen gewünschten Informationen suchen zu können, ohne dabei beobachtet zu werden und ohne jemandem die Möglichkeit zu geben, dieses Wissen über Ihr Privatleben auszunutzen. 
+
+Außerdem halten wir es für problematisch, die Antworten an die jeweiligen User anzupassen, es sei denn, Sie wünschen es ausdrücklich. Bei Qwant haben alle User, die die gleiche Suche durchführen, Zugang zu denselben Suchergebnissen. 
+
+Deshalb hat sich Qwant entschieden, keine persönlichen Daten zu sammeln, um Werbung zu personalisieren oder ein Werbeprofil zu erstellen, und auch nicht, um Ihren Suchverlauf zu analysieren. 
+Qwant zeigt also keine gezielte Werbung an?
+
+Qwant zeigt kontextbezogene Werbung an, die ausschließlich von den Schlüsselwörtern abhängt, die zum Zeitpunkt der Anzeigenschaltung eingegeben werden, und nicht von der Person, die die Suche durchführt. Wir zeigen keine gezielte Werbung an und verwenden keine Cookies oder andere Technologien zum Werbe-Tracking.
+Welche Daten sammelt Qwant, wenn ich suche?
+
+Wenn Sie auf Qwant suchen, erhalten wir natürlich Ihre Suchbegriffe sowie die IP-Adresse Ihres Computers oder Mobilgeräts und Informationen über Ihren Browser (den „User Agent“). Wir verwenden diese Daten, um Ihre Anfrage zu bearbeiten und die entsprechenden Antworten zu liefern und wir pseudonymisieren die Daten, die wir für unsere Statistiken oder zur Weitergabe an unsere Technologie- und Geschäftspartner brauchen. 
+
+Qwant verwendet keine Cookies zur Werbeverfolgung oder andere Techniken, um Sie wiederzuerkennen, Ihren Suchverlauf zu erstellen oder Ihr Web-Browsing zu tracken.
+Verwenden Sie Werbe-Cookies?
+
+Nein.  
+
+Wir verwenden einen einzigen Cookie ausschließlich, um Ihre technischen Einstellungen für die Nutzung von Qwant zu speichern, sodass Sie diese von einer Suche zur nächsten auf demselben Gerät beibehalten können. Dieses Cookie enthält keine Werbe-Kennungen und ist für Dritte nicht zugänglich. Darüber hinaus integrieren wir keine Cookies oder andere Tracking-Technologien, die von Werbeagenturen oder anderen Partnern zur Verfügung gestellt werden (weitere Einzelheiten finden Sie in unserer Cookie-Richtlinie). 
+Warum und welche Daten übermitteln Sie an Microsoft?
+
+Microsoft stellt einige der Suchergebnisse, die Sie auf unseren Seiten sehen, zur Verfügung und liefert Werbung, die sich auf die Schlüsselwörter in Ihrer Anfrage bezieht. Daher müssen wir Microsoft bestimmte Informationen zu Ihrer Suche übermitteln, die es unserem Partner ermöglichen, für diese Suche relevante Ergebnisse und Anzeigen zu liefern und Klickbetrug oder andere Aktivitäten zu bekämpfen, die nach unseren Nutzungsbedingungen nicht zulässig sind. 
+
+Um Betrug zu erkennen, nutzt Qwant einen speziellen Dienst von Microsoft, der keinen Zugang zu Ihren Suchbegriffen hat. Lediglich Ihre IP-Adresse und der User Agent Ihres Browsers werden an diesen spezialisierten Dienst übermittelt, um die Betrugswahrscheinlichkeit zu berechnen. Die Suchbegriffe werden separat an einen anderen Dienst gesendet, der Ihre IP-Adresse nicht kennt.
+Was kann ich tun, um meine Privatsphäre weiter zu schützen?
+
+Qwant tut sein Bestes, um Ihre Privatsphäre bei der Suche zu schützen, aber Sie können zusätzliche Maßnahmen ergreifen, um Ihr Surfverhalten zu schützen. Sie können z. B. einen Service wie ein virtuelles privates Netzwerk (VPN) oder einen TOR-Relay-Dienst nutzen, sodass selbst Qwant keinen Zugriff auf Ihre echte IP-Adresse hat. 
+
+Wir raten Ihnen auch, die Qwant-Anwendung für Ihr Browsing zu nutzen oder einen anderen Browser zu verwenden, der Ihren Browserverlauf nicht speichert und nicht zu Werbezwecken auswertet. 
+
+
+
+Datenschutzerklärung
+
+Im Folgenden finden Sie die Datenschutzrichtlinie von Qwant, welche nach langem Überlegen und zahlreichen Diskussionen mit der Anforderung die Zufriedenheit unserer Kunden zu steigen unter anderem ebenfalls Dank der Stellungnahme der europäischen Datenschutzbehörden zu Anonymisierungstechniken beschlossen wurde.  Wir möchten Ihnen die von uns ergriffenen Maßnahmen, die uns erlauben die Vertraulichkeit Ihrer Daten zu schützen und zu respektieren, möglichst genau erklären. In Übereinstimmung mit unseren historischen Verpflichtungen zur Verteidigung und Förderung aller regulatorischen Empfehlungen der Allgemeinen Datenschutzverordnung (DSGVO) und weil wir der Ansicht sind, dass es unsere Verantwortung Ihnen gegenüber ist, trifft Qwant die Wahl durch diese Datenschutzrichtlinie ein hohes Maß an Datenschutz, Transparenz und rechtlicher Strenge durchzusetzen. Bei Qwant ist das Konzept der Privatsphäre ein wesentlicher Begriff und eine Realität. Dazu setzen wir technische Datenschutzmaßnahmen und ein Maß an Transparenz ein, das unseres Wissens nach unter unseren Wettbewerbern seinesgleichen sucht.
+
+Qwant achtet darauf, Ihre Privatsphäre bestmöglichst zu schützen, denn das ist das Herzstück unserer Philosophie. Es zählt zu Ihrer Privatsphäre, wofür Sie Qwant nutzen und wir möchten dies nicht wissen. Wir speichern Ihren Suchverlauf nicht ab und wir gestalten kein Werbeprofil, um Sie entsprechend anzuwerben. Bei Qwant genießen Sie natürlich die Rechte der EU-Datenschutzgrundverordnung vom 27. April 2016, bekannt als „DSGVO“ sowie jene des französischen Gesetz zum Schutz personenbezogener Daten. Vor allem aber achten wir auf die größtmögliche Einhaltung des Prinzips der Datenminimierung und des “privacy by design”, d.h. wir setzen für unsere Dienstleistungen Gestaltungsmethoden ein, die es uns ermöglichen, nur die Daten zu sammeln und zu verarbeiten, die unbedingt notwendig sind. Nie versuchen wir herauszufinden, wer Sie sind oder was Sie persönlich tun, wenn Sie unsere Suchmaschine benutzen.
+Wie schützt Qwant Ihre Privatsphäre?
+
+Wenn Sie Qwant als Suchmaschine nutzen, hinterlegen wir auf Ihrem Browser keinerlei Werbe-Cookies und wir schauen uns nicht an, was Sie zuvor persönlich gesucht haben. Wenn eine Anfrage gestellt wird, wird diese sofort mit den in diesen Datenschutzbestimmungen dargelegten Methoden pseudonymisiert.
+
+Darüber hinaus verpflichten wir uns, alles zu unternehmen, um die Sicherheit und Vertraulichkeit der personenbezogenen Daten unserer Nutzer zu gewährleisten und insbesondere um zu verhindern, dass diese Daten abgeändert, gelöscht oder von unbefugten Dritten eingesehen werden können. Der Qwant-URL beginnt mit „HTTPS“, was den Benutzern zeigt, dass sie ihre Daten sicher über das TLS-Protokoll übermittelt werden. Technisch gesehen garantiert TLS den Besuchern, dass ihre Daten nicht abgefangen werden können, wenn diese Daten das Netzwerk in betrügerischer oder versehentlicher Weise durchlaufen. Darüber hinaus zeigt das Schloss an, was Sie vor dem Qwant-URL bei den meisten zertifizierten Browsern sehen, dass Sie auf einer sicheren Website surfen.
+
+Standardmäßig installieren wir keinerlei Cookies auf Ihrem Browser. Wir verwenden die lokale Speicher-Option Ihres Browsers („local storage“), um Ihre Browsereinstellungen (Sprache, Aktivierungs- oder Deaktivierungsoptionen) auf Ihrem Gerät zu hinterlegen. Wenn Sie diese technischen Einstellung ändern, kann es sein, dass ein Cookie auf Ihrem Browser installiert wird, und zwar ausschließlich zu dem Zweck, diese Einstellung beizubehalten. Sie haben die Möglichkeit über Ihren Browser, die Daten der lokalen Speicherung („local storage“) oder den Cookie zu löschen. Für weitere Informationen lesen Sie bitte unsere Cookie-Richtlinie.
+
+Die Bereitstellung einer Suchmaschine erfordert allerdings von Natur aus eine gewisse Datenverarbeitung. Im folgenden Abschnitt dieser Datenschutzbestimmungen möchten wir Sie daher im Einzelnen darüber informieren, wann wir Informationen über Sie verarbeiten müssen, warum wir bestimmte Daten erheben, welche Methoden wir zur Pseudonymisierung von Daten verwenden, wie wir sie verwenden und welche Identität unsere Partner haben, wenn wir diesen Daten übermitteln. In diesem Abschnitt erinnern wir Sie auch an Ihre Rechte und wie Sie diese unserem Dienst gegenüber ausüben können.
+Wie verarbeitet Qwant durch seine Suchmaschine personenbezogene Daten?
+Indexierung von Daten aus dem Web
+
+Um Kenntnis über die im Web vorhandenen Inhalte zu haben und Ihnen die relevantesten Ergebnisse anbieten zu können, indexiert Qwant automatisch Webseiten, auf denen möglicherweise personenbezogene Daten jeglicher Art vorhanden sind. Qwant bewahrt diese Daten bis zu zwei Jahren nach der letzten Indizierung durch unsere Roboter auf, was auf unserem legitimen Interesse an einem Index öffentlich zugänglicher Inhalte im Web beruht (Abschnitt 6.1.f der DSGVO).
+
+Sie haben das Recht, diese Daten löschen zu lassen (siehe unten, Abschnitt „Recht auf Vergessenwerden“).
+Bearbeitung der Benutzeranfragen
+
+Die Anfrage wird durch das Ihrer Suche entsprechende Anzeigen von Ergebnissen und Werbung verarbeitet. Aus Sicherheitsgründen sowie für die Zuverlässigkeit seiner Dienstleistungen (Erkennung von Spam, automatisierte Vorgänge, Klickbetrug auf Anzeigen …) verarbeitet Qwant die folgenden Daten:
+
+    Eingegebene Stichwörter;
+    Informationen über den von Ihnen verwendeten Browser (den User Agent);
+    Informationen über die Sitzungs-Vorlieben (z. B. ob eingestellt ist, dass Sie Qwant in Deutschland und in deutscher Sprache nutzen);
+    Ein Salted Hash der IP-Adresse des Benutzers mit einem Salt, das sich spätestens alle drei Monate ändert (d. h. das Ergebnis einer mathematischen Formel, die auf dieser IP-Adresse basiert, nicht die IP-Adresse selbst);
+    Das ungefähre geographische Gebiet, auf regionaler oder städtischer Ebene basierend (abgeleitet von der IP-Adresse), in dem die Suche durchgeführt wurde
+
+Qwant speichert 7 Tage lang das/die eingegebene(n) Stichwort(e) in Verbindung mit einem Pseudonym-Identifikator, der aus dem User Agent Ihres Browsers und dem Salted Hash Ihrer IP-Adresse berechnet wird. Nach diesem Zeitraum sind die Stichworte nicht mehr mit einem Identifikator verbunden und werden 12 Monate lang für aggregierte statistische Analysen aufbewahrt (so z. B. wie oft ein Stichwort in einem bestimmten Zeitraum gesucht wird).
+
+Diese Verarbeitung ist für die Ausführung der Allgemeinen Nutzungsbedingungen von Qwant, gemäß Artikel 6.1.b der DSGVO (für die Verarbeitung, die für die Erfüllung des Vertrags zwischen Ihnen und uns erforderlich ist), notwendig und entspricht dem legitimen Interesse von Qwant (Artikel 6.1.f der DSGVO), seine Dienstleistungen sicher und zuverlässig zu gestalten.
+
+Um Ihnen relevante Ergebnisse aus der ganzen Welt liefern zu können, wenn wir selbst nicht die Antworten auf Ihre Fragen haben, haben wir uns mit Microsoft Ireland Operations Limited zusammengetan, um einige unserer Suchergebnisse bereitzustellen und kontextbezogene Werbung auf der Grundlage der eingegebenen Stichwörter und Ihrer geografischen Region zu schalten.
+
+Zu diesem Zweck kann Qwant die folgenden pseudonymisierten Daten im Zusammenhang mit Ihrer Anfrage an diesen Partner übermitteln:
+
+– Die Schlüsselwörter der Suche;
+
+– Informationen über den von Ihnen verwendeten Browser (der User Agent);
+
+– Die ersten drei Bytes Ihrer IP-Adresse;
+
+– Das ungefähre geografische Gebiet, in dem die Suche ihren Ursprung hat, entweder regional oder nach Stadt;
+
+– Der Salt-Hash wird aus Ihrer IP-Adresse, Ihrem User-Agent und einem Salt generiert, der sich spätestens alle 3 Monate ändert;
+
+– Ein zufälliges Token, das von Qwant generiert wird (mit dem Ziel, Datenüberschneidungen zu begrenzen).
+
+Diese Verarbeitung ist für die Erfüllung der Allgemeinen Nutzungsbedingungen von Qwant auf der Grundlage von Artikel 6.1.b der DSGVO (für die Erfüllung des Vertrags zwischen Ihnen und uns erforderliche Verarbeitung) erforderlich.
+
+Darüber hinaus kann Qwant zu Zwecken der Sicherheit und Zuverlässigkeit der Dienste unseres Partners (Erkennung von Spam, automatisierten Aktivitäten, betrügerischen Klicks auf Werbung…) auch Ihre vollständige IP-Adresse erfassen und an diesen Partner übermitteln.
+
+Diese Verarbeitung liegt im berechtigten Interesse der Microsoft Ireland Operations Limited (Artikel 6.1.f), um ihre Dienste zu sichern und zuverlässiger zu machen.
+
+Diese Daten werden an diesen Partner innerhalb der Europäischen Union übermitteln und können in Übereinstimmung mit der Bing-Datenschutzrichtlinie für einen Zeitraum von maximal 18 Monaten gespeichert werden.
+Messung der Effektivität bestimmter kontextbezogener Werbeergebnisse
+
+Um ein aggregiertes Maß für die Effektivität der von unserem Partner Microsoft Ireland Operations Limited zur Verfügung gestellten Werbeanzeigen zu erstellen und dessen Mittel zur Erkennung betrügerischer Klicks zu stärken, kann Qwant ihm für bestimmte Kategorien von Werbeanzeigen auch die folgenden Daten übermitteln, wenn Sie auf eine Werbeanzeige aus dem Microsoft-Netzwerk klicken und zur gleichen Qwant-Ergebnisseite zurückkehren: 
+
+– Die Messung der Zeit, die zwischen Ihrem Klick auf die Anzeige und Ihrer eventuellen Rückkehr auf die Ergebnisseite vergeht.
+
+Diese an Microsoft weitergegebenen Daten werden ausschließlich für die oben genannten Zwecke verwendet und dürfen nicht für andere Zwecke genutzt werden. Insbesondere darf sie nicht für Werbung auf Basis eines Nutzerprofils auf Qwant oder Diensten Dritter verwendet werden.
+
+Diese Daten werden an diesen Partner innerhalb der Europäischen Union übermittelt und können in Übereinstimmung mit der Bing-Datenschutzrichtlinie für einen Zeitraum von maximal 18 Monaten gespeichert werden.
+
+Diese Verarbeitung ist für die Erfüllung der Qwant-Servicebedingungen auf der Grundlage von Artikel 6.1.b der DSGVO (für die Erfüllung des Vertrags zwischen Ihnen und uns erforderliche Verarbeitung) erforderlich.
+Statistiken und Webanalyse
+
+Um Webanalysen bezüglich seiner Anwender durchzuführen und die Nutzung seiner Dienste zu verstehen, mit dem Ziel diese zu verbessern, speichert Qwant auch andere Daten in Bezug auf Ihre Nutzung der Dienste (7 Tage lang mit einem Hash verbunden, der aus Ihrer IP-Adresse und dem User Agent Ihres Browsers berechnet wird), einschließlich:
+
+    Der HTTP-Referrer und das Suchfeld, mit dem die Anfrage ausgelöst wurde (d. h. die Internetadresse der Webseite, von der der Benutzer auf die aktuelle Website gelangt ist);
+    Informationen über die Art des angeklickten Links (wie z. B. die Position des angeklickten Links in den Ergebnissen mit der Anzahl der angebotenen Ergebnisse);
+    Bestimmte, von Ihrem User Agent abgeleitete Informationen (Browsertyp, Betriebssystem, Hauptversion des Browsers, …)
+
+Diese Verarbeitung ist im Rahmen des legitimen Interessen von Qwant zur Entwicklung von Statistiken und Webanalyse gemäß Artikel 6.1.f der DSGVO notwendig.
+Verwaltung der Konten von registrierten Benutzern
+
+Qwant erfordert keinerlei Registrierung, um die Suchmaschine nutzen zu können. Es kann allerdings sein, dass Sie es wünschen sich zu registrieren, um sich einzuloggen und um Dienstleistungen anzupassen. Es steht Ihnen frei, Ihre Kontoinformationen zu verwalten (Informationen ändern, korrigieren, aktualisieren und löschen).
+
+Für die Benutzerkontenverwaltung und den Versand unseres Newsletters (falls Sie sich für diesen angemeldet haben) erhebt Qwant die folgenden Daten:
+
+    Informationen über die Benutzereinstellungen (so z. B., ob eingestellt ist, dass Sie Qwant in Deutschland und in deutscher Sprache nutzen);
+    Der Hash des Benutzerpassworts;
+    Die Emailadresse des Benutzers;
+    Freiwillige Angaben, wenn diese vom Benutzer angegeben werden (Benutzername, Nachname, Vorname, Stadt, Website usw.).
+
+Diese Daten werden von Qwant solange aufbewahrt, wie Ihr Benutzerkonto besteht, um dessen ordnungsgemäßes Funktionieren zu ermöglichen. Sie werden dann 7 Tagen nach der Kontolöschungsanfrage gelöscht. In dieser Zeitspanne haben Sie die Möglichkeit, Ihr Konto mit Ihrem ursprünglichen Login und Passwort zu reaktivieren.
+
+Diese Verarbeitung ist für die Ausführung der Allgemeinen Nutzungsbedingungen von Qwant, gemäß Artikel 6.1.b der DSGVO (für die Verarbeitung, die für die Erfüllung des Vertrags zwischen Ihnen und uns erforderlich ist), notwendig.
+Verwaltung der auf der Website eingegebenen Informationsanfragen
+
+Um Informationsanfragen, die unsere Benutzer über ein Kontaktformular getätigt haben, zu bearbeiten, kann Qwant die folgenden Daten erfassen:
+
+    Ihren Vor- und Zunamen;
+    Ihre Email-Kontakt-Adresse;
+    Alle anderen persönlichen Daten, die vom Benutzer zur Verfügung gestellt werden.
+
+Qwant löscht diese Daten innerhalb von 6 Monaten nach Antragseingang.
+
+Diese Verarbeitung ist für die Erfüllung der Allgemeinen Nutzungsbedingungen von Qwant auf der Grundlage von Artikel 6 Absatz 1 Buchstabe b der Datenschutz-Grundverordnung erforderlich (für die Erfüllung des Vertrags zwischen Ihnen und uns erforderliche Verarbeitung).
+Verwaltung der Bewerbungen
+
+Zur Bearbeitung der Bewerbungen, die über unsere Bewerbungsformulare eingehen, kann Qwant die folgenden Daten erfassen:
+
+    Lebenslauf;
+    Vorname, Zuname;
+    Emailadresse;
+    Postadresse;
+    Telefonnummer;
+    Alle anderen persönlichen Daten, die vom Bewerber zur Verfügung gestellt werden.
+
+Diese Daten werden maximal zwei Jahre lang nach dem letzten Austausch mit dem Bewerber aufbewahrt.
+
+Diese Verarbeitung ist für die Zwecke der berechtigten Interessen erforderlich, die Qwant bei der Bearbeitung Ihrer Bewerbungen auf der Grundlage von Artikel 6 Absatz 1 Buchstabe f der Datenschutz-Grundverordnung verfolgt.
+Verwaltung von Auslistungsanträgen
+
+Zur Bearbeitung von Anfragen im Zusammenhang mit der Anwendung von Rechten in Bezug auf personenbezogene Daten sowie in Bezug auf Anfragen zur Entfernung rechtswidriger Inhalte kann Qwant die folgenden Daten erfassen:
+
+    Vor- und Zuname;
+    Identitätsnachweis;
+    Ihre Email-Kontakt-Adresse;
+    IP-Adresse der antragstellenden Person (auf dem Formular zur Meldung rechtswidriger Inhalte);
+    Alle anderen persönlichen Daten, die vom Antragsteller zur Verfügung gestellt werden.
+
+Hinsichtlich der Daten, die im Rahmen einer von Ihnen an Qwant gerichteten Anfrage gesammelt werden, wird die Aufbewahrungsfrist gemäß den für jedes dieser Rechte geltenden Vorschriften festgelegt (Auslistung, Rechte bezüglich Ihrer personenbezogenen Daten, rechtswidrige Inhalte). Weitere Informationen finden Sie im nächsten Abschnitt unter dem Titel “Was sind Ihre Rechte? Wie können Sie sie ausüben?” .
+
+Diese Verarbeitung ist erforderlich, um den rechtlichen Verpflichtungen von Qwant auf der Grundlage von Artikel 6 Absatz 1 Buchstabe c der DSGVO nachzukommen.
+Was sind Ihre Rechte und wie können Sie sie ausüben?
+
+Die Vorschriften über den Schutz personenbezogener Daten räumen Ihnen bestimmte Rechte über Ihre Daten und deren Verarbeitung durch Qwant ein, die im Folgenden einzeln aufgeführt sind:
+
+    das Recht auf Auskunft, Berichtigung und Löschung von Daten im Rahmen der in den Vorschriften vorgesehenen Bedingungen (Artikel 15 bis 17 der DSGVO);
+    das Recht, Einspruch gegen die Verarbeitung unter den in den Vorschriften vorgesehenen Bedingungen (Artikel 21 der DSGVO) zu erheben;
+    das Recht auf Einschränkung der Verarbeitung solcher Daten unter den in den Vorschriften festgelegten Bedingungen einzuschränken (Artikel 18 der DSGVO);
+    das Recht auf Datenübertragbarkeit (Artikel 20 der DSGVO);
+    das Recht, eine Beschwerde bei einer Aufsichtsbehörde einzureichen (Artikel 13 der DSGVO)
+    das Recht, Richtlinien für den Todesfall zu definieren (Artikel 84 bis 86 des Datenschutzgesetzes)
+
+Qwant hat einen Datenschutzbeauftragten (frz. Délégué à la protection des données, DPO) bei der CNIL (der französischen Datenschutzbehörde) ernannt, bei dem Sie jedes dieser Rechte ausüben können:
+
+    indem Sie sich entweder schriftlich per Post an Qwant wenden: Direction Ethique & Affaires Juridiques, 61-63 rue de Villiers, 92200 Neuilly-Sur-Seine, France
+    oder indem Sie sich schriftlich per Email an folgende Adresse wenden: dpo@qwant.com
+
+Recht auf Auskunft
+
+Sie können sich direkt mit Ihren Fragen, ob wir Daten über Sie besitzen sowie zur Information über die Verarbeitung Ihrer Daten (wie z. B. zu den Kategorien der verarbeiteten Daten), an uns wenden. Dieses Recht erlaubt es Ihnen ebenso, Qwant aufzufordern, Ihnen all diese Daten zur Verfügung zu stellen.
+
+Die Informationen im Zusammenhang mit der Ausübung dieses Rechts auf Auskunft (für z. B. Ihre Kontaktdaten) werden ein Jahr lang, ab dem Datum der Antwort von Qwant, aufbewahrt und nach Ablauf dieser Frist gelöscht.
+Recht auf Berichtigung
+
+Sie können die Profilinformationen Ihres Qwant-Kundenkontos jederzeit ändern oder löschen.
+
+Für Bewerbungen haben Sie die Möglichkeit, diese zu berichtigen, indem Sie entweder auf die automatische E-Mail antworten, die Sie beim Absenden Ihrer Bewerbung erhalten haben, oder indem Sie uns eine E-Mail an dpo@qwant.com schicken.
+
+Für die Anträge zur Auslistung und um andere Rechte auszuüben, haben Sie die Möglichkeit, Formulare und Informationen zu korrigieren, indem Sie uns eine E-Mail an dpo@qwant.com schicken.
+
+Die Informationen im Zusammenhang mit der Ausübung dieses Rechts auf Berichtigung (für z. B. Ihre Kontaktdaten) werden ein Jahr lang, ab dem Datum der Antwort von Qwant, aufbewahrt und nach Ablauf dieser Frist gelöscht.
+Recht auf Löschung und „Recht auf Vergessenwerden“
+
+Dieses Recht gibt Ihnen die Möglichkeit, Ihre Daten baldmöglichst durch Qwant löschen zu lassen.
+
+Dies bedeutet konkret, dass Sie die Möglichkeit haben, Ihr Konto zu löschen, indem Sie den hier beschriebenen Anweisungen folgen. Nach Eingang des Antrags zur Konto-Schließung werden die von Ihnen angegebenen Daten folglich nach 7 Tagen, unter Vorbehalt unserer gesetzlichen und regulatorischen Verpflichtungen, gelöscht.
+
+Ebenso können Sie die Löschung Ihrer Bewerbungsunterlagen beantragen, wenn Sie es nicht mehr wünschen, dass diese von Qwant bearbeitet werden. Nach Eingang Ihres Antrags zur Löschung Ihrer Bewerbungsunterlagen werden alle von Ihnen angegebenen Daten baldmöglichst und somit spätestens innerhalb von 15 Tagen gelöscht.
+
+Sie können auch die Löschung jener Daten beantragen, die auf der Website über die Formulare für Informationsanfragen gesammelt wurden, ausgenommen sind die Formulare bezüglich der Ausübung Ihrer Rechte. Nach Erhalt Ihres Löschungsantrags werden alle Daten, die Sie über die betreffenden Formulare übermittelt haben, baldmöglichst und somit spätestens innerhalb von 6 Monaten gelöscht.
+
+Die Informationen im Zusammenhang mit der Ausübung des Rechts auf Löschung für Ihre Kontaktdaten werden ein Jahr lang, ab dem Datum der Antwort von Qwant, aufbewahrt und nach Ablauf dieser Frist gelöscht.
+
+Sie haben ein spezifisches Recht, das Privatpersonen vorbehalten ist und vom Gerichtshof der Europäischen Union (EUGH) für Benutzer von Suchmaschinen anerkannt wurde und „Recht auf Vergessenwerden“ genannt wird. Wenn die Suche, die sich aus Ihrem Vor- und Zunamen zusammensetzt, zu Ergebnissen führt, die ungenau, veraltet, heikel oder übertrieben sind, können Sie uns einen Auslistungsantrag für die mit Ihrem Vor- und Zunamen verbundene(n) Webseite(n) stellen, indem Sie unser hierfür vorgesehenes ODT– oder PDF-Formular ausfüllen. Ihr Antrag wird fallweise geprüft und die benannten URLs werden aus diesen Suchergebnissen entfernt, sofern die Interessenabwägung nicht dazu führt, dass das Recht der Öffentlichkeit auf Information vorgezogen wird (z. B. wenn Sie ein gewählter Beamter sind, der versucht, eine kontroverse politische Erklärung außer Kraft zu setzen).
+
+Die Informationen im Zusammenhang mit der Ausübung dieses Rechts auf Vergessenwerden (für z. B. Ihre Kontaktdaten) werden ein Jahr lang, ab dem Datum der Antwort von Qwant, archiviert und nach Ablauf der gesetzlichen Verjährungsfrist (drei Jahre) endgültig gelöscht.
+Recht auf Einspruch
+
+Das Recht auf Einspruch, wie es sein Name schon sagt, ermöglicht es Ihnen, Einspruch gegen die Verarbeitung Ihrer Daten durch Qwant zu erheben.
+
+Die Informationen im Zusammenhang mit der Ausübung dieses Rechts auf Einspruch (für z. B. Ihre Kontaktdaten) werden ein Jahr lang, ab dem Datum der Antwort von Qwant, aufbewahrt und nach Ablauf der gesetzlichen Verjährungsfrist (drei Jahre) endgültig gelöscht.
+Recht auf Einschränkung der Verarbeitung
+
+Dieses Recht ermöglicht es Ihnen zum Beispiel, die vorübergehende Löschung der auf der Website veröffentlichten Daten zu erwirken, falls die Richtigkeit der Daten angezweifelt wird, und dies für einen Zeitraum, der es Qwant ermöglicht, die erforderlichen Kontrollen durchzuführen.
+
+Die Informationen im Zusammenhang mit der Ausübung dieses Rechts (für z. B. Ihre Kontaktdaten) werden ein Jahr lang, ab dem Datum der Antwort von Qwant, aufbewahrt und nach Ablauf dieser Frist gelöscht.
+Recht auf Datenübertragbarkeit
+
+Dieses Recht ermöglicht es Ihnen, die von Ihnen angegebenen Daten zu erhalten oder Qwant dazu aufzufordern, sie an einen anderen für die Datenverarbeitung Verantwortlichen (wie z. B. an eine andere Website) zu übermitteln.
+
+Die Informationen im Zusammenhang mit der Ausübung dieses Rechts (für z. B. Ihre Kontaktdaten) werden ein Jahr lang, ab dem Datum der Antwort von Qwant, aufbewahrt und nach Ablauf dieser Frist gelöscht.
+
+Sie haben die Möglichkeit, eine Kopie Ihrer Daten zu erhalten, indem Sie in Ihrem Qwant-Kundenkonto auf die Schaltfläche „Eine Kopie meiner Daten erhalten” klicken.
+Welche Daten werden für die Wiedergabe von Videos verarbeitet?
+
+Wenn Videos in unseren Ergebnisseiten integriert sind, können Sie diese ansehen, ohne Qwant zu verlassen. Wir speichern keine Daten, die sich auf die von Ihnen verwendeten oder angesehenen Videos beziehen. Die Videos werden allerdings aus der Ferne über Ihren Browser von dessen Host-Server, der möglicherweise einige Ihrer personenbezogen Daten erfasst, aufgerufen. Die Wiedergabe von Videos aus den YouTube-API-Diensten unterliegt dann den Nutzungsbedingungen von YouTube und den Datenschutzbestimmungen von Google. Die Videos der Dailymotion-API unterliegen den Nutzungsbedingungen von Dailymotion und den Datenschutzbestimmungen von Dailymotion.
+Welche Daten werden für die mobile Anwendung Qwant auf Android und iOS verarbeitet?
+
+Wir integrieren weder einen Tracker in unsere Anwendungen noch eine Werbe-ID. Qwant verarbeitet keine spezifischen persönlichen Daten, wenn Sie die Qwant-Anwendung für Android oder iOS verwenden. Die Verarbeitung personenbezogener Daten, die Qwant durchführt, wenn Sie unsere Dienste von der Anwendung aus durchsuchen und nutzen, sind ausschließlich die oben beschriebenen.

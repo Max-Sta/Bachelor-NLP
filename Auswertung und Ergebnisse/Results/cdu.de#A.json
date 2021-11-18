@@ -1,0 +1,84 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"CDU",
+"division":" 7 EU-Datenschutz-Grundverordnung (DS-GVO)\n\tist die CDU Deutschlands, Klingelhöferstraße 8, 10785 Berlin, kah@cdu.",
+"address":" 7 EU-Datenschutz-Grundverordnung (DS-GVO)\n\tist die CDU Deutschlands, Klingelhöferstraße 8, 10785 Berlin, kah@cdu.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"Initialen veröffentlicht (z.B. Max Mustermann wird zu M.M.",
+"address":" 7 EU-Datenschutz-Grundverordnung (DS-GVO)\n\tist die CDU Deutschlands, Klingelhöferstraße 8, 10785 Berlin, kah@cdu.",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"(1) Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden\n\tpersonenbezogenen Daten:\n\t    * Recht auf Auskunft,\n\t    * Recht auf Berichtigung oder Löschung,\n\t    * Recht auf Einschränkung der Verarbeitung,\n\t    * Recht auf Datenübertragbarkeit.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"    * Recht auf Auskunft,\n\t    * Recht auf Berichtigung oder Löschung,\n\t    * Recht auf Einschränkung der Verarbeitung,\n\t    * Recht auf Datenübertragbarkeit.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":" Diese Policy soll größtmögliche Transparenz und\n\tInformation über unsere Datenverarbeitungsvorgänge sowie die Rechte aller von\n\tdieser Verarbeitung betroffenen Personen gewährleisten.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Nutzer des sozialen Netzwerks über Ihre Aktivitäten auf unserer Website zu\n\tinformieren. Ihnen steht ein Widerspruchsrecht zu gegen die Bildung dieser\n\tNutzerprofile, wobei Sie sich zur Ausübung dessen an YouTube richten müssen.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"das Recht auf Beschwerde bei einer Aufsichtsbehörde – insbesondere im\n\tMitgliedstaat des Aufenthaltsortes des Nutzers, des Arbeitsplatzes des Nutzers\n\toder des Orts des mutmaßlichen Verstoßes – zu, wenn der Nutzer der Ansicht ist,\n\tdass die Verarbeitung seiner personenbezogenen Daten durch uns gegen die DS-GVO\n\tverstößt.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Datenschutz-",
+"address":"verstößt. Eine Liste der Aufsichtsbehörden in Deutschland finden Sie hier:\n\thttps://www.bfdi.",
+"country":"verstößt. Eine Liste der Aufsichtsbehörden in Deutschland finden Sie hier:\n\thttps://www.bfdi.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"haben nicht die Absicht, von Ihnen erhobene personenbezogene Daten für ein\n\tVerfahren zur automatisierten Entscheidungsfindung (einschließlich Profiling)\n\tzu verwenden.",
+"scopeAndIntendedEffects":"haben nicht die Absicht, von Ihnen erhobene personenbezogene Daten für ein\n\tVerfahren zur automatisierten Entscheidungsfindung (einschließlich Profiling)\n\tzu verwenden."},
+"changesOfPurpose":[{
+"description":"regelmäßig auf Anpassungs- oder Ergänzungsbedarf hin überprüft. Über Änderungen\n\twerden Sie insbesondere auf unserer Webseite unter www.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Januar 2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

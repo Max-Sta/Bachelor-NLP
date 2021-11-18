@@ -1,0 +1,108 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Amazon",
+"division":" Über Amazon Pay durchgeführte Käufe von Drittanbietern unterliegen der Amazon Payments Europe Nutzungsvereinbarung",
+"address":" Über Amazon Pay durchgeführte Käufe von Drittanbietern unterliegen der Amazon Payments Europe Nutzungsvereinbarung",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":" Ihre gesetzlichen Rechte als Verbraucher oder jegliche Haftung für Tod, Verletzungen einer Person oder Betrug werden durch diesen Abschnitt nicht eingeschränkt.\n\t\n\t3.7 Kontaktinformationen. Wenn Sie Hilfe im Umgang mit Alexa benötigen oder sonstige Fragen klären möchten, kontaktieren Sie bitte den Kundenservice.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":" Für Abonnements von Amazon Diensten gelten hinsichtlich Kündigung, Preisen und Rückerstattung die Nutzungsbestimmungen der jeweiligen Dienste. Betrifft ein über Amazon abgewickelter Kauf das Abonnement eines Dienstes Dritter, so gilt folgendes: (i) Wir und/oder der Dritte behalten uns das Recht vor, ein Abonnement jederzeit zu beenden, bspw.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":" In einem solchen Fall kann Amazon Ihren Zugriff auf Alexa unmittelbar und ohne jeglichen Anspruch auf Rückerstattung von Gebühren widerrufen. Wenn Amazon es versäumt, auf Ihre strikte Erfüllung dieser Vereinbarung zu bestehen oder diese durchzusetzen, lässt sich daraus kein Verzicht auf jegliche Rechte von Amazon ableiten.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Falls Sie sich selbst eine Direktanruf-Genehmigung erteilen, erhält automatisch auch jede andere Person in Ihrem Haushalt eine Drop-In-Genehmigung; falls Sie einem Ihrer Kontakte eine Drop-In-Genehmigung erteilen, erhält automatisch jede andere Person im Haushalt dieses Kontakts eine Drop-In-Genehmigung.",
+"scopeAndIntendedEffects":" Falls Sie sich selbst eine Direktanruf-Genehmigung erteilen, erhält automatisch auch jede andere Person in Ihrem Haushalt eine Drop-In-Genehmigung; falls Sie einem Ihrer Kontakte eine Drop-In-Genehmigung erteilen, erhält automatisch jede andere Person im Haushalt dieses Kontakts eine Drop-In-Genehmigung."},
+"changesOfPurpose":[{
+"description":" Amazon ist für solche Inhalte nicht verantwortlich oder haftbar.\n\t\n\t3.2 Änderungen an Alexa; Ergänzungen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Fall",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Wir sind berechtigt, diese Bedingungen oder Alexa oder Teile davon jederzeit zu ändern, soweit dies aus: rechtlichen oder regulatorischen Gründen erfolgt; aus Sicherheitsgründen; um existierende Merkmale Alexas weiterzuentwickeln oder zu optimieren sowie um zusätzliche Merkmale hinzuzufügen; um dem technischen Fortschritt Rechnung zu tragen und technische Anpassungen vorzunehmen und um die künftige Funktionsfähigkeit Alexas sicherzustellen.\n\t\n\tWenn wir Änderungen vornehmen, setzen wir Sie hierüber in der vorgeschriebenen Form und mit angemessener Frist in Kenntnis und weisen Sie auf die Ihnen zustehende Rechte hin.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Fall",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Ihnen wird eine angemessene Frist eingeräumt, in der Sie sich entscheiden können, diese Änderungen nicht zu akzeptieren.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Fall",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" In diesem Fall kann es möglicherweise sein, dass Sie nicht berechtigt sind, neue Funktionalitäten und Dienste, die im Zusammenhang mit diesen Änderungen stehen, zu nutzen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Fall",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" In diesem Fall kann es möglicherweise sein, dass Sie nicht berechtigt sind, neue Funktionalitäten und Dienste, die im Zusammenhang mit diesen Änderungen stehen, zu nutzen. Erweist sich eine Änderung als ungültig, nichtig oder aus irgendeinem Grund nicht durchsetzbar, wird hierdurch die Gültigkeit und Durchsetzbarkeit der übrigen Änderungen oder Bedingungen nicht berührt.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Fall",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Erweist sich eine Änderung als ungültig, nichtig oder aus irgendeinem Grund nicht durchsetzbar, wird hierdurch die Gültigkeit und Durchsetzbarkeit der übrigen Änderungen oder Bedingungen nicht berührt.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Fall",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Unbeschadet der Ihnen zustehenden Rechte, behalten wir uns das Recht vor, möglicherweise in der Zukunft Änderungen unter Beachtung der geltenden Gesetze einzuführen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Fall",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

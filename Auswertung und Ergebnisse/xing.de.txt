@@ -1,0 +1,384 @@
+XING ist ein umfassender Dienst mit zahlreichen Anwendungen
+XING ist ein Dienst, der den Zweck verfolgt, durch eine Vielfalt unterschiedlicher Anwendungen zur Verbesserung und Vereinfachung des Berufslebens des Nutzers beizutragen. Die Kombination dieser Anwendungen ermöglicht dem Nutzer das bestmögliche Nutzererlebnis und den größten Funktionsumfang. Angesichts des zunehmenden Verschwimmens der Grenzen zwischen Arbeits- und Privatleben und der Wechselwirkungen zwischen beiden, konzentriert sich XING dabei nicht ausschließlich auf den professionellen Kontext, sondern bezieht auch Anwendungen im privaten Kontext mit ein. Insbesondere möchte XING dem Nutzer neue Möglichkeiten eröffnen (vorwiegend im professionellen Kontext, aber auch im privaten Kontext), ihm erleichtern horizontale Netzwerke zu bilden, Informationen demokratisieren, den Informationsaustausch fördern und lebenslanges Lernen unterstützen. Um diese Zwecke zu erfüllen, stellt XING dem Nutzer unter anderem auf Basis erhobener Daten Informationen, Angebote, Empfehlungen sowie Dienstleistungen bereit und fördert die Interaktion – innerhalb und außerhalb des Netzwerks des Nutzers. Zu den Anwendungen des Dienstes XING gehören insbesondere das soziale Netzwerk, für das der Nutzer eine Mitgliedschaft erwerben kann, eine Veranstaltungsplattform, eine Arbeitgeberbewertungsplattform und eine Plattform zur Förderung des Mitarbeiterengagements. Einige der XING Anwendungen treten dabei gegebenenfalls unter anderen Markennamen oder unter Nutzung von anderen XING Websites in Erscheinung (z. B. kununu, HalloFreelancer).
+
+Mit dieser Datenschutzerklärung informieren wir über die Datenverarbeitung im Rahmen des gesamten Dienstes XING (inklusive sämtlicher Anwendungen). Für folgende Anwendungen stellen wir zusätzliche Informationen zur Datenverarbeitung bereit, die Du auf den betreffenden Internetseiten der Anwendungen abrufen kannst:
+
+XING TalentManager
+XING TalentpoolManager
+XING AdCreator
+XING Exchange
+FreelancerManager
+Verantwortlicher
+Wir, die New Work SE, sind der Verantwortliche im Sinne der EU-DSGVO – also die juristische Person, die über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet. Unsere Kontaktdaten lauten: Dammtorstraße 30, 20354 Hamburg, Deutschland, Tel.: +49 40 419 131-0, Fax: +49 40 419 131-11, E-Mail: info@xing.com.
+
+Datenschutzbeauftragter
+Unser Datenschutzbeauftragter ist Felix Lasse, Dammtorstraße 30, 20354 Hamburg, Deutschland, E-Mail: Datenschutzbeauftragter@xing.com.
+
+Weiterverarbeitung für einen anderen Zweck
+Die Zwecke, für die wir Deine personenbezogenen Daten verarbeiten, werden im Abschnitt 1. Allgemeines zu den Zwecken der Datenverarbeitung beschrieben. Sofern wir eine Weiterverarbeitung Deiner personenbezogenen Daten für einen anderen Zweck – also nicht für denjenigen, für den die personenbezogenen Daten ursprünglich erhoben wurden – beabsichtigen, werden wir Dich erneut informieren.
+
+Pflicht zur Bereitstellung/Erforderlichkeit von personenbezogen Daten für Vertragsabschluss
+Die Bereitstellung der personenbezogenen Daten ist gesetzlich nicht vorgeschrieben. Allerdings sind die für den Abschluss des Nutzungsvertrags erforderlichen Daten wie Name und E-Mail-Adresse anzugeben. Ohne diese sind wir nicht in der Lage, mit Dir ein Nutzungsverhältnis einzugehen. Im Rahmen des Nutzungsvertrags wirst Du vertraglich verpflichtet, die bereitgestellten Daten hinsichtlich aller von Dir genutzten Anwendungen während der gesamten Vertragslaufzeit wahr und vollständig zu halten. Wir informieren Dich im Rahmen des Eingabeprozesses, wenn die Bereitstellung personenbezogener Daten für die jeweilige Funktion oder Anwendung erforderlich ist („Pflichtfeld“). Bei erforderlichen Daten hat die Nichtbereitstellung zur Folge, dass die betreffende Funktion oder Anwendung nicht erbracht werden kann. Bei optionalen Daten hat die Nichtbereitstellung ggf. zur Folge, dass wir unsere Dienste nicht in gleicher Form und gleichem Umfang erbringen können.
+1. Allgemeines zu den Zwecken der Datenverarbeitung.
+Der Betrieb eines Dienstes wie XING unterliegt naturgemäß einer sehr dynamischen Entwicklung. Es ist daher nicht möglich, jedes einzelne Detail darzustellen. Wir möchten Dir aber wesentliche Details der Datenverarbeitung aufzeigen. Die Verarbeitung von Daten erfolgt insbesondere zur Erbringung unserer vertraglichen Verpflichtungen gegenüber unseren Nutzern. Abweichend davon verarbeiten wir Deine Daten zur Wahrung unserer berechtigten Interessen unter Abwägung mit Deinen Interessen (z. B. wenn wir Dir werbliche Newsletter zukommen lassen). Und natürlich sind wir in manchen Fällen rechtlich zur Verarbeitung von Daten verpflichtet (z. B. zur Herausgabe von Daten an Ermittlungsbehörden). In allen anderen Fällen holen wir von Dir eine gesonderte Einwilligung zur Datenverarbeitung ein (z. B. beim Einsatz von Tracking-Technologien zur Messung und Optimierung von Werbung oder im Rahmen von Gewinnspielen). Im Rahmen der Erbringung unserer vertraglichen Verpflichtungen gegenüber unseren Nutzern versuchen wir, unsere Produkte und Dienstleistungen stets an die Bedürfnisse der Nutzer anzupassen. Hierbei spielt Personalisierung eine wichtige Rolle. Dabei werden Interessens- und Nutzungsprofile erstellt: Um Dir passende Empfehlungen z. B. für Jobs, Events, Gruppen oder Kontakte anzeigen zu können oder Dich anderen Nutzern als wertvollen Geschäftskontakt oder potentiellen Mitarbeiter vorschlagen zu können, müssen wir verstehen, welche Interessen Du haben könntest. Um diese Interessen zu ermitteln, verwenden wir die Informationen, die Du uns mitteilst, aber auch implizites Feedback, also Informationen, die wir auf Grund Deiner Nutzung unseres Dienstes automatisch erhalten (durch sog. „Tracking“) sowie ggf. Informationen, die wir indirekt erhalten (z. B. über einen Adressbuch- oder Listen-Upload eines Nutzers). Auch Werbung von Dritten spielen wir Dir im Rahmen unserer Vertragserfüllung möglichst zu Deinen Interessen und Bedürfnissen passend aus. Werbetreibenden stellen wir hierzu bestimmte Targeting-Kriterien zur Verfügung. Als Werbetreibender kann man beispielsweise angeben, alle Nutzer der Karrierestufe "Direktor" ansprechen zu wollen, die in Unternehmen mit "1.001-5.000 Mitarbeitern" beschäftigt sind.
+2. Informationen, die Du uns mitteilst.
+Hierunter fallen sowohl Daten, die wir direkt von Dir erhalten, als auch Informationen, die Du auf XING Websites veröffentlichst oder versendest. Es gibt sowohl Pflichtangaben (die als solche gekennzeichnet sind) als auch optionale Angaben.
+
+Zugangsdaten
+z. B. Nutzername und Passwort
+
+Pflichtangaben im sozialen Netzwerk
+z. B. Jobtitel, Firmenname, Branche
+
+Optionale Angaben im sozialen Netzwerk
+z. B. Kontaktmöglichkeiten, Ausbildung, Foto
+
+Pflichtangaben in anderen Anwendungen
+z. B. Vorname, Name, E-Mail-Adresse
+
+Optionale Angaben in anderen Anwendungen
+z. B. Bewertungen von Arbeitgebern
+
+E-Mail-Adresse(n)
+z. B. um Dir Newsletter oder Status-E-Mails zu senden
+
+Deine XING Kontakte im sozialen Netzwerk
+z. B. bestätigte Kontakte in Deiner Kontaktliste
+
+Private Nachrichten im sozialen Netzwerk
+z. B. um sich schnell mit anderen Nutzern auszutauschen
+
+Deine geteilten Inhalte und Reaktionen im sozialen Netzwerk
+z. B. geteilte Beiträge, Empfehlungen, Kommentare
+
+Zahlungsdaten
+z. B. Bankverbindung
+
+Daten hinsichtlich Veranstaltungen
+z. B. für auf XING Websites erstellte Events und Seminare
+
+Daten im Rahmen Deines Nutzerfeedbacks
+z. B. bei Umfrage-Teilnahmen
+
+Daten im Rahmen von Gewinnspielen
+... die für die Abwicklung erforderlich sind
+
+Daten im Rahmen des Austauschs mit unserem Kundenservice
+... die für die Kommunikation mit Service-Mitarbeitern erforderlich sind
+3. Automatisch auf Grund Deiner Nutzung von XING gesammelte Informationen
+Wenn Du den Dienst XING nutzt oder besuchst, sammeln wir oder von uns eingesetzte Dritte während der Nutzung bzw. des Besuches automatisch Daten von Dir. Dies geschieht mit Hilfe verschiedener Tracking-Technologien.
+
+Wie geschieht das Tracking?
+Daten von Nutzern und anderen Besuchern werden auf unserem Server sowie via Cookies, Pixeln und ähnlichen Tracking-Technologien auf Endgeräten gesammelt.
+
+Zwecke des Tracking und Deine Möglichkeiten, dieses zu unterbinden
+Gewährleistung der Sicherheit
+Das Tracking erfolgt unter anderem zur Gewährleistung und zur Wahrung des berechtigten Interesses des Schutzes der Nutzer, der Sicherheit der Nutzerdaten, als auch der XING Websites und des Dienstes XING. Hierzu speichern wir die erhobenen Daten für bis zu 90 Tage in vollständiger Form. Zugriff auf diese Daten haben nur wenige unserer Mitarbeiter mit entsprechenden Zugriffsrechten. Rechtsgrundlage für diese Verarbeitung personenbezogener Daten sind Art. 6 I f) EU-DSGVO und Art. 32 EU-DSGVO.
+
+Bereitstellung unseres Dienstes
+Im Wesentlichen erfolgen das Tracking und die damit verbundene Analyse des Nutzerverhaltens zur Bereitstellung unseres Dienstes. Rechtsgrundlagen für diese Verarbeitung personenbezogener Daten sind Art. 6 I b) bzw. 6 I f) EU-DSGVO. Du kannst den Einsatz bestimmter Tracking-Dienstleister unterbinden.
+
+Messung und Optimierung von Werbung
+Tracking erfolgt auch, um den Erfolg von Werbekampagnen messbar zu machen und die Anzeige von Werbung zu optimieren. Dabei kommen u.a. Anbieter wie Google zum Einsatz. Rechtsgrundlage für diese Verarbeitung personenbezogener Daten ist Deine Einwilligung, siehe Art. 6 I a) EU-DSGVO. Deine Einwilligung kannst Du jederzeit widerrufen.
+
+Tracking in Fremdinhalten und Deine Möglichkeiten, dieses zu unterbinden
+Tracking in eingebundenen Fremdinhalten
+In einigen unserer Anwendungen stellen wir Dir Inhalte externer Anbieter zur Verfügung. Bei diesen Inhalten haben wir keinen Einfluss auf die Art des Trackings, da die Verantwortung beim jeweiligen Originalanbieter liegt. Trotzdem bieten wir Dir die Möglichkeit, diese Art von Tracking zumindest innerhalb der XING Umgebung zu unterbinden.
+4. Informationen, die wir über Dich aus anderen Quellen erhalten.
+Wir verarbeiten auch Daten, die wir nicht direkt bei Dir erhoben haben. Das ist dann der Fall, wenn uns ein Nutzer die Informationen zur Verfügung stellt oder wir die Informationen aus anderen Quellen erheben. In diesen Fällen verarbeiten wir die Daten jeweils im Rahmen unserer Vertragserfüllung gegenüber dem jeweiligen Nutzer und/oder zur Wahrung unserer berechtigten Interessen unter Abwägung mit Deinen Interessen.
+
+Daten aus Adressbuch- oder Listen-Uploads
+Dies umfasst Daten, die aus einem Adressbuch oder einer Liste (z. B. dem Smartphone-Adressbuch, dem E-Mail-Adressbuch oder einer CSV-Datei) extrahiert werden können; z. B.:
+
+Vor- und Nachname
+E-Mail-Adressen
+Telefonnummern
+Jobtitel und Unternehmen
+Ort: Stadt und Land
+Twitter- und Facebook-Handle
+Zweckbestimmung
+Wir ermöglichen dem Nutzer mit verschiedenen Adressbuch- und Listen-Upload-Funktionen je nach Funktion die Suche nach anderen Nutzern, die Einordnung anderer Nutzer in bestimmte Kategorien oder Gruppen, die Erweiterung seines Netzwerks auf XING oder die Einladung von Nicht-Nutzern. Wenn wir die hochgeladenen Daten im Rahmen der jeweiligen Funktion dauerhaft speichern, stellen wir dem Nutzer geeignete Funktionen zur Verwaltung der Daten und insbesondere zur Löschung der Daten zur Verfügung. Der Nutzer hat das Recht und die Möglichkeit, diese Verarbeitung von personenbezogenen Daten jederzeit zu beenden.
+
+Quelle der Daten
+Nutzer, die bereits über Deine Daten verfügen, können diese zu den genannten Zwecken auf XING hochladen.
+
+Sichtbarkeit
+Kein Dritter hat Einblick in die hochgeladenen Daten.
+
+Speicherdauer und Widerspruch
+Wenn die jeweilige Upload-Funktion nur einer einmaligen Suche, Kategorisierung oder Gruppierung von Nutzern dient, werden die hochgeladenen Daten unverzüglich wieder gelöscht. Wenn der Zweck der jeweiligen Upload-Funktion eine dauerhafte Speicherung der hochgeladenen Daten erfordert, speichern wir die Daten bis der jeweilige Nutzer diese selbst löscht oder bis zur Löschung seines Nutzerkontos.
+Die eingeladenen Nicht-Nutzer können über einen Opt-Out-Link in der Einladungs-E-Mail dem Versand weiterer Einladungen oder Einladungs-Erinnerungen an die jeweilige E-Mail-Adresse widersprechen.
+
+Rechtsgrundlage
+Rechtsgrundlage für diese Verarbeitung personenbezogener Daten ist Art. 6 I f) EU-DSGVO.
+
+Daten hinsichtlich Veranstaltungen
+Dies umfasst folgende Daten, die uns Nutzer für die Registrierung von Teilnehmern zu einer Veranstaltung auf Anforderung des Veranstalters zur Verfügung stellen:
+
+Anrede, Titel, Vor- und Nachname
+E-Mail-Adresse
+Unternehmen
+Zweckbestimmung
+Nutzer, die Tickets über die Veranstaltungsplattform erwerben, können auch weitere Personen als Teilnehmer der Veranstaltung registrieren. Wenn ein Ticketerwerber diese Funktion nutzt, erfolgt die Verarbeitung von personenbezogenen Daten in dessen Auftrag und Verantwortung. XING stellt den Ticketerwerbern geeignete Funktionen zur Verwaltung der in ihrem Auftrag verarbeiteten Daten und insbesondere zur Löschung der Daten zur Verfügung.
+
+Quelle der Daten
+Nutzer, die weitere Personen als Teilnehmer zu einer Veranstaltung registrieren und bereits über Deine Daten verfügen, können diese auf XING eingeben.
+
+Sichtbarkeit
+Die Registrierungsdaten des Teilnehmers sind für den Veranstalter einsehbar.
+
+Speicherdauer und Widerspruch
+Wir speichern diese Daten, bis der jeweilige Nutzer sie selbst löscht oder bis zur Löschung seines Nutzerkontos. Du hast das Recht, jederzeit gegen die Verarbeitung Dich betreffender personenbezogener Daten, die gemäß Art. 6 Abs. 1 Buchst. f) EU-DSGVO erfolgt, Widerspruch einzulegen. Bitte nutze für Deinen Widerspruch unser Kontaktformular.
+
+Rechtsgrundlage
+Rechtsgrundlage für diese Verarbeitung personenbezogener Daten ist Art. 6 I f) EU-DSGVO.
+5. Wer erhält Daten zu Deiner Person?
+Wir geben Deine personenbezogenen Daten nur an Dritte weiter, wenn dies zur Erfüllung unserer eigenen Geschäftszwecke (also insbesondere zur Erbringung der Dir gegenüber geschuldeten Leistungen) erforderlich ist (z. B. wenn wir Dein Profil einem anderen Nutzer zugänglich machen), Du Deine Einwilligung hierfür erteilt hast (z. B. wenn Du eine externe Applikation nutzt) oder wir gesetzlich oder aufgrund einer gerichtlichen oder behördlichen Anordnung dazu verpflichtet sind.
+Wenn wir im Rahmen der Datenverarbeitung mit externen Dienstleistern zusammenarbeiten (z. B. bei der Softwareentwicklung), erfolgt dies in der Regel auf Basis einer sogenannten Auftragsverarbeitung, bei der wir für die Datenverarbeitung verantwortlich bleiben. Wir prüfen jeden dieser Dienstleister vorher auf die von ihm zum Datenschutz und zur Datensicherheit getroffenen Maßnahmen und stellen so die gesetzlich vorgesehenen vertraglichen Regelungen zum Schutz der personenbezogenen Daten sicher.
+
+Andere Nutzer
+Informationen zur Sichtbarkeit für andere Nutzer findest Du unter „Informationen, die Du uns mitteilst“ sowie bei den Beispielen, wie wir Deine Nutzungsdaten zur Erbringung unserer vertraglichen Verpflichtungen Dir gegenüber bzw. zur Bereitstellung des von Dir genutzten Dienstes nutzen.
+
+Nicht-Nutzer des sozialen Netzwerks
+Du kannst Deine im Nutzerprofil enthaltenen Daten z. B. über Suchmaschinen auffindbar machen, um Deine Sichtbarkeit und Erreichbarkeit zu erhöhen.
+
+Personen, die Du zum sozialen Netzwerk oder einer anderen Anwendung von XING einladen möchtest
+Der Empfänger Deiner Einladung erhält folgende Daten über Dich: Deinen Namen, Deine Firma, Deine Position, Deine E-Mail-Adresse, Dein Foto, Deinen Nutzerstatus.
+
+Ausgewählte Entwickler und Unternehmen ("API-Partner")
+Diese erhalten Daten für die Entwicklung und den Betrieb von Applikationen, die den Nutzen und die Attraktivität von XING erhöhen.
+
+Zahlungsdienstleister, Debitorenmanagement-Dienstleister, Inkasso
+Bei Nutzung kostenpflichtiger Funktionen bei XING verarbeiten wir Deine Zahlungsdaten wie Kreditkarten- oder Bankdetails.
+
+Drittländer
+Im Wesentlichen übermitteln wir Daten an Drittländer, um unseren Vertrag mit Dir zu erfüllen.
+
+Weitere Kategorien von Empfängern
+Staatliche Stellen und Gerichte
+Technische Dienstleister
+Hosting-Dienstleister
+Ad-Server-Betreiber
+E-Mail-Versand-Dienstleister
+E-Mail-Marketing-Dienstleister
+Marketing-Automation-Dienstleister
+CRM-Dienstleister
+Software-Entwickler
+Agenturen
+z. B. zur Durchführung von Gewinnspielen
+
+Post-Versand-Dienstleister (Lettershops)
+Dienstleister im Rahmen der Marktforschung und Anbieter von Umfrage-Tools
+Remarketing-/Retargeting-Dienstleister
+Vertriebsdienstleister und Call-Center
+Dienstleister für Werbekampagnen und Anzeige von Werbung
+Anbieter von Nutzungsanalyse-Tools
+Kooperationspartner
+Climate Partner
+Veranstaltungspartner
+Drittländer
+Datenübermittlungen an Drittländer finden statt, jedoch ausschließlich unter Einhaltung der gesetzlich geregelten Zulässigkeitsvoraussetzungen.
+Insbesondere machen wir zur Erfüllung unseres Vertrags mit Dir bestimmte Daten anderen Nutzern oder Dritten weltweit verfügbar. Hierfür sind weder ein Angemessenheitsbeschluss nach Art. 45 EU-DSGVO noch geeignete Garantien nach Art. 46 EU-DSGVO erforderlich.
+Wenn die Übermittlung der Daten an ein Drittland nicht zur Erfüllung unseres Vertrags mit Dir dient, wir keine Einwilligung von Dir haben, die Übermittlung nicht zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und auch sonst keine Ausnahmeregelung gilt, übermitteln wir Deine Daten nur dann an ein Drittland, wenn ein Angemessenheitsbeschluss nach Art. 45 EU-DSGVO oder geeignete Garantien nach Art. 46 EU-DSGVO vorliegen.
+Im Regelfall erreichen wir durch den Abschluss der von der Europäischen Kommission erlassenen EU-Standarddatenschutzklauseln mit der empfangenden Stelle geeignete Garantien nach Art. 46 EU-DSGVO sowie ein angemessenes Datenschutzniveau.
+Kopien der EU-Standarddatenschutzklauseln erhältst Du auf der Website der Europäischen Kommission.
+
+Nicht-Nutzer des sozialen Netzwerks
+Du entscheidest, ob die in Deinem Profil enthaltenen Daten für Nicht-Nutzer des sozialen Netzwerks abruf- und auffindbar sind, etwa über Suchmaschinen im Internet. Dazu stehen Dir gesonderte Privatsphäreeinstellungen zur Verfügung. Wenn Du keine Einschränkungen vornimmst, werden die in Deinem Profil enthaltenen Daten für Nicht-Nutzer des sozialen Netzwerks einseh- und auffindbar, allerdings keine persönlichen Kontaktdaten wie zum Beispiel E-Mail-Adressen oder Telefonnummern.
+Die standardmäßige externe Abruf- und Auffindbarkeit von Profilinformationen ist ein zentrales Element von XING, um die Vernetzung von Nutzern zu unterstützen, denn viele Kontakte kommen zum Beispiel erst dadurch zustande, dass andere Nutzer (oder Dritte) den Namen eines Nutzers über die Recherche in einer Suchmaschine finden.
+Bei manchen Funktionen auf XING (z. B. im Rahmen von Gruppenbeiträgen oder im Fall von Teilnehmerlisten) entscheidet ein anderer Nutzer darüber, ob und wie die in der betreffenden Funktion verwendeten bzw. preisgegebenen Daten für andere Nutzer und/oder Nicht-Nutzer einseh- und auffindbar sind und wer Leserechte und/oder Schreibrechte hat. Wenn Du diese Einstellungen nicht durch Deine eigenen Privatsphäreeinstellungen beeinflussen kannst, informieren wir Dich im Rahmen der jeweiligen Funktion über die entsprechende Verwendung von Daten.
+
+Personen, die Du zum sozialen Netzwerk oder einer anderen Anwendung von XING einladen möchtest
+Als Nutzer kannst Du andere Personen zur Nutzung von XING einladen. Wir verarbeiten die dabei erhobenen Daten ausschließlich für diesen Zweck.
+Wir versenden an die von Dir eingeladenen Personen eine gewisse Zeit nach der Einladung eine Erinnerungs-E-Mail ("automatische Erinnerung") in Deinem Auftrag. Du kannst den Versand der automatischen Erinnerung durch Löschung der Einladung in Deinen Einstellungen unterbinden. Zusätzlich zur automatischen Erinnerung kannst Du Erinnerungs-E-Mails auch manuell auslösen. Die E-Mail-Adressen, an die die Einladungen versendet wurden, werden bei uns in verschlüsselter Form gespeichert. Zur Anzeige der E-Mail-Adressen in Deinem Account wird die Verschlüsselung vorübergehend aufgehoben. Du kannst die Daten jederzeit in Deinem Account löschen.
+Jede eingeladene Person hat die Möglichkeit, der Nutzung seiner E-Mail-Adresse für Einladungen mit Wirkung für die Zukunft zu widersprechen.
+Bitte beachte, dass der Empfänger der Einladung je nach Einladungs-Funktion ggf. die folgenden Daten über Dich angezeigt bekommt, wenn Du eine Einladung versendest:
+
+Deinen Namen
+Deine Firma
+Deine Position
+Deine E-Mail-Adresse
+Dein Foto
+Deinen Nutzerstatus
+
+Ausgewählte Entwickler und Unternehmen ("API-Partner")
+Wir stellen ausgewählten Entwicklern und Unternehmen (""API-Partner"") die XING API für die Entwicklung und den Betrieb von Applikationen bereit, die den Nutzern der Applikationen der API-Partner den Zugriff auf Daten und Inhalte außerhalb von XING und die Einbindung von Inhalten in XING von außerhalb erlauben.
+Ziel ist es, XING durch die Anbindung externer Applikationen für den Nutzer noch attraktiver und nützlicher zu machen. Die XING API ist ein sogenanntes Application Programming Interface, also eine von uns bereitgestellte Schnittstelle, die dem API-Partner erlaubt, nach unseren vertraglichen Vorgaben eine oder mehrere von ihm betriebene Applikationen lesend und gegebenenfalls schreibend an XING anzubinden.
+Dies setzt jeweils die Zugriffsaktivierung durch den Nutzer, der die Applikation nutzt, voraus; eine API-Applikation eines API-Partners kann also nur nach bewusster Entscheidung des Nutzers auf Daten zugreifen. Abhängig von der Applikation kann zudem eine gesonderte Einwilligungserklärung zur Datenverarbeitung erforderlich sein. Die Verarbeitung von Daten von Nutzern durch den API-Partner erfolgt im Auftrag des Nutzers, der die Applikation aktiviert hat.
+Jede Applikation eines API-Partners, mit der Zugriff auf Daten von Nutzern erfolgen soll, bedarf der vorherigen Zulassung durch uns. Wir haben Kriterien aufgestellt, um die Sicherheit der Daten von Nutzern zu gewährleisten.
+Falls eine Applikation die Verarbeitung von personenbezogenen Daten in Staaten außerhalb der Europäischen Union vorsieht, treffen wir die datenschutzrechtlich erforderlichen vertraglichen Regelungen zur Gewährleistung eines angemessenen Schutzniveaus für personenbezogene Daten mit dem API-Partner.
+
+Zahlungsdienstleister, Debitorenmanagement-Dienstleister, Inkasso
+Wenn Du kostenpflichtige Funktionen im Rahmen von XING nutzt, verarbeiten wir Deine Zahlungsdaten wie Kreditkarten- oder Bankdetails zum Zweck der Zahlungsabwicklung und Abrechnung entsprechend des gewählten Zahlungsmittels. Im erforderlichen Maß werden Deine Zahlungsdaten und weitere erforderliche Daten zur Abwicklung der Transaktion inklusive der Abrechnung und gegebenenfalls des Inkassos an Dienstleister wie z. B. Kreditkarteninstitute, Payment-Provider oder Inkassodienstleister übermittelt, bzw. von diesen direkt erhoben, und dort verarbeitet.
+Zur Ermöglichung der Zahlungsabwicklung und Abrechnung bei der automatischen Verlängerung des Nutzungsverhältnisses werden Deine Zahlungsdaten gespeichert.
+
+Wie geschieht das Tracking?
+Im sogenannten Backend, also auf der Ebene unseres Webservers, sammeln wir Daten von eingeloggten Nutzern und anderen Besuchern, die wir primär für die Bereitstellung und Wahrung der Sicherheit des Dienstes XING nutzen. Im Frontend, also auf Deinem Endgerät, sammeln wir oder von uns eingesetzte Dritte mittels Cookies, Pixeln, Local Storage und ähnlichen Tracking-Technologien Daten von eingeloggten Nutzern und anderen Besuchern zur Bereitstellung unserer Dienste und zur Auswertung des Nutzerverhaltens sowie zur Messung und Optimierung von Werbung. Darüber hinaus ermitteln wir Dein Nutzungsverhalten im Zusammenhang mit E-Mails, die wir Dir senden, z. B., ob und wann Du unsere E-Mail geöffnet hast und auf welche Links Du in der E-Mail geklickt hast. Im Rahmen des Trackings werden Zugriffsdaten (z. B. Datum und Uhrzeit des Besuches, Referrer, IP-Adresse, Cookie-ID, Standort-Daten, Produkt- und Versionsinformationen des verwendeten Browsers bzw. der verwendeten App, Gerätekennungen oder Gerätedaten) sowie Interaktionsdaten (z. B. angesehene Seiten oder durchgeführte Suchanfragen) verarbeitet. Um Dich als Nutzer während Deines Besuchs von XING identifizieren zu können, setzen wir sogenannte Session-Cookies ein. Diese Session-Cookies werden nach dem Ende der jeweiligen Sitzung automatisch gelöscht. Diese Cookies sind erforderlich, um XING nutzen zu können. Du kannst bei der Anmeldung auswählen, dass Du eingeloggt bleiben willst. Dann wird ein Cookie im Browser Deines Endgerätes gespeichert, das eine erneute Anmeldung für die Dauer der Lebenszeit des Cookies entbehrlich macht. Darüber hinaus nehmen wir in Bezug auf Deine Person eine sehr grobe Geo-Lokalisierung auf der Ebene der von Dir besuchten Städte vor. Dazu verwenden wir Deine gekürzte und anonymisierte IP-Adresse sowie, sofern Du dem in Deinem mobilen Endgerät zugestimmt haben, Deine Geokoordinaten. Wir speichern nicht, wo genau Du Dich befindest. Wir speichern lediglich, in welchen Städten Du Dich regelmäßig aufhältst. Konkrete Adressen oder Geokoordinaten werden nicht gespeichert.
+
+Bereitstellung unseres Dienstes
+Im Wesentlichen erfolgen das Tracking und die damit verbundene Analyse des Nutzerverhaltens zur Erbringung unserer vertraglichen Verpflichtungen bzw. zur Durchführung vorvertraglicher Maßnahmen. Rechtsgrundlage für diese Verarbeitung personenbezogener Daten ist Art. 6 I b) EU-DSGVO. Wenn das Tracking zwar nicht zur Erbringung unserer vertraglichen Verpflichtungen oder zur Durchführung vorvertraglicher Maßnahmen, aber gleichwohl zur Bereitstellung des von Dir genutzten bzw. besuchten Dienstes erfolgt, ist die Rechtsgrundlage Art. 6 I f) EU-DSGVO. Wir verfolgen dabei das berechtigte Interesse, Dir einen optimalen und nutzerfreundlichen Dienst zu erbringen.
+
+Das Tracking und die Analyse des Nutzerverhaltens helfen uns, die Effektivität unseres Dienstes zu überprüfen und zu optimieren sowie Fehler zu erkennen und zu beheben. Dazu setzen wir auch mehrere Dienste von Drittanbietern wie z. B. Google ein. Wenn wir Drittanbieter einsetzen, findet ggf. eine Datenverarbeitung außerhalb der EU statt. In diesen sogenannten Drittländern gilt ggf. ein nach EU-Standards unzureichendes Datenschutzniveau. Dadurch besteht insbesondere das Risiko, dass Behörden des jeweiligen Drittlands zu Kontroll- oder Überwachungszwecken, möglicherweise auch ohne Rechtsbehelfsmöglichkeiten, auf Daten beim Drittanbieter zugreifen. Wir versuchen, unsere Produkte und Dienstleistungen stets an die Bedürfnisse der Nutzer anzupassen. Hierbei spielt Personalisierung eine wichtige Rolle. Die Auswertung von durch Tracking gewonnenen Informationen ist erforderlich, um Dir entsprechend des vertraglichen Zwecks von XING personalisierte Dienste zur Verfügung zu stellen und Dir einen möglichst großen Nutzen von XING zu gewährleisten. Das implizite Feedback, das Du uns auf Grund unseres Trackings durch Deine Nutzung von XING zur Verfügung stellst, ist ein wichtiger Bestandteil, um zu verstehen, an welchen Inhalten Du mehr und an welchen Du weniger interessiert bist, sowie Dich anderen Nutzern als wertvollen Geschäftskontakt oder potentiellen Mitarbeiter vorschlagen zu können. Das implizite Feedback ist von enormer Wichtigkeit, weil die Informationen, die Du uns mitteilst, größtenteils die Vergangenheit oder die Gegenwart widerspiegeln, aber wenig darüber aussagen, was Dich hinsichtlich der Zukunft interessiert. Interessensprofile, die z. B. auf Basis von Klick-Daten oder ausgeführten Suchanfragen basieren, sind hier oftmals eine bessere Grundlage, um abzuschätzen, ob Du z. B. an Jobs interessiert bist und welche Art von Jobs Dich interessieren könnten. Wir löschen oder anonymisieren die zur Bereitstellung unseres Dienstes durch Tracking erhaltenen personenbezogenen Daten, wenn Du Dein Nutzerkonto löschst.
+
+Beispiele
+Klickpfad, Empfehlungen, persönliche Statistiken
+
+Du kannst den Einsatz folgender Tracking-Dienstleister unterbinden:
+Adobe Digital Analytics
+Google Analytics
+Braze
+IBM Watson
+Wingify/VWO
+Zur Durchführung von A/B-Tests nutzen wir das Tool VWO. Du kannst diese Form der Webanalyse unterbinden, in dem Du hier einen „Opt-Out“ vornimmst: https://vwo.com/opt-out/
+
+Messung und Optimierung von Werbung
+Tracking unterstützt uns und die von uns eingesetzten Drittanbieter (wie z. B. Google) dabei, den Erfolg von Werbekampagnen messbar zu machen und die Anzeige von Werbung zu optimieren. Deine Nutzer-ID wird dabei nicht an die Drittanbieter übertragen. Die Lebensdauer der eingesetzten Cookies ist begrenzt und beträgt bis zu 2 Jahre.
+Im Zusammenhang mit der Messung und Optimierung von Werbung werden ggf. Server von Drittanbietern (z. B. Vermarktern) bei der Nutzung von XING direkt aufgerufen. Hierdurch kann der jeweilige Drittanbieter erfassen, dass Du unsere Website(s) besucht hast. Darüber hinaus werden an einige dieser Drittanbieter bei diesen Aufrufen Informationen zur Optimierung und Erfolgsmessung unserer Werbeanzeigen übermittelt. Dies sind beispielsweise Informationen über die Art der Seiten, die Du besucht hast oder auch Deine Zugehörigkeit zu einer von uns definierten Zielgruppe. Das direkte Aufrufen der Server des Drittanbieters ermöglicht es dem Drittanbieter, Cookies und Werbe-IDs zu Retargeting-Zwecken zu verwenden. Retargeting-Technologien ermöglichen es dem Drittanbieter, personalisierte Werbung ausgehend von Deinem bisherigen Browsing-Verhalten auf Partner-Webseiten anzuzeigen. Die Drittanbieter sind teilweise in der Lage, Deine verschiedenen technischen IDs zu verknüpfen und Dir somit über mehrere Geräte hinweg personalisierte Werbung anzuzeigen. Außerdem bieten wir – mit Hilfe von Drittanbietern wie Xandr – Werbekampagnen außerhalb von XING an, damit Werbetreibende Dich nicht nur auf XING selbst, sondern auch außerhalb von XING mit Werbebotschaften ansprechen können, die zu Deinen Interessen und Bedürfnissen passen – basierend auf den Targeting-Kriterien, die wir Werbetreibenden zur Verfügung stellen. Die Werbetreibenden erhalten dabei keine personenbezogenen Daten von Dir. Um den Erfolg von Werbemaßnahmen messen und bewerten zu können, übermitteln wir gegebenenfalls zufällig generierte sogenannte „Click-IDs“ an den jeweiligen Drittanbieter. Dies ermöglicht uns, sogenannte „Conversions“ von Nutzern einer bestimmten Werbekampagne zuzuordnen.
+Die Drittanbieter sind selbst für den datenschutzkonformen Betrieb der von ihnen verwendeten IT-Systeme verantwortlich. Die Entscheidung über die Speicherdauer der Daten obliegt den Drittanbietern. Wenn wir Drittanbieter einsetzen findet ggf. eine Datenverarbeitung außerhalb der EU statt. In diesen sogenannten Drittländern gilt ggf. ein nach EU-Standards unzureichendes Datenschutzniveau. Dadurch besteht insbesondere das Risiko, dass Behörden des jeweiligen Drittlands zu Kontroll- oder Überwachungszwecken, möglicherweise auch ohne Rechtsbehelfsmöglichkeiten, auf Daten beim Drittanbieter zugreifen.
+
+Das hier beschriebene Tracking zur Messung und Optimierung von Werbung erfolgt auf Grundlage Deiner Einwilligung, siehe Art. 6 I a) EU-DSGVO. Diese Einwilligung kannst Du jederzeit widerrufen.
+
+Von uns eingesetzte Drittanbieter
+Nachfolgend findest Du weitere Erläuterungen zu den verwendeten Tracking-Technologien und Hinweise der Anbieter zur Datenverarbeitung.
+
+Google
+Mehr Infos bei Google
+
+Bing
+Mehr Infos bei Microsoft
+
+Criteo
+Mehr Infos bei Criteo
+
+LinkedIn
+Mehr Infos bei LinkedIn
+
+Facebook
+Twitter
+Ad-defend
+Mehr Infos bei AdDefend
+
+Performance Media
+Mehr Infos bei Performance Media
+
+Adform
+Mehr Infos bei Adform
+
+Adjust
+Mehr Infos bei Adjust
+
+ADITION
+Mehr Infos bei ADITION
+
+Outbrain
+Mehr Infos bei Outbrain
+
+Pinterest
+Mehr Infos bei Pinterest
+
+AppNexus
+Mehr Infos bei AppNexus
+
+Snap Pixel
+Xandr
+Mehr Infos bei Xandr
+
+OptinMonster
+Mehr Infos bei OptinMonster
+
+Widerruf Deiner Einwilligung – Unterbindung des Trackings zur Messung und Optimierung von Werbung innerhalb unserer Anwendungen
+Tracking-Einstellungen in den einzelnen Anwendungen von XING
+Unter den aufgeführten Links kannst Du hinsichtlich der einzelnen Anwendungen Deine Tracking-Einstellungen vornehmen.
+Beachte bitte, dass die Unterbindung über das Setzen eines Cookies auf dem Endgerät erfolgt. Wenn Du das Cookie löschst bzw. andere Endgeräte oder Webbrowser verwendest, musst Du die Unterbindung erneut einrichten.
+Hinsichtlich unserer mobilen Apps musst Du Deine Tracking-Einstellungen direkt in der jeweiligen mobilen App vornehmen.
+
+Deine Tracking-Optionen
+Deine vorgenommenen Änderungen wirken sich nur im aktuell verwendeten Browser aus.
+
+Tracking bei XING
+Einstellungen
+Tracking bei XING Events
+Einstellungen
+Tracking bei kununu
+Einstellungen
+Tracking bei New Work
+Einstellungen
+Tracking bei Bewerbung.com
+Einstellungen
+Tracking bei Lebenslauf.com
+Einstellungen
+Tracking bei Anschreiben.com
+Einstellungen
+Tracking bei HalloFreelancer
+Einstellungen
+Löschung bereits gespeicherter Cookies
+Bereits auf Deinem Endgerät gespeicherte Cookies werden von uns nicht gelöscht, wenn Du Deine Einwilligung widerrufst. Der Widerruf Deiner Einwilligung in den Tracking-Einstellungen zu den einzelnen Anwendungen von XING führt lediglich zur Unterbindung des Trackings zur Messung und Optimierung von Werbung innerhalb der jeweiligen Anwendungen.
+
+Wenn Du fremde Seiten besuchst, die nicht von diesen Tracking-Einstellungen erfasst sind, können die Drittanbieter weiterhin auf die von diesen Drittanbietern in Deinem Endgerät gespeicherten Cookies zugreifen. Wenn Du dies verhindern möchtest, lösch bitte die in Deinem Endgerät gespeicherten Cookies der Drittanbieter – lösch aber bitte nicht die von uns gesetzten Cookies mit der Bezeichung "userConsent", da wir sonst nicht erkennen können, ob Du dem Tracking zur Messung und Optimierung von Werbung in den jeweiligen Anwendungen von XING zugestimmt haben oder nicht. Wenn Du diese Cookies löschst, führt das dazu, dass wir bei Deinem nächsten Besuch unserer Anwendung von Dir erneut eine Einwilligung zum Tracking zur Messung und Optimierung von Werbung abfragen.
+
+Wie Du Cookies löschst und die Speicher-Einstellungen anpassen kannst, variiert von Browser zu Browser. Bitte informier Dich dazu in der Anleitung oder den Hilfeseiten des von Dir verwendeten Browsers.
+
+Einstellungen hinsichtlich Werbe-IDs in iOS und Android
+Deine Einstell-Möglichkeiten hinsichtlich der Identifizierungsnummern für ein bestimmtes Endgerät, welche durch iOS bzw. Android bereitgestellt werden (bezeichnet z. B. mit „Ad-ID“ oder „Werbe-ID“), findest Du in Deinen iOS- bzw. Android-Einstellungen.
+
+Tracking in eingebundenen Fremdinhalten
+Auf XING Anwendungen findest Du auch Inhalte externer Anbieter. Diese werden von externen Seiten in die vertraute XING Umgebung integriert. Bei diesen externen Inhalten haben wir keinen Einfluss auf die Art des Trackings.
+
+Unterbindung des Trackings innerhalb der XING Umgebung
+Wenn Du Tracking von externen Anbietern innerhalb der XING Umgebung ausschließen möchtest, kannst Du die Integration ausschalten. Sobald Du dann externe Inhalte in Anspruch nimmst, verlässt Du die XING Umgebung und wirst automatisch direkt auf die Seite des Anbieters geleitet. Hinweis: Dies führt nicht zwangsläufig zu weniger Tracking, sondern lediglich dazu, dass es außerhalb von XING stattfindet.
+
+Hinweis für XING Mitglieder:
+Bitte geh in Deine Einstellungen, um das Tracking dauerhaft und geräteübergreifend anzupassen.
+
+Zu Deinen XING Einstellungen
+Tracking auf XING erlauben
+Deine vorgenommenen Änderungen wirken sich nur im aktuell verwendeten Browser aus.
+Welche Rechte kannst Du geltend machen?
+Dir stehen unter anderem gesetzliche Ansprüche auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch gegen die Verarbeitung sowie ein Recht auf Datenübertragbarkeit zu. Außerdem kannst Du eine gegebenenfalls abgegebene Einwilligung in die Verarbeitung jederzeit widerrufen und Dich bei einer Aufsichtsbehörde beschweren.
+
+Widerspruchsrecht
+Gegen eine Verarbeitung Deiner personenbezogenen Daten, die auf Art. 6 Abs. 1 Buchst. f) EU-DSGVO beruht, kannst Du jederzeit Widerspruch einlegen.
+
+Auskunftsrecht
+Auf Anfrage erhältst Du eine übersichtliche Auskunft über die Verarbeitung Deiner personenbezogenen Daten.
+
+Berichtigungsrecht
+Du hast das Recht, von uns die Berichtigung und ggf. die Vervollständigung Dich betreffender personenbezogener Daten zu verlangen.
+
+Recht auf Löschung
+Wir sind in bestimmten Fällen dazu verpflichtet, Dich betreffende personenbezogene Daten nach Deiner Aufforderung zu löschen.
+
+Recht auf Einschränkung der Verarbeitung
+In bestimmten Fällen kannst Du eine Einschränkung der Verarbeitung Deiner personenbezogenen Daten einfordern.
+
+Recht auf Datenübertragbarkeit
+Eine durch Dich abgeforderte Datenauskunft kann auch an Dritte übermittelt werden.
+
+Widerrufsrecht bei Einwilligung
+Eine Einwilligung zur Datenverarbeitung kannst Du jederzeit widerrufen. 
+
+Beschwerderecht
+Es steht Dir frei, Dich bei einer Aufsichtsbehörde zu beschweren.
+
+Begriffe, die in unserer Datenschutzerklärung vorkommen.
+XING: Der Dienst XING und die zum Dienst XING gehörenden Anwendungen.
+
+XING Websites: Alle Websites, Subdomains, Aliases, mobile Applikationen, Hintergrund-Applikationen, Webservices und Einbindungen in Drittseiten, auf denen der Dienst XING zur Verfügung steht.
+
+EU-DSGVO: Die Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung).
+
+Personenbezogene Daten: Gemäß Art. 4 Ziffer 1 EU-DSGVO alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.
+
+Soziales Netzwerk: Die zu den Anwendungen des Dienstes XING gehörenden Kontakt- und Kommunikationsforen.
+
+Profil: Die Seite der XING Websites, auf der die vom Nutzer eingegebenen personenbezogenen Daten im sozialen Netzwerk dargestellt werden.
+
+Cookies: Kleine Dateien, die es uns ermöglichen, auf Deinem Endgerät spezifische, auf Dich, den Nutzer, bezogene Informationen zu ermitteln. Die Speicherung von Cookies kannst Du über Deine Browser-Einstellungen verhindern.
+
+Pixel: Eine Bilddatei bzw. ein Link zu einer Bilddatei, das im Webseiten-Code eingefügt wird, sich jedoch nicht auf Deinem Endgerät (z. B. Computer, Smartphone etc.) befindet. Üblicherweise arbeiten Pixel in Verbindung mit Cookies.
+
+Profiling: Gemäß Art. 4 Ziffer 4 EU-DSGVO jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.
+
+Newsletter: Newsletter bzw. Status-E-Mails sowie Werbung für eigene ähnliche Produkte und Dienstleistungen oder Befragungen zum Zweck eigener Marktforschung.
+
+Drittland: Ein Land außerhalb der EU.

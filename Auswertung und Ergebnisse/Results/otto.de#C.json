@@ -1,0 +1,104 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"GmbH",
+"division":"N/A",
+"address":"Auf dieser Website werden – nach der Erteilung einer Einwilligung - mit der Technologie der The ADEX GmbH, Torstraße 19, 10119 Berlin (theadex.com) Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":" Dies bedeutet unter anderem, dass Betroffenenrechte (u.a. Recht auf Auskunft, Recht auf Löschung der Daten), die diese Daten betreffen, gegenüber dem jeweilig datenschutzrechtlich verantwortlichen Händler OTTO oder Partner geltend gemacht werden müssen.",
+"url":"www.otto.de",
+"email":"datenschutzauskunft@otto.de",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":" Dies bedeutet unter anderem, dass Betroffenenrechte (u.a. Recht auf Auskunft, Recht auf Löschung der Daten), die diese Daten betreffen, gegenüber dem jeweilig datenschutzrechtlich verantwortlichen Händler OTTO oder Partner geltend gemacht werden müssen.",
+"url":"www.otto.de",
+"email":"datenschutzauskunft@otto.de",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Neben dem Recht auf Widerruf Ihrer uns gegenüber erteilten Einwilligungen stehen Ihnen bei Vorliegen der jeweiligen gesetzlichen Voraussetzungen die folgenden weiteren Rechte zu:\n\t\n\t• das Recht auf Auskunft über Ihre bei uns gespeicherten persönlichen Daten (Artikel 15 DSGVO), insbesondere können Sie Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, die Herkunft ihrer Daten, sofern diese nicht direkt bei Ihnen erhoben wurden, verlangen",
+"url":"https://www.paydirekt.de/agb/index.html",
+"email":"datenschutzauskunft@otto.de",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":" Über die Möglichkeit der Nutzung der E-Mail-Adresse zu diesem Zweck sowie über das diesbezüglich Ihrerseits bestehende Widerspruchsrecht werden Sie bei der Eröffnung des Kundenkontos ausdrücklich hingewiesen.",
+"url":"www.otto.de",
+"email":"datenschutzauskunft@otto.de",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"•  das Recht auf Beschwerde bei einer Aufsichtsbehörde. In der Regel können Sie sich hierfür an die Aufsichtsbehörde ihres üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Unternehmenssitzes wenden.",
+"url":"https://www.paydirekt.de/agb/index.html",
+"email":"datenschutzauskunft@otto.de",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"Bei Zahlung via paydirekt werden Ihre Zahlungsdaten im Rahmen der Zahlungsabwicklung an die paydirekt GmbH, Hamburger Allee 26-28, 60486 Frankfurt am Main übermittelt.",
+"country":"Bei Zahlung via paydirekt werden Ihre Zahlungsdaten im Rahmen der Zahlungsabwicklung an die paydirekt GmbH, Hamburger Allee 26-28, 60486 Frankfurt am Main übermittelt.",
+"email":"datenschutzauskunft@otto.de",
+"phone":"040 - 3603 3603"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Bitte beachten Sie außerdem, dass auch nach Verlassen unserer Webseite automatisch eingeloggt bleiben, es sei denn, Sie melden sich aktiv ab.",
+"scopeAndIntendedEffects":" Bitte beachten Sie außerdem, dass auch nach Verlassen unserer Webseite automatisch eingeloggt bleiben, es sei denn, Sie melden sich aktiv ab."},
+"changesOfPurpose":[{
+"description":" Darüber hinaus kann OTTO Sie informieren, wenn wesentliche Änderungen in Ihrem Kundenkonto (z.B.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"https://instagram.com/about/legal/privacy"},{
+"description":" Darüber hinaus kann OTTO Sie informieren, wenn wesentliche Änderungen in Ihrem Kundenkonto (z.B. Änderung der Adressdaten oder der E-Mail-Adresse) vorgenommen worden sind, damit Sie überprüfen können, ob die Änderung rechtmäßig oder durch einen unberechtigten Dritten vorgenommen worden ist.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"https://instagram.com/about/legal/privacy"},{
+"description":" Änderung der Adressdaten oder der E-Mail-Adresse) vorgenommen worden sind, damit Sie überprüfen können, ob die Änderung rechtmäßig oder durch einen unberechtigten Dritten vorgenommen worden ist.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"https://instagram.com/about/legal/privacy"},{
+"description":" Darüber hinaus kann OTTO Sie informieren, wenn wesentliche Änderungen in Ihrem Kundenkonto (z.B.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"www.otto.de"},{
+"description":" Darüber hinaus kann OTTO Sie informieren, wenn wesentliche Änderungen in Ihrem Kundenkonto (z.B. Änderung der Adressdaten oder der E-Mail-Adresse) vorgenommen worden sind, damit Sie überprüfen können, ob die Änderung rechtmäßig oder durch einen unberechtigten Dritten vorgenommen worden ist.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"www.otto.de"},{
+"description":" Änderung der Adressdaten oder der E-Mail-Adresse) vorgenommen worden sind, damit Sie überprüfen können, ob die Änderung rechtmäßig oder durch einen unberechtigten Dritten vorgenommen worden ist.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"www.otto.de"}]}

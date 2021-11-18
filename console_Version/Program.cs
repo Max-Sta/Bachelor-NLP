@@ -868,13 +868,20 @@ namespace NLPServiceEndpoint_Console_Ver
                     var fileName = "nlpConfig.config";
                     using var sr = new StreamReader(fileName);
                     string[] lines = File.ReadAllLines(fileName);
+                    Console.WriteLine("Config File Found");
                     ibm_api_key = lines[0];
                     ibm_service_url = lines[1];
                     google_api_path = lines[2];
-                    azureCredentials = new AzureKeyCredential(lines[3]);
-                    azureEndpoint = new Uri(lines[4]);
+                    try
+                    {
+                        azureCredentials = new AzureKeyCredential(lines[3]);
+                        azureEndpoint = new Uri(lines[4]);
+                    }
+                    catch (Exception exa)
+                    {
+                        Console.WriteLine("Error while loading Microsoft Azure credentials: " + exa);
+                    }
                     microsoft_standort = lines[5];
-                    Console.WriteLine("Config File Found");
                     return 0;
                 }
                 catch (Exception ex)

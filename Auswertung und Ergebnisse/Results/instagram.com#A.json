@@ -1,0 +1,92 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Facebook",
+"division":"information to advertisers (for example, that an ad was seen by a woman between\n\tthe ages of 25 and 34 who lives in Madrid and likes software engineering) to\n\thelp them better understand their audience.",
+"address":"you can contact_online, or by mail at:\n\t\n\tFacebook Ireland Ltd.\n\t4 Grand Canal Square\n\tGrand Canal Harbour\n\tDublin 2 Ireland\n\t\n\tContact_the_Data_Protection_Officer_for_Facebook_Ireland_Ltd.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"and offline actions and purchases from third-party data providers who have the\n\trights to provide us with your information.\n\tPartners receive your data when you visit or use their services or through\n\tthird parties they work with.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"VII. Data retention, account deactivation and deletion\n\tWe store data until it is no longer necessary to provide our services and\n\tFacebook Products, or until your account is deleted - whichever comes first.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Contact_the_Data_Protection_Officer_for_Facebook_Ireland_Ltd.\n\t\n\tYou also have the right to lodge a complaint with Facebook Ireland's lead\n\tsupervisory authority, the Irish Data Protection Commissioner, or your local\n\tsupervisory authority.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Irish Data Protection Commissioner",
+"address":"you can contact_online, or by mail at:\n\t\n\tFacebook Ireland Ltd.\n\t4 Grand Canal Square\n\tGrand Canal Harbour\n\tDublin 2 Ireland\n\t\n\tContact_the_Data_Protection_Officer_for_Facebook_Ireland_Ltd.",
+"country":"you can contact_online, or by mail at:\n\t\n\tFacebook Ireland Ltd.\n\t4 Grand Canal Square\n\tGrand Canal Harbour\n\tDublin 2 Ireland\n\t\n\tContact_the_Data_Protection_Officer_for_Facebook_Ireland_Ltd.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" We can also make your experience\n\t      more seamless, for example, by automatically filling in your registration\n\t      information (such as your phone number) from one Facebook Product when\n\t      you sign up for an account on a different Product.",
+"scopeAndIntendedEffects":" We can also make your experience\n\t      more seamless, for example, by automatically filling in your registration\n\t      information (such as your phone number) from one Facebook Product when\n\t      you sign up for an account on a different Product."},
+"changesOfPurpose":[{
+"description":"If the ownership or control of all or part of our Products or their assets\n\tchanges, we may transfer your information to the new owner.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"August 21, 2020",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"countries.\n\t\n\t\n\tX. How will we notify you of changes to this policy?\n\tWe'll notify you before we make changes to this policy and give you the\n\topportunity to review the revised policy before you choose to continue using\n\tour Products.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"August 21, 2020",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" How will we notify you of changes to this policy?\n\tWe'll notify you before we make changes to this policy and give you the\n\topportunity to review the revised policy before you choose to continue using\n\tour Products.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"August 21, 2020",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

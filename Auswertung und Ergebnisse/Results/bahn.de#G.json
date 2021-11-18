@@ -1,0 +1,88 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"DB",
+"division":"****  Wer ist verantwortlich für die Datenerhebung und -verarbeitung?   ****\n\tBei Nutzung von bahn.de/bahn.com verarbeiten die DB Gesellschaften (DB Vertrieb\n\tGmbH, die DB Fernverkehr AG, und die DB Regio AG) Ihre Daten als gemeinsam\n\tVerantwortliche.",
+"address":"****  Wer ist verantwortlich für die Datenerhebung und -verarbeitung?   ****\n\tBei Nutzung von bahn.de/bahn.com verarbeiten die DB Gesellschaften (DB Vertrieb\n\tGmbH, die DB Fernverkehr AG, und die DB Regio AG) Ihre Daten als gemeinsam\n\tVerantwortliche.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"Die bestellte Datenschutzbeauftragte für alle drei genannten Verantwortlichen\n\tist Frau Chris Newiger.",
+"address":"      Hessische Datenschutzbeauftragte, Gustav-Stresemann-Ring 1, 65189\n\t      Wiesbaden, E-Mail: poststelle@datenschutz.",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"****  Welche Rechte haben Nutzerinnen und Nutzer von bahn.de/bahn.com?   ****\n\t    * Sie können Auskunft darüber verlangen, welche Daten über Sie gespeichert\n\t      sind.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"    * Sie können Auskunft darüber verlangen, welche Daten über Sie gespeichert\n\t      sind.\n\t    * Sie können Berichtigung, Löschung und Einschränkung der Bearbeitung\n\t      (Sperrung) ihrer personenbezogenen Daten verlangen, solange dies\n\t      gesetzlich zulässig und im Rahmen eines bestehenden Vertragsverhältnisses\n\t      möglich ist.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"      Wiesbaden, E-Mail: poststelle@datenschutz.hessen.de\n\t    * Sie haben das Recht auf Übertragbarkeit derjenigen Daten, die Sie uns auf\n\t      der Basis einer Einwilligung oder eines Vertrages bereitgestellt haben\n\t      (Datenübertragbarkeit).",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"    * Sie können der werblichen Ansprache jederzeit mit Wirkung für die Zukunft\n\t      widersprechen (Werbewiderspruch).\n\tZwischen DB Vertrieb, DB Fernverkehr und DB Regio besteht eine gemeinsame\n\tVerantwortung nach Art.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"    * Sie haben das Recht, Beschwerde bei einer Aufsichtsbehörde einzulegen.\n\t      Die für die DB Vertrieb GmbH zuständige Aufsichtsbehörde ist: Der\n\t      Hessische Datenschutzbeauftragte, Gustav-Stresemann-Ring 1, 65189\n\t      Wiesbaden, E-Mail: poststelle@datenschutz.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"      Hessische Datenschutzbeauftragte, Gustav-Stresemann-Ring 1, 65189\n\t      Wiesbaden, E-Mail: poststelle@datenschutz.",
+"country":"      Hessische Datenschutzbeauftragte, Gustav-Stresemann-Ring 1, 65189\n\t      Wiesbaden, E-Mail: poststelle@datenschutz.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Mittels maschineller Lernmethoden wird überwiegend automatisch bewertet, ob ein\n\tmenschlicher Besucher unsere Webseite benutzt.",
+"scopeAndIntendedEffects":"Mittels maschineller Lernmethoden wird überwiegend automatisch bewertet, ob ein\n\tmenschlicher Besucher unsere Webseite benutzt."},
+"changesOfPurpose":[{
+"description":"Einstellungen verwalten\" jederzeit erneut aufrufen und Änderungen vornehmen.\n\t Cookie-Einstellungen\n\t*** Cookies und ähnliche Technologien, die für die Nutzung bestimmter\n\tFunktionen der Seite erforderlich sind ***\n\tDie im Folgenden aufgeführten und von uns eingesetzten Tracking-Maßnahmen\n\twerden auf Grundlage des Art.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Oktober 2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"Bestandteile des Datenschutzhinweises Regelungen des Vertragsverhältnisses mit\n\tIhnen enthalten, erfolgen die Änderungen nur mit Ihrer Zustimmung.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Oktober 2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

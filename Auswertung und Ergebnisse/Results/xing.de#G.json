@@ -1,0 +1,88 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"XING",
+"division":"Wir, die New Work SE, sind der Verantwortliche im Sinne der EU-DSGVO – also die juristische Person, die über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet. Unsere Kontaktdaten lauten: Dammtorstraße 30, 20354 Hamburg, Deutschland, Tel.",
+"address":"Deine XING Kontakte im sozialen Netzwerk\n\tz. B. bestätigte Kontakte in Deiner Kontaktliste",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"Unser Datenschutzbeauftragter ist Felix Lasse, Dammtorstraße 30, 20354 Hamburg, Deutschland, E-Mail: Datenschutzbeauftragter@xing.",
+"address":"Unser Datenschutzbeauftragter ist Felix Lasse, Dammtorstraße 30, 20354 Hamburg, Deutschland, E-Mail: Datenschutzbeauftragter@xing.",
+"country":"N/A",
+"email":"N/A",
+"phone":" Unsere Kontaktdaten lauten: Dammtorstraße 30, 20354 Hamburg, Deutschland, Tel.: +49 40 419 131-0, Fax: +49 40 419 131-11, E-Mail: info@xing."},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Dir stehen unter anderem gesetzliche Ansprüche auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch gegen die Verarbeitung sowie ein Recht auf Datenübertragbarkeit zu.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Wir sind in bestimmten Fällen dazu verpflichtet, Dich betreffende personenbezogene Daten nach Deiner Aufforderung zu löschen.\n\t\n\tRecht auf Einschränkung der Verarbeitun",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Eine durch Dich abgeforderte Datenauskunft kann auch an Dritte übermittelt werden.\n\t\n\tWiderrufsrecht bei Einwilligun",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Dir stehen unter anderem gesetzliche Ansprüche auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch gegen die Verarbeitung sowie ein Recht auf Datenübertragbarkeit zu.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Es steht Dir frei, Dich bei einer Aufsichtsbehörde zu beschweren.\n\t\n\tBegriffe, die in unserer Datenschutzerklärung vorkommen",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"\n\tEU-DSGVO: Die Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27.",
+"country":"\n\tEU-DSGVO: Die Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"+49 40 419 131-11"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Profiling: Gemäß Art. 4 Ziffer 4 EU-DSGVO jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.",
+"scopeAndIntendedEffects":"Profiling: Gemäß Art. 4 Ziffer 4 EU-DSGVO jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen."},
+"changesOfPurpose":[{
+"description":"Deine Tracking-Optionen\n\tDeine vorgenommenen Änderungen wirken sich nur im aktuell verwendeten Browser aus.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"27. April 2016",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"Tracking auf XING erlauben\n\tDeine vorgenommenen Änderungen wirken sich nur im aktuell verwendeten Browser aus.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"27. April 2016",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

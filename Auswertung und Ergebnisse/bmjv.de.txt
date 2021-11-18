@@ -1,0 +1,122 @@
+Mit den folgenden Ausführungen möchten wir Sie über die Verarbeitung personenbezogener Daten durch das Bundesministerium der Justiz und für Verbraucherschutz (BMJV) informieren.
+
+Personenbezogene Daten sind Angaben zu einer Person oder Informationen, die sich auf eine Person beziehen (z. B. Name, Adresse, Postanschrift, Telefonnummer, IP-Adresse) und die dazu genutzt werden können, die Identität von Personen zu erfahren. Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt – insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten oder zu einer Online-Kennung – identifiziert werden kann.
+
+1. Verantwortlicher und Datenschutzbeauftragte
+Verantwortlich für die Verarbeitung von personenbezogenen Daten ist das
+
+Bundesministerium der Justiz und für Verbraucherschutz,
+Mohrenstraße 37, 10117 Berlin,
+E-Mail: poststelle@bmjv.bund.de
+
+Bei konkreten Fragen zum Schutz Ihrer Daten wenden Sie sich bitte an die
+
+Behördliche Datenschutzbeauftragte,
+Bundesministerium der Justiz und für Verbraucherschutz,
+Mohrenstraße 37, 10117 Berlin,
+Telefon: +49 (0)30 18 580 - 0
+E-Mail: datenschutz@bmjv.bund.de
+
+Sie können sich auch an den Bundesbeauftragten für den Datenschutz und die Informationsfreiheit wenden, wenn Sie der Ansicht sind, bei der Verarbeitung Ihrer personenbezogenen Daten durch das BMJV in Ihren Rechten verletzt worden zu sein.
+
+Wenn Sie Fragen zum Datenschutz bei der Europäischen Kommission haben, können Sie sich auf der Internetseite der Kommission informieren.
+
+2. Datenverarbeitung beim Besuch dieser Internetseite
+Bei jedem Besuch unserer Internetseite werden Daten erhoben, die aus Sicherheitsgründen und zur Bereitstellung und Optimierung einer funktionsfähigen Webseite sowie unserer Inhalte und Leistungen erforderlich sind. Dies sind:
+
+Ihre IP-Adresse,
+Name der abgerufenen Datei,
+Datum und Uhrzeit des Abrufs,
+übertragene Datenmenge,
+Meldung, ob der Abruf erfolgreich war.
+Die Daten werden in einer Protokolldatei vorübergehend verarbeitet. Vor der Speicherung wird jeder Datensatz durch Veränderung der IP-Adresse anonymisiert.
+
+Die anonymisierten Daten werden über den Zeitpunkt des Besuchs auf der Internetseite hinaus auf einem Server des InformationsTechnikZentrum Bund (ITZBund) gespeichert. Wir sind hierzu auf Grundlage von Artikel 6 Absatz 1 Buchstabe e und Absatz 3 Buchstabe b Datenschutz-Grundverordnung (DS-GVO) in Verbindung mit § 5 BSI-Gesetz zum Schutz vor Angriffen auf die Internetinfrastruktur des BMJV und die Kommunikationstechnik des Bundes verpflichtet. Diese Daten werden analysiert und im Falle von Angriffen auf die Kommunikationstechnik benötigt.
+
+Daten, die beim Zugriff auf das Internetangebot des BMJV protokolliert wurden, werden an Dritte nur übermittelt, soweit wir rechtlich dazu verpflichtet sind oder die Weitergabe im Falle von Angriffen auf die Kommunikationstechnik des Bundes zur Rechts- oder Strafverfolgung erforderlich ist. Eine Weitergabe in anderen Fällen erfolgt nicht.
+Beim Aufruf einzelner Seiten werden so genannte temporäre Cookies verwendet, um die Navigation zu erleichtern. Diese Session Cookies beinhalten – mit Ausnahme der Warenkorbfunktion – keine personenbezogenen Daten und verfallen nach Ablauf der Sitzung. Techniken, wie zum Beispiel Java-Applets oder Active-X-Controls, die es ermöglichen, das Zugriffsverhalten der Nutzer nachzuvollziehen, werden nicht eingesetzt.
+3. Webanalyse
+Dieses Webangebot und seine einzelnen Angebote sind Teil der Öffentlichkeitsarbeit des BMJV. Um das Informationsangebot auf die Bedürfnisse der Nutzerinnen und Nutzer ausrichten zu können, wertet das BMJV die Zugriffe auf diese Internetseite auf der Grundlage Ihrer Einwilligung gemäß Artikel 6 Absatz 1 Buchstabe a DS-GVO statistisch aus.
+
+Für die Erhebung der Sitzungsdaten verwenden wir die Webanalysedienst-Software Matomo (www.matomo.org) des Anbieters InnoCraft Ltd., 150 Willis St, 6011 Wellington, Neuseeland. Die Software wird beim ITZBund gehostet und uns von dort bereitgestellt. Das Cookie ermöglicht unter anderem die Wiedererkennung des Internet-Browsers. Die durch das Cookie erzeugten Informationen werden nicht dazu benutzt, die Besucherinnen und Besucher unserer Internetseite persönlich zu identifizieren. Über den eigentlichen Besuch unserer Internetseite hinaus werden keine personenbezogenen Daten gespeichert oder verarbeitet.
+
+Die mit der Matomo-Technologie erhobenen Daten (einschließlich Ihrer anonymisierten IP-Adresse) werden auf den Servern des ITZBund verarbeitet. Aus den erhobenen Daten (z. B. welche Seite besucht worden ist, Länge der Verweildauer auf der Internetseite, ob Downloads vorgenommen wurden, Suchbegriffe usw.) können wir Rückschlüsse über das Nutzungsverhalten auf unserer Internetseite ziehen und erhalten Informationen über weitere technische Parameter (z. B. verwendeter Browser und die Version, Bildschirmauflösung des verwendeten Endgeräts, Betriebssystem).
+
+In der Grundeinstellung ist die Webanalyse deaktiviert. Sie können sich hier entscheiden, ob in Ihrem Browser ein eindeutiger Webanalyse-Cookie abgelegt werden darf, um dem Betreiber der Website die Erfassung und Analyse verschiedener statistischer Daten zu ermöglichen. Wenn Sie sich zu einem späteren Zeitpunkt dagegen entscheiden möchten, wählen Sie bitte die entsprechende Option, um den Matomo-Deaktivierungs-Cookie in Ihrem Browser abzulegen.
+     
+Webanalyse auf dieser Website aktivieren
+     
+Webanalyse auf dieser Website deaktivieren
+ 
+4. Verarbeitung personenbezogener Daten bei Eingaben und Anfragen
+Wir verarbeiten im Zusammenhang mit Eingaben und Anfragen ausschließlich solche Daten, die notwendig sind, um mit Ihnen zu kommunizieren und um das Verwaltungshandeln des BMJV ordnungsgemäß zu dokumentieren. Hierzu gehören insbesondere jene personenbezogenen Informationen (z. B. Name, Vorname, Anschrift, E-Mail-Adresse usw.), die wir unmittelbar von Ihnen selbst erhalten haben sowie die Information über den von Ihnen gewählten Kontaktweg (Brief, Telefon, E-Mail, Kontaktformular). Die Verarbeitung der Daten ist zur Wahrnehmung unserer Aufgaben erforderlich (vgl. Artikel 6 Absatz 1 Buchstabe e und Absatz 3 Buchstabe b DS-GVO in Verbindung mit § 3 BDSG).
+
+Wir geben die von Ihnen erhaltenen Daten nur dann an Dritte weiter, wenn Sie ausdrücklich eingewilligt haben oder wenn wir gesetzlich oder aufgrund einer gerichtlichen Entscheidung dazu verpflichtet sind. Die Aufbewahrung von Eingaben und Anfragen in elektronischer Form erfolgt – wie auch in Papierform – gemäß den für die Aufbewahrung von Schriftgut geltenden Fristen der Registraturrichtlinie, welche die Gemeinsame Geschäftsordnung der Bundesministerien ergänzt. In der Regel betragen die Aufbewahrungsfristen hierfür 10 Jahre.
+
+5. Weitere Verarbeitung personenbezogener Daten
+a) Bestellung von Broschüren
+Wenn Sie Broschüren über die Warenkorbfunktion unserer Internetseite, per Post oder E-Mail bestellen, benötigen wir für den Versand Ihren Namen und Ihre Anschrift. Bitte beachten Sie aber: Soweit die vorgenannten Daten nicht vorliegen, kann die Bearbeitung der Bestellung nicht erfolgen.
+
+Die Verarbeitung der Daten im Rahmen Ihrer Bestellung erfolgt auf Grundlage von Artikel 6 Absatz 1 Buchstabe e und Absatz 3 Buchstabe b DS-GVO in Verbindung mit § 3 BDSG.
+Nach Absenden des Bestellformulars werden die von Ihnen angegebenen Daten an unseren Dienstleister (IBRo Versandservice GmbH, Kastanienweg 1, 18184 Roggentin) weitergegeben. Die übermittelten Daten werden einen Monat nach Abwicklung der Bestellung gelöscht.
+
+b) Newsletter-Versand
+Wenn Sie sich auf dem Newsletter-Verteiler des BMJV eintragen, werden Ihre E-Mail-Adresse, der von Ihnen gewählte Newsletter sowie optional ein frei wählbarer Benutzername auf einem Server gespeichert. Die Verarbeitung der Daten erfolgt auf Grundlage Ihrer Einwilligung nach Artikel 6 Absatz 1 Buchstabe a DS-GVO. Wir setzen diese Daten für den Versand der Newsletter ein. Wir geben Ihre Daten nicht an Dritte weiter und nutzen sie auch nicht für sonstige eigene Zwecke.
+
+Bei der Registrierung werden Ihre Daten auf unserem Server gespeichert und eine Bestätigungsnachricht mit einem Link zur endgültigen Registrierung an die von Ihnen angegebene E-Mail Adresse generiert. Soweit Sie die Registrierung nicht durch den Link in dieser E-Mail bestätigen, werden die Daten nach 24 Stunden gelöscht. Im Übrigen werden Ihre Daten bei Abbestellung des Newsletters unmittelbar gelöscht. Sie haben hier die Möglichkeit, den Newsletter abzubestellen.
+
+c) Besuchergruppen
+Das BMJV empfängt regelmäßig Besuchergruppen zu Informationsbesuchen im Ministerium. Um den Besucherinnen und Besuchern den Zugang zu den Räumlichkeiten des BMJV gewähren zu können, müssen wir aus Sicherheitsgründen im Vorfeld des Termins Ihren Vor- und Zunamen sowie Ihr Geburtsdatum und Ihren Geburtsort zur Aufgabenerfüllung (Öffentlichkeitsarbeit) gemäß Artikel 6 Absatz 1 Buchstabe e und Absatz 3 Buchstabe b DS-GVO in Verbindung mit § 3 BDSG erheben. Diese Daten werden für die Zugangskontrolle an die zuständige Bundespolizei weitergegeben.
+
+Weitere Informationen, wie Einrichtung, Schulform, Klassenstufe, Verein oder Mobilitätseinschränkungen, können zur besseren Vorbereitung Ihres Besuchs im BMJV freiwillig angegeben werden.
+Die uns von Ihnen zur Verfügung gestellten Daten (Vor- und Zuname; Geburtsdatum, Geburtsort) werden ebenso wie die von Ihnen ggf. freiwillig übermittelten personenbezogenen Daten eine Woche nach Ihrem Besuch im BMJV vollständig gelöscht.
+
+d) Anmeldung zu Veranstaltungen im BMJV
+Für die Teilnahme an Veranstaltungen im BMJV müssen Sie sich in der Regel im Voraus anmelden. Aus Sicherheitsgründen müssen wir im Vorfeld des Termins Ihren Vor- und Zunamen sowie Ihr Geburtsdatum und Ihren Geburtsort zur Aufgabenerfüllung (Öffentlichkeitsarbeit) gemäß Artikel 6 Absatz 1 Buchstabe e und Absatz 3 Buchstabe b DS-GVO in Verbindung mit § 3 BDSG erheben. Diese Daten werden für die Zugangskontrolle an die zuständige Bundespolizei weitergegeben.
+
+Die abgefragten Daten werden über ein verschlüsseltes Webformular auf unserer Internetseite an den zuständigen Bereich im Ministerium übertragen, dort verarbeitet und eine Woche nach der Veranstaltung vollständig gelöscht. Während der Anmeldung haben Sie jedoch die Möglichkeit zu entscheiden, ob wir Ihre Daten dauerhaft in einem Einladungsverteiler speichern dürfen, um Sie ggf. auch künftig gezielt zu Veranstaltungen des Ministeriums einladen zu können. Die Einwilligung zur Speicherung Ihrer Daten können Sie jederzeit über dieses Formular widerrufen.
+
+Film- und Fotoaufnahmen: Bei einigen Veranstaltungen werden Foto- und Filmaufnahmen im Rahmen der Presse- und Öffentlichkeitsarbeit des BMJV angefertigt. Auf diese wird in der Regel beim Betreten des Veranstaltungsgeländes hingewiesen. Die Aufnahmen können auf unserer Internetseite, Social-Media-Kanälen, Printmedien und weiteren Medien veröffentlicht werden.
+Rechtsgrundlagen sind Artikel 6 Absatz 1 Buchstabe e und Absatz 3 Buchstabe b DS-GVO in Verbindung mit § 3 BDSG sowie § 23 Kunsturhebergesetz. Sollten Sie mit den Aufnahmen und Veröffentlichungen nicht einverstanden sein, wenden Sie sich nach Möglichkeit unmittelbar an den für die Motivsuche verantwortlichen Fotografen.
+
+e) Kontakte mit dem BMJV
+Wenn Sie mit Beschäftigten des BMJV in Kontakt treten oder diesen z. B. Visitenkarten übergeben, werden personenbezogene Daten (Namen und Kontaktdaten) - soweit für die weitere Aufgabenerfüllung erforderlich - in Adress- und Kontaktverzeichnissen erfasst und wieder gelöscht, sobald keine Erforderlichkeit mehr vorliegt.
+
+f) Fachaufsicht über den Geschäftsbereich
+Zum Geschäftsbereich des BMJV gehören der Bundesgerichtshof, das Bundesverwaltungsgericht, der Bundesfinanzhof, der Generalbundesanwalt, das Bundespatentgericht, das Deutsche Patent- und Markenamt und das Bundesamt für Justiz. Im Rahmen der Fachaufsicht für diese Gerichte und Behörden kann es zur Verarbeitung von übermittelten personenbezogenen Daten kommen.
+
+6. Videoüberwachung
+Die Liegenschaft des BMJV in der Mohrenstraße 37 in Berlin wird zur Wahrung des Hausrechts sowie zu Zwecken der Gefahrenabwehr und Strafverfolgung im Außenbereich mit einer Videoanlage überwacht. Die Videoüberwachung erfolgt durch die Bundespolizei als Verantwortliche nach § 5 in Verbindung mit § 27 Bundespolizeigesetz (BPolG). Soweit erhobene Daten nicht zur Abwehr einer gegenwärtigen Gefahr oder zur Verfolgung einer Straftat bzw. Ordnungswidrigkeit erforderlich sind, gelten die Löschfristen des § 27 BPolG.
+
+Die Liegenschaften des BMJV in der Friedrichstraße 191 und in der Leipziger Straße 127-128 in Berlin werden nach Artikel 6 Absatz 1 Buchstabe e und Absatz 3 Buchstabe b DS-GVO in Verbindung mit § 4 BDSG zur Wahrung des Hausrechts und zur Gefahrenabwehr mit Videoanlagen durch das BMJV als Verantwortlicher überwacht. Die Überwachung erfolgt ohne Aufzeichnung und Speicherung.
+
+7. Betroffenenrechte
+Sowohl im Rahmen der Erfüllung öffentlicher Aufgaben als auch als zivilrechtliche Vertragspartei ist das BMJV verantwortlich für die Verarbeitung von personenbezogenen Daten. Den Betroffenen stehen daher folgende Rechte aus der DS-GVO zur Verfügung:
+
+a) Recht auf Auskunft - Artikel 15 DS-GVO
+Mit dem Recht auf Auskunft erhält der Betroffene eine umfassende Einsicht in die ihn angehenden Daten und einige andere wichtige Kriterien wie beispielsweise die Verarbeitungszwecke oder die Dauer der Speicherung. Es gelten die in § 34 BDSG geregelten Ausnahmen von diesem Recht.
+
+b) Recht auf Berichtigung - Artikel 16 DS-GVO
+Das Recht auf Berichtigung beinhaltet die Möglichkeit für den Betroffenen, unrichtige ihn angehende personenbezogene Daten korrigieren zu lassen.
+
+c) Recht auf Löschung - Artikel 17 DS-GVO
+Das Recht auf Löschung beinhaltet die Möglichkeit für den Betroffenen, Daten beim Verantwortlichen löschen zu lassen. Dies ist allerdings nur dann möglich, wenn die ihn angehenden personenbezogenen Daten nicht mehr notwendig sind, rechtswidrig verarbeitet werden oder eine diesbezügliche Einwilligung widerrufen wurde. Es gelten die in § 35 BDSG geregelten Ausnahmen von diesem Recht.
+
+d) Recht auf Einschränkung der Verarbeitung - Artikel 18 DS-GVO
+Das Recht auf Einschränkung der Verarbeitung beinhaltet die Möglichkeit für den Betroffenen, eine weitere Verarbeitung der ihn angehenden personenbezogenen Daten vorerst zu verhindern. Eine Einschränkung tritt vor allem in der Prüfungsphase anderer Rechtewahrnehmungen durch den Betroffenen ein.
+
+e) Recht auf Datenübertragbarkeit - Artikel 20 DS-GVO
+Das Recht auf Datenübertragbarkeit beinhaltet die Möglichkeit für den Betroffenen, die ihn angehenden personenbezogenen Daten in einem gängigen, maschinenlesbaren Format vom Verantwortlichen zu erhalten, um sie ggf. an einen anderen Verantwortlichen weiterleiten zu lassen. Gemäß Artikel 20 Abs. 3 Satz 2 DS-GVO steht dieses Recht aber dann nicht zur Verfügung, wenn die Datenverarbeitung der Wahrnehmung öffentlicher Aufgaben dient. Dies ist beim BMJV nur dann nicht der Fall, wenn die Verarbeitung personenbezogener Daten zu fiskalischen Zwecken erfolgt.
+
+f) Recht auf Widerspruch - Artikel 21 DS-GVO
+Das Recht auf Widerspruch beinhaltet die Möglichkeit für Betroffene, in einer besonderen Situation der weiteren Verarbeitung ihrer personenbezogenen Daten zu widersprechen, soweit diese durch die Wahrnehmung öffentlicher Aufgaben oder öffentlicher sowie privater Interessen gerechtfertigt ist. Das Recht gilt gemäß § 36 BDSG nicht, wenn eine öffentliche Stelle durch Rechtsvorschrift zur Verarbeitung verpflichtet ist.
+
+g) Recht auf Widerruf der Einwilligung
+Soweit die Verarbeitung von personenbezogenen Daten auf Grundlage Ihrer Einwilligung (Artikel 6 Abs. 1 Buchstabe a DS-GVO) erfolgt, können Sie diese jederzeit für den ent-sprechenden Zweck widerrufen. Die Rechtmäßigkeit der Verarbeitung aufgrund Ihrer getätigten Einwilligung bleibt bis zum Eingang Ihres Widerrufs unberührt.
+
+8. Beschwerdemöglichkeit
+Sie haben die Möglichkeit, sich mit einer Beschwerde gegen die Datenverarbeitung des BMJV an den Bundesbeauftragten für den Datenschutz und die Informationsfreiheit zu wenden, der die datenschutzrechtliche Aufsicht über die Bundesbehörden hat. Er ist wie folgt erreichbar:
+
+Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit
+Graurheindorfer Str. 153, 53117 Bonn,
+E-Mail: poststelle@bfdi.bund.de

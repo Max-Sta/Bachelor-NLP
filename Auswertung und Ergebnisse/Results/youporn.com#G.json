@@ -1,0 +1,96 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"en",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"parties",
+"division":" It does not include data that has been anonymized or pseudonymized.\n\t\n\tWe may collect, use, store and transfer different kinds of personal data about you, which we have grouped together as follows",
+"address":" We may however disclose certain personal information with third parties, service providers and entities within our corporate group in order to enable them to perform certain services on our behalf and namely to make the Website work properly.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Subject to local law, you have certain rights regarding the Personal Information we collect, use or disclose and that is related to you, including the right\n\t\n\t    to receive information on the Personal Information concerning we hold about you and how such Personal Information is used (right to access)",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"    to delete/erase your Personal Information (right to erasure/deletion, “right to be forgotten”);\n\t    to receive the Personal Information provided by you in a structured, commonly used and machine-readable format and to transmit those Personal Information to another data controller (right to data portability",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"If we ask for your consent to use your Personal Information, you can withdraw your consent at any time. Note that in case of a withdrawal of your consent you may no longer able to use several functionalities of our Website and our services.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":" If you are located in the European Economic Area, you have a right to lodge a complaint with your local data protection authority.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"data protection authority",
+"address":"com to exercise your above rights in accordance with the applicable legal requirements and limitations. If you are located in the European Economic Area, you have a right to lodge a complaint with your local data protection authority.",
+"country":"com to exercise your above rights in accordance with the applicable legal requirements and limitations. If you are located in the European Economic Area, you have a right to lodge a complaint with your local data protection authority.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Cookies can be either session cookies or persistent cookies. A session cookie expires automatically when you close your browser.",
+"scopeAndIntendedEffects":" Cookies can be either session cookies or persistent cookies. A session cookie expires automatically when you close your browser."},
+"changesOfPurpose":[{
+"description":"    Customer management (Registered Members Only): to manage a registered users’ account, to provide customer support and notices to the registered user about his account or subscription, including expiration and renewal notices, and notices about changes to our Website or any products or services we offer or provide through it",
+"affectedDataCategories":[],
+"plannedDateOfChange":"January 1, 2020",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Although we may attempt to notify you when major changes are made to this privacy policy, you are expected to periodically review the most up-to-date version found at https://www.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"com/information#privacy so you are aware of any changes, as they are binding on you.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" On the other hand, if the date has changed, then there have been changes, and you agree to re-review our privacy policy, and you agree to the new ones.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

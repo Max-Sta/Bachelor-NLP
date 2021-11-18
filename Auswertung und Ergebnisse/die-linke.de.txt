@@ -1,0 +1,500 @@
+#  Datenschutz
+
+Die Partei DIE LINKE nimmt den Schutz Ihrer persönlichen Daten sehr ernst und
+hält sich strikt an die Regeln der Datenschutzgesetze. Personenbezogene Daten
+werden auf dieser Webseite nur im technisch notwendigen Umfang erhoben. Die
+Datenverarbeitung beim Besuch unserer Internetseite erfolgt auf der Grundlage
+des Art. 6 (1) e Datenschutzgrundverordnung in Verbindung mit §1 (1)
+Parteiengesetz sowie auf Art. 6 (1) f DSGVO, soweit Daten zur Gewährleistung
+der Sicherheit des technischen Systems verarbeitet werden. Bei der Anmeldung
+zu einer Veranstaltung oder zur Kontaktaufnahme werden weitere Daten auf der
+Basis einer Einwilligung gemäß den gesetzlichen Vorgaben des Art. 6 (1) a
+Datenschutzgrundverordnung durch uns so lange verarbeitet, wie es zur
+Durchführung der Aufgabe erforderlich ist.
+
+##  Aktualisierung unserer Datenschutzhinweise, Stand: 13. August 2020
+
+Auf Grundlage der Entscheidung des Europäischen Gerichtshofes vom 16. Juli
+2020 setzen wir hiermit unsere Kunden, Geschäftspartner, Mitarbeiter,
+Webseitenbesucher und sonstige Kommunikationspartner davon in Kenntnis, dass
+möglicherweise bei einer Nutzung US-amerikanischer Dienstleister wie Amazon,
+Asana, Facebook, Google, MailChimp, Twitter, TeamViewer, YouTube etc. und
+ihrer jeweiligen europäischen Tochterunternehmen im Rahmen der Kommunikation
+kein angemessenes und den EU-Regeln vergleichbares Datenschutzniveau
+eingehalten werden kann. Aufgrund nationaler Gesetze kann ein
+außereuropäischer Anbieter aufgrund des nationalen Rechts gezwungen sein,
+Kommunikationsdaten an nationale Sicherheitsbehörden herauszugeben, ohne dass
+diese Herausgabe in einem unabhängigen gerichtlichen Verfahren auf Antrag des
+Betroffenen auf seine Rechtmäßigkeit hin geprüft werden kann. Da diese
+Feststellung des Gerichtes auch für Unternehmen mit Sitz und Datenverarbeitung
+in Europa sowohl unter dem sogenannten EU-US Privacy Shield als auch den
+Standardvertragsklauseln sowie den Verbindlichen Unternehmensregelungen
+zutrifft, müssen wir nunmehr im Einzelfall alle Datenübermittlungen an
+Drittanbieter  prüfen und gegebenenfalls einstellen oder durch EU-ansässige
+Anbieter ersetzen. Hierzu sind wir gegenwärtig im Gespräch mit unseren
+Dienstleistern und den Aufsichtsbehörden.
+
+##  Die nachfolgende Erklärung
+
+gibt Ihnen einen Überblick darüber, wie wir diesen Schutz gewährleisten und
+welche Art von Daten zu welchem Zweck erhoben werden.
+
+#### Datenverarbeitung auf dieser Internetseite
+
+Unser Server erhebt und speichert automatisch in seinen Logfiles
+Informationen, die Ihr Browser an uns übermittelt. Dies sind:
+
+  * Browsertyp/ -version
+  * verwendetes Betriebssystem
+  * Referrer URL (die zuvor besuchte Seite)
+  * Uhrzeit der Serveranfrage.
+
+Diese Daten können von uns nicht bestimmten Personen zugeordnet werden. Eine
+Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen,
+die Daten werden zudem nach einer statistischen Auswertung gelöscht.
+
+Zur Verbesserung unseres Onlineangebots werten wir die Benutzung der Website
+gelegentlich aus. Wir erstellen hierfür Besucherstatistiken unter Nutzung der
+Open Source-Webanalysesoftware Piwik. (Neuere Versionen dieser Software werden
+unter der Bezeichnung [Matomo](https://matomo.org/ "Externer Link")
+veröffentlicht.) Diese analysiert die Zugriffe auf unserem Portal mittels
+einer Javascript-Einfügung in jede unserer Webseiten und einigen wenigen
+Identifikationsdateien (sogenannten Cookies).
+
+Piwik speichert standardmäßig die IP-Adresse aller Nutzer. Den Empfehlungen
+der datenschutzfreundlichen "Wir speichern
+nicht"-Selbstverpflichtungsinitiative folgend, benutzen wir Piwik allerdings
+in einer angepassten Form, bei der die IP-Adresse standardmäßig anonymisiert
+wird. [Mehr Informationen
+dazu](http://www.wirspeichernnicht.de/content/view/38/24/ "Externer Link").
+
+#### Datenverarbeitung auf der Spendenseite
+
+Die Daten aus dem Spendenformular speichern und verarbeiten wir in
+Zusammenarbeit mit den am SEPA-Lastschriftverfahren bzw. Kartenzahlung
+beteiligten Banken gemäß der Datenschutzvorschriften sowie der Vorschriften
+des Parteiengesetzes.
+
+Datenschutz-Hinweis: Bitte beachten Sie, dass bei Nutzung von PayPal Ihre
+persönlichen Angaben unter anderem in den USA unter den dort geltenden
+Datenschutzbedingungen gespeichert und verarbeitet werden.
+
+#### Datenverarbeitung in der Wahlkampf-App
+
+ **Zweck, Rechtsgrundlage und Löschfrist**
+
+Die Wahlkampf-App dient der Unterstützung ehrenamtlich tätiger Mitglieder und
+Sympathisanten durch die Bereitstellung von Informationen über
+Beteiligungsmöglichkeiten, der Organisation von Aktionen und Veranstaltungen
+durch den jeweiligen Kampagnenverantwortlichen sowie der Erfassung von
+Kontaktdaten zukünftiger Unterstützer*innen des Wahlkampfes oder anderer
+politischer Aktionen der Partei DIE LINKE und ihrer Gliederungen.
+
+Die Nutzerdaten und die Formularangaben werden auf der Basis einer
+Einwilligung der Betroffenen gem. Art.  6 (1) a bzw. Art.  9 (2) a
+Datenschutzgrundverordnung verarbeitet, die durch ein Doppelt-opt-in-Verfahren
+unter Nutzung der angegebenen Mailadressen verifiziert und bis zum Widerruf
+der Einwilligung für die Dauer der Nutzung der Daten im Rahmen der
+Wahlkampfunterstützung zuzüglich der gesetzlich bestimmten
+Aufbewahrungspflichten von drei Jahren nach Ende der Nutzung aufbewahrt
+werden. Diese Daten werden ausschließlich an vertraglich gebundene deutsche
+Auftragsverarbeiter und zu Zwecken der Datenschutzkontrolle an die nach der
+Datenschutzgrundverordnung zuständigen Aufsichtsbehörden übermittelt. Die
+Nutzungsdaten der App werden ausschließlich zum Zweck der Sicherstellung der
+technischen Funktionsfähigkeit und Integrität des Systems genutzt. Es finden
+keine personenbezogenen Auswertungen oder Analysen und keine Verknüpfung zu
+Bewegungs- oder Standortdaten des jeweiligen Gerätes statt.
+
+ **Download der App**
+
+Beim Download der Wahlkampf-App gelten die Datenschutzhinweise der jeweiligen
+App-Stores (auf deren Datenverarbeitungen wir keinen Einfluss haben und uns
+von dort keine Daten übermittelt werden). Du kannst die App auch über unsere
+Webseite die-linke.app auf jedem Smartphone verknüpfen ("auf den Homescreen /
+Startbildschirm verknüpfen") und so als vollwertige App benutzen. Hier gelten
+die Datenverarbeitungshinweise auf dieser Internetseite.
+
+ **Nutzung ohne Registrierung**
+
+Die App kann ohne Registrierung genutzt werden, um sich über Veranstaltungen
+der LINKEN zu informieren, Zeit und Ort dieser Veranstaltungen zu erfahren
+oder um LINKE Geschäftsstellen zu finden.
+
+ ** _Verwendung Browserinformationen_**
+
+Bei der Nutzung der App werden die Browserinformationen an unseren in
+Deutschland befindlichen Server übertragen und automatisch in seinen Logfiles
+gespeichert. Dies sind:
+
+  * Browsertyp/ -version
+  * verwendetes Betriebssystem
+  * Referrer URL (die zuvor besuchte Seite)
+  * Uhrzeit der Serveranfrage.
+
+ _ **Kartennutzung**_
+
+Darüber hinaus werden die Informationen über abgerufene Kartenausschnitte über
+den Browser an den Dienstleister Mapbox übertragen.
+
+ **Mapbox**
+
+Das Kartenmaterial, auf das durch die App zugegriffen wird, basiert auf
+Openstreetmap. Aufbereitet wird dieses Kartenmaterial von Mapbox, einem US-
+basierten Kartendienstleister. Dessen Datenverarbeitungs -und
+Datenschutzhinweise können [hier
+](https://www.mapbox.com/legal/privacy)nachgelesen werden. Wir benutzen von
+Mapbox die Dataset API und Tileset API. Die Daten, die an Mapbox übermittelt
+werden, sind die Daten, die ein Browser grundsätzlich beim Aufruf von Websiten
+überträgt:
+
+  * Browsertyp/ -version
+  * verwendetes Betriebssystem
+  * Referrer URL (die zuvor besuchte Seite)
+  * Uhrzeit der Serveranfrage.
+
+Über ein von Mapbox an das Gerät des Nutzenden übermitteltes Session Cookie
+wird die Information, welcher Kartenausschnitt von dem Gerät angefordert wird,
+an Mapbox übertragen. Das bedeutet: Mapbox kann erfahren, auf welches Gerät
+die Karte von einem bestimmten Ort geladen wurde. Es werden weder
+Routeninformationen, noch Daten über die User (Profildaten, Login-Daten), noch
+Daten über die Ergebnisse der Aktivitäten in der App an Mapbox übermittelt.
+
+Um ein größtmögliches Maß an Datensicherheit zu gewährleisten, haben wir einen
+Auftragsverarbeitungsvertrag mit Mapbox geschlossen und für die Übermittlung
+der Daten die jeweiligen Standardvertragsklauseln der EU vereinbart. Diese
+können  [hier ](https://filebox.die-
+linke.de/index.php/s/n8NTBHSc8SWzWLG)abgerufen werden.
+
+ **Nutzerkonto anlegen**
+
+Vor der erstmaligen Anmeldung in der App musst Du Dich als Nutzer
+registrieren. Die Registrierung ist notwendig, um sich für Aktionen anmelden
+zu können. Hierfür werden Deine E-Mail-Adresse, Dein selbstgewählter
+Benutzername, Dein selbstgewähltes Passwort, die Postleitzahl Deines Wohnortes
+zum Zweck der Zuordnung der angezeigten Wahlgebiete, Dein Vorname und Dein
+Nachname erfasst. Vor Deiner Registrierung kannst Du die
+Datenschutzbestimmungen der App zur Kenntnis nehmen. Auf die angegebene
+E-Mailadresse erhältst Du einen Bestätigungslink zur Aktivierung des Kontos.
+Wenn Du diesen LINK nicht aktivierst, werden die eingetragenen Daten nach 24
+Stunden gelöscht.
+
+ **Zu einer Aktion anmelden**
+
+Du kannst Dich nach Anmeldung mit Deinem Benutzerkonto zu einer Aktion
+anmelden, diese Anmeldung aber auch jederzeit wieder rückgängig machen ("Ich
+bin dabei" und "Doch nicht dabei"). Deine Anmeldung kann der jeweilige
+Kampagne-Verantwortliche sehen und ggf. Kontakt über die von Dir angegebenen
+Kontaktdaten aufnehmen, wenn noch weitere Absprachen notwendig sind. Du kannst
+auch sehen, wie viele andere Unterstützer dabei sein werden. Diese erhalten
+aber weder Deine Daten noch kannst Du deren Daten einsehen, solange nicht
+beide Seiten dem zugestimmt haben.
+
+ **Haustürwahlkampf**
+
+Über die App kannst Du das von Dir gewählte Gebiet und die zugehörigen Straßen
+und Hausnummern sehen. Wenn eine Hausnummer von einem Wahlkämpfer besucht
+wurde, wird diese Hausnummer für alle anderen App-Nutzer durch ein grünes
+Häkchen gekennzeichnet, um unnötige Doppelbesuche zu verhindern.
+
+ **Ergebnisse aufnehmen**
+
+Während der Aktion hast Du die Möglichkeit, zur Hausnummer die Anzahl der
+„Geklopften Türen“, der „Guten Gespräche“, der „Geöffneten Türen“ und der
+„Zusagen“ der Anzahl nach zu erfassen. Diese Erfassungen dienen allein der
+statistischen Auswertung und werden in aggregierter und damit in anonymer Form
+je Gebiet durch den Kampagnenverantwortlichen genutzt, um den Erfolg der
+Aktion zu beurteilen. Wir wollen damit den Fortschritt der Aktion einschätzen
+können und unsere Zeit- und Ressourcenplanung verbessern. Deinen eigenen
+Fortschritt kannst (nur?) Du unter Deiner Profilseite selbst einsehen.
+
+ **Kontakt registrieren**
+
+Über die App kannst Du mit deren Einwilligung neue Unterstützer erfassen.
+Hierfür können in der App deren Nachname, Vorname, Geschlecht, E-Mail-Adresse,
+Telefonnummer, Postleitzahl und Stadt sowie die Angabe zu einer bestehenden
+Mitgliedschaft bei der Partei DIE LINKE oder dem Wunsch Mitglied der Partei zu
+werden, erfasst werden. An die dort angegebene Mailadresse wird dann ein
+Bestätigungslink geschickt, mit dem die neu erfassten Unterstützer der
+Verarbeitung Ihrer Daten zustimmen müssen und diese Daten erst dann in die
+Linksaktiv-Datenbank zum Zweck der Organisation des Wahlkampfes eingetragen
+werden. Die Daten werden mit Absenden des Formulars nicht mehr im Gerät
+gespeichert. Bei fehlender Bestätigung von der E-Mailadresse (Double Opt-in)
+werden die Kontaktdaten innerhalb von 24 Stunden wieder gelöscht.
+
+Stand der Datenschutzhinweise zur Wahlkampf-App: 9.7.2021 Version 001.2
+
+#### Widerspruch gegen die Erstellung von Nutzungsprofilen
+
+Sie können auf unterschiedliche Weise die Erhebung und Aufzeichnung Ihrer
+Zugriffe blockieren:
+
+  * Matomo erhebt keine Daten, wenn Ihr Webbrowser die Einstellung "Do Not Track" (Wikipedia) eingeschaltet hat.
+  * Sie können die Cookies, die unser Portal hierfür setzt, in den Browser-Einstellungen blockieren und löschen.
+  * Sie können für unser Portal in den Browser-Einstellungen Javascript ausschalten.
+  * Sie verwenden folgende Ablehnungsmöglichkeit, die Piwik direkt anbietet. Hierfür wird Piwik einen zwei Jahre gültigen Opt-out-Cookie bei Ihnen speichern ("piwik_ignore"), um die Erfassung abzustellen:
+
+<iframe src="https://www.die-
+linke.de/stats/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de&amp;backgroundColor=ffffff&amp;fontColor=&amp;fontSize=12pt&amp;fontFamily=Roboto%2C%20Arial%2C%20Helvetica%2C%20Geneva%2C%20sans-
+serif" style="border: 0; height: 350px; width: 330px;"></iframe>
+
+#### Cookies
+
+Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie
+dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu
+machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden
+und die Ihr Browser speichert. Die meisten der von uns verwendeten Cookies
+sind so genannte "Session-Cookies". Sie werden nach Ende Ihres Besuchs
+automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und
+enthalten keine Viren.
+
+#### Newsletter
+
+Wenn Sie den auf der Webseite angebotenen Newsletter empfangen möchten,
+benötigen wir von Ihnen eine gültige eMail-Adresse sowie Informationen, die
+uns die Überprüfung gestatten, dass Sie der Inhaber der angegebenen eMail-
+Adresse sind bzw. deren Inhaber mit dem Empfang des Newsletters einverstanden
+ist. Weitere Daten werden nicht erhoben.
+
+Ihre Einwilligung zur Speicherung der Daten, der eMail-Adresse sowie deren
+Nutzung zum Versand des Newsletters können Sie jederzeit widerrufen.
+
+#### Facebook
+
+ **Auf Aufforderung der Berliner Beauftragten für Datenschutz und
+Informationsfreiheit weisen wir hiermit ausdrücklich darauf hin,**
+
+  *  **dass jeder das Recht auf einen Widerspruch gegen die Verarbeitung seiner Daten hat und** ****
+  *  **dass auch die Berliner Aufsichtsbehörde erreichbar unter:      **  
+ **Berliner Beauftragte für Datenschutz und Informationsfreiheit**  
+ **Friedrichstr. 219**  
+ **Besuchereingang: Puttkamerstr. 16 – 18 (5. Etage)**  
+ **10969 Berlin**  
+ **Telefon: 030 13889-0**  
+ **Telefax: 030 2155050**  
+ **E-Mail:  [mailbox@datenschutz-berlin.de](mailto:mailbox@datenschutz-
+berlin.de)**  
+ **<https://www.datenschutz-berlin.de/buergerinnen-und-buerger/ihre-
+beschwerde-bei-uns/> **
+
+  
+ **wie alle lokal zuständigen Datenschutzaufsichtsbehörden für Beschwerden der
+Betroffenen zuständig ist.**
+
+ **-**
+
+Wir erhalten von Facebook anonyme Statistiken zur Verwendung und Nutzung unser
+Fanpage. Diese Daten erheben wir zum Zweck der besseren Gestaltung unserer
+Informationsangebote im Rahmen der Erfüllung unserer Aufgaben nach
+Parteiengesetz auf Basis der Vorgaben des Artikel 6 Absatz 1 Buchstabe f der
+Datenschutz-Grundverordnung (DSGVO).  
+  
+Facebook teilt hierzu Folgendes mit:  
+  
+Wenn du Facebook-Produkte wie u. a. Seiten nutzt, erhebt und verwendet
+Facebook die in der Facebook-
+[Datenrichtlinie](https://www.facebook.com/about/privacy/update "Externer
+Link") unter „Welche Arten von Informationen erfassen wir?“ beschriebenen
+Informationen. Erfahre in unserer
+Cookie-[Richtlinie](https://www.facebook.com/policies/cookies/ "Externer
+Link") mehr darüber, wie wir Cookies und ähnliche Technologien einsetzen.  
+Für Seiten stellt Facebook Seitenbetreibern [Statistiken und
+Einblicke](https://www.facebook.com/business/pages/manage#page_insights
+"Externer Link") bereit, mit deren Hilfe diese Erkenntnisse über die Arten von
+Handlungen erhalten, die Personen auf ihren Seiten vornehmen („Seiten-
+Insights“).  
+Der Schutz deiner Privatsphäre ist uns sehr wichtig. Deshalb haben wir Seiten-
+Insights entwickelt, mit denen wir Seitenbetreibern wichtige Trends aufzeigen
+können ohne Details preiszugeben, anhand derer du identifiziert werden
+könntest (bitte beachte, dass Seitenbetreiber in Insights dein Profilbild
+eventuell deinen „Gefällt mir“-Angaben für die Seite zuordnen können, wenn du
+ihre Seite mit „Gefällt mir“ markiert und deine „Gefällt mir“-Angaben für
+Seiten auf „öffentlich“ eingestellt hast).  
+  
+Zum Erstellen von Seiten-Insights verwendete Informationen  
+  
+Bei Seiten-Insights handelt es sich um zusammengefasste Statistiken, die
+anhand bestimmter Events erstellt werden, die von den Facebook-Servern
+protokolliert werden, wenn Personen mit Seiten und den mit ihnen verbundenen
+Inhalten interagieren.  
+Solche Events bestehen aus unterschiedlichen Datenpunkten, zu denen, abhängig
+von dem jeweiligen Event, zum Beispiel die folgenden zählen:
+
+  * Handlungen von Personen. Dies umfasst zum Beispiel folgende Handlungen:
+  * Eine Seite, einen Beitrag, ein Video, eine Story oder sonstige mit einer Seite verbundene Inhalte ansehen
+  * Mit einer Story interagieren
+  * Eine Seite abonnieren bzw. nicht mehr abonnieren
+  * Eine Seite oder einen Beitrag mit „Gefällt mir“ oder „Gefällt mir nicht mehr“ markieren
+  * Eine Seite in einem Beitrag oder Kommentar empfehlen
+  * Einen Seitenbeitrag kommentieren, teilen oder auf ihn reagieren (einschließlich der Art der Reaktion)
+  * Einen Seitenbeitrag verbergen oder als Spam melden
+  * Die Maus über einen Link zu einer Seite oder den Namen oder das Profilbild einer Seite bewegen, um eine Vorschau der Seiteninhalte zu sehen
+  * Auf den Website-, Telefonnummer-, „Route planen“-Button oder einen anderen Button auf einer Seite klicken
+  * Die Veranstaltung einer Seite sehen, auf eine Veranstaltung reagieren (einschließlich der Art der Reaktion), auf einen Link für Veranstaltungstickets klicken
+  * Eine Messenger-Unterhaltung mit der Seite beginnen
+  * Artikel in einem Seiten-Shop ansehen oder anklicken
+  * Informationen zu den Handlungen, den Personen, die die Handlungen vorgenommen haben, und zu den dafür verwendeten Browsern/Apps. Dies sind zum Beispiel:
+  * Datum und Zeit der Handlung
+  * Land/Stadt (geschätzt anhand der IP-Adresse oder bei eingeloggten Nutzern aus dem Nutzerprofil)
+  * Sprachencode (aus dem HTTP-Header des Browsers und/oder der Spracheinstellung)
+  * Alters-/Geschlechtergruppe (aus dem Nutzerprofil, nur bei eingeloggten Nutzern)
+  * Zuvor besuchte Websites (aus dem HTTP-Header des Browsers)
+  * Ob die Handlung auf einem Computer oder auf einem Mobilgerät vorgenommen wurde (aus dem Browser User Agent oder aus App-Attributen)
+  * Facebook-Nutzer-ID (nur für eingeloggte Nutzer)
+
+Ob du bei Facebook eingeloggt bist, ermitteln wir mithilfe von Cookies, die
+wir gemäß unserer
+Cookie-[Richtlinie](https://www.facebook.com/policies/cookies/ "Externer
+Link") einsetzen. Nur wenige Events können ausgelöst werden, wenn du nicht bei
+Facebook eingeloggt bist. Dazu gehören u. a. das Besuchen einer Seite oder das
+Klicken auf ein Foto oder Video in einem Beitrag, um es anzusehen.  
+Seitenbetreiber haben keinen Zugriff auf die Daten, die im Rahmen von Events
+verarbeitet werden, sondern nur auf die zusammengefassten Seiten-Insights.  
+  
+ _Verantwortung für deine zum Erstellen von Seiten-Insights verwendeten
+Informationen_  
+  
+Seiten-Insights, die für eine Seite bereitgestellt werden, erfordern
+möglicherweise die Verarbeitung personenbezogener Daten, die gemäß der
+Europäischen Datenschutz-Grundverordnung (oder „DSGVO“) geschützt sind. Die
+DSGVO gilt für die Verarbeitung deiner Daten für Seiten-Insights, wenn du
+beispielsweise in der Europäischen Union lebst. Facebook Ireland, 4 Grand
+Canal Square, Grand Canal Harbour, Dublin 2, Irland („Facebook Ireland“) und
+der Seitenbetreiber sind dann unter Umständen gemeinsam verantwortlich für die
+Verarbeitung deiner Daten, die zum Erstellen von Seiten-Insights im
+Zusammenhang mit einem Besuch oder einer anderen Interaktion mit einer Seite
+oder den mit ihr verbundenen Inhalten verarbeitet werden. In diesem Fall gilt
+Folgendes:
+
+  * Facebook Ireland und der Seitenadministrator haben eine [Vereinbarung](https://www.facebook.com/legal/terms/page_controller_addendum "Externer Link") getroffen, in der festgelegt ist, wer von ihnen welche Verpflichtung aus der DSGVO erfüllt. Informationen zum Seitenbetreiber findest du in den Informationen, die auf seiner Seite bereitgestellt oder dort einbezogen werden.
+  * Facebook Ireland und der Seitenbetreiber haben vereinbart, dass Facebook Ireland dafür verantwortlich ist, dir Informationen über die Verarbeitung für Seiten-Insights bereitzustellen und es dir zu ermöglichen, deine dir gemäß der DSGVO zustehenden Rechte auszuüben. Gemäß DSGVO hast du das Recht auf [Auskunft](https://www.facebook.com/help/contact/180237885820953 "Externer Link"), Berichtigung, [Übertragbarkeit](https://www.facebook.com/help/contact/180237885820953 "Externer Link") und Löschung deiner Daten sowie auf [Widerspruch](https://www.facebook.com/help/contact/1638046109617856 "Externer Link") gegen die Verarbeitung deiner Daten und auf Einschränkung der Verarbeitung. In deinen Facebook-[Einstellungen](https://www.facebook.com/settings?tab=your_facebook_information "Externer Link") erfährst du mehr über diese Rechte. Du kannst auch den Datenschutzbeauftragten von Facebook Ireland kontaktieren, dessen Kontaktdaten du in der Datenrichtlinie von Facebook Ireland findest.
+
+Facebook und der Seitenbetreiber haben vereinbart, dass die irische
+Datenschutzkommission die federführende Aufsichtsbehörde ist, die die
+Verarbeitung für Seiten-Insights überwacht (möglicherweise finden
+Ausnahmeregelungen Anwendung, wenn es sich beim Seitenbetreiber um eine
+öffentliche Stelle handelt). Du hast stets das Recht, eine Beschwerde bei der
+irischen Datenschutzkommission (siehe unter
+[www.dataprotection.ie](https://www.dataprotection.ie "Externer Link")) oder
+bei deiner lokalen Aufsichtsbehörde einzureichen.  
+Die jeweils aktualisierten Informationen kannst Du auch
+[HIER](https://www.facebook.com/legal/terms/information_about_page_insights_data
+"Externer Link") nachlesen.
+
+#### YouTube
+
+Wir haben auf unserer Internetseite Komponenten des Dienstes YouTube
+integriert. YouTube ist ein Internet-Videoportal, dass Video-Publishern das
+kostenlose Einstellen von Videoclips und anderen Nutzern die ebenfalls
+kostenfreie Betrachtung, Bewertung und Kommentierung dieser ermöglicht.
+YouTube gestattet die Publikation aller Arten von Videos, weshalb sowohl
+komplette Film- und Fernsehsendungen, aber auch Musikvideos, Trailer oder von
+Nutzern selbst angefertigte Videos über das Internetportal abrufbar sind.
+
+Betreibergesellschaft von YouTube ist die YouTube, LLC, 901 Cherry Ave., San
+Bruno, CA 94066, USA. Die YouTube, LLC ist einer Tochtergesellschaft der
+Google LLC, 1600 Amphitheatre Pkwy, Mountain View, CA 94043-1351, USA.
+
+Durch jeden Aufruf einer der Einzelseiten unserer Internetseite, auf welcher
+eine YouTube-Komponente (YouTube-Video) integriert wurde, wird der
+Internetbrowser auf Ihrem System automatisch durch die jeweilige YouTube-
+Komponente veranlasst, eine Darstellung der entsprechenden Komponente von
+YouTube herunterzuladen. Im Rahmen dieses technischen Verfahrens erhalten
+YouTube und Google Kenntnis darüber, welche konkrete Unterseite unserer
+Internetseite durch Sie besucht wird.
+
+Durch einen Aufruf einer der Einzelseiten, auf welcher eine YouTube-Komponente
+integriert wurde und Sie aktiv in das Abspielen der Inhalte eingewilligt
+haben, wird der Internetbrowser auf Ihrem System automatisch durch die
+jeweilige YouTube-Komponente veranlasst, eine Darstellung der entsprechenden
+Komponente von YouTube herunterzuladen. Im Rahmen dieses technischen
+Verfahrens erhalten YouTube und Google Kenntnis darüber, welche konkrete
+Unterseite unserer Internetseite durch Sie besucht wird.
+
+Sofern Sie gleichzeitig bei YouTube eingeloggt sind, erkennt YouTube mit jedem
+Aufruf unserer Internetseite durch Sie und während der gesamten Dauer Ihres
+jeweiligen Aufenthaltes auf unserer Internetseite, welche konkrete Unterseite
+Sie besuchen. Diese Informationen werden durch die YouTube-Komponente
+gesammelt und durch YouTube Ihrem YouTube-Account zugeordnet. Betätigen Sie
+eine auf unserer Internetseite integrierte YouTube-Komponente, werden die
+damit übertragenen Daten und Informationen Ihrem persönlichen YouTube-
+Benutzerkonto zugeordnet und von YouTube und Google gespeichert und
+verarbeitet.
+
+YouTube und Google erhalten über die YouTube-Komponente immer dann eine
+Information darüber, dass Sie unsere Internetseite besucht haben, wenn Sie zum
+Zeitpunkt des Aufrufs unserer Internetseite gleichzeitig bei YouTube
+eingeloggt sind; dies findet unabhängig davon statt, ob Sie die YouTube-
+Komponente anklicken oder nicht.
+
+ Ist eine derartige Übermittlung dieser Informationen an YouTube und Google
+von Ihnen nicht gewollt, können Sie die Übermittlung dadurch verhindern, indem
+Sie sich vor einem Aufruf unserer Internetseite aus ihrem YouTube-Account
+ausloggen.  
+Weitere Informationen und die geltenden Datenschutzbestimmungen von YouTube
+können unter
+[www.google.de/intl/de/policies/privacy/](https://www.google.de/intl/de/policies/privacy/)
+abgerufen werden.
+
+#### Auskunftsrecht
+
+Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person
+gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der
+Speicherung. Auskunft über die gespeicherten Daten gibt der
+[Datenschutzbeauftragte](mailto:datenschutz@die-linke.de "datenschutz@die-
+linke.de") der Bundesgeschäftsstelle der Partei DIE LINKE.
+
+#### Beschwerderecht
+
+Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen
+Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde,
+insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes
+oder des Orts des mutmaßlichen Verstoßes, zu, wenn Sie der Ansicht sind, dass
+die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO
+verstößt.
+
+Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet
+den Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde
+einschließlich der Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78
+DSGVO.
+
+Die Kontaktdaten der zuständigen Aufsichtsbehörden finden Sie hier:
+[www.bfdi.bund.de](http://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-
+node.html "Externer Link")
+
+#### Weitere Informationen
+
+Ihr Vertrauen ist uns wichtig. Daher möchten wir Ihnen jederzeit Rede und
+Antwort bezüglich der Verarbeitung Ihrer personenbezogenen Daten stehen. Wenn
+Sie Fragen haben, die Ihnen diese Datenschutzerklärung nicht beantworten
+konnte oder wenn Sie zu einem Punkt vertiefte Informationen wünschen, wenden
+Sie sich bitte jederzeit an den
+[Datenschutzbeauftragten](mailto:datenschutz@die-linke.de "datenschutz@die-
+linke.de") der Bundesgeschäftsstelle der Partei DIE LINKE.
+
+###  Datenschutzbeauftragter
+
+Karsten Neumann  
+[datenschutz@die-linke.de](mailto:datenschutz@die-linke.de "datenschutz@die-
+linke.de")  
+Bundesgeschäftsstelle der Partei DIE LINKE  
+Kleine Alexanderstraße 28  
+10178 Berlin
+
+###  Datenschutz-Handreichung für Parteigliederungen
+
+Newsletter, Einbindung von Social Media-Plug-Ins auf Websites,
+Datenschutzerklärung, Umgang mit Fotos
+[weiterlesen](/seitenfuss/datenschutz/handreichung-fuer-parteigliederungen/)
+
+  * [tweet](https://twitter.com/intent/tweet?text=Datenschutz%3A%20DIE%20LINKE.&url=https%3A%2F%2Fwww.die-linke.de%2Fseitenfuss%2Fdatenschutz%2F "Bei Twitter teilen")
+  * [teilen](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.die-linke.de%2Fseitenfuss%2Fdatenschutz%2F "Bei Facebook teilen")
+  * [teilen](whatsapp://send?text=Datenschutz%3A%20DIE%20LINKE.%20https%3A%2F%2Fwww.die-linke.de%2Fseitenfuss%2Fdatenschutz%2F "Bei Whatsapp teilen")
+  * [teilen](https://t.me/share/url?url=https%3A%2F%2Fwww.die-linke.de%2Fseitenfuss%2Fdatenschutz%2F "Bei Telegram teilen")
+  * [teilen](threema://compose?text=Datenschutz%3A%20DIE%20LINKE.%20https%3A%2F%2Fwww.die-linke.de%2Fseitenfuss%2Fdatenschutz%2F "Bei Threema teilen")
+  * [mail](mailto:?subject=Datenschutz%3A%20DIE%20LINKE.&body=https%3A%2F%2Fwww.die-linke.de%2Fseitenfuss%2Fdatenschutz%2F "Per E-Mail versenden")
+  * [drucken](javascript:window.print\(\); "drucken")
+  * [Info](http://ct.de/-2467514 "Weitere Informationen")
+
+    1. Sie befinden sich hier
+    2. Datenschutz
+

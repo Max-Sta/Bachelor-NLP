@@ -1,0 +1,104 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"OTTO",
+"division":"In den nachfolgenden Datenschutzinformationen informieren wir Sie über die durch die Otto (GmbH & Co KG), Werner-Otto-Str. 1-7, 22179 Hamburg („OTTO“ und/oder „wir“ und/oder „Verantwortlicher“) durchgeführte Verarbeitung personenbezogener Daten nach Maßgabe der DSGVO und des Bundesdatenschutzgesetzes (BDSG 2018).",
+"address":"In den nachfolgenden Datenschutzinformationen informieren wir Sie über die durch die Otto (GmbH & Co KG), Werner-Otto-Str. 1-7, 22179 Hamburg („OTTO“ und/oder „wir“ und/oder „Verantwortlicher“) durchgeführte Verarbeitung personenbezogener Daten nach Maßgabe der DSGVO und des Bundesdatenschutzgesetzes (BDSG 2018).",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"E-Mail-Adresse: service@otto.de\n\t\n\tvertreten durch:\n\tAlexander Birken (Vorsitzender",
+"address":"Den/die betriebliche(n) Datenschutzbeauftragte(n) des Verantwortlichen können Sie unter\n\t\n\tOtto (GmbH & Co KG)\n\tWerner-Otto-Straße 1-",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":" Dies bedeutet unter anderem, dass Betroffenenrechte (u.a. Recht auf Auskunft, Recht auf Löschung der Daten), die diese Daten betreffen, gegenüber dem jeweilig datenschutzrechtlich verantwortlichen Händler OTTO oder Partner geltend gemacht werden müssen.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":" Dies bedeutet unter anderem, dass Betroffenenrechte (u.a. Recht auf Auskunft, Recht auf Löschung der Daten), die diese Daten betreffen, gegenüber dem jeweilig datenschutzrechtlich verantwortlichen Händler OTTO oder Partner geltend gemacht werden müssen.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Neben dem Recht auf Widerruf Ihrer uns gegenüber erteilten Einwilligungen stehen Ihnen bei Vorliegen der jeweiligen gesetzlichen Voraussetzungen die folgenden weiteren Rechte zu:\n\t\n\t• das Recht auf Auskunft über Ihre bei uns gespeicherten persönlichen Daten (Artikel 15 DSGVO), insbesondere können Sie Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, die Herkunft ihrer Daten, sofern diese nicht direkt bei Ihnen erhoben wurden, verlangen",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":" Über die Möglichkeit der Nutzung der E-Mail-Adresse zu diesem Zweck sowie über das diesbezüglich Ihrerseits bestehende Widerspruchsrecht werden Sie bei der Eröffnung des Kundenkontos ausdrücklich hingewiesen.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"•  das Recht auf Beschwerde bei einer Aufsichtsbehörde. In der Regel können Sie sich hierfür an die Aufsichtsbehörde ihres üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Unternehmenssitzes wenden.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"EU-Kommission",
+"address":"Mit Ausnahme der Verarbeitungen, bei denen wir über die Möglichkeit der Übermittlung von Daten an Empfänger mit Sitz außerhalb der EU in diesen Hinweisen zum Datenschutz aufklären, geben wir Ihre Daten nicht an Empfänger mit Sitz außerhalb der Europäischen Union oder des Europäischen Wirtschaftsraumes weiter.",
+"country":"Mit Ausnahme der Verarbeitungen, bei denen wir über die Möglichkeit der Übermittlung von Daten an Empfänger mit Sitz außerhalb der EU in diesen Hinweisen zum Datenschutz aufklären, geben wir Ihre Daten nicht an Empfänger mit Sitz außerhalb der Europäischen Union oder des Europäischen Wirtschaftsraumes weiter.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Bitte beachten Sie außerdem, dass auch nach Verlassen unserer Webseite automatisch eingeloggt bleiben, es sei denn, Sie melden sich aktiv ab.",
+"scopeAndIntendedEffects":" Bitte beachten Sie außerdem, dass auch nach Verlassen unserer Webseite automatisch eingeloggt bleiben, es sei denn, Sie melden sich aktiv ab."},
+"changesOfPurpose":[{
+"description":" Darüber hinaus kann OTTO Sie informieren, wenn wesentliche Änderungen in Ihrem Kundenkonto (z.B.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"in",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Darüber hinaus kann OTTO Sie informieren, wenn wesentliche Änderungen in Ihrem Kundenkonto (z.B. Änderung der Adressdaten oder der E-Mail-Adresse) vorgenommen worden sind, damit Sie überprüfen können, ob die Änderung rechtmäßig oder durch einen unberechtigten Dritten vorgenommen worden ist.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"in",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Änderung der Adressdaten oder der E-Mail-Adresse) vorgenommen worden sind, damit Sie überprüfen können, ob die Änderung rechtmäßig oder durch einen unberechtigten Dritten vorgenommen worden ist.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"in",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Darüber hinaus kann OTTO Sie informieren, wenn wesentliche Änderungen in Ihrem Kundenkonto (z.B.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"in",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Darüber hinaus kann OTTO Sie informieren, wenn wesentliche Änderungen in Ihrem Kundenkonto (z.B. Änderung der Adressdaten oder der E-Mail-Adresse) vorgenommen worden sind, damit Sie überprüfen können, ob die Änderung rechtmäßig oder durch einen unberechtigten Dritten vorgenommen worden ist.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"in",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Änderung der Adressdaten oder der E-Mail-Adresse) vorgenommen worden sind, damit Sie überprüfen können, ob die Änderung rechtmäßig oder durch einen unberechtigten Dritten vorgenommen worden ist.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"in",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

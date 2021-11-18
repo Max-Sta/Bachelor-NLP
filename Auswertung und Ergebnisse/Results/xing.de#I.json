@@ -1,0 +1,88 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"XING",
+"division":" Unsere Kontaktdaten lauten: Dammtorstraße 30, 20354 Hamburg, Deutschland, Tel.",
+"address":" Unsere Kontaktdaten lauten: Dammtorstraße 30, 20354 Hamburg, Deutschland, Tel.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"Unser Datenschutzbeauftragter ist Felix Lasse, Dammtorstraße 30, 20354 Hamburg, Deutschland, E-Mail: Datenschutzbeauftragter@xing.",
+"address":"Unser Datenschutzbeauftragter ist Felix Lasse, Dammtorstraße 30, 20354 Hamburg, Deutschland, E-Mail: Datenschutzbeauftragter@xing.",
+"country":"N/A",
+"email":"Datenschutzbeauftragter@xing.com",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Dir stehen unter anderem gesetzliche Ansprüche auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch gegen die Verarbeitung sowie ein Recht auf Datenübertragbarkeit zu.",
+"url":"https://vwo.com/opt-out/",
+"email":"Datenschutzbeauftragter@xing.com",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Wir sind in bestimmten Fällen dazu verpflichtet, Dich betreffende personenbezogene Daten nach Deiner Aufforderung zu löschen.\n\t\n\tRecht auf Einschränkung der Verarbeitun",
+"url":"https://vwo.com/opt-out/",
+"email":"Datenschutzbeauftragter@xing.com",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Eine durch Dich abgeforderte Datenauskunft kann auch an Dritte übermittelt werden.\n\t\n\tWiderrufsrecht bei Einwilligun",
+"url":"https://vwo.com/opt-out/",
+"email":"Datenschutzbeauftragter@xing.com",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Dir stehen unter anderem gesetzliche Ansprüche auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch gegen die Verarbeitung sowie ein Recht auf Datenübertragbarkeit zu.",
+"url":"https://vwo.com/opt-out/",
+"email":"Datenschutzbeauftragter@xing.com",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Es steht Dir frei, Dich bei einer Aufsichtsbehörde zu beschweren.\n\t\n\tBegriffe, die in unserer Datenschutzerklärung vorkommen",
+"url":"https://vwo.com/opt-out/",
+"email":"Datenschutzbeauftragter@xing.com",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"IBM Watson\n\tWingify/VWO\n\tZur Durchführung von A/B-Tests nutzen wir das Tool VWO.",
+"country":"IBM Watson\n\tWingify/VWO\n\tZur Durchführung von A/B-Tests nutzen wir das Tool VWO.",
+"email":"Datenschutzbeauftragter@xing.com",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Profiling: Gemäß Art. 4 Ziffer 4 EU-DSGVO jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.",
+"scopeAndIntendedEffects":"Profiling: Gemäß Art. 4 Ziffer 4 EU-DSGVO jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen."},
+"changesOfPurpose":[{
+"description":"Deine Tracking-Optionen\n\tDeine vorgenommenen Änderungen wirken sich nur im aktuell verwendeten Browser aus.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2016/",
+"urlOfNewVersion":"https://vwo.com/opt-out/"},{
+"description":"Tracking auf XING erlauben\n\tDeine vorgenommenen Änderungen wirken sich nur im aktuell verwendeten Browser aus.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2016/",
+"urlOfNewVersion":"https://vwo.com/opt-out/"}]}

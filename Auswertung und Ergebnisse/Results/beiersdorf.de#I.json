@@ -1,0 +1,81 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Facebook",
+"division":"Button des Anbieters „Facebook“, dessen Internetauftritt facebook.com von der\n\tFacebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA betrieben wird.",
+"address":",
+ 4 Grand Canal Square, Grand Canal Harbour,\n\tDublin 2, Irland (Facebook) für die Erhebung und Übermittlung der Daten im\n\tRahmen dieses Prozesses gemeinsam verantwortlich.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Bestimmungen folgende Rechte hinsichtlich der Sie betreffenden\n\tpersonenbezogenen Daten:\n\t    * Recht auf Auskunft,\n\t    * Recht auf Berichtigung oder Löschung,\n\t    * Recht auf Einschränkung der Verarbeitung,\n\t    * Recht auf Widerspruch gegen die Verarbeitung,\n\t    * Recht auf Datenübertragbarkeit.",
+"url":"https://www.aboutads.info/choices/",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"    * Recht auf Auskunft,\n\t    * Recht auf Berichtigung oder Löschung,\n\t    * Recht auf Einschränkung der Verarbeitung,\n\t    * Recht auf Widerspruch gegen die Verarbeitung,\n\t    * Recht auf Datenübertragbarkeit.",
+"url":"https://www.aboutads.info/choices/",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die\n\tVerarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren.",
+"url":"https://www.aboutads.info/choices/",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"    * Recht auf Einschränkung der Verarbeitung,\n\t    * Recht auf Widerspruch gegen die Verarbeitung,\n\t    * Recht auf Datenübertragbarkeit.",
+"url":"https://www.aboutads.info/choices/",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die\n\tVerarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren.",
+"url":"https://www.aboutads.info/choices/",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"DSGVO ist: [Beiersdorf AG; Unnastrasse 48; 20245 Hamburg; Germany; Phone: +49\n\t(0) 40 - 4909 0] (siehe unser Impressum).",
+"country":"DSGVO ist: [Beiersdorf AG; Unnastrasse 48; 20245 Hamburg; Germany; Phone: +49\n\t(0) 40 - 4909 0] (siehe unser Impressum).",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Abschnitt Widerspruch beschrieben. Wir löschen Ihre persönlichen Daten\n\tspätestens automatisch nach 24 Monaten Inaktivität (z.B.",
+"scopeAndIntendedEffects":" Abschnitt Widerspruch beschrieben. Wir löschen Ihre persönlichen Daten\n\tspätestens automatisch nach 24 Monaten Inaktivität (z.B."},
+"changesOfPurpose":[]}

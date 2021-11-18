@@ -1,0 +1,80 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"BMJV",
+"division":"org) des Anbieters InnoCraft Ltd., 150 Willis St, 6011 Wellington, Neuseeland. Die Software wird beim ITZBund gehostet und uns von dort bereitgestellt.",
+"address":" Videoüberwachung\n\tDie Liegenschaft des BMJV in der Mohrenstraße 37 in Berlin wird zur Wahrung des Hausrechts sowie zu Zwecken der Gefahrenabwehr und Strafverfolgung im Außenbereich mit einer Videoanlage überwacht.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"Personenbezogene Daten sind Angaben zu einer Person oder Informationen, die sich auf eine Person beziehen (z. B. Name, Adresse, Postanschrift, Telefonnummer, IP-Adresse) und die dazu genutzt werden können, die Identität von Personen zu erfahren.",
+"address":"Bundesministerium der Justiz und für Verbraucherschutz,\n\tMohrenstraße 37, 10117 Berlin,\n\tTelefon: +49 (0)30 18 580 - ",
+"country":"N/A",
+"email":"datenschutz@bmjv.bund.de",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":" Den Betroffenen stehen daher folgende Rechte aus der DS-GVO zur Verfügung:\n\t\n\ta) Recht auf Auskunft - Artikel 15 DS-GVO\n\tMit dem Recht auf Auskunft erhält der Betroffene eine umfassende Einsicht in die ihn angehenden Daten und einige andere wichtige Kriterien wie beispielsweise die Verarbeitungszwecke oder die Dauer der Speicherung.",
+"url":"www.matomo.org",
+"email":"poststelle@bfdi.bund.de",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Das Recht auf Berichtigung beinhaltet die Möglichkeit für den Betroffenen, unrichtige ihn angehende personenbezogene Daten korrigieren zu lassen.\n\t\n\tc) Recht auf Löschung - Artikel 17 DS-GVO\n\tDas Recht auf Löschung beinhaltet die Möglichkeit für den Betroffenen, Daten beim Verantwortlichen löschen zu lassen.",
+"url":"www.matomo.org",
+"email":"poststelle@bfdi.bund.de",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Die Liegenschaften des BMJV in der Friedrichstraße 191 und in der Leipziger Straße 127-128 in Berlin werden nach Artikel 6 Absatz 1 Buchstabe e und Absatz 3 Buchstabe b DS-GVO in Verbindung mit § 4 BDSG zur Wahrung des Hausrechts und zur Gefahrenabwehr mit Videoanlagen durch das BMJV als Verantwortlicher überwacht. Die Überwachung erfolgt ohne Aufzeichnung und Speicherung.\n\t\n\t7. Betroffenenrecht",
+"url":"www.matomo.org",
+"email":"poststelle@bfdi.bund.de",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":" Dies ist beim BMJV nur dann nicht der Fall, wenn die Verarbeitung personenbezogener Daten zu fiskalischen Zwecken erfolgt.\n\t\n\tf) Recht auf Widerspruch - Artikel 21 DS-GVO\n\tDas Recht auf Widerspruch beinhaltet die Möglichkeit für Betroffene, in einer besonderen Situation der weiteren Verarbeitung ihrer personenbezogenen Daten zu widersprechen, soweit diese durch die Wahrnehmung öffentlicher Aufgaben oder öffentlicher sowie privater Interessen gerechtfertigt ist.",
+"url":"www.matomo.org",
+"email":"poststelle@bfdi.bund.de",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"automatedDecisionMaking":{
+"inUse":false,
+"logicInvolved":"N/A",
+"scopeAndIntendedEffects":"N/A"},
+"changesOfPurpose":[]}

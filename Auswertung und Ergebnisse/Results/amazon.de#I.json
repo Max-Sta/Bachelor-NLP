@@ -1,0 +1,96 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Amazon",
+"division":"    *  Wie_lange_speichern_wir_Ihre_persönlichen_Informationen?\n\t    * EU-US_und_Schweiz-US_Privacy_Shield_(EU-US_Datenschutzschild)\n\t    * EU_Datenschutz-Grundverordnung_(Rechtsgrundlagen)\n\t    *  Kontakte,_Hinweise_&_Änderungen\n\t    *  Verwandte_Themen\n\t***** Verantwortliche *****\n\tAmazon Europe Core S.",
+"address":" Kennedy, L-1855 Luxemburg, sowie Amazon Digital Germany GmbH,\n\tDomagkstr. 28, 80807 München (zusammen \"Amazon Europe\") sind Verantwortliche\n\tfür alle persönlichen Informationen, die von Amazon Europe erhoben und\n\tverarbeitet werden.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"eu-privacy@amazon.de",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Rechte wahrnehmen, kontaktieren Sie unseren Kundenservice oder, um eine\n\tAuskunftsanfrage zu stellen, klicken Sie bitte auf Meine_Daten_anfordern .",
+"url":"https://feedback-",
+"email":"privacyshield@amazon.com",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Zusätzlich haben Sie, innerhalb des jeweils geltenden Rechts, das Recht,\n\tAuskunft, Berichtigung und Löschung Ihrer persönlichen Informationen zu\n\tverlangen.",
+"url":"https://feedback-",
+"email":"privacyshield@amazon.com",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"    *  Schutz von Amazon Europe und Dritten: Wir geben Kundenkonten und\n\t      persönliche Informationen über Kunden bekannt, wenn wir hierzu gesetzlich\n\t      verpflichtet sind oder wenn eine solche Weitergabe erforderlich ist, um\n\t      unsere Allgemeinen_Geschäftsbedingungen oder andere Vereinbarungen\n\t      durchzusetzen oder die Rechte von Amazon Europe, sowie die Rechte unserer\n\t      Kunden und von Dritten zu schützen.",
+"url":"https://feedback-",
+"email":"privacyshield@amazon.com",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":" Weiterhin steht Ihnen das Recht auf Datenübertragbarkeit zu. Sie\n\tkönnen unserer Datenverarbeitung widersprechen oder in speziellen Fällen die\n\tBeschränkung der Datenverarbeitung von uns verlangen.",
+"url":"https://feedback-",
+"email":"privacyshield@amazon.com",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"konfigurationen, einschließlich W-Lan-Anmeldedaten, wenn Sie diese automatisch\n\tmit Ihren anderen Amazon-Geräten synchronisieren lassen.",
+"scopeAndIntendedEffects":"konfigurationen, einschließlich W-Lan-Anmeldedaten, wenn Sie diese automatisch\n\tmit Ihren anderen Amazon-Geräten synchronisieren lassen."},
+"changesOfPurpose":[{
+"description":"    * EU_Datenschutz-Grundverordnung_(Rechtsgrundlagen)\n\t    *  Kontakte,_Hinweise_&_Änderungen\n\t    *  Verwandte_Themen\n\t***** Verantwortliche *****\n\tAmazon Europe Core S.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"04.12.2020",
+"urlOfNewVersion":"https://feedback-"},{
+"description":"      persönliche Informationen verwenden.\n\t***** Kontakte, Hinweise & Änderungen *****\n\tWenn Sie Fragen zum Datenschutz bei Amazon Europe haben oder eine der oben\n\tbenannten Verantwortlichen Stellen kontaktieren wollen, teilen_Sie_uns bitte\n\teine möglichst genaue Beschreibung Ihres Anliegens mit und wir werden\n\tversuchen, Ihr Problem für Sie zu lösen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"04.12.2020",
+"urlOfNewVersion":"form.truste.com/watchdog/request"},{
+"description":" Wir empfehlen, regelmäßig unsere Website besuchen und\n\tÄnderungen zur Kenntnis nehmen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"04.12.2020",
+"urlOfNewVersion":"form.truste.com/watchdog/request"},{
+"description":"Ihnen geben und versichern Ihnen, dass wir wesentliche Änderungen unserer\n\tDatenschutzerklärung, die zu einem schwächeren Schutz bereits erhaltener\n\tKundendaten führen, stets nur mit der Zustimmung der betroffenen Kunden\n\tvornehmen werden.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"04.12.2020",
+"urlOfNewVersion":"form.truste.com/watchdog/request"}]}

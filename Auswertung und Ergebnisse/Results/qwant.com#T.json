@@ -1,0 +1,80 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Qwant",
+"division":"N/A",
+"address":" ob eingestellt ist, dass Sie Qwant in Deutschland und in deutscher Sprache nutzen)",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Die Vorschriften über den Schutz personenbezogener Daten räumen Ihnen bestimmte Rechte über Ihre Daten und deren Verarbeitung durch Qwant ein, die im Folgenden einzeln aufgeführt sind:\n\t\n\t    das Recht auf Auskunft, Berichtigung und Löschung von Daten im Rahmen der in den Vorschriften vorgesehenen Bedingungen (Artikel 15 bis 17 der DSGVO)",
+"url":"[No entity of type \"URL\" found.]",
+"email":"dpo@qwant.com",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":" Ihre Kontaktdaten) werden ein Jahr lang, ab dem Datum der Antwort von Qwant, aufbewahrt und nach Ablauf dieser Frist gelöscht.\n\tRecht auf Berichtigung\n\t\n\tSie können die Profilinformationen Ihres Qwant-Kundenkontos jederzeit ändern oder löschen.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"dpo@qwant.com",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Die Vorschriften über den Schutz personenbezogener Daten räumen Ihnen bestimmte Rechte über Ihre Daten und deren Verarbeitung durch Qwant ein, die im Folgenden einzeln aufgeführt sind",
+"url":"[No entity of type \"URL\" found.]",
+"email":"dpo@qwant.com",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":" Délégué à la protection des données, DPO) bei der CNIL (der französischen Datenschutzbehörde) ernannt, bei dem Sie jedes dieser Rechte ausüben können:",
+"url":"[No entity of type \"URL\" found.]",
+"email":"dpo@qwant.com",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Datenschutzbehörde",
+"address":"    Informationen über die Benutzereinstellungen (so z. B., ob eingestellt ist, dass Sie Qwant in Deutschland und in deutscher Sprache nutzen);",
+"country":"    Informationen über die Benutzereinstellungen (so z. B., ob eingestellt ist, dass Sie Qwant in Deutschland und in deutscher Sprache nutzen);",
+"email":"dpo@qwant.com",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Für Bewerbungen haben Sie die Möglichkeit, diese zu berichtigen, indem Sie entweder auf die automatische E-Mail antworten, die Sie beim Absenden Ihrer Bewerbung erhalten haben, oder indem Sie uns eine E-Mail an dpo@qwant.",
+"scopeAndIntendedEffects":"Für Bewerbungen haben Sie die Möglichkeit, diese zu berichtigen, indem Sie entweder auf die automatische E-Mail antworten, die Sie beim Absenden Ihrer Bewerbung erhalten haben, oder indem Sie uns eine E-Mail an dpo@qwant."},
+"changesOfPurpose":[]}

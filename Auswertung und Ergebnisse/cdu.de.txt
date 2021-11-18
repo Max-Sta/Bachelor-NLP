@@ -1,0 +1,748 @@
+***** Das C in CDU steht nicht für Cookies. *****
+Darum liegt es an Dir, zu entscheiden, welche Cookies Du zulässt.
+Mit Deiner Entscheidung ermöglichst Du uns, Inhalte und Anzeigen nicht nur für
+Dich sondern auch für andere zu personalisieren und Zugriffe auf unserer
+Website zu identifizieren sowie zu analysieren. Außerdem sind Cookies
+notwendig, um die Website bestmöglich zu nutzen und Dir das beste Erlebnis zu
+bieten. Damit dies gewährleistet wird, verwenden wir Dienste von
+Drittanbietern. Für die Verwendung bestimmter Dienste, benötigen wir Deine
+Einwilligung, die Du jederzeit widerrufen kannst. Weitere Informationen findest
+Du in unserer Datenschutzerklärung.
+Consent Selection
+Notwendig
+*
+Präferenzen
+⁰
+Statistiken
+⁰
+Marketing
+⁰
+Details_zeigen
+Notwendig 3
+*
+Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie
+Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der
+Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig
+funktionieren.
+Cookiebot
+1
+Erfahren_Sie_mehr_über_diesen_Anbieter[Arrow_icon]
+CookieConsentSpeichert den Zustimmungsstatus des Benutzers für Cookies auf der
+aktuellen Domäne.
+Ablauf: 1 JahrTyp: HTTP
+www.cdu.de
+2
+XSRF-TOKENGewährleistet die Sicherheit beim Browsen für Besucher durch
+Verhinderung von Cross-Site Request Forgery. Dieser Cookie ist wesentlich für
+die Sicherheit der Webseite und des Besuchers.
+Ablauf: 1 TagTyp: HTTP
+cdu_sessionAnstehend
+Ablauf: 1 TagTyp: HTTP
+Präferenzen 0
+⁰
+Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern,
+die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z.
+B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden.
+Wir nutzen diese Cookie-Typen nicht.
+Statistiken 4
+⁰
+Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit
+Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet
+werden.
+piwik.ubgnet.de
+2
+_pk_id#Erfasst Statistiken über Besuche des Benutzers auf der Website, wie z.
+B. die Anzahl der Besuche, durchschnittliche Verweildauer auf der Website und
+welche Seiten gelesen wurden.
+Ablauf: 1 JahrTyp: HTTP
+_pk_ses#Wird von Piwik Analytics Platform genutzt, um Seitenabrufe des
+Besuchers während der Sitzung nachzuverfolgen.
+Ablauf: 1 TagTyp: HTTP
+www.cdu.de
+2
+experiment_210816_CDU_WebsiteTest_ArtikelSignUpAnstehend
+Ablauf: 2 JahreTyp: HTTP
+isInTestGroup_210816_CDU_WebsiteTest_ArtikelSignUpAnstehend
+Ablauf: 2 JahreTyp: HTTP
+Marketing 16
+⁰
+Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu folgen. Die
+Absicht ist, Anzeigen zu zeigen, die relevant und ansprechend für den einzelnen
+Benutzer sind und daher wertvoller für Publisher und werbetreibende
+Drittparteien sind.
+Google
+2
+Erfahren_Sie_mehr_über_diesen_Anbieter[Arrow_icon]
+IDEVerwendet von Google DoubleClick, um die Handlungen des Benutzers auf der
+Webseite nach der Anzeige oder dem Klicken auf eine der Anzeigen des Anbieters
+zu registrieren und zu melden, mit dem Zweck der Messung der Wirksamkeit einer
+Werbung und der Anzeige zielgerichteter Werbung für den Benutzer.
+Ablauf: 1 JahrTyp: HTTP
+test_cookieVerwendet, um zu überprüfen, ob der Browser des Benutzers Cookies
+unterstützt.
+Ablauf: 1 TagTyp: HTTP
+Twitter
+2
+Erfahren_Sie_mehr_über_diesen_Anbieter[Arrow_icon]
+guest_idTwitter-Cookie. Dieses Cookie wird von Twitter gesetzt, um den Besucher
+der Website zu identifizieren.
+Ablauf: 2 JahreTyp: HTTP
+personalization_idTwitter-Cookie. Führt Informationen darüber aus, wie der
+Endnutzer die Website nutzt und welche Werbung der Endnutzer möglicherweise vor
+dem Besuch der besagten Website gesehen hat.
+Ablauf: 2 JahreTyp: HTTP
+YouTube
+12
+Erfahren_Sie_mehr_über_diesen_Anbieter[Arrow_icon]
+CONSENTWird verwendet, um festzustellen, ob der Besucher die Marketingkategorie
+im Cookie-Banner akzeptiert hat. Dieser Cookie ist notwendig für die Einhaltung
+der DSGVO der Webseite.
+Ablauf: 5922 TageTyp: HTTP
+VISITOR_INFO1_LIVEVersucht, die Benutzerbandbreite auf Seiten mit integrierten
+YouTube-Videos zu schätzen.
+Ablauf: 179 TageTyp: HTTP
+YSCRegistriert eine eindeutige ID, um Statistiken der Videos von YouTube, die
+der Benutzer gesehen hat, zu behalten.
+Ablauf: SessionTyp: HTTP
+yt.innertube::nextIdRegistriert eine eindeutige ID, um Statistiken der Videos
+von YouTube, die der Benutzer gesehen hat, zu behalten.
+Ablauf: PersistentTyp: HTML
+yt.innertube::requestsRegistriert eine eindeutige ID, um Statistiken der Videos
+von YouTube, die der Benutzer gesehen hat, zu behalten.
+Ablauf: PersistentTyp: HTML
+yt-remote-cast-availableSpeichert die Benutzereinstellungen beim Abruf eines
+auf anderen Webseiten integrierten Youtube-Videos
+Ablauf: SessionTyp: HTML
+yt-remote-cast-installedSpeichert die Benutzereinstellungen beim Abruf eines
+auf anderen Webseiten integrierten Youtube-Videos
+Ablauf: SessionTyp: HTML
+yt-remote-connected-devicesSpeichert die Benutzereinstellungen beim Abruf eines
+auf anderen Webseiten integrierten Youtube-Videos
+Ablauf: PersistentTyp: HTML
+yt-remote-device-idSpeichert die Benutzereinstellungen beim Abruf eines auf
+anderen Webseiten integrierten Youtube-Videos
+Ablauf: PersistentTyp: HTML
+yt-remote-fast-check-periodSpeichert die Benutzereinstellungen beim Abruf eines
+auf anderen Webseiten integrierten Youtube-Videos
+Ablauf: SessionTyp: HTML
+yt-remote-session-appSpeichert die Benutzereinstellungen beim Abruf eines auf
+anderen Webseiten integrierten Youtube-Videos
+Ablauf: SessionTyp: HTML
+yt-remote-session-nameSpeichert die Benutzereinstellungen beim Abruf eines auf
+anderen Webseiten integrierten Youtube-Videos
+Ablauf: SessionTyp: HTML
+Nicht klassifiziert 4
+Nicht klassifizierte Cookies sind Cookies, die wir gerade versuchen zu
+klassifizieren, zusammen mit Anbietern von individuellen Cookies.
+www.cdu.de
+4
+experiment_211005_CDU_WebsiteTest_VideoviewAnstehend
+Ablauf: 2 JahreTyp: HTTP
+experiment_211007_CDU_WebsiteTest_VideoAnstehend
+Ablauf: 2 JahreTyp: HTTP
+isInTestGroup_211005_CDU_WebsiteTest_VideoviewAnstehend
+Ablauf: 2 JahreTyp: HTTP
+isInTestGroup_211007_CDU_WebsiteTest_VideoAnstehend
+Ablauf: 2 JahreTyp: HTTP
+Domainübergreifende_Zustimmung[#BULK_CONSENT_DOMAINS_COUNT#]
+[#BULK_CONSENT_TITLE#]
+Liste der Domains, für die Ihre Zustimmung gilt: [#BULK_CONSENT_DOMAINS#]
+Die Cookie-Erklärung wurde das letzte Mal am 10/14/21 von Cookiebot
+aktualisiert
+***** [#IABV2_TITLE#] *****
+[#IABV2_BODY_INTRO#]
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+[#IABV2_BODY_PREFERENCE_INTRO#]
+[#IABV2_LABEL_PURPOSES#]
+[#IABV2_BODY_PURPOSES_INTRO#]
+[#IABV2_BODY_PURPOSES#]
+[#IABV2_LABEL_FEATURES#]
+[#IABV2_BODY_FEATURES_INTRO#]
+[#IABV2_BODY_FEATURES#]
+[#IABV2_LABEL_PARTNERS#]
+[#IABV2_BODY_PARTNERS_INTRO#]
+[#IABV2_BODY_PARTNERS#]
+Cookies sind kleine Textdateien, die von Webseiten verwendet werden, um die
+Benutzererfahrung effizienter zu gestalten.
+
+Laut Gesetz können wir Cookies auf Ihrem Gerät speichern, wenn diese für den
+Betrieb dieser Seite unbedingt notwendig sind. Für alle anderen Cookie-Typen
+benötigen wir Ihre Erlaubnis.
+
+Diese Seite verwendet unterschiedliche Cookie-Typen. Einige Cookies werden von
+Drittparteien platziert, die auf unseren Seiten erscheinen.
+
+Sie können Ihre Einwilligung jederzeit von der Cookie-Erklärung auf unserer
+Website ändern oder widerrufen.
+
+Erfahren Sie in unserer Datenschutzrichtlinie mehr darüber, wer wir sind, wie
+Sie uns kontaktieren können und wie wir personenbezogene Daten verarbeiten.
+
+Bitte geben Sie Ihre Einwilligungs-ID und das Datum an, wenn Sie uns bezüglich
+Ihrer Einwilligung kontaktieren.
+⁰[#OOI_PERSONAL_INFORMATION#]
+Nur notwendige Cookies verwenden Auswahl erlauben Anpassen
+Cookies zulassen
+    * Mitglied_werden
+    * _CDUplus
+    * Aktuelles
+    * Videos
+    * Unsere_Themen
+    * Service_für_Mitglieder
+    * Über_uns
+    * Home
+    * Datenschutz
+***** Datenschutz *****
+Grundlegendes
+Es ist uns ein wichtiges Anliegen, personenbezogene Daten vertrauensvoll und
+sicher zu behandeln. Diese Policy soll größtmögliche Transparenz und
+Information über unsere Datenverarbeitungsvorgänge sowie die Rechte aller von
+dieser Verarbeitung betroffenen Personen gewährleisten.
+§ 1 Information über die Erhebung personenbezogener Daten
+(1) Im Folgenden informieren wir über die Erhebung personenbezogener Daten bei
+Nutzung unserer Website. Personenbezogene Daten sind alle Daten, die auf Sie
+persönlich beziehbar sind, z. B. Name, Adresse, E-Mail-Adressen,
+Nutzerverhalten.
+(2) Verantwortlicher gem. Art. 4 Abs. 7 EU-Datenschutz-Grundverordnung (DS-GVO)
+ist die CDU Deutschlands, Klingelhöferstraße 8, 10785 Berlin, kah@cdu.de.
+Unsere Datenschutzbeauftragte erreichen Sie unter datenschutz@cdu.de oder
+unserer Postadresse mit dem Zusatz „die Datenschutzbeauftragte“.
+(3) Falls wir für einzelne Funktionen unseres Angebots auf beauftragte
+Dienstleister zurückgreifen oder Ihre Daten für andere Zwecke nutzen möchten,
+werden wir Sie untenstehend im Detail über die jeweiligen Vorgänge informieren.
+Dabei nennen wir auch die festgelegten Kriterien der Speicherdauer.
+§ 2 Ihre Rechte
+(1) Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden
+personenbezogenen Daten:
+    * Recht auf Auskunft,
+    * Recht auf Berichtigung oder Löschung,
+    * Recht auf Einschränkung der Verarbeitung,
+    * Recht auf Datenübertragbarkeit.
+    * Datenübertragbarkeit
+    * Recht auf Widerspruch gegen die Verarbeitung, (siehe § 11)
+    * Widerruf Ihrer gegebenen Einwilligung mit Wirkung für die Zukunft (siehe
+      § 11)
+(2) Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über
+die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren. Hinweis
+zur Beschwerde bei einer Aufsichtsbehörde: Unbeschadet eines anderweitigen
+verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht einem Betroffenen
+das Recht auf Beschwerde bei einer Aufsichtsbehörde – insbesondere im
+Mitgliedstaat des Aufenthaltsortes des Nutzers, des Arbeitsplatzes des Nutzers
+oder des Orts des mutmaßlichen Verstoßes – zu, wenn der Nutzer der Ansicht ist,
+dass die Verarbeitung seiner personenbezogenen Daten durch uns gegen die DS-GVO
+verstößt. Eine Liste der Aufsichtsbehörden in Deutschland finden Sie hier:
+https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-
+node.html
+§ 3 Widerspruch oder Widerruf gegen die Verarbeitung Ihrer Daten
+(1) Falls Sie eine Einwilligung zur Verarbeitung Ihrer Daten erteilt haben,
+können Sie diese jederzeit widerrufen. Ein solcher Widerruf beeinflusst die
+Zulässigkeit der Verarbeitung Ihrer personenbezogenen Daten, nachdem Sie ihn
+uns gegenüber ausgesprochen haben.
+(2) Soweit wir die Verarbeitung Ihrer personenbezogenen Daten auf die
+Interessenabwägung stützen, können Sie Widerspruch gegen die Verarbeitung
+einlegen. Dies ist der Fall, wenn die Verarbeitung insbesondere nicht zur
+Erfüllung eines Vertrags mit Ihnen erforderlich ist, was von uns jeweils bei
+der nachfolgenden Beschreibung der Funktionen dargestellt wird. Im Falle Ihres
+begründeten Widerspruchs prüfen wir die Sachlage und werden entweder die
+Datenverarbeitung einstellen bzw. anpassen oder Ihnen unsere zwingenden
+schutzwürdigen Gründe aufzeigen, aufgrund derer wir die Verarbeitung
+fortführen.
+(3) Selbstverständlich können Sie der Verarbeitung Ihrer personenbezogenen
+Daten für Zwecke der Werbung und Datenanalyse jederzeit widersprechen. Über
+Ihren Widerspruch können Sie uns unter folgenden Kontaktdaten informieren: CDU
+Deutschlands, Klingelhöferstraße 8, 10785 Berlin, widerruf@cdu.de.
+§ 4 Hinweis zur Datenweitergabe in die USA
+Auf unserer Webseite sind unter anderem Tools von Unternehmen mit Sitz in den
+USA eingebunden. Wenn Sie diese Tools aktiviert haben, können ihre
+personenbezogenen Daten an die US-Server der jeweiligen Unternehmen
+weitergegeben werden. Wir wiesen darauf hin, dass die USA kein sicherer
+Drittstaat im Sinne des EU-Datenschutzrechts sind. US-Unternehmen sind dazu
+verpflichtet, personenbezogenen Daten an Sicherheitsbehörden herauszugeben,
+ohne dass Sie als Betroffener hiergegen gerichtlich vorgehen könnten. Es kann
+daher nicht ausgeschlossen werden, dass US-Behörden (z. B. Geheimdienste) ihre
+auf US-Servern befindlichen Daten zu überwachungszwecken verarbeiten, auswerten
+und dauerhaft speichern. Wir haben auf diese Verarbeitungstätigkeiten keinen
+Einfluss.
+§ 5 Erhebung personenbezogener Daten bei Besuch unserer Website
+(1) Bei der bloß informatorischen Nutzung der Website, also wenn Sie sich nicht
+registrieren oder uns anderweitig Informationen übermitteln, erheben wir nur
+die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt.
+Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten,
+die für uns technisch erforderlich sind, um Ihnen unsere Website anzuzeigen und
+die Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs.
+1 S. 1 lit. f DS-GVO):
+    * Anonymisierte IP-Adresse
+    * Datum und Uhrzeit der Anfrage
+    * Zeitzonendifferenz zur Greenwich Mean Time (GMT)
+    * Inhalt der Anforderung (konkrete Seite)
+    * Zugriffsstatus/HTTP-Statuscode
+    * jeweils übertragene Datenmenge
+    * Website, von der die Anforderung kommt
+    * Browser
+    * Betriebssystem und dessen Oberfläche
+    * Sprache und Version der Browsersoftware.
+Diese Daten werden in einer Protokolldatei beim Server unserer Providers Union-
+Betriebs-GmbH, Egermannstraße 2, 53359 Rheinbach, gespeichert. Die Speicherung
+dieser Daten dient dazu, die Sicherheit und Stabilität unserer Webseite zu
+optimieren sowie Angriffe auf unsere Webseite und Missbrauch erkennen und
+verfolgen zu können. Um die datenschutzkonforme Verarbeitung zu gewährleisten,
+haben wir einen Vertrag über Auftragsverarbeitung mit unserem Hoster
+geschlossen. An dieser Verarbeitung haben wir ein berechtigtes Interesse.
+Rechtsgrundlage ist (Art 6 Abs. 1 lit f) DSGVO). Die Daten werden gelöscht,
+sobald sie für die Erreichung des Zwecks ihrer Erhebung nicht mehr benötigt
+werden.
+(2) Weiterhin werden bei Nutzung der Webseiten Cookies auf Ihrem Rechner
+gespeichert. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrer
+Festplatte dem von Ihnen verwendeten Browser zugeordnet gespeichert werden und
+durch welche der Stelle, die den Cookie setzt (in diesem Fall also uns),
+bestimmte Informationen zufließen. Cookies können keine Programme ausführen
+oder Viren auf Ihren Computer übertragen. Sie dienen dazu, das Internetangebot
+insgesamt nutzerfreundlicher und effektiver zu machen.
+a) Diese Webseite nutzt Cookies in folgendem Umfang:
+    * Transiente Cookies (temporärer Einsatz)
+    * Persistente Cookies (zeitlich beschränkter Einsatz)
+    * Third-Party Cookies (von Drittanbietern)
+b) Transiente Cookies werden automatisiert gelöscht, wenn Sie den Browser
+schließen. Dazu zählen insbesondere die Session-Cookies. Diese speichern eine
+sogenannte Session-ID, mit welcher sich verschiedene Anfragen Ihres Browsers
+der gemeinsamen Sitzung zuordnen lassen. Dadurch kann Ihr Rechner wiedererkannt
+werden, wenn Sie auf unsere Website zurückkehren. Die Session-Cookies werden
+gelöscht, wenn Sie sich ausloggen oder den Browser schließen.
+c) Persistente Cookies werden automatisiert nach einer vorgegebenen Dauer
+gelöscht, die sich je nach Cookie unterscheiden kann. Sie können die Cookies in
+den Sicherheitseinstellungen Ihres Browsers jederzeit löschen.
+d) Welche Cookies, ihre Speicherdauer sowie deren Zweck entnehmen Sie bitte dem
+Cookie-Hinweis. Die Nutzung von Cookies können Sie in den Einstellungen Ihres
+jeweiligen Browsers einschränken oder und kann hier spezifisch für die Webseite
+eingeschränkt oder widerrufen werden.
+e) Sie können Ihre Browser-Einstellung entsprechend Ihren Wünschen
+konfigurieren und z. B. die Annahme von Third-Party-Cookies oder allen Cookies
+ablehnen. Wir weisen Sie darauf hin, dass Sie eventuell nicht alle Funktionen
+dieser Website nutzen können.
+f) Die genutzten Flash-Cookies werden nicht durch Ihren Browser erfasst,
+sondern durch Ihr Flash-Plug-in. Weiterhin nutzen wir HTML5 storage objects,
+die auf Ihrem Endgerät abgelegt werden. Diese Objekte speichern die
+erforderlichen Daten unabhängig von Ihrem verwendeten Browser und haben kein
+automatisches Ablaufdatum. Wenn Sie keine Verarbeitung der Flash-Cookies
+wünschen, müssen Sie ein entsprechendes Add-On installieren, z. B. „Better
+Privacy“ für Mozilla Firefox (https://addons.mozilla.org/de/firefox/addon/
+betterprivacy/) oder das Adobe-Flash-Killer-Cookie für Google Chrome. Die
+Nutzung von HTML5 storage objects können Sie verhindern, indem Sie in Ihrem
+Browser den privaten Modus einsetzen. Zudem empfehlen wir, regelmäßig Ihre
+Cookies und den Browser-Verlauf manuell zu löschen.
+§ 6 Kontaktformular
+(1) Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre
+Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen
+Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von
+Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre
+Einwilligung weiter.
+(2) Die Verarbeitung dieser Daten erfolgt auf der Grundlage von Art. 6 Abs. 1
+lit. b D-GVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrages
+zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich
+ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten
+Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6
+Abs. 1 lit f. DS-GVO) oder auf Ihrer Einwilligung (Art. 9 Abs. 2 lit a. DS-
+GVO).
+(3) Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis
+Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen
+oder der Zweck für die Datenspeicherung entfällt ( z. B. nach abgeschlossener
+Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere
+Aufbewahrungsfristen – bleiben unberührt.
+§ 7 Anfrage per E-Mail, Telefon usw.
+(1) Wenn Sie uns per E-Mail, Telefon oder dergleichen kontaktieren, wird Ihre
+Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name,
+Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und
+verarbeitet.
+(2) Die Verarbeitung dieser Daten erfolgt auf der Grundlage von Art. 6 Abs. 1
+lit. b D-GVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrages
+zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich
+ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten
+Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6
+Abs. 1 lit f. DS-GVO) oder auf Ihrer Einwilligung (Art. 9 Abs. 2 lit a. DS-
+GVO).
+(3) Die von Ihnen im Kontaktanfrage eingegebenen Daten verbleiben bei uns, bis
+Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen
+oder der Zweck für die Datenspeicherung entfällt ( z. B. nach abgeschlossener
+Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere
+Aufbewahrungsfristen – bleiben unberührt.
+§ 8 Newsletter
+(1) Mit Ihrer Einwilligung können Sie unseren Newsletter abonnieren, mit dem
+wir Sie über die aktuelle politische Lage informieren. Der konkrete Newsletter
+ist in der entsprechenden Einwilligungserklärung benannt.
+(2) Für die Anmeldung zu unserem Newsletter verwenden wir das sog. Double-opt-
+in-Verfahren. Das heißt, dass wir Ihnen nach Ihrer Anmeldung eine E-Mail an die
+angegebene E-Mail-Adresse senden, in welcher wir Sie um Bestätigung bitten,
+dass Sie den Versand des Newsletters wünschen. Wenn Sie Ihre Anmeldung nicht
+innerhalb von 72 Stunden bestätigen, werden Ihre Informationen gesperrt und
+werden regelmäßig gelöscht. Darüber hinaus speichern wir jeweils Ihre
+eingesetzten IP-Adressen und Zeitpunkte der Anmeldung und Bestätigung. Zweck
+des Verfahrens ist, Ihre Anmeldung nachweisen und ggf. einen möglichen
+Missbrauch Ihrer persönlichen Daten aufklären zu können. Die Datenverarbeitung
+im Zusammenhang mit der Übersendung der Bestätigungs-E-Mail für Ihre Anmeldung
+und die damit verbundene Datenprotokollierung erfolgt gemäß Art. 6 Abs. 1 lit.
+f DS-GVO. aufgrund unseres berechtigten Interesses an dem Nachweis Ihrer
+ordnungsgemäßen Anmeldung.
+Für den Versand des Newsletters setzen wir Dienstleister ein, denen wir die
+benannten Daten übermitteln und mit denen Auftragsverarbeitungsverträge
+geschlossen wurden.
+(3) Pflichtangabe für die Übersendung des Newsletters ist allein Ihre E-Mail-
+Adresse. Die Angabe weiterer, gesondert markierter Daten ist freiwillig und
+wird verwendet, um Sie persönlich ansprechen zu können. Nach Ihrer Bestätigung
+speichern wir Ihre E-Mail-Adresse zum Zweck der Zusendung des Newsletters.
+Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a, Art. 9 Abs. 2 S. 1 lit. a DS-
+GVO. Die Einwilligung ist jederzeit widerrufbar.
+(4) Ihre Einwilligung in die Übersendung des Newsletters können Sie jederzeit
+widerrufen und den Newsletter abbestellen. Den Widerruf können Sie durch Klick
+auf den in jeder Newsletter-E-Mail bereitgestellten Link, per E-Mail an
+datenschutz@cdu.de oder durch eine Nachricht an die im Impressum angegebenen
+Kontaktdaten erklären. Nach Ihrer Austragung aus der Newsletterverteilerliste
+wird Ihre E-Mail-Adresse bei uns bzw. dem Newsletterdienstanbieter in einer
+Blackliste gespeichert, um künftige Mailings zu verhindern. Die Daten aus der
+Blacklist werden nur für diesen Zweck verwendet und nicht mit anderen Daten
+zusammengeführt. Dies dient sowohl Ihrem Interesse als auch unserem Interesse
+an der Einhaltung der gesetzlichen Vorgaben beim Versand von Newslettern
+(berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DS-GVO). Die
+Speicherung in der Blacklist ist zeitlich nicht befristet. Sie können der
+Speicherung widersprechen, sofern Ihre Interessen unser berechtigtes Interesse
+überwiegen.
+(5) Sofern Sie uns Ihre Einwilligung erteilt haben, werten wir beim
+Newsletterversand Ihr Nutzerverhalten aus und speichern die Daten. Auch hierfür
+nutzen wir das in Absatz 2 beschriebene Double-Opt-In-Verfahren. Das heißt,
+dass wir Ihnen nach Ihrer Anmeldung eine E-Mail an die angegebene E-Mail-
+Adresse senden, in welcher wir Sie um Bestätigung bitten. Zur Speicherung der
+Daten enthalten die versendeten E-Mails sogenannte Web-Bacons bzw. Tracking-
+Pixel, die Ein-Pixel-Bilddateien darstellen, die auf unserer Website
+gespeichert sind. Für die Auswertungen verknüpfen wir die in § 4 genannten
+Daten und die Web-Bacons mit Ihrer E-Mail-Adresse und einer individuellen ID.
+Dies erfolgt um Nachrichten und Newsletter zu personalisieren. Um Informationen
+und Angebote menschlich und persönlich zu gestalten, speichern und
+konsolidieren wir zum einen einzelne Aktivitäten, um Informationen und Angebote
+gezielt an Einzelpersonen zu richten, und zum anderen gruppieren wir unsere
+Kontakte entsprechend ihrer Aktivitäten um Informationen und Angebote auf
+unterschiedliche Interessen und Bedürfnisse anpassen zu können. Rechtsgrundlage
+ist Art. 6 Abs. 1 S. 1 lit. a, Art. 9 Abs. 2 S. 1 lit. a DS-GVO. Die
+Einwilligung ist jederzeit widerrufbar.
+Wir weisen ausdrücklich darauf hin, dass die genannte Profilbildung nicht einem
+Profiling im Sinne des Art. 22 DS-GVO dient, also zu einer automatisierten
+Entscheidung führt, die gegenüber Betroffenen rechtliche Wirkung entfaltet oder
+sie sonst erheblich beeinträchtigt, sondern nur um Informationen und Angebote
+anbieten zu können, die den Newsletter-Abonnenten entsprechen.
+§ 9 Pinnwand-Funktion
+(1) An einigen Stellen unserer Website haben Sie die Möglichkeit, Teile eines
+Textes zu markieren und sie entweder an unsere Website zu pinnen oder über
+einen ausgewählten Social-Media-Kanal bzw. E-Mail zu teilen.
+(2) Wenn Sie den markierten Text pinnen möchten, fragen wir nach Ihrem Vor- und
+Nachname. Ihr markierter Text wird auf unserer_Website zusammen mit Ihren
+Initialen veröffentlicht (z.B. Max Mustermann wird zu M.M.)
+Wir speichern jeweils Ihre eingesetzten IP-Adressen und Zeitpunkte des Pinn-
+Vorgangs. Zweck des Verfahrens ist, Ihre Anmeldung nachweisen und ggf. einen
+möglichen Missbrauch Ihrer persönlichen Daten aufklären zu können.
+(3) Wenn Sie den markierten Text teilen möchten, werden keine weiteren
+personenbezogenen Daten von uns verarbeitet. Sie werden unsere Website
+verlassen und auf die entsprechende Sozial-Media-Seite weitergeleitet. Auf die
+von diesen Webseiten verarbeitenden personenbezogenen Daten haben wir keinen
+Einfluss.
+§ 10 Weitere Funktionen und Angebote unserer Website
+(1) Neben der rein informatorischen Nutzung unserer Website bieten wir
+verschiedene Angebote an, die Sie bei Interesse nutzen können. Dazu müssen Sie
+in der Regel weitere personenbezogene Daten angeben, die wir zur Erbringung der
+jeweiligen Angebote nutzen. Personenbezogene Daten werden bei folgenden
+Handlungen bzw. Aktionen abgefragt, wenn:
+    * Inhalte eingesendet, bewertet, oder kommentiert werden,
+    * einem Voting teilgenommen wird,
+    * die Teilnahme an Aktionen/Veranstaltungen bekannt gegeben wird,
+    * Downloads oder andere Inhalte angefordert werden,
+    * mittels Kontaktformular oder E-Mail aktiv Kontakt zu uns aufgenommen
+      wird,
+    * auf Funktionen in E-Mails reagiert wird (sog. „Action Links“), oder uns
+      sonstige, optionale Informationen zur Verfügung gestellt werden.
+(2) Abhängig von der genauen Funktion der Website werden insbesondere folgende
+Daten von uns für die Verarbeitung gespeichert: Vorname, Nachname,
+Geburtsdatum, Geschlecht, Foto, Adresse, E-Mail, Telefonnummer,
+Registrierungsdatum, Benutzername, Passwort, IP-Adresse, an welchen Aktionen
+teilgenommen wurde, welche Aktivitäten gesetzt wurden oder andere, im
+jeweiligen Formular explizit ersichtliche Daten (z.B. übermittelte Inhalte).
+(3) Veröffentlichung von Daten: Manche Funktionen unserer Website können den
+Sinn und Zweck haben, von Nutzern bereitgestellte Daten zu veröffentlichen
+(Personenkomitees, Foto-Walls, etc.). Diese Daten werden nur nach vorheriger
+ausdrücklicher Einwilligung gemäß Art. 9 Abs. 2 lit. d DS-GVO automatisiert
+verarbeitet und Profilen zugeordnet. Auch hier verwenden zur Verifizierung das
+in § 5 Abs. 2 beschrieben Double-Opt-In-Verfahren. Die Einwilligung kann
+jederzeit widerrufen werden.
+(4) Die in Absatz 2 und 3 angegebenen Daten werden nur nach vorheriger
+ausdrücklicher Einwilligung gemäß Art. 9 Abs. 2 lit. d DS-GVO automatisiert
+verarbeitet und Profilen zugeordnet. Auch hier verwenden zur Verifizierung
+Ihrer Einwilligung für die Profilerstellung das in § 5 Abs. 2 beschrieben
+Double-Opt-In-Verfahren. Die Einwilligung kann jederzeit widerrufen werden.
+(5) Wir weisen ausdrücklich darauf hin, dass die genannte Profilbildung nicht
+einem Profiling im Sinne des Art. 22 DS-GVO dient, also zu einer
+automatisierten Entscheidung führt, die gegenüber Betroffenen rechtliche
+Wirkung entfaltet oder sie sonst erheblich beeinträchtigt, sondern nur um
+Informationen und Angebote anbieten zu können, die den Newsletter-Abonnenten
+entsprechen.
+(6) Teilweise bedienen wir uns zur Verarbeitung Ihrer Daten externer
+Dienstleister. Diese wurden von uns sorgfältig ausgewählt und beauftragt, sind
+an unsere Weisungen gebunden und werden regelmäßig kontrolliert.
+(7) Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat
+außerhalb des Europäischen Wirtschaftsraumen (EWR) haben, informieren wir Sie
+über die Folgen dieses Umstands in der Beschreibung des Angebotes.
+§ 11 Spenden
+(1) Wenn Sie uns eine Spende zukommen lassen wollen, werden wir Sie nach Ihren
+personenbezogenen Daten fragen. Hierbei handelt es sich um besondere Kategorien
+personenbezogener Daten gemäß Art. 9 Abs. 1 Datenschutz-Grundverordnung
+(politische Meinung). Diese Angaben werden benötigt, um eine
+Spendenbescheinigung ausstellen zu können und wir verarbeiten sie gemäß Art. 9
+Abs. 2 lit. d) Datenschutz-Grundverordnung auf der Grundlage geeigneter
+Garantien im Rahmen unserer rechtmäßigen Tätigkeiten verarbeitet.
+(2) Bitte beachten Sie zudem, dass die Person, die spenden möchte, mit dem
+Kreditkartenbesitzer bzw. Kontoinhaber identisch sein muss.
+(3) Sofern Sie eine oder mehrere Spendenzuwendungen ab 10.000 Euro an uns
+übermitteln, werden Ihre personenbezogenen Daten (Name, ggf. Unternehmen,
+Anschrift und Höhe der Zuwendung) gemäß § 25 Abs. 3 Satz 1 Parteiengesetz in
+unserem Rechenschaftsbericht veröffentlicht. Gemäß § 25 Abs. 3 Satz 2 und 3 des
+Parteiengesetzes werden wir Spenden, die im Einzelfall die Höhe von 50.000 Euro
+übersteigen, dem Präsidenten des Deutschen Bundestages unverzüglich anzeigen.
+Ihre personenbezogenen Daten sowie die Summe der Spende werden als
+Bundestagsdrucksache und auf der Website des Bundestags veröffentlicht.
+Rechtsgrundlage ist Art.6 Abs.1 c DS-GVO in Verbindung mit dem Parteiengesetz.
+Ihre für die Spende relevanten Daten und die dazu gehörigen Dokumente (z.B.
+Handelsbriefe, Spendenquittung, Zuwendungsbestätigungen) speichern wir außerdem
+gemäß der gesetzlichen Anforderungen nach den gesetzlichen Vorschriften für
+mindestens 10 Jahre.
+(4) Unsere Online-Spenden wickeln wir über den Auftragsverarbeiter Grün
+Software AG ab, mit dem wir einen Auftragsverarbeitungsvertrag geschlossen
+haben. Das garantiert für Sie Sicherheit beim Spenden und bedeutet für uns
+weniger Verwaltungsaufwand. Die Rechtsgrundlage Mehr Informationen hierzu
+finden Sie unter www.gruen.net/spendino
+§ 12 Mitgliedschaft
+Ihre besonderen personenbezogenen Daten gemäß Art. 9 DS-GVO, die Sie uns bei
+Ihrem Online-Antrag für Ihre Mitgliedschaft in der CDU Deutschlands mitteilen
+oder die wir im Laufe Ihrer Mitgliedschaft von Ihnen erfahren, werden
+entsprechend der Art. 9 Abs. 9 lit. d DS-GVO im Rahmen der rechtmäßigen
+Tätigkeiten in Verbindung mit dem Statut der CDU Deutschlands verarbeitet.
+§ 13 Bewerbungen
+(1) Wenn Sie sich auf eines unserer Stellenangebote bewerben, verarbeiten wir
+Ihre Adress-, Telekommunikations- und Bewerbungsdaten zur Bearbeitung Ihrer
+Bewerbung und im gesetzlich zulässigen Umfang für Zwecke Ihres sich ggfs.
+anschließenden Anstellungsverhältnisses (§ 26 BDSG, Art. 9 Abs. 2 DSGVO). Ihre
+Angaben sind freiwillig, und ermöglichen uns über Ihre Anstellung urteilen bzw.
+mit Ihnen ggfs. zu Ihrer Bewerbung Kontakt aufnehmen zu können.
+(2) Endet das Bewerbungsverfahren ohne Anstellung werden Ihre Daten regelmäßig
+noch sechs Monate zu Dokumentationszwecken gespeichert und danach ebenso wie
+die uns übersandten Unterlagen gelöscht bzw. vernichtet, es sei denn Sie haben
+uns Ihre Einwilligung zur Verwendung der Daten für künftige Bewerbungsverfahren
+gegeben (Art.6 Abs.1 a, Art. 9 Abs.2 DSGVO).
+(3) Die angegebenen Speicherfristen können sich entsprechend verlängern, wenn
+im Einzelfall, insbesondere wenn die Daten für verschiedene Zwecke verarbeitet
+werden, eine längere gesetzliche oder vertragliche Aufbewahrungsfrist oder -
+möglichkeit besteht.
+§ 14 Pflichtangaben
+Wenn bei der Erhebung bestimmte Datenfelder Pflichtfelder sind, ist die
+Bereitstellung dieser Daten entweder gesetzlich vorgeschrieben, oder wir
+benötigen die Angaben, um den angegebenen Zweck zu erfüllen. Die Angabe der
+Daten liegt selbstverständlich auch bei den Pflichtfeldern in Ihrem Ermessen.
+Eine Nichtangabe kann zur Folge haben, dass der angegebene Zweck nicht erreicht
+werden kann.
+§ 15 Keine automatisiere Entscheidungsfindung (einschließlich Profiling) Wir
+haben nicht die Absicht, von Ihnen erhobene personenbezogene Daten für ein
+Verfahren zur automatisierten Entscheidungsfindung (einschließlich Profiling)
+zu verwenden.
+§ 16 Einsatz von Social-Media-Plug-ins mit Shariff
+Die Inhalte auf dieser Website können datenschutzkonform in sozialen Netzwerken
+wie Facebook, Twitter und Instagram geteilt werden.
+Die Plugins können Sie in der Regel anhand der jeweiligen Social-Media-Logos
+erkennen. Um den Datenschutz auf dieser Website zu gewährleisten, verwenden wir
+diese Plugins nur zusammen mit der sogenannten „Shariff“-Lösung. Diese
+Anwendung verhindert, dass die auf dieser Website integrierten Plugins Daten
+schon beim ersten Betreten der Seite an den jeweiligen Anbieter übertragen.
+Erst wenn Sie das jeweilige Plugin durch Anklicken der zugehörigen Schaltfläche
+aktivieren, wird eine direkte Verbindung zum Server des Anbieters hergestellt
+(Einwilligung). Sobald Sie das Plugin aktivieren, erhält der jeweilige Anbieter
+die Information, dass Sie mit Ihrer IP-Adresse dieser Website besucht haben.
+Wenn Sie gleichzeitig in Ihrem jeweiligen Social-Media-Account (z. B. Facebook)
+eingeloggt sind, kann der jeweilige Anbieter den Besuch dieser Website Ihrem
+Benutzerkonto zuordnen. Das Aktivieren des Plugins stellt eine Einwilligung im
+Sinne des Art. 6 Abs. 1 lit. a DSGVO dar. Diese Einwilligung können Sie
+jederzeit mit Wirkung für die Zukunft widerrufen.
+Facebook Plugins (Like & Share-Button) Auf dieser Website sind Plugins des
+sozialen Netzwerks Facebook integriert. Anbieter dieses Dienstes ist die
+Facebook Ireland Limited, 4 Grand Canal Square, Dublin 2, Irland. Die erfassten
+Daten werden nach Aussage von Facebook jedoch auch in die USA und in andere
+Drittländer übertragen. Die Facebook Plugins erkennen Sie an dem Facebook-Logo
+oder dem „Like-Button“ („Gefällt mir“) auf dieser Website. Eine Übersicht über
+die Facebook Plugins finden Sie hier:https://developers.facebook.com/docs/
+plugins/?locale=de_DE
+Wenn Sie diese Website besuchen, wird über das Plugin eine direkte Verbindung
+zwischen Ihrem Browser und dem Facebook-Server hergestellt. Facebook erhält
+dadurch die Information, dass Sie mit Ihrer IP- Adresse diese Website besucht
+haben. Wenn Sie den Facebook „Like-Button“ anklicken während Sie in Ihrem
+Facebook-Account eingeloggt sind, können Sie die Inhalte dieser Website auf
+Ihrem Facebook-Profil verlinken. Dadurch kann Facebook den Besuch dieser
+Website Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als
+Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie
+deren Nutzung durch Facebook erhalten.
+Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von
+Facebook unter: https://de-de.facebook.com/privacy/explanation .
+Wenn Sie nicht wünschen, dass Facebook den Besuch dieser Website Ihrem
+Facebook-Nutzerkonto zuordnen kann, loggen Sie sich bitte aus Ihrem Facebook-
+Benutzerkonto aus. Die Verwendung der Facebook Plugins erfolgt auf Grundlage
+der Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO. Die Einwilligung ist
+jederzeit widerrufbar.
+Twitter Plugin Auf dieser Website sind Funktionen des Dienstes Twitter
+eingebunden. Diese Funktionen werden angeboten durch die Twitter Inc., 1355
+Market Street, Suite 900, San Francisco, CA 94103, USA. Durch das Benutzen von
+Twitter und der Funktion „Re-Tweet“ werden die von Ihnen besuchten Websites mit
+Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei
+werden auch Daten an Twitter übertragen. Wir weisen darauf hin, dass wir als
+Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie
+deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie
+in der Datenschutzerklärung von Twitter unter: https://twitter.com/de/privacy.
+Die Verwendung des Twitter-Plugins erfolgt auf Grundlage der Einwilligung nach
+Art. 6 Abs. 1 lit. a DSGVO. Die Einwilligung ist jederzeit widerrufbar.
+Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen
+unter https://twitter.com/account/settings ändern.
+Instagram Plugin Auf dieser Website sind Funktionen des Dienstes Instagram
+eingebunden. Diese Funktionen werden angeboten durch die Instagram Inc., 1601
+Willow Road, Menlo Park, CA 94025, USA integriert.
+Wenn Sie in Ihrem Instagram-Account eingeloggt sind, können Sie durch Anklicken
+des Instagram-Buttons die Inhalte dieser Website mit Ihrem Instagram-Profil
+verlinken. Dadurch kann Instagram den Besuch dieser Website Ihrem Benutzerkonto
+zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine
+Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Instagram
+erhalten.
+Die Speicherung und Analyse der Daten erfolgt auf Grundlage der Einwilligung
+nach Art. 6 Abs. 1 lit. a DSGVO. Die Einwilligung ist jederzeit widerrufbar.
+Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von
+Instagram: https://instagram.com/about/legal/privacy
+Google Maps Diese Website nutzt über eine API den Kartendienst Google Maps.
+Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow
+Street, Dublin 4, Irland. Auch hier verwenden wir die sogenannte „Zwei-Klick-
+Lösung“. Erst nach dem aktiven Anklicken einer Schaltfläche wird Google Maps
+geladen und somit Daten an Google übertragen. Diese Informationen werden in der
+Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung.
+Die Nutzung von Google Maps erfolgt auf der Grundlage Ihrer Einwilligung gemäß
+Art. 6 Abs. 1 lit. a DSGVO. Die Einwilligung ist jederzeit widerrufbar.
+Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der
+Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de.
+§ 17 Einbindung von YouTube-Videos
+(1) Wir haben YouTube-Videos in unser Online-Angebot eingebunden, die auf http:
+//www.YouTube.com gespeichert sind und von unserer Website aus direkt
+abspielbar sind. Diese sind alle im „erweiterten Datenschutz-Modus“
+eingebunden, d. h. dass keine Daten über Sie als Nutzer an YouTube übertragen
+werden, wenn Sie die Videos nicht abspielen. Erst wenn Sie die Videos
+abspielen, werden die in Absatz 2 genannten Daten übertragen.
+(2) Die Übertragung erfolgt auf der Grundlage Ihrer Einwilligung gemäß Art. 6
+Abs. 1 lit. a DSGVO. Die Einwilligung ist jederzeit widerrufbar. Auf diese
+Datenübertragung haben wir keinen Einfluss.
+(3) Durch den Besuch auf der Website erhält YouTube die Information, dass Sie
+die entsprechende Unterseite unserer Website aufgerufen haben. Zudem werden die
+unter § 3 dieser Erklärung genannten Daten übermittelt. Dies erfolgt unabhängig
+davon, ob YouTube ein Nutzerkonto bereitstellt, über das Sie eingeloggt sind,
+oder ob kein Nutzerkonto besteht. Wenn Sie bei Google eingeloggt sind, werden
+Ihre Daten direkt Ihrem Konto zugeordnet. Wenn Sie die Zuordnung mit Ihrem
+Profil bei YouTube nicht wünschen, müssen Sie sich vor Aktivierung des Buttons
+ausloggen. YouTube speichert Ihre Daten als Nutzungsprofile und nutzt sie für
+Zwecke der Werbung, Marktforschung und/oder bedarfsgerechten Gestaltung seiner
+Website. Eine solche Auswertung erfolgt insbesondere (selbst für nicht
+eingeloggte Nutzer) zur Erbringung von bedarfsgerechter Werbung und um andere
+Nutzer des sozialen Netzwerks über Ihre Aktivitäten auf unserer Website zu
+informieren. Ihnen steht ein Widerspruchsrecht zu gegen die Bildung dieser
+Nutzerprofile, wobei Sie sich zur Ausübung dessen an YouTube richten müssen.
+(4) Weitere Informationen zu Zweck und Umfang der Datenerhebung und ihrer
+Verarbeitung durch YouTube erhalten Sie in der Datenschutzerklärung. Dort
+erhalten Sie auch weitere Informationen zu Ihren Rechten und
+Einstellungsmöglichkeiten zum Schutze Ihrer Privatsphäre: https://
+www.google.de/intl/de/policies/privacy.
+§ 18 Analyse-Tool Matomo
+(1) Diese Website nutzt den Webanalysedienst Matomo. Matomo verwendet
+Technologien, die die seitenübergreifende Wiedererkennung des Nutzers zur
+Analyse des Nutzerverhaltens ermöglichen ( z. B. Cookies oder Device-
+Fingerprinting). Die durch Matomo erfassten Informationen über die Benutzung
+dieser Website werden auf unserem Server gespeichert. Die IP-Adresse wird vor
+der Speicherung anonymisiert.
+(2) Die Verarbeitung erfolgt entsprechend Ihrer Einwilligung gemäß Art. 6 lit.
+a DS-GVO.
+§ 19 Links zu anderen Webseiten/Apps, Anbietern
+Unsere Webseiten/Apps enthält Links zu anderen Webseiten/Apps. Wir haben keinen
+Einfluss darauf, dass deren Betreiber die Datenschutzbestimmungen einhalten.
+Wir sind als Anbieter für eigene Inhalte nach den allgemeinen Gesetzen
+verantwortlich. Von diesen eigenen Inhalten sind unter Umständen Links auf die
+von anderen Anbietern bereitgehaltenen Inhalte zu unterscheiden. Für fremde
+Inhalte, die über Links zur Nutzung bereitgestellt werden und besonders
+gekennzeichnet sind, übernehmen wir keine Verantwortung und machen uns deren
+Inhalt nicht zu Eigen. Für illegale, fehlerhafte oder unvollständige Inhalte
+sowie für Schäden, die durch die Nutzung oder Nichtnutzung der Informationen
+entstehen, haftet allein der Anbieter der Webseiten/App, auf die verwiesen
+wurde.
+§ 20 IT-Sicherheit
+(1) Wir treffen technische und organisatorische Sicherheitsvorkehrungen, um
+Ihre personenbezogenen Daten gegen zufällige oder vorsätzliche Manipulationen,
+Verlust, Zerstörung oder gegen den Zugriff unberechtigter Personen zu schützen
+und den Schutz Ihrer Rechte und die Einhaltung der anwendbaren
+datenschutzrechtlichen Bestimmungen der EU und der Bundesrepublik Deutschland
+zu gewährleisten.
+(2) Die ergriffenen Maßnahmen sollen die Vertraulichkeit und Integrität Ihrer
+Daten gewährleisten sowie die Verfügbarkeit und Belastbarkeit der Systeme und
+Dienste bei der Verarbeitung Ihrer Daten auf Dauer sicherstellen. Sie sollen
+außerdem die Verfügbarkeit der Daten und den Zugang zu ihnen bei einem
+physischen oder technischen Zwischenfall rasch wiederherstellen.
+(3) Zu unseren Sicherheitsmaßnahmen gehört auch eine Verschlüsselung Ihrer
+Daten. Alle Informationen, die Sie online eingeben, werden technisch
+verschlüsselt und erst dann übermittelt. Dadurch können diese Informationen zu
+keinem Zeitpunkt von unbefugten Dritten eingesehen werden.
+(4) Unsere Datenverarbeitung und unsere Sicherheitsmaßnahmen werden
+entsprechend der technologischen Entwicklung fortlaufend verbessert. Unsere
+Mitarbeiter sind selbstverständlich schriftlich zur Vertraulichkeit
+verpflichtet (Datengeheimnis).
+§ 21 Urheberrecht
+Text, Bilder, Grafiken, Sound, Animationen und Videos sowie deren Anordnung auf
+den Internetseiten der CDU Deutschlands unterliegen dem Schutz des
+Urheberrechts und anderer Schutzgesetze. Die Nutzung ist grundsätzlich nur für
+den privaten persönlichen Gebrauch gestattet. Jede darüber hinausgehende
+Nutzung ist nicht gestattet, sofern nichts anderes ausdrücklich bestimmt ist.
+Wir weisen darauf hin, dass auf den Webseiten/Apps enthaltene Werke teilweise
+dem Urheberrecht Dritter unterliegen. Durch die CDU Deutschlands kann in der
+Regel keine Lizenz zur Nutzung erteilt werden.
+Die CDU Deutschlands, das Logo der CDU Deutschlands, CDUplus und der Domain-
+Name genießen namensrechtlichen Schutz.
+Wer das Urheber-, Marken- oder Namensrecht verletzt, muss mit der
+Geltendmachung von Unterlassungs- und Schadensersatzansprüchen durch den
+Rechteinhaber, bei Verletzungen des Urheber- und Markenrechts auch mit
+Strafverfolgung rechnen.
+§ 22 Verantwortung / Haftung
+(1) Die CDU Deutschlands stellt alle Informationen und Bestandteile der
+Webseiten/App nach bestem Wissen und Gewissen zusammen. Eine Haftung oder
+Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung
+gestellten Informationen kann nicht übernommen werden. Ebenso wenig haftet die
+CDU Deutschlands für etwaige Schäden, die beim Abrufen oder Herunterladen von
+Daten durch Computerviren verursacht werden. Die CDU Deutschlands kann keine
+Gewähr für die Verfügbarkeit der Webseiten/Apps/App sowie der auf ihr
+bereitgestellten Funktionen (wie etwa dem Kommunikationssystem) oder
+Bestandteilen davon übernehmen.
+(2) Soweit ein wegen unzutreffender Beiträge geltend gemachter Schaden nicht
+bereits nach anderen Bestimmungen dieser Nutzungsbedingungen von der Haftung
+ausgeschlossen ist, wird er der Höhe nach durch den Schaden begrenzt,
+§ 23 Geltung der Datenschutzbestimmungen
+(1) Die Datenschutzbestimmungen sind als Teil des Internetangebotes der CDU
+Deutschlands zu betrachten. Sofern Teile oder einzelne Formulierungen dieses
+Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollständig
+entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt
+und ihrer Gültigkeit davon unberührt. Für die Nutzung von CDU.de gilt deutsches
+Recht.
+(2) Im Rahmen der Fortentwicklung des Datenschutzrechts sowie technologischer
+oder organisatorischer Veränderungen werden unsere Datenschutzhinweise
+regelmäßig auf Anpassungs- oder Ergänzungsbedarf hin überprüft. Über Änderungen
+werden Sie insbesondere auf unserer Webseite unter www.cdu.de. Diese
+Datenschutzhinweise haben den Stand von Januar 2021.
+§ 24 Abrufbarkeit der Datenschutzbestimmungen
+Sie können diese Datenschutzbestimmungen von jeder Seite der Webseiten/App
+unter dem Link "Datenschutz" abrufen und ausdrucken.
+Stand der Datenschutzbestimmungen: Januar 2021
+Ihre Fragen und Anregungen zum Thema Datenschutz sind uns sehr willkommen und
+wichtig. Sie können uns unter folgender Adresse erreichen: datenschutz@cdu.de.
+
+Christlich Demokratische Union Deutschlands (CDU)
+Vertreten durch den Vorsitzenden Armin Laschet MdL und den Generalsekretär Paul
+Ziemiak MdB
+Klingelhöferstraße 8, 10785 Berlin

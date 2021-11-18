@@ -1,0 +1,88 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"DB",
+"division":"bitte eine der aufgeführten Verantwortlichen:\n\tDB Vertrieb GmbH\n\tEuropa-Allee 78- 84\n\t60486 Frankfurt\n\tE-Mail: ecommerce-datenschutz@bahn.",
+"address":"E-Mail: fv‐datenschutz@deutschebahn.com\n\tDB Regio AG\n\tEuropa-Allee 70-76\n\t60486 Frankfurt\n\tE-Mail: datenschutz.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"ecommerce-datenschutz@bahn.de",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"****  Welche Rechte haben Nutzerinnen und Nutzer von bahn.de/bahn.com?   ****\n\t    * Sie können Auskunft darüber verlangen, welche Daten über Sie gespeichert\n\t      sind.",
+"url":"www.db-vertrieb.com/",
+"email":"ecommerce-datenschutz@bahn.de",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"    * Sie können Auskunft darüber verlangen, welche Daten über Sie gespeichert\n\t      sind.\n\t    * Sie können Berichtigung, Löschung und Einschränkung der Bearbeitung\n\t      (Sperrung) ihrer personenbezogenen Daten verlangen, solange dies\n\t      gesetzlich zulässig und im Rahmen eines bestehenden Vertragsverhältnisses\n\t      möglich ist.",
+"url":"www.db-vertrieb.com/",
+"email":"ecommerce-datenschutz@bahn.de",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"      Wiesbaden, E-Mail: poststelle@datenschutz.hessen.de\n\t    * Sie haben das Recht auf Übertragbarkeit derjenigen Daten, die Sie uns auf\n\t      der Basis einer Einwilligung oder eines Vertrages bereitgestellt haben\n\t      (Datenübertragbarkeit).",
+"url":"www.db-vertrieb.com/",
+"email":"ecommerce-datenschutz@bahn.de",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"    * Sie können der werblichen Ansprache jederzeit mit Wirkung für die Zukunft\n\t      widersprechen (Werbewiderspruch).\n\tZwischen DB Vertrieb, DB Fernverkehr und DB Regio besteht eine gemeinsame\n\tVerantwortung nach Art.",
+"url":"www.db-vertrieb.com/",
+"email":"ecommerce-datenschutz@bahn.de",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"    * Sie haben das Recht, Beschwerde bei einer Aufsichtsbehörde einzulegen.\n\t      Die für die DB Vertrieb GmbH zuständige Aufsichtsbehörde ist: Der\n\t      Hessische Datenschutzbeauftragte, Gustav-Stresemann-Ring 1, 65189\n\t      Wiesbaden, E-Mail: poststelle@datenschutz.",
+"url":"www.db-vertrieb.com/",
+"email":"ecommerce-datenschutz@bahn.de",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"Zur Schaltung interessenbezogener Werbung werden Cookies der AdForm A/S\n\t(Wildersgade 10B, 1, 1408 Copenhagen K, Denmark) gesetzt. Dafür werden in\n\tpseudonymen Nutzungsprofilen beispielsweise Informationen zu Betriebssystem,\n\tBrowserversion, anonymisierte IP-Adressen, geographische Lage sowie Anzahl der\n\tKlicks oder Views gespeichert.",
+"country":"Zur Schaltung interessenbezogener Werbung werden Cookies der AdForm A/S\n\t(Wildersgade 10B, 1, 1408 Copenhagen K, Denmark) gesetzt. Dafür werden in\n\tpseudonymen Nutzungsprofilen beispielsweise Informationen zu Betriebssystem,\n\tBrowserversion, anonymisierte IP-Adressen, geographische Lage sowie Anzahl der\n\tKlicks oder Views gespeichert.",
+"email":"ecommerce-datenschutz@bahn.de",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Mittels maschineller Lernmethoden wird überwiegend automatisch bewertet, ob ein\n\tmenschlicher Besucher unsere Webseite benutzt.",
+"scopeAndIntendedEffects":"Mittels maschineller Lernmethoden wird überwiegend automatisch bewertet, ob ein\n\tmenschlicher Besucher unsere Webseite benutzt."},
+"changesOfPurpose":[{
+"description":"Einstellungen verwalten\" jederzeit erneut aufrufen und Änderungen vornehmen.\n\t Cookie-Einstellungen\n\t*** Cookies und ähnliche Technologien, die für die Nutzung bestimmter\n\tFunktionen der Seite erforderlich sind ***\n\tDie im Folgenden aufgeführten und von uns eingesetzten Tracking-Maßnahmen\n\twerden auf Grundlage des Art.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"92121",
+"urlOfNewVersion":"www.db-vertrieb.com/"},{
+"description":"Bestandteile des Datenschutzhinweises Regelungen des Vertragsverhältnisses mit\n\tIhnen enthalten, erfolgen die Änderungen nur mit Ihrer Zustimmung.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Oktober 2021",
+"urlOfNewVersion":"www.db-vertrieb.com/"}]}

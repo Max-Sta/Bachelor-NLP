@@ -1,0 +1,1440 @@
+****** Datenschutzerklärung luca Webseite ******
+Zuletzt überarbeitet und aktualisiert am 03. September 2021
+
+Wir, die culture4life GmbH („wir“ oder „uns“), sind zur Wahrung Ihrer
+datenschutzrechtlichen Belange im Zusammenhang mit Ihrer Nutzung unserer
+Webseite verpflichtet und sind jederzeit bestrebt, die Sicherheit und
+Integrität Ihrer personenbezogenen Daten in Übereinstimmung mit dem anwendbaren
+Datenschutzrecht zu wahren.
+Personenbezogene Daten sind alle Informationen, die sich auf eine
+identifizierte oder identifizierbare natürliche Person beziehen. So stellen Ihr
+Name, Ihre E-Mail-Adresse, aber auch Ihre IP-Adresse personenbezogene Daten
+dar, für deren Verarbeitung die Datenschutzgrundverordnung (im Folgenden DSGVO)
+enge Grenzen setzt. Die Vorgaben der DSGVO zum Umgang mit diesen Daten treffen
+vor allem den Verantwortlichen, also denjenigen, der die Daten erhebt und
+verarbeitet. Sofern der Verantwortliche die Daten zur Erbringung einer Leistung
+an Dienstleister weitergibt, so muss dies Ihnen als Betroffenen gegenüber
+transparent gemacht werden. Der jeweilige Dienstleister muss dabei an dieselben
+Standards wie der Verantwortliche gebunden und von diesem kontrolliert werden.
+Diese Datenschutzerklärung gilt für die von uns betriebene Webseite, welche wir
+zur Darstellung unseres Unternehmens und als Kommunikationsplattform nutzen.
+Sie gibt Aufschluss darüber, welche Daten bei Aktivitäten auf unserer Webseite
+durch uns als Verantwortlichem erhoben oder uns bereitgestellt werden, wie wir
+Ihre personenbezogenen Daten speichern und weiterverarbeiten und welche Rechte
+Ihnen als betroffene Person hinsichtlich Ihrer personenbezogenen Daten
+zustehen.
+ 
+A. VERANTWORTLICHER luca System
+Der für die Verarbeitung personenbezogener Daten, die von uns direkt erhoben
+werden, Verantwortliche ist:
+     culture4life GmbH
+     Charlottenstraße 59
+     10117 Berlin
+     Deutschland
+     info@culture4life.de
+ 
+ 
+B.KONTAKTDATEN UNSERES DATENSCHUTZBEAUFTRAGTEN DES VERANTWORTLICHEN
+Unseren Datenschutzbeauftragten erreichen Sie wie folgt:
+     culture4life GmbH
+     Datenschutzbeauftragter
+     Charlottenstraße 59
+     10117 Berlin
+     Deutschland
+     privacy@culture4life.de
+ 
+ 
+C.VERARBEITUNGEN VON PERSONENBEZOGENEN DATEN BEIM BESUCH UNSERER WEBSEITE
+Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz
+kommenden Browser automatisch Informationen bzw. sogenannte Logdateien an den
+Server unserer Website gesendet. Diese Logdateien werden 24 Stunden ab dem
+Zeitpunkt des Entstehens gespeichert, danach für 30 Tage archiviert und
+anschließend automatisch gelöscht.
+1. Verarbeitete Daten
+Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis zur
+automatisierten Löschung gespeichert:
+    * Ihre IP-Adresse
+    * Datum und Uhrzeit des Abrufs unserer Webseite
+    * Browsertyp und die Browser-Einstellungen
+    * Sprache und Version der Browsersoftware
+    * Verwendetes Betriebssystem
+    * Inhalt der Anforderung (konkrete Webseite)
+    * Die von Ihnen zuletzt besuchte Webseite
+    * Übertragene Datenmenge
+    * Meldung, ob der Abruf erfolgreich war
+    * Zugriffsstatus/HTTP-Statuscode
+Auf unserer Webseite besteht die Möglichkeit, mittels Ihrer Postleitzahl nach
+in Ihrer Umgebung befindlichen Gesundheitsämtern im luca-System zu suchen.
+Sofern Sie diese Funktion nutzen, wird auch die eingegebene Postleitzahl
+entsprechend gespeichert.
+2. Zweck der Verarbeitung
+Wir verarbeiten Ihre personenbezogenen Daten, um Ihnen einen reibungslosen
+Verbindungsaufbau zu unserer Website bereitzustellen, die Inhalte der Website
+korrekt auszuliefern und zu optimieren, sowie die Netz- und
+Informationssicherheit zu gewährleisten und die Website vor Störungen,
+Angriffen und Schädigungen zu schützen.
+3. Rechtsgrundlage der Verarbeitung
+Die Rechtsgrundlage für die Datenverarbeitung ist gemäß Art. 6 (1) 1 f) DSGVO
+unser berechtigtes Interesse am Betrieb und der Sicherung unserer Webseite.
+Ohne die Verarbeitung der personenbezogenen Daten ist eine Bereitstellung der
+Website technisch nicht möglich, ebenso wie die Gewährleistung von deren
+Sicherung.
+4. Empfänger:innen personenbezogener Daten
+Unser Anbieter der Hostingleistung der Webseite ist: SiteGround Spain S.L.,
+Calle de Prim 19,28004 Madrid, Spain. Der Serverstandort ist Frankfurt,
+Deutschland. Diese verarbeiten Ihre personenbezogenen Daten in unserem Auftrag.
+5. Speicherdauer der verarbeiteten Daten
+Wir speichern Ihre im Teil C. 1. benannten Daten für 24 Stunden ab Ihrem
+jeweiligen Besuch unserer Website, danach archivieren wir diese Daten für 30
+Tage bis zur automatischen Löschung.
+ 
+D.VERARBEITUNGEN VON PERSONENBEZOGENEN DATEN BEI KONTAKTAUFNAHME PER
+KONTAKTFORMULAR, E-MAIL, TELEFON ODER BRIEF
+Sie können mit uns per Kontaktformular auf unserer Webseite, per E-Mail,
+telefonisch oder postalisch in Kontakt treten. Wir erheben dabei nur dann
+personenbezogene Daten, wenn Sie uns diese von sich aus mitteilen.
+1. Verarbeitete Daten
+Auf der Webseite steht ein Kontaktformular sowie eine E-Mail-Adresse zur
+Verfügung, welche für die elektronische Kontaktaufnahme genutzt werden kann.
+Wenn Sie uns auf diesem Weg eine Anfrage zukommen lassen, so werden Ihre mit
+dem Kontaktformular bzw. der E-Mail übermittelten personenbezogenen Daten
+gespeichert. Im Falle einer Kontaktaufnahme per Brief oder Telefon werden
+entsprechend Ihre mitgeteilten Daten ebenfalls gespeichert.
+2. Zweck der Verarbeitung
+Die Daten werden ausschließlich zu dem Zweck gespeichert und verwendet, für den
+Sie uns diese Daten übermittelt haben (z.B. Bearbeitung von Anfragen, etc.).
+3. Rechtsgrundlage der Verarbeitung
+Rechtsgrundlage für die Verarbeitungen der für die Bearbeitung der
+Kontaktanfragen notwendigen personenbezogenen Daten ist berechtigtes Interesse
+gemäß Art. 6 (1) 1 f) DSGVO. Das berechtigte Interesse ergibt sich daraus, dass
+wir nur durch eine entsprechende Verarbeitung Ihrer Daten die von Ihnen
+gewünschte Handlung (z. B. Beantwortung von Anfragen) durchführen können. Zielt
+der Kontakt auf den Abschluss eines Vertrages ab, so ist zusätzlich
+Rechtsgrundlage für die Verarbeitung Art. 6 (1) 1 b) DSGVO.
+4. Speicherdauer der verarbeiteten Daten
+Wir speichern Ihre Daten solange diese für die Durchführung der Verarbeitung
+benötigt werden, sowie falls anwendbar entsprechend den gesetzlichen
+Aufbewahrungsfristen.
+ 
+E.VERARBEITUNGEN VON PERSONENBEZOGENEN DATEN BEI BEWERBUNGEN IHRERSEITS
+Es besteht die Möglichkeit sich bei uns per E-Mail an hello@luca-app.de oder
+postalisch an culture4life, Charlottenstraße 59, 10117 Berlin zu bewerben.
+Weiterhin besteht die Möglichkeit Ihre Bewerbung über das Job Portal auf
+unserer Webseite (https://www.luca-app.de/jobs/) einzureichen. Hier benutzen
+wir den niederländischen SaaS-Anbieter Recruitee.
+1. Verarbeitete Daten
+Im Rahmen einer Bewerbung können folgende personenbezogene Daten verarbeitet
+werden: Name, E-Mail-Adresse, Bewerbungsunterlagen (z.B. Kontaktdaten,
+Anschreiben, Lebenslauf, beruflicher Werdegang, Zeugnisse, Foto).
+2. Zweck der Verarbeitung
+Die Verarbeitung der von Ihnen an uns übermittelten Daten erfolgt zum Zwecke
+der Begründung eines Beschäftigungsverhältnisses (Durchführung des
+Bewerbungsprozesses, Anbahnung eines Arbeitsverhältnisses).
+3. Rechtsgrundlage der Verarbeitung
+Rechtsgrundlage hierfür ist Art. 88 (1) DSGVO in Verbindung mit § 26 (1), (2),
+(8) 2 BDSG.
+4. Empfänger:innen personenbezogener Daten
+Wir nutzen für unser Bewerbermanagement den SaaS-Anbieter Recruitee B.V.,
+Keizersgracht 313 1016 Amsterdam, Niederlande. Diese verarbeiten Ihre
+personenbezogenen Daten in unserem Auftrag.
+5. Speicherdauer der verarbeiteten Daten
+Wir speichern Ihre Daten, solange Sie aktiv eine Stelle bei uns suchen, jedoch
+nicht länger als sechs Monate nach Abschluss des Bewerbungsverfahrens.
+Anschließend löschen wir Ihre Daten, es sei denn, Sie haben uns Ihre
+Einwilligung für die weitere Speicherung Ihrer Daten erteilt.
+Sollte Ihre Bewerbung für eine sich erst später ergebende Stelle bei uns in
+Frage kommen, senden wir Ihnen eine E-Mail und bitten Sie, Ihre Einwilligung
+zur Speicherung Ihrer Bewerbungsdaten für einen Zeitraum von weiteren sechs
+Monaten zu erteilen. Die Verarbeitung Ihrer Daten erfolgt dann zu dem Zweck,
+Sie im Falle einer für Sie geeigneten Stelle zu kontaktieren. Sollte auch nach
+Ablauf einer durch Ihre Einwilligung verlängerten Speicherdauer noch Bedarf
+bestehen, werden wir Sie erneut um Einwilligung zu einer Verlängerung der
+Speicherung und Verarbeitung bitten. Nach Ablauf des durch Ihre Einwilligung
+gedeckten Speicherzeitraums werden Ihre Daten gelöscht.
+Im Falle einer erfolgreichen Bewerbung werden wir Ihre Daten für die Dauer des
+Arbeitsverhältnisses aufbewahren und Ihre Daten nach dessen Beendigung und
+Ablauf der gesetzlich vorgegebenen Aufbewahrungsfristen (Art. 6 (1) 1 c) DSGVO)
+löschen.
+F. VERARBEITUNGEN VON PERSONENBEZOGENEN DATEN BEI ANMELDUNG ZU UNSEREM
+NEWSLETTER
+Sofern Sie nach Artikel 6 (1) 1 a) DSGVO ausdrücklich einwilligen, verwenden
+wir Ihre E-Mail-Adresse dazu Ihnen regelmäßig unseren Newsletter zu übersenden.
+Für den Empfang des Newsletters ist die Angabe und Bestätigung einer E-Mail-
+Adresse ausreichend.
+Die Abmeldung ist jederzeit möglich. Sie können uns Ihren Abmeldewunsch
+jederzeit über den Abmeldelink innerhalb des Newsletters mitteilen oder an
+privacy@culture4life.de eine E-Mail senden.
+1. Verarbeitete Daten
+Wenn Sie sich bei unserem Newsletter anmelden, erheben wir Ihre E-Mail-Adresse.
+Des Weiteren werden von uns für die Verwaltung und den Versand des Newsletters
+das Datum der Eintragung, Öffnungsraten und Klickraten sowie ggf. Informationen
+zu Bounces oder sonstigen Zustellproblemen erhoben.
+2. Zweck der Verarbeitung
+Die Verarbeitung der von Ihnen an uns übermittelten Daten erfolgt zum Zwecke
+des Erhalts von Informationen mittels unseres Newsletters.
+3. Rechtsgrundlage der Verarbeitung
+Rechtsgrundlage hierfür ist Artikel 6 (1) 1 a) DSGVO Ihre ausdrückliche
+Einwilligung, Informationen über einen Newsletter von uns zu erhalten.
+4. Empfänger:innen personenbezogener Daten
+Für den Versand sowie für die Verwaltung unseres Newsletters nutzen wir
+Sendinblue (Sendinblue GmbH Köpenicker Str. 126, 10179 Berlin). Diese
+verarbeiten Ihre personenbezogenen Daten in unserem Auftrag.
+5. Speicherdauer der verarbeiteten Daten
+Ihre personenbezogenen Daten sind für die Dauer Ihres Newsletter-Abonnements
+gespeichert. Nach Ihrer Abmeldung speichern wir Ihre E-Mail-Adresse noch bis zu
+einer Dauer von drei Jahren. Ihre E-Mail-Adresse wird dabei auf einer
+Sperrliste gespeichert, die uns ermöglicht, sicherzustellen, dass Sie keinen
+weiteren Newsletter empfangen.
+ 
+G. YOUTUBE und VIMEO
+Wir setzen auf unseren Webseiten Plugins (Videos) der Videoportale „YouTube“
+des Unternehmens Google Ireland Limited, Gordon House, Barrow Street, Dublin 4,
+Irland und „Vimeo“ des Unternehmens Vimeo Inc., 555 West 18th Street, New York,
+New York 10011, USA ein. Die Implementierung erfolgt gemäß Art. 6 (1) 1 f)
+DSGVO, wobei unser Interesse in der reibungslosen Integration der Videos und
+der damit ansprechenden Gestaltung unserer Webseite liegt. Sofern eine
+entsprechende Einwilligung abgefragt wird, erfolgt die Verarbeitung
+ausschließlich auf Grundlage von Art. 6 (1) 1 a) DSGVO. Die Einwilligung ist
+dabei jederzeit für zukünftige Verarbeitungen widerrufbar.
+Wenn Sie eine Webseite aufrufen, die über ein eingebettetes Video verfügt, wird
+eine Verbindung zu den entsprechenden Servern der „YouTube“ und „Vimeo“
+Betreiber hergestellt und dabei der Inhalt durch Mitteilung an Ihren Browser
+auf der Webseite dargestellt.
+Teilweise werden Informationen an die Muttergesellschaften Google Inc. und
+Vimeo Inc. mit Sitz in den USA, an andere Google- bzw. Vimeo-Unternehmen und an
+externe Partner von Google bzw. Vimeo übermittelt, die sich jeweils außerhalb
+der Europäischen Union befinden können. Google Inc. und Vimeo Inc. verwendet
+dafür von der Europäischen Kommission genehmigte Standardvertragsklauseln.
+Gemäß den Angaben der „YouTube“ und „Vimeo“ Betreiber werden Ihre Daten – d. h.
+welche unserer Webseiten Sie besucht haben sowie gerätespezifische
+Informationen inklusive der IP-Adresse – nur dann an die entsprechenden Server
+in den USA übermittelt, wenn Sie das Video anschauen. Durch den Klick auf das
+Video willigen Sie in diese Übermittlung ein.
+Falls Sie gleichzeitig bei Google eingeloggt sind, könnten die Informationen
+Ihrem Mitgliedskonto bei „YouTube“ zugeordnet werden. Dies können Sie
+verhindern, indem Sie sich vor dem Anklicken von Videos auf unserer Website von
+Ihrem Mitgliedskonto abmelden.
+Weitere Informationen zum Datenschutz im Zusammenhang mit „YouTube“ und „Vimeo“
+finden Sie unter den nachfolgend verlinkten Datenschutzbestimmungen:
+Google Inc.: https://policies.google.com/privacy
+Vimeo Inc.: https://vimeo.com/privacy
+H.COOKIES
+Unsere Website verwendet ausschließlich essenzielle Cookies. Cookies sind
+Textdateien, die im Internetbrowser bzw. vom Internetbrowser auf Ihrem
+Computersystem gespeichert werden.
+Essenzielle Cookies sind aus technischen Gründen zwingend erforderliche
+Cookies, damit unsere Webseite und deren Funktionen ordnungsgemäß arbeiten.
+Andere Cookies, z.B. zu Analysezwecken, werden von uns explizit nicht
+eingesetzt.
+I. RECHTE DER BETROFFENEN PERSON
+Hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten haben Sie folgende
+in der DSGVO vorgesehenen Rechte, die Sie für alle Verarbeitungen, uns
+gegenüber geltend machen können:
+    * Das Recht, eine Aussage darüber zu verlangen, ob Ihre personenbezogenen
+      Daten verarbeitet werden und, sofern dies der Fall ist, das Recht auf
+      Auskunft über diese Daten. Diese Auskunft umfasst unter anderem die
+      Verarbeitungszwecke, die Kategorien verarbeiteter personenbezogener Daten
+      und die Empfänger:innen oder Kategorien der Empfänger:innen, denen die
+      personenbezogenen Daten offengelegt worden sind oder noch offengelegt
+      werden (Art. 15 DSGVO).
+    * Das Recht, die Berichtigung Ihrer personenbezogenen Daten zu verlangen,
+      sofern diese unrichtig oder unvollständig sind (Art. 16 DSGVO).
+    * Das Recht, unter bestimmten Voraussetzungen zu verlangen, dass Ihre
+      personenbezogenen Daten unverzüglich gelöscht werden (sog. „Recht auf
+      Vergessenwerden“) (Art. 17 DSGVO).  Die Löschung Ihrer Daten kann
+      entsprechend vorgenommen werden, sofern nicht berechtigtes Interesse oder
+      gesetzliche Aufbewahrungsfristen dem entgegenstehen.
+    * Das Recht, unter bestimmten Voraussetzungen die Einschränkung der
+      Verarbeitung Ihrer personenbezogenen Daten zu verlangen (Art. 18 DSGVO).
+    * Das Recht, eine hinsichtlich der Verarbeitung Ihrer personenbezogenen
+      Daten gegenüber uns erteilte Einwilligung jederzeit zu widerrufen. Ein
+      solcher Widerruf gilt für die Zukunft und berührt nicht die
+      Rechtmäßigkeit der Verarbeitung, die bis zu Ihrem Widerruf erfolgt ist.
+Zur Ausübung dieser Rechte gegenüber uns können Sie sich auch an unsere
+Datenschutzbeauftragte, unter den in Teil B. dieser Datenschutzerklärung
+genannten Kontaktdaten wenden.
+Ungeachtet der vorstehenden Rechte haben Sie das Recht, Beschwerde bei einer
+Aufsichtsbehörde für Datenschutz und Informationsfreiheit, beispielsweise bei
+der Berliner Beauftragten für Datenschutz und Informationsfreiheit einzulegen:
+Berliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr.
+219, 10969 Berlin, Tel.: 030/13889-0, E-Mail: mailbox@datenschutz-berlin.de.
+J. VERSION
+Dies ist die aktuelle Fassung unserer Datenschutzerklärung (gültig ab dem
+03.09.2021). Wir behalten uns vor, diese Datenschutzerklärung anzupassen
+(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer
+Dienste). Aus diesem Grund empfiehlt es sich diese Datenschutzerklärung in
+regelmäßigen Abständen abzurufen.
+hello@luca-app.de
+gesundheitsamt@luca-app.de
+presse@luca-app.de
+locations@luca-app.de
+culture4life GmbH
+Charlottenstraße 59
+10117 Berlin
+
+****** Datenschutzerklärung luca Schlüsselanhänger ******
+Zuletzt überarbeitet und aktualisiert am 08. Juli 2021
+Wir, die culture4life GmbH („wir“ oder „uns“), sind zur Wahrung Ihrer
+datenschutzrechtlichen Belange im Zusammenhang mit Ihrer Nutzung unserer
+Dienste verpflichtet, und sind jederzeit bestrebt, die Sicherheit und
+Integrität Ihrer personenbezogenen Daten in Übereinstimmung mit dem anwendbarem
+Datenschutzrecht zu wahren. Hierfür verpflichten wir uns, Ihre
+personenbezogenen Daten ausschließlich zum Zwecke der Unterstützung bei der
+Kontaktnachverfolgung bzw. des Nachweises eines Testergebnisses, Impf- oder
+Genesenenausweises im Rahmen der Bekämpfung der COVID-Pandemie zu verarbeiten
+und nicht zu anderen Zwecken zu nutzen oder weiterzugeben. Andere Zwecke sind
+nur mit der Verarbeitung Ihrer Daten bei dem Besuch unserer Webseite gegeben,
+um einen sicheren Webauftritt zu gewährleisten, sowie bei der Bearbeitung Ihrer
+Anfragen (eben zu Zwecken dieser Bearbeitung). Diese geben wir im Folgenden
+explizit an. 
+Personenbezogene Daten sind alle Informationen, die sich auf eine
+identifizierte oder identifizierbare natürliche Person beziehen. So stellen Ihr
+Name, Ihre E-Mail-Adresse, Ihre Aufenthaltsdaten, aber auch Ihre IP-Adresse
+personenbezogene Daten dar, für deren Verarbeitung die
+Datenschutzgrundverordnung (im Folgenden DSGVO) enge Grenzen setzt. Selbst wenn
+diese Daten, etwa durch Verschlüsselung pseudonymisiert werden (d.h. Ihnen
+nicht sofort, sondern nur durch eine Kombination von Daten und Schlüsseln
+zugeordnet werden können), sind diese datenschutzrechtlich ebenso zu schützen
+und wie Klardaten zu behandeln. Die Vorgaben der DSGVO zum Umgang mit diesen
+Daten treffen vor allem den Verantwortlichen, also denjenigen, der die Daten
+erhebt und verarbeitet. Sofern der Verantwortliche die Daten zur Erbringung
+einer Leistung an Dienstleister weitergibt, so muss dies Ihnen als Betroffenen
+gegenüber transparent gemacht werden. Der jeweilige Dienstleister muss dabei an
+dieselben Standards wie der Verantwortliche gebunden und von diesem
+kontrolliert werden. 
+Wir sind direkt verantwortlich für die Verarbeitung der personenbezogenen
+Daten, die Sie bei der Registrierung in der luca App, der luca Webapp oder bei
+der Registrierung des luca Schlüsselanhängers (im Folgenden insgesamt „luca
+Dienstleistungen“) eingeben. Wir sehen die Angaben, die Sie bei der
+Registrierung und der Nutzung der luca Dienstleistungen machen nicht als
+Klardaten, anders als Sie selbst in Ihrer Ansicht auf dem benutzten Gerät. Uns
+liegen Ihre personenbezogenen Daten nur in verschlüsselter Form vor. 
+Ihre Aufenthaltsdaten werden nicht von uns, sondern von den durch Sie besuchten
+Gastronomen:innen, Einzelhandelsgeschäften, Veranstalter:innen und sonstigen
+Betreiber:innen (im Folgenden insgesamt „Betreiber:innen“) erhoben. Dies
+geschieht indem diese Ihren QR-Code scannen oder Sie den QR-Code der Betreiber:
+in. Wenn Sie sich bei einer Betreiber:in einchecken (d.h. den Zeitraum Ihres
+Aufenthalts bei einer Betreiber:in erfassen) wird Ihr eigener Nutzer-Schlüssel
+(der Ihre Kontaktdaten verschlüsselt) mit dem Schlüssel eines zuständigen
+Gesundheitsamtes verschlüsselt. Die Betreiber:in verschlüsselt mit ihrem
+eigenen Schlüssel wiederum diese Daten und legt sie im luca System ab. Die
+Betreiber:in ist für diese Verarbeitung verantwortlich und wir treten hierbei
+als Auftragsverarbeiter der Betreiber:in auf und sind durch entsprechende
+Verträge mit den Betreiber:innen zur Wahrung der Datenschutzanforderungen
+verpflichtet. 
+Wir sind überzeugt, dass die Verschlüsselung zum Schutz Ihrer personenbezogenen
+Daten beiträgt, da diese somit nur durch Sie und bei Bedarf durch das
+zuständige Gesundheitsamt in ihrer Klarform einsehbar sind. Im Folgenden
+beschreiben wir konkret, welche Daten wir auf welcher Grundlage und zu welchen
+Zwecken erheben und verarbeiten, an welche Dienstleister wir diese weitergeben
+und welche Rechte Ihnen in Bezug auf Ihre Daten zustehen. 
+ 
+A. VERANTWORTLICHER luca System 
+Der für die Verarbeitung personenbezogener Daten, die von uns direkt erhoben
+werden, Verantwortliche ist: 
+culture4life GmbH
+Charlottenstraße 59
+10117 Berlin
+Deutschland
+info@culture4life.de 
+ 
+B. KONTAKTDATEN UNSERES DATENSCHUTZBEAUFTRAGTEN 
+Unseren Datenschutzbeauftragten erreichen Sie wie folgt: 
+culture4life GmbH
+Datenschutzbeauftragter
+Charlottenstraße 59
+10117 Berlin
+Deutschland
+privacy@culture4life.de 
+ 
+C. ERHEBUNG UND VERARBEITUNG bei der Nutzung des luca Schlüsselanhängers 
+1. Prozessbeschreibung 
+Der luca Schlüsselanhänger ist die Alternative zur luca App für Nutzer:innen,
+die kein mobiles Endgerät nutzen können bzw. wollen. Er enthält jedoch nicht
+alle Features, die die luca App bietet.So ist der Check-Out nicht durch die
+Nutzer:in selbst möglich, sondern wird von der Betreiber:in durchgeführt.
+Ebenso ist das Hinterlegen von Test- Genesenen- und Impfdokumenten nicht
+möglich. 
+Sie können einen erworbenen oder erhaltenen Schlüsselanhänger und folgendem
+Link registrieren: Link. Für die Registrierung geben Sie die individuelle
+Seriennummer des luca Schlüsselanhängers (befindet sich direkt auf der
+Rückseite des luca Schlüsselanhängers) und Ihrer Kontaktdaten an. Daraufhin
+wird Ihre Telefonnummer verifiziert. Die Seriennummer dient als individueller
+Schlüssel zur Verschlüsselung Ihrer Daten. Die verschlüsselten Kontaktdaten
+werden an das luca-System übertragen und auf den Servern unserer Dienstleister
+(s. Abschnitt 5.) innerhalb des EU-Raums gespeichert. 
+Erfassung der Daten zu Beginn Ihres Aufenthalts:
+Nun können Sie sich bei Ihren Lieblings-Lokalitäten einchecken. Dabei wird der
+Zeitraum Ihres Aufenthalts bei einer Betreiber:in durch Scannen des QR-Codes
+erfasst. In diesem Zusammenhang wird Ihr persönlicher Schlüssel (mit dem Ihre
+Kontaktdaten im Zuge der Registrierung verschlüsselt wurden) mit dem Schlüssel
+der Gesundheitsämter verschlüsselt. Die Betreiber:in verschlüsselt mit ihrem
+eigenen Schlüssel wiederum diese Daten. Ihre Kontaktdaten sind somit mit Ihrem
+Nutzer-Schlüssel verschlüsselt und dieser Schlüssel wird bei jedem Check-In
+sowohl durch das zuständige Gesundheitsamt als auch durch die Betreiber:innen
+verschlüsselt und damit in zweifach verschlüsselter Form im luca System
+abgelegt. Weder die Betreiber:innen noch wir können die verschlüsselten Daten
+in ihrer Klarform einsehen und Ihnen als Person zuordnen. Lediglich das
+zuständige Gesundheitsamt wird im Nachverfolgungsfall in der Lage sein, die
+Daten zu entschlüsseln. Wir können Ihre bei uns hinterlegten Kontaktdaten und
+Aufenthaltsdaten Ihnen zuordnen, wenn Sie uns den Schlüssel (also die
+Seriennummer Ihres luca Schlüsselanhängers) mitteilen. Da der luca
+Schlüsselanhänger Ihren Schlüssel sichtbar enthält, ist es wichtig, dass Sie
+diesen gut aufbewahren und wie Ihren Hausschlüssel schützen. Notieren Sie sich
+die Seriennummer zudem separat, um im Falle eines Verlustes die für diesen
+Schlüsselanhänger bei uns hinterlegten Daten von uns löschen zu lassen. 
+Die Betreiber:in ist für die mit dem Aufenthalt verbundene Verarbeitung
+verantwortlich und wir treten hierbei als Auftragsverarbeiter der Betreiber:in
+auf. 
+Erfassung der Daten bei Beendigung Ihres Aufenthalts:
+Nachdem Sie sich erfolgreich eingecheckt haben und Ihr Aufenthalt beendet ist,
+checkt die Betreiber:in Sie nach einer gewissen Dauer aus, spätestens bei
+Schließung der Veranstaltung bzw. der Räumlichkeiten. 
+Optionales Teilen der Historie mit dem zuständigen Gesundheitsamt im Falle
+einer Infektion:
+Kontaktiert ein Gesundheitsamt Sie und bittet Sie um Mitteilung Ihrer letzten
+Aufenthalte, können Sie dies bequem durchführen, indem Sie die Seriennummer
+Ihres luca Schlüsselanhängers dem Gesundheitsamt mitteilen. Hierbei werden die
+(noch) verschlüsselten Aufenthaltsdaten der letzten 14 Tage an das
+Gesundheitsamt übertragen. Das Gesundheitsamt entschlüsselt diese Daten mittels
+Ihrer Seriennummer, die als Schlüssel fungiert. Dies geschieht nur ausdrücklich
+durch Ihre Einwilligung und aktives Zutun durch Mitteilen der Seriennummer. Ein
+Widerruf dieser Einwilligung (sehen Sie hierzu auch Abschnitt D.) geht ins
+Leere, weil das Gesundheitsamt nach Abruf der Daten Verantwortlicher für die
+weitere Verarbeitung ist und auf gesetzlicher Grundlage handelt. 
+Übermittlung der Kontaktnachverfolgungsdaten durch die Betreiber:innen an das
+zuständige Gesundheitsamt:
+Das Gesundheitsamt kann auf Basis Ihrer Historie die betroffenen Betreiber:
+innen zuordnen und kontaktieren, um zu erfahren, welche weiteren Personen sich
+zum betreffenden Zeitpunkt ebenfalls in der Lokation (d.h. im räumlichen
+Bereich der Betreiber:in) aufgehalten haben. Die Betreiber:in kann dann über
+ihr luca Profil die angefragten Daten an das Gesundheitsamt übermitteln. Da die
+Daten zweifach verschlüsselt sind (mit dem Betreiber:in- und dem
+Gesundheitsamt-Schlüssel), wird bei Teilen der Daten die Betreiber:in-
+Verschlüsselung aufgehoben. Das Gesundheitsamt erhält die immer noch mit dem
+Gesundheitsamt-Schlüssel verschlüsselten Daten und kann diese entschlüsseln.
+Damit kann nur das Gesundheitsamt die Klardaten einsehen. Die Betreiber:in ist
+für diese Verarbeitung verantwortlich und wir treten hierbei als
+Auftragsverarbeiter der Betreiber:in auf. 
+2. Datenkategorien 
+Wir verarbeiten folgende Kategorien von Daten, welche notwendig sind, um eine
+Kontaktnachverfolgung nach den im Zusammenhang mit der Bekämpfung von COVID
+Infektionen erlassenen Verordnungen der Länder zu gewährleisten bzw. zu
+erleichtern: 
+    * Kontaktdaten:Name, Vorname, Anschrift, Telefonnummer, E-Mail-Adresse. 
+    * Funktionale Daten:Datenzuordnungs-IDs, Schlüssel. 
+    * Aufenthaltsdaten:Name bzw. Bezeichnung der Betreiber:innen, bei denen Sie
+      sich aufgehalten haben, Datum, Beginn und Ende Ihres Aufenthalts sowie
+      die Adresse Ihres Aufenthaltsorts. 
+3. Besondere Kategorien personenbezogener Daten nach Art. 9 DSGVO 
+Bei der Übertragung Ihrer Besuchshistorie (wie in der Prozessbeschreibung
+dargestellt) an ein Gesundheitsamt liegt eine erhöhte Wahrscheinlichkeit vor,
+dass Sie infiziert sind. Da dies ggf. Rückschlüsse über Ihre Gesundheit
+zulassen kann, erfolgt diese Übertragung nur auf Grundlage Ihrer ausdrücklichen
+Einwilligung gemäß Art. 9 (2) a) iVm Art. 6 (1) 1 a) DSGVO. 
+Weitere sensible Daten (z. B. politische Meinungen, Religionszugehörigkeit,
+genetische oder biometrische Informationen) werden von uns grundsätzlich nicht
+verarbeitet. Wir bitten Sie, uns keine derartigen Daten durch unsere Dienste
+oder im Zusammenhang mit diesen offenzulegen. 
+4. Zwecke und Rechtsgrundlagen der Verarbeitungen 
+Wir werden Ihre personenbezogenen Daten nur zweckgebunden für die Unterstützung
+bei der Kontaktnachverfolgung im Rahmen der Bekämpfung der COVID-Pandemie und
+in diesem Rahmen der Verbesserung der Datenqualität entsprechend den
+aufgeführten Rechtsgrundlagen verarbeiten. Im Folgenden werden die hierfür
+vorgenommenen Verarbeitungen beschrieben und die jeweiligen Rechtsgrundlagen
+für die Verarbeitung Ihrer personenbezogenen Daten genannt.
+Ziff. Verarbeitung und ggf. ergänzender Zweck                                      Rechtsgrundlage                                                            Verantwortlicher 
+(1)   Bei Registrierung erheben und speichern wir Ihre Kontaktdatensowie             Art. 6 (1) 1 b) DSGVO:                                                     culture4life GmbH (wir) 
+       Funktionalen Daten                                                            Auf Grundlage der zwischen Ihnen und uns geltenden Nutzungsbedingungen für
+                                                                                      die luca Dienste 
+(2)   Bei der Registrierung verifizieren wir Ihre Telefonnummerdurch automatisierten Art. 6 (1) 1 b) DSGVO.                                                     culture4life GmbH (wir) 
+       SMS-Versand oder Anruf. Hierfür erfolgt die Übermittlung der Telefonnummer anAuf Grundlage der zwischen Ihnen und uns geltenden Nutzungsbedingungen für
+       die unter Abschnitt 5. bezeichneten SMS-Versanddienstleister:innen            die luca Dienste 
+(3)   Wenn Sie bei einer Betreiber:in einchecken, erhebt diese mittels luca Ihre     Die Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden Betreiber:innen 
+       Aufenthaltsdaten                                                              Grundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die        Wir verarbeiten die Daten auf Basis des
+                                                                                      gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG).Bei      Auftragsverarbeitungsvertrags zwischen
+                                                                                      freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.      der betreffenden Betreiber:in und uns. 
+(4)   Zugleich werden bei Ihrem Check-In Ihre Funktionalen Datenan Betreiber:innen   Art. 6 (1) 1 b) DSGVO:                                                     culture4life GmbH (wir) 
+       übermittelt, um die Verknüpfung zwischen Ihnen und Ihrem Aufenthalt zu       Auf Grundlage der zwischen Ihnen und uns geltenden Nutzungsbedingungen für
+       erstellen                                                                     die luca Dienste 
+(5)   Der Check-Out wird durch die Betreiber:in durchgeführt.                      Die Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden Betreiber:innen 
+                                                                                      Grundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die        Wir verarbeiten die Daten auf Basis des
+                                                                                      gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG). Bei     Auftragsverarbeitungsvertrags zwischen
+                                                                                      freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.       der betreffenden Betreiber:in und uns
+(6)   Sofern sich ein Gesundheitsamt mit der Bitte um das Teilen Ihrer               Art. 9 (2) a) iVm Art. 6 (1) 1 a) DSGVO:                                   culture4life GmbH (wir) 
+       Besuchshistorie bei ihnen meldet, können Sie dies freiwillig über die die    Ausdrückliche Einwilligung soweit etwaige sensible Daten an ein
+       Mitteilung der Seriennummer Ihres luca Schlüsselanhängers durchführen. Dann Gesundheitsamt übertragen werden (siehe auch Teil 3.) 
+       werden Ihre Kontaktdaten, Funktionalen Datensowie die Aufenthaltsdatender
+       letzten 14 Tage an das zuständige Gesundheitsamt übermittelt. 
+(7)   Eine durch Sie aufgesuchte Betreiber:in kann um Übermittlung der BesucherdatenDie Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden Betreiber:in 
+       für einen bestimmten Zeitraum von einem Gesundheitsamt angefragt werden. DabeiGrundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die        Wir verarbeiten die Daten auf Basis des
+       werden Ihre Kontaktdaten, Funktionalen Daten, Aufenthaltsdaten an das          gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG). Bei     Auftragsverarbeitungsvertrags zwischen
+       Gesundheitsamt übermittelt.                                                  freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.      der betreffenden Betreiber:in und uns. 
+ 
+5. Empfänger:innen personenbezogener Daten 
+Um die zuvor in dieser Datenschutzerklärung beschriebenen Zwecke zu erreichen,
+geben wir Ihre personenbezogenen Daten an folgende Emfänger:innen weiter, mit
+der Maßgabe, dass diese Daten in keiner anderen Weise als zur Erbringung von
+Dienstleistungen für uns verwenden dürfen (als sogenannte Auftragsverarbeiter
+im Sinne des Art. 28 DSGVO):
+ 
+Durch Anbieter erbrachte     Anbieter                              Verarbeitete Daten 
+Leistungen 
+Softwareentwicklung,         neXenio GmbH, Charlottenstr. 59, 10117 Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche
+Softwarewartungs- und        Berlin                                Eingabedaten, Temporäre Nutzungsdaten 
+Softwarebetriebsleistungen                                         (Die Verarbeitung beschränkt sich auf eine mögliche Einsichtnahme in die
+                                                                    gelisteten Daten im Rahmen der Durchführung der Softwarewartungs- und
+                                                                    Softwarebetriebsdienstleistungen) 
+IT-Infrastrukturleistungen   Deutsche Telekom AG, Landgrabenweg     Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche
+(Server)                    151, 53227 Bonn                       Eingabedaten, Temporäre Nutzungsdaten 
+                                                                    Server-Standort: Deutschland, Ungarn (Open Telekom Cloud) 
+IT-Infrastrukturleistungen  Bundesdruckerei Gruppe GmbH,           Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche
+                             Kommandantenstraße 18, 10969 Berlin  Eingabedaten, Temporäre Nutzungsdaten 
+                                                                    Server-Standort: Deutschland 
+SMS-Versandleistungen       Message Mobile GmbH, Stresemannstraße Telefonnummer 
+                             6, 21335 Lüneburg 
+SMS-Versandleistungen       Sinch Germany GmbH, Wilhelm-Wagenfeld- Telefonnummer 
+                             Str. 20, 80807 München 
+Es wurden Auftragsverarbeitungsverträge nach Art. 28 DSGVO mit diesen
+Empfänger:innen abgeschlossen. Diese können nur zweckgebunden und auf unsere
+Weisung Ihre Daten verarbeiten. 
+Wir können Ihre personenbezogenen Daten darüber hinaus an folgende Empfänger:
+innen weitergeben: 
+    * Betreiber:innen, mit denen wir kooperieren und deren Lokationen Sie unter
+      Nutzung der luca Schlüsselanhänger aufgesucht haben, 
+    * Gesundheitsämter, denen Sie Ihre Besuchshistorie freigeben bzw. falls Sie
+      als potentielle Kontaktperson zu einer infizierten Person qualifiziert
+      werden, um u. a. die Kontaktnachverfolgung nach den im Zusammenhang mit
+      der Bekämpfung von COVID-Infektionen erlassenen Verordnungen der Länder
+      zu ermöglichen. 
+6. Dauer der Speicherung personenbezogener Daten 
+Ihre personenbezogenen Daten werden nach Ablauf der nachfolgend beschriebenen
+Fristen automatisch gelöscht: 
+    * Kontaktdaten und Funktionale Daten:
+      – Eine Löschung Ihrer Kontaktdaten eines luca Schlüsselanhängers können
+      wir für Sie durchführen, wenn Sie uns die Seriennummer Ihres luca
+      Schlüsselanhängers mitteilen. Kontaktieren Sie dazu bitte unseren
+      Datenschutzbeauftragten unter privacy@culture4life.de. Bitte beachten
+      Sie, dass wir regelmäßig eine Identitätsprüfung vor Ausführung Ihrer
+      Löschanfrage durchführen müssen. Nach Beauftragung der Löschung
+      verbleiben Ihre Daten noch bis zu 28 Tagen in dem luca-System. Dies ist
+      notwendig, um einer etwaigen gesetzlichen Anforderung der
+      Kontaktnachverfolgung durch Bereitstellen der Aufenthaltsdaten und damit
+      auch der Kontaktdaten der letzten 28 Tage durch Betreiber:innen gerecht
+      zu werden. Innerhalb dieser Zeit können Sie noch von einem Gesundheitsamt
+      benachrichtigt werden.
+      – Bei Verlust des luca Schlüsselanhängers und sofern Sie uns die
+      Seriennummer nicht nennen können, sind wir nicht in der Lage, Ihnen Ihre
+      verschlüsselt bei uns hinterlegten personenbezogenen Daten zuzuordnen und
+      können diese damit nicht löschen. 
+      – Ihre Funktionalen Daten, die durch das Einchecken bei einer Betreiber:
+      in verschlüsselt hinterlegt wurden, werden automatisch nach 28 Tagen
+      gelöscht. 
+    * Aufenthaltsdaten:
+      Ihre Aufenthaltsdaten und Eingabedaten, die durch bzw. im Zusammenhang
+      mit dem Einchecken bei einer Betreiber:in generiert werden, werden gemäß
+      den Corona/COVID Infektionsschutzverordnungen nach 28 Tagen gelöscht. 
+    * Zusätzlich zur Verifikation verarbeitete Telefonnummer:
+      Ihre Telefonnummer wird von unseren Unterauftragnehmern Message Mobile
+      GmbH und der Deutsche Telekom AG ausschließlich zur Verifizierung
+      verarbeitet. Diese wird bis zu 45 Tagen in deren Produktivdatenbanken,
+      bzw. bis zu 60 Tagen in deren Archivdatenbanken gespeichert. Eine
+      darüberhinausgehende Speicherung erfolgt nicht. 
+ 
+D. RECHTE DER BETROFFENEN PERSONEN 
+Hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten haben Sie folgende
+in der DSGVO vorgesehene Rechte, die Sie für alle Verarbeitungen, für die wir
+verantwortlich sind (s. Teil C.), uns gegenüber geltend machen können: 
+    * Das Recht, eine Aussage darüber zu verlangen, ob Ihre personenbezogenen
+      Daten verarbeitet werden und, sofern dies der Fall ist, das Recht auf
+      Auskunft über diese Daten. Diese Auskunft umfasst unter anderem die
+      Verarbeitungszwecke, die Kategorien verarbeiteter personenbezogener Daten
+      und die Empfänger:innen oder Kategorien der Empfänger:innen, denen die
+      personenbezogenen Daten offengelegt worden sind oder noch offengelegt
+      werden (Art. 15 DSGVO). Wir speichern Ihre Daten ausschließlich
+      verschlüsselt und besitzen selbst nicht die zur Entschlüsselung
+      notwendigen Schlüssel. Wir können Ihnen jedoch eine Auskunft darüber,
+      welche Kontaktdaten und Aufenthaltsdaten wir von Ihnen gespeichert haben,
+      geben, sofern Sie uns die Seriennummer Ihres luca Schlüsselanhängers
+      mitteilen. Daher können wir nicht nachverfolgen, ob personenbezogene
+      Daten einer bestimmten Person im luca System verarbeitet werden. 
+    * Das Recht, die Berichtigung Ihrer personenbezogenen Daten zu verlangen,
+      sofern diese unrichtig oder unvollständig sind (Art. 16 DSGVO). Wir
+      können eine Korrektur Ihrer Kontaktdaten, die wir von Ihnen gespeichert
+      haben, vornehmen, sofern Sie uns die Seriennummer Ihres luca
+      Schlüsselanhängers mitteilen. Ihre Historie kann von uns nicht berichtigt
+      werden. Sie können bei Bedarf selbstverständlich Ihre Historie bei der
+      Anfrage des Gesundheitsamts diesem gegenüber richtigstellen. 
+    * Das Recht, unter bestimmten Voraussetzungen zu verlangen, dass Ihre
+      personenbezogenen Daten unverzüglich gelöscht werden (sog. „Recht auf
+      Vergessenwerden“) (Art. 17 DSGVO). Wir können Ihre bei uns hinterlegten
+      Kontaktdaten für Sie löschen, sofern Sie uns die Seriennummer Ihres luca
+      Schlüsselanhängers mitteilen. Die Aufenthaltsdaten können wir nicht
+      löschen, sie verbleiben im luca System für jeweils 28 Tage. Dies ist
+      notwendig, um einer etwaigen gesetzlichen Anforderung der
+      Kontaktnachverfolgung durch Bereitstellen der Aufenthaltsdaten und damit
+      auch der Kontaktdaten der letzten 28 Tage durch Betreiber:innen gerecht
+      zu werden. Sofern wir Daten über Sie auf anderem Wege als über den
+      Schlüsselanhänger erlangt haben (z. B. weil Sie uns in anderem
+      Zusammenhang kontaktiert haben), werden wir diese Daten entsprechend
+      Ihrer Anfrage löschen, sofern nicht berechtigtes Interesse oder
+      gesetzliche Aufbewahrungsfristen dem entgegenstehen. 
+    * Das Recht, unter bestimmten Voraussetzungen die Einschränkung der
+      Verarbeitung Ihrer personenbezogenen Daten zu verlangen (Art. 18 DSGVO).
+      Da die Verarbeitungen im luca System infolge der Nutzung des luca
+      Schlüsselanhängers an die Erfordernisse der Kontaktnachverfolgung
+      angepasst sind, ist eine Einschränkung der Verarbeitungen nicht möglich. 
+    * Das Recht, eine hinsichtlich der Verarbeitung Ihrer personenbezogenen
+      Daten gegenüber uns erteilte Einwilligung für das Teilen Ihrer Historie
+      mit dem Gesundheitsamt jederzeit zu widerrufen. Ein solcher Widerruf
+      berührt nicht die Rechtmäßigkeit der Verarbeitung, die bis zu Ihrem
+      Widerruf erfolgt ist. Der Widerruf geht somit ins Leere, weil das
+      Gesundheitsamt nach Abruf der Daten Verantwortlicher für die weitere
+      Verarbeitung ist und auf gesetzlicher Grundlage handelt. 
+Bitte beachten Sie, dass wir Ihre personenbezogenen Daten grundsätzlich nicht
+in Form von Klardaten, sondern verschlüsselt verarbeiten, und wir daher in
+bestimmten Fällen nicht oder nur mit der Mitteilung 
+der Seriennummer Ihres Schlüsselanhängers in der Lage sein werden, einer
+entsprechenden Aufforderung durch Sie zur Gewährung der vorgenannten Rechte
+nachzukommen. 
+Zur Ausübung dieser Rechte gegenüber uns können Sie sich auch an unsere
+Datenschutzbeauftragte, unter den in Teil B dieser Datenschutzerklärung
+genannten Kontaktdaten wenden. 
+Ungeachtet der vorstehenden Rechte haben Sie das Recht, Beschwerde bei einer
+Aufsichtsbehörde für Datenschutz und Informationsfreiheit, beispielsweise bei
+der Berliner Beauftragten für Datenschutz und Informationsfreiheit einzulegen: 
+Berliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr.
+219, 10969 Berlin, Tel.: 030/13889-0, E-Mail: mailbox@datenschutz-berlin.de. 
+ 
+E. VERSION 
+Dies ist die aktuelle Fassung unserer Datenschutzerklärung (gültig ab dem
+08.07.2021). Wir behalten uns vor, diese Datenschutzerklärung anzupassen
+(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer
+Dienste). Aus diesem Grund empfiehlt es sich diese Datenschutzerklärung in
+regelmäßigen Abständen abzurufen. 
+hello@luca-app.de
+gesundheitsamt@luca-app.de
+presse@luca-app.de
+locations@luca-app.de
+culture4life GmbH
+Charlottenstraße 59
+10117 Berlin
+
+****** Datenschutzerklärung luca Kontaktformular ******
+Zuletzt überarbeitet und aktualisiert am 08. Juli 2021
+Wir, die culture4life GmbH („wir“ oder „uns“), sind zur Wahrung Ihrer
+datenschutzrechtlichen Belange im Zusammenhang mit Ihrer Nutzung unserer
+Dienste verpflichtet, und sind jederzeit bestrebt, die Sicherheit und
+Integrität Ihrer personenbezogenen Daten in Übereinstimmung mit dem anwendbarem
+Datenschutzrecht zu wahren. Hierfür verpflichten wir uns, Ihre
+personenbezogenen Daten ausschließlich zum Zwecke der Unterstützung bei der
+Kontaktnachverfolgung bzw. des Nachweises eines Testergebnisses, Impf- oder
+Genesenenausweises im Rahmen der Bekämpfung der COVID-Pandemie zu verarbeiten
+und nicht zu anderen Zwecken zu nutzen oder weiterzugeben. Andere Zwecke sind
+nur mit der Verarbeitung Ihrer Daten bei dem Besuch unserer Webseite gegeben,
+um einen sicheren Webauftritt zu gewährleisten, sowie bei der Bearbeitung Ihrer
+Anfragen (eben zu Zwecken dieser Bearbeitung). Diese geben wir im Folgenden
+explizit an.
+Personenbezogene Daten sind alle Informationen, die sich auf eine
+identifizierte oder identifizierbare natürliche Person beziehen. So stellen Ihr
+Name, Ihre E-Mail-Adresse, Ihre Aufenthaltsdaten, aber auch Ihre IP-Adresse
+personenbezogene Daten dar, für deren Verarbeitung die
+Datenschutzgrundverordnung (im Folgenden DSGVO) enge Grenzen setzt. Selbst wenn
+diese Daten, etwa durch Verschlüsselung pseudonymisiert werden (d.h. Ihnen
+nicht sofort, sondern nur durch eine Kombination von Daten und Schlüsseln
+zugeordnet werden können), sind diese datenschutzrechtlich ebenso zu schützen
+und wie Klardaten zu behandeln. Die Vorgaben der DSGVO zum Umgang mit diesen
+Daten treffen vor allem den Verantwortlichen, also denjenigen, der die Daten
+erhebt und verarbeitet. Sofern der Verantwortliche die Daten zur Erbringung
+einer Leistung an Dienstleister weitergibt, so muss dies Ihnen als Betroffenen
+gegenüber transparent gemacht werden. Der jeweilige Dienstleister muss dabei an
+dieselben Standards wie der Verantwortliche gebunden und von diesem
+kontrolliert werden.
+Das Kontaktformular zur digitalen Kontaktdatennachverfolgung wird Ihnen von den
+durch Sie besuchten Gastronomen:innen, Einzelhandelsgeschäften, Veranstalter:
+innen und sonstigen Betreiber:innen (im Folgenden insgesamt „Betreiber:innen“)
+bereit gestellt. Wenn Sie das Kontaktformular ausfüllen bzw. bei einer
+Betreiber:in einchecken), werden Ihre Kontaktdaten erhoben sowie die
+Aufenthaltsdaten ermittelt. Diese Daten werden durch die Schlüssel der
+Gesundheitsämter und der Betreiber:in verschlüsselt. Die Betreiber:in erhebt
+diese Daten und für diese Verarbeitung verantwortlich und wir treten hierbei
+als Auftragsverarbeiter der Betreiber:in auf und sind durch entsprechende
+Verträge mit den Betreiber:innen zur Wahrung der Datenschutzanforderungen
+verpflichtet.
+Wir sind überzeugt, dass die Verschlüsselung zum Schutz Ihrer personenbezogenen
+Daten beiträgt, da diese somit nur durch Sie und bei Bedarf durch das
+zuständige Gesundheitsamt in ihrer Klarform einsehbar sind. Im Folgenden
+beschreiben wir konkret, welche Daten wir auf welcher Grundlage und zu welchen
+Zwecken erheben und verarbeiten, an welche Dienstleister wir diese weitergeben
+und welche Rechte Ihnen in Bezug auf Ihre Daten zustehen.
+ 
+A. VERANTWORTLICHER luca System
+Der/die für die Verarbeitung personenbezogener Daten, die von uns direkt
+erhoben werden, Verantwortliche ist: 
+culture4life GmbH
+Charlottenstraße 59
+10117 Berlin
+Deutschland
+info@culture4life.de 
+ 
+B. KONTAKTDATEN UNSERES DATENSCHUTZBEAUFTRAGTEN 
+Unseren Datenschutzbeauftragten erreichen Sie wie folgt: 
+culture4life GmbH
+Datenschutzbeauftragter
+Charlottenstraße 59
+10117 Berlin
+Deutschland
+privacy@culture4life.de 
+C. ERHEBUNG UND VERARBEITUNG bei der Nutzung des luca Kontaktformulars 
+Das luca Kontaktformular unterscheidet sich wesentlich von den anderen luca
+Diensten. Es stellt im Grunde eine digitale Alternative zum herkömmlichen
+papierhaften Formular bei Betreiber:innen dar. 
+1. Prozessbeschreibung
+Erfassung der Daten zu Beginn Ihres Aufenthalts:
+Wenn Sie bei einer Betreiber:in einchecken möchten, kann diese Ihnen anbieten,
+das digitale luca Kontaktformular zu nutzen, statt die Angaben auf einem
+gedruckten Kontaktformular der Betreiber:in zu machen. Nach Eingabe Ihrer
+Kontaktdaten werden diese mit einer zweifachen Verschlüsselung (mit einem
+Schlüssel der Gesundheitsämter und mit einem Schlüssel der Betreiber:in)
+versehen. Weder die Betreiber:innen, noch wir können Ihre Kontakt- und
+Aufenthaltsdaten entschlüsseln. Die verschlüsselten Daten werden an das luca-
+System übertragen und auf den Servern unserer Dienstleister (siehe Abschnitt
+5.) innerhalb des EU-Raums gespeichert. 
+Erfassung der Daten bei Beendigung Ihres Aufenthalts:
+Nachdem Sie sich erfolgreich eingecheckt haben, checkt die Betreiber:in Sie
+nach einer gewissen Dauer aus, spätestens bei Schließung der Veranstaltung bzw.
+der Räumlichkeiten. 
+Übermittlung der Kontaktnachverfolgungsdaten durch die Betreiber:innen an das
+zuständige Gesundheitsamt:
+Das Gesundheitsamt kann eine Betreiber:in anfragen, um zu erfahren welche
+Personen sich zu einem bestimmten Zeitpunkt in der Lokation aufgehalten haben.
+Die Betreiber:in kann dann über ihr luca Profil die angefragten Daten an das
+Gesundheitsamt übermitteln. Da die Daten zweifach verschlüsselt sind (mit dem
+Betreiber:in- und dem Gesundheitsamt-Schlüssel), wird bei Teilen der Daten die
+Betreiber:in-Verschlüsselung aufgehoben. Das Gesundheitsamt erhält die immer
+noch mit dem Gesundheitsamt-Schlüssel verschlüsselten Daten und kann diese
+entschlüsseln. Damit kann nur das Gesundheitsamt die Klardaten einsehen. Die
+Betreiber:in ist für diese Verarbeitung verantwortlich und wir treten hierbei
+als Auftragsverarbeiter der Betreiber:in auf. 
+2. Datenkategorien 
+Wir verarbeiten folgende Kategorien von Daten, welche notwendig sind, um eine
+Kontaktnachverfolgung nach den im Zusammenhang mit der Bekämpfung von COVID
+Infektionen erlassenen Verordnungen der Länder zu gewährleisten bzw. zu
+erleichtern: 
+    *  Kontaktdaten:Name, Vorname, Anschrift, Telefonnummer, E-Mail-Adresse. 
+    * Aufenthaltsdaten:Name bzw. Bezeichnung der Betreiber:innen, bei denen Sie
+      sich aufgehalten haben, Datum, Beginn und Ende Ihres Aufenthalts sowie
+      die Adresse Ihres Aufenthaltsorts. 
+    * Zusätzliche Eingabedaten:Sonstige Informationen, die Sie durch
+      Eingabefelder in unseren Diensten einreichen und die sich jeweils auf Sie
+      beziehen, wie z. B. Notizen, die Sie in die Freitextfelder unserer
+      Dienste eintragen. 
+3. Zwecke und Rechtsgrundlagen der Verarbeitungen 
+Wir werden Ihre personenbezogenen Daten nur zweckgebunden für die Unterstützung
+bei der Kontaktnachverfolgung im Rahmen der Bekämpfung der COVID-Pandemie und
+in diesem Rahmen der Verbesserung der Datenqualität entsprechend den
+aufgeführten Rechtsgrundlagen verarbeiten. Im Folgenden werden die hierfür
+vorgenommenen Verarbeitungen beschrieben und die jeweiligen Rechtsgrundlagen
+für die Verarbeitung Ihrer personenbezogenen Daten genannt.
+Ziff. Verarbeitung und ggf. ergänzender Zweck                                 Rechtsgrundlage                                                              Verantwortlicher 
+(1)   Wenn Sie bei einer Betreiber:in einchecken und dafür das Kontaktformular Die Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden   Betreiber:innen 
+       verwenden, erhebt diese mittels luca Ihre Kontaktdaten,                   Grundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die          Wir verarbeiten die Daten auf Basis des
+       Aufenthaltsdatensowie ggf. Zusätzliche Eingabedaten                     jeweilige gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG). Auftragsverarbeitungsvertrags zwischen
+                                                                                 Bei freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.    der betreffenden Betreiber:in und uns. 
+(2)   Der Check-Out wird durch die Betreiber:in durchgeführt.                 Die Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden   Betreiber:innen 
+                                                                                 Grundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die          Wir verarbeiten die Daten auf Basis des
+                                                                                 jeweilige gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG)..Auftragsverarbeitungsvertrags zwischen
+                                                                                 Bei freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.    der betreffenden Betreiber:in und uns. 
+(3)   Eine durch Sie aufgesuchte Betreiber:in kann um Übermittlung der         Die Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden   Betreiber:in 
+       Besucherdaten für einen bestimmten Zeitraum von einem Gesundheitsamt     Grundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die          Wir verarbeiten die Daten auf Basis des
+       angefragt werden. Dabei werden Ihre Kontaktdaten, Funktionalen Daten,     jeweilige gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG). Auftragsverarbeitungsvertrags zwischen
+       Aufenthaltsdatenund ggf. Zusätzliche Eingabedatenan das Gesundheitsamt   Bei freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.     der betreffenden Betreiber:in und uns. 
+       übermittelt.
+ 
+5. Empfänger:innen personenbezogener Daten 
+Um die zuvor in dieser Datenschutzerklärung beschriebenen Zwecke zu erreichen,
+geben wir Ihre personenbezogenen Daten an folgende Empfänger:innen weiter, mit
+der Maßgabe, dass diese Ihre personenbezogenen Daten in keiner anderen Weise
+als zur Erbringung von Dienstleistungen für uns verwenden dürfen (als
+sogenannte Auftragsverarbeiter im Sinne des Art. 28 DSGVO): 
+Durch Anbieter erbrachte     Anbieter                                                 Verarbeitete Daten 
+Leistungen 
+Softwareentwicklung,         neXenio GmbH, Charlottenstr. 59, 10117 Berlin            Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche
+Softwarewartungs- und                                                                  Eingabedaten, Temporäre Nutzungsdaten 
+Softwarebetriebsleistungen                                                            (Die Verarbeitung beschränkt sich auf eine mögliche Einsichtnahme in die
+                                                                                       gelisteten Daten im Rahmen der Durchführung der Softwarewartungs- und
+                                                                                       Softwarebetriebsdienstleistungen) 
+IT-Infrastrukturleistungen   Deutsche Telekom AG, Landgrabenweg 151, 53227 Bonn       Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche
+(Server)                                                                              Eingabedaten, Temporäre Nutzungsdaten 
+                                                                                       Server-Standort: Deutschland, Ungarn (Open Telekom Cloud) 
+IT-Infrastrukturleistungen  Bundesdruckerei Gruppe GmbH, Kommandantenstraße 18, 10969Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche
+                             Berlin                                                   Eingabedaten, Temporäre Nutzungsdaten 
+                                                                                       Server-Standort: Deutschland 
+SMS-Versandleistungen       Message Mobile GmbH, Stresemannstraße 6, 21335 Lüneburg Telefonnummer 
+                             Sinch Germany GmbH, Wilhelm-Wagenfeld-Str. 20, 80807
+                             München
+Es wurden Auftragsverarbeitungsverträge nach Art. 28 DSGVO mit diesen
+Empfänger:innen abgeschlossen. Diese können nur zweckgebunden und auf unsere
+Weisung Ihre Daten verarbeiten. 
+6. Dauer der Speicherung personenbezogener Daten 
+Ihre personenbezogenen Daten werden nach Ablauf der nachfolgend beschriebenen
+Fristen automatisch gelöscht: 
+    * Kontaktdaten, Aufenthaltsdaten und Zusätzliche Eingabedaten:Ihre
+      Kontaktdaten, Aufenthaltsdaten und Eingabedaten, die durch bzw. im
+      Zusammenhang mit dem Einchecken bei einer Betreiber:in generiert werden,
+      werden gemäß den Corona/COVID Infektionsschutzverordnungen nach 4 Wochen
+      gelöscht.
+D. RECHTE DER BETROFFENEN PERSONEN 
+Hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten haben Sie folgende
+in der DSGVO vorgesehenen Rechte, die Sie für alle Verarbeitungen, für die wir
+verantwortlich sind (s. Teil C.), uns gegenüber geltend machen können: 
+    * Das Recht, eine Aussage darüber zu verlangen, ob Ihre personenbezogenen
+      Daten verarbeitet werden und, sofern dies der Fall ist, das Recht auf
+      Auskunft über diese Daten. Diese Auskunft umfasst unter anderem die
+      Verarbeitungszwecke, die Kategorien verarbeiteter personenbezogener Daten
+      und die Empfänger:innen oder Kategorien der Empfänger:innen, denen die
+      personenbezogenen Daten offengelegt worden sind oder noch offengelegt
+      werden (Art. 15 DSGVO). Wir speichern Ihre Daten ausschließlich
+      verschlüsselt und besitzen selbst nicht die zur Entschlüsselung
+      notwendigen Schlüssel. Daher können wir nicht nachverfolgen, ob
+      personenbezogene Daten einer bestimmten Person im luca System verarbeitet
+      werden. Anders gestaltet sich dies bei Daten, die wir durch Ihre eigene
+      Kontaktaufnahme (z. B. bei Supportanfragen) bei uns als Klardaten von
+      Ihnen erhalten. In Bezug auf diese werden wir Ihnen auf Anfrage gerne die
+      Auskunft erteilen. 
+    * Das Recht, die Berichtigung Ihrer personenbezogenen Daten zu verlangen,
+      sofern diese unrichtig oder unvollständig sind (Art. 16 DSGVO). Aufgrund
+      der Verschlüsselung ist es weder der Betreiber:in noch uns möglich Ihre
+      Daten zu ändern. Wir selbst könne Ihre Anfrage nur im Hinblick auf Daten
+      bearbeiten, die wir von Ihnen als Klardaten erhalten (z. B. durch eine
+      direkte Kontaktaufnahme durch Sie mit uns). 
+    * Das Recht, unter bestimmten Voraussetzungen zu verlangen, dass Ihre
+      personenbezogenen Daten unverzüglich gelöscht werden (sog. „Recht auf
+      Vergessenwerden“) (Art. 17 DSGVO).
+      Ihre Kontaktdaten, Aufenthaltsdaten und Eingabedaten werden gemäß den
+      Corona/COVID Infektionsschutzverordnungen nach 4 Wochen automatisch
+      gelöscht. Eine vorherige Löschung dieser Daten ist aufgrund der
+      gesetzlichen Frist nicht gegeben. Wir selbst sowie die Betreiber:innen
+      können die Löschung für Sie nicht ausführen. Sofern wir Daten über Sie
+      gespeichert haben (z.B. weil Sie uns in anderem Zusammenhang kontaktiert
+      haben), die wir Ihnen zuordnen können oder die nicht auf den Eingaben von
+      Ihnen innerhalb des luca Kontaktformulars hinterlegten Informationen
+      beruhen, werden wir diese Daten entsprechend Ihrer Anfrage löschen,
+      sofern nicht berechtigtes Interesse oder gesetzliche Aufbewahrungsfristen
+      dem entgegenstehen. 
+    * Das Recht, unter bestimmten Voraussetzungen die Einschränkung der
+      Verarbeitung Ihrer personenbezogenen Daten zu verlangen (Art. 18 DSGVO).
+      Auch dieses Recht können wir aufgrund der Verschlüsselung und da uns
+      selbst die zur Entschlüsselung notwendigen Schlüssel nicht vorliegen, nur
+      in Bezug auf die durch Sie übermittelten Klardaten erfüllen. 
+Bitte beachten Sie, dass wir Ihre personenbezogenen Daten grundsätzlich nicht
+in Form von Klardaten, sondern verschlüsselt verarbeiten, und wir daher in
+bestimmten Fällen nicht in der Lage sein werden, einer entsprechenden
+Aufforderung durch Sie zur Gewährung der vorgenannten Rechte nachzukommen. 
+Zur Ausübung dieser Rechte gegenüber uns können Sie sich auch an unsere
+Datenschutzbeauftragte, unter den in Teil B dieser Datenschutzerklärung
+genannten Kontaktdaten wenden. 
+Ungeachtet der vorstehenden Rechte haben Sie das Recht, Beschwerde bei einer
+Aufsichtsbehörde für Datenschutz und Informationsfreiheit, beispielsweise bei
+der Berliner Beauftragten für Datenschutz und Informationsfreiheit einzulegen: 
+Berliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr.
+219, 10969 Berlin, Tel.: 030/13889-0, E-Mail: mailbox@datenschutz-berlin.de. 
+E. VERSION 
+Dies ist die aktuelle Fassung unserer Datenschutzerklärung (gültig ab dem
+08.07.2021). Wir behalten uns vor, diese Datenschutzerklärung anzupassen
+(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer
+Dienste). Aus diesem Grund empfiehlt es sich diese Datenschutzerklärung in
+regelmäßigen Abständen abzurufen. 
+hello@luca-app.de
+gesundheitsamt@luca-app.de
+presse@luca-app.de
+locations@luca-app.de
+culture4life GmbH
+Charlottenstraße 59
+10117 Berlin
+
+****** Datenschutzerklärung luca Webapp ******
+Zuletzt überarbeitet und aktualisiert am 08. Juli 2021
+ Wir, die culture4life GmbH („wir“ oder „uns“), sind zur Wahrung Ihrer
+datenschutzrechtlichen Belange im Zusammenhang mit Ihrer Nutzung unserer
+Dienste verpflichtet, und sind jederzeit bestrebt, die Sicherheit und
+Integrität Ihrer personenbezogenen Daten in Übereinstimmung mit dem anwendbarem
+Datenschutzrecht zu wahren. Hierfür verpflichten wir uns, Ihre
+personenbezogenen Daten ausschließlich zum Zwecke der Unterstützung bei der
+Kontaktnachverfolgung bzw. des Nachweises eines Testergebnisses, Impf- oder
+Genesenenausweises im Rahmen der Bekämpfung der COVID-Pandemie zu verarbeiten
+und nicht zu anderen Zwecken zu nutzen oder weiterzugeben. Andere Zwecke sind
+nur mit der Verarbeitung Ihrer Daten bei dem Besuch unserer Webseite gegeben,
+um einen sicheren Webauftritt zu gewährleisten, sowie bei der Bearbeitung Ihrer
+Anfragen (eben zu Zwecken dieser Bearbeitung). Diese geben wir im Folgenden
+explizit an. 
+Personenbezogene Daten sind alle Informationen, die sich auf eine
+identifizierte oder identifizierbare natürliche Person beziehen. So stellen Ihr
+Name, Ihre E-Mail-Adresse, Ihre Aufenthaltsdaten, aber auch Ihre IP-Adresse
+personenbezogene Daten dar, für deren Verarbeitung die
+Datenschutzgrundverordnung (im Folgenden DSGVO) enge Grenzen setzt. Selbst wenn
+diese Daten, etwa durch Verschlüsselung pseudonymisiert werden (d.h. Ihnen
+nicht sofort, sondern nur durch eine Kombination von Daten und Schlüsseln
+zugeordnet werden können), sind diese datenschutzrechtlich ebenso zu schützen
+und wie Klardaten zu behandeln. Die Vorgaben der DSGVO zum Umgang mit diesen
+Daten treffen vor allem den Verantwortlichen, also denjenigen, der die Daten
+erhebt und verarbeitet. Sofern der Verantwortliche die Daten zur Erbringung
+einer Leistung an Dienstleister weitergibt, so muss dies Ihnen als Betroffenen
+gegenüber transparent gemacht werden. Der jeweilige Dienstleister muss dabei an
+dieselben Standards wie der Verantwortliche gebunden und von diesem
+kontrolliert werden. 
+Wir sind direkt verantwortlich für die Verarbeitung der personenbezogenen
+Daten, die Sie bei der Registrierung in der luca App, der luca Webapp oder bei
+der Registrierung des luca Schlüsselanhängers (im Folgenden insgesamt „luca
+Dienstleistungen“) eingeben. Wir sehen die Angaben, die Sie bei der
+Registrierung und der Nutzung der luca Dienstleistungen machen nicht als
+Klardaten, anders als Sie selbst in Ihrer Ansicht auf dem benutzten Gerät. Uns
+liegen Ihre personenbezogenen Daten nur in verschlüsselter Form vor. 
+Ihre Aufenthaltsdaten werden nicht von uns, sondern von den durch Sie besuchten
+Gastronomen:innen, Einzelhandelsgeschäften, Veranstalter:innen und sonstigen
+Betreiber:innen (im Folgenden insgesamt „Betreiber:innen“) erhoben. Dies
+geschieht indem diese Ihren QR-Code scannen oder Sie den QR-Code der Betreiber:
+in. Wenn Sie sich bei einer Betreiber:in einchecken (d.h. den Zeitraum Ihres
+Aufenthalts bei einer Betreiber:in erfassen) wird Ihr eigener Nutzer-Schlüssel
+(der Ihre Kontaktdaten verschlüsselt) mit dem Schlüssel eines zuständigen
+Gesundheitsamtes verschlüsselt. Die Betreiber:in verschlüsselt mit ihrem
+eigenen Schlüssel wiederum diese Daten und legt sie im luca System ab. Die
+Betreiber:in ist für diese Verarbeitung verantwortlich und wir treten hierbei
+als Auftragsverarbeiter der Betreiber:in auf und sind durch entsprechende
+Verträge mit den Betreiber:innen zur Wahrung der Datenschutzanforderungen
+verpflichtet. 
+Wir sind überzeugt, dass die Verschlüsselung zum Schutz Ihrer personenbezogenen
+Daten beiträgt, da diese somit nur durch Sie und bei Bedarf durch das
+zuständige Gesundheitsamt in ihrer Klarform einsehbar sind. Im Folgenden
+beschreiben wir konkret, welche Daten wir auf welcher Grundlage und zu welchen
+Zwecken erheben und verarbeiten, an welche Dienstleister wir diese weitergeben
+und welche Rechte Ihnen in Bezug auf Ihre Daten zustehen. 
+ 
+A. VERANTWORTLICHER luca System 
+Der für die Verarbeitung personenbezogener Daten, die von uns direkt erhoben
+werden, Verantwortliche ist: 
+culture4life GmbH
+Charlottenstraße 59
+10117 Berlin
+Deutschland
+info@culture4life.de 
+ 
+B. KONTAKTDATEN UNSERES DATENSCHUTZBEAUFTRAGTEN 
+Unseren Datenschutzbeauftragten erreichen Sie wie folgt: 
+culture4life GmbH
+Datenschutzbeauftragter
+Charlottenstraße 59
+10117 Berlin
+Deutschland
+privacy@culture4life.de 
+ 
+C. ERHEBUNG UND VERARBEITUNG bei der Nutzung der luca Webapp 
+1. Prozessbeschreibung 
+Die luca Webapp ist die Alternative zur luca App für Nutzer:innen, die die
+Nutzung über einen Browser bevorzugen. Sie enthält jedoch nicht alle Features
+der luca App. So ist der automatische Check-Out mittels Geo-Fencing nicht
+möglich, ebenso wie das Hinterlegen von Test-, Genesenen- und Impfdokumenten.
+Sie finden die luca Webapp unter diesemLink.Nach Eingabe Ihrer Kontaktdaten und
+erfolgreicher Verifizierung Ihrer Telefonnummer wird für Sie ein individueller
+Schlüssel generiert. Dieser wird zur Verschlüsselung Ihrer Kontaktdaten
+verwendet. Dieser Schlüssel verbleibt bis zu Ihrem ersten Check-In
+ausschließlich lokal auf Ihrem eigenen Endgerät. Die verschlüsselten Daten
+werden an das luca-System übertragen und auf den Servern unserer Dienstleister
+(siehe Abschnitt 5.) innerhalb des EU-Raums gespeichert. 
+Erfassung der Daten zu Beginn Ihres Aufenthalts:Nun können Sie sich bei Ihren
+Lieblings-Lokalitäten einchecken. Dabei wird der Zeitraum Ihres Aufenthalts bei
+einer Betreiber:in durch Scannen des QR-Codes erfasst. In diesem Zusammenhang
+wird Ihr persönlicher Schlüssel (mit dem Ihre Kontaktdaten im Zuge der
+Registrierung verschlüsselt wurden) mit dem Schlüssel der Gesundheitsämter
+verschlüsselt. Die Betreiber:in verschlüsselt mit ihrem eigenen Schlüssel
+wiederum diese Daten. Ihre Kontaktdaten sind somit mit Ihrem Nutzer-Schlüssel
+verschlüsselt und dieser Schlüssel wird bei jedem Check-In sowohl durch das
+zuständige Gesundheitsamt als auch durch die Betreiber:innen verschlüsselt und
+damit in zweifach verschlüsselter Form im luca System abgelegt. Weder die
+Betreiber:innen noch wir können die verschlüsselten Daten in ihrer Klarform
+einsehen und Ihnen als Person zuordnen. Lediglich das zuständige Gesundheitsamt
+wird im Nachverfolgungsfall in der Lage sein, die Daten zu entschlüsseln.
+Sofern Sie sich dafür entscheiden, den QR-Code der Betreiber:in zu scannen, ist
+das Einschalten der Kamera des Smartphones erforderlich. Gespeichert wird nur
+die Aufnahme des QR-Codes. 
+Die Betreiber:in ist für diese Verarbeitung verantwortlich und wir treten
+hierbei als Auftragsverarbeiter der Betreiber:in auf. 
+Erfassung der Daten bei Beendigung Ihres Aufenthalts:Nachdem Sie sich
+erfolgreich eingecheckt haben und den Aufenthalt beenden möchten, können Sie
+sich manuell in der Webapp auschecken. Falls Sie den Check-Out vergessen, hat
+die Betreiber:in die Möglichkeit Sie auszuchecken. 
+Erfassung der Daten bei privaten Veranstaltungen:Sie können ebenfalls eigene
+private Veranstaltungen erstellen und bei solchen einchecken, etwa wenn Sie
+eine Geburtstagsfeier zu Hause veranstalten. Beim Einchecken bei solchen
+privaten Veranstaltungen erhält die private Gastgeber:in Ihren Vor- und
+Nachnamen. Sie sehen zwar diesen Aufenthaltsort in Ihrer Historie, diese
+privaten Ereignisse werden aber nicht mit dem Gesundheitsamt geteilt. 
+Optionales Teilen der Historie mit dem zuständigen Gesundheitsamt im Falle
+einer Infektion:Kontaktiert Sie ein Gesundheitsamt und bittet Sie um Mitteilung
+Ihrer letzten Aufenthalte, können Sie dies bequem über Ihre luca Webapp
+durchführen. Hierfür wählen Sie die Funktion „Historie freigeben“. Sodann
+generieren Sie eine sogenannte TAN (d.h. eine Transaktionsnummer, die zur
+Autorisierung verwendet wird und nur zur einmaligen Verwendung gültig ist).
+Hierbei werden die Aufenthaltsdaten der letzten 14 Tage und Ihr persönlicher
+Schlüssel an das Gesundheitsamt übertragen. All diese Daten werden für die
+Übertragung mit dem Gesundheitsamt-Schlüssel verschlüsselt. Sobald Sie dem
+Gesundheitsamt Ihre TAN nennen, kann dieses Datenpaket durch das Gesundheitsamt
+zugeordnet und daraufhin entschlüsselt werden. 
+Dies geschieht ausdrücklich durch Ihre Einwilligung und aktives Zutun durch
+Mitteilen der TAN. Nach Mitteilung Ihrer TAN geht der Widerruf dieser
+Einwilligung (sehen Sie hierzu auch unten 
+Abschnitt D.) ins Leere, weil das Gesundheitsamt nach Abruf der Daten
+Verantwortlicher für die weitere Verarbeitung ist und auf gesetzlicher
+Grundlage handelt. 
+Übermittlung der Kontaktnachverfolgungsdaten durch die Betreiber:innen an das
+zuständige Gesundheitsamt:Das Gesundheitsamt kann auf Basis Ihrer Historie die
+betroffenen Betreiber:innen zuordnen und kontaktieren, um zu erfahren, welche
+weiteren Personen sich zum betreffenden Zeitpunkt ebenfalls in der Lokation
+(d.h. im räumlichen Bereich der Betreiber:in) aufgehalten haben. Die Betreiber:
+in kann dann über Ihr luca Profil die angefragten Daten an das Gesundheitsamt
+übermitteln. Da die Daten zweifach verschlüsselt sind (mit dem Betreiber:in-
+und dem Gesundheitsamt-Schlüssel), wird bei Teilen der Daten die Betreiber:in-
+Verschlüsselung aufgehoben. Das Gesundheitsamt erhält die immer noch mit dem
+Gesundheitsamt-Schlüssel verschlüsselten Daten und kann diese entschlüsseln.
+Damit kann nur das Gesundheitsamt die Klardaten einsehen. Die Betreiber:in ist
+für diese Verarbeitung verantwortlich und wir treten hierbei als
+Auftragsverarbeiter der Betreiber:in auf. 
+ 
+2. Datenkategorien 
+Wir verarbeiten folgende Kategorien von Daten, welche notwendig sind, um eine
+Kontaktnachverfolgung nach den im Zusammenhang mit der Bekämpfung von COVID-
+Infektionen erlassenen Verordnungen der Länder zu gewährleisten bzw. zu
+erleichtern: 
+▪ Kontaktdaten:Name, Vorname, Anschrift, Telefonnummer, E-Mail-Adresse. 
+▪ Funktionale Daten:Datenzuordnungs-IDs, Schlüssel und QR-Codes. 
+▪ Aufenthaltsdaten:Name bzw. Bezeichnung der Betreiber:innen, bei denen Sie
+sich aufgehalten haben, Datum, Beginn und Ende Ihres Aufenthalts sowie die
+Adresse Ihres Aufenthaltsorts. 
+▪ Zusätzliche Eingabedaten:Sonstige Informationen, die Sie durch Eingabefelder
+in unseren Diensten einreichen und die sich jeweils auf Sie beziehen, wie z. B.
+Notizen, die Sie in die Freitextfelder unserer Dienste eintragen. 
+▪ Temporäre Nutzungsdaten:Daten, die bei der Nutzung der luca Webapp anfallen
+können, also IP-Adresse, IP-Standort, Art und Version des eingesetzten
+Endgeräts, des eingesetzten Browsersund installierter Browser Plug-
+Ins,Informationen zum genutzten mobilen Netzwerk, Zeitzonen-Einstellungen,
+Betriebssystem und Plattform. 
+ 
+3. Besondere KategorienpersonenbezogenerDaten nach Art. 9 DSGVO 
+Bei der Übertragung Ihrer Besuchshistorie (wie in der Prozessbeschreibung
+dargestellt) an ein Gesundheitsamt liegt eine erhöhte Wahrscheinlichkeit vor,
+dass Sie infiziert sind. Da dies ggf. Rückschlüsse über Ihre Gesundheit
+zulassen kann, erfolgt diese Übertragung nur auf Grundlage Ihrer ausdrücklichen
+Einwilligung gemäß Art. 9 (2) a) iVm Art. 6 (1) 1 a) DSGVO. 
+Weitere sensible Daten (z. B. politische Meinungen, Religionszugehörigkeit,
+genetische oder biometrische Informationen) werden von uns grundsätzlich nicht
+verarbeitet. Wir bitten Sie, uns keine derartigen Daten durch unsere Dienste
+oder im Zusammenhang mit diesen offenzulegen. 
+ 
+4. Zwecke und Rechtsgrundlagen der Verarbeitungen 
+Wir werden Ihre personenbezogenen Daten nur zweckgebunden für die Unterstützung
+bei der Kontaktnachverfolgung im Rahmen der Bekämpfung der COVID-Pandemie und
+in diesem Rahmen der Verbesserung der Datenqualität entsprechend den
+aufgeführten Rechtsgrundlagen verarbeiten. Im Folgenden werden die hierfür
+vorgenommenen Verarbeitungen beschrieben und die jeweiligen Rechtsgrundlagen
+für die Verarbeitung Ihrer personenbezogenen Daten genannt.
+ 
+Ziff. Verarbeitung und ggf. ergänzender Zweck                                      Rechtsgrundlage                                                            Verantwortliche:r 
+(1)   Bei Registrierung erheben und speichern wir Ihre Kontaktdatensowie             Art. 6 (1) 1 b) DSGVO:                                                     culture4life GmbH (wir) 
+       Funktionalen Daten                                                            Auf Grundlage der zwischen Ihnen und uns geltenden Nutzungsbedingungen für
+                                                                                      die luca Dienste 
+(2)   Bei der Registrierung verifizieren wir Ihre Telefonnummerdurch automatisierten Art. 6 (1) 1 b) DSGVO:                                                     culture4life GmbH (wir) 
+       SMS-Versand oder Anruf. Hierfür erfolgt die Übermittlung der Telefonnummer anAuf Grundlage der zwischen Ihnen und uns geltenden Nutzungsbedingungen für
+       die unter Abschnitt 5. bezeichneten SMS-Versanddienstleister:innen            die luca Dienste 
+(3)   Wenn Sie bei einer Betreiber:in einchecken, erhebt diese mittels luca Ihre     Die Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden Betreiber:innen 
+       Aufenthaltsdatensowie ggf. Zusätzliche Eingabedaten                          Grundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die        Wir verarbeiten die Daten auf Basis des
+                                                                                      gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG). Bei     Auftragsverarbeitungsvertrags zwischen
+                                                                                      freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.      der betreffenden Betreiber:in und uns. 
+(4)   Sofern Sie selbst den QR Code der Betreiber:in scannen möchten, um den Check- Art. 6 (1) 1 a) DSGVO:                                                     Betreiber:innen 
+       In durchzuführen, erfolgt dies unter Nutzung Ihrer Kamera. Nur der QR-Code    Einwilligung durch Einschalten der Kamerafunktion, ggf. nach Aufforderung   Wir verarbeiten die Daten auf Basis des
+       wird dabei                                                                    in der Webapp. Sie können die Einwilligung jederzeit für die Zukunft      Auftragsverarbeitungsvertrags zwischen
+                                                                                      widerrufen, indem Sie Ihre Kamera-Funktion ausschalten. (siehe auch Teil    der betreffenden Betreiber:in und uns.
+                                                                                      D.)
+(5)    Zugleich werden bei Ihrem Check-Ihre Funktionalen Datenan Betreiber:innen      Art. 6 (1) 1 b) DSGVO:                                                     culture4life GmbH (wir) 
+       übermittelt, um die Verknüpfung zwischen Ihnen und Ihrem Aufenthalt zu       Auf Grundlage der zwischen Ihnen und uns geltenden Nutzungsbedingungen für
+       erstellen                                                                     die luca Webapp 
+(6)   Den Check-Out können Sie manuell in Ihrer Webapp durchführen. Zudem kann Sie Die Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden Betreiber:innen 
+       die Betreiber:in auschecken.                                                  Grundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die        Wir verarbeiten die Daten auf Basis des
+                                                                                      gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG). Bei     Auftragsverarbeitungsvertrags zwischen
+                                                                                      freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.      der betreffenden Betreiber:in und uns. 
+(7)   Bei Registrierung sowie Nutzung der luca Webapp werden Temporäre              Art. 6 (1) 1 b) DSGVO:                                                     culture4life GmbH (wir) 
+       Nutzungsdatenerhoben und gespeichert. Zweck ist die Gewährleistung der        Auf Grundlage der zwischen Ihnen und uns geltenden Nutzungsbedingungen für
+       Sicherheit des luca Systemsund damit die Gewährleistung der                   die luca Webapp 
+       Leistungserbringung an Sie. 
+(8)    Sofern sich ein Gesundheitsamt mit der Bitte um das Teilen Ihrer               Art. 9 (2) a) iVm Art. 6 (1) 1 a) DSGVO:                                   culture4life GmbH (wir) 
+       Besuchshistorie bei Ihnen meldet, können Sie dies freiwillig über die luca   Ausdrückliche Einwilligung soweit etwaige sensible Daten an ein
+       Webapp durchführen. Dann werden Ihre Kontaktdaten, Funktionalen Datensowie dieGesundheitsamt übertragen werden (siehe auch Abschnitt C.) 
+       Aufenthaltsdatenfür den ausgewählten Zeitraum an das jeweilige Gesundheitsamt
+       übermittelt. 
+(9)   Eine durch Sie aufgesuchte Betreiber:in kann um Übermittlung der BesucherdatenDie Verarbeitung geschieht auf Basis der für die Betreiber:innen geltenden Betreiber:in
+       für einen bestimmten Zeitraum von einem Gesundheitsamt angefragt werden. DabeiGrundlage. Bei zur Kontaktnachverfolgung Verpflichteten ist dies die        Wir verarbeiten die Daten auf Basis des
+       werden Ihre Kontaktdaten, Funktionalen Daten, Aufenthaltsdatenund ggf.         gesetzliche Grundlage (jeweilige Landesverordnung iVm § 28a IfSG). Bei     Auftragsverarbeitungsvertrags zwischen
+       Zusätzliche Eingabedatenan das Gesundheitsamt übermittelt.                   freiwillig luca nutzenden Betreiber:innen ist dies Ihre Einwilligung.       der betreffenden Betreiber:in und uns.
+ 
+5. Empfänger:innen personnenbezogener Daten 
+Um die zuvor in dieser Datenschutzerklärung beschriebenen Zwecke zu erreichen,
+geben wir Ihre personenbezogenen Daten an folgende Emfänger:innen weiter, mit
+der Maßgabe, dass diese Daten in keiner anderen Weise als zur Erbringung von
+Dienstleistungen für uns verwenden dürfen (als sogenannte Auftragsverarbeiter
+im Sinne des Art. 28 DSGVO):
+Durch Anbieter:in erbrachte  Anbieter:in                           Verarbeitete Daten 
+Leistungen 
+Softwareentwicklung,         neXenio GmbH, Charlottenstr. 59, 10117 Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche Eingabedaten,
+Softwarewartungs- und        Berlin                                Temporäre Nutzungsdaten 
+Softwarebetriebsleistungen                                         (Die Verarbeitung beschränkt sich auf eine mögliche Einsichtnahme in die
+                                                                    gelisteten Daten im Rahmen der Durchführung der Softwarewartungs- und
+                                                                    Softwarebetriebsdienstleistungen) 
+IT-Infrastrukturleistungen   Deutsche Telekom AG, Landgrabenweg     Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche Eingabedaten,
+(Server)                    151, 53227 Bonn                       Temporäre Nutzungsdaten 
+                                                                    Server-Standort: Deutschland, Ungarn (Open Telekom Cloud) 
+IT-Infrastrukturleistungen  Bundesdruckerei Gruppe GmbH,           Kontaktdaten, Funktionale Daten, Aufenthaltsdaten, Zusätzliche Eingabedaten,
+                             Kommandantenstraße 18, 10969 Berlin  Temporäre Nutzungsdaten
+                                                                    Server-Standort: Deutschland
+SMS-Versandleistungen Message Mobile GmbH, Stresemannstraße 6,Telefonnummer 
+                       21335 Lüneburg 
+SMS-Versandleistungen Sinch Germany GmbH, Wilhelm-Wagenfeld-   Telefonnummer 
+                       Str. 20, 80807 München 
+Es wurden Auftragsverarbeitungsverträge nach Art. 28 DSGVO mit diesen
+Empfänger:innen abgeschlossen. Diese können nur zweckgebunden und auf unsere
+Weisung Ihre Daten verarbeiten. 
+Wir können Ihre personenbezogenen Daten darüber hinaus an folgende Empfänger:
+innen weitergeben: 
+    * Betreiber:innen, mit denen wir kooperieren und deren Lokationen Sie unter
+      Nutzung der luca Webapp aufgesucht haben, 
+    * Gesundheitsämter, denen Sie Ihre Besuchshistorie aus der luca Webapp
+      freigeben bzw. falls Sie als potentielle Kontaktperson zu einer
+      infizierten Person qualifiziert werden, um u. a. die
+      Kontaktnachverfolgung nach den im Zusammenhang mit der Bekämpfung von
+      COVID-Infektionen erlassenen Verordnungen der Länder zu ermöglichen. 
+ 
+6. Dauer der Speicherung personenbezogener Daten 
+Ihre personenbezogenen Daten werden nach Ablauf der nachfolgend beschriebenen
+Fristen automatisch gelöscht: 
+    * Kontaktdaten und Funktionale Daten:
+      –Innerhalb der luca Webapp finden Sie einen sogenannten Löschbutton. Mit
+      diesem können Sie die vollständige Löschung Ihrer Kontaktdaten und
+      Funktionalen Daten aus dem luca System eigenständig durchführen. Nach
+      Betätigen des Löschbuttons verbleiben Ihre Daten noch 28 Tagen in dem
+      luca-System. Dies ist notwendig, um einer etwaigen gesetzlichen
+      Anforderung der Kontaktnachverfolgung durch Bereitstellen der
+      Aufenthaltsdaten und damit auch der Kontaktdaten der letzten 28 Tage
+      durch Betreiber:innen gerecht zu werden.
+      – Bei Deinstallation der luca Webapp wird Ihr in der Webapp hinterlegter
+      Nutzer-Schlüsselgelöscht. Ohne diesen Schlüssel können Ihre Kontaktdaten
+      nicht mehr genutzt, zugeordnet und entschlüsselt werden.
+      – Ihre Kontaktdaten werden bei anhaltender Inaktivität jährlich im luca
+      System gelöscht. Wird die luca Webapp nach jährlicher Löschung der Daten
+      auf den Servern wieder zum Check-In verwendet, werden die noch auf dem
+      Smartphone gespeicherten Kontaktdaten erneut innerhalb des luca Systems
+      verschlüsselt abgelegt.
+      – Ihre Funktionalen Daten, die durch das Einchecken bei einer Betreiber:
+      in verschlüsselt hinterlegt wurden, werden automatisch nach 28 Tagen
+      gelöscht.
+      – Nach eigenständiger Löschung durch Betätigung des Löschbuttons oder
+      andauernder Inaktivität können Ihre Daten noch bis zu 4 Wochen nach Ihrem
+      letzten Aufenthalt bei einer Betreiber:in an ein Gesundheitsamt
+      übermittelt werden, sodass Sie ggf. von einem Gesundheitsamt kontaktiert
+      werden können. 
+    * Aufenthaltsdaten und Zusätzliche Eingabedaten:
+      Ihre Aufenthaltsdaten und Eingabedaten, die durch bzw. im Zusammenhang
+      mit dem Einchecken bei einer Betreiber:in generiert werden, werden gemäß
+      den Corona/COVID Infektionsschutzverordnungen nach 28 Tagen gelöscht. 
+    * Zusätzlich zur Verifikation verarbeitete Telefonnummer:
+      Ihre Telefonnummer wird von unseren Unterauftragnehmern Message Mobile
+      GmbH und der Deutsche Telekom AG ausschließlich zur Verifizierung
+      verarbeitet. Diese wird bis zu 45 Tagen in deren Produktivdatenbanken,
+      bzw. bis zu 60 Tagen in deren Archivdatenbanken gespeichert. Eine
+      darüberhinausgehende Speicherung erfolgt nicht. 
+    * Temporäre Nutzungsdaten:
+      Ihre Temporären Nutzungsdaten werden in Logfiles verarbeitet. Diese
+      werden von uns für maximal 7 Tage gespeichert und anschließend
+      automatisch gelöscht. Eine darüberhinausgehende Speicherung findet nicht
+      statt. 
+ 
+D. RECHTE DER BETROFFENEN PERSONEN 
+Hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten haben Sie folgende
+in der DSGVO vorgesehenen Rechte, die Sie für alle Verarbeitungen, für die wir
+verantwortlich sind (s. Teil C.), uns gegenüber geltend machen können: 
+    * Das Recht, eine Aussage darüber zu verlangen, ob Ihre personenbezogenen
+      Daten verarbeitet werden und, sofern dies der Fall ist, das Recht auf
+      Auskunft über diese Daten. Diese Auskunft umfasst unter anderem die
+      Verarbeitungszwecke, die Kategorien verarbeiteter personenbezogener Daten
+      und die Empfänger:innen oder Kategorien der Empfänger:innen, denen die
+      personenbezogenen Daten offengelegt worden sind oder noch offengelegt
+      werden (Art. 15 DSGVO). Wir speichern Ihre Daten ausschließlich
+      verschlüsselt und besitzen selbst nicht die zur Entschlüsselung
+      notwendigen Schlüssel. Daher können wir nicht nachverfolgen, ob
+      personenbezogene Daten einer bestimmten Person im luca System verarbeitet
+      werden. Anders als wir selbst, können Sie in der eigenen Historie und den
+      eigenen Kontaktdaten alle Verarbeitungsformen der erhobenen und
+      verschlüsselt gespeicherten Daten einsehen. Anders gestaltet sich dies
+      bei Daten, die wir durch Ihre eigene Kontaktaufnahme (z. B. bei
+      Supportanfragen) bei uns als Klardaten von Ihnen erhalten. In Bezug auf
+      diese werden wir Ihnen auf Anfrage gerne die Auskunft erteilen. 
+    * Das Recht, die Berichtigung Ihrer personenbezogenen Daten zu verlangen,
+      sofern diese unrichtig oder unvollständig sind (Art. 16 DSGVO). Sie
+      können ausschließlich selbst ihre Kontaktdaten (bis auf die Historie) in
+      der luca Webapp berichtigen. Wir erfüllen dieses Recht bereits durch die
+      bereitgestellten Funktionalitäten. Zur Ausübung müssen Sie nur in den
+      entsprechenden Bereich innerhalb der luca Webapp gehen und die Korrektur/
+      Änderung vornehmen. Wir selbst können Ihre Anfrage nur im Hinblick auf
+      Daten bearbeiten, die wir von Ihnen als Klardaten erhalten (z. B. durch
+      eine direkte Kontaktaufnahme durch Sie mit uns). 
+    * Das Recht, unter bestimmten Voraussetzungen zu verlangen, dass Ihre
+      personenbezogenen Daten unverzüglich gelöscht werden (sog. „Recht auf
+      Vergessenwerden“) (Art. 17 DSGVO). Diesem Recht kommen wir durch die
+      Bereitstellung eines Löschbuttons nach. Über diesen können Sie die
+      Löschung Ihrer Daten durchführen, wobei die Löschung innerhalb der in
+      Abschnitt C. 6. beschriebenen Fristen erfolgt. Wir selbst können dies
+      aufgrund der Verschlüsselung nicht für Sie ausführen. Sofern wir Daten
+      über Sie gespeichert haben (z.B. weil Sie uns in anderem Zusammenhang
+      kontaktiert haben), die wir Ihnen zuordnen können oder die nicht auf den
+      von Ihnen innerhalb der luca Webapp hinterlegten Informationen beruhen,
+      werden wir diese Daten entsprechend Ihrer Anfrage löschen, sofern nicht
+      berechtigtes Interesse oder gesetzliche Aufbewahrungsfristen dem
+      entgegenstehen. 
+    * Das Recht, unter bestimmten Voraussetzungen die Einschränkung der
+      Verarbeitung Ihrer personenbezogenen Daten zu verlangen (Art. 18 DSGVO).
+      Auch dieses Recht können wir aufgrund der Verschlüsselung und da uns
+      selbst die zur Entschlüsselung notwendigen Schlüssel nicht vorliegen, nur
+      in Bezug auf die durch Sie übermittelten Klardaten erfüllen. 
+    * Das Recht, eine hinsichtlich der Verarbeitung Ihrer personenbezogenen
+      Daten gegenüber uns erteilte Einwilligung (für das Teilen Ihrer Historie
+      mit dem Gesundheitsamt, für das Erheben der Daten Kamera) jederzeit zu
+      widerrufen. Dies geschieht für die Zukunft durch Änderungen Ihrer
+      Einstellungen. Ein solcher Widerruf berührt nicht die Rechtmäßigkeit der
+      Verarbeitung, die bis zu Ihrem Widerruf erfolgt ist. Bitte beachten Sie,
+      dass bei Widerruf die verschlüsselten Daten aufgrund der Verschlüsselung
+      Ihnen nicht zugeordnet und daher bis zu ihrer automatischen Löschung
+      nicht von einer Verarbeitung ausgeschlossen werden können. 
+Bitte beachten Sie, dass wir Ihre personenbezogenen Daten grundsätzlich nicht
+in Form von Klardaten, sondern verschlüsselt verarbeiten, und wir daher in
+bestimmten Fällen nicht in der Lage sein werden, einer entsprechenden
+Aufforderung durch Sie zur Gewährung der vorgenannten Rechte nachzukommen. 
+Zur Ausübung dieser Rechte gegenüber uns können Sie sich auch an unseren
+Datenschutzbeauftragten, unter den in Teil B dieser Datenschutzerklärung
+genannten Kontaktdaten wenden. 
+Ungeachtet der vorstehenden Rechte haben Sie das Recht, Beschwerde bei einer
+Aufsichtsbehörde für Datenschutz und Informationsfreiheit, beispielsweise bei
+der Berliner Beauftragten für Datenschutz und Informationsfreiheit einzulegen: 
+Berliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr.
+219, 10969 Berlin, Tel.: 030/13889-0, E-Mail: mailbox@datenschutz-berlin.de. 
+ 
+E. VERSION 
+Dies ist die aktuelle Fassung unserer Datenschutzerklärung (gültig ab dem
+08.07.2021). Wir behalten uns vor, diese Datenschutzerklärung anzupassen
+(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer
+Dienste). Aus diesem Grund empfiehlt es sich diese Datenschutzerklärung in
+regelmäßigen Abständen abzurufen. 
+Stand 25.06.2021 
+hello@luca-app.de
+gesundheitsamt@luca-app.de
+presse@luca-app.de
+locations@luca-app.de
+culture4life GmbH
+Charlottenstraße 59
+10117 Berlin
+
+****** Datenschutzerklärung luca Social Media ******
+Zuletzt überarbeitet und aktualisiert am 21. September 2021
+
+Wir, die culture4life GmbH („wir“ oder „uns“), sind zur Wahrung Ihrer
+datenschutzrechtlichen Belange im Zusammenhang mit Ihrer Nutzung unserer Social
+Media Seiten verpflichtet und sind jederzeit bestrebt, die Sicherheit und
+Integrität Ihrer personenbezogenen Daten in Übereinstimmung mit dem anwendbaren
+Datenschutzrecht zu wahren.
+Personenbezogene Daten sind alle Informationen, die sich auf eine
+identifizierte oder identifizierbare natürliche Person beziehen. So stellen Ihr
+Name, Ihre E-Mail-Adresse, aber auch Ihre IP-Adresse perso-nenbezogene Daten
+dar, für deren Verarbeitung die Datenschutzgrundverordnung (im Folgenden DSGVO)
+enge Grenzen setzt. Die Vorgaben der DSGVO zum Umgang mit diesen Daten treffen
+vor allem den Verantwortlichen, also denjenigen, der die Daten erhebt und
+verarbeitet. Sofern der Verantwortliche die Daten zur Erbringung einer Leistung
+an Dienstleister weitergibt, so muss dies Ihnen als Betroffenen gegenüber
+transparent gemacht werden. Der jeweilige Dienstleister muss dabei an dieselben
+Standards wie der Verantwortliche gebunden und von diesem kontrolliert werden.
+Diese Datenschutzerklärung gilt für die von uns betriebenen Social Media
+Seiten, welche wir zur Darstellung unseres Unternehmens und als
+Kommunikationsplattformen nutzen. Sie gibt Aufschluss darüber, welche Daten bei
+Aktivitäten auf unseren Social Media Seiten durch uns als Verantwortlichem
+erhoben oder uns bereitgestellt werden, wie wir Ihre personenbezogenen Daten
+speichern und weiterverarbeiten und welche Rechte Ihnen als betroffene Person
+hinsichtlich Ihrer personenbezogenen Daten zustehen.
+ 
+A. VERANTWORTLICHER luca System
+Der für die Verarbeitung personenbezogener Daten, die von uns direkt erhoben
+werden, Verantwortliche ist:
+     culture4life GmbH
+     Charlottenstraße 59
+     10117 Berlin
+     Deutschland
+     info@culture4life.de
+ 
+ 
+B.KONTAKTDATEN UNSERES DATENSCHUTZBEAUFTRAGTEN DES VERANTWORTLICHEN
+Unseren Datenschutzbeauftragten erreichen Sie wie folgt:
+     culture4life GmbH
+     Datenschutzbeauftragter
+     Charlottenstraße 59
+     10117 Berlin
+     Deutschland
+     privacy@culture4life.de
+ 
+ 
+C. SOCIAL MEDIA
+Wir betreiben auf folgenden Plattformen öffentlich zugängliche Social Media
+Seiten:
+    * Facebook: https://www.facebook.com/luca.app.official
+    * Instagram: https://www.instagram.com/luca_app_official/?hl=de
+    * Twitter: https://twitter.com/_lucaapp?lang=de
+    * Youtube: https://www.youtube.com/channel/UCt6DuyXz6GTekRGu6rR9uGg
+In Bezug auf die durch Ihren Besuch auf diesen Seiten initiierte Verarbeitungen
+von personenbezogenen Daten (z.B. Name, Fotos, E-Mail-Adressen und IP-Adressen,
+etc.) sind wir gemeinsam mit den Betreibern:innen der Social Media Plattformen
+verantwortlich. Ergänzend werden nachfolgend die jeweils Verantwortlichen der
+Social Media Betreiber:innen aufgeführt und es gelten insofern ebenfalls die
+Datenschutzerklärungen der jeweiligen Betreiber:innen.
+    * Facebook:
+Facebook Ireland Limited (im Folgenden „Facebook Ireland“)
+4 Grand Canal Square
+Grand Canal Harbour
+Dublin 2
+Ireland
+DSE: https://www.facebook.com/policy.php
+ 
+    * Instagram
+Facebook Ireland Limited (im Folgenden „Facebook Ireland“)
+4 Grand Canal Square
+Grand Canal Harbour
+Dublin 2
+Ireland
+DSE: https://www.facebook.com/help/instagram/519522125107875
+ 
+    * Twitter:
+Twitter, Inc.
+z. Hdn.: Privacy Policy Inquiry
+1355 Market Street, Suite 900
+San Francisco, CA 94103, USA
+DSE: https://twitter.com/de/privacy
+ 
+    * Youtube:
+Google Ireland Limited
+Gordon House, Barrow Street
+Dublin 4
+Irland
+DSE: https://policies.google.com/privacy?hl=de
+Die Betreiber:innen der Social Media Plattformen führen ebenfalls
+Datenverarbeitungen durch. Die einzelnen Datenverarbeitungen sowie ihr Umfang
+unterscheiden sich je nach Betreiber:in der jeweiligen Social Media Plattform
+und sind für uns nicht zwingend nachvollziehbar. Einzelheiten über die Erhebung
+und Speicherung Ihrer personenbezogenen Daten sowie über Art, Umfang und Zweck
+ihrer Verwendung durch die jeweilige Betreiber:in entnehmen Sie bitte den zuvor
+aufgelisteten Datenschutzerklärungen. Wir haben auf die einzelnen
+Datenverarbeitungen nur sehr begrenzten Einfluss. Soweit es uns möglich ist,
+Einfluss auf die Datenverarbeitung zu nehmen, wirken wir im Rahmen der uns zur
+Verfügung stehenden Möglichkeiten auf den datenschutzgerechten Umgang hin.
+Gewisse Statistiken, die Betreiber:innen der Social Media Plattformen erstellen
+und uns in anonymisierter Form zur Verfügung stellen, können wir weder
+beeinflussen noch abschalten. Wir nutzen jedoch keinerlei optionale
+Statistiken.
+ 
+D. DATENVERARBEITUNG DURCH UNS
+Die Datenverarbeitung erfolgt im Interesse unserer Öffentlichkeitsarbeit und
+Kommunikation. Die Rechtsgrundlage für die Verarbeitung Ihrer personenbezogenen
+Daten ist unser berechtigtes Interesse gemäß Art. 6 (1) 1 f) DSGVO zur
+Darstellung unseres Unternehmens.
+Sie sind nicht verpflichtet, uns Ihre personenbezogenen Daten zu überlassen.
+Allerdings kann dies für einzelne Funktionalitäten unserer Seiten auf Social
+Media Plattformen erforderlich sein (z.B. ist häufig die Kommentarfunktion nur
+auf der jeweiligen Plattform registrierten Nutzer:innen vorbehalten). Diese
+Funktionalitäten stehen Ihnen nicht oder nur eingeschränkt zur Verfügung, falls
+Sie uns bzw. der jeweiligen Betreiber:in der Plattform Ihre personenbezogenen
+Daten nicht überlassen.
+Die von Ihnen auf unseren Social Media Seiten eingegebenen Daten wie z.B.
+Kommentare, Videos, Fotos, Likes, öffentliche Nachrichten usw. werden durch die
+jeweilige Social Media Plattform veröffentlicht. Soweit Sie unsere Social Media
+Seiten nutzen, um mit uns in Kontakt zu treten, werden die uns von Ihnen
+mitgeteilten personenbezogenen Daten unsererseits nur zu dem Zweck verarbeitet,
+mit Ihnen in Kontakt zu treten (Art. 6 (1) 1 a) und b) DSGVO).  Richten sich
+Nachrichten oder Kommentare an uns als Frage oder ein Begehren bestehend aus
+einer Wahrnehmung Ihrer Rechte, so leiten wir diese Anfrage (ausschließlich
+unter Angabe zwingend notwendiger Daten) ggf. intern zur Bearbeitung weiter.
+Alternativ können Sie sich dazu direkt an unsere Datenschutzbeauftragte wenden
+(die Kontaktdaten finden Sie im Teil B). Wir verarbeiten Ihre Daten nicht zu
+anderweitigen Zwecken als die zuvor genannten und löschen die personenbezogenen
+Daten jeweils nach Ende des Verarbeitungsvorgangs. Wir speichern die Inhalte
+nur, sofern dies erforderlich ist, etwa um gesetzlichen Anforderungen zu
+genügen oder weil es sich um eindeutig diskriminierende, beleidigende oder
+obszöne Inhalte handelt. Rechtsgrundlage ist hierfür Art. 6 (1) 1 c) DSGVO.
+ 
+E. DATENVERARBEITUNG DURCH DIE JEWEILIGE BETREIBER:IN DER SOCIAL MEDIA
+PLATTFORM
+Die Betreiber:innen der Social Media Plattformen setzen ggf.
+Webtrackingmethoden ein, welche unabhängig davon erfolgen können, ob Sie bei
+der jeweiligen Plattform als Nutzer:in registriert oder angemeldet sind.
+Anderweitige Verarbeitungen, etwa zu Zwecken von Erstellungen von Profilen sind
+möglich, uns jedoch nicht transparent.
+Beim Aufruf der Social Media Webseiten können Cookies der jeweiligen Social
+Media Plattform auf Ihrem Endgerät gespeichert werden. Wir haben auf die in
+diesem Zusammenhang stehende weitere Verarbeitung durch die Social Media
+Plattform Betreiber:innen keinen Einfluss. Hierfür sind die jeweiligen
+Plattformbetreiber:innen rechtlich verantwortlich (siehe zuvor erfolgte
+Auflistung der Verantwortlichen). Es ist zu erwarten, dass die Betreiber:innen
+der Social Media Plattformen Ihre Daten weitergehend verarbeiten, sofern Sie in
+Ihrem Account eingeloggt sind, etwa um Ihr Surfverhalten zu analysieren und
+Ihrem Profil zuzuordnen. Hierauf haben wir keine Einflussmöglichkeiten.
+F. IHRE RECHTE IN BEZUG AUF DIE VON UNS AUF SOCIAL MEDIA PLATTFORMEN
+VERARBEITETEN PERSONENBEZOGENEN DATEN
+Hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten auf unseren Social
+Media Seiten haben Sie folgende in der DSGVO vorgesehenen Rechte, soweit sich
+diese in unserem Einflussbereich befinden:
+    * Das Recht, eine Aussage darüber zu verlangen, ob Ihre personenbezogenen
+      Daten verarbeitet werden und, sofern dies der Fall ist, das Recht auf
+      Auskunft über diese Daten. Diese Auskunft umfasst unter anderem die
+      Verarbeitungszwecke, die Kategorien verarbeiteter personenbezogener Daten
+      und die Empfänger:innen oder Kategorien der Empfänger:innen, denen die
+      personenbezogenen Daten offengelegt worden sind oder noch offengelegt
+      werden (Art. 15 DSGVO).
+    * Das Recht, die Berichtigung Ihrer personenbezogenen Daten zu verlangen,
+      sofern diese unrichtig oder unvollständig sind (Art. 16 DSGVO).
+    * Das Recht, unter bestimmten Voraussetzungen zu verlangen, dass Ihre
+      personenbezogenen Daten unverzüglich gelöscht werden (sog. „Recht auf
+      Vergessenwerden“) (Art. 17 DSGVO).
+    * Das Recht, unter bestimmten Voraussetzungen die Einschränkung der
+      Verarbeitung Ihrer personenbezogenen Daten zu verlangen (Art. 18 DSGVO).
+    * Das Recht, in bestimmten Situationen der Verarbeitung Ihrer
+      personenbezogenen Daten zu widersprechen, sofern die Verarbeitung auf
+      einem berechtigten Interesse von uns oder eines Dritten gemäß Art. 6 (1)
+      1 f) DSGVO beruht.
+    * Das Recht, eine hinsichtlich der Verarbeitung Ihrer personenbezogenen
+      Daten gegenüber uns erteilte Einwilligung jederzeit zu widerrufen. Ein
+      solcher Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung, die
+      bis zu Ihrem Widerruf erfolgt ist.
+Zur Ausübung dieser Rechte gegenüber uns können Sie sich auch an unsere
+Datenschutzbeauftragte, unter den in Teil B dieser Datenschutzerklärung
+genannten Kontaktdaten wenden. Für die Verarbeitung Ihrer Daten durch die
+jeweiligen Betreiber:innen der Social Media Plattformen, in die wir keinen
+Einblick haben und auf die wir nicht einwirken können, können Sie sich an die
+unter Teil C genannten Verantwortlichen wenden.
+Ungeachtet der vorstehenden Rechte haben Sie das Recht, Beschwerde bei einer
+Aufsichtsbehörde für Datenschutz und Informationsfreiheit, beispielsweise bei
+der Berliner Beauftragten für Datenschutz und Informationsfreiheit einzulegen:
+Berliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr.
+219, 10969 Berlin, Tel.: 030/13889-0, E-Mail: mailbox@datenschutz-berlin.de.
+ 
+G. VERSION
+Dies ist die aktuelle Fassung unserer Social Media Datenschutzerklärung (gültig
+ab 21.09.2021). Wir behalten uns vor, diese Datenschutzerklärung anzupassen
+(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer
+Social Media Auftritte).
+hello@luca-app.de
+gesundheitsamt@luca-app.de
+presse@luca-app.de
+locations@luca-app.de
+culture4life GmbH
+Charlottenstraße 59
+10117 Berlin

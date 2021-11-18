@@ -1,0 +1,92 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"BVG",
+"division":"Die Berliner Verkehrsbetriebe AöR, Holzmarktstraße 15-17, 10179 Berlin („BVG“ oder „wir“) beachtet die gesetzlichen Datenschutzbestimmungen.",
+"address":"Die Berliner Verkehrsbetriebe AöR, Holzmarktstraße 15-17, 10179 Berlin („BVG“ oder „wir“) beachtet die gesetzlichen Datenschutzbestimmungen.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"\n\t\n\tKontaktinformationen:\n\t\n\tDatenschutzbeauftragte",
+"address":"Holzmarktstraße 15-17\n\t10179 Berlin\n\t\n\toder per E-Mail: datenschutz@bvg.",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Sie haben, je nach den Gegebenheiten des konkreten Falls, folgende Datenschutzrechte:\n\t\n\tAuskunft über Ihre bei uns verarbeiteten personenbezogenen Daten zu erhalten und/oder Kopien dieser Daten zu verlangen.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Die Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit deren Nutzung datenschutzrechtlich unzulässig ist, insbesondere, weil (i) die Daten unvollständig oder unrichtig sind, (ii) sie für die Zwecke, für die sie erhoben wurden nicht mehr notwendig sind, (iii) die Einwilligung, auf die sich die Verarbeitung stützte widerrufen wurde, oder (iv) Sie erfolgreich von einem Widerspruchsrecht zur Datenverarbeitung Gebrauch gemacht haben; in Fällen, in denen die Daten von dritten Parteien verarbeitet werden, werden wir Ihre Anträge auf Berichtigung, Löschung  oder Einschränkung der Verarbeitung an diese dritten Parteien weiterleiten, es sei denn dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Sie haben, je nach den Gegebenheiten des konkreten Falls, folgende Datenschutzrechte:\n\t\n\tAuskunft über Ihre bei uns verarbeiteten personenbezogenen Daten zu erhalten und/oder Kopien dieser Daten zu verlangen.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Die Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit deren Nutzung datenschutzrechtlich unzulässig ist, insbesondere, weil (i) die Daten unvollständig oder unrichtig sind, (ii) sie für die Zwecke, für die sie erhoben wurden nicht mehr notwendig sind, (iii) die Einwilligung, auf die sich die Verarbeitung stützte widerrufen wurde, oder (iv) Sie erfolgreich von einem Widerspruchsrecht zur Datenverarbeitung Gebrauch gemacht haben;",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Rechtliche Maßnahmen zu ergreifen oder die Datenschutzaufsichtsbehörde anzurufen, wenn Sie der Ansicht sind, dass Ihre Rechte infolge einer nicht im Einklang mit den datenschutzrechtlichen Vorgaben stehenden Verarbeitung Ihrer personenbezogenen Daten verletzt wurden.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Datenschutzaufsichtsbehörde",
+"address":"Anstalt des öffentlichen Rechts\n\tHolzmarktstraße 15-17\n\t10179 Berlin\n\t\n\toder per E-Mail: datenschutz@bvg.",
+"country":"Anstalt des öffentlichen Rechts\n\tHolzmarktstraße 15-17\n\t10179 Berlin\n\t\n\toder per E-Mail: datenschutz@bvg.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"+49 (30) 13889-0"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Microsoft Power BI verwendet Session Cookies, die mit dem Schließen des Browsers automatisch gelöscht werden.",
+"scopeAndIntendedEffects":"Microsoft Power BI verwendet Session Cookies, die mit dem Schließen des Browsers automatisch gelöscht werden."},
+"changesOfPurpose":[{
+"description":"Darüber hinaus übermitteln wir in bestimmten Fällen personenbezogene Daten vor Abschluss sowie vor wesentlichen Änderungen eines Abonnementvertrages an Auskunfteien, um die Bonität des Abonnenten zu überprüfen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"1600",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Wenn sich an den jeweiligen Cookies oder sonstigen Anwendungen, in die Sie eingewilligt haben, Änderungen ergeben, die auch Änderungen in der Verarbeitung Ihrer Daten nach sich ziehen können, oder spätestens ein Jahr nach der letzten Verarbeitung Ihrer Nutzereinstellungen erfolgt eine erneute Abfrage der Einwilligung.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"1600",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Wenn sich an den jeweiligen Cookies oder sonstigen Anwendungen, in die Sie eingewilligt haben, Änderungen ergeben, die auch Änderungen in der Verarbeitung Ihrer Daten nach sich ziehen können, oder spätestens ein Jahr nach der letzten Verarbeitung Ihrer Nutzereinstellungen erfolgt eine erneute Abfrage der Einwilligung.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"1600",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

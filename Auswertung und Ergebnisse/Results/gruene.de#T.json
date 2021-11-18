@@ -1,0 +1,81 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Facebook",
+"division":"N/A",
+"address":",
+ 4 Grand Canal\n\tSquare Grand Canal Harbour, Dublin 2, Ireland zurück.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"# Datenschutz\n\t\n\tDer Schutz Deiner persönlichen Daten ist uns ein besonderes Anliegen.",
+"address":" **Unseren Datenschutzbeauftragten** erreichst Du unter: SCO-CON:SULT,\n\tHauptstraße 27, 53604 Bad Honnef; datenschutz@gruene.",
+"country":"N/A",
+"email":"info@gruene.de",
+"phone":"Hauptstraße 27, 53604 Bad Honnef; datenschutz@gruene.de; Tel.: 02224/988290\n\t\n\t"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"\n\tDir stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung,\n\tEinschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu.",
+"url":"https://www.gruene.de/service/impressum",
+"email":"info@gruene.de",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Dir stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung,\n\tEinschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu.",
+"url":"https://www.gruene.de/service/impressum",
+"email":"info@gruene.de",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":" Nähere Informationen zur\n\tErhebung und Nutzung der Daten durch Facebook, über Deine diesbezüglichen\n\tRechte und Möglichkeiten zum Schutz Deiner Privatsphäre findest Du in den\n\tDatenschutzhinweisen von Facebook.",
+"url":"https://www.gruene.de/service/informationen-zum-datenschutz-",
+"email":"info@gruene.de",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Dir stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung,\n\tEinschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Du\n\tglaubst, dass die Verarbeitung Deiner Daten gegen das Datenschutzrecht\n\tverstößt oder Deine datenschutzrechtlichen Ansprüche sonst in einer Weise\n\tverletzt worden sind, kannst Du Dich bei der Aufsichtsbehörde beschweren.",
+"url":"https://www.gruene.de/service/impressum",
+"email":"info@gruene.de",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"automatedDecisionMaking":{
+"inUse":false,
+"logicInvolved":"N/A",
+"scopeAndIntendedEffects":"N/A"},
+"changesOfPurpose":[]}

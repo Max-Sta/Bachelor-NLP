@@ -1,0 +1,96 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"en",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"EEA",
+"division":" However, as Telegram is located outside the EEA, we have designated one of our EEA-based group companies, Telegram UK Holdings Ltd (71-75 Shelton Street, Covent Garden, London, England, WC2H 9JQ), as a representative to whom you may direct any issues you have relating to our processing of your personal data.",
+"address":"If you signed up for Telegram from the UK or the EEA, your data is stored in data centers in the Netherlands.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":" You provide your mobile number and basic account data (which may include profile name, profile picture and about information) to create a Telegram account.\n\t\n\tTo make it easier for your contacts and other people to reach you and recognize who you are, the screen name you choose, your profile pictures, and your username (should you choose to set one) on Telegram are always public.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":" You have a right to: (1) request a copy of all your personal data that we store and to transmit that copy to another data controller; (2) delete (see section 10 below) or amend your personal data;",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":" You have a right to: (1) request a copy of all your personal data that we store and to transmit that copy to another data controller; (2) delete (see section 10 below) or amend your personal data; (3) restrict, or object to, the processing of your personal data; (4) correct any inaccurate or incomplete personal data we hold on you; and (5) lodge a complaint with national data protection authorities regarding our processing of your personal data.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"European Commission",
+"address":" If you would like more information regarding these clauses, please contact us using the details in section 12 below",
+"country":" If you would like more information regarding these clauses, please contact us using the details in section 12 below",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"\n\tIn any of the above cases, the developers of an automated user (bot) can get your public account data (see section 3.",
+"scopeAndIntendedEffects":"\n\tIn any of the above cases, the developers of an automated user (bot) can get your public account data (see section 3."},
+"changesOfPurpose":[{
+"description":" To improve the security of your account, as well as to prevent spam, abuse, and other violations of our Terms of Service, we may collect metadata such as your IP address, devices and Telegram apps you've used, history of username changes, etc. If collected, this metadata can be kept for 12 months maximum.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"[No entity of type \"DATE\" found.]",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"We will review and may update this Privacy Policy from time to time. Any changes to this Privacy Policy will become effective when we post the revised Privacy Policy on this page www.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"[No entity of type \"DATE\" found.]",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Please check our website frequently to see any updates or changes to our Privacy Policy, a summary of which we will set out below.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"[No entity of type \"DATE\" found.]",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"5 to 3.4 and 3.3.6 to 3.6.\n\t\n\tImportant changes made to this Privacy Policy will be notified to you via Telegram.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"[No entity of type \"DATE\" found.]",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

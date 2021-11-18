@@ -1,0 +1,92 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Media",
+"division":"Immobilien Scout GmbH, Invalidenstraße 65, 10557 Berlin\n\tE-Mail: service@immobilienscout24.",
+"address":"Immobilien Scout GmbH, Invalidenstraße 65, 10557 Berlin\n\tE-Mail: service@immobilienscout24.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"is24-datenschutz@scout24.com",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":" Welche Rechte haben Sie als betroffene Person? ****\n\t    * nach_oben\n\t*** 7.1. Auskunftsrecht ***\n\tSie haben gem. Art. 15 DSGVO das Recht, jederzeit Auskunft über Ihre\n\tpersonenbezogenen Daten zu erhalten.",
+"url":"http://ec.europa.eu/justice/data-protection/international-transfers/",
+"email":"is24-datenschutz@scout24.com",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"verlangen, sofern diese unvollständig sein sollten.\n\t    * nach_oben\n\t*** 7.4. Recht auf Löschung (\"Recht auf Vergessenwerden\") ***\n\tSie haben das Recht, unter den in Art.",
+"url":"http://ec.europa.eu/justice/data-protection/international-transfers/",
+"email":"is24-datenschutz@scout24.com",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"    * nach_oben\n\t*** 7.8. Widerspruchsrecht ***\n\tInformation über Ihr Widerspruchsrecht nach Art. 21 DSGVO\n\tSie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation\n\tergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener\n\tDaten, die aufgrund von Artikel 6 Absatz 1 Buchstabe e DSGVO (Datenverarbeitung\n\tim öffentlichen Interesse) und Artikel 6 Absatz 1 Buchstabe f DSGVO\n\t(Datenverarbeitung auf der Grundlage einer Interessenabwägung) erfolgt,\n\tWiderspruch einzulegen; dies gilt auch für ein auf diese Bestimmung gestütztes\n\tProfiling von Artikel 4 Nr.",
+"url":"http://ec.europa.eu/justice/data-protection/international-transfers/",
+"email":"is24-datenschutz@scout24.com",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Bei Vorlage der jeweiligen Voraussetzungen können Ihnen ebenso die folgenden\n\tRechte zustehen.\n\t    * nach_oben\n\t*** 7.2. Widerrufsrecht ***\n\tIhnen steht gem. Art. 7 Abs.",
+"url":"http://ec.europa.eu/justice/data-protection/international-transfers/",
+"email":"is24-datenschutz@scout24.com",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Sie haben ferner das Recht, sich nach Maßgabe des Art. 77 DSGVO bei der\n\tzuständigen Aufsichtsbehörde zu beschweren.\n\t    * nach_oben\n\t*** 7.7.",
+"url":"http://ec.europa.eu/justice/data-protection/international-transfers/",
+"email":"is24-datenschutz@scout24.com",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"ImmobilienScout und die Scout24 SE (Bothestraße 13-15, 81675 München) in\n\tgemeinsamer Verantwortlichkeit:\n\t    * Die Erhebung und Verarbeitung von pseudonymen Nutzungsdaten auf den\n\t      Angeboten über Cookies, Pixel oder vergleichbare Technologien zu den\n\t      unter Ziffer 4.",
+"country":"ImmobilienScout und die Scout24 SE (Bothestraße 13-15, 81675 München) in\n\tgemeinsamer Verantwortlichkeit:\n\t    * Die Erhebung und Verarbeitung von pseudonymen Nutzungsdaten auf den\n\t      Angeboten über Cookies, Pixel oder vergleichbare Technologien zu den\n\t      unter Ziffer 4.",
+"email":"is24-datenschutz@scout24.com",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Beschwerderechts, die Herkunft ihrer Daten, sofern diese nicht bei uns erhoben\n\twurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung\n\teinschließlich Profiling und ggf.",
+"scopeAndIntendedEffects":"Beschwerderechts, die Herkunft ihrer Daten, sofern diese nicht bei uns erhoben\n\twurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung\n\teinschließlich Profiling und ggf."},
+"changesOfPurpose":[{
+"description":"_Kontakt_Datenschutzbeauftragte\n\t    * 9._Änderung_dieser_Datenschutzinformation\n\t**** 1.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"[No entity of type \"DATE\" found.]",
+"urlOfNewVersion":"www.immobilienscout24.de"},{
+"description":"Verantwortliche:n\").\n\t    * nach_oben\n\t**** 9. Änderung dieser Datenschutzinformation ****\n\tDas Angebot von Scout24 wird stetig weiterentwickelt, insbesondere, um die\n\tServices und Funktionalitäten der Plattform weiter zu verbessern.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"[No entity of type \"DATE\" found.]",
+"urlOfNewVersion":"http://ec.europa.eu/justice/data-protection/international-transfers/"},{
+"description":"Services und Funktionalitäten der Plattform weiter zu verbessern. Solche\n\tÄnderungen können sich auch auf die Nutzung Ihrer personenbezogenen Daten\n\tauswirken.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"[No entity of type \"DATE\" found.]",
+"urlOfNewVersion":"http://ec.europa.eu/justice/data-protection/international-transfers/"}]}

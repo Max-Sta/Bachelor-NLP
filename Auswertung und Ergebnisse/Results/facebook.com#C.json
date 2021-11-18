@@ -1,0 +1,88 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Facebook Ireland",
+"division":"Facebook Ireland Ltd.\n\t4 Grand Canal Square\n\tGrand Canal Harbou",
+"address":"Facebook Ireland Ltd.\n\t4 Grand Canal Square\n\tGrand Canal Harbou",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":" unsere sozialen Plugins (wie den „Gefällt mir“-Button), Facebook Login, unsere APIs und SDKs oder das Facebook-Pixel, Informationen senden. Diese Partner stellen uns Informationen über deine Aktivitäten außerhalb von Facebook bereit, u.",
+"address":"Facebook Ireland Ltd.\n\t4 Grand Canal Square\n\tGrand Canal Harbou",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Gemäß Datenschutz-Grundverordnung hast du das Recht auf Auskunft, Berichtigung, Übertragbarkeit und Löschung deiner Daten.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Gemäß Datenschutz-Grundverordnung hast du das Recht auf Auskunft, Berichtigung, Übertragbarkeit und Löschung deiner Daten. Erfahre mehr über diese Rechte und finde heraus, wie du deine Rechte in den Facebook-Einstellungen und Instagram-Einstellungen ausüben kannst.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Gemäß Datenschutz-Grundverordnung hast du das Recht auf Auskunft, Berichtigung, Übertragbarkeit und Löschung deiner Daten. Erfahre mehr über diese Rechte und finde heraus, wie du deine Rechte in den Facebook-Einstellungen und Instagram-Einstellungen ausüben kannst.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":" Erfahre mehr über diese Rechte und finde heraus, wie du deine Rechte in den Facebook-Einstellungen und Instagram-Einstellungen ausüben kannst. Du hast auch das Recht Widerspruch einzulegen gegen bestimmte Verarbeitungen deiner Daten bzw.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Du hast außerdem das Recht, eine Beschwerde bei der für Facebook Ireland zuständigen führenden Aufsichtsbehörde, der irischen Datenschutzkommission, oder bei deiner lokalen Aufsichtsbehörde einzureichen.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"Facebook Ireland Ltd.\n\t4 Grand Canal Square\n\tGrand Canal Harbour\n\tDublin 2 Ireland",
+"country":"Facebook Ireland Ltd.\n\t4 Grand Canal Square\n\tGrand Canal Harbour\n\tDublin 2 Ireland",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Außerdem können wir dein Erlebnis nahtloser gestalten, indem wir beispielsweise automatisch deine Registrierungsinformationen (wie deine Telefonnummer) von einem Facebook-Produkt eingeben, wenn du dich auf einem anderen Produkt für ein Konto registrierst.",
+"scopeAndIntendedEffects":" Außerdem können wir dein Erlebnis nahtloser gestalten, indem wir beispielsweise automatisch deine Registrierungsinformationen (wie deine Telefonnummer) von einem Facebook-Produkt eingeben, wenn du dich auf einem anderen Produkt für ein Konto registrierst."},
+"changesOfPurpose":[{
+"description":"Zurück zum Seitenanfang\n\tWie benachrichtigen wir dich über Änderungen an dieser Richtlinie",
+"affectedDataCategories":[],
+"plannedDateOfChange":"21. August 2020",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"Wie benachrichtigen wir dich über Änderungen an dieser Richtlinie?\n\tWir benachrichtigen dich, bevor wir Änderungen an dieser Richtlinie vornehmen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"21. August 2020",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

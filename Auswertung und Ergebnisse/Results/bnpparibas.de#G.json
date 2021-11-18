@@ -1,0 +1,88 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"BNP Paribas",
+"division":" Darüber hinaus erfahren Sie, welche Rechte Sie haben und wie Sie\n\tdiese ausüben können. In bestimmten Gebieten außerhalb des Europäischen\n\tWirtschaftsraums (EWR) wird die Verarbeitung Ihrer personenbezogenen Daten\n\tmöglicherweise durch andere Datenschutzhinweise oder Policies geregelt.",
+"address":"Wir, die in Deutschland eingetragenen Unternehmenseinheiten von BNP Paribas,\n\teinschließlich BNP Paribas Niederlassung Deutschland, zeichnen Telefongespräche\n\tmit Ihnen nur dann auf, wenn wir nach den geltenden Rechtsvorschriften hierzu\n\tverpflichtet sind, oder wenn Sie uns Ihre vorherige Zustimmung zur Aufzeichnung\n\tdes Telefongesprächs erteilt haben.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"BNP Paribas Securities Services, wie im Folgenden detailliert dargestellt\n\t(„wir”).\n\tAls Datenverantwortlicher tragen wir die Verantwortung für das Erheben und die\n\tVerarbeitung Ihrer personenbezogenen Daten im Zusammenhang mit unserer\n\tGeschäftstätigkeit.",
+"address":" Länderspezifische Bestimmungen\n\tÖsterreich\n\tWir, die in Österreich eingetragenen Unternehmenseinheiten von BNP Paribas,\n\tgeben Ihre personenbezogenen Daten entsprechend dieser Datenschutzhinweise nur\n\tweiter, soweit dies nicht gegen die österreichischen Rechtsvorschriften zum\n\tBankgeheimnis und/oder andere lokale gesetzliche Anforderungen verstößt.",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Wirtschaftsraum nach dem geltenden Recht verarbeitet werden, haben Sie die\n\tfolgenden Rechte:\n\t    * Auskunft: Sie können Informationen zur Verarbeitung Ihrer\n\t      personenbezogenen Daten und eine Kopie dieser Daten anfordern.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"    * Datenlöschung: Sie können verlangen, dass Ihre personenbezogenen Daten\n\t      gelöscht werden, soweit dies nach geltendem Recht zulässig ist.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"[1] Wir werden Kommunikation nur im Rahmen dessen aufzeichnen oder überwachen,\n\twas nach geltendem Recht gestattet ist und unter Beachtung jeglicher\n\tanwendbarer rechtlicher Anforderungen (einschließlich von Anforderungen zur\n\tEinholung Ihrer vorherigen Zustimmung zu dieser Aufzeichnung).",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"      Verarbeitung Ihrer personenbezogenen Daten zugestimmt haben, können Sie\n\t      diese Zustimmung jederzeit widerrufen.\n\t    * Recht auf Datenübertragbarkeit: Soweit rechtlich möglich, können Sie die\n\t      uns zur Verfügung gestellten personenbezogenen Daten zurückfordern oder\n\t      an einen Dritten übermitteln lassen, falls dies technisch machbar ist.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Wahrnehmung der vorstehenden Rechte die Möglichkeit, eine Beschwerde bei der\n\tzuständigen Aufsichtsbehörde einzureichen.\n\t 8. Wie könnten Sie sich über Änderungen dieser Datenschutzhinweise\n\tinformieren?\n\tVor dem Hintergrund eines ständigen technischen Wandels müssen wir diese\n\tInformationen zur Datenschutzhinweise gegebenenfalls von Zeit zu Zeit\n\taktualisieren.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"Richtlinie zu entnehmen.\n\t10. Länderspezifische Bestimmungen\n\tÖsterreich\n\tWir, die in Österreich eingetragenen Unternehmenseinheiten von BNP Paribas,\n\tgeben Ihre personenbezogenen Daten entsprechend dieser Datenschutzhinweise nur\n\tweiter, soweit dies nicht gegen die österreichischen Rechtsvorschriften zum\n\tBankgeheimnis und/oder andere lokale gesetzliche Anforderungen verstößt.",
+"country":"Richtlinie zu entnehmen.\n\t10. Länderspezifische Bestimmungen\n\tÖsterreich\n\tWir, die in Österreich eingetragenen Unternehmenseinheiten von BNP Paribas,\n\tgeben Ihre personenbezogenen Daten entsprechend dieser Datenschutzhinweise nur\n\tweiter, soweit dies nicht gegen die österreichischen Rechtsvorschriften zum\n\tBankgeheimnis und/oder andere lokale gesetzliche Anforderungen verstößt.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Findet Profiling statt?\n\tWir verarbeiten Ihre Daten teilweise auf automatisierte Weise mit dem Ziel,\n\tbestimmte persönliche Aspekte auszuwerten (Profiling).",
+"scopeAndIntendedEffects":" Findet Profiling statt?\n\tWir verarbeiten Ihre Daten teilweise auf automatisierte Weise mit dem Ziel,\n\tbestimmte persönliche Aspekte auszuwerten (Profiling)."},
+"changesOfPurpose":[{
+"description":"zuständigen Aufsichtsbehörde einzureichen.\n\t 8. Wie könnten Sie sich über Änderungen dieser Datenschutzhinweise\n\tinformieren?\n\tVor dem Hintergrund eines ständigen technischen Wandels müssen wir diese\n\tInformationen zur Datenschutzhinweise gegebenenfalls von Zeit zu Zeit\n\taktualisieren.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"Die jeweils aktuelle Fassung steht Ihnen online zur Verfügung. Über\n\tgrundlegende Änderungen werden wir Sie auf unserer Website oder über die\n\tsonstigen üblichen Kommunikationskanäle informieren.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"2018",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

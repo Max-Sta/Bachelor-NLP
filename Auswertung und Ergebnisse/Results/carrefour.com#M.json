@@ -1,0 +1,80 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Carrefour",
+"division":"N/A",
+"address":"Introduction\n\tCarrefour is engaged in a policy aiming at respecting and maintening high standards in terms of ethics and in particular for the protection of personal data.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"N/A",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"All data subjects enjoy the following rights with regard to data relating to them:\n\t\n\t-    a right to information;\n\t-    a right of access; \n\t-    a right of correction;",
+"url":"www.carrefour.com",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"-    a right of correction; \n\t-    a right of deletion (unless the data are required for service provision, or necessary to enable Carrefour to comply with its legal obligations or to establish or exercise its rights)",
+"url":"www.carrefour.com",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"You may also withdraw your consent at any time, whenever your consent has been requested (withdrawal of consent will not affect the lawfulness of the processing carried out prior to the withdrawal of your consent).\n\t\n\t8.4 Lodging a complaint",
+"url":"www.carrefour.com",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"You may also withdraw your consent at any time, whenever your consent has been requested (withdrawal of consent will not affect the lawfulness of the processing carried out prior to the withdrawal of your consent).\n\t\n\t8.4 Lodging a complaint\n\t\n\tWhere, after having contacted us, that your rights over you data have not been respected, you may send a complaint to the National Commission on Information Technology and Liberties (CNIL), the French Data Protection Authority.",
+"url":"www.carrefour.com",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"None found.",
+"address":"N/A",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"automatedDecisionMaking":{
+"inUse":false,
+"logicInvolved":"N/A",
+"scopeAndIntendedEffects":"N/A"},
+"changesOfPurpose":[]}

@@ -1,0 +1,80 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Facebook",
+"division":" Für den Versand der E-Mails verwenden wir das Toolset von Action\n\tNetwork (1900 L St NW, Suite 900, Washington DC 20036).",
+"address":"technische Plattform und die Dienste der Facebook Ireland Ltd., 4 Grand Canal\n\tSquare Grand Canal Harbour, Dublin 2, Ireland zurück.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"****** Datenschutz ******\n\tDer Schutz Deiner persönlichen Daten ist uns ein besonderes Anliegen.",
+"address":"Unseren Datenschutzbeauftragten erreichst Du unter: SCO-CON:SULT, Hauptstraße\n\t27, 53604 Bad Honnef; datenschutz@gruene.",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"**** Deine Rechte ****\n\tDir stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung,\n\tEinschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Dir stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung,\n\tEinschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":" Nähere Informationen zur\n\tErhebung und Nutzung der Daten durch Facebook, über Deine diesbezüglichen\n\tRechte und Möglichkeiten zum Schutz Deiner Privatsphäre findest Du in den\n\tDatenschutzhinweisen von Facebook.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Dir stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung,\n\tEinschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Du\n\tglaubst, dass die Verarbeitung Deiner Daten gegen das Datenschutzrecht verstößt\n\toder Deine datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt\n\tworden sind, kannst Du Dich bei der Aufsichtsbehörde beschweren.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"worden sind, kannst Du Dich bei der Aufsichtsbehörde beschweren. In Deutschland\n\tsind dies die jeweiligen Landes-Datenschutzbeauftragten.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"BÜNDNIS 90/DIE GRÜNEN, Org",
+"address":"worden sind, kannst Du Dich bei der Aufsichtsbehörde beschweren. In Deutschland\n\tsind dies die jeweiligen Landes-Datenschutzbeauftragten.",
+"country":"worden sind, kannst Du Dich bei der Aufsichtsbehörde beschweren. In Deutschland\n\tsind dies die jeweiligen Landes-Datenschutzbeauftragten.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":false,
+"logicInvolved":"N/A",
+"scopeAndIntendedEffects":"N/A"},
+"changesOfPurpose":[]}

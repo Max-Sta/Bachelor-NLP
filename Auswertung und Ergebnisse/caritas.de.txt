@@ -1,0 +1,1094 @@
+Datenschutzerklärung
+für den Webauftritt caritas.de
+Deutscher Caritasverband e. V.
+Postfach 4 20, 79004 Freiburg
+Karlstraße 40, 79104 Freiburg
+Telefon-Zentrale 0761 200-0
+E-Mail: info@caritas.de
+Web: www.caritas.de
+Stand: 31. Mai 2021
+Datenschutzerklärung
+Inhalt
+1 Allgemeiner Teil ............................................................................................................................................. 4
+1.1 Geltungsbereich................................................................................................................................... 4
+1.2 Rechtliche Grundlagen..................................................................................................................... 4
+1.3 Name und Anschrift des Verantwortlichen ............................................................................ 4
+1.4 Name und Anschrift des Datenschutzbeauftragten.......................................................... 4
+1.5 Kontaktdaten der zuständigen Aufsichtsbehörde............................................................... 5
+1.6 Grundsätze des Datenschutzes und Ihre Rechte................................................................ 5
+1.6.1 Begriffsbestimmungen............................................................................................................ 5
+1.6.2 Grundsätze zur Verarbeitung personenbezogener Daten .................................... 5
+1.6.3 Rechte betroffener Personen ............................................................................................... 7
+1.7 Informationen zu Cookies und ähnlichen Technologien................................................ 9
+1.8 Änderung dieser Datenschutzerklärung................................................................................10
+2 Besonderer Teil............................................................................................................................................11
+2.1 Notwendige Verarbeitungen bei Besuch unserer Website .........................................11
+2.1.1 Informationen zum CDN-Service des CariNet ..........................................................11
+2.1.2 Erhebung von Zugriffs- und Verbindungsdaten.......................................................11
+2.1.3 Zuordnung von Browsersitzungen..................................................................................12
+2.1.4 Cookies für Benutzereinstellungen..................................................................................13
+2.1.5 Cookies zur Website-Darstellung.....................................................................................13
+2.1.6 Cookies für die Jobbörse-Suchfunktion .......................................................................14
+2.2 Optionale Verarbeitungen bei Besuch unserer Website...............................................14
+2.2.1 Google-Analytics.......................................................................................................................14
+2.2.2 YouTube-Videos........................................................................................................................17
+2.2.3 Google-Maps..............................................................................................................................19
+2.3 Verarbeitungen bei Nutzung unseres Angebots ...............................................................20
+2.3.1 Vorlesefunktion mit ReadSpeaker ...................................................................................20
+2.3.2 Kommentarfunktion auf dieser Website.......................................................................22
+2.3.3 Live-Chat.......................................................................................................................................23
+2.3.4 Newsletter-Abonnement.......................................................................................................24
+2.3.5 Bestellung des Jahrbuchs ...................................................................................................25
+2.3.6 Zeitschriftenabonnements...................................................................................................26
+2.3.7 Informationen zu Links zu Social-Media-Plattformen............................................28
+2.3.8 Job- und Praktikumsbörse...................................................................................................29
+2.4 Verarbeitungen bei Kontakt mit Ihnen....................................................................................31
+2.4.1 Kontaktaufnahme.....................................................................................................................31
+2.4.2 Verarbeitung personenbezogener Daten im Bewerbungsverfahren............32
+Vielen Dank für Ihr Interesse an unserem Online-Angebot. Der Schutz Ihrer Privatsphäre
+ist uns ein besonderes Anliegen. Die nachfolgenden Informationen sollen Sie darüber
+aufklären, in welcher Art, mit welchem Umfang und zu welchen Zwecken wir
+personenbezogene Daten verarbeiten und welche Rechte Betroffenen zustehen.
+1 Allgemeiner Teil
+1.1 Geltungsbereich
+Diese Datenschutzerklärung gilt für alle unter der Adresse www.caritas.de erreichbaren
+Seiten einschließlich ihrer Unterseiten (im Folgenden: „Website“). Die
+Datenschutzerklärung für die Online-Beratung unter der Domain beratung.caritas.de
+finden Sie am Ende dieses Dokuments und unter
+https://www.caritas.de/hilfeundberatung/onlineberatung/datenschutz.
+1.2 Rechtliche Grundlagen
+Die rechtlichen Grundlagen des Datenschutzes finden sich im Gesetz über den
+kirchlichen Datenschutz (KDG).
+1.3 Name und Anschrift des Verantwortlichen
+Verantwortlicher im Sinne des KDG ist:
+Deutscher Caritasverband e. V.
+vertreten durch den Präsidenten Dr. Peter Neher
+Karlstraße 40
+79104 Freiburg
+Telefon: +49 (0)761 200-0
+E-Mail: info@caritas.de
+- im Folgenden: „der Verantwortliche“/„wir“/„uns“.
+1.4 Name und Anschrift des Datenschutzbeauftragten
+Als betrieblicher Datenschutzbeauftragter im Sinne des KDG wurde benannt:
+Rechtsanwalt Ziar Kabir
+SCO-CON:SULT GmbH
+Hauptstraße 27
+53604 Bad Honnef
+E-Mail: datenschutz@caritas.de
+www.sco-consult.de
+1.5 Kontaktdaten der zuständigen Aufsichtsbehörde
+Katholisches Datenschutzzentrum Frankfurt/M.
+Haus am Dom Domplatz 3
+60311 Frankfurt
+Telefon: +49 (0)69 80087188 00
+Fax: +49 (0)69 80087188 15
+E-Mail: info@kdsz-ffm.de
+1.6 Grundsätze des Datenschutzes und Ihre Rechte
+1.6.1 Begriffsbestimmungen
+Diese Datenschutzerklärung beruht auf den Begrifflichkeiten, die durch den Verband
+der Diözesen Deutschlands als Rechtsträger der Deutschen Bischofskonferenz beim
+Erlass des Gesetzes über den Kirchlichen Datenschutz (KDG) verwendet wurden. Sie
+können die Begriffsbestimmungen im § 4 des KDG in der Broschüre "Kirchliches
+Datenschutzrecht" der Deutschen Bischofskonferenz einsehen.
+1.6.2 Grundsätze zur Verarbeitung personenbezogener Daten
+Die nachfolgenden Grundsätze gelten für alle Verarbeitungsvorgänge, über die in
+dieser Datenschutzerklärung informiert wird:
+1.6.2.1 Zweck und Umfang der Verarbeitung personenbezogener Daten
+Personenbezogene Daten werden nur zu den festgelegten Zwecken erhoben. Der
+Umfang der Verarbeitung wird auf das für die Zwecke der Verarbeitung notwendige
+Maß beschränkt.
+1.6.2.2 Weiterverarbeitung personenbezogener Daten zu anderen Zwecken
+Eine Weiterverarbeitung zu einem anderen Zweck ist möglich, wenn mindestens eine
+der Bedingungen des § 6 Abs. 2 KDG erfüllt ist. Dies ist u.a. der Fall, wenn
+▪ eine Rechtsvorschrift dies vorsieht oder zwingend voraussetzt
+▪ offensichtlich ist, dass es im Interesse der betroffenen Person liegt, und kein
+Grund zu der Annahme besteht, dass sie in Kenntnis des anderen Zwecks ihre
+Einwilligung verweigern würde,
+▪ Angaben der betroffenen Person überprüft werden müssen, weil tatsächliche
+Anhaltspunkte für deren Unrichtigkeit bestehen,
+▪ die Daten allgemein zugänglich sind oder der Verantwortliche sie
+veröffentlichen dürfte und kein offensichtlich überwiegendes schutzwürdiges
+Interesse der betroffenen Person dementgegen steht,
+▪ es zur Verfolgung von Straftaten oder Ordnungswidrigkeiten oder zur
+Vollstreckung von Bußgeldentscheidungen erforderlich ist,
+▪ es zur Abwehr einer schwerwiegenden Beeinträchtigung der Rechte eines
+Dritten erforderlich ist.
+Zudem behält es sich der Verantwortliche vor, personenbezogene Daten zu
+verarbeiten, wenn und soweit dies zur Wahrung seines berechtigten Interesses an der
+Geltendmachung, Ausübung oder Verteidigung rechtlicher Ansprüche erforderlich ist.
+1.6.2.3 Rechtsgrundlagen für die Verarbeitung personenbezogener Daten
+Personenbezogene Daten können verarbeitet werden, wenn mindestens eine der
+nachstehenden Bedingungen erfüllt ist:
+▪ Anordnung oder Erlaubnis durch kirchliche oder eine staatliche Rechtsvorschrift
+(§ 6 Abs. 1 lit. a KDG)
+▪ Einwilligung des Betroffenen (§ 6 Abs. 1 lit. b KDG)
+▪ Erforderlichkeit für Vertragserfüllung oder Durchführung vorvertragliche
+Maßnahmen (§ 6 Abs. 1 lit. c KDG)
+▪ Erfüllung einer rechtlichen Verpflichtung (§ 6 Abs. 1 lit. d KDG)
+▪ Wahrung eines berechtigten Interesses unsererseits oder eines Dritten, soweit
+die Interessen, Grundrechte und Grundfreiheiten des Betroffenen das
+erstgenannte Interesse nicht überwiegen (§ 6 Abs. 1 lit. g KDG)
+1.6.2.4 Speicherdauer personenbezogener Daten
+Die personenbezogenen Daten der betroffenen Person werden gelöscht oder gesperrt,
+sobald der Zweck der Speicherung entfällt. Eine Speicherung kann darüber hinaus
+erfolgen, wenn dies durch den europäischen oder nationalen Gesetzgeber in
+unionsrechtlichen Verordnungen, Gesetzen oder sonstigen Vorschriften, denen der
+Verantwortliche unterliegt (z.B. kirchliche Archivordnung), vorgesehen wurde. Eine
+Sperrung oder Löschung der Daten erfolgt auch dann, wenn eine durch die genannten
+Normen vorgeschriebene Speicherfrist abläuft, es sei denn, dass eine Erforderlichkeit
+zur weiteren Speicherung der Daten für einen Vertragsabschluss oder eine
+Vertragserfüllung besteht.
+1.6.2.5 Empfänger von personenbezogenen Daten
+Empfänger personenbezogener Daten von Betroffenen sind grundsätzlich nur der
+Verantwortliche und von ihm unter Einhaltung des Datenschutzrechts eingesetzte
+Auftragsverarbeiter. Eine Datenweitergabe an Dritte kann darüber hinaus erfolgen,
+wenn der Verantwortliche dazu kraft einer Erlaubnisnorm berechtigt oder aufgrund
+gesetzlicher Bestimmungen, verwaltungsrechtlicher oder gerichtlicher Anordnungen
+verpflichtet ist.
+1.6.2.6 Übermittlung personenbezogener Daten in Drittstaaten
+Sollten personenbezogene Daten Betroffener in Länder außerhalb der Europäischen
+Union (EU) bzw. außerhalb des Europäischen Wirtschaftsraums (EWR) übermittelt 
+werden, so erfolgt dies nur bei Bestehen eines Angemessenheitsbeschluss der
+Europäischen Kommission - soweit wichtigen kirchlichen Interessen nicht
+entgegenstehen - (§ 40 Abs. 1 KDG) oder dem Vorliegen geeigneter Garantien (§ 40
+Abs. 2 KDG) oder unter den Voraussetzungen des § 41 KDG für Ausnahmen in
+bestimmten Fällen.
+1.6.2.7 Bestehen einer automatisierten Entscheidungsfindung
+Als verantwortungsbewusste Organisation verzichten wir auf eine automatisierte
+Entscheidungsfindung oder ein Profiling.
+1.6.3 Rechte betroffener Personen
+Betroffenen Personen stehen folgende Rechte zu:
+1.6.3.1 Recht auf Widerruf einer Einwilligung (§ 8 Abs. 6 KDG)
+Sie können Ihre einmal erteilte Einwilligung zur Verarbeitung von Daten jederzeit mit
+Wirkung für die Zukunft widerrufen.
+1.6.3.2 Recht auf Auskunft (§ 17 KDG)
+Sie können Auskunft darüber verlangen, ob personenbezogene Daten von Ihnen
+verarbeitet werden. Insbesondere können Sie Auskunft über die Verarbeitungszwecke,
+die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern,
+gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante
+Speicherdauer oder Kriterien für diese, das Bestehen eines Rechts auf Berichtigung,
+Löschung, Einschränkung der Verarbeitung, Widerspruch oder das Bestehen des
+Beschwerderechts verlangen. Weiterhin können Sie Informationen über die Herkunft
+von Daten verlangen, die nicht bei Ihnen erhoben wurden. Zudem können Sie
+verlangen darüber informiert zu werden, ob eine automatische Entscheidungsfindung
+besteht, ob Daten in ein Drittland oder an eine internationale Organisation übermittelt
+werden und auf Grundlage welche Garantien dies erfolgt. Sie können eine Kopie der
+Sie betreffenden personenbezogenen Daten verlangen, soweit dadurch nicht die
+Rechte und Freiheiten anderer Personen beeinträchtigt werden.
+1.6.3.3 Recht auf Berichtigung (§ 18 KDG)
+Sie können die unverzügliche Berichtigung unrichtiger oder unter Berücksichtigung der
+Verarbeitungszwecke die Vervollständigung Ihrer gespeicherten personenbezogenen
+Daten verlangen.
+1.6.3.4 Recht auf Löschung (§ 19 KDG)
+Sie können die Löschung Ihrer gespeicherten personenbezogenen Daten verlangen,
+wenn der Zweck der Verarbeitung durch Zeitablauf oder andere Gründe entfallen ist,
+Sie Ihre Einwilligung widerrufen oder der Verarbeitung widersprochen haben und keine
+vorrangigen Gründe für die Verarbeitung oder anderweitige Rechtsgrundlagen 
+bestehen, die Rechtsgrundlage für die Datenverarbeitung fehlt oder weggefallen ist
+und die Verarbeitung nicht zur Ausübung des Rechts auf freie Meinungsäußerung und
+Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen
+Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von
+Rechtsansprüchen erforderlich ist. Sollten wir Ihre Daten öffentlich gemacht haben, so
+sind wir verpflichtet angemessene Maßnahmen zu unternehmen, jeden Empfänger
+darüber zu informieren, dass Sie die Löschung aller Links zu oder Kopien von den
+betreffenden personenbezogenen Daten verlangt haben. Wurden die Daten nicht
+unrechtmäßig verarbeitet und ist die Löschung nur mit einem unverhältnismäßig
+hohen Aufwand möglich, tritt an die Stelle des Rechts auf Löschung das Recht auf
+Einschränkung der Verarbeitung gemäß § 20 KDG.
+1.6.3.5 Recht auf Einschränkung der Verarbeitung (§ 20 KDG)
+Sie haben ein Recht auf Einschränkung der Verarbeitung, wenn Sie die Richtigkeit der
+Sie betreffenden personenbezogenen Daten für eine Dauer bestreiten, die es dem
+Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu
+überprüfen; die Verarbeitung unrechtmäßig ist und Sie die Löschung der
+personenbezogenen Daten ablehnen und stattdessen die Einschränkung der Nutzung
+der personenbezogenen Daten verlangen; wir die personenbezogenen Daten für die
+Zwecke der Verarbeitung nicht länger benötigen, Sie diese jedoch zur
+Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen,
+oder wenn Sie Widerspruch gegen die Verarbeitung gemäß § 23 KDG eingelegt haben
+und noch nicht feststeht, ob unsere berechtigten Gründe gegenüber Ihren Gründen
+überwiegen.
+1.6.3.6 Recht auf Datenübertragbarkeit (§ 22 KDG)
+Sie haben ein Recht, die von Ihnen auf Grundlage Ihrer Einwilligung oder eines mit uns
+geschlossenen Vertrages übermittelten personenbezogene Daten, die mithilfe
+automatisierter Verfahren verarbeitet werden, in einem strukturierten, gängigen und
+maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen
+Verantwortlichen zu verlangen, soweit dadurch nicht die Rechte und Freiheiten anderer
+Personen beeinträchtigt werden.
+1.6.3.7 Recht auf Widerspruch (§ 23 KDG)
+Sie haben ein Recht, aus Gründen die sich aus Ihrer besonderen Situation ergeben,
+einer Verarbeitung zu widersprechen, die wir zur Wahrung unserer berechtigten
+Interessen durchführen, soweit wir keine zwingend schutzwürdigen Gründe für die
+Verarbeitung nachweisen können, die Ihre Interessen, Rechte und Freiheiten
+überwiegen. Jederzeit haben Sie das Recht, Verarbeitungen zu widersprechen, die wir
+für Zwecke der Direktwerbung oder des Fundraisings betreiben. Ihre Daten dürfen
+dann nicht mehr für diese Zwecke verarbeitet werden.
+1.6.3.8 Beschwerderecht (§ 48 Absatz 1 KDG)
+Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen
+Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde zu,
+wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden
+personenbezogenen Daten gegen Datenschutzvorschriften verstößt.
+1.7 Informationen zu Cookies und ähnlichen Technologien
+Cookies sind Textdateien, die bei Seitenaufrufen vom Browser erstellt werden, um
+Daten über einen Browser während und nach einem Seitenbesuch zu speichern.
+Regelmäßig werden dazu eindeutige Zeichenfolgen im Cookie gespeichert mittels
+derer ein Server einen Browser wiedererkennen kann. Cookies können von der
+besuchten Seite gespeichert werden (First-Party) oder von Drittanbietern (Third-Party),
+wenn deren Dienste auf der besuchten Seite eingesetzt werden. Wird ein Dienst eines
+Drittanbieters auf mehreren Websites eingesetzt, kann der Drittanbieter Informationen
+über Nutzeraktivitäten in Cookies speichern und über mehrere Seiten nachverfolgen.
+Im Cookie wird die Domain der Seite gespeichert, von der das Cookie stammt und der
+Zugriff auf diese Domain beschränkt. Cookies sind entweder für den Zeitraum einer
+Browser-Sitzung (Session-Cookies) oder bis zu einem im Cookie vermerkten Zeitpunkt
+(persistente Cookies) gültig. Abgelaufene Cookies werden vom Browser beim
+Seitenbesuch nicht mehr geladen und je nach Browser direkt gelöscht oder
+überschrieben.
+Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies
+informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für
+bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der
+Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies
+sind jedoch unter Umständen nicht alle Funktionen unserer Website vollumfänglich
+nutzbar. Informationen zu den Cookie-Einstellungen Ihres Browsers finden Sie im HilfeBereich des Browsers oder unter folgenden Links:
+▪ Zu Google Chrome
+▪ Zu Mozilla Firefox
+▪ Zu Safari
+▪ Zu Microsoft Edge
+▪ Zu Internet Explorer
+▪ Zu Opera
+Zusätzlich können Daten zu den gleichen Zwecken im sogenannten Local Storage
+bzw. Local Session Storage Ihres Browsers gespeichert werden.
+Informationen zur Nutzung von Cookies oder ähnlichen Technologien beim Besuch
+unserer Website entnehmen Sie den Informationen zu einzelnen Verarbeitungen im
+Besonderen Teil der Datenschutzerklärung.
+1.8 Änderung dieser Datenschutzerklärung
+Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den
+aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer
+Leistungen in der Datenschutzerklärung umzusetzen. Für Ihren erneuten Besuch gilt
+dann die neue Datenschutzerklärung.
+2 Besonderer Teil
+2.1 Notwendige Verarbeitungen bei Besuch unserer Website
+2.1.1 Informationen zum CDN-Service des CariNet
+Der Verantwortliche betreibt unter der Domain cdn.carinet.de das Content Delivery
+Network (CDN) der Caritas Webseiten des CMS des Deutschen Caritasverbandes e.V.
+(CariNet CMS). Die Webserver, die das CDN ausführen, gehören zu den Servern, über
+die auch diese Website gehostet wird. Ein Content Delivery Network (CDN), auch
+Content Distribution Network genannt, ist ein Netz von Servern, mit dem zumeist
+statische Inhalte, wie beispielweise große Mediendateien schnell ausgeliefert werden.
+Ein CDN stellt skalierende Speicher- und Auslieferungskapazitäten zur Verfügung und
+gewährleistet auch bei großen Lastspitzen einen optimalen Datendurchsatz und
+schnelle Ladezeiten der Webseiten. Bei Aufruf der Website wird automatisch eine
+Verbindung zu dem CDN Server aufgebaut, der zu den Webservern, die die Website
+ausliefern, gehört. Eine zentrale URL cdn.carinet.de wird genutzt, um unabhängig von
+der besuchten Domain für alle Webseiten des CariNet CMS zentrale und statische
+Medien (bspw. Caritas Logo und Caritas Designs) aus dem zentralen Datenpool zur
+Verfügung zu stellen und Ladezeiten zu optimieren.
+2.1.2 Erhebung von Zugriffs- und Verbindungsdaten
+Bei jedem Aufruf unserer Website erfasst unser System automatisiert Informationen
+vom Computersystem des aufrufenden Rechners.
+2.1.2.1 Umfang der Verarbeitung
+Folgende Daten werden erhoben:
+▪ Browsertyp, Betriebssystem und Version
+▪ die IP-Adresse des Nutzers
+▪ Datum und Uhrzeit des Zugriffs
+▪ Websites, von denen das System des Nutzers auf unsere Internetseite gelangt
+▪ Seiten unserer Website, die vom System des Nutzers aufgerufen werden
+Die Daten werden in Protokolldateien gespeichert. Eine Speicherung dieser Daten
+zusammen mit anderen personenbezogenen Daten des Nutzers findet nicht statt.
+Wenn der Personenbezug der Daten für die Erreichung der Zwecke nicht mehr
+erforderlich ist, werden die Daten durch Kürzung der IP-Adresse anonymisiert.
+2.1.2.2 Rechtsgrundlage für Verarbeitung
+Die Rechtsgrundlage für die Verarbeitung ist § 6 Abs. 1 lit. g KDG.
+2.1.2.3 Zweck der Verarbeitung
+Die Verarbeitung der IP-Adresse durch das System ist notwendig, um eine Auslieferung
+der Website an den Rechner des Nutzers zu ermöglichen. Die Speicherung in
+Protokolldateien erfolgt zur Wahrung unserer nach einer Interessenabwägung
+überwiegenden berechtigten Interessen iSd § 6 Abs. 1 lit. g KDG an der Erkennung und
+Beseitigung von Störungen und Beweissicherung im Falle eines Cyberangriffes. Die
+Daten werden in anonymisierter Form zur statistischen Auswertung von Seitenaufrufen
+verwendet.
+2.1.2.4 Speicherdauer
+Personenbezogene Daten in Protokolldateien werden nach 14 Tagen anonymisiert,
+sofern eine längere Speicherung zur Erfüllung der vorgenannten Zwecke nicht
+erforderlich ist.
+2.1.2.5 Widerspruchs- und Beseitigungsmöglichkeit
+Es gelten die Regelungen des § 23 KDG zum Recht auf Widerspruch gegen
+Verarbeitungen, die auf Basis einer Interessenabwägung stattfinden. Da diese
+Verarbeitungen zur Sicherstellung der Funktionsfähigkeit und Sicherheit unserer
+informationstechnischen Systeme zwingend erforderlich sind, besteht in aller Regel
+keine Möglichkeit der Verarbeitung zu widersprechen.
+2.1.3 Zuordnung von Browsersitzungen
+Bei der Nutzung unserer Website können sogenannte Session-Cookies in Ihrem
+Browser gespeichert werden.
+2.1.3.1 Umfang der Verarbeitung
+Unser System weist Ihrem Browser eine zufällige eindeutige Kennung zu und speichert
+diese für die Dauer Ihrer Browser-Sitzung. Die Kennung wird in einem Cookie
+(„Session-Cookie“) gespeichert und bei Aufrufen von Seiten unserer Website an unser
+System übermittelt. Die Kennung kann mit anderen Daten verknüpft werden, die wir
+über unsere Website erheben. Anhand der im Cookie gespeicherten Kennung ist keine
+Identifizierung Betroffener möglich. Das Cookie ist nur für unsere Seite gültig und kann
+nicht zur Nachverfolgung Ihrer Aktivitäten auf Seiten Dritter verwendet werden.
+2.1.3.2 Speicherung und Zugriff auf Daten im Browser
+Für die Zuordnung von Sitzungen können folgende Cookies in Ihrem Browser
+gespeichert und ausgelesen werden:
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+ASP.Net_SessionId Session nein www.caritas.de First-Party Cookie
+ARRAfinity Session nein www.caritas.de First-Party Cookie
+2.1.3.3 Rechtsgrundlage der Verarbeitung
+Die Rechtsgrundlage der Verarbeitungen ist § 6 Abs. 1 lit. g KDG.
+2.1.3.4 Zweck der Verarbeitung
+Session-Kennungen werden dazu verwendet, um Anfragen systemseitig einem
+Browser zuordnen zu können. Die Zuordnung von Anfragen zu Browsern durch einen
+Server ist auf unserer Seite für die Bereitstellung und Nutzung geschützter Bereiche
+(z.B. Jobbörse), Bereitstellung und Nutzung der Suchfunktion und zur Bereitstellung der
+Website über ein verteiltes Servernetzwerk erforderlich. Die Verarbeitung zu diesen
+Zwecken stellt ein berechtigtes Interesse dar.
+2.1.3.5 Speicherdauer
+Die Session-Daten werden nach Sitzungsende bzw. nach Überschreitung einer den
+Zwecken angemessen Zeitbegrenzung gelöscht.
+2.1.3.6 Widerspruchs- und Beseitigungsmöglichkeit
+Es gelten die Regelungen des § 23 KDG zum Recht auf Widerspruch gegen
+Verarbeitungen, die auf Basis einer Interessenabwägung stattfinden. Da diese
+Verarbeitungen für den Betrieb unserer Website erforderlich sind, besteht in aller Regel
+keine Möglichkeit der Verarbeitung zu widersprechen.
+2.1.4 Cookies für Benutzereinstellungen
+Unserer Website speichert ausgewählte Einstellungen bzw. den Status Ihrer
+Einwilligungen für Dienste, die auf unserer Website eingesetzt werden, in einem
+Cookie. Die Ressourcen für die Verwaltung von Benutzereinstellungen werden von
+unserem Server bereitgestellt. Mit dem von uns genutzte Consent-Banner werden
+keine personenbezogenen Daten verarbeitet.
+Für die Verwaltung Ihrer Einstellungen bzw. Einwilligung wird das nachfolgende Cookie
+in Ihrem Browser gespeichert und ausgelesen. Wenn Sie dieses Cookie löschen,
+werden alle gespeicherten Einstellungen gelöscht und ggf. erteilte Einwilligungen
+widerrufen. Unsere Seite verwendet dann die jeweiligen Standard-Einstellungen für die
+jeweiligen Dienste.
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+klarocookieconsent 14 Tage nein www.caritas.de First-Party Cookie
+2.1.5 Cookies zur Website-Darstellung
+Unsere Website speichert den Status der Sichtbarkeit von Elementen in Cookies. Es
+werden keine personenbezogenen Daten bei diesem Vorgang verarbeitet. Hierzu
+werden die folgenden Cookies in Ihrem Browser gespeichert und ausgelesen:
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+donationclip Session nein www.caritas.de First-Party Cookie
+slideout 1 Stunde nein www.caritas.de First-Party Cookie
+*_tabToShow, Session nein www.caritas.de First-Party Cookie
+2.1.6 Cookies für die Jobbörse-Suchfunktion
+Unsere Website speichert die Voreinstellungen und Eingaben im Suchformular der
+Jobbörse in einem Cookies und sendet die zwischengespeicherten Daten mit der
+Suchanfrage an unseren Server. Im Cookie werden keine personenbezogenen Daten
+gespeichert. Hierzu wird das folgende Cookie in Ihrem Browser gespeichert und
+ausgelesen:
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+* _jobofferquery Session nein www.caritas.de First-Party Cookie
+2.2 Optionale Verarbeitungen bei Besuch unserer Website
+2.2.1 Google-Analytics
+Auf dieser Website wird Google-Analytics eingesetzt, ein Dienst zur Analyse von
+Besucherströmen der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4,
+Irland (im Folgenden: „Google“). Mit Google-Analytics erfassen wir auch Daten aus
+Google-Ads, einem Dienst von Google zur Reichweitenmessung von Werbeanzeigen.
+2.2.1.1 Umfang der Verarbeitung
+Wenn Sie dem Einsatz von Google-Analytics zugestimmt haben, verarbeiten wir Ihre
+Daten wie nachfolgend beschrieben. Der Umfang der Verarbeitung richtet sich nach
+dem jeweiligen Verarbeitungszweck:
+2.2.1.1.1 Messung der Websitenutzung
+Bei Aufruf einer Seite unserer Website wird eine Verbindung zu Servern von Google
+hergestellt, um das für Google-Analytics benötigte Skript zu laden. Dabei wird Ihre IPAdresse, die Adresse der besuchten Seite und Angaben zum genutzten Browser und
+Betriebssystem übertragen. Im Zeitpunkt der Initialisierung von Google-Analytics
+werden Cookies gespeichert, die einzigartige Kennungen enthalten, mittels derer Ihr
+Browser durch Google-Analytics bei Aufrufen von Seiten unserer Website
+wiedererkannt werden kann. Das Cookie ist nur für unsere Seite gültig und kann nicht
+zur Nachverfolgung Ihrer Aktivitäten auf Seiten Dritter verwendet werden.
+Bei jedem Aufruf einer Seite unserer Website werden anschließend Daten zum
+Seitenaufruf (u.a. Seite, von der Sie auf unsere Website gelangt sind und die
+aufgerufene Seite), Browser- und Systeminformationen (u.a. Browser, Betriebssystem,
+IP-Adresse) sowie Daten aus Cookies einschließlich der im Cookie gespeicherten 
+Kennung verarbeitet und an einen Server von Google in den USA übertragen und dort
+gespeichert.
+Auf dieser Website greift die IP-Anonymisierung (sogenanntes IP-Masking). Wenn Sie
+unsere Website von Orten innerhalb der Mitgliedsstaaten der Europäischen Union bzw.
+des Europäischen Wirtschaftsraum aufrufen, wird die erhobene IP-Adresse gekürzt,
+sodass der Personenbezug der IP-Adresse entfällt. Nähere Informationen zu den
+übermittelten Daten finden Sie unter in folgendem Artikel von Google:
+▪ Übersicht des Trackingcodes
+2.2.1.1.2 Messung von Werbeanzeigen
+Im Zeitpunkt des Aufrufs einer Google-Werbeanzeige wird von Google ein
+pseudonymes Nutzungsprofil erstellt und eine zugeordnete einzigartige Kennung
+(„Werbeprofilkennung“) in einem Cookie in Ihrem Browser gespeichert. Anhand der
+Werbeprofilkennung kann Google Ihren Browser wiedererkennen und dem Profil
+Informationen zu angesehenen und weiteren aufgerufenen Werbeanzeigen zuordnen.
+Nach der Weiterleitung auf unsere Seite werden Daten zum aufgerufenen Werbemittel,
+wie z.B. die Anzeigenkennung und die Zuordnung zu einer laufenden Werbekampagne,
+zusammen mit der Werbeprofilkennung an einen Server von Google in den USA
+übertragen. Dabei wird auch Ihre IP-Adresse übermittelt, wobei auch in diesem Fall das
+vorgenannte IP-Masking greift.
+Durch die Google-Ads Funktion zur Reichweitenmessung von Werbeanzeigen werden
+die Daten zum Werbemittel mit den Daten aus Google-Analytics in gemeinsame
+statistische Übersichten zusammengeführt. Wenn Sie über ein Nutzerkonto bei Google
+verfügen und ein Google-Cookie mit Ihrer Benutzerkennung in Ihrem Browser
+gespeichert ist, kann Google den Aufruf der Werbeanzeige Ihrem Benutzerkonto und
+damit Ihnen persönlich zuordnen. Für uns sind dahingegen nur die erhoben Daten zu
+aufgerufenen Werbeanzeigen in Form von anonymisierten Statistiken verfügbar.
+2.2.1.2 Speicherung und Zugriff auf Daten im Browser
+Für die Messung von Besucherströmen und die Reichweitenmessung von
+Werbeanzeigen können folgende Cookies in Ihrem Browser gespeichert und
+ausgelesen werden. Weitere Informationen entnehmen Sie den Angaben von Google
+zu verwendeten Cookie-Arten.
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+__utma 2 Jahre nein .caritas.de First-Party
+Cookie
+__utmb 30 Minuten nein .caritas.de First-Party
+Cookie
+__utmc Session nein .caritas.de First-Party
+Cookie
+__utmt 10 Minuten nein .caritas.de First-Party
+Cookie
+__utmz 6 Monate nein .caritas.de First-Party
+Cookie
+IDE 12 Monate ja .doubleclick.net Third-Party
+Cookie
+test_cookie 15 Minuten ja .doubleclick.net Third-Party
+Cookie
+2.2.1.3 Rechtsgrundlage der Verarbeitung
+Die Rechtsgrundlage der Verarbeitungen ist § 6 Abs. 1 lit. b KDG.
+2.2.1.4 Zweck der Verarbeitung
+Wir setzen Google-Analytics ein, um Besucherströme auf unserer Website zu messen
+und auszuwerten. Google verarbeitet die von uns erhobenen Daten, um die Nutzung
+unserer Website auszuwerten und um Berichte über die Nutzung unserer Website zu
+erstellen. Die Erfassung der Daten zu aufgerufenen Werbeanzeigen erfolgt zur
+Messung der Wirksamkeit eingesetzter Werbemittel im Google-Netzwerk und zur
+Optimierung unserer Werbemaßnahmen. Zu diesen Zwecken stellt uns Google die
+erhobenen Daten in Form von anonymisierten Statistiken zur Verfügung.
+2.2.1.5 Datenübermittlung in Drittstaaten
+Google übermittelt und verarbeitet Ihre Daten auch in Drittländern wie den USA, für die
+kein Angemessenheitsbeschluss der EU-Kommission besteht. Google hat sich uns
+gegenüber in Standardvertragsklauseln dazu verpflichtet, das europäische
+Datenschutzrecht auch im Drittland zu gewährleisten und bietet dadurch eine
+geeignete Garantie für den Schutz personenbezogener Daten iSd § 40 Abs. 1 lit. a KDG.
+2.2.1.6 Speicherdauer
+Die Einträge in den von Google bereitgestellten Statistiken werden nach 14 Monaten
+gelöscht. Informationen über die Kriterien von Google für die Speicherung von
+anfallenden Verbindungsdaten finden Sie in den Richtlinien zur Datenspeicherung von
+Google.
+2.2.1.7 Widerspruchs- und Beseitigungsmöglichkeit
+Den Status Ihrer Einwilligung können Sie über unseren Consent-Manager einsehen
+und eine erteilte Einwilligung jederzeit widerrufen. Durch den Widerruf der Einwilligung
+wird die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung nicht berührt. Ihre
+Entscheidung über den Einsatz des Dienstes wird in einem Cookie gespeichert. Sie gilt
+nur für diesen Browser und muss nach Ablauf der genannten Gültigkeitsdauer erneuert
+werden.
+<a href="#" onclick="return klaro.show();">Consent-Manager anzeigen</a>
+2.2.2 YouTube-Videos
+Auf dieser Webseite werden Videos eingebettet, die von Servern der Plattform YouTube
+geladen werden. YouTube ist eine Plattform der Google Ireland Limited, Gordon House,
+Barrow Street, Dublin 4, Irland (im Folgenden: „Google“). Google agiert in diesem
+Dienstleistungsverhältnis als Dritter.
+2.2.2.1 Umfang der Verarbeitung
+Wenn Sie der Anzeige von Videos der Plattform YouTube zugestimmt haben und eine
+Seite unserer Website aufrufen, die Videos der Plattform YouTube einbettet, stellt Ihr
+Browser Verbindungen zu Servern von Google in den USA her, um Ressourcen für die
+Videokomponente, Vorschaubilder und Schriftarten zu laden. Dabei werden Ihre IPAdresse, die Adresse der besuchten Seite und Angaben zum genutzten Browser und
+Betriebssystem übertragen. Google kann diese Information Ihrem persönlichen
+Google-Account zuordnen, sofern Sie zum Zeitpunkt des Seitenaufrufs eingeloggt sind.
+Auf Ihrem Gerät werden Konfigurationsdaten gespeichert, mit denen die Plattform
+YouTube den verwendeten Browser wiedererkennen und vorgenommene
+Nutzereinstellungen anwenden kann.
+Auf unserer Website werden Videos der Plattform YouTube im sogenannten
+erweiterten Datenschutzmodus eingebettet. Dadurch wird YouTube angewiesen, keine
+Cookies mit Werbeprofilkennungen oder Daten zum Nutzungsverhalten zu speichern.
+Diese Einstellung gilt nur für die von uns eingebetteten Videos der Plattform YouTube
+und hat keine Auswirkung auf andere Videos oder Links, die Sie möglicherweise über
+ein angezeigtes Video aufrufen können. Weitere Informationen finden Sie auf den
+Seiten von Google:
+▪ Zum erweiterten Datenschutzmodus
+▪ Zur Datenschutzerklärung und den Nutzungsbedingungen von Google
+2.2.2.2 Speicherung und Zugriff auf Daten im Browser
+Durch die Einbettung von Videos der Plattform YouTube können folgende Daten in
+Ihrem Browser gespeichert und ausgelesen werden:
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+yt-remote-device-id Dauerhaft ja .youtubenocookie.com
+Local Storage
+yt.innertube::nextId Dauerhaft ja .youtubenocookie.com
+Local Storage
+yt-remoteconnected-devices
+Dauerhaft ja .youtubenocookie.com
+Local Storage
+yt.innertube::requests Dauerhaft ja .youtubenocookie.com
+Local Storage
+yt-player-headersreadable
+Dauerhaft ja .youtubenocookie.com
+Local Storage
+yt-player-bandaidhost
+Dauerhaft ja .youtubenocookie.com
+Local Storage
+yt-player-bandwith Dauerhaft ja .youtubenocookie.com
+Local Storage
+yt-remote-sessionapp
+Session ja .youtubenocookie.com
+Session
+Storage
+yt-remote-castinstalled
+Session ja .youtubenocookie.com
+Session
+Storage
+yt-remote-sessionname
+Session ja .youtubenocookie.com
+Session
+Storage
+yt-remote-castavailable
+Session ja .youtubenocookie.com
+Session
+Storage
+yt-remote-fastcheck-period
+Session ja .youtubenocookie.com
+Session
+Storage
+2.2.2.3 Rechtsgrundlage der Verarbeitung
+Die Rechtsgrundlage der Verarbeitungen ist § 6 Abs. 1 lit. b KDG.
+2.2.2.4 Zweck der Verarbeitung
+Zweck der Einbettung ist die Anzeige von Videos der Plattform YouTube auf unserer
+Website. YouTube stellt den erforderlichen Speicherplatz und die technische
+Infrastruktur für die Bereitstellung der Videoinhalte zur Verfügung. Indem die
+Videoinhalte über die Plattform YouTube veröffentlicht bzw. von der Plattform
+abgerufen werden, kann eine höhere Reichweite erzielt werden.
+2.2.2.5 Datenübermittlung in Drittstaaten
+Google übermittelt und verarbeitet Ihre Daten auch in Drittländern wie den USA, für die
+kein Angemessenheitsbeschluss der EU-Kommission besteht. Für die Übermittlung
+Ihrer Daten bestehen im Falle der Einbettung von Videos der Plattform YouTube keine
+gleichwertigen Garantien, sodass die Einhaltung der in der EU geltenden
+Datenschutzgesetze und Ihre Rechte nicht gewährleistet werden können. Wenn Sie
+dennoch der Anzeige von Videos der Plattform YouTube zustimmen, erfolgt die
+Verarbeitung auf Grundlage Ihrer Einwilligung in die garantielose Übermittlung iSd § 41
+Abs. 1 KDG.
+2.2.2.6 Speicherdauer
+Wir speichern im Rahmen der Einbettung von Videos der Plattform YouTube keine
+personenbezogenen Daten. Informationen über die Kriterien von Google für die
+Speicherung von anfallenden Verbindungsdaten finden Sie in den Richtlinien zur
+Datenspeicherung von Google.
+2.2.2.7 Widerspruchs- und Beseitigungsmöglichkeit
+Den Status Ihrer Einwilligung können Sie über unseren Consent-Manager einsehen
+und eine erteilte Einwilligung jederzeit widerrufen. Durch den Widerruf der Einwilligung
+wird die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung nicht berührt. Ihre
+Entscheidung über den Einsatz des Dienstes wird in einem Cookie gespeichert. Sie gilt
+nur für diesen Browser und muss nach Ablauf der genannten Gültigkeitsdauer erneuert
+werden.
+<a href="#" onclick="return klaro.show();">Consent-Manager anzeigen</a>
+2.2.3 Google-Maps
+Wir nutzen auf unserer Website den Dienst Google-Maps der Google Ireland Limited,
+Gordon House, Barrow Street, Dublin 4, Irland (im Folgenden: „Google“). Google agiert
+in diesem Dienstleistungsverhältnis als Dritter.
+2.2.3.1 Umfang der Verarbeitung
+Wenn Sie der Anzeige von Karten der Plattform Google-Maps zugestimmt haben und
+eine Seite unserer Website aufrufen, die Karten der Plattform Google-Maps einbettet,
+stellt Ihr Browser Verbindungen zu Servern von Google in den USA her, um
+Kartendaten zu laden. Dabei wird Ihre IP-Adresse, die Adresse der besuchten Seite und
+Angaben zum genutzten Browser und Betriebssystem übertragen. Google speichert
+zudem im Zeitpunkt der Einbettung von Karten der Plattform Google-Maps ein Cookie
+mit einer einzigartigen Kennung in Ihrem Browser, das von Google für die die
+Wiedererkennung Ihres Browsers und Anwendung von Benutzereinstellungen sowie
+für Werbezwecke verwendet wird. Für die Nutzung der von Google bereitgestellten
+Karteninhalte der Plattform Google-Maps gelten die Nutzungsbedingungen von Google
+und die zusätzlichen Nutzungsbedingungen für den Dienst Google-Maps. Insoweit
+treten Besucher bei der Nutzung von Google-Maps in ein direktes Nutzungsverhältnis
+mit Google. Weitere Informationen finden Sie auf den Seiten von Google:
+▪ Zu den Nutzungsbedingungen für Google Maps
+▪ Zur Datenschutzerklärung und den Nutzungsbedingungen von Google
+2.2.3.2 Speicherung und Zugriff auf Daten im Browser
+Durch die Einbettung von Karten der Plattform Google-Maps können folgende Cookies
+in Ihrem Browser gespeichert und ausgelesen werden. Weitere Informationen
+entnehmen Sie den Angaben von Google zu verwendeten Cookie-Arten.
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+NID 6 Monate ja .google.com Third-Party Cookie
+2.2.3.3 Rechtsgrundlage der Verarbeitung
+Die Rechtsgrundlage der Verarbeitungen ist § 6 Abs. 1 lit. b KDG.
+2.2.3.4 Zweck der Verarbeitung
+Zweck der Einbettung ist die Anzeige geographischer Karten der Plattform GoogleMaps auf unserer Website. Die Anzeige der Karten dient in Kombination mit
+Ortsangaben wie unserer Standorte zur Verbesserung der Nutzerfreundlichkeit unseres
+Angebots.
+2.2.3.5 Datenübermittlung in Drittstaaten
+Google übermittelt und verarbeitet Ihre Daten auch in Drittländern wie den USA, für die
+kein Angemessenheitsbeschluss der EU-Kommission besteht. Google hat sich uns
+gegenüber in Standardvertragsklauseln dazu verpflichtet, das europäische
+Datenschutzrecht auch im Drittland zu gewährleisten und bietet dadurch eine
+geeignete Garantie für den Schutz personenbezogener Daten iSd § 40 Abs. 1 lit. a KDG.
+2.2.3.6 Speicherdauer
+Wir speichern im Rahmen der Einbettung von Karten der Plattform Google-Maps keine
+personenbezogenen Daten. Informationen über die Kriterien von Google für die
+Speicherung von anfallenden Verbindungsdaten finden Sie in den Richtlinien zur
+Datenspeicherung von Google.
+2.2.3.7 Widerspruchs- und Beseitigungsmöglichkeit
+Den Status Ihrer Einwilligung können Sie über unseren Consent-Manager einsehen
+und eine erteilte Einwilligung jederzeit widerrufen. Durch den Widerruf der Einwilligung
+wird die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung nicht berührt. Ihre
+Entscheidung wird in einem Cookie gespeichert. Sie gilt nur für diesen Browser und
+muss nach Ablauf der genannten Gültigkeitsdauer erneuert werden.
+<a href="#" onclick="return klaro.show();">Consent-Manager anzeigen</a>
+2.3 Verarbeitungen bei Nutzung unseres Angebots
+2.3.1 Vorlesefunktion mit ReadSpeaker
+Auf unserer Website wird der Dienst ReadSpeaker der Betreibergesellschaft
+ReadSpeaker, Dolderseweg 2A, 3712 BP Huis ter Heide, Niederlande (im Folgenden
+„ReadSpeaker“) eingesetzt. Die Vorlesefunktion von ReadSpeaker wird genutzt, um
+einen barrierefreien Zugriff auf unsere Inhalte zu ermöglichen.
+2.3.1.1 Umfang der Verarbeitung
+Die Seiten unserer Website, auf denen die Vorlesefunktion von ReadSpeaker zur
+Verfügung steht, enthalten eine Schaltfläche mit einem Lautsprechersymbol. Beim 
+Klick auf diese Schaltfläche wird eine Verbindung zu Servern von ReadSpeaker im
+Europäischen Wirtschaftsraum hergestellt, um die für die Vorlesefunktion erforderlichen
+Ressourcen zu laden. Dabei werden Ihre IP-Adresse, die Adresse der besuchten Seite
+und technische Verbindungsdaten übertragen. Die Textinhalte der besuchten Seite
+werden an einen Server von ReadSpeaker übermittelt. In Echtzeit wird eine Audiodatei
+generiert, die über einen in unsere Seite eingebetteten Inlineframe von Servern von
+ReadSpeaker an Ihren Browser übermittelt wird. Wenn Sie die Einstellungen des
+Audioplayers ändern, werden die Einstellungen in einem Cookie gespeichert (siehe
+Cookie-Übersicht). Die Speicherung ist erforderlich, um die Vorlesefunktion in der vom
+Nutzer eingestellten Konfiguration über mehrere Seitenaufrufe hinweg zur Verfügung
+stellen zu können. Weitere Informationen entnehmen Sie der Datenschutzerklärung
+des Anbieters unter https://www.readspeaker.com/de/erklarung-zum-datenschutz/.
+2.3.1.2 Speicherung und Zugriff auf Daten im Browser
+Für die Speicherung von Benutzereinstellungen können folgende Cookies in Ihrem
+Browser gespeichert und ausgelesen werden.
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+ReadSpeakerSettings 4 Tage nein www.caritas.de First-Party
+Cookie
+2.3.1.3 Rechtsgrundlage der Verarbeitung
+Die Rechtsgrundlage der Verarbeitungen ist § 6 Abs. 1 lit. g KDG.
+2.3.1.4 Zweck der Verarbeitung
+Die Verarbeitung Ihrer IP-Adresse zur Übertragung der Audioinhalte erfolgt zur
+Wahrung unserer nach einer Interessenabwägung überwiegenden berechtigten
+Interessen an der Bereitstellung einer barrierefreien Nutzungsmöglichkeit unserer
+Website.
+2.3.1.5 Speicherdauer
+Wir speichern keine personenbezogenen Daten beim Einsatz der Vorlesefunktion. Laut
+der Datenschutzerklärung von ReadSpeaker wird Ihre übermittelte IP-Adresse nicht
+weiterverarbeitet.
+2.3.1.6 Widerspruchs- und Beseitigungsmöglichkeit
+Es gelten die Regelungen des § 23 KDG zum Recht auf Widerspruch gegen
+Verarbeitungen, die auf Basis einer Interessenabwägung stattfinden. Es werden nur
+Daten an ReadSpeaker übertragen, wenn Sie die Vorlesefunktion aktivieren. Wir gehen
+davon aus, dass die übermittelten Daten unmittelbar nach Nutzung der Vorlesefunktion 
+auf einer Seite wieder gelöscht werden. Wenn Sie nicht möchten, dass Daten an
+ReadSpeaker übermittelt werden, sollten Sie die Vorlesefunktion nicht nutzen.
+2.3.2 Kommentarfunktion auf dieser Website
+Auf einigen Seiten unserer Website besteht die Möglichkeit Inhalte zu kommentieren.
+2.3.2.1 Umfang der Verarbeitung
+Neben dem Inhalt Ihres Kommentars werden auch Angaben zum Zeitpunkt der
+Erstellung des Kommentars und der von Ihnen gewählte Nutzername bzw. das
+gewählte Pseudonym gespeichert und auf der Seite veröffentlicht. Ebenso wird die IPAdresse gespeichert. Optional können Sie auch Ihre E-Mail-Adresse angeben. Wenn
+Sie das entsprechende Kontrollkästchen aktivieren, werden an die angegebene E-MailAdresse Benachrichtigungen bei neuen Kommentaren gesendet.
+2.3.2.2 Rechtsgrundlage für Verarbeitung
+Die Rechtsgrundlage für die Verarbeitung von Daten, die beim Absenden eines
+Kommentars verarbeitet werden, ist § 6 Abs. 1 lit. g KDG.
+2.3.2.3 Zweck der Verarbeitung
+Ihre Daten werden zum Zweck der Veröffentlichung des Kommentars und optional zur
+Zustellung von Benachrichtigungen verarbeitet. Da wir Kommentare auf unserer
+Website nicht vor der Freischaltung prüfen, speichern wir die IP-Adresse, um im Falle
+von Rechtsverletzungen wie Beleidigungen oder Propaganda gegen den Verfasser
+vorgehen zu können. Die Speicherung dient auch dem Schutz vor Missbrauch des
+Kommentarformulars. In diesen Zwecken liegt auch unser berechtigtes Interesse an
+der Verarbeitung.
+2.3.2.4 Speicherdauer
+Die Daten werden gelöscht, wenn der Zweck der Speicherung erreicht ist. Dies kann
+bei Kommentaren von dem Veröffentlichungszeitraum der betreffenden Website und
+Umständen des Einzelfalls abhängen. Im Übrigen gelten die allgemeinen
+Bestimmungen zur Speicherdauer.
+2.3.2.5 Widerspruchs- und Beseitigungsmöglichkeit
+Es gelten die Regelungen des § 23 KDG zum Recht auf Widerspruch gegen
+Verarbeitungen, die auf Basis einer Interessenabwägung stattfinden. Da diese
+Verarbeitungen zur Verfolgung von Straftaten und zur Absicherung unseres Systems
+erforderlich sind, besteht in aller Regel keine Möglichkeit der Verarbeitung zu
+widersprechen.
+2.3.3 Live-Chat
+Auf einigen Seiten unserer Website wird eine Live-Chat-Funktion angeboten. Sie
+erkennen die Chat-Funktion an einer Sprechblase, die im unteren linken
+Bildschirmbereich angezeigt wird. Im Rahmen einer Auftragsverarbeitung stellt die
+NETWAYS Managed Services GmbH, Deutschherrnstr. 15-19, 90429 Nürnberg (im
+Folgenden „Netways“) für uns die Chatfunktion auf ihren Servern bereit.
+2.3.3.1 Umfang der Verarbeitung
+Im Chatformular wird zunächst Ihr Name abgefragt. Die Angabe eines Namens ist für
+die Nutzung erforderlich. Sie können auch ein Pseudonym verwenden. Anschließend
+können Sie Nachrichten verfassen und Nachrichten von unseren Beratern empfangen.
+Die Art der verarbeiteten Daten richtet sich danach, welche Angaben Sie im Chat
+machen. Dies kann auch besondere Kategorien personenbezogener Daten iSd § 9
+KDG umfassen. Alle Daten werden über eine SSL-verschlüsselte Verbindung
+übertragen und vertraulich behandelt. Personenbezogene Daten, die wir von Ihnen
+erheben, werden vorbehaltlich der allgemeinen Bestimmungen zur Datenweitergabe
+nicht an Dritte weitergegeben. Ihre Benutzereinstellungen, Ihr Einwilligungsstatus und
+ein Authentifizierungs-Token werden zusammen mit technisch-erforderlichen
+Konfigurationsdaten auf Ihrem Gerät gespeichert. Es werden keine
+Kommunikationsinhalte auf Ihrem Gerät gespeichert.
+2.3.3.2 Speicherung und Zugriff auf Daten im Browser
+Zur Bereitstellung und für die Nutzung des Live-Chats können folgende Cookies in
+Ihrem Browser gespeichert und ausgelesen werden:
+Bezeichnung Funktionsdauer Zugriffsmöglichkeit
+auf Seiten Dritter
+Domain Typ
+store Dauerhaft nein caritas.netways.de HTML Local
+Storage
+2.3.3.3 Rechtsgrundlage für Verarbeitung
+Die Verarbeitungen im Rahmen des Live-Chats erfolgen auf Grundlage Ihrer
+Einwilligung gemäß § 6 Abs. 1 lit. b KDG. Im Zeitpunkt des erstmaligen Öffnens des
+Chat-Fensters werden Sie aufgefordert, der Verarbeitung Ihrer Daten zuzustimmen. Die
+Nutzung des Chats ist ohne Ihre Einwilligung nicht möglich. An dieser Stelle wird auch
+auf diese Datenschutzerklärung verwiesen.
+2.3.3.4 Zweck der Verarbeitung
+Die Verarbeitung erfolgt zum Zweck der direkten Kommunikation mit Ihnen. Das
+Angebot dient auch dem Zweck, insbesondere für Menschen in herausfordernden
+Lebensabschnitten, unmittelbar erreichbar zu sein.
+2.3.3.5 Speicherdauer
+Wir speichern Ihre Daten für die Dauer der Chat-Sitzung. Ihre Benutzereinstellungen
+und Ihr Einwilligungsstatus bleiben dauerhaft in Ihrem Browser erhalten, es sei denn,
+Sie löschen die Daten direkt aus Ihrem Browser (für eine Anleitung hierzu s.o.) bzw.
+löschen die Daten über die dafür vorgesehene Funktion im Chat-Fenster.
+2.3.3.6 Widerspruchs- und Beseitigungsmöglichkeit
+Sie können Ihre erteilte Einwilligung jederzeit widerrufen. Durch den Widerruf der
+Einwilligung wird die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung nicht
+berührt. Bitte löschen Sie hierzu Ihre im Browser gespeicherten Benutzereinstellungen
+wie oben beschrieben.
+2.3.4 Newsletter-Abonnement
+Auf unserer Website besteht die Möglichkeit kostenfreie Newsletter zu abonnieren.
+2.3.4.1 Umfang der Verarbeitung
+Wenn Sie sich über unsere Website zu einem Newsletter anmelden, werden die im
+Anmeldeformular eingegebenen Daten (Vorname, Nachname, E-Mail-Adresse)
+verarbeitet. Die zugestellte Bestätigungs-E-Mail enthält einen Link mit dessen Aufruf die
+Information übergeben wird, dass der Empfänger die Anmeldung bestätigt hat.
+Bestätigte E-Mail-Adressen werden in ein System zur Verwaltung von Abonnements
+übertragen. Alle An- und Abmeldungen werden von unserem System gespeichert.
+Dabei werden Ihre E-Mail-Adresse und IP-Daten für die Zeitpunkte der Eintragung, der
+Bestätigung und der Abmeldung aufgezeichnet.
+Unser System richtet für Sie zur Verwaltung Ihrer Abonnements ein Benutzerkonto auf
+der Seite https://www.meine-caritas.de ein. Ihre Zugangsdaten erhalten Sie in einer
+separaten E-Mail, nachdem Sie die Anmeldung bestätigt haben.
+2.3.4.2 Rechtsgrundlage für Verarbeitung
+Die Rechtsgrundlage für die Verarbeitung bei der Anmeldung zum Newsletter ist § 6
+Abs. 1 lit. g KDG. Die Verarbeitungen im Rahmen von Abonnements erfolgen auf
+Grundlage Ihrer Einwilligung gemäß § 6 Abs. 1 lit. b KDG. Die Einwilligungserklärung
+erfolgt durch den Aufruf des für die Anmeldung übersandten Bestätigungslinks. Die
+Rechtsgrundlage der Speicherung der Daten zur Anmeldung, Bestätigung und
+Abmeldung ist § 6 Abs. 1 lit. g KDG.
+2.3.4.3 Zweck der Verarbeitung
+Die zur Anmeldung verarbeiteten Daten werden zur Übersendung einer BestätigungsE-Mail verwendet. Wir haben ein berechtigtes Interesse an der Bereitstellung einer
+Anmeldemöglichkeit. Bestätigte E-Mail-Adressen werden zur Übersendung der
+Newsletter-E-Mails und zur Erstellung eines Benutzerkontos für die Verwaltung von 
+Abonnements verwendet. Daten zur Anmeldung, Bestätigung und Abmeldung werden
+zu Nachweiszwecken gespeichert. Wir haben ein berechtigtes Interesse am Nachweis
+von Einwilligungen.
+2.3.4.4 Speicherdauer
+Wir speichern und verwenden Ihre Daten für die Dauer Ihres Newsletter-Abonnements
+bzw. bis zur Löschung eines Benutzerkontos. Nach Abbestellung des Newsletters bzw.
+nach Löschung eines Benutzerkontos oder Widerruf einer Einwilligungserklärung
+können wir Daten zur Anmeldung, Bestätigung und Abmeldung für 3 Jahre
+aufbewahren. Im Übrigen gelten die allgemeinen Bestimmungen zur Speicherdauer.
+2.3.4.5 Widerspruchs- und Beseitigungsmöglichkeit
+Einzelne Abonnements können über dafür vorgesehene Links in den Newsletter-EMails abbestellt werden. Zum Widerruf Ihrer Einwilligung ist die Löschung Ihres
+Benutzerkontos erforderlich. Hierzu melden Sie sich unter https://www.meinecaritas.de mit den übersandten Zugangsdaten an und wählen unter “Mein Profil
+bearbeiten” die Schaltfläche “Profil löschen” aus. Durch den Widerruf der Einwilligung
+wird die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung nicht berührt.
+2.3.5 Bestellung des Jahrbuchs
+Sie können über das Bestellformular unter https://www.caritas.de/neuecaritas/jahrbuch/bestellformular das neue caritas Jahrbuch bestellen.
+2.3.5.1 Umfang der Verarbeitung
+Im Formular werden Daten zu Ihrer Person, Ihrer Einrichtung, der Lieferadresse, dem
+Umfang der Bestellung und Ihre E-Mail-Adresse und Telefonnummer erhoben. Im
+Einzelnen ergeben sich die erhobenen Daten aus dem Bestellformular. Daten zu Ihrer
+Person, Ihrer Einrichtung und Ihrer Anschrift werden an das mit der Zustellung
+beauftragte Logistikunternehmen weitergegeben.
+2.3.5.2 Rechtsgrundlage für Verarbeitung
+Die Rechtsgrundlage für die Verarbeitung der Daten aus dem Bestellformular ist § 6
+Abs. 1 lit. c KDG.
+2.3.5.3 Zweck der Verarbeitung
+Die Daten aus dem Bestellformular werden für die Bestätigung des Auftrags, etwaige
+Rückfragen unsererseits, Versand, Rechnungsstellung und im Rahmen der
+Vertragserfüllung verarbeitet.
+2.3.5.4 Speicherdauer
+Die Daten werden gelöscht oder gesperrt, sobald sie für die Erreichung des Zweckes
+ihrer Speicherung nicht mehr erforderlich sind. Im Übrigen gelten die allgemeinen
+Bestimmungen zur Speicherdauer.
+2.3.5.5 Widerspruchs- und Beseitigungsmöglichkeit
+Es besteht keine Möglichkeit zum Widerspruch gegen Verarbeitungen, die für die
+Erfüllung des Vertrages mit Betroffenen oder die auf Anfrage Betroffener hin erfolgende
+Vertragsanbahnung erforderlich sind.
+2.3.6 Zeitschriftenabonnements
+Über unsere Website können verschiedene Zeitschriften abonniert werden. Für die
+Zeitschrift neue caritas bieten wir auch ein E-Paper an.
+2.3.6.1 Umfang der Verarbeitung
+2.3.6.1.1 Abschluss von Abonnements
+In den Bestellformularen werden Daten zu Ihrer Person, der Lieferadresse, dem
+Umfang der Bestellung, E-Mail-Adresse und Telefonnummer erhoben. Im Einzelnen
+ergeben sich die erhobenen Daten aus dem Bestellformular. Daten zu Ihrer Person,
+Ihrer Einrichtung und Ihrer Anschrift werden an das mit der Zustellung beauftragte
+Logistikunternehmen weitergegeben.
+Im Fall eines Probeabonnements können Sie der Verwendung Ihrer Telefonnummer
+oder E-Mail-Adresse für die zukünftige Unterbreitung von Medienangeboten
+zustimmen. Die Angabe ist freiwillig.
+Bei Abonnements für Studierende ist die Übersendung einer
+Immatrikulationsbescheinigung erforderlich. Ohne diese Informationen kann das
+Abonnement nicht abgeschlossen werden.
+Für Kombi-Abonnements sind Informationen zum Kundenstatus erforderlich. Im Falle
+von Bestandskunden ist die Erhebung der Kundennummer erforderlich.
+2.3.6.1.2 E-Paper
+Wenn Sie ein E-Paper-Abonnement abschließen, übersenden wir Ihnen per Briefpost
+die Aktivierungsdaten für den Zugriff auf die Publikationen. Die Publikationen werden
+mittels der E-Publishing-Software LookUP! in unserem Auftrag von der SilkCode GmbH,
+Luisenstraße 62, 47799 Krefeld (im Folgenden „SilkCode”) bereitgestellt und sind im
+Browser unter http://www.caritas.de/neue-caritas/e-paper/index.html#login oder mit
+der von SilkCode betriebenen LookUp!-App auf mobilen Endgeräten abrufbar. Beim
+Zugriff auf die Publikationen werden technische Informationen über das genutzte Gerät
+bzw. den genutzten Browser erhoben und mit den Aktivierungsdaten verknüpft. Bei der 
+Nutzung werden Daten zu aufgerufenen Publikationen und den darin aufgerufenen
+Links in anonymisierter Form gespeichert.
+2.3.6.1.3 Cloud-Account
+Wenn Sie die Zusatzfunktionen von LookUp! für die Cloud-Synchronisation von
+Annotationen oder Lesezeichen verwenden möchten, können Sie einen Cloud-Account
+erstellen. Ihre Registrierungsinformationen werden getrennt von Ihren Bestelldaten
+verarbeitet. Bei der Registrierung wird Ihre E-Mail-Adresse erhoben und eine Nachricht
+mit einem Bestätigungslink versendet. Nach Bestätigung werden die ggf. auf Ihrem
+Gerät gespeicherten Annotationen und Lesezeichen sowie ggf. verknüpfte
+Aktivierungsdaten sowie Informationen über das bei der Registrierung genutzte Gerät
+bzw. den genutzten Browser in unserem Auftrag auf Servern von SilkCode gespeichert.
+Bei der Nutzung werden Daten zu aufgerufenen Publikationen und den darin
+aufgerufenen Links in anonymisierter Form gespeichert.
+Sie können sich auch statt mit einer E-Mail-Adresse und einem Kennwort mit einem
+bestehenden Benutzerkonto der Plattformen Google, Facebook oder Twitter anmelden.
+In diesem Fall werden Sie zu einer Seite des jeweiligen Anbieters weitergeleitetet und
+aufgefordert, die Verknüpfung zu autorisieren. Wir erhalten einen Token vom
+Plattformbetreiber, der für die Authentifikation gespeichert wird. Unser System greift auf
+keine anderen ggf. freigegebenen Daten der jeweiligen Plattform zu.
+Nähere Informationen zur Anmeldung mit Google entnehmen Sie den Erläuterungen
+unter https://support.google.com/accounts/answer/3466521 bzw. der
+Datenschutzerklärung von Facebook unter https://facebook.com/privacy/explanation
+bzw. den Erläuterungen für Twitter unter https://help.twitter.com/de/managing-youraccount/connect-or-revoke-access-to-third-party-apps.
+2.3.6.2 Rechtsgrundlage für Verarbeitung
+Die Rechtsgrundlage für die Verarbeitung der Daten aus Bestellformularen und die
+Verarbeitungen zur limitierten Bereitstellung der E-Paper ist § 6 Abs. 1 lit. c KDG.
+Die Kontaktaufnahme im Falle eines Probeabonnements erfolgt auf Grundlage Ihrer
+Einwilligung gemäß § 6 Abs. 1 lit. b KDG.
+Die Rechtsgrundlage für die Verarbeitung Ihrer Daten zur Erstellung und Nutzung eines
+Cloud-Accounts ist § 6 Abs. 1 lit. b KDG.
+2.3.6.3 Zweck der Verarbeitung
+Die Daten aus dem Bestellformular werden für die Bestätigung des Auftrags, etwaige
+Rückfragen unsererseits, Versand, Rechnungsstellung und im Rahmen der
+Vertragserfüllung verarbeitet. Wenn Sie dem zugestimmt haben, verwenden wir Ihre
+Kontaktdaten, um Ihnen weitere Angebote zu unterbreiten. Der Zweck der Speicherung 
+von Geräte- und Browserinformationen bei Abruf der Publikationen ist die Limitierung
+des Zugriffs auf die urheberrechtlich geschützten Inhalte.
+Wenn Sie zur erweiterten Nutzung unserer E-Paper ein Cloud-Konto registrieren,
+verarbeiten wir die angegebene E-Mail-Adresse zur Übersendung einer BestätigungsE-Mail. Wir haben ein berechtigtes Interesse an der Bereitstellung einer
+Anmeldemöglichkeit. Im Falle der Authentifizierung über einen Drittanbieter wird ein
+Token für die Authentifikation gespeichert. Bestätigte E-Mail-Adressen oder Token
+werden zur Erstellung eines Benutzerkontos verwendet. Lokale Daten, die Sie zu
+Publikationen hinzugefügt haben, werden ausschließlich zur Synchronisation mit
+einem Cloud-Account verarbeitet.
+2.3.6.4 Speicherdauer
+Die im Rahmen der Bestellung erhobenen Daten werden gelöscht oder gesperrt,
+sobald sie für die Erreichung des Zweckes ihrer Speicherung nicht mehr erforderlich
+sind. Wir speichern Daten von registrierten Benutzerkonten bis Sie Ihr Benutzerkonto
+löschen. Im Übrigen gelten die allgemeinen Bestimmungen zur Speicherdauer.
+2.3.6.5 Widerspruchs- und Beseitigungsmöglichkeit
+Gegen die Verarbeitungen zum Zweck der Vertragserfüllung besteht keine
+Widerspruchsmöglichkeit. Den Widerruf Ihrer Einwilligung in die Kontaktierung durch
+unseren Vertrieb können Sie an zeitschriftenvertrieb@caritas.de richten. Für den
+Widerruf Ihrer Einwilligung im Rahmen der Nutzung eine Cloud-Accounts ist die
+Löschung des Benutzerkontos erforderlich. Hierzu melden Sie sich unter
+http://www.silkcodeapps.de/account/caritas/ mit Ihren Zugangsdaten an und wählen
+Sie unter “Verwaltung” die Schaltfläche “Konto löschen” aus. Durch den Widerruf einer
+Einwilligung wird die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung nicht
+berührt.
+2.3.7 Informationen zu Links zu Social-Media-Plattformen
+Auf dieser Seite finden Sie Links zu den Social-Media-Plattformen Facebook und
+Twitter. Verantwortlicher der Plattform Facebook ist die Facebook Ireland Limited, 4
+Grand Canal Square, Dublin 2, Ireland (im Folgenden: „Facebook”). Verantwortlicher
+der Plattform Twitter ist die Twitter International Company, One Cumberland Place,
+Fenian Street, Dublin 2, D02 AX07, Irland (im Folgenden: „Twitter “).
+Die Links zu Facebook oder Twitter können Parameter enthalten, die beim Aufruf je
+nach Plattform unterschiedliche Informationen übergeben, um interaktive Funktionen
+nutzen zu können. Beim bloßen Aufruf von Seiten unserer Website werden keine Daten
+an Social-Media-Anbieter übermittelt.
+Wenn Sie einen solchen interaktiven Link aufrufen, d.h. 
+▪ eine Schaltfläche mit der Aufschrift “teilen” bzw. dem Daumen-hoch-Symbol
+bzw. dem für Facebook typischen “f” oder dem für die Plattform Instagram
+typischen Kamera-Symbol bzw.
+▪ eine Schaltfläche mit der Aufschrift “tweet” bzw. dem für Twitter typischen VogelSymbol,
+erhalten Facebook oder Twitter die Information, dass Sie die entsprechende Unterseite
+unserer Website besucht haben, unabhängig davon, ob Sie bei dem Dienstanbieter
+registriert bzw. eingeloggt sind. Sofern Sie im Zeitpunkt des Aufrufs bei dem jeweiligen
+Dienstanbieter eingeloggt sind, wird diese Information Ihrem Nutzerkonto zugeordnet
+und ggf. öffentlich dargestellt. Weiterhin wird der Anbieter Ihre IP-Adresse,
+Informationen zum genutzten Browser und Gerät und auf der jeweiligen Plattform
+erhobene Daten verarbeiten und möglicherweise Cookies auf Ihrem Gerät speichern
+und Ihre Daten in Drittstaaten verarbeiten. Wir haben keinen Einfluss auf Art und
+Umfang der Verarbeitung personenbezogener Daten auf den Seiten des
+Dienstanbieters und verlinken lediglich auf dessen Angebot. Weitere Informationen zur
+Datenverarbeitung durch den jeweiligen Anbieter finden Sie unter in den
+Datenschutzinformationen von Facebook bzw. den Datenschutzinformationen von
+Twitter.
+2.3.8 Job- und Praktikumsbörse
+Wir bieten auf unserer Website eine Job- und Praktikumsbörse an. Jobinteressenten
+haben die Möglichkeit ein Benutzerkonto zu erstellen, um Bewerberprofile zu
+hinterlegen. Verbände, Träger und Einrichtungen, die zum Deutschen Caritasverband
+gehören (im Folgenden „Dienstgeber"), können Stellenanzeigen veröffentlichen.
+Dienstgeber haben die Möglichkeit für ihre Stellenanzeigen unser System für OnlineBewerbungen zu nutzen.
+2.3.8.1 Umfang der Verarbeitung
+Für die nachfolgenden Verarbeitungsvorgänge gelten die Allgemeinen
+Geschäftsbedingungen der Job- und Praktikumsbörse der Caritas.
+2.3.8.1.1 Registrierung
+Wenn Sie sich als Jobinteressent oder als Dienstgeber registrieren, werden die im
+jeweiligen Registrierungsformular eingegebenen Daten verarbeitet. Im Einzelnen
+ergeben sich die erhobenen Daten aus dem Formular für Jobinteressenten bzw. dem
+Formular für Dienstgeber. An die genannte E-Mail-Adresse wird eine Nachricht mit dem
+für die Anmeldung erforderlichen Passwort übersendet. Zudem können E-Mails zum
+technischen Support oder mit technischen Hinweisen und Informationen über den
+Umfang der in Anspruch genommenen Leistungen, etwaiger
+Erweiterungsmöglichkeiten, Erinnerungen und Informationen zugesendet werden.
+2.3.8.1.2 Bewerberprofile
+Angemeldete Jobinteressenten können Bewerberprofile anlegen. Dabei werden
+Suchkriterien für Stellen und Angaben zur eigenen Ausbildung erhoben. Es können EMail-Benachrichtigungen aktiviert werden, um über neue Stellen, die zum Profil passen,
+informiert zu werden. Dienstgeber können in allen Bewerberprofilen recherchieren.
+Nicht weitergegeben werden der Name und die E-Mail-Adresse des Bewerberprofils.
+Falls ein Dienstgeber interessiert ist, kann er über ein Formular mit den potenziellen
+Bewerbern Kontakt aufnehmen.
+2.3.8.1.3 Annahme von Online-Bewerbungen
+Dienstgeber können Bewerbungen für ihre Stellenzeige entweder über ein eigenes
+System oder über unser System für Online-Bewerbungen entgegennehmen. OnlineBewerbungen können auch von Nutzern eingereicht werden, die nicht registriert sind.
+Wenn Online-Bewerbungen über unser System zugelassen sind, öffnet sich bei beim
+Klick auf "Online bewerben" ein Formular, in dem folgende Daten abgefragt werden
+(Angaben mit * sind erforderlich):
+▪ Anrede *
+▪ Akademischer Titel
+▪ Vorname, Nachname, Geburtsdatum *
+▪ Anschrift *
+▪ Telefon, Mobiltelefon
+▪ E-Mail-Adresse *
+▪ Hochzuladende Bewerbungsunterlagen
+Die erhobenen Daten werden an den jeweiligen Dienstgeber in einer
+unverschlüsselten E-Mail weitergegeben. Die Verarbeitung Ihrer Daten beim jeweiligen
+Dienstgeber richtet sich nach dessen Datenschutzbestimmungen. Weitere
+Informationen entnehmen Sie den Hinweisen zur Online-Bewerbung.
+2.3.8.2 Rechtsgrundlage der Verarbeitung
+Die Rechtgrundlage für die beschriebenen Verarbeitungen im Rahmen der Erstellung
+und der Nutzung von Benutzerkonten für Jobinteressenten bzw. Dienstgeber ist Ihre
+Einwilligung gemäß § 6 Abs. 1 lit. b KDG. Im Falle von Dienstgebern ist zusätzliche
+Rechtsgrundlage § 6 Abs. 1 lit. c KDG, soweit die Registrierung auf den Abschluss eines
+Vertrages abzielt. Die Verarbeitungen im Rahmen der Nutzung unseres Systems für
+Online-Bewerbungen erfolgen ebenfalls aufgrund Ihrer Einwilligung. In den
+Registrierungsformularen und dem Formular für Online-Bewerbungen wird auf diese
+Datenschutzerklärung verwiesen.
+2.3.8.3 Zweck der Verarbeitung
+Daten aus Registrierungsformularen werden nur für die Erstellung von Benutzerkonten
+und die Nutzung der Plattform verwendet. Daten aus Bewerberprofilen werden für die
+interne Veröffentlichung, Anfragen von Dienstgebern und Benachrichtigungen über
+passende Stellenanzeigen verwendet. Der Zweck der Erhebung Ihrer Daten im
+Rahmen der Online-Bewerbung ist ausschließlich die Weitergabe an den jeweiligen
+Dienstgeber.
+2.3.8.4 Speicherdauer
+Daten aus Benutzerprofilen von Jobinteressenten und Dienstgebern werden
+gespeichert, bis das Benutzerkonto gelöscht wird bzw. ein Widerruf der Einwilligung
+erfolgt. Gemäß den Nutzungsbedingen behält es sich der Verantwortliche vor,
+Benutzerkonten in begründeten Fällen (siehe AGB) zu löschen. Die Betroffenen
+erhalten in diesem Fall eine Ankündigung per E-Mail 14 Tage vor Löschung. Erstellte
+Bewerberprofile können durch den Benutzer selbst jederzeit gelöscht werden.
+Formulardaten aus dem System für Online-Bewerbungen und hochgeladene Dateien
+werden auf dem Server des Deutschen Caritasverbandes e.V. nur zwischengespeichert
+und nach max. 3 Monaten ab Bewerbungseingang und der Weiterleitung an den
+jeweiligen Dienstgeber gelöscht. Im Übrigen gelten die allgemeinen Bestimmungen zur
+Speicherdauer.
+2.3.8.5 Widerspruchs- und Beseitigungsmöglichkeit
+Sie können eine erteilte Einwilligung in die Verarbeitung Ihrer Daten jederzeit
+widerrufen. Zum Widerruf Ihrer Einwilligung in die Verarbeitung Ihrer Daten im Rahmen
+der Bereitstellung und Nutzung Ihres Benutzerkontos ist die Löschung des
+Benutzerkontos erforderlich. Dazu melden Sie sich mit Ihren Zugangsdaten an und
+wählen unter https://www.caritas.de/jobprofile.aspx den Reiter "Benutzer löschen" und
+klicken dort auf "Benutzer löschen". Den Widerruf Ihrer Einwilligung in die Weitergabe
+Ihrer Daten aus dem System für Online-Bewerbungen richten Sie an
+jobboerse@caritas.de. Durch den Widerruf einer Einwilligung wird die Rechtmäßigkeit
+der bis zum Widerruf erfolgten Verarbeitung nicht berührt.
+2.4 Verarbeitungen bei Kontakt mit Ihnen
+2.4.1 Kontaktaufnahme
+Auf unserer Website werden Kontaktdaten wie Anschriften, Telefonnummern und EMail-Adressen genannt, die eine schnelle Kontaktaufnahme und unmittelbare
+Kommunikation mit uns und den bei uns tätigen Ansprechpartnern ermöglichen. Auf
+unserer Website wird auch ein Kontaktformular bereitgestellt.
+2.4.1.1 Umfang der Verarbeitung
+Wir verarbeiten die personenbezogenen Daten, die Sie uns abhängig vom gewählten
+Kommunikationsmittel mitteilen. Dies kann Ihren vollständigen Namen, Ihre Anschrift,
+die verwendete Telefonnummer, die verwendete E-Mail-Adresse und weitere
+personenbezogene Daten umfassen, die Sie uns im Verlauf der Kommunikation
+mitteilen.
+2.4.1.2 Rechtsgrundlage der Verarbeitung
+Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten im Rahmen der
+Kommunikation mit Ihnen ist § 6 Abs. 1 lit. g KDG. Zielt die Kontaktaufnahme auf die
+Anbahnung oder die Erfüllung eines Vertrages ab, so ist zusätzliche Rechtsgrundlage
+für die Verarbeitung § 6 Abs. 1 lit. c KDG.
+2.4.1.3 Zweck der Verarbeitung
+Wir verarbeiten Ihre Daten zur Bearbeitung des Zwecks der Kontaktaufnahme, zur
+Kommunikation mit Ihnen und zum Zweck der Nachverfolgung erfolgter
+Kommunikation. In diesen Zwecken liegt auch jeweils unser berechtigtes Interesse an
+der Verarbeitung.
+2.4.1.4 Speicherdauer
+Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer
+Speicherung nicht mehr erforderlich sind. Die Beurteilung dessen hängt von den
+Umständen des Einzelfalls ab. Im Übrigen gelten die allgemeinen Bestimmungen zur
+Speicherdauer.
+2.4.1.5 Widerspruchs- und Beseitigungsmöglichkeit
+Es gelten die Regelungen des § 23 KDG zum Recht auf Widerspruch gegen
+Verarbeitungen, die auf Basis einer Interessenabwägung stattfinden. Dem Widerspruch
+kann die Erforderlichkeit zur Verarbeitung der Daten zur Vertragsanbahnung,
+Vertragserfüllung oder Nachweiserbringung entgegenstehen.
+2.4.2 Verarbeitung personenbezogener Daten im Bewerbungsverfahren
+Auf unserer Website werden Kontaktdaten für die Übersendung von Bewerbungen
+genannt. Sie können uns Ihre Bewerbungsunterlagen auch per E-Mail zukommen
+lassen. Bitte beachten Sie aber, dass die Informationen in diesem Fall unverschlüsselt
+übertragen werden.
+2.4.2.1 Umfang der Verarbeitung
+Wenn Sie uns eine Bewerbung zukommen lassen, verarbeiten wir personenbezogene
+Daten aus Ihren übersandten Bewerbungsunterlagen, wie Kontaktdaten, Angaben zu
+Ihrer Ausbildung, Ihrer Qualifikation, Ihrer Arbeitserfahrung und Ihren Fähigkeiten sowie
+ggf. telefonische oder mündliche Angaben. Daneben können wir Daten von Dritten (z. 
+B. Stellenvermittlung) erhalten haben. Wir geben Ihre personenbezogenen Daten
+innerhalb unserer Organisation ausschließlich an die Bereiche und Personen weiter,
+die an der Entscheidung über die Begründung eines Beschäftigungsverhältnisses
+beteiligt sind. Soweit Administratoren notwendigerweise Zugriff auf die verarbeiteten
+Daten haben, sind diese zur Verschwiegenheit verpflichtet und dürfen die Daten nicht
+zu anderen Zwecken verarbeiten. Ihre Daten werden nur dann an Dritte
+weitergegeben, wenn dies zur Erfüllung unserer vertraglichen und gesetzlichen
+Pflichten oder zur Wahrung unserer berechtigten Interessen erforderlich ist oder uns
+Ihre Einwilligung vorliegt. Nur auf Ihren ausdrücklichen Wunsch hin geben wir Ihre
+Bewerberdaten innerhalb unserer Organisation weiter, sollten Sie bei der
+Stellenbesetzung nicht berücksichtigt werden und eine andere offene Stelle auf Ihr
+Anforderungsprofil zutrifft oder in absehbarer Zeit zur Verfügung steht.
+2.4.2.2 Rechtsgrundlage für Verarbeitung
+Mit der Einreichung Ihrer Bewerberdaten willigen Sie in die Verarbeitung Ihrer
+personenbezogenen Daten nach § 6 Abs. 1 b KDG i. V. m. § 53 KDG ein.
+Wenn Sie Ihre ausdrückliche Einwilligung zur Verarbeitung Ihrer Daten für weitere
+Zwecke erteilen, erfolgt die Verarbeitung auf Grundlage des § 6 Abs. 1 lit. b KDG.
+2.4.2.3 Zweck der Verarbeitung
+Wir verarbeiten Ihre Daten nur zum Zwecke der Entscheidung über die Begründung
+eines Beschäftigungsverhältnisses mit uns. Wir können Ihre Daten verarbeiten, wenn
+dies zur Geltendmachung, Ausübung oder Verteidigung gegen Rechtsansprüche
+erforderlich ist.
+2.4.2.4 Speicherdauer
+Wir speichern Ihre personenbezogenen Daten, solange es für die Entscheidung über
+Ihre Bewerbung erforderlich ist. Wenn kein Beschäftigungsverhältnis zustande kommt,
+löschen wir Ihre personenbezogenen Daten 6 Monate nach Beendigung des
+Bewerbungsverfahrens. Eine längere Speicherung ohne Ihre ausdrückliche
+Einwilligung erfolgt nur dann, wenn es zur Geltendmachung, Ausübung oder
+Verteidigung gegen Rechtsansprüche für die Dauer eines Rechtsstreits erforderlich ist.
+Sofern Sie einer längeren Speicherung zugestimmt haben, richtet sich die Dauer nach
+dem Inhalt Ihrer Einwilligung. Kommt es im Anschluss an das Bewerbungsverfahren zu
+einem Beschäftigungsverhältnis, Ausbildungsverhältnis oder Praktikantenverhältnis,
+werden Ihre Daten, soweit erforderlich und zulässig, zunächst weiterhin gespeichert
+und anschließend in die Personalakte überführt und nach den für Personalakten
+geltenden Regelungen gelöscht
+2.4.2.5 Widerspruchs- und Beseitigungsmöglichkeit
+Eine erteilte Einwilligung kann jederzeit mit Wirkung für die Zukunft widerrufen werden.
+Sie erreichen uns hierzu unter den angegebenen Kontaktdaten.

@@ -1,0 +1,156 @@
+**** Datenschutzhinweise ****
+Diese Datenschutzhinweise informieren Sie über die Erhebung und Verarbeitung
+Ihrer personenbezo­genen Daten durch die Verwaltung des Deutschen Bundestages,
+informieren Sie über Ihre Rechte und versetzen Sie in die Lage, über den Umgang
+mit Ihren personenbezogenen Daten informiert zu entschei­den.
+*** Verantwortlicher für die Datenverarbeitung ***
+Deutscher Bundestag
+Platz der Republik 1
+D - 11011 Berlin
+Telefon: +49 30 227-0
+E-Mail: mail@bundestag.de
+Die behördliche Datenschutzbeauftragte erreichen Sie unter der oben genannten
+Postadresse mit dem Zusatz „Behördliche Datenschutzbeauftragte“, unter der oben
+genannten Telefonnummer oder unter datenschutz.bdb@bundestag.de.
+*** Rechtsgrundlagen und Zwecke der Datenverarbeitung ***
+Die von Ihnen jeweils mitgeteilten Daten einschließlich Ihrer
+Kommunikationsdaten (Name, Adresse, Telefonnummer, E-Mail-Adresse) verarbeiten
+wir aufgrund Ihres Einverständnisses (Art. 6 Abs 1a DSGVO), um mit Ihnen in
+Kontakt treten zu können, zur Wahrnehmung der in der Zuständigkeit der
+Verwaltung des Deutschen Bundestages liegenden Aufgaben (Art. 6 Abs. 1e DSGVO,
+§ 3 BDSG) sowie zur Erfüllung rechtlicher Verpflichtungen (Art. 6 Abs.
+1c DSGVO).
+Bei jedem Zugriff auf das Internetangebot des Deutschen Bundestages werden
+folgende Daten in den Logfiles für 60 Tage gespeichert: Datum und Uhrzeit des
+Abrufs, IP-Adresse und Zieladresse (Protokollversion, HTTP-Methode, Referer,
+UserAgent String), Name der abgerufenen Datei und übertragene Datenmenge,
+Meldung, ob der Abruf erfolgreich war (HTTP Status Code). Es erfolgt weder eine
+personenbezogene Auswertung noch eine Auswertung der Daten zu Marketingzwecken
+oder eine Profilbildung.
+** Statistische Auswertung **
+Für die statistische Auswertung von Besucherzugriffen kommt die Open-Source-
+Software Matomo zum Einsatz. Die so erfassten Daten werden in anonymisierter
+Form dazu verwendet, die Nutzung der Website des Deutschen Bundestages zu
+analysieren und sie zu verbessern. IP-Adressen werden in Matomo in
+anonymisierter Form erfasst. Der serverseitige „Fingerabdruck“ wird alle 24
+Stunden nach dem Zufallsprinzip geändert. Sie können die Datenerfassung durch
+Matomo verhindern, indem Sie in Ihrem Internetbrowser die Funktion „Do Not
+Track“ aktivieren. Bei den meisten Browsern finden Sie diese Funktion unter
+„Einstellungen – Datenschutz“. Bei der Nutzung des Video- oder
+Audioplayers wird die IP-Adresse ebenfalls in anonymisierter Form für
+statistische Zwecke verarbeitet.
+** Mobile App „Deutscher Bundestag“ **
+Wir möchten die Stabilität und Zuverlässigkeit der App sicherstellen. Deshalb
+werden anonymisierte Absturzberichte mit technischen Informationen erhoben, an
+den Dienstleister HockeyApp (ein Unternehmen der Microsoft Corporation, One
+Microsoft Way, Redmond, WA 98052-6399, USA) übermittelt und dort zur Auswertung
+gespeichert. Die Absturzberichte enthalten keine personenbezogenen Daten und
+keine Log-Dateien. In den Absturzberichten werden zum Beispiel die App-Version,
+Datum und Uhrzeit des Absturzes, Gerätehersteller und Gerätemodell und die
+Version des Betriebssystems übermittelt. Die Datenschutzbestimmungen von
+HockeyApp sind unter https://hockeyapp.net/privacy/ zu finden.
+** Terminkalender: Erinnerungen **
+Über unseren Terminkalender haben Sie die Möglichkeit, sich per E-Mail zu einem
+bestimmten Zeitpunkt an einen Termin erinnern zu lassen. Hierzu müssen Sie bei
+der entsprechenden Funktion Ihre E-Mail-Adresse eingeben. Diese wird von uns
+lediglich dazu gespeichert, um Ihnen die gewünschte E-Mail zuschicken zu
+können.
+** Cookies **
+Beim Aufruf einzelner Seiten werden lediglich so genannte temporäre Cookies
+verwendet, um die Navigation für den Nutzer beim nochmaligen Besuch einer Seite
+nach dem Wechsel auf eine andere Seite zu erleichtern. Diese „Session-
+Cookies“ speichern keine personenbezogenen Daten und verfallen nach Ablauf der
+Sitzung.
+** Kontaktaufnahme über das Kontaktformular **
+Bei einer Kontaktaufnahme zum Deutschen Bundestag über das
+Kontaktformular können Sie Ihre persönlichen Daten wie zum Beispiel Name, E-
+Mail-Adresse oder Telefonnummer angeben, sofern Sie eine Antwort wünschen.
+Diese Angaben werden zusammen mit Ihrer Nachricht an den ausgewählten
+Adressaten weitergeleitet. Aus Sicherheitsgründen wird die IP-Adresse 14 Tage
+gespeichert und dann gelöscht.
+Für Bürger- und Presseanfragen gelten diese Datenschutzhinweise.
+
+Ausschüsse des Deutschen Bundestages
+Für die Ausschüsse_und_Gremien des Deutschen Bundestages beachten Sie bitte die
+gesonderten Datenschutzhinweise.
+
+Bilderdienst
+Im Rahmen der Bereitstellung dieses Internetangebotes werden „Session-
+Cookies“ im Bilderdienst des Deutschen Bundestages bei der Zustimmung zu den
+Nutzungsbedingungen gesetzt.
+
+E-Petitionen
+Für den Bereich E-Petitionen gelten besondere datenschutzrechtliche_Regelungen.
+
+Parlamentsarchiv
+Für die Nutzung des Parlamentsarchivs beachten Sie bitte die gesonderten
+Datenschutzhinweise.
+
+Politisch-parlamentarische Ausstellungen
+Für politisch-parlamentarische_Ausstellungen des Deutschen Bundestages gelten
+folgende gesonderte Datenschutzhinweise. Ausstellungsbesucher Aussteller
+
+Protokoll
+Für das Protokoll beim Deutschen Bundestag gelten folgende Datenschutzhinweise.
+
+Soziale Medien
+Für die Stabsstelle Soziale Medien (IK SoM) gelten folgende
+Datenschutzhinweise.
+
+Unterabteilung Europa (PE)
+Für die Unterabteilung Europa (PE) gelten folgende Datenschutzhinweise.
+*** Weitergabe von Daten ***
+** Newsletter-Bestellung **
+Wenn Sie sich in einen der Newsletter-Verteiler eintragen, werden die gemachten
+Angaben an den für die Versendung der Newsletter beauftragten Vertragspartner
+des Deutschen Bundestages weitergegeben und dort für die Betreuung des
+Newsletterabonnements und den Versand des Newsletters genutzt. Den Namen und
+die Anschrift des jeweiligen Vertragspartners können Sie unter
+vorzimmer.ik6@bundestag.de erfragen.
+** Bestellung von Informationsmaterial **
+Bei Bestellung von Informationsmaterial werden die gemachten Angaben an den mit
+der Abwicklung der Bestellung beauftragten Vertragspartner des Deutschen
+Bundestages weitergegeben und dort für die Abwicklung der Bestellung genutzt.
+Den Namen und die Anschrift des jeweiligen Vertragspartners können Sie unter
+vorzimmer.ik2@bundestag.de erfragen.
+** Teilen-Funktion **
+Bei der Funktion „Seite teilen“, mit der Sie Inhalte von bundestag.de in den
+Sozialen Medien verbreiten können, werden durch den bloßen Aufruf der einzelnen
+Inhalte keine Daten an die Sozialen Netzwerke übertragen. Der direkte Kontakt
+zwischen Nutzer und der jeweiligen Plattform wird erst hergestellt, wenn
+der Nutzer zum Teilen der Inhalte aktiv auf den Button eines Sozialen Netzwerks
+klickt.
+*** Dauer der Datenspeicherung ***
+Grundsätzlich löschen wir Ihre Daten, sobald sie für die oben genannten Zwecke
+nicht mehr erforderlich sind, es sei denn, die vorübergehende Aufbewahrung ist
+weiterhin notwendig. Soweit nicht anders vermerkt, werden Ihre Daten spätestens
+fünf Jahre nach Ablauf des Jahres gelöscht, in dem der letzte Kontakt zwischen
+Ihnen und der Verwaltung des Deutschen Bundestages bestand.
+Für im öffentlichen Interesse liegende Archivzwecke können Unterlagen nach
+Ablauf der Aufbewahrungsfristen an das Parlamentsarchiv abgegeben werden. Die
+weitere Verwahrung erfolgt gemäß Artikel 17 Absatz 3 Buchstabe d EU-DSGVO.
+Weitere Einzelheiten sind in der Archivordnung_für_den_Deutschen_Bundestag
+sowie in der Nutzungsordnung_für_das_Parlamentsarchiv geregelt.
+*** Betroffenenrechte ***
+Sie können unter der oben genannten Adresse Auskunft (Art. 15 DSGVO) über die
+zu Ihrer Person gespeicherten Daten sowie unter bestimmten Voraussetzungen die
+Berichtigung (Art. 16 DSGVO) oder die Löschung (Art. 17 DSGVO) Ihrer Daten
+verlangen. Ihnen kann weiterhin ein Recht auf Einschränkung der Verarbeitung
+(Art. 18 DSGVO) Ihrer Daten sowie ein Recht auf Herausgabe (Art. 20 DSGVO) der
+von Ihnen bereitgestellten Daten in einem strukturierten, gängigen und
+maschinenlesbaren Format zustehen.
+Die uns von Ihnen erteilte Einwilligung zur Verarbeitung personenbezogener
+Daten für bestimmte Zwecke können Sie jederzeit mit Wirkung für die Zukunft
+widerrufen. Bitte beachten Sie, dass in diesem Falle eine weitere Bearbeitung
+eines Anliegens unter Umständen nicht mehr möglich ist.
+Sie haben ferner das Recht, aus Gründen, die sich aus Ihrer besonderen
+Situation ergeben, rechtmäßigen und auf gesetzlicher Grundlage erfolgenden
+Datenverarbeitungen zu widersprechen. Das Widerspruchsrecht besteht nicht,
+soweit an der Verarbeitung ein zwingendes öffentliches Interesse besteht,
+welches Ihren Interessen überwiegt oder eine Rechtsvorschrift zur Verarbeitung
+verpflichtet.
+Weiterhin haben Sie die Möglichkeit, sich an eine Datenschutzaufsichtsbehörde
+zu wenden. Die für den Deutschen Bundestag zuständige Behörde ist:
+Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit
+Graurheindorfer Straße 153
+D - 53117 Bonn

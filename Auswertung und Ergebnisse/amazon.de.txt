@@ -1,0 +1,558 @@
+Sicherheit_und_Datenschutz  ›  Rechtliche_Hinweise  › 
+****** Amazon.de Datenschutzerklärung ******
+Zuletzt geändert: 04.12.2020
+Die vorherige Version finden Sie hier.
+Wir wissen, dass Ihnen der Umgang mit Ihren persönlichen Informationen wichtig
+ist und schätzen Ihr Vertrauen in uns, gewissenhaft und sorgfältig mit diesen
+Informationen umzugehen. Diese Datenschutzerklärung beschreibt, wie wir Ihre
+persönlichen Informationen über Amazon-Webseiten, sowie Geräte, Produkte,
+Dienste, Online- und physische Stores und Anwendungen von Amazon erfassen und
+verarbeiten, die auf diese Datenschutzerklärung verweisen (zusammen "Amazon
+Services").
+    *  Verantwortliche
+    *  Welche_persönlichen_Informationen_von_Kunden_erhebt_Amazon_Europe?
+    *  Für_welche_Zwecke_verarbeitet_Amazon_Europe_Ihre_persönlichen
+      Informationen?
+    *  Was_hat_es_mit_Cookies_und_anderen_Kennungen_auf_sich?
+    * Gibt_Amazon_Europe_persönliche_Informationen_weiter?
+    *  Wie_sicher_sind_Informationen_über_mich?
+    * Was_hat_es_mit_Werbung_auf_sich?
+    * Welche_Informationen_kann_ich_einsehen?
+    *  Welche_Wahlmöglichkeiten_habe_ich?
+    * Dürfen_Kinder_Amazon_Services_benutzen?
+    *  Wie_lange_speichern_wir_Ihre_persönlichen_Informationen?
+    * EU-US_und_Schweiz-US_Privacy_Shield_(EU-US_Datenschutzschild)
+    * EU_Datenschutz-Grundverordnung_(Rechtsgrundlagen)
+    *  Kontakte,_Hinweise_&_Änderungen
+    *  Verwandte_Themen
+***** Verantwortliche *****
+Amazon Europe Core S.à.r.l., die Amazon EU S.à.r.l, die Amazon Services Europe
+S.à.r.l. und die Amazon Media EU S.à.r.l., alle vier ansässig in 38, avenue
+John F. Kennedy, L-1855 Luxemburg, sowie Amazon Digital Germany GmbH,
+Domagkstr. 28, 80807 München (zusammen "Amazon Europe") sind Verantwortliche
+für alle persönlichen Informationen, die von Amazon Europe erhoben und
+verarbeitet werden. Weitere Informationen finden Sie hier.
+***** Welche persönlichen Informationen von Kunden erhebt Amazon Europe? *****
+Wir erheben Ihre persönlichen Informationen, um Produkte und Dienstleistungen
+bereitzustellen und kontinuierlich zu verbessern.
+Wir erheben folgende Kategorien von persönlichen Informationen:
+   1.  Informationen, die Sie uns geben: Wir erfassen und speichern alle
+      Informationen, die Sie uns im Zusammenhang mit Amazon Services
+      übermitteln. Klicken Sie hier, um sich einige Beispiele von Informationen
+      anzusehen, die wir erheben. Sie können entscheiden, uns bestimmte
+      Informationen nicht zur Verfügung zu stellen, was allerdings dazu führen
+      kann, dass Sie viele der Amazon Services nicht nutzen können.
+   2.  Automatische Informationen: Sobald Sie Amazon Services nutzen, erheben
+      und speichern wir automatisch bestimmte Informationen, einschließlich
+      Ihrer Interaktion mit Inhalten und Diensten, die über Amazon Services
+      verfügbar sind. Unter anderem verwenden wir - wie viele andere Websites
+      auch - so genannte "Cookies" und andere individuelle Kennungen und
+      erhalten bestimmte Informationen, sobald Ihr Webbrowser oder Ihr Gerät
+      auf Amazon Services und andere Inhalte zugreift, die von oder im Auftrag
+      von Amazon Europe auf anderen Websites bereitgestellt werden. Klicken Sie
+      hier, um Beispiele derjenigen Informationen sehen zu können, die wir
+      erheben.
+   3.  Informationen aus anderen Quellen: Gelegentlich nutzen wir auch
+      Informationen über Sie aus anderen Quellen, wie z.B. aktualisierte
+      Liefer- und Adressinformationen unserer Spediteure, die wir verwenden, um
+      unsere Aufzeichnungen zu korrigieren und Ihren nächsten Einkauf einfacher
+      zu liefern. Klicken Sie hier, um Beispiele für Informationen zu sehen,
+      die wir erhalten.
+***** Für welche Zwecke verarbeitet Amazon Europe Ihre persönlichen
+Informationen? *****
+ Wir verarbeiten Ihre persönlichen Informationen, um die Amazon Services, die
+wir unseren Kunden anbieten, zu betreiben, bereitzustellen und zu verbessern.
+Zu diesen Zwecken zählen:
+    *  Kauf und Lieferung von Produkten und Dienstleistungen. Wir verwenden
+      Ihre persönlichen Informationen, um Bestellungen entgegenzunehmen und
+      abzuwickeln, Produkte und Dienstleistungen zu liefern, Zahlungen
+      abzuwickeln und mit Ihnen über Bestellungen, Produkte, Dienstleistungen
+      und Werbeangebote zu kommunizieren.
+    *  Bereitstellung, Fehlerbehebung und Verbesserung der Amazon Services. Wir
+      nutzen Ihre persönlichen Informationen, um Funktionen bereitzustellen,
+      Leistungen zu analysieren, Fehler zu beheben und die
+      Benutzerfreundlichkeit und Effektivität der Amazon Services zu
+      verbessern.
+    *  Empfehlungen und Personalisierung. Wir verarbeiten Ihre persönlichen
+      Informationen, um Funktionen, Produkte und Dienstleistungen zu empfehlen,
+      die für Sie von Interesse sein könnten, um Ihre Präferenzen zu ermitteln
+      und Ihre Erfahrungen mit Amazon Services zu personalisieren.
+    *  Bereitstellung von Sprach-, Bild- und Kameradiensten. Wenn Sie unsere
+      Sprach-, Bild- und Kameradienste nutzen, verarbeiten wir Ihre
+      Spracheingabe, Ihre Bilder und Videos und andere persönliche
+      Informationen, um auf Ihre Anfragen zu antworten, Ihnen den gewünschten
+      Dienst zu erbringen und unsere Amazon Services Angebote zu verbessern.
+      Für weitere Informationen über Alexa Sprachdienste, klicken Sie hier.
+    *  Einhaltung rechtlicher Verpflichtungen. In bestimmten Fällen erheben und
+      nutzen wir Ihre persönlichen Informationen, um unsere gesetzlichen
+      Verpflichtungen zu erfüllen. Zum Beispiel sammeln wir von Verkäufern
+      Informationen bezüglich des Sitzes und ihren Bankkontoinformationen zum
+      Zwecke der Identitätsprüfung und zu weiteren Zwecke.
+    *  Kommunikation mit Ihnen. Wir verwenden Ihre persönlichen Informationen,
+      um mit Ihnen über verschiedene Kanäle (z.B. per Telefon, E-Mail, Chat)
+      bezüglich Amazon Services zu kommunizieren.
+    *  Anzeigen. Wir verwenden Informationen wie Ihre Interaktionen mit Amazon
+      Websites, Inhalte oder Dienstleistungen, um interessenbezogene Anzeigen
+      für Funktionen, Produkte und Dienstleistungen zu schalten, die für Sie
+      von Interesse sein könnten. Wir verwenden keine Informationen, die Sie
+      persönlich identifizieren, zur Anzeige interessenbasierter Werbung. Um
+      mehr zu erfahren, lesen Sie bitte unsere Hinweise_zur_interessenbasierten
+      Werbung.
+    *  Betrugsprävention und Kreditrisiken. Wir verarbeiten persönliche
+      Informationen, um Betrug und Missbrauch zu verhindern oder aufzudecken,
+      um die Sicherheit unserer Kunden, von Amazon Europe und Dritten zu
+      schützen. Zur Bewertung von und dem Umgang mit Kreditrisiken setzen wir
+      gegebenenfalls auch Scoring-Verfahren ein.
+    *  Zwecke, für die wir Ihre Einwilligung einholen. Eventuell bitten wir Sie
+      um Ihre Einwilligung, Ihre persönlichen Informationen für einen
+      speziellen Zweck zu verarbeiten, den wir Ihnen mitteilen werden. Wenn Sie
+      in die Verarbeitung Ihrer persönlichen Informationen zu einem bestimmten
+      Zweck einwilligen, können Sie Ihre Einwilligung jederzeit frei widerrufen
+      und wir werden die Verarbeitung Ihrer Informationen zu diesem Zweck
+      einstellen.
+***** Was hat es mit Cookies und anderen Kennungen auf sich? *****
+Wir nutzen Cookies und ähnliche Technologien, um Ihr Einkaufserlebnis zu
+verbessern, unsere Dienste bereitzustellen, um zu verstehen, wie Kunden unsere
+Dienste nutzen und so Verbesserungen vorzunehmen, und um Werbung anzuzeigen.
+Auch bestimmte genehmigte Dritte verwenden diese Technologien im Zusammenhang
+mit unseren Anzeigen. Für weitere Informationen über Cookies und wie wir diese
+einsetzen, lesen Sie bitte unsereHinweise_zu_Cookies. Sie können Ihre Cookie-
+Einstellungen hier verwalten.
+***** Gibt Amazon Europe persönliche Informationen weiter? *****
+Informationen über unsere Kunden sind ein wichtiger Teil unseres Geschäfts. Es
+gehört jedoch nicht zu unserem Geschäft, die persönlichen Informationen unserer
+Kunden zu verkaufen. Wir geben persönliche Informationen von Kunden
+ausschließlich in dem im Folgenden beschriebenen Umfang und ausschließlich an
+Amazon.com, Inc. und an Tochtergesellschaften, die von Amazon.com, Inc.
+beherrscht werden weiter, die entweder dieser Datenschutzerklärung unterliegen
+oder Maßnahmen umsetzen, die mindestens ebenso viel Schutz bieten wie die in
+dieser Datenschutzerklärung beschriebenen:
+    *  Transaktionen mit Dritten: Wir stellen Ihnen Dienste, Produkte, Apps
+      oder Skills zur Verfügung, die von Dritten zur Nutzung auf oder durch
+      Amazon Services bereitgestellt werden. Sie können beispielsweise Produkte
+      von Drittanbietern über unsere Stores bestellen, Apps von Drittanbietern
+      aus unserem App Store herunterladen und die Skills von Drittanbietern
+      über unseren Alexa Sprachdienst aktivieren. In einigen Fällen erbringen
+      wir Dienstleistungen oder verkaufen Produktlinien gemeinsam mit
+      Drittanbietern, wie z.B. Co-Branding-Kreditkarten. Sie wissen stets, ob
+      ein dritter Partner an Transaktionen beteiligt ist und ob wir persönliche
+      Informationen im Zusammenhang mit diesen Transaktionen an diesen Partner
+      weitergeben werden.
+    *  Drittdienstleister: Wir beauftragen andere Unternehmen und
+      Einzelpersonen mit der Erfüllung von Aufgaben für uns. Beispiele sind u.
+      a. die Erfüllung von Bestellungen von Produkten und Dienstleistungen,
+      Paketlieferung, Sendung von Briefen oder E-Mails, die Pflege unserer
+      Kundenlisten, die Analyse unserer Datenbanken, Unterstützung bei
+      Werbemaßnahmen, die Bereitstellung von Suchergebnissen und Links
+      (einschließlich bezahlter Angebote und Links), Abwicklung von Zahlungen
+      (Kreditkarte, Lastschriftverfahren und Rechnungskauf), Übermittlung von
+      Inhalten, Bewertung und Verwaltung von Kreditrisiken sowie Kundenservice.
+      Diese Drittdienstleister haben Zugang zu persönlichen Informationen, die
+      zur Erfüllung ihrer Aufgaben benötigt werden. Sie dürfen diese jedoch
+      nicht zu anderen Zwecken verwenden. Darüber hinaus sind sie verpflichtet,
+      die Informationen gemäß dieser Datenschutzerklärung sowie den
+      einschlägigen Datenschutzgesetzen zu behandeln.
+    *  Übertragung von Geschäftsanteilen: Da wir unser Geschäft ständig
+      weiterentwickeln, kann es sein, dass wir andere Unternehmen oder
+      Dienstleistungen verkaufen oder kaufen. Bei solchen Transaktionen werden
+      die Kundeninformationen gewöhnlich zusammen mit dem zu übertragenden Teil
+      des Unternehmens übertragen. Diese Informationen unterliegen jedoch auch
+      weiterhin den vorher bestehenden Datenschutzerklärungen (ausgenommen
+      hiervon ist selbstverständlich der Fall, in dem der Kunde anderen
+      Bestimmungen ausdrücklich zustimmt). In dem unwahrscheinlichen Fall, dass
+      Amazon.com, Inc. insgesamt oder die wesentlichen Teile davon verkauft
+      werden, werden persönliche Informationen an den Käufer weitergegeben.
+    *  Schutz von Amazon Europe und Dritten: Wir geben Kundenkonten und
+      persönliche Informationen über Kunden bekannt, wenn wir hierzu gesetzlich
+      verpflichtet sind oder wenn eine solche Weitergabe erforderlich ist, um
+      unsere Allgemeinen_Geschäftsbedingungen oder andere Vereinbarungen
+      durchzusetzen oder die Rechte von Amazon Europe, sowie die Rechte unserer
+      Kunden und von Dritten zu schützen. Dies beinhaltet einen Datenaustausch
+      mit Unternehmen zur Vorbeugung und Minimierung von Missbrauch und
+      Kreditkartenbetrug.
+In allen anderen Fällen werden wir Sie darüber informieren, wenn persönliche
+Informationen an Dritte weitergegeben werden sollen. So haben Sie die
+Möglichkeit zu entscheiden, dass Ihre Informationen nicht mit dem Dritten
+geteilt werden sollen.
+Datenübermittlung an Länder außerhalb des Europäischen Wirtschaftsraums: Bei
+der Weitergabe persönlicher Informationen an Dritte in Länder außerhalb des
+Europäischen Wirtschaftsraums (EWR) stellen wir immer sicher, dass die
+Übermittlung der Informationen in Übereinstimmung mit dieser
+Datenschutzerklärung und den anwendbaren Datenschutzgesetzen erfolgt. Wir
+stützen uns auf die Angemessenheitsbeschlüsse der Europäischen Kommission oder
+verwenden Standardvertragsklauseln, die von der Europäischen Kommission
+veröffentlicht werden (Sie können beim Kundenservice eine Kopie dieser Verträge
+anfordern).
+***** Wie sicher sind Informationen über mich? *****
+Bei der Entwicklung unserer Systeme und Geräte berücksichtigen wir Ihre
+Sicherheit und Privatsphäre.
+    *  Um die Sicherheit Ihrer persönlichen Informationen bei Übertragung zu
+      schützen, benutzen wir Verschlüsselungsprotokolle und -software.
+    *  Beim Umgang mit Kreditkarten befolgen wir den Payment Card Industry Data
+      Security Standard (PCI DSS).
+    *  Wir unterhalten physische, elektronische und verfahrenstechnische
+      Sicherheitsmaßnahmen im Zusammenhang mit der Erhebung, dem Speichern und
+      der Offenlegung von persönlichen Informationen unserer Kunden. Diese
+      Sicherheitsmaßnahmen beinhalten, dass wir Sie gegebenenfalls darum
+      bitten, Ihre Identität zu verifizieren, bevor wir Ihnen persönliche
+      Informationen offenlegen.
+    *  Unsere Geräte bieten Sicherheitsfunktionen zum Schutz vor unberechtigtem
+      Zugriff und Datenverlust. Sie können diese Funktionen steuern und nach
+      Ihren Bedürfnissen konfigurieren. Klicken Sie hier für weitere
+      Informationen zur Verwaltung der Sicherheitseinstellungen Ihres Geräts.
+    *  Für Sie ist es wichtig, sich gegen unbefugten Zugang zu Ihrem Passwort,
+      Ihren Computern, Geräten und Apps zu schützen. Wir empfehlen, für Ihr
+      Amazon Konto ein spezielles Passwort zu nutzen, das Sie nicht für andere
+      Online-Konten verwenden. Wenn Sie Ihren Computer mit anderen teilen,
+      sollten Sie darauf achten, sich nach jeder Sitzung abzumelden.
+***** Was hat es mit Werbung auf sich? *****
+    * Werbung von Dritten und Links zu anderen Webseiten: Amazon Services
+      beinhaltet Werbung von Dritten und Links zu anderen Webseiten und Apps.
+      Dritte, die Werbepartner sind, können Informationen über Sie sammeln,
+      wenn Sie mit deren Inhalten, Werbung und Dienstleistungen interagieren.
+      Weitere Informationen über Werbung von Dritten auf Amazon Europe, inkl.
+      interessenbasierter Anzeigen, finden Sie in unseren Hinweisen_zu
+      interessenbasierter_Werbung . Hier können Sie Ihre Werbungseinstellungen
+      anpassen.
+    * Nutzung von Werbedienstleistungen Dritter: Wir stellen Werbefirmen
+      Informationen zur Verfügung, die es ihnen ermöglichen, Ihnen nützlichere
+      und relevantere Amazon-Anzeigen zu liefern und deren Wirksamkeit zu
+      messen. Dabei geben wir niemals Ihren Namen oder andere Informationen
+      weiter, die Sie direkt identifizieren. Stattdessen verwenden wir eine
+      Werbe-ID die ähnlich wie ein Cookie oder eine Gerätekennung funktioniert.
+      Wenn Sie beispielsweise bereits eine unserer Apps heruntergeladen haben,
+      geben wir Ihre Werbe-ID und Daten über den Vorgang weiter, damit Sie
+      keine Werbung erhalten, die Sie einlädt, die App erneut herunterzuladen.
+      Einige Werbefirmen verwenden diese Informationen auch, um Ihnen relevante
+      Anzeigen von anderen Werbetreibenden anzuzeigen. Weitere Informationen
+      darüber, wie Sie sich von interessenbasierter Werbung abmelden können,
+      finden Sie auf der Seite Webpräferenzen.
+***** Welche Informationen kann ich einsehen? *****
+Sie können Ihre Informationen in dem Bereich "Mein Konto" auf unserer Website
+einsehen. Diese Informationen beinhalten Ihren Namen, Ihre Adresse,
+Zahlungsoptionen, Profilinformationen, Informationen bezüglich der Prime-
+Mitgliedschaft, Haushaltseinstellungen und Ihre vergangenen Bestellungen. Um
+eine Liste mit Beispielen zu sehen, auf die Sie zugreifen können, klicken Sie
+hier.
+***** Welche Wahlmöglichkeiten habe ich? *****
+Wenn Sie Fragen oder Einwände bezüglich der Art haben, wie wir Ihre
+persönlichen Informationen erfassen und verarbeiten, wenden Sie sich bitte an
+unseren Kundenservice. Viele unserer Amazon Services enthalten auch
+Einstellungen, die Ihnen verschiedene Auswahlmöglichkeiten für die Verwendung
+Ihrer Informationen bieten.
+    *  Wie oben dargelegt, steht es Ihnen offen, bestimmte Informationen nicht
+      zur Verfügung zu stellen. In diesem Fall können Sie dann aber die
+      Vorteile von vielen der Amazon Services nicht nutzen.
+    *  Auf den unter "Informationen,_zu_denen_Sie_Zugang_haben" bezeichneten
+      Seiten können Sie bestimmte Informationen hinzufügen oder aktualisieren.
+      Wenn Sie Informationen aktualisieren, behalten wir gewöhnlich eine Kopie
+      Ihrer ursprünglichen Angaben in unseren Unterlagen.
+    *  Sie können Ihr Benutzerkonto entsprechend anpassen, wenn Sie keine E-
+      Mails oder andere Nachrichten von uns erhalten wollen. Möchten Sie keine
+      In-App Benachrichtigungen von uns erhalten, passen Sie bitte Ihre
+      Benachrichtigungseinstellungen in der App auf Ihrem Gerät an.
+    *  Wenn Sie interessenbasierte Werbung sehen möchten, ändern_Sie_bitte_Ihre
+      Werbungseinstellungen.
+    *  Die Hilfe-Funktion in der Menüleiste der meisten Webbrowser und Geräte
+      erklärt Ihnen, wie Sie Ihren Browser oder Ihr Gerät davon abhalten, neue
+      Cookies zu akzeptieren, wie Sie Ihren Browser Sie darauf hinweisen lassen
+      können, wenn Sie ein neues Cookie erhalten oder auch wie Sie sämtliche
+      Cookies ausschalten. Da Ihnen Cookies ermöglichen, einige wesentliche
+      Funktionen von Amazon Services zu nutzen, empfehlen wir Ihnen, die
+      Cookie-Funktionen eingeschaltet zu lassen. Wenn Sie Cookies blockieren
+      oder anderweitig nicht akzeptieren, können Sie beispielsweise Waren nicht
+      in Ihren Einkaufswagen legen, zum Checkout gehen oder andere Funktionen
+      von Amazon Services nutzen, die eine Registrierung voraussetzen. Mehr
+      Informationen bezüglich Cookies finden Sie in unseren Hinweisen_zu
+      Cookies.
+    *  Sie können hier Werbe-Cookies von Dritten zustimmen oder Ihre
+      Einwilligung widerrufen.
+    *  Wenn Sie unsere Website besuchen wollen, ohne dass Ihr Browsingverhalten
+      Ihrem Konto zugeordnet wird, können Sie dies tun, in dem Sie sich von
+      Ihrem Konto abmelden und Cookies in Ihrem Browser deaktivieren.
+    *  Sie können die Empfehlungen, die Sie in unserem Store erhalten, hier
+      verwalten, Empfehlungen, die Sie nicht sehen möchten, hier entfernen
+      (Auswahl einer Empfehlung für zuvor nicht gekaufte Artikel, Auswahl von
+      Alle anzeigen oder Auswahl Verwalten, dann Betätigen des Entfernen
+      Schalters), und Ihren Browserverlauf hier verwalten.
+    *  Haben Sie in die Verarbeitung Ihrer Informationen für einen bestimmen
+      Zweck eingewilligt, können Sie diese Einwilligung jederzeit widerrufen
+      und wir werden Ihre Informationen für diesen Zweck nicht weiter
+      verarbeiten.
+    *  Sie können sich bei bestimmten anderen Arten der Datenverarbeitung
+      abmelden (Opt-out), indem Sie Ihre Einstellungen auf der entsprechenden
+      Amazon Website (z.B. unter "Meine Inhalte und Geräte"), auf Ihren Geräten
+      oder Apps anpassen. Für mehr Informationen klicken Sie hier. Die meisten
+      Geräte, die nicht von Amazon stammen, gestatten es Nutzern, Erlaubnisse
+      auf dem Gerät zu ändern (z.B. Deaktivierung / Zugriff auf Ortungsdienste,
+      Kontakte). Bei den meisten Geräten sind diese Steuerungen in dem
+      Einstellungsmenü des Gerätes verortet. Falls Sie Fragen dazu haben, wie
+      Sie Berechtigungseinstellungen auf Geräten, die von Dritten hergestellt
+      wurden, ändern, empfehlen wir Ihnen, sich an Ihnen Mobilfunkanbieter oder
+      den Hersteller Ihres Gerätes zu wenden, da verschiedene Geräte
+      verschiedene Berechtigungseinstellungen haben können.
+    * Sind Sie ein Verkäufer, können Sie bestimmte Informationen in Seller
+      Central hinzufügen oder aktualisieren, Ihre Kontoinformationen
+      aktualisieren indem Sie auf die Verkäufer_Kontoinformationen zugreifen
+      und E-Mails und andere Mitteilungen, die sie von uns erhalten anpassen,
+      indem Sie Ihre Benachrichtigungseinstellungen anpassen.
+    * Sind Sie ein Autor, können Sie Informationen, die Sie in dem
+      Autorenportal und auf Author Central bereitgestellt haben, hinzufügen
+      oder aktualisieren, indem Sie auf Ihr Konto im Autorenportal oder auf
+      Author Central zugreifen.
+Zusätzlich haben Sie, innerhalb des jeweils geltenden Rechts, das Recht,
+Auskunft, Berichtigung und Löschung Ihrer persönlichen Informationen zu
+verlangen. Weiterhin steht Ihnen das Recht auf Datenübertragbarkeit zu. Sie
+können unserer Datenverarbeitung widersprechen oder in speziellen Fällen die
+Beschränkung der Datenverarbeitung von uns verlangen. Möchten Sie eines dieser
+Rechte wahrnehmen, kontaktieren Sie unseren Kundenservice oder, um eine
+Auskunftsanfrage zu stellen, klicken Sie bitte auf Meine_Daten_anfordern .
+***** Dürfen Kinder Amazon Services benutzen? *****
+Amazon Europe bietet keine Produkte zum Kauf durch Minderjährige an. Auch
+unsere Produkte für Kinder können nur von Erwachsenen gekauft werden. Wenn Sie
+das 18. Lebensjahr noch nicht vollendet haben, dürfen Sie Amazon Services nur
+zusammen mit einem Elternteil oder Vormund benutzen.
+***** Wie lange speichern wir Ihre persönlichen Informationen? *****
+Wir speichern Ihre persönlichen Informationen, um Ihnen die laufende Nutzung
+der Amazon Services zu ermöglichen. Wir speichern Ihre Informationen solange,
+wie dies erforderlich ist, um die in dieser Datenschutzerklärung beschriebenen
+Zwecke zu erfüllen oder wie dies gesetzlich vorgeschrieben wird, z.B. für
+Steuer- und Buchhaltungszwecke. Andere Speicherdauern werden wir Ihnen
+mitteilen. Beispielsweise behalten wir Ihre Bestellungsübersichten, damit Sie
+vergangene Einkäufe und die Adressen, an die Sie Ihre Bestellungen versandt
+haben, überprüfen können (und falls gewünscht Bestellungen wiederholen können)
+und damit wir die Relevanz der von uns empfohlenen Produkte und Inhalte
+verbessern können.
+***** EU-US und Schweiz-US Privacy Shield *****
+Wir stützen uns nicht mehr auf das Privacy Shield, halten uns aber weiterhin an
+die nachstehenden Verpflichtungen, die wir bei der Privacy Shield-
+Zertifizierung eingegangen sind.
+Amazon.com, Inc. und bestimmte von ihr beherrschte US-Tochterunternehmen
+(zusammen die Amazon-Konzerngesellschaften, oder "wir") nehmen an dem
+Programmen EU-US und Schweiz-US Privacy Shield ("EU-US-Datenschutzschild") für
+die Erhebung, Nutzung und Speicherung von persönlichen Informationen aus
+Mitgliedsstaaten der Europäischen Union, dem Vereinigten Königreich und der
+Schweiz teil. Wir haben gegenüber dem U.S. Handelsministerium amtlich
+bestätigt, die Privacy Shield-Grundsätze einzuhalten. Um mehr über die Privacy
+Shield-Grundsätze zu erfahren,  klicken Sie bitte hier [externer Link].
+Wenn Sie sich über unseren Umgang mit Ihren Informationen unter dem Privacy
+Shield oder über unsere Datenschutzpraktiken im Übrigen informieren oder
+beschweren wollen, senden Sie uns bitte eine E-Mail an
+privacyshield@amazon.com. Wir werden Ihre Anfrage umgehend beantworten. Sollten
+wir eine Anfrage zum Datenschutz oder zur Datennutzung nicht zu Ihrer
+Zufriedenheit beantwortet haben, wenden Sie sich bitte an unseren Anbieter zur
+Streitschlichtung mit Sitz in den USA (kostenlos) unter https://feedback-
+form.truste.com/watchdog/request. Falls weder Amazon noch unser Anbieter Ihrer
+Beschwerde abhelfen können, können Sie sich für ein verbindliches
+Schiedsgerichtsverfahren an das Privacy Shield-Panel wenden. Um mehr über das
+Privacy Shield-Panel zu erfahren, klicken Sie bitte hier [externer Link].
+Wie hier ausgeführt, geben wir persönliche Informationen manchmal an Dritte
+weiter, damit diese Aufgaben für uns erfüllen können. Falls wir unter dem
+Privacy Shield erhaltene persönliche Informationen an Dritte weitergeben, muss
+der Zugriff, die Nutzung und Offenlegung der persönlichen Informationen durch
+den Dritten im Einklang mit unseren Verpflichtungen nach dem Privacy Shield
+stehen, und wir haften unter dem Privacy Shield für die Nichteinhaltung durch
+den Dritten, es sei denn, dass wir für das Ereignis, das zum Schaden geführt
+hat, nicht verantwortlich sind.
+Sie können unsere Privacy Shield-Registrierung hier [externer Link] einsehen.
+Die Amazon-Konzerngesellschaften unterliegen den Untersuchungs- und
+Vollstreckungsbefugnissen der Federal Trade Commission (FTC). Wir können
+verpflichtet sein, persönliche Informationen, die wir unter dem Privacy Shield
+verarbeiten, auf rechtmäßige Anforderung durch öffentliche Behörden
+herauszugeben, einschließlich um Erfordernissen der nationalen Sicherheit oder
+der Rechtsdurchsetzung zu genügen.
+***** EU Datenschutz-Grundverordnung (Rechtsgrundlagen) *****
+Die EU-DSGVO verlangt eine Rechtsgrundlage für unsere Verarbeitung von
+persönlichen Informationen. Unsere Rechtsgrundlage hängt vom jeweiligen Zweck
+der Datenverarbeitung ab. Wir stützen uns auf:
+    * Durchführung eines Vertrags, wenn wir Ihnen ein Produkt oder eine
+      Dienstleistung zur Verfügung stellen, oder mit Ihnen diesbezüglich
+      kommunizieren. Dies beinhaltet die Verarbeitung Ihrer persönlichen
+      Informationen zur Annahme und Abwicklung von Bestellungen, Auslieferung
+      von Produkten und Dienstleistungen und zur Zahlungsabwicklung.
+    * Unsere berechtigten geschäftlichen Interessen und die Interessen unserer
+      Kunden, wenn wir Amazon Dienste verbessern (u.a. wenn wir Ihre
+      Stimmeingaben, Videos oder Kameradaten zur Verbesserung von Diensten
+      nutzen), wenn wir Betrug oder Missbrauch aufdecken und vorbeugen, um die
+      Sicherheit unserer Kunden, unsere eigene Sicherheit und die von Dritten
+      zu schützen, und wenn wir Ihnen interessenbasierte Werbung anzeigen.
+    * Ihre Einwilligung, wenn wir Sie für einen bestimmten, Ihnen mitgeteilten
+      Zweck nach Ihrer Einwilligung in die Verarbeitung Ihrer persönlichen
+      Informationen fragen. Wenn Sie in die Verarbeitung Ihrer persönlichen
+      Informationen durch uns für einen bestimmten Zweck einwilligen, können
+      Sie Ihre Einwilligung jederzeit widerrufen und wir werden Ihre Daten dann
+      nicht mehr für diesen Zweck verarbeiten.
+    * Gesetzliche Pflichten, wenn wir Ihre persönlichen Informationen
+      verarbeiten, um eine gesetzliche Verpflichtung zu erfüllen. Zum Beispiel
+      erheben wir den Sitz und Kontodaten von Verkäufern zum Zweck des
+      Identitätsnachweises.
+    * Diese und andere Rechtsgrundlagen, je nachdem, zu welchen Zwecken wir
+      persönliche Informationen verwenden.
+***** Kontakte, Hinweise & Änderungen *****
+Wenn Sie Fragen zum Datenschutz bei Amazon Europe haben oder eine der oben
+benannten Verantwortlichen Stellen kontaktieren wollen, teilen_Sie_uns bitte
+eine möglichst genaue Beschreibung Ihres Anliegens mit und wir werden
+versuchen, Ihr Problem für Sie zu lösen. Darüber hinaus können Sie den
+Datenschutzbeauftragten der oben genannten datenschutzrechtlichen
+Verantwortlichen unter eu-privacy@amazon.de erreichen. Sie können eine
+Beschwerde bei unserer federführenden Aufsichtsbehörde, der Commission
+Nationale_pour_la_Protection_des_Données_in_Luxemburg [externer Link], sowie
+bei einer lokalen Behörde einreichen.
+Unser Geschäft ändert sich ständig und genauso ändert sich diese
+Datenschutzerklärung. Wir empfehlen, regelmäßig unsere Website besuchen und
+Änderungen zur Kenntnis nehmen. Soweit nichts anderes geregelt ist, unterliegt
+die Nutzung sämtlicher Informationen, die wir über Sie und Ihre Kundenkonten
+haben, dieser Datenschutzerklärung. Wir stehen zu den Versprechungen, die wir
+Ihnen geben und versichern Ihnen, dass wir wesentliche Änderungen unserer
+Datenschutzerklärung, die zu einem schwächeren Schutz bereits erhaltener
+Kundendaten führen, stets nur mit der Zustimmung der betroffenen Kunden
+vornehmen werden.
+***** Verwandte Themen *****
+    * Allgemeine_Geschäftsbedingungen
+    *  Hilfe-Seiten
+    *  Hilfe-Seiten
+    *  Richtlinien_für_die_Teilnahme_an_der_Amazon_Community
+***** Beispiele erhobener Informationen *****
+Informationen, die Sie uns bereitstellen, wenn Sie Amazon Dienste nutzen
+Sie stellen uns Informationen zur Verfügung, wenn Sie:
+   1.  nach Produkten oder Dienstleistungen in unseren Stores suchen;
+   2.  eine Bestellung über Amazon Services aufgeben;
+   3.  Inhalte auf ein Gerät herunterladen, streamen, anzeigen oder verwenden;
+      dies durch ein Service oder eine Anwendung vornehmen oder Apps auf ein
+      Gerät herunterladen oder anwenden;
+   4.  Informationen in Ihrem_Konto (bitte beachten Sie, dass Sie
+      möglicherweise mehr als ein Konto haben, wenn Sie mehr als eine E-Mail-
+      Adresse oder Handynummer beim Einkaufen bei uns verwendet haben) oder in
+      Ihrem_Profil angeben;
+   5.  Mit unserem Alexa Sprachdienst sprechen oder anderweitig interagieren;
+   6.  Ihre Kontakte hochladen;
+   7.  Ihre Einstellungen für Ihr Amazon Gerät oder einen Amazon-Dienst
+      konfigurieren, hierfür Datenzugriffsrechte zur Verfügung stellen oder mit
+      Ihrem Gerät interagieren;
+   8.  Informationen in Ihrem Verkäuferkonto zur Verfügung stellen, oder auch
+      in Ihrem Kindle_Direct_Publishing_(KDP)_Konto, Entwicklerkonto oder in
+      jedem anderen Konto, das wir Ihnen zur Verfügung stellen und das Ihnen
+      erlaubt, Software, Waren oder Dienstleistungen für Amazon-Kunden zu
+      entwickeln oder anzubieten;
+   9.  Ihre Produkte oder Dienstleistungen auf oder über Amazon Services
+      anbieten;
+  10.  Mit uns per Telefon, E-Mail oder anderweitig kommunizieren;
+  11.  Einen Fragebogen, eine Support-Anfrage oder ein Gewinnspiel-
+      Teilnahmebogen ausfüllen;
+  12.  Bilder, Videos oder andere Dateien auf Prime Photos, Amazon Drive oder
+      andere Amazon Services streamen oder hochladen;
+  13.  Playlisten, Watchlisten, Wunschlisten oder Geschenkverzeichnisse
+      erstellen;
+  14.  An Community-Angeboten teilnehmen; Kundenbewertungen erstellen und
+      bewerten;
+  15.  Eine Terminerinnerung eingeben; oder
+  16.  Den Benachrichtigungsservice für noch nicht erschienene Produkte
+      verwenden, z.B. Nachricht über Produktverfügbarkeit
+Durch diese Handlungen können Sie uns folgende Informationen zur Verfügung
+stellen: Ihren Namen; Adresse und Telefonnummer; Zahlungsinformationen; Ihr
+Alter; Ihre Standortinformationen; Ihre IP-Adresse; Personen, Adressen und
+Telefunnummern in Ihrem Adressbuch; E-Mail-Adressen Ihrer Freunde und anderer
+Personen; Inhalte von Bewertungen und E-Mails an uns; persönliche Beschreibung
+und Foto in Ihrem_Profil; Sprachaufzeichnungen, wenn Sie mit Alexa sprechen;
+Bilder und Videos, die im Zusammenhang mit Amazon Services erhoben wurden oder
+gespeichert sind; Informationen und Dokumente bezüglich Identität und Stand;
+Unternehmens- und Finanzinformationen; Informationen bezüglich Ihrer
+Kreditgeschichte; MwSt-Nummern; und Geräteprotokolldateien und -
+konfigurationen, einschließlich W-Lan-Anmeldedaten, wenn Sie diese automatisch
+mit Ihren anderen Amazon-Geräten synchronisieren lassen.
+***** Automatische Informationen *****
+Beispiele für Informationen, die wir sammeln und analysieren, beinhalten:
+    *  Die Internet-Protocol (IP)-Adresse, die Ihren Computer und andere Geräte
+      mit dem Internet verbindet;
+    *  Logins, E-Mail-Adressen, Passwörter,
+    *  Informationen über Computer, Geräte und Verbindungen wie z. B.
+      Geräteanwendungen, Browsertypen und -Versionen, Browser-Plugin-Typen und
+      -Version, Betriebssysteme und Zeitzoneneinstellungen;
+    *  Der Standort Ihres Geräts oder Computers;
+    *  Informationen über Content-Interaktionen, wie Content-Downloads, Streams
+      und Wiedergabedetails, einschließlich Dauer und Anzahl gleichzeitiger
+      Streams und Downloads, sowie Netzwerkdetails für Streaming- und
+      Downloadqualität, einschließlich Informationen über Ihren
+      Internetdienstanbieter;
+    *  Geräte Metriken, z.B. wann ein Gerät verwendet wird, Anwendungsnutzung,
+      Verbindungsdaten und alle Fehler oder Ereignisausfälle;
+    *  Amazon Service Metriken (z.B. das Auftreten von technischen Fehlern,
+      Ihre Interaktionen mit Servicefunktionen und -Inhalten, Ihre
+      Einstellungen und Backup-Informationen, Standort Ihres Geräts, auf dem
+      eine Anwendung läuft, Informationen über hochgeladene Bilder und Dateien
+      (z.B. Dateiname, Datum, Uhrzeit und Ort Ihrer Bilder));
+    *  Versionen und Zeiteinstellungen;
+    *  Ihre Bestell- und Inhaltsnutzungshistorie, die wir manchmal mit
+      ähnlichen Informationen anderer Kunden zusammenführen und in nicht
+      persönlich identifizierbarer Form in Features wie Bestseller abbilden;
+    *  Der komplette Uniform Resource Locators (URL) Clickstream zu, durch und
+      aus unserer Website, d. h. die Reihenfolge der Seiten unseres Internet-
+      Angebots, die Sie aufsuchen, einschließlich Datum und Zeit, Cookie-
+      Nummer, der Produkte und/oder Inhalte, die Sie angeschaut oder nach denen
+      Sie gesucht haben, einschließlich der Dauer bis zum Aufbau einer
+      Webseite, deren fehlerhaftes Herunterladen, Informationen zur Interaktion
+      zwischen Seiten (z.B. Scrolling, Klicken, Mouse-overs); oder
+    *  Telefonnummern, die Sie genutzt haben, um den Kundenservice anzurufen,
+      und
+    * Bilder oder Videos, wenn Sie in unseren Stores einkaufen und Amazon
+      Dienste nutzen.
+Auf unserer Website benutzen wir auch Gerätekennungen, Cookies und ähnliche
+Technologien auf Geräten, Apps und unseren Webseiten, um Browsing-, Nutzungs-
+und andere Informationen zu erheben. Dies dient zur Vorbeugung vor Missbrauch,
+insbesondere vor Betrug.
+***** Informationen aus anderen Quellen *****
+Beispiele für Informationen, die wir aus anderen Quellen erhalten, beinhalten:
+    *  Aktualisierte Informationen über Bestell- und Lieferadresse von unseren
+      Paketzustellern und anderen Transportunternehmen, die wir dazu verwenden,
+      unsere Datenbank zu aktualisieren, um Ihre nächsten Bestellungen sicher
+      stellen zu können und zu gewährleisten, dass wir mit Ihnen einfacher
+      kommunizieren können;
+    *  Informationen über Konten, Kauf - und Zahlungsverhalten, Page View
+      Informationen, oder andere Informationen über Ihre Interaktionen mit
+      Geschäften, mit denen wir gemeinsam (co-branded) Angebote unterhalten
+      oder für die wir technische, Erfüllungs-, Zahlungs-, Werbe- oder andere
+      Dienstleistungen anbieten;
+    *  Informationen über Ihre Interaktionen mit Produkten und Dienstleistungen
+      unserer Tochtergesellschaften;
+    *  Suchergebnisse und Links, einschließlich bezahlter Listungen;
+    *  Informationen über mit dem Internet verbundene Geräte und Dienste, die
+      Sie mit Alexa verbunden haben; und
+    *  Auskünfte bezüglich der Kreditgeschichte von Kreditauskunfteien, die wir
+      dazu verwenden, Missbrauch, insbesondere Betrug, zu verhindern und
+      aufzudecken und dazu, bestimmten Kunden bestimmte Finanzdienstleistungen
+      und Zahlungsarten anbieten zu können.
+***** Informationen, zu denen Sie Zugang haben *****
+Beispiele für Informationen, zu denen Sie bei Amazon Services Zugang haben,
+sind:
+    *  Status der letzten Bestellungen (einschließlich Abonnements);
+    *  Ihre komplette Bestellungshistorie;
+    *  Persönliche identifizierbare Daten (einschließlich Name, E-Mail-Adresse,
+      Passwort, Kommunikations- und personalisierte Werbungseinstellungen,
+      Adressbuch und 1-Click®-Einstellungen);
+    *  Einstellungen zu Zahlungsarten (einschließlich
+      Bezahlkarteninformationen, Geschenkgutscheinen, Geschenkkarten und
+      Kontoauszüge);
+    *  Angaben darüber, welche Informationen Sie per E-Mail von uns erhalten
+      möchten (einschließlich Verfügbarkeits- und Bestellbenachrichtigungen,
+      Termin-Erinnerungen, Newsletter);
+    *  Empfehlungen und Produkte, die Sie kürzlich angesehen haben und die die
+      Grundlage für Empfehlungen bilden (inkl. Unsere Empfehlungen für Sie und
+      Korrigieren Sie Ihre Empfehlungen);
+    *  Einkaufslisten und Wunschzettel ( einschließlich Wunschlisten und Baby-
+      und Hochzeitsverzeichnisse);
+    *  Ihre Inhalte, Geräte, Dienste und zugehörigen Einstellungen sowie
+      Einstellungen zu Kommunikation und interessenbasierter Werbung;
+    *  Inhalte, die Sie kürzlich angesehen haben;
+    *  Sprachaufzeichnungen in Verbindung mit Ihrem Konto;
+    *  Der "Mein Profil"-Bereich (einschließlich Rezensionen, Empfehlungen,
+      Erinnerungen, persönliche Profile);
+    *  Sind Sie ein Verkäufer, können Sie Ihr Konto und andere Informationen
+      einsehen und Ihre Kommunikationseinstellungen anpassen, indem Sie Ihr
+      Konto in Seller_Central aktualisieren;
+    *  Sind Sie ein Autor, können Sie Ihr Konto und andere Informationen auf
+      der KDP- oder Author_Central- Webseite einsehen und Ihr Konto
+      aktualisieren;
+    *  Sind Sie ein Entwickler und nehmen an unserem Developer Services
+      Programm teil, können Sie Ihr Konto und andere Informationen einsehen und
+      Ihre Kommunikationseinstellungen anpassen, indem Sie ihr Konto im
+      Developer_Services_Portal aktualisieren.

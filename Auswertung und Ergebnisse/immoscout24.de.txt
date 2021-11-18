@@ -1,0 +1,920 @@
+****** Datenschutz ******
+
+Der Schutz Ihrer Daten ist für ImmobilienScout24 sehr wichtig. Wir möchten
+daher, dass Sie den Umgang von ImmobilienScout24 mit Ihren Daten verstehen.
+
+Der Schutz Ihrer Daten ist für ImmobilienScout24 sehr wichtig. Wir möchten
+daher, dass Sie den Umgang von ImmobilienScout24 mit Ihren Daten verstehen.
+Das unter immobilienscout24.de abrufbare Angebot ("ImmoScout24", "Angebot",
+"Webseite" oder "Plattform") wird von der Immobilien Scout GmbH,
+Invalidenstraße 65, 10557 Berlin, gesetzlich vertreten durch die
+Geschäftsführer Ralf Weitz und Dr. Thomas Schroeter ("ImmoScout24", "wir" oder
+"uns") als Verantwortlicher im Sinne des geltenden Datenschutzrechts zur
+Verfügung gestellt. 
+Mit den nachfolgenden Angaben informieren wir Sie darüber, welche
+personenbezogenen Daten wir erheben und wie wir diese verarbeiten, wenn Sie die
+Angebote der ImmoScout24 nutzen und wie wir mit diesen Daten umgehen. Wir
+nehmen den Schutz Ihrer Daten ernst. Bei Fragen zum Datenschutz können Sie sich
+jederzeit an unsere:n Datenschutzbeauftragte:n wenden. Dessen Kontaktdaten
+finden Sie unter Ziffer 2 ("Name und Kontaktdaten des:der für die Verarbeitung
+Verantwortliche:n"). Unter Ziffer 7 dieser Datenschutzinformation finden Sie
+Informationen zu den Ihnen nach dem anwendbaren Datenschutzrecht zustehenden
+Rechte. Sie können diese Datenschutzinformation jederzeit unter der Rubrik
+"Datenschutz" auf der Website aufrufen.
+In unserer Cookie-Richtlinie werden die von uns eingesetzten Tools und Dienste
+aufgeführt, wobei wir Sie insbesondere über die Anbieter:innen der Tools, die
+Datenkategorie, die Zweckkategorie, Speicherdauer der Cookies, die Details zur
+Verarbeitung (Zweck der Verarbeitung), die Rechtsgrundlage sowie einen
+eventuellen Drittlandtransfer und entsprechende Garantien informieren. Außerdem
+wird erläutert, in welchen Fällen wir Ihre freiwillige Einwilligung zur Nutzung
+der Tools einholen sowie ein Link zum Opt-Out über das Cookie-Banner
+bereitgestellt.
+    * 1._Wann_findet_diese_Datenschutzinformation_Anwendung?
+    * 2._Name_und_Kontaktdaten_des:der_für_die_Verarbeitung_Verantwortliche:n
+    * 3._Welche_Daten_verarbeitet_Scout24?
+    * 3.1._Automatisierte_Datenerhebung_über_unsere_Websites_und_Apps
+    * 3.2._Registrierung_auf_unseren_Angeboten
+    * 3.3._Daten,_die_Sie_bei_der_Nutzung_unserer_Angebote_eingeben
+    * 3.3.1._Als_Immobiliensuchende:r/Interessent:in
+    * 3.3.2._Als_private:r_oder_gewerbliche:r_Immobilienanbieter:in
+    * 3.3.3._Bezieher:innen_von_Newslettern_und_E-Mails_mit_werblichen_Inhalten
+    * 3.3.4._Als_Nutzer:in_unserer_Social-Media_Angebote
+    * 3.4._Daten,_die_wir_bei_Dritten_erheben
+    * 4._Zu_welchen_Zwecken_und_auf_welcher_Rechtsgrundlage_verarbeitet_Scout24
+      Ihre_Daten?
+    * 4.1._Zur_Bereitstellung_unserer_Angebote
+    * 4.2._Zur_Erstellung_individueller_Produktempfehlungen_einschließlich_E-
+      Mail-Werbung
+    * 4.3._Für_Zwecke_statistischer_Auswertungen_unserer_Angebote
+    * 4.4._Für_Zwecke_der_bedarfsgerechten_Gestaltung_unserer_Angebote
+    * 4.5._Für_Zwecke_der_Online-Werbung
+    * 4.6._Plugins
+    * 4.7._Ermittlung_von_Störungen,_Gewährleistung_von_Sicherheit_und_Schutz
+      vor_Missbrauch
+    * 4.8._Zur_Herstellung_von_Markttransparenz_und_zur_Monetarisierung_von
+      Objektdaten
+    * 5._An_welche_Empfänger:innen_geben_wir_Ihre_Daten_weiter?
+    * 5.1._Weitergabe_im_Rahmen_der_Bereitstellung_unserer_Angebote
+    * 5.2._Weitergabe_und_gemeinsame_Verantwortlichkeit_innerhalb_der_Scout24-
+      Unternehmensgruppe
+    * 5.3._Weitergabe_an_weisungsgebundene_Dienstleister:innen
+    * 5.4._Weitergabe_an_staatliche_Stellen,_an_Geschädigte_und_zur
+      Rechtsverfolgung
+    * 5.5._Weitergabe_im_Rahmen_von_Unternehmenstransaktionen
+    * 5.6._Datenübermittlung_in_Drittländer
+    * 6._Wie_lange_speichern_wir_Ihre_Daten?
+    * 7._Welche_Rechte_haben_Sie_als_betroffene_Person?
+    * 7.1._Auskunftsrecht
+    * 7.2._Widerrufsrecht
+    * 7.3._Recht_zur_Berichtigung_und_Vervollständigung_von_Daten
+    * 7.4._Recht_auf_Löschung_("Recht_auf_Vergessenwerden")
+    * 7.5._Recht_auf_Einschränkung_der_Verarbeitung
+    * 7.6._Beschwerderecht
+    * 7.7._Recht_auf_Datenübertragbarkeit
+    * 7.8._Widerspruchsrecht
+    * 8._Kontakt_Datenschutzbeauftragte
+    * 9._Änderung_dieser_Datenschutzinformation
+**** 1. Wann findet diese Datenschutzinformation Anwendung? ****
+Diese Datenschutzinformation beschreibt, wie wir Ihre Daten erheben und
+verwenden, z.B. wenn Sie
+    * unsere Websites, Apps oder Social Media-Kanäle besuchen oder nutzen;
+    * unsere Newsletter oder andere Angebote des Direktmarketings abonnieren;
+    * unser Service-Team kontaktieren;
+    * an unseren Veranstaltungen teilnehmen;
+ (im Folgenden: unsere "Angebote").
+    * sofern Sie als Bewerber:in oder Arbeitnehmer:in bzw.  als gewerbliche:
+      r Kunde:Kundin, Partner:in, Lieferant:in oder Auftragnehmer:in mit uns in
+      einer Geschäftsbeziehung stehen, gelten besondere Datenschutz-
+      Informationen, die Ihnen als Teil Ihrer Vertragsunterlagen zur Verfügung
+      gestellt werden.
+    * nach_oben
+**** 2. Name und Kontaktdaten des:der für die Verarbeitung Verantwortliche:
+n ****
+Die Immobilien Scout GmbH betreibt unter anderem die bekannte Marke
+ImmobilienScout24 mit zahlreichen Services rund um Immobilien, Umzug und
+Finanzierung.
+Sofern die Immobilien Scout GmbH neben oder gemeinsam mit weiteren Stellen für
+die Verarbeitung Ihrer personenbezogenen Daten verantwortlich ist, informieren
+wir Sie darüber im Rahmen des Kapitels 5. ("An welche Empfänger:innen geben wir
+Ihre Daten weiter?").
+Die Kontaktdaten des:der Verantwortliche:n finden Sie hier:
+Immobilien Scout GmbH, Invalidenstraße 65, 10557 Berlin
+E-Mail: service@immobilienscout24.de
+Telefonnummer: +49 30 24301 – 1200 / -1100
+Kontakt Datenschutzbeauftragte:r: E-Mail: is24-datenschutz@scout24.com
+    * nach_oben
+**** 3. Welche Daten verarbeitet Scout24? ****
+*** 3.1. Automatisierte Datenerhebung über unsere Websites und Apps ***
+Grundsätzlich können Sie unsere Angebote nutzen, ohne sich zu registrieren und
+uns hierbei personenbezogene Daten mitzuteilen. In diesem Fall erheben wir nur
+in begrenztem Umfang Daten über Ihr verwendetes Endgerät und Ihr
+Nutzungsverhalten auf unseren Angeboten. Diese Daten können keiner
+individuellen Person zugeordnet werden.
+*** Mehr anzeigen ***
+   Hierzu zählen beim Aufruf einer Website etwa die folgenden Daten:
+          * Dateiname der Seite oder Datei bzw. von Ihnen im Rahmen von
+            Eingaben übergebene Informationen;
+          * Dateiname der Seite, von der aus die aktuelle Seite oder Datei
+            angefordert wurde;
+          * Datum und Uhrzeit der Anforderung;
+          * Übertragene Datenmenge;
+          * Zugriffsstatus (Seite übertragen, Seite nicht gefunden etc.);
+          * Typ und Betriebssystem des verwendeten Webbrowsers;
+          * IP-Adresse des Clients und ggf. dessen Domainnamen bzw. der Name
+            des Internet-Service-Providers;
+          * Anmeldedaten, Statistiken zu Seitenaufrufen und Verkehrsdaten
+      Darüber hinaus erheben wir Daten zu Ihrem Nutzungsverhalten auf unseren
+      Angeboten mittels sogenannter Cookies und anderer Tracking-Verfahren.
+      Diese Verfahren und die Zwecke, für die wir diese Daten verwenden, sind
+      unter Ziffer 4 näher beschrieben.
+
+    * nach_oben
+*** 3.2. Registrierung auf unseren Angeboten ***
+Bei der Registrierung auf unseren Angeboten erstellen Sie ein Nutzungskonto das
+Ihnen ermöglicht, Ihre Daten (u.a. Kontoeinstellungen, Kontaktdaten,
+gespeicherte Suchen, Nachrichten, Anzeigen, gekaufte Produkte) im jeweiligen
+geschlossenen Bereich zu verwalten. Für die Registrierung ist nur die Angabe
+einer gültigen E-Mail-Adresse sowie eines Benutzernamens erforderlich.
+Beispiel: Unter www.immobilienscout24.de bieten wir Ihnen zwei verschiedene
+Arten von Nutzungskonto an:
+    * "Mein Konto" für Interessent:innen und private Anbieter:innen
+    * ScoutManager" für gewerbliche Anbieter:innen
+*** Mehr anzeigen ***
+   Social Login
+      Sie können Ihre Registrierung auch mittels eines sogenannten "Social
+      Login" durchführen, bei dem wir Ihr Scout24-Konto mit Ihrem Konto bei
+      einem Social Media Netzwerk verknüpfen. Gegenwärtig bieten wir Ihnen die
+      Möglichkeit, sich mit Ihren Konten bei Facebook oder bei Google
+      anzumelden.
+      Abhängig von Ihren Einstellungen in Ihrem Social Media Netzwerk können
+      dabei im Zeitpunkt der Registrierung bestimmte Daten aus Ihrem Konto an
+      uns weitergegeben werden (etwa Ihr Name und Anrede, E-Mail-Adresse und
+      ggf. Profilfoto). Verantwortlich für die Zurverfügungstellung der im
+      Rahmen des Login erhobenen personenbezogener Nutzerdaten ist der
+      jeweilige Anbieter des Social Media Netzwerks.
+
+    * nach_oben
+*** 3.3. Daten, die Sie bei der Nutzung unserer Angebote eingeben ***
+Je nachdem, in welcher Eigenschaft und zu welchem Zweck Sie unserer Angebote
+nutzen, erheben wir weitere Daten, die Sie auf unseren Angeboten eingeben. Sie
+sind nicht verpflichtet, die jeweiligen Angaben zu machen; ohne diese Daten
+können Sie die jeweilige Funktion jedoch möglicherweise nicht nutzen. Über die
+Daten, die wir im Zusammenhang mit Ihrer Nutzung der Plattform erheben und
+speichern, informieren wir Sie im Folgenden:
+    * nach_oben
+** 3.3.1. Als Immobiliensuchende:r/Interessent:in **
+Als Immobiliensuchende:r/Interessent:in speichernwir die Informationen, die Sie
+im Rahmen Ihrer Immobiliensuche auf unseren Angeboten eingeben. Hierzu zählen
+etwa die von Ihnen eingegebenen Suchparameter wie Ort, Immobilienart,
+Kaltmiete, Fläche sowie Filterkriterien (Dachgeschoss, Garten, Küche...). Je
+nach Art des von Ihnen verwendeten Service können weitere Datenkategorien
+erhoben werden (so etwa bei Nutzung des Kontaktformulars, Finanzierungsrechners
+oder unseres Bonitätschecks). Welche Informationen für die Nutzung des
+jeweiligen Service erhoben werden, wird Ihnen vor der Nutzung des jeweiligen
+Service angezeigt.
+Beispiel: Im Rahmen einer Immobiliensuche speichern wir Ihre gewählten
+Suchparameter wie Ort, Immobilienart, Kaltmiete, Fläche sowie Filterkriterien
+(Dachgeschoss, Garten, Küche...). Darüber hinaus speichern wir, welche Objekte
+Sie ausgeblendet, gemerkt, geteilt oder gemeldet haben.
+    * nach_oben
+** 3.3.2. Als private:r oder gewerbliche:r Immobilienanbieter:in **
+Als private:r oder gewerbliche:r Immobilienanbieter:in  speichern wir die
+Informationen, die Sie im Rahmen Ihres Immobilieninserats und der damit
+verbundenen Services eingeben. Hierzu zählen etwa Ihr Name und Kontaktdaten
+sowie Daten zu der von Ihnen inserierten Immobilie.
+    * nach_oben
+** 3.3.3. Bezieher:innen von Newslettern und E-Mails mit werblichen Inhalten **
+Als Bezieher:in von Newslettern und E-Mails mit werblichen Inhalten speichern
+wir Ihre E-Mail-Adresse, sowie weitere Informationen zum bezogenen Newsletter
+(Kategorie, evt. Frequenzeinstellung, Zeitpunkt der Abbestellung) und zu Ihrem
+Nutzungsverhalten auf unseren Angeboten.  Die Abbestellung dieser E-Mails ist
+jederzeit durch Anklicken eines entsprechenden Links am Ende des Newsletters
+möglich.
+    * nach_oben
+** 3.3.4. Als Nutzer:in unserer Social-Media Angebote **
+Als Nutzer:in unserer Social-Media Angebote werden diejenigen Daten
+verarbeitet, die zur Nutzung der jeweiligen Funktion (z.B. Kontaktieren,
+Kommentieren, Teilen, Bewerten) erforderlich sind. Darüber hinaus erhebt der
+Anbieter der jeweiligen Social-Media-Plattform unter anderem Ihre IP-Adresse
+sowie weitere Informationen, die u.a. über Cookies und andere Technologien
+direkt über Ihr Endgerät erhoben werden. Grundsätzlich ist der jeweilige
+Anbieter der Social-Media-Plattform für die Erhebung personenbezogener
+Nutzungsdaten auf der Plattform verantwortlich.
+*** Mehr anzeigen ***
+   Beispiel
+      Beim Besuch unserer Facebook-Seite erfasst Facebook u.a Ihre IP-Adresse
+      sowie weitere Informationen, die in Form von Cookies auf Ihrem PC
+      vorhanden sind. Diese Informationen werden verwendet, um uns als
+      Betreiber der Facebook-Seiten statistische Informationen über die
+      Inanspruchnahme der Facebook-Seite zur Verfügung zu stellen. Nähere
+      Informationen hierzu stellt Facebook unter folgendem Link zur Verfügung:
+      http://de-de.facebook.com/help/pages/insights. Mit Hilfe dieser
+      anonymisierten Besucherstatistiken sind wir in der Lage die Qualität
+      unserer Facebook Seite und unserer Inhalte zu bewerten. Diese Statistiken
+      werden auf der Basis von Nutzungsdaten erstellt, die Facebook über Ihre
+      Interaktion mit unserer Facebook-Fanpage erhebt. Auf die Erzeugung und
+      Darstellung haben wir als Betreiber der Facebook-Fanpage keinen Einfluss.
+      Facebook hat sich uns gegenüber verpflichtet, für die Verarbeitung der
+      Seiten-Insights-Daten primär die Verantwortung und die Erfüllung Ihrer
+      Rechte nach der EU-Datenschutzgrundverordnung zu übernehmen und Ihnen das
+      Wesentliche der hierfür geltenden Vereinbarung zur Verfügung zu stellen.
+      Gemäß dem Urteil des Europäischen Gerichtshofs (EuGH) vom 5. Juni 2018
+      (Az. C-210/16) besteht zwischen der Facebook Ireland Limited, 4 Grand
+      Canal Square, Dublin, Ireland und uns eine gemeinsame Verantwortung bzgl.
+      der Verarbeitung der Insights-Daten. Hierbei übernimmt Facebook Ireland
+      Limited die primäre Verantwortung gemäß DSGVO für die Verarbeitung von
+      Insights-Daten und erfüllt sämtliche Pflichten im Hinblick auf die
+      Verarbeitung von Insights-Daten. Für die Geltendmachung Ihrer Rechte u.a.
+      auf Auskunft in Bezug auf Insights-Daten wenden Sie sich bitte an
+      Facebook Ireland Limited. Weitere Informationen dazu finden sie auf der
+      Facebookseite unter folgendem Link:       https://www.facebook.com/legal/
+      terms/page_controller_addendum.
+      Rechtsgrundlage für die Nutzung der Insights-Daten ist Art. 6 Abs. 1
+      Buchstabe f) DS-GVO. Wir als  Betreiber der Facebook-Fanpage haben ein
+      berechtigtes Interesse, insbesondere um auf Nutzerbeiträge reagieren
+      sowie unsere Angebote stetig verbessern zu können. Rückschlüsse auf
+      einzelne User sowie Zugriffe auf einzelne Userprofile durch sind uns
+      nicht möglich. Die nach der DSGVO erforderlichen Informationen zu der
+      Datenverarbeitung im Rahmen von Seiten-Insights erhalten Sie bei Facebook
+      in den Datenschutzhinweisen unter https://www.facebook.com/privacy/
+      explanation.
+
+    * nach_oben
+*** 3.4. Daten, die wir bei Dritten erheben ***
+Wir können Informationen auch aus anderen Quellen beziehen, wie z.B.
+öffentlichen Datenbanken, von Marketingpartner:innen, Social Media Plattformen
+und anderen Dritten.
+Sofern Sie Ihre Registrierung mittels eines sogenannten "Social Login"
+durchführen, werden abhängig von Ihren Einstellungen in Ihrem Social Media
+Netzwerk einmalig im Zeitpunkt der Registrierung bestimmte Daten aus Ihrem
+Konto an uns weitergegeben werden (etwa Ihr Name und Anrede, E-Mail-Adresse und
+ggf. Profilfoto). Gleichzeitig werden im Rahmen der Verwendung des Social
+Logins in der Regel auch Daten von uns an das jeweilige Social Media Netzwerk
+gesendet, wie etwa der Registrierungsvorgang selbst. Das Social Media Netzwerk
+kann diese Informationen zum Zwecke der Werbung, Marktforschung und
+bedarfsgerechten Gestaltung ihrer eigenen Seiten nutzen. Zweck und Umfang der
+Datenerhebung und die weitere Verarbeitung und Nutzung der Daten durch das
+Social Media Netzwerk sowie Ihre diesbezüglichen Rechte und
+Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre entnehmen Sie bitte den
+Datenschutzhinweisen des jeweiligen Social Media Netzwerks.
+    * nach_oben
+**** 4. Zu welchen Zwecken und auf welcher Rechtsgrundlage verarbeitet Scout24
+Ihre Daten? ****
+Wir verarbeiten Ihre Daten hauptsächlich, um Ihnen unsere Angebote und die
+damit verbundenen Funktionen –  an Ihre individuellen Interessen angepasst –
+zur Verfügung zu stellen.
+Daneben erfolgen noch einige weitere Verarbeitungen für weitere Zwecke, die wir
+zusammen mit den jeweiligen Rechtsgrundlagen nachfolgend darstellen. Unter
+anderen verwenden wir auf der Plattform verschiedene Verfahren zur
+Nutzungsanalyse und zur Ausspielung von Online-Werbung (beides auch unter
+Einsatz von Cookies). Außerdem unternehmen wir Verarbeitung zu Zwecken der
+Direktwerbung mittels E-Mail und zu Sicherheits- und Rechtsverfolgungszwecken.
+Für den Websitebetrieb notwendige Tools verwenden wir aufgrund unseres
+berechtigten Interesses gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO, um Ihnen eine
+komfortablere und individuellere Nutzung unserer Website zu ermöglichen und die
+Nutzung so zeitsparend wie möglich zu gestalten. In bestimmten Fällen können
+diese Tools auch für die Erfüllung eines Vertrags oder zur Durchführung
+vorvertraglicher Maßnahmen erforderlich sein, dann erfolgt die Verarbeitung
+gemäß Art. 6 Abs. 1 S. 1 lit. b DSGVO.
+Alle anderen Tools, insbesondere solche für Marketingzwecke, verwenden wir
+aufgrund Ihrer Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a DSGVO sowie gemäß
+§ 15 Abs. 3 S. 1 TMG, sofern Nutzungsprofile zu Zwecken der Werbung oder
+Marktforschung erstellt werden. Eine Datenverarbeitung mithilfe dieser Tools
+findet nur statt, wenn wir vorab Ihre Einwilligung hierfür erhalten haben.
+Wenn Sie Ihre Einwilligung zur Nutzung von bestimmten Tools gegeben haben,
+übermitteln wir die bei der Nutzung der Tools verarbeiteten Daten (auch) auf
+Grundlage dieser Einwilligung in Drittländer.
+Für die Einholung und das Management Ihrer Einwilligungen nutzen wir das Tool
+LiveRamp. Dieses erzeugt ein Banner, welches Sie über die Datenverarbeitung auf
+unserer Website informiert und Ihnen die Möglichkeit gibt, allen, einzelnen
+oder keinen Datenverarbeitungen durch optionale Tools zuzustimmen. Dieses
+Banner erscheint beim ersten Besuch unserer Website und wenn Sie die Auswahl
+Ihrer Einstellungen erneut aufrufen, um Sie zu ändern oder Einwilligungen zu
+widerrufen. Das Banner erscheint außerdem bei weiteren Besuchen unserer
+Website, sofern Sie die Speicherung von Cookies deaktiviert haben oder das
+Cookie von LiveRamp gelöscht wurde oder abgelaufen ist.
+An LiveRamp werden im Rahmen Ihres Websitebesuches Ihre Einwilligungen oder
+Widerrufe, Informationen über Ihren Browser, Ihr Endgerät und zum Zeitpunkt
+Ihres Besuches übertragen. Außerdem setzt LiveRamp ein notwendiges Cookie ein,
+um Ihre erteilten Einwilligungen und Widerrufe zu speichern. Sofern Sie Ihre
+Cookies löschen, werden wir Sie bei einem späteren Seitenaufruf erneut um Ihre
+Einwilligung bitten.
+Die Datenverarbeitung durch LiveRamp ist notwendig, um Ihnen das rechtlich
+geforderte Einwilligungs-Management bereitzustellen und unseren
+Dokumentationspflichten nachzukommen. Rechtsgrundlage zur Nutzung von LiveRamp
+ist Art. 6 Abs. 1 S. 1 lit. f DSGVO, begründet durch unser Interesse, die
+gesetzlichen Anforderungen an ein Cookie-Consent-Management zu erfüllen.
+    * nach_oben
+*** 4.1. Zur Bereitstellung unserer Angebote ***
+Wir verarbeiten Ihre Daten, um Ihnen das jeweilige Angebot und die damit
+verbundenen Funktionen zur Verfügung zu stellen. Unsere Dienstleistung, eine
+Marktplattform für Anbieter:innen und Interessent:innen von Immobilien und
+deren Finanzierungen anzubieten, beinhaltet insbesondere, Kontakte zwischen
+Anbieter:innen und Interessent:innen zu vermitteln.
+Weitere Informationen finden Sie hierzu unter Ziffer 5.1 („Weitergabe im Rahmen
+der Bereitstellung unserer Angebote“), sowie in den ergänzenden Hinweisen zum
+jeweiligen Formular (z.B. ein Kontaktanfrage-Formular). Die als Pflichtfelder
+gekennzeichneten Datenfelder sind für die Erbringung des jeweiligen Angebots
+erforderlich – ohne diese Daten können Sie die betreffende Funktion nicht in
+Anspruch nehmen. Weitere Datenfelder sind freiwillig.
+Beispiel: Wenn Sie in unseren Angeboten nach Immobilien oder
+Finanzierungsangeboten suchen, können Sie einen Suchauftrag anlegen. Wir
+speichern Ihre E-Mail-Adresse und Suchparameter, um Ihnen für Sie interessante
+Suchergebnisse zuzusenden.
+Die Bereitstellung unserer Angebote ist damit verbunden, dass wir diese auf
+Ihre individuellen Bedürfnisse anpassen. Die Verarbeitung Ihrer Daten zur
+bedarfsgerechten Gestaltung stellt einen festen Leistungsbestandteil unserer
+Angebote dar und ist Kernstück des Leistungsportfolios. Um den bestmöglichen
+Nutzen aus unseren Angeboten zu ziehen, empfehlen wir Ihnen daher eine
+Registrierung. Weitere Informationen zu den hierfür eingesetzten Verfahren
+finden Sie unter Ziffer 4.4.
+Damit Ihre Angebote von möglichst vielen Interessent:innen zur Kenntnis
+genommen werden, verbreiten wir Inserate teilweise zusätzlich über
+kooperierende Immobilienbörsen/Websites. Dies beinhaltet, dass wir Ihre Daten,
+so wie öffentlich im Inserat angezeigt, an die kooperierende Immobilienbörse/
+Website weitergeben. Wir versenden Ihre Daten ebenfalls per Benachrichtungs-E-
+Mail an Immobiliensuchende oder teilen Ihre Inserate in sozialen Medien (wie
+z.B. Facebook).
+In einigen Bereichen ermöglichen wir Ihnen eine Bewertung von über unsere
+Plattform gefundenen Dienstleistungen von Partner- und Drittunternehmen als
+Orientierungshilfe für andere Nutzer:innen. Zu diesem Zweck senden wir Ihnen
+eine E-Mail, mit der wir Sie um die Abgabe einer solchen Bewertung bitten.
+Daneben verarbeiten wir Ihre Daten, soweit dies für die Durchführung und
+Abwicklung eingegangener Vertragsverhältnisse notwendig ist, etwa für die
+Erstellung und Übersendung von Rechnungen oder für Kontaktaufnahmen bei
+auftretenden Problemen. Hierzu gehört auch, dass wir Daten zu einem etwaigen
+Vertragsschluss zwischen Ihnen und anderen Nutzer:innen unserer Marktplattform
+erheben und anderweitig verarbeiten, sofern dies für die Abrechnung unserer
+Leistungen gegenüber Ihrem:Ihrer Vertragspartner:in der für andere berechtigte
+Interessen, wie etwa die Durchsetzung rechtlicher Ansprüche, erforderlich
+ist.    
+Diese Verarbeitungen erfolgen auf Basis gesetzlicher Vorschriften, die es uns
+gestatten, personenbezogene Daten zu verarbeiten, soweit es für die Nutzung
+eines Dienstes bzw. die Erfüllung eines Vertrages erforderlich ist (Art. 6 Abs.
+1 b) DSGVO).
+In einigen Fällen holen wir auch Ihre Einwilligung in die Datenverarbeitung ein
+(Art. 6 Abs. 1 a) DSGVO).
+    * nach_oben
+*** 4.2. Zur Erstellung individueller Produktempfehlungen einschließlich E-
+Mail-Werbung ***
+Sofern Sie hierin nach Art. 6 Abs. 1 a DSGVO) eingewilligt haben oder wir
+anderweitig hierzu berechtigt sind, verarbeiten wir Ihre Daten auch, um Sie
+über unsere Produkte, Dienstleistungen, Veranstaltungen und Werbeaktionen zu
+informieren. Diese Informationen können wir Ihnen über verschiedene Kanäle wie
+E-Mail, Telefon, SMS, Postsendungen und soziale Netzwerke Dritter zustellen.
+Um unsere Informationsangebote optimal nach Ihren Interessen und Wünschen
+gestalten zu können, können diese Mitteilungen auf Ihre Präferenzen
+zugeschnitten sein (z.B. wenn Sie uns Ihre Präferenzen mitteilen, oder wir
+diese aus Ihrem Nutzungsverhalten auf unseren Angeboten schließen können, oder
+wenn Sie auf Links in unseren E-Mails klicken).
+Hierfür können wir Ihre Registrierungsdaten mit Ihren Bewegungsdaten auf den
+Websites/in den mobilen Apps sowie Benachrichtigungen (z.B. E-Mails und Pushes)
+von ImmobilienScout (aufgerufene Seiten, angeklickte Inhalte etc.) und Daten
+aus weiteren auf diesen Websites/in diesen Apps genutzten Diensten
+zusammenführen (z.B. Suchparameter; geklickte, gemerkte, weiterempfohlene &
+kontaktierte Objekte; Profil-, Umzugs- & Finanzierungsdaten sowie Produktkäufe
+& bezogene Leistungen).  
+Beispiel: Wenn Sie auf unseren Angeboten nach Immobilien im Raum Berlin suchen,
+können wir diese Informationen nutzen, um Ihnen per E-Mail oder in unseren Apps
+für Sie interessante Angebote im Raum Berlin vorzuschlagen, sofern Sie in den
+Erhalt solcher personalisierten Nachrichten eingewilligt haben.
+    * nach_oben
+*** 4.3. Für Zwecke statistischer Auswertungen unserer Angebote ***
+Bei der Nutzung unseres Angebots erstellen wir für Zwecke der statistischen
+Auswertung Nutzungsprofile unter Verwendung von Pseudonymen.
+Beispiel: Durch eine statistische Auswertung unserer Angebote erhalten wir
+wertvolle Informationen, die uns helfen, unsere Angebote zu verbessern und
+Ressourcen zielgerichtet einzusetzen.
+Diese Verarbeitungen erfolgen auf der Grundlage einer von Ihnen erteilten
+Einwilligung bzw. gesetzlicher Vorschriften, die es gestatten, personenbezogene
+Daten zu verarbeiten, weil Scout24 ein überwiegendes berechtigtes Interesse an
+einer statistischen Auswertung des Angebots hat (Art. 6 Abs. 1 f) DSGVO). Das
+berechtigte Interesse besteht darin, die Reichweite unserer Angebote zu
+bewerten, Fehler in unseren Angeboten zu erkennen und zu beseitigen und unsere
+Angebote kontinuierlich zu verbessern.
+Eine Auflistung der eingesetzten Verfahren, nebst Hinweis auf die damit
+verfolgten Zwecke und einschlägigen Rechtsgrundlagen, finden Sie hier.  
+Bitte beachten Sie, dass wir zum Zwecke statistischer Auswertungen von Ihnen
+übermittelte Objektdaten (Adresse, Größe, Lage, Preis, etc.) über die
+Anzeigendauer hinaus speichern und verarbeiten. Sofern es sich dabei um
+personenbezogene Daten handelt, weil diese Ihrer Person zugeordnet werden
+können, stützen wir uns dabei auf überwiegende berechtigte Interessen (Art. 6
+Abs. 1 f) DSGVO). Dies liegt darin, unsere Angebote kontinuierlich zu
+verbessern und neue Angebote zu entwickeln.
+*** Mehr anzeigen ***
+   Cookies
+      Für diesen Zweck verwenden wir so genannte Cookies (d.h. alphanumerische
+      Identifikationszeichen, die wir mittels Ihres Web-Browsers an Ihren
+      Computer übermitteln), Pixel (unsichtbare Grafiken, auch Web Beacons
+      genannt werden) oder vergleichbare Technologien. Sie ermöglichen den von
+      uns eingesetzten Systemen, Ihren Browser vorübergehend von anderen zu
+      unterscheiden.
+      Zum einen übersenden wir Ihnen sog. persistente Cookies, mit deren Hilfe
+      wir zum Beispiel die von Ihnen im Rahmen unserer Datenbank eingegebenen
+      Suchkriterien mitschreiben und für unsere interne Auswertung
+      speichern. Zum anderen verwenden wir sog. Sessioncookies, mit deren Hilfe
+      Sie für die Dauer eines Besuchs auf unseren Seiten eine Session-ID
+      erhalten. Hierdurch können wir für Sie Kontinuität im Rahmen Ihres
+      Besuches erzeugen und beispielsweise vermeiden, dass Sie immer wieder mit
+      denselben Werbeeinblendungen bedacht werden. Der Sessioncookie und Ihre
+      Session-ID werden am Ende Ihres Besuches auf unserer Seite gelöscht. 
+      Wenn Sie dieses Vorgehen unterbinden möchten, können Sie dies durch eine
+      Deaktivierung des jeweiligen Cookies erreichen. Die Hilfe-Funktion in der
+      Menüleiste der meisten Webbrowser erklärt Ihnen, wie Sie Ihren Browser so
+      einstellen, dass er keine Cookies mehr oder nur eingeschränkt akzeptiert.
+      Dort erfahren Sie auch, wie Sie Ihren Browser konfigurieren müssen, damit
+      er Sie informiert, wenn Ihrem Computer ein Cookie "angeboten" wird.
+      Leider können Sie nur mit einer aktivierten Cookie-Annahme die
+      Funktionalität unserer Webseite vollständig nutzen und erleben.
+
+    * nach_oben
+*** 4.4. Für Zwecke der bedarfsgerechten Gestaltung unserer Angebote ***
+Bei der Nutzung unseres Angebots erstellen wir für Zwecke der bedarfsgerechten
+Gestaltung des Angebots Nutzungsprofile unter Verwendung von Pseudonymen. Die
+Verarbeitung Ihrer Daten zur bedarfsgerechten Gestaltung stellt einen festen
+Leistungsbestandteil unserer Angebote dar und ist Kernstück des
+Leistungsportfolios.
+Beispiel: Wenn Sie auf unserer Plattform nach Finanzierungsangeboten für eine
+Immobilie gesucht haben, dann können wir die von Ihnen verwendeten
+Suchparameter nutzen, um Ihnen für Sie interessante Finanzierungs- oder
+Umzugsangebote vorzuschlagen.
+Diese Verarbeitungen erfolgen auf der Grundlage einer von Ihnen erteilten
+Einwilligung bzw. gesetzlicher Vorschriften, die es gestatten, personenbezogene
+Daten zu verarbeiten, weil Scout24 ein überwiegendes berechtigtes Interesse hat
+(Art. 6 Abs. 1 a) bzw. f) DSGVO). Das berechtigte Interesse besteht darin,
+unser Angebot im Hinblick auf Ihre individuellen Bedürfnisse optimal anzupassen
+und zu verbessern.
+Eine Auflistung der eingesetzten Verfahren, nebst Hinweis auf die damit
+verfolgten Zwecke und einschlägigen Rechtsgrundlagen, finden Sie hier.
+    * nach_oben
+*** 4.5. Für Zwecke der Online-Werbung ***
+Die Werbung auf unseren Angeboten wird durch die Erhebung und Verarbeitung
+Ihres Nutzungsverhaltens auf prognostizierte Interessen hin für Sie optimiert.
+Zu diesem Zweck können wir Daten über Ihre Aktivitäten auf unserer Webseite
+erfassen, sowie, falls Sie auf unseren Angeboten auf ein Werbemittel klicken,
+auf der Website des:der jeweiligen Werbepartners:Werbepartner:in (z. B.
+geklickte Werbebanner, besuchte Unterseiten, gestellte Suchanfragen etc.).
+Diese Aufzeichnungen helfen uns, den Erfolg der auf unseren Angeboten
+eingeblendeten Werbung zu messen und gegenüber unseren Werbekund:inne
+bzurechnen. Darüber nutzen wir die so erfassten Daten zur Optimierung der Ihnen
+angezeigten Werbebanner.
+Beispiel: Eine Optimierung kann etwa bedeuten, dass wir für Sie uninteressante
+Werbebanner ausblenden und durch andere Werbebanner ersetzen, die eher Ihren
+prognostizierten Interessen entsprechen. Die Optimierung führt also nicht dazu,
+dass Sie mehr Werbung sehen. Es wird Ihnen lediglich Werbung angezeigt, die
+eher Ihren mutmaßlichen Interessen entspricht.
+Die erfassten Daten werden mittels einer pseudonymen Benutzernummer im Auftrag
+von Scout24 durch dritte Unternehmen zum Zweck der Einblendung von Inhalten und
+Werbung passend zu Ihren Interessen verwendet. Diese Verarbeitungen erfolgen
+ausschließlich auf der Grundlage einer von Ihnen erteilten Einwilligung (Art. 6
+Abs. 1 a) DSGVO).
+Eine Auflistung der eingesetzten Verfahren, nebst Hinweis auf die damit
+verfolgten Zwecke und einschlägigen Rechtsgrundlagen, finden Sie hier.
+Aufgrund der Einbindung der vorgenannten Verfahren kann es dazu kommen, dass
+die jeweiligen Werbepartner:innen Daten in Staaten außerhalb der der EU
+("Drittländern") verarbeiten. Jede Übermittlung von Daten an ein Drittland
+erfolgt unter Beachtung des anwendbaren Datenschutzrechts. Soweit für ein
+Drittland durch die Europäische Kommission das Vorliegen eines angemessenen
+Schutzniveaus nicht festgestellt worden ist, sehen wir angemessene Garantien
+vor, um einen adäquaten Schutz Ihrer Daten zu gewährleisten. Dies kann
+beispielsweise durch den Abschluss von Datenverarbeitungsverträgen, die EU-
+Standarddatenschutzklauseln enthalten und nach Ansicht der Europäischen
+Kommission angemessene Garantien bieten (abrufbar unter: http://ec.europa.eu/
+justice/data-protection/international-transfers/transfer/index_en.htm),
+erfolgen.
+    * nach_oben
+*** 4.6. Plugins ***
+Auf unseren Internetseiten sowie in unseren Apps verwenden wir sogenannte
+Software Plugins, die den von uns bereitgestellten Funktionsumfang für unsere
+Nutzer:innen um Dienste erweitern, die von anderen Hersteller:innen angeboten
+werden.
+Beispiel: Zu den von uns eingesetzten Plugins gehören etwa Google Maps, zur
+Darstellung von digitalen Karten, aber auch Google Recaptcha. Recaptcha dient
+dem Schutz vor einer missbräuchlichen Verwendung unserer Angebote, indem etwa
+Interaktionen auf unserer Internetseite durch automatisierte Zugriffe, bspw.
+durch sog. Bots, überprüft und verhindert werden. Google verarbeitet hierfür
+Ihre IP-Adresse und ggf. weitere Daten, die auf das Vorliegen einer
+menschlichen Handlung schließen lassen und die im Rahmen des Website-Zugriffs
+erhoben werden. Es gelten die Datenschutzbestimmungen von Google, abrufbar
+unter https://www.google.com/intl/de/policies/privacy/. Die vorstehend
+beschriebenen Datenverarbeitungen erfolgen auf der Grundlage gesetzlicher
+Vorschriften, die es gestatten, personenbezogene Daten zu verarbeiten, weil
+Scout24 ein überwiegendes berechtigtes Interesse hieran hat (Art. 6 Abs. 1 f)
+DSGVO). Dabei ist konkret die bedarfsgerechte Gestaltung von Produkten durch
+Google Maps bzw. die Sicherstellung der Funktionsfähigkeit unserer Angebote
+durch Google Recaptcha als ein berechtigtes Interesse im Sinne des Gesetzes
+anzusehen.
+Bitte beachten Sie, dass in unseren Angeboten verschiedene "Share"-Funktionen
+sozialer Netzwerke nicht als Plugin, sondern als Link eingebunden sein können.
+Zur Nutzung dieser Funktionen ist nur ein einziger Klick notwendig. Dabei
+leiten wir Sie auf die Website des jeweiligen Social-Netzwerks, mit Referenz
+der URL des zu teilenden Inhalts, weiter. Sie müssen sich dort mit Ihrem
+jeweiligen Konto authentifizieren und können dann erst den gewünschten Inhalt
+teilen. Die damit einhergehenden Datenerhebungen und -verwendungen liegen in
+der Verantwortung des Betreibers des jeweiligen sozialen Netzwerks. Bitte
+konsultieren Sie für Einzelheiten die Datenschutzerklärung des jeweiligen
+Netzwerkbetreibers.
+*** Mehr anzeigen ***
+   Zur Nutzung von Plugins
+      Erst wenn die Plugins von Ihnen aktiviert werden, stellt Ihr Internet-
+      Browser eine direkte Verbindung zu den Servern des jeweiligen Plugin-
+      Anbieters her. Hierdurch erhält der Plugin-Anbieter die Information, dass
+      Ihr Internet-Browser die entsprechende Seite unseres Online-Angebots
+      aufgerufen hat. Log-Dateien (einschließlich der IP-Adresse) werden dabei
+      von Ihrem Internet-Browser direkt an einen Server des jeweiligen Plugin-
+      Anbieters übermittelt und ggf. dort gespeichert. Dieser Server kann
+      seinen Standort außerhalb der EU bzw. des EWR haben (z. B. in den
+      U.S.A.).
+      Wenn Sie nicht möchten, dass die Plugin-Anbieter die über dieses Online-
+      Angebot erhobenen Daten erhalten und ggf. speichern bzw. weiterverwenden,
+      sollten Sie die jeweiligen Plugins nicht verwenden.
+      Sie können das Laden der Plugins grundsätzlich auch mit Hilfe von Add-Ons
+      (Zusatzprogrammen) für Ihren Browser komplett verhindern, sogenannten
+      Script-Blockern.
+      Weitere Informationen über Zweck und Umfang der Erhebung sowie die
+      weitere Verarbeitung und Nutzung Ihrer Daten durch Plugin-Anbieter sowie
+      zu Ihren Rechten und Einstellungsmöglichkeiten zum Schutz Ihrer Daten
+      finden Sie in den Datenschutzhinweisen der jeweiligen Anbieter.
+
+    * nach_oben
+*** 4.7. Ermittlung von Störungen, Gewährleistung von Sicherheit und Schutz vor
+Missbrauch ***
+Wir verwenden Ihre Daten darüber hinaus, um im Interesse der redlichen Nutzer:
+innen eventuellen Missbrauchshandlungen im Rahmen unserer Plattform effektiv
+entgegenzutreten und um uns und unsere Kund:innen in diesen Fällen vor Schaden
+zu schützen. Hierzu gehören auch die Datenverarbeitungen, die zur Durchsetzung
+unserer Rechte und Ansprüche erforderlich sind, Diese Verarbeitungen sind näher
+im Kapitel 5.4 („Weitergabe an staatliche Stellen, an Geschädigte und zur
+Rechtsverfolgung“) beschrieben.
+Beispiel: Sofern Sie auf unserer Website eine Kontaktanfrage stellen, können
+wir Ihre E-Mail-Adresse, Vor- und Nachname sowie Teile der Anfrage und das
+angefragte Inserat automatisiert erheben und temporär speichern. Dies hilft uns
+dabei, betrügerische Kontaktanfragen rechtzeitig zu erkennen und zu blockieren.
+Zugleich können wir diese Daten auch auswerten, um Ihnen eine Betrugswarnung
+zuzusenden, sofern wir darauf schließen müssen, dass ein von Ihnen besuchtes
+Angebot missbräuchlichen Zwecken dient.
+Darüber hinaus verwenden wir Ihre Daten zur Ermittlung von Störungen und
+Gewährleistung der Systemsicherheit einschließlich Aufdeckung und
+Nachverfolgung unzulässiger Zugriffe und Zugriffsversuche auf unsere Web-
+Server.
+Diese Verarbeitungen erfolgen im Rahmen der Erbringung der von Ihnen
+angefragten Angebote (Art. 6 Abs. 1 lit. b) DSGVO) bzw. auf Basis gesetzlicher
+Vorschriften, die es uns gestatten, personenbezogene Daten zum Schutz vor
+Missbrauch und zur Rechtsverfolgung zu verarbeiten und weil Scout24 ein
+überwiegendes berechtigtes Interesse an Verarbeitungen zur Gewährleistung der
+Funktionsfähigkeit und Sicherheit des Angebots hat (Art. 6 Abs. 1 f) DSGVO).
+    * nach_oben
+*** Mehr anzeigen ***
+   Cookies
+      Für diesen Zweck verwenden wir so genannte Cookies (d.h. alphanumerische
+      Identifikationszeichen, die wir mittels Ihres Web-Browsers an Ihren
+      Computer übermitteln), Pixel (unsichtbare Grafiken, auch Web Beacons
+      genannt werden) oder vergleichbare Technologien. Sie ermöglichen den von
+      uns eingesetzten Systemen, Ihren Browser vorübergehend von anderen zu
+      unterscheiden.
+      Zum einen übersenden wir Ihnen sog. persistente Cookies, mit deren Hilfe
+      wir zum Beispiel die von Ihnen im Rahmen unserer Datenbank eingegebenen
+      Suchkriterien mitschreiben und für unsere interne Auswertung
+      speichern. Zum anderen verwenden wir sog. Sessioncookies, mit deren Hilfe
+      Sie für die Dauer eines Besuchs auf unseren Seiten eine Session-ID
+      erhalten. Hierdurch können wir für Sie Kontinuität im Rahmen Ihres
+      Besuches erzeugen und beispielsweise vermeiden, dass Sie immer wieder mit
+      denselben Werbeeinblendungen bedacht werden. Der Sessioncookie und Ihre
+      Session-ID werden am Ende Ihres Besuches auf unserer Seite gelöscht. 
+      Wenn Sie dieses Vorgehen unterbinden möchten, können Sie dies durch eine
+      Deaktivierung des jeweiligen Cookies erreichen. Die Hilfe-Funktion in der
+      Menüleiste der meisten Webbrowser erklärt Ihnen, wie Sie Ihren Browser so
+      einstellen, dass er keine Cookies mehr oder nur eingeschränkt akzeptiert.
+      Dort erfahren Sie auch, wie Sie Ihren Browser konfigurieren müssen, damit
+      er Sie informiert, wenn Ihrem Computer ein Cookie "angeboten" wird.
+      Leider können Sie nur mit einer aktivierten Cookie-Annahme die
+      Funktionalität unserer Webseite vollständig nutzen und erleben.
+
+*** 4.8. Zur Herstellung von Markttransparenz und zur Monetarisierung von
+Objektdaten ***
+Die von unseren Inserent:innen übermittelten und veröffentlichten Objektdaten
+(Objektadresse, Größe, Lage, Preis, etc. nicht jedoch Namen oder andere
+spezifische Kommunikationsmerkmale zum:zur Inserent:in oder Eigentümer:in)
+können wir zur Herstellung von Markttransparenz veröffentlichen und zur
+Monetarisierung an Vertragspartner:innen (z.B. Partner:innen aus den Branchen:
+Versicherer, Energieversorger) weitergeben. Sofern die Veröffentlichung nicht
+der Bewerbung des aktiven Inserats dient (siehe hierzu Ziffer 4.1), werden
+sämtliche Informationen zum:zur Inserent:in des betreffenden Objekts vor einer
+Veröffentlichung bzw. Weitergabe von Objektdaten entfernt. Ein Rückschluss auf
+die Person des:der Inserent:in leine aus den weitergegebenen Daten ist damit
+ausgeschlossen.
+Die Zuordnung der weitergegebenen Daten (z.B. Objektadresse) zu
+personenbezogenen Daten anderer Vertragspartner:innen ist möglich und erfolgt
+auf Basis einer separaten Rechtsgrundlage des:der jeweiligen Vertragspartners:
+Vertragspartnerin
+Die Datenverarbeitung stützen wir auf überwiegende berechtigte Interessen (Art.
+6 Abs. 1 f) DSGVO). Dies liegt in der wirtschaftlichen Verwertung der
+Objektdaten.
+    * nach_oben
+**** 5. An welche Empfänger:innen geben wir Ihre Daten weiter? ****
+Eine Weitergabe Ihrer personenbezogenen Daten erfolgt neben den anderen in
+dieser Datenschutzerklärung genannten Fällen nur in folgenden Fällen:
+    * nach_oben
+*** 5.1. Weitergabe im Rahmen der Bereitstellung unserer Angebote ***
+Im Rahmen der Bereitstellung unserer Angebote und der damit verbundenen
+Funktionen und Services geben wir Ihre Daten beispielsweise an Anbieter:innen
+und Interessent:innen von Immobilien und deren Finanzierungen weiter, sofern
+Sie den jeweiligen Service in Anspruch nehmen. Nähere Informationen zum:zur
+Empfänger:in bzw. zur Kategorie von Empfänger:innen und dem Zweck der
+jeweiligen Datenübermittlung, werden Ihnen vor Inanspruchnahme des jeweiligen
+Angebots in separaten Hinweistexten bzw. unmittelbar nach Inanspruchnahme per
+E-Mail mitgeteilt. Eine Weitergabe an nicht weisungsgebundene
+Kooperationspartner:innen erfolgt ferner für Zwecke der Personalisierung
+unserer Angebote, im Rahmen der Schaltung von Online-Werbung sowie bei der
+Einbindung von Plugins (siehe Ziffern 4.4-4.6 dieser Datenschutz-Information).
+Beispiel: Wenn Sie die Funktion der „Immobilienbewertung“ nutzen, geben wir
+Ihre Daten an passende Immobilienexpert:innen unserer Kooperationspartner:innen
+weiter. Die Kategorie der Empfänger:innen und den Zweck der Datenweitergabe
+können Sie den entsprechenden Hinweistexten auf den Formularseiten entnehmen.
+Sofern Sie nähere Angaben zum:zur Empfänger:in nicht in den Hinweistexten
+finden, teilen wir Ihnen diese nach Inanspruchnahme der Funktion mit.     
+Beispiel: Sofern Sie die Bonitätsprüfung im Rahmen von Finanzierungsanfragen in
+Anspruch nehmen, erheben wir Ihre Stammdaten (Name, Anschrift und Geburtsdatum)
+und übermitteln diese an den:die jeweilige:n Partner:in zur Bonitätsprüfung zur
+Abfrage der dort gespeicherten Bonitätsdaten (einschließlich Informationen zu
+Ihrem bisherigen Zahlungsverhalten und zur Beurteilung des
+Zahlungsausfallrisikos auf Basis mathematisch-statistischer Verfahren unter
+Verwendung von Anschriftendaten (sog. Scoring). Diese Daten werden, sofern Sie
+diese Funktion ausgewählt haben, an mit ImmobilienScout kooperierende
+Finanzierungspartner:innen zum Zweck der Erstellung von Angeboten über eine
+Baufinanzierung weitergeleitet.
+Diese Weitergabe erfolgt auf Basis gesetzlicher Vorschriften, die es uns
+gestatten, personenbezogene Daten zu verarbeiten, soweit es für die Nutzung
+eines Dienstes bzw. die Erfüllung eines Vertrages erforderlich ist (Art. 6 Abs.
+1 b) DSGVO), bzw. weil Scout24 ein überwiegendes berechtigtes Interesse daran
+hat, die Nutzung der Plattform so leicht und effizient wie möglich zu machen
+(Art. 6 Abs. 1 f) DSGVO). In einigen Fällen holen wir auch Ihre Einwilligung in
+die Datenverarbeitung ein (Art. 6 Abs. 1 a) DSGVO).
+    * nach_oben
+*** 5.2. Weitergabe und gemeinsame Verantwortlichkeit innerhalb der Scout24-
+Unternehmensgruppe ***
+Bestimmte personenbezogenen Daten, wie etwa Daten, die bei der Registrierung
+von dem:der Nutzer:in angegeben werden, können innerhalb der Unternehmensgruppe
+für interne Verwaltungszwecke, einschließlich der gemeinsamen
+Kundschaftsbetreuung weitergeben werden, sofern diese Nutzung erforderlich und
+rechtlich zulässig ist.
+Diese Weitergaben erfolgen auf Basis gesetzlicher Vorschriften, die es uns
+gestatten, personenbezogene Daten zu verarbeiten, soweit es für die Nutzung
+eines Dienstes bzw. die Erfüllung eines Vertrages erforderlich ist (Art. 6 Abs.
+1 b) DSGVO), bzw. weil Scout24 daran ein überwiegendes berechtigtes Interesse
+hat. Dies besteht darin, die Kundschaftsbetreuung so leicht und effizient wie
+möglich zu machen (Art. 6 Abs. 1 f) DSGVO). In einigen Fällen holen wir auch
+Ihre Einwilligung in die Datenverarbeitung ein (Art. 6 Abs. 1 a) DSGVO).
+Im Rahmen der nachfolgend bezeichneten Datenverarbeitungsvorgänge handeln die
+ImmobilienScout und die Scout24 SE (Bothestraße 13-15, 81675 München) in
+gemeinsamer Verantwortlichkeit:
+    * Die Erhebung und Verarbeitung von pseudonymen Nutzungsdaten auf den
+      Angeboten über Cookies, Pixel oder vergleichbare Technologien zu den
+      unter Ziffer 4.3-4.5 bezeichneten Zwecken.
+ImmobilienScout und die Scout24 SE haben ihre wechselseitigen Verpflichtungen
+gemäß der DSGVO in einer Vereinbarung festgelegt, deren wesentlicher Inhalt
+hiermit zur Verfügung gestellt wird. Für die Erfüllung der Transparenzpflichten
+gemäß Art. 13 und 14 DSGVO und der weiteren Betroffenenrechte gemäß Kapitel 3
+der DSGVO hinsichtlich der vorbezeichneten Datenverarbeitungsvorgänge ist
+vorrangig die jeweilige Gesellschaft zuständig, mit der Sie in einer
+Vertragsbeziehung steht bzw. deren Angebote Sie genutzt haben. Sie können diese
+Rechte aber weiterhin gegenüber jeder einzelnen Gesellschaft geltend machen.
+Weitere Informationen zum Datenschutz bei der Scout24 SE finden Sie hier.
+    * nach_oben
+*** 5.3. Weitergabe an weisungsgebundene Dienstleister:innen ***
+Teilweise setzten wir für bestimmte Datenverarbeitungstätigkeiten
+weisungsgebundene Dienstleistungsunternehmen (sowohl Gesellschaften der
+Scout24-Unternehmensgruppe als auch externe Dienstleister:innen) ein. Es
+handelt sich hierbei ausnahmslos um weisungsgebundene
+Dienstleistungsunternehmen, die die Daten gemäß Art. 28 DSGVO in unserem
+Auftrag und nach unseren Weisungen verarbeiten. Durch entsprechende
+datenschutzrechtliche Vertragsgestaltung ist dabei sichergestellt, dass diese
+Datenweitergabe und -verarbeitung ohne gesonderte Rechtsgrundlage zulässig
+ist. Wir beauftragen Unternehmen insbesondere in folgenden Bereichen: IT,
+Vertrieb, Marketing, Finanzen, Beratung, Kundinnen- und Kundenservice,
+Personalwesen, Logistik, Druck. Aufgrund der vorstehend genannten Weitergaben
+kann es dazu kommen, dass die weisungsgebundenen Dienstleister:innen die Daten
+in Staaten außerhalb der der EU ("Drittländern") verarbeiten. Jede Übermittlung
+von Daten an ein Drittland erfolgt unter Beachtung des anwendbaren
+Datenschutzrechts. Soweit für ein Drittland durch die Europäische Kommission
+das Vorliegen eines angemessenen Schutzniveaus nicht festgestellt worden ist,
+sehen wir angemessene Garantien vor, um einen adäquaten Schutz Ihrer Daten zu
+gewährleisten. Dies kann beispielsweise durch den Abschluss von
+Datenverarbeitungsverträgen, die EU-Standarddatenschutzklauseln enthalten und
+nach Ansicht der Europäischen Kommission angemessene Garantien bieten (abrufbar
+unter: http://ec.europa.eu/justice/data-protection/international-transfers/
+transfer/index_en.htm), erfolgen.
+In unserer Cookie-Richtliniewerden die von uns eingesetzten Tools und Dienste
+aufgeführt, wobei wir Sie insbesondere über die Anbieter:innen der Tools, die
+Datenkategorie, die Zweckkategorie, Speicherdauer der Cookies, die Details zur
+Verarbeitung (Zweck der Verarbeitung), die Rechtsgrundlage sowie einen
+eventuellen Drittlandtransfer und entsprechende Garantien informieren. Außerdem
+wird erläutert, in welchen Fällen wir Ihre freiwillige Einwilligung zur Nutzung
+der Tools einholen sowie ein Link zum Opt-Out über das Cookie-Banner.
+    * nach_oben
+*** 5.4. Weitergabe an staatliche Stellen, an Geschädigte und zur
+Rechtsverfolgung ***
+Wenn es zur Aufklärung einer rechtswidrigen oder missbräuchlichen Nutzung
+unserer Angebote oder für die Rechtsverfolgung erforderlich ist, werden
+personenbezogene Daten an die Strafverfolgungsbehörden sowie ggf. an
+geschädigte Dritte weitergeleitet. Dies geschieht jedoch nur dann, wenn
+Anhaltspunkte für ein gesetzwidriges bzw. missbräuchliches Verhalten vorliegen.
+Eine Weitergabe kann auch dann stattfinden, wenn dies der Durchsetzung von
+Nutzungsbedingungen oder anderer Vereinbarungen dient. Unser berechtigtes
+Interesse im Sinne von Art. 6 Abs. 1 f) DSGVO an der Datenverarbeitung liegt
+dabei darin, das ordnungsgemäße Funktionieren unserer Website und des Dienstes
+sicherzustellen sowie gegebenenfalls Rechtsansprüche geltend zu machen,
+auszuüben oder zu verteidigen.
+Wir sind zudem gesetzlich im Sinne des Art. 6 Abs. 1 c) DSGVO verpflichtet, auf
+Anfrage bestimmten öffentlichen Stellen Auskunft zu erteilen. Dies sind
+Strafverfolgungsbehörden, Behörden, die bußgeldbewährte Ordnungswidrigkeiten
+verfolgen und die Finanzbehörden.
+    * nach_oben
+*** 5.5. Weitergabe im Rahmen von Unternehmenstransaktionen ***
+Im Rahmen der Weiterentwicklung unseres Geschäfts kann es dazu kommen, dass
+sich die Struktur unseres Unternehmens wandelt, indem die Rechtsform geändert
+wird, Tochtergesellschaften, Unternehmensteile oder Bestandteile gegründet,
+gekauft oder verkauft werden. Bei solchen Transaktionen werden die
+Kundeninformationen gegebenenfalls zusammen mit dem zu übertragenden Teil des
+Unternehmens an den Erwerber bzw. den Rechtsnachfolger und deren Berater
+weitergegeben. Bei jeder Weitergabe von personenbezogenen Daten an Dritte in
+dem vorbeschriebenen Umfang tragen wir dafür Sorge, dass dies in
+Übereinstimmung mit dieser Datenschutzinformation und dem anwendbaren
+Datenschutzrecht erfolgt.
+Diese Weitergaben erfolgen auf Basis gesetzlicher Vorschriften, die es uns
+gestatten, personenbezogene Daten zu verarbeiten, wenn Scout24 dafür Sorge
+trägt, dass die Vertragserfüllung mit Ihnen störungsfrei fortgesetzt werden
+kann (Art. 6 Abs. 1 b) DSGVO) oder ein überwiegendes berechtigtes Interesse
+daran hat, die Daten für administrative Zwecke weiterzugeben (Art. 6 Abs. 1 f)
+DSGVO).
+    * nach_oben
+*** 5.6. Datenübermittlung in Drittländer ***
+Wie in dieser Datenschutzerklärung erläutert, setzen wir Dienste ein, deren
+Anbieter:innen teilweise in sogenannten Drittländern (außerhalb der
+Europäischen Union bzw. des Europäischen Wirtschaftsraums) sitzen oder dort
+personenbezogene Daten verarbeiten, also Ländern, deren Datenschutzniveau nicht
+dem der Europäischen Union entspricht. Soweit dies der Fall ist und die
+Europäische Kommission für diese Länder keinen Angemessenheitsbeschluss
+(Art. 45 DSGVO) erlassen hat, haben wir entsprechende Vorkehrungen getroffen,
+um ein angemessenes Datenschutzniveau für etwaige Datenübertragungen zu
+gewährleisten. Hierzu zählen u.a. die Standardvertragsklauseln der Europäischen
+Union oder verbindliche interne Datenschutzvorschriften.
+Wo dies nicht möglich ist, stützen wir die Datenübermittlung auf Ausnahmen des
+Art. 49 DSGVO, insbesondere Ihre ausdrückliche Einwilligung oder die
+Erforderlichkeit der Übermittlung zur Vertragserfüllung oder zur Durchführung
+vorvertraglicher Maßnahmen.
+Sofern eine Drittstaatenübermittlung vorgesehen ist und kein
+Angemessenheitsbeschluss oder geeignete Garantien vorliegen, ist es möglich und
+besteht das Risiko, dass Behörden im jeweiligen Drittland (z. B. Geheimdienste)
+Zugriff auf die übermittelten Daten erlangen können, um diese zu erfassen und
+zu analysieren, und dass eine Durchsetzbarkeit Ihrer Betroffenenrechte nicht
+gewährleistet werden kann. Bei Einholung Ihrer Einwilligung über das Cookie-
+Banner werden Sie hierüber ebenfalls informiert.
+    * nach_oben
+**** 6. Wie lange speichern wir Ihre Daten? ****
+Sofern in dieser Datenschutzerklärung nicht anders beschrieben, speichern wir
+Ihre personenbezogenen Daten nur so lange, wie dies zur Erreichung der hier
+genannten Zwecke erforderlich ist oder es im Rahmen einer gesetzlichen
+Speicherfrist vorgesehenen ist. Danach werden die betreffenden Daten
+routinemäßig entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht
+bzw. anonymisiert.
+Bitte beachten Sie, dass wir Ihren registrierten Account grundsätzlich nicht
+löschen, bevor Sie uns dies mitteilen. Dies gilt auch, wenn Sie Ihren Account
+für einen längeren Zeitraum nicht nutzen. Sofern wir Ihren Account auf Ihren
+Wunsch zur Löschung vorgemerkt haben, wird dessen physische Löschung erst nach
+Ablauf einer technischen Wartezeit von 14 Tagen vollzogen.
+Soweit wir Daten aus gesetzlichen Gründen oder zur Wahrung überwiegender
+berechtigter Interessen aufbewahren müssen bzw. dürfen, tritt anstelle einer
+Löschung bzw. Anonymisierung eine Einschränkung der weiteren Verarbeitung der
+betroffenen Daten.
+Beispiel: Wenn Sie eine kostenpflichtige Buchung abgeschlossen haben,
+unterliegen Ihre Buchungs- und Zahlungsdaten und ggf. weitere Daten
+gesetzlichen Aufbewahrungspflichten, zum Beispiel nach dem Handelsgesetzbuch
+(HGB) und der Abgabenordnung (AO). In diesen Fällen sind wir verpflichtet, Ihre
+Daten für einen Zeitraum von bis zu zehn Jahre aufzubewahren. Erst anschließend
+dürfen wir die betreffenden Daten endgültig löschen.
+Beispiel: Wenn Sie einen Newsletter abonniert oder anderweitig in den Empfang
+werblicher Nachrichten eingewilligt haben, haben wir ein überwiegendes
+berechtigtes Interesse, die zum Nachweis Ihrer Einwilligung erforderlichen
+Daten für Zwecke der Rechtsverteidigung in gesperrter Form aufzubewahren. Die
+Dauer der Sperrung orientiert sich in diesem Fall an den jeweiligen
+gesetzlichen Verjährungsfristen. Nach deren Ablauf werden die betreffenden
+Daten gelöscht.
+Sofern Ihre Daten bei der Nutzung unserer Angebote an Dritte übermittelt werden
+(z.B. bei Kontaktanfragen an Immobilienanbieter:innen oder Anfragen an
+Finanzierungsanbieter:innen) sind diese für die Aufbewahrung und Löschung
+dieser Daten verantwortlich. Die Kontaktdaten dieser Dritten werden Ihnen im
+Rahmen der Nutzung unserer Angebote mitgeteilt, sodass Sie Ihre Rechte
+unmittelbar gegenüber dem jeweiligen Dritten ausüben können.
+    * nach_oben
+**** 7. Welche Rechte haben Sie als betroffene Person? ****
+    * nach_oben
+*** 7.1. Auskunftsrecht ***
+Sie haben gem. Art. 15 DSGVO das Recht, jederzeit Auskunft über Ihre
+personenbezogenen Daten zu erhalten. Insbesondere können Sie Auskunft über die
+Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien
+von Empfänger:innen gegenüber denen:derer Ihre Daten offengelegt wurden oder
+werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung,
+Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines
+Beschwerderechts, die Herkunft ihrer Daten, sofern diese nicht bei uns erhoben
+wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung
+einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren
+Einzelheiten verlangen.
+Zur Geltendmachung dieser Rechte wenden Sie sich bitte an die Gesellschaft, mit
+der Sie in einer Vertragsbeziehung steht bzw. deren Angebote Sie genutzt haben.
+Die Kontaktdaten finden Sie unter Ziffer 2 ("Name und Kontaktdaten des:der für
+die Verarbeitung Verantwortliche:n").
+Bei Vorlage der jeweiligen Voraussetzungen können Ihnen ebenso die folgenden
+Rechte zustehen.
+    * nach_oben
+*** 7.2. Widerrufsrecht ***
+Ihnen steht gem. Art. 7 Abs. 3 DSGVO Das Recht zu, Ihre einmal erteilte
+Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass
+wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft
+nicht mehr fortführen dürfen.
+    * nach_oben
+*** 7.3. Recht zur Berichtigung und Vervollständigung von Daten ***
+Sie haben das Recht, von uns die unverzügliche Berichtigung der Sie
+betreffenden personenbezogenen Daten zu verlangen, sofern diese unrichtig sein
+sollten. Weiterhin haben Sie das Recht, im Umfang des Art. 16 DSGVO von uns die
+Vervollständigung Ihrer Daten - auch mittels einer ergänzenden Erklärung - zu
+verlangen, sofern diese unvollständig sein sollten.
+    * nach_oben
+*** 7.4. Recht auf Löschung ("Recht auf Vergessenwerden") ***
+Sie haben das Recht, unter den in Art. 17 DSGVO beschriebenen Voraussetzungen
+von uns die Löschung der Sie betreffenden personenbezogenen Daten zu verlangen,
+etwa wenn Ihre Daten für die Zwecke, für die sie erhoben oder auf sonstige
+Weise verarbeitet wurden, nicht mehr erforderlich sind.
+    * nach_oben
+*** 7.5. Recht auf Einschränkung der Verarbeitung ***
+Sie haben das Recht, von uns die Einschränkung der Verarbeitung nach Maßgabe
+des Art. 18 DSGVO zu verlangen. Dieses Recht besteht insbesondere, wenn die
+Richtigkeit der personenbezogenen Daten zwischen dem:der Nutzer:in und Scout24
+umstritten ist, für die Dauer, welche die Überprüfung der Richtigkeit erfordert
+sowie im Fall, dass der:die Nutzer:in bei einem bestehenden Recht auf Löschung
+anstelle der Löschung eine eingeschränkte Verarbeitung verlangt; ferner für den
+Fall, dass die Daten für die von Scout24 verfolgten Zwecke nicht länger
+erforderlich sind, der:die Nutzer:in sie jedoch zur Geltendmachung, Ausübung
+oder Verteidigung von Rechtsansprüchen benötigt sowie wenn die erfolgreiche
+Ausübung eines Widerspruchs zwischen Scout24 und dem:der Nutzer:in noch
+umstritten ist.
+    * nach_oben
+*** 7.6. Beschwerderecht ***
+Sie haben ferner das Recht, sich nach Maßgabe des Art. 77 DSGVO bei der
+zuständigen Aufsichtsbehörde zu beschweren.
+    * nach_oben
+*** 7.7. Recht auf Datenübertragbarkeit ***
+Soweit wir Daten verarbeiten, die Sie uns bereitgestellt haben, steht Ihnen
+entsprechend Art. 20 DSGVO das Recht zu, die Sie betreffenden personenbezogenen
+Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu
+erhalten, sofern und soweit Sie uns die Daten zur Verfügung gestellt haben.
+    * nach_oben
+*** 7.8. Widerspruchsrecht ***
+Information über Ihr Widerspruchsrecht nach Art. 21 DSGVO
+Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation
+ergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener
+Daten, die aufgrund von Artikel 6 Absatz 1 Buchstabe e DSGVO (Datenverarbeitung
+im öffentlichen Interesse) und Artikel 6 Absatz 1 Buchstabe f DSGVO
+(Datenverarbeitung auf der Grundlage einer Interessenabwägung) erfolgt,
+Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmung gestütztes
+Profiling von Artikel 4 Nr. 4 DSGVO.
+Legen Sie Widerspruch ein, werden wir Ihre personenbezogenen Daten nicht mehr
+verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die
+Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen,
+oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von
+Rechtsansprüchen.
+Sofern sich Ihr Widerspruch gegen eine Verarbeitung von Daten zum Zwecke der
+Direktwerbung richtet, so werden wir die Verarbeitung umgehend einstellen. In
+diesem Fall ist die Angabe einer besonderen Situation nicht erforderlich. Dies
+gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung
+steht.
+Möchten Sie von Ihrem Widerspruchsrecht Gebrauch machen, genügt eine E-Mail an
+die unter Ziffer 2 ("Name und Kontaktdaten des:der für die Verarbeitung
+Verantwortlichen") aufgeführten Kontaktdaten.
+Wenn Sie individuelle Produktempfehlungen per Push-Service in unseren Apps
+abbestellen möchten, können Sie diese Funktion in den Einstellungen der
+jeweiligen App jederzeit deaktivieren. In den meisten Apps finden Sie diese
+Funktion im Bereich "Einstellungen", unter "Mitteilungen" oder "Push-
+Nachrichten".
+Bitte beachten Sie, dass Sie auch dann, wenn Sie sich gegen den Erhalt von
+Marketingmitteilungen entscheiden, weiterhin gewisse Mitteilungen von uns
+erhalten können. Hiervon erfasst sind etwa technische Aktualisierungen unserer
+Produkte, Auftragsbestätigungen, Benachrichtigungen über Ihre Kontoaktivitäten
+und andere wichtige Mitteilungen.
+    * nach_oben
+**** 8. Kontakt Datenschutzbeauftragte:r ****
+Für Auskünfte und Fragen zum Thema Datenschutz steht Ihnen unser:
+e Datenschutzbeauftragte:r gerne zur Verfügung. Die jeweiligen Kontaktdaten
+finden Sie unter Ziffer 2 ("Name und Kontaktdaten des:der für die Verarbeitung
+Verantwortliche:n").
+    * nach_oben
+**** 9. Änderung dieser Datenschutzinformation ****
+Das Angebot von Scout24 wird stetig weiterentwickelt, insbesondere, um die
+Services und Funktionalitäten der Plattform weiter zu verbessern. Solche
+Änderungen können sich auch auf die Nutzung Ihrer personenbezogenen Daten
+auswirken. Wir werden diese Datenschutzinformation daher von Zeit zu Zeit
+dementsprechend anpassen. Die jeweils aktuelle Version ist auf unserer Website
+unter der Rubrik "Datenschutz" abrufbar. Bitte informieren Sie sich auf diesem
+Wege regelmäßig über den aktuellen Stand der Datenschutzinformation.
+    * nach_oben
+Stand: 08. Juni 2021

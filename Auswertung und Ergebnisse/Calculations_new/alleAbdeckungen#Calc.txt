@@ -1,0 +1,1734 @@
+alexa.de#A	alexa.de#A
+meta	0,27272728
+controller	1
+dataProtectionOfficer	
+dataDisclosed	0,5
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,44
+
+alexa.de#C	alexa.de#C
+meta	0,2
+controller	1
+dataProtectionOfficer	
+dataDisclosed	0,7894737
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,61290324
+
+alexa.de#G	alexa.de#G
+meta	0,2
+controller	1
+dataProtectionOfficer	
+dataDisclosed	0,93333334
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,80701756
+
+alexa.de#I	alexa.de#I
+meta	0,2
+controller	1
+dataProtectionOfficer	
+dataDisclosed	0,45454547
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,39130434
+
+alexa.de#M	alexa.de#M
+meta	0,33333334
+controller	1
+dataProtectionOfficer	
+dataDisclosed	0,8333333
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,68421054
+
+alexa.de#T	alexa.de#T
+meta	0,27272728
+controller	1
+dataProtectionOfficer	
+dataDisclosed	0,5714286
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,46153846
+
+amazon.de#A	amazon.de#A
+meta	0
+controller	0,8333333
+dataProtectionOfficer	1
+dataDisclosed	0,9
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0
+automatedDecisionMaking	1
+changesOfPurpose	1
+Overall:	0,6875
+
+amazon.de#C	amazon.de#C
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,9767442
+thirdCountryTransfers	
+accessAndDataPortability	1
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	1
+Overall:	0,93037975
+
+amazon.de#G	amazon.de#G
+meta	0
+controller	0,9230769
+dataProtectionOfficer	1
+dataDisclosed	0,9895288
+thirdCountryTransfers	
+accessAndDataPortability	1
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	1
+Overall:	0,96938777
+
+amazon.de#I	amazon.de#I
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,85
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	0
+Overall:	0,63265306
+
+amazon.de#M	amazon.de#M
+meta	0,22222222
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,97938144
+thirdCountryTransfers	
+accessAndDataPortability	1
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	1
+Overall:	0,9505494
+
+amazon.de#T	amazon.de#T
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,8
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	0
+Overall:	0,59090906
+
+ardmediathek.de#A	ardmediathek.de#A
+meta	0,27272728
+controller	0,9230769
+dataProtectionOfficer	0,85714287
+dataDisclosed	0,65486723
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0,8888889
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	
+rightToWithdrawConsent	0,5
+rightToComplain	0,9375
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,6896552
+
+ardmediathek.de#C	ardmediathek.de#C
+meta	0,27272728
+controller	0,9230769
+dataProtectionOfficer	0,8333333
+dataDisclosed	0,71153843
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	
+rightToWithdrawConsent	1
+rightToComplain	0,9166667
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,75301206
+
+ardmediathek.de#G	ardmediathek.de#G
+meta	0,5
+controller	0,8666667
+dataProtectionOfficer	0,75
+dataDisclosed	0,9137056
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0,96153843
+rightToRectificationOrDeletion	0,8
+rightToDataPortability	
+rightToWithdrawConsent	0,875
+rightToComplain	0,8181818
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,88395905
+
+ardmediathek.de#I	ardmediathek.de#I
+meta	0,2
+controller	0,8888889
+dataProtectionOfficer	0,8
+dataDisclosed	0,31506848
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0,8333333
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	
+rightToWithdrawConsent	0,5
+rightToComplain	0,9
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,44915253
+
+ardmediathek.de#M	ardmediathek.de#M
+meta	0,27272728
+controller	0,9
+dataProtectionOfficer	0,8
+dataDisclosed	0,74545455
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	
+rightToWithdrawConsent	1
+rightToComplain	0,90909094
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,76785713
+
+ardmediathek.de#T	ardmediathek.de#T
+meta	0,2
+controller	0,9
+dataProtectionOfficer	0,8
+dataDisclosed	0,44444445
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0,8333333
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	
+rightToWithdrawConsent	0,5
+rightToComplain	0,8888889
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,52991456
+
+bahn.de#A	bahn.de#A
+meta	0,27272728
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0
+thirdCountryTransfers	1
+accessAndDataPortability	0
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,4875
+
+bahn.de#C	bahn.de#C
+meta	0,45454547
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,4117647
+thirdCountryTransfers	1
+accessAndDataPortability	0
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,745283
+
+bahn.de#G	bahn.de#G
+meta	0,45454547
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,8414634
+thirdCountryTransfers	1
+accessAndDataPortability	0
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,89847714
+
+bahn.de#I	bahn.de#I
+meta	0,11111111
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,074074075
+thirdCountryTransfers	1
+accessAndDataPortability	0
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,53571427
+
+bahn.de#M	bahn.de#M
+meta	0,45454547
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,3939394
+thirdCountryTransfers	1
+accessAndDataPortability	0
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,7522936
+
+bahn.de#T	bahn.de#T
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0
+thirdCountryTransfers	1
+accessAndDataPortability	0
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,49382716
+
+beiersdorf.de#A	beiersdorf.de#A
+meta	0,2
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,8235294
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0,5
+rightToRectificationOrDeletion	0,5
+rightToDataPortability	0,5
+rightToWithdrawConsent	0,5
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,7910448
+
+beiersdorf.de#C	beiersdorf.de#C
+meta	0
+controller	1
+dataProtectionOfficer	0,8
+dataDisclosed	0,959854
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0,5
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,92833877
+
+beiersdorf.de#G	beiersdorf.de#G
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,9825708
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,9685767
+
+beiersdorf.de#I	beiersdorf.de#I
+meta	0,11111111
+controller	1
+dataProtectionOfficer	0,75
+dataDisclosed	0,8908046
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0,5
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,817734
+
+beiersdorf.de#M	beiersdorf.de#M
+meta	0
+controller	1
+dataProtectionOfficer	0,8333333
+dataDisclosed	0,9688385
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0,5
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,9434447
+
+beiersdorf.de#T	beiersdorf.de#T
+meta	0
+controller	1
+dataProtectionOfficer	0,8333333
+dataDisclosed	0,74242425
+thirdCountryTransfers	
+accessAndDataPortability	
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0,5
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,6768293
+
+bmjv.de#A	bmjv.de#A
+meta	0,3
+controller	0,6666667
+dataProtectionOfficer	0,71428573
+dataDisclosed	0,57575756
+thirdCountryTransfers	
+sources	
+changesOfPurpose	
+accessAndDataPortability	0,7
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0,90909094
+automatedDecisionMaking	
+Overall:	0,6827957
+
+bmjv.de#C	bmjv.de#C
+meta	0,36363637
+controller	0,7
+dataProtectionOfficer	0,75
+dataDisclosed	0,7478261
+thirdCountryTransfers	
+sources	
+changesOfPurpose	
+accessAndDataPortability	0,72727275
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0,9047619
+automatedDecisionMaking	
+Overall:	0,78403753
+
+bmjv.de#G	bmjv.de#G
+meta	0,46153846
+controller	0,8666667
+dataProtectionOfficer	0,8181818
+dataDisclosed	0,884
+thirdCountryTransfers	
+sources	
+changesOfPurpose	
+accessAndDataPortability	0,82608694
+rightToInformation	0,962963
+rightToRectificationOrDeletion	0,94736844
+rightToDataPortability	0,96875
+rightToWithdrawConsent	0,9411765
+rightToComplain	0,9117647
+automatedDecisionMaking	
+Overall:	0,88435376
+
+bmjv.de#I	bmjv.de#I
+meta	0,2
+controller	0,6666667
+dataProtectionOfficer	0,6666667
+dataDisclosed	0,47887325
+thirdCountryTransfers	
+sources	
+changesOfPurpose	
+accessAndDataPortability	0,16666667
+rightToInformation	0,75
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	0,8
+rightToWithdrawConsent	0,8
+rightToComplain	0,75
+automatedDecisionMaking	
+Overall:	0,519084
+
+bmjv.de#M	bmjv.de#M
+meta	0,36363637
+controller	0,7
+dataProtectionOfficer	0,75
+dataDisclosed	0,7196262
+thirdCountryTransfers	
+sources	
+changesOfPurpose	
+accessAndDataPortability	0,6666667
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0,9
+automatedDecisionMaking	
+Overall:	0,757732
+
+bmjv.de#T	bmjv.de#T
+meta	0,2
+controller	0,72727275
+dataProtectionOfficer	0,5
+dataDisclosed	0,2857143
+thirdCountryTransfers	
+sources	
+changesOfPurpose	
+accessAndDataPortability	0,16666667
+rightToInformation	0,33333334
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	0,6666667
+rightToWithdrawConsent	0,33333334
+rightToComplain	0,7692308
+automatedDecisionMaking	
+Overall:	0,3828125
+
+bnpparibas.de#A	bnpparibas.de#A
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,5625
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0
+rightToDataPortability	
+rightToWithdrawConsent	0
+rightToComplain	1
+automatedDecisionMaking	0
+changesOfPurpose	0
+Overall:	0,3888889
+
+bnpparibas.de#C	bnpparibas.de#C
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,9808917
+thirdCountryTransfers	
+accessAndDataPortability	1
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	1
+rightToDataPortability	
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	1
+Overall:	0,9375
+
+bnpparibas.de#G	bnpparibas.de#G
+meta	0,11111111
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,9937107
+thirdCountryTransfers	
+accessAndDataPortability	1
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	1
+rightToDataPortability	
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	1
+Overall:	0,9739583
+
+bnpparibas.de#I	bnpparibas.de#I
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,6818182
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	1
+rightToDataPortability	
+rightToWithdrawConsent	1
+rightToComplain	0
+automatedDecisionMaking	0
+changesOfPurpose	0
+Overall:	0,53333336
+
+bnpparibas.de#M	bnpparibas.de#M
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,98324025
+thirdCountryTransfers	
+accessAndDataPortability	1
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	1
+rightToDataPortability	
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	1
+Overall:	0,94418603
+
+bnpparibas.de#T	bnpparibas.de#T
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,5625
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0
+rightToDataPortability	
+rightToWithdrawConsent	0
+rightToComplain	0
+automatedDecisionMaking	0
+changesOfPurpose	0
+Overall:	0,41025642
+
+bundestag.de#A	bundestag.de#A
+meta	0,11111111
+controller	0,6666667
+dataProtectionOfficer	0,6666667
+dataDisclosed	0,54285717
+thirdCountryTransfers	
+accessAndDataPortability	0,6666667
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0,6666667
+rightToDataPortability	1
+rightToWithdrawConsent	0,6666667
+rightToComplain	0,6666667
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,55714285
+
+bundestag.de#C	bundestag.de#C
+meta	0,11111111
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,75555557
+thirdCountryTransfers	
+accessAndDataPortability	0,6666667
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0,6666667
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,7375
+
+bundestag.de#G	bundestag.de#G
+meta	0
+controller	0,8333333
+dataProtectionOfficer	0,8
+dataDisclosed	0,9519231
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0,5
+rightToDataPortability	0,90909094
+rightToWithdrawConsent	0,75
+rightToComplain	0,5
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,8466667
+
+bundestag.de#I	bundestag.de#I
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,6756757
+thirdCountryTransfers	
+accessAndDataPortability	0,5
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0,5
+rightToDataPortability	1
+rightToWithdrawConsent	0,5
+rightToComplain	0,5
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,609375
+
+bundestag.de#M	bundestag.de#M
+meta	0,11111111
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,7592593
+thirdCountryTransfers	
+accessAndDataPortability	0,6666667
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0,6666667
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,75268817
+
+bundestag.de#T	bundestag.de#T
+meta	0
+controller	1
+dataProtectionOfficer	0,6
+dataDisclosed	0,38709676
+thirdCountryTransfers	
+accessAndDataPortability	0,5
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0,5
+rightToDataPortability	0,5
+rightToWithdrawConsent	0,5
+rightToComplain	0,5
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,39655173
+
+bvg.de#A	bvg.de#A
+meta	0,2
+controller	0,625
+dataProtectionOfficer	0,6
+dataDisclosed	0,8191985
+thirdCountryTransfers	0,7777778
+accessAndDataPortability	1
+sources	0,5833333
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0,5714286
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,80897886
+
+bvg.de#C	bvg.de#C
+meta	0,5833333
+controller	0,72727275
+dataProtectionOfficer	0,8888889
+dataDisclosed	0,89134806
+thirdCountryTransfers	0,9166667
+accessAndDataPortability	1
+sources	0,8235294
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0,93333334
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,8879706
+
+bvg.de#G	bvg.de#G
+meta	0,7058824
+controller	0,8666667
+dataProtectionOfficer	0,8
+dataDisclosed	0,9590643
+thirdCountryTransfers	0,9756098
+accessAndDataPortability	0,9
+sources	0,9591837
+rightToInformation	0,9
+rightToRectificationOrDeletion	0,875
+rightToDataPortability	0,9
+rightToWithdrawConsent	0,85714287
+rightToComplain	0,94736844
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,9550701
+
+bvg.de#I	bvg.de#I
+meta	0,33333334
+controller	0,5714286
+dataProtectionOfficer	0,8333333
+dataDisclosed	0,6537162
+thirdCountryTransfers	0,8
+accessAndDataPortability	0,5
+sources	0,375
+rightToInformation	0,5
+rightToRectificationOrDeletion	0,5
+rightToDataPortability	0,5
+rightToWithdrawConsent	0,5
+rightToComplain	0,9
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,6481481
+
+bvg.de#M	bvg.de#M
+meta	0,5833333
+controller	0,75
+dataProtectionOfficer	0,9
+dataDisclosed	0,83089066
+thirdCountryTransfers	0,9
+accessAndDataPortability	1
+sources	0,78571427
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0,9230769
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,83179486
+
+bvg.de#T	bvg.de#T
+meta	0,45454547
+controller	0,72727275
+dataProtectionOfficer	0,71428573
+dataDisclosed	0,48430493
+thirdCountryTransfers	0,8
+accessAndDataPortability	0,5
+sources	0,16666667
+rightToInformation	0,5
+rightToRectificationOrDeletion	0,5
+rightToDataPortability	0,5
+rightToWithdrawConsent	0,5
+rightToComplain	0,9
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,4990138
+
+caritas.de#A	caritas.de#A
+meta	0,41666666
+controller	0,5
+dataProtectionOfficer	1
+dataDisclosed	0,083333336
+thirdCountryTransfers	0
+accessAndDataPortability	1
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,4883721
+
+caritas.de#C	caritas.de#C
+meta	0,54545456
+controller	0,8333333
+dataProtectionOfficer	1
+dataDisclosed	0,55
+thirdCountryTransfers	1
+accessAndDataPortability	1
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,7241379
+
+caritas.de#G	caritas.de#G
+meta	0,61538464
+controller	0,875
+dataProtectionOfficer	1
+dataDisclosed	0,79310346
+thirdCountryTransfers	1
+accessAndDataPortability	1
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,8378378
+
+caritas.de#I	caritas.de#I
+meta	0,33333334
+controller	0,75
+dataProtectionOfficer	1
+dataDisclosed	0
+thirdCountryTransfers	0
+accessAndDataPortability	0
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,35
+
+caritas.de#M	caritas.de#M
+meta	0,54545456
+controller	0,8333333
+dataProtectionOfficer	1
+dataDisclosed	0,57894737
+thirdCountryTransfers	1
+accessAndDataPortability	1
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,6851852
+
+caritas.de#T	caritas.de#T
+meta	0,5
+controller	0,6666667
+dataProtectionOfficer	1
+dataDisclosed	0
+thirdCountryTransfers	1
+accessAndDataPortability	0
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,3846154
+
+carrefour.com#A	carrefour.com#A
+meta	0,22222222
+controller	0
+dataProtectionOfficer	0,71428573
+dataDisclosed	0,14814815
+thirdCountryTransfers	1
+accessAndDataPortability	0,33333334
+sources	0
+rightToInformation	0
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0,44444445
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,26548672
+
+carrefour.com#C	carrefour.com#C
+meta	0,3
+controller	0
+dataProtectionOfficer	0,8333333
+dataDisclosed	0,6376812
+thirdCountryTransfers	1
+accessAndDataPortability	0,6666667
+sources	0
+rightToInformation	0,75
+rightToRectificationOrDeletion	0,8
+rightToDataPortability	0,75
+rightToWithdrawConsent	0,6666667
+rightToComplain	0,6363636
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,6312057
+
+carrefour.com#G	carrefour.com#G
+meta	0,41666666
+controller	0
+dataProtectionOfficer	0,8888889
+dataDisclosed	0,8623188
+thirdCountryTransfers	1
+accessAndDataPortability	0,9259259
+sources	0,9
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	0,8235294
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,8732877
+
+carrefour.com#I	carrefour.com#I
+meta	0,11111111
+controller	0
+dataProtectionOfficer	0,6
+dataDisclosed	0,12962963
+thirdCountryTransfers	1
+accessAndDataPortability	0,33333334
+sources	0
+rightToInformation	0
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0,44444445
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,21296297
+
+carrefour.com#M	carrefour.com#M
+meta	0,41666666
+controller	0
+dataProtectionOfficer	0,8888889
+dataDisclosed	0,7757009
+thirdCountryTransfers	1
+accessAndDataPortability	0,8
+sources	0
+rightToInformation	0,8
+rightToRectificationOrDeletion	0,8888889
+rightToDataPortability	0,8
+rightToWithdrawConsent	0,75
+rightToComplain	0,73333335
+automatedDecisionMaking	
+changesOfPurpose	1
+Overall:	0,7619048
+
+carrefour.com#T	carrefour.com#T
+meta	0,11111111
+controller	0
+dataProtectionOfficer	0,4
+dataDisclosed	0,14814815
+thirdCountryTransfers	1
+accessAndDataPortability	0,33333334
+sources	0
+rightToInformation	0
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	0,44444445
+automatedDecisionMaking	
+changesOfPurpose	0
+Overall:	0,22018349
+
+cdu.de#A	cdu.de#A
+meta	0,22222222
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,9895833
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	
+Overall:	0,9147287
+
+cdu.de#C	cdu.de#C
+meta	0,44444445
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,9919355
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	
+Overall:	0,96
+
+cdu.de#G	cdu.de#G
+meta	0,54545456
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,99728996
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	
+Overall:	0,9878296
+
+cdu.de#I	cdu.de#I
+meta	0,22222222
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,97619045
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	1
+automatedDecisionMaking	0
+changesOfPurpose	
+Overall:	0,8194444
+
+cdu.de#M	cdu.de#M
+meta	0,33333334
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,992126
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	1
+changesOfPurpose	
+Overall:	0,9537572
+
+cdu.de#T	cdu.de#T
+meta	0,22222222
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,962963
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0
+rightToRectificationOrDeletion	0
+rightToDataPortability	0
+rightToWithdrawConsent	0
+rightToComplain	1
+automatedDecisionMaking	0
+changesOfPurpose	
+Overall:	0,76363635
+
+dhl.de#A	dhl.de#A
+meta	0,5
+controller	0,7
+dataProtectionOfficer	0,5
+dataDisclosed	0,5787546
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,5778302
+
+dhl.de#C	dhl.de#C
+meta	0,4
+controller	0,5714286
+dataProtectionOfficer	0,4
+dataDisclosed	0,6865672
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,6805411
+
+dhl.de#G	dhl.de#G
+meta	0,33333334
+controller	0,5714286
+dataProtectionOfficer	0,4
+dataDisclosed	0,74694264
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,74009216
+
+dhl.de#I	dhl.de#I
+meta	0,33333334
+controller	0,6666667
+dataProtectionOfficer	0,4
+dataDisclosed	0,5688836
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,56581986
+
+dhl.de#M	dhl.de#M
+meta	0,45454547
+controller	0,5714286
+dataProtectionOfficer	0,6666667
+dataDisclosed	0,6551339
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,6514658
+
+dhl.de#T	dhl.de#T
+meta	0,45454547
+controller	0,5714286
+dataProtectionOfficer	0,4
+dataDisclosed	0,45027626
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,45053476
+
+gruene.de#A	gruene.de#A
+meta	0,2
+controller	0,8
+dataProtectionOfficer	1
+dataDisclosed	0,375
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0,75
+rightToRectificationOrDeletion	0
+rightToDataPortability	0,75
+rightToWithdrawConsent	0,75
+rightToComplain	0,75
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,66071427
+
+gruene.de#C	gruene.de#C
+meta	0,11111111
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,6923077
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,8125
+
+gruene.de#G	gruene.de#G
+meta	0
+controller	1
+dataProtectionOfficer	0,9
+dataDisclosed	0,8
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0,9
+rightToRectificationOrDeletion	1
+rightToDataPortability	0,9
+rightToWithdrawConsent	0,9
+rightToComplain	0,9
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,8396226
+
+gruene.de#I	gruene.de#I
+meta	0
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,54545456
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0,5
+rightToRectificationOrDeletion	0
+rightToDataPortability	0,5
+rightToWithdrawConsent	0,5
+rightToComplain	0,5
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,5869565
+
+gruene.de#M	gruene.de#M
+meta	0,11111111
+controller	1
+dataProtectionOfficer	0,875
+dataDisclosed	0,6666667
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	1
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,7936508
+
+gruene.de#T	gruene.de#T
+meta	0,11111111
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,44444445
+thirdCountryTransfers	1
+accessAndDataPortability	
+sources	
+rightToInformation	0,6666667
+rightToRectificationOrDeletion	0
+rightToDataPortability	0,6666667
+rightToWithdrawConsent	0,6666667
+rightToComplain	0,6666667
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,64
+
+otto.de#A	otto.de#A
+meta	0,5
+controller	0,8333333
+dataProtectionOfficer	0,875
+dataDisclosed	0,8767857
+thirdCountryTransfers	
+accessAndDataPortability	0,875
+sources	
+rightToInformation	0,6666667
+rightToRectificationOrDeletion	0,875
+rightToDataPortability	0,8333333
+rightToWithdrawConsent	0,875
+rightToComplain	0,875
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,8666667
+
+otto.de#C	otto.de#C
+meta	0,5
+controller	0,875
+dataProtectionOfficer	0,9
+dataDisclosed	0,88235295
+thirdCountryTransfers	
+accessAndDataPortability	0,75
+sources	
+rightToInformation	0,75
+rightToRectificationOrDeletion	0,75
+rightToDataPortability	0,75
+rightToWithdrawConsent	0,75
+rightToComplain	0,75
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,8611111
+
+otto.de#G	otto.de#G
+meta	0,5833333
+controller	0,8888889
+dataProtectionOfficer	0,9166667
+dataDisclosed	0,9821162
+thirdCountryTransfers	
+accessAndDataPortability	1
+sources	
+rightToInformation	0,875
+rightToRectificationOrDeletion	1
+rightToDataPortability	0,9
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,9722955
+
+otto.de#I	otto.de#I
+meta	0,44444445
+controller	0,8
+dataProtectionOfficer	0,8181818
+dataDisclosed	0,56969696
+thirdCountryTransfers	
+accessAndDataPortability	0,33333334
+sources	
+rightToInformation	0,33333334
+rightToRectificationOrDeletion	0,33333334
+rightToDataPortability	0,33333334
+rightToWithdrawConsent	0,33333334
+rightToComplain	0,33333334
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,5680751
+
+otto.de#M	otto.de#M
+meta	0,6923077
+controller	1
+dataProtectionOfficer	0,90909094
+dataDisclosed	0,81386864
+thirdCountryTransfers	
+accessAndDataPortability	0,8888889
+sources	
+rightToInformation	1
+rightToRectificationOrDeletion	0,8888889
+rightToDataPortability	1
+rightToWithdrawConsent	0,8888889
+rightToComplain	0,8888889
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,8319328
+
+otto.de#T	otto.de#T
+meta	0,61538464
+controller	0,875
+dataProtectionOfficer	0,8
+dataDisclosed	0,44516128
+thirdCountryTransfers	
+accessAndDataPortability	0,8333333
+sources	
+rightToInformation	0,6
+rightToRectificationOrDeletion	0,8333333
+rightToDataPortability	0,6
+rightToWithdrawConsent	0,8333333
+rightToComplain	0,8333333
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,53636366
+
+xing.de#A	xing.de#A
+meta	0
+controller	0,2
+dataProtectionOfficer	0,25
+dataDisclosed	0,5294118
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,42028984
+
+xing.de#C	xing.de#C
+meta	0
+controller	0,5
+dataProtectionOfficer	0,6
+dataDisclosed	0,54347825
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,46969697
+
+xing.de#G	xing.de#G
+meta	0
+controller	0,33333334
+dataProtectionOfficer	0,6
+dataDisclosed	0,6
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,5
+
+xing.de#I	xing.de#I
+meta	0
+controller	0,625
+dataProtectionOfficer	0,6666667
+dataDisclosed	0,29545453
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,3283582
+
+xing.de#M	xing.de#M
+meta	0
+controller	0,4
+dataProtectionOfficer	0,5
+dataDisclosed	0,5625
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,46969697
+
+xing.de#T	xing.de#T
+meta	0
+controller	0,5
+dataProtectionOfficer	0,6
+dataDisclosed	0,35555556
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,33846155
+
+youporn.com#A	youporn.com#A
+meta	0,25
+controller	0,2
+dataProtectionOfficer	
+dataDisclosed	0,5294118
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,38709676
+
+youporn.com#C	youporn.com#C
+meta	0,25
+controller	0,2
+dataProtectionOfficer	
+dataDisclosed	0,6
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,44117647
+
+youporn.com#G	youporn.com#G
+meta	0,5833333
+controller	0,9
+dataProtectionOfficer	
+dataDisclosed	0,7
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,6981132
+
+youporn.com#I	youporn.com#I
+meta	0,125
+controller	0,2
+dataProtectionOfficer	
+dataDisclosed	0,26666668
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,20689656
+
+youporn.com#M	youporn.com#M
+meta	0,33333334
+controller	0,71428573
+dataProtectionOfficer	
+dataDisclosed	0,6
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,5405405
+
+youporn.com#T	youporn.com#T
+meta	0,25
+controller	0,2
+dataProtectionOfficer	
+dataDisclosed	0,42857143
+thirdCountryTransfers	
+accessAndDataPortability	0
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	
+rightToDataPortability	
+rightToWithdrawConsent	
+rightToComplain	
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,32142857
+

@@ -1,0 +1,84 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"CDU",
+"division":"N/A",
+"address":" 7 EU-Datenschutz-Grundverordnung (DS-\n\tGVO) ist die CDU Deutschlands, Klingelhöferstraße 8, 10785 Berlin, kah@cdu.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":" Name, Adresse, E-Mail-Adressen,\n\tNutzerverhalten.\n\t\n\t(2) Verantwortlicher gem. Art.",
+"address":" 7 EU-Datenschutz-Grundverordnung (DS-\n\tGVO) ist die CDU Deutschlands, Klingelhöferstraße 8, 10785 Berlin, kah@cdu.",
+"country":"N/A",
+"email":"datenschutz@cdu.de",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"(1) Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden\n\tpersonenbezogenen Daten:\n\t\n\t  * Recht auf Auskunft,\n\t  * Recht auf Berichtigung oder Löschung,\n\t  * Recht auf Einschränkung der Verarbeitung,\n\t  * Recht auf Datenübertragbarkeit.",
+"url":"https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-",
+"email":"datenschutz@cdu.de",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"  * Recht auf Auskunft,\n\t  * Recht auf Berichtigung oder Löschung,\n\t  * Recht auf Einschränkung der Verarbeitung,\n\t  * Recht auf Datenübertragbarkeit.",
+"url":"https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-",
+"email":"datenschutz@cdu.de",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":" Diese Policy soll größtmögliche Transparenz und\n\tInformation über unsere Datenverarbeitungsvorgänge sowie die Rechte aller von\n\tdieser Verarbeitung betroffenen Personen gewährleisten.",
+"url":"https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-",
+"email":"kah@cdu.de",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"  * Recht auf Datenübertragbarkeit.\n\t  * Datenübertragbarkeit\n\t  * Recht auf Widerspruch gegen die Verarbeitung, (siehe § 11)\n\t  * Widerruf Ihrer gegebenen Einwilligung mit Wirkung für die Zukunft (siehe § 11)\n\t\n\t(2) Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde\n\tüber die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren.",
+"url":"https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-",
+"email":"datenschutz@cdu.de",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"einem Betroffenen das Recht auf Beschwerde bei einer Aufsichtsbehörde –\n\tinsbesondere im Mitgliedstaat des Aufenthaltsortes des Nutzers, des\n\tArbeitsplatzes des Nutzers oder des Orts des mutmaßlichen Verstoßes – zu, wenn\n\tder Nutzer der Ansicht ist, dass die Verarbeitung seiner personenbezogenen\n\tDaten durch uns gegen die DS-GVO verstößt.",
+"url":"https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-",
+"email":"datenschutz@cdu.de",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörden",
+"address":"Daten durch uns gegen die DS-GVO verstößt. Eine Liste der Aufsichtsbehörden in\n\tDeutschland finden Sie hier:\n\t<https://www.",
+"country":"Daten durch uns gegen die DS-GVO verstößt. Eine Liste der Aufsichtsbehörden in\n\tDeutschland finden Sie hier:\n\t<https://www.",
+"email":"datenschutz@cdu.de",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Wir haben nicht die Absicht, von Ihnen erhobene personenbezogene Daten für ein\n\tVerfahren zur automatisierten Entscheidungsfindung (einschließlich Profiling)\n\tzu verwenden.",
+"scopeAndIntendedEffects":"Wir haben nicht die Absicht, von Ihnen erhobene personenbezogene Daten für ein\n\tVerfahren zur automatisierten Entscheidungsfindung (einschließlich Profiling)\n\tzu verwenden."},
+"changesOfPurpose":[{
+"description":"regelmäßig auf Anpassungs- oder Ergänzungsbedarf hin überprüft. Über\n\tÄnderungen werden Sie insbesondere auf unserer Webseite unter www.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Januar 2021",
+"urlOfNewVersion":"https://www.google.de/intl/de/policies/privacy"}]}

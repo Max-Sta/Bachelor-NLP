@@ -1,0 +1,80 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"ARD",
+"division":" Grundlage sind insbesondere der Medienstaatsvertrag (MStV) der Bundesländer und die Datenschutz-Grundverordnung (DSGVO) der Europäischen Union.",
+"address":" TV-Geräte nutzen keine externen Dienste.\n\t\n\tDer Südwestrundfunk als Betreiber von ARD Online und unserer Angebote hat mit allen externen technischen Dienstleistern Vereinbarungen zur Auftragsverarbeitung abgeschlossen und setzt so u.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"\n\tDas ist für ARD Online der Rundfunkbeauftragte für den Datenschutz beim SWR",
+"address":"Das ist für ARD Online der Rundfunkbeauftragte für den Datenschutz beim SWR:\n\tProf. Dr. Armin Herb\n\tNeckarstraße 230\n\t70190 Stuttgar",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Sofern personenbezogene Daten verarbeitet werden, bestehen die in der Europäischen Datenschutzgrundverordnung (EU-DSGVO) genannten Rechte, insbesondere auf Auskunft, Berichtigung und Löschung. Eine erklärte Einwilligung zur Verarbeitung von Daten kann jederzeit widerrufen werden.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"Sofern personenbezogene Daten verarbeitet werden, bestehen die in der Europäischen Datenschutzgrundverordnung (EU-DSGVO) genannten Rechte, insbesondere auf Auskunft, Berichtigung und Löschung. Eine erklärte Einwilligung zur Verarbeitung von Daten kann jederzeit widerrufen werden.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":" Eine erklärte Einwilligung zur Verarbeitung von Daten kann jederzeit widerrufen werden. Wenn Sie der Ansicht sind, dass Sie bei der Verarbeitung der Sie betreffenden personenbezogenen Daten durch ARD Online in Ihren schutzwürdigen Interessen verletzt sind, steht Ihnen das Recht auf Beschwerde bei der datenschutzrechtlichen Aufsichtsbehörde zu.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":" Wenn Sie der Ansicht sind, dass Sie bei der Verarbeitung der Sie betreffenden personenbezogenen Daten durch ARD Online in Ihren schutzwürdigen Interessen verletzt sind, steht Ihnen das Recht auf Beschwerde bei der datenschutzrechtlichen Aufsichtsbehörde zu. Das ist für ARD Online der Datenschutzbeauftragte des SWR",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"Das ist für ARD Online der Rundfunkbeauftragte für den Datenschutz beim SWR:\n\tProf. Dr. Armin Herb\n\tNeckarstraße 230\n\t70190 Stuttgar",
+"country":"Das ist für ARD Online der Rundfunkbeauftragte für den Datenschutz beim SWR:\n\tProf. Dr. Armin Herb\n\tNeckarstraße 230\n\t70190 Stuttgar",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Diese haben eine Laufzeit von maximal 25 Monaten und werden danach automatisch gelöscht. Darüber hinaus haben Sie die Möglichkeit, die Cookies manuell zu löschen.",
+"scopeAndIntendedEffects":" Diese haben eine Laufzeit von maximal 25 Monaten und werden danach automatisch gelöscht. Darüber hinaus haben Sie die Möglichkeit, die Cookies manuell zu löschen."},
+"changesOfPurpose":[]}

@@ -1,0 +1,50 @@
+5	11
+0	0
+0	1
+0	3
+1	4
+12	25
+3	4
+0	0
+0	0
+0	0
+0	0
+0	0
+0	1
+1	0
+1	1
+0	0
+0	0
+0	0
+0	3
+0	3
+0	13
+0	0
+0	0
+0	2
+0	0
+0	0
+0	0
+0	0
+0	0
+0	0
+0	0
+0	0
+0	0
+0	0
+
+meta	0,11111111
+controller	1
+dataProtectionOfficer	1
+dataDisclosed	0,75555557
+thirdCountryTransfers	
+accessAndDataPortability	0,6666667
+sources	
+rightToInformation	
+rightToRectificationOrDeletion	0,6666667
+rightToDataPortability	1
+rightToWithdrawConsent	1
+rightToComplain	1
+automatedDecisionMaking	
+changesOfPurpose	
+Overall:	0,7375

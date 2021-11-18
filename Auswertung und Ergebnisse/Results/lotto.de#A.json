@@ -1,0 +1,84 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"LOTTO.de",
+"division":"Axel Holthaus und Sven Osthoff\n\tAm TÜV 2 + 4\n\t30519 Hannover\n\tDeutschland\n\tTel.",
+"address":"Landesbeauftragten für den Datenschutz Niedersachsen, Barbara Thiel,\n\tPrinzenstraße 5, 30159 Hannover, Telefon 0511-120 4500,\n\tpoststelle@lfd.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"Toto-Lotto Niedersachsen GmbH\n\tGeschäftsführung\n\tAxel Holthaus und Sven Osthoff\n\tAm TÜV 2 + 4\n\t30519 Hannover\n\tDeutschland\n\tTel.",
+"address":"Datenschutzbeauftragter\n\tAm TÜV 2 + 4\n\t30519 Hannover\n\tDeutschland\n\tE-Mail: datenschutz(at)lotto-niedersachsen.",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"E-Mail[Unknown INPUT type]Art der Anfrage\n\tRecht auf Auskunft\n\tRecht auf Auskunft\n\tRecht auf Löschung\n\tRecht auf Berichtigung\n\t[One of: Recht auf Auskunft/Recht auf Löschung/Recht auf Berichtigung]\n\t[Anfrage senden]\n\t***** VI.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"E-Mail[Unknown INPUT type]Art der Anfrage\n\tRecht auf Auskunft\n\tRecht auf Auskunft\n\tRecht auf Löschung\n\tRecht auf Berichtigung\n\t[One of: Recht auf Auskunft/Recht auf Löschung/Recht auf Berichtigung]\n\t[Anfrage senden]\n\t***** VI.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Ihnen steht gegenüber dem Verantwortlichen das Recht zu, über diese Empfänger\n\tunterrichtet zu werden.\n\t6.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"entsprechende Ressourcen anderweitig nutzen.\n\tWiderspruchsrecht:\n\tIhnen steht ein Widerspruchsrecht zu. Ihren Widerspruch können Sie uns\n\tjederzeit zusenden bzw.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"10. Recht auf Beschwerde bei einer Aufsichtsbehörde\n\tUnbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen\n\tRechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde,\n\tinsbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes\n\toder des Orts des mutmaßlichen Verstoßes, zu, wenn Sie der Ansicht sind, dass\n\tdie Verarbeitung der Sie betreffenden personenbeziehbaren Daten gegen die DS-\n\tGVO verstößt.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Niedersachsen",
+"address":"die Verarbeitung der Sie betreffenden personenbeziehbaren Daten gegen die DS-\n\tGVO verstößt. Im Bundesland Niedersachsen ist dies die Dienststelle der\n\tLandesbeauftragten für den Datenschutz Niedersachsen, Barbara Thiel,\n\tPrinzenstraße 5, 30159 Hannover, Telefon 0511-120 4500,\n\tpoststelle@lfd.",
+"country":"die Verarbeitung der Sie betreffenden personenbeziehbaren Daten gegen die DS-\n\tGVO verstößt. Im Bundesland Niedersachsen ist dies die Dienststelle der\n\tLandesbeauftragten für den Datenschutz Niedersachsen, Barbara Thiel,\n\tPrinzenstraße 5, 30159 Hannover, Telefon 0511-120 4500,\n\tpoststelle@lfd.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten\n\tVerarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen\n\tzu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in\n\tähnlicher Weise erheblich beeinträchtigt.",
+"scopeAndIntendedEffects":"Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten\n\tVerarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen\n\tzu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in\n\tähnlicher Weise erheblich beeinträchtigt."},
+"changesOfPurpose":[{
+"description":"die Verwendung von technisch notwendigen Cookies. Durch eine Änderung der\n\tEinstellungen in Ihrem Browser können Sie die Übertragung von technisch\n\tnotwendigen Cookies deaktivieren oder einschränken.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"Mittwoch",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

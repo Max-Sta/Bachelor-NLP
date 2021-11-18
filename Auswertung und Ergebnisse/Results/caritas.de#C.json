@@ -1,0 +1,92 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"KDG",
+"division":"vertreten durch den Präsidenten Dr. Peter Neher\n\tKarlstraße 40\n\t79104 Freiburg\n\tTelefon: +49 (0)761 200-0\n\tE-Mail: info@caritas.",
+"address":"SCO-CON:SULT GmbH\n\tHauptstraße 27\n\t53604 Bad Honnef\n\tE-Mail: datenschutz@caritas.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"4 Name und Anschrift des Datenschutzbeauftragten\n\tAls betrieblicher Datenschutzbeauftragter im Sinne des KDG wurde benannt:\n\tRechtsanwalt Ziar Kabir\n\tSCO-CON:SULT GmbH\n\tHauptstraße 27\n\t53604 Bad Honnef\n\tE-Mail: datenschutz@caritas.",
+"address":"SCO-CON:SULT GmbH\n\tHauptstraße 27\n\t53604 Bad Honnef\n\tE-Mail: datenschutz@caritas.",
+"country":"N/A",
+"email":"datenschutz@caritas.de",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Wirkung für die Zukunft widerrufen.\n\t1.6.3.2 Recht auf Auskunft (§ 17 KDG)\n\tSie können Auskunft darüber verlangen, ob personenbezogene Daten von Ihnen\n\tverarbeitet werden.",
+"url":"www.sco-consult.de",
+"email":"info@kdsz-ffm.de",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"hohen Aufwand möglich, tritt an die Stelle des Rechts auf Löschung das Recht auf\n\tEinschränkung der Verarbeitung gemäß § 20 KDG.\n\t1.6.3.",
+"url":"www.sco-consult.de",
+"email":"info@kdsz-ffm.de",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"die Interessen, Grundrechte und Grundfreiheiten des Betroffenen das\n\terstgenannte Interesse nicht überwiegen (§ 6 Abs. 1 lit. g KDG)\n\t1.6.2.4 Speicherdauer personenbezogener Daten\n\tDie personenbezogenen Daten der betroffenen Person werden gelöscht oder gesperrt,\n\tsobald der Zweck der Speicherung entfällt.",
+"url":"www.sco-consult.de",
+"email":"info@kdsz-ffm.de",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"Betroffenen Personen stehen folgende Rechte zu:\n\t1.6.3.1 Recht auf Widerruf einer Einwilligung (§ 8 Abs. 6 KDG)\n\tSie können Ihre einmal erteilte Einwilligung zur Verarbeitung von Daten jederzeit mit\n\tWirkung für die Zukunft widerrufen.",
+"url":"www.sco-consult.de",
+"email":"info@kdsz-ffm.de",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde zu,\n\twenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden\n\tpersonenbezogenen Daten gegen Datenschutzvorschriften verstößt.",
+"url":"www.caritas.de",
+"email":"info@kdsz-ffm.de",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"▪ Zu Microsoft Edge\n\t▪ Zu Internet Explorer\n\t▪ Zu Opera\n\tZusätzlich können Daten zu den gleichen Zwecken im sogenannten Local Storage\n\tbzw.",
+"country":"▪ Zu Microsoft Edge\n\t▪ Zu Internet Explorer\n\t▪ Zu Opera\n\tZusätzlich können Daten zu den gleichen Zwecken im sogenannten Local Storage\n\tbzw.",
+"email":"info@kdsz-ffm.de",
+"phone":"0761 200-0"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"Bei jedem Aufruf unserer Website erfasst unser System automatisiert Informationen\n\tvom Computersystem des aufrufenden Rechners.",
+"scopeAndIntendedEffects":"Bei jedem Aufruf unserer Website erfasst unser System automatisiert Informationen\n\tvom Computersystem des aufrufenden Rechners."},
+"changesOfPurpose":[{
+"description":"................................ 9\n\t1.8 Änderung dieser Datenschutzerklärung.....",
+"affectedDataCategories":[],
+"plannedDateOfChange":"31. Mai 2021",
+"urlOfNewVersion":"www.caritas.de"},{
+"description":"Besonderen Teil der Datenschutzerklärung.\n\t1.8 Änderung dieser Datenschutzerklärung\n\tWir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den\n\taktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer\n\tLeistungen in der Datenschutzerklärung umzusetzen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"31. Mai 2021",
+"urlOfNewVersion":"www.caritas.de"},{
+"description":"aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer\n\tLeistungen in der Datenschutzerklärung umzusetzen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"31. Mai 2021",
+"urlOfNewVersion":"www.caritas.de"}]}

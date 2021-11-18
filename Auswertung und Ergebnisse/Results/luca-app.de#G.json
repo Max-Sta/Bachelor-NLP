@@ -1,0 +1,128 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"de",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"Betreiber",
+"division":"Teilweise werden Informationen an die Muttergesellschaften Google Inc. und\n\tVimeo Inc. mit Sitz in den USA, an andere Google- bzw.",
+"address":"eigenen Schlüssel wiederum diese Daten und legt sie im luca System ab. Die\n\tBetreiber:in ist für diese Verarbeitung verantwortlich und wir treten hierbei\n\tals Auftragsverarbeiter der Betreiber:in auf und sind durch entsprechende\n\tVerträge mit den Betreiber:innen zur Wahrung der Datenschutzanforderungen\n\tverpflichtet.",
+"country":"N/A",
+"representative":{
+"name":"N/A",
+"email":"N/A",
+"phone":"N/A"}},
+"dataProtectionOfficer":{
+"name":"Unseren Datenschutzbeauftragten erreichen Sie wie folgt: \n\tculture4life GmbH\n\tDatenschutzbeauftragter\n\tCharlottenstraße 59\n\t10117 Berlin\n\tDeutschland\n\tprivacy@culture4life.",
+"address":"culture4life GmbH\n\tDatenschutzbeauftragter\n\tCharlottenstraße 59\n\t10117 Berlin\n\tDeutschland\n\tprivacy@culture4life.",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"      Daten verarbeitet werden und, sofern dies der Fall ist, das Recht auf\n\t      Auskunft über diese Daten. Diese Auskunft umfasst unter anderem die\n\t      Verarbeitungszwecke, die Kategorien verarbeiteter personenbezogener Daten\n\t      und die Empfänger:innen oder Kategorien der Empfänger:innen, denen die\n\t      personenbezogenen Daten offengelegt worden sind oder noch offengelegt\n\t      werden (Art.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"    * Das Recht, unter bestimmten Voraussetzungen zu verlangen, dass Ihre\n\t      personenbezogenen Daten unverzüglich gelöscht werden (sog. „Recht auf\n\t      Vergessenwerden“) (Art. 17 DSGVO).",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"      Daten verarbeitet werden und, sofern dies der Fall ist, das Recht auf\n\t      Auskunft über diese Daten. Diese Auskunft umfasst unter anderem die\n\t      Verarbeitungszwecke, die Kategorien verarbeiteter personenbezogener Daten\n\t      und die Empfänger:innen oder Kategorien der Empfänger:innen, denen die\n\t      personenbezogenen Daten offengelegt worden sind oder noch offengelegt\n\t      werden (Art.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"      Rechtmäßigkeit der Verarbeitung, die bis zu Ihrem Widerruf erfolgt ist.\n\tZur Ausübung dieser Rechte gegenüber uns können Sie sich auch an unsere\n\tDatenschutzbeauftragte, unter den in Teil B.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":"Ungeachtet der vorstehenden Rechte haben Sie das Recht, Beschwerde bei einer\n\tAufsichtsbehörde für Datenschutz und Informationsfreiheit, beispielsweise bei\n\tder Berliner Beauftragten für Datenschutz und Informationsfreiheit einzulegen:\n\tBerliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Aufsichtsbehörde",
+"address":"Aufsichtsbehörde für Datenschutz und Informationsfreiheit, beispielsweise bei\n\tder Berliner Beauftragten für Datenschutz und Informationsfreiheit einzulegen:\n\tBerliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr.",
+"country":"Aufsichtsbehörde für Datenschutz und Informationsfreiheit, beispielsweise bei\n\tder Berliner Beauftragten für Datenschutz und Informationsfreiheit einzulegen:\n\tBerliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr.",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"030/13889-0"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":"      Ihnen nicht zugeordnet und daher bis zu ihrer automatischen Löschung\n\t      nicht von einer Verarbeitung ausgeschlossen werden können.",
+"scopeAndIntendedEffects":"      Ihnen nicht zugeordnet und daher bis zu ihrer automatischen Löschung\n\t      nicht von einer Verarbeitung ausgeschlossen werden können."},
+"changesOfPurpose":[{
+"description":" Wir behalten uns vor, diese Datenschutzerklärung anzupassen\n\t(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tDienste).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"03.09.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tDienste).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"03.09.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Wir behalten uns vor, diese Datenschutzerklärung anzupassen\n\t(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tDienste).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"08.07.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tDienste).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"08.07.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Wir behalten uns vor, diese Datenschutzerklärung anzupassen\n\t(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tDienste).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"08.07.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tDienste).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"08.07.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"      entsprechenden Bereich innerhalb der luca Webapp gehen und die Korrektur/\n\t      Änderung vornehmen. Wir selbst können Ihre Anfrage nur im Hinblick auf\n\t      Daten bearbeiten, die wir von Ihnen als Klardaten erhalten (z.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"08.07.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"      widerrufen. Dies geschieht für die Zukunft durch Änderungen Ihrer\n\t      Einstellungen.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"08.07.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Wir behalten uns vor, diese Datenschutzerklärung anzupassen\n\t(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tDienste).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"08.07.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tDienste).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"08.07.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Wir behalten uns vor, diese Datenschutzerklärung anzupassen\n\t(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tSocial Media Auftritte).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"21.09.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":"(insbesondere im Falle von Änderungen der Rechtslage oder Änderungen unserer\n\tSocial Media Auftritte).",
+"affectedDataCategories":[],
+"plannedDateOfChange":"21.09.2021",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}

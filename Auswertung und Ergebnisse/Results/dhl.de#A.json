@@ -1,0 +1,88 @@
+{
+"meta":{
+"_id":"N/A",
+"name":"N/A",
+"created":"N/A",
+"modified":"N/A",
+"version":"N/A",
+"language":"",
+"status":"N/A",
+"url":"N/A",
+"_hash":"N/A"},
+"controller":{
+"name":"DHL",
+"division":"Verantwortlich für diese Webseite und weitere DHL Paket Produkte und Services ist\n\t\n\tDHL Paket GmbH\n\tSträßchensweg 10\n\t53113 Bon",
+"address":"Verantwortlich für diese Webseite und weitere DHL Paket Produkte und Services ist\n\t\n\tDHL Paket GmbH\n\tSträßchensweg 10\n\t53113 Bon",
+"country":"N/A",
+"representative":{
+"name":"Datenschutz",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"dataProtectionOfficer":{
+"name":"Der Bundesbeauftragte für den Datenschutz und die Informationsfreihei",
+"address":"Deutsche Post AG\n\tKonzerndatenschutz\n\t53250 Bonn\n\tdatenschutz[at]dpdhl.",
+"country":"N/A",
+"email":"N/A",
+"phone":"N/A"},
+"dataDisclosed":[],
+"thirdCountryTransfers":[],
+"accessAndDataPortability":{
+"available":false,
+"description":"N/A",
+"url":"N/A",
+"email":"N/A",
+"identificationEvidences":[],
+"administrativeFee":{
+"amount":0.0,
+"currency":"N/A"},
+"dataFormats":[]},
+"sources":[],
+"rightToInformation":{
+"available":true,
+"description":"Nach der DSGVO stehen von der Datenverarbeitung betroffenen Personen folgende Rechte zu:\n\t\n\tSie können Auskunft nach Art. 15 DSGVO über Ihre personenbezogenen Daten verlangen, die von der jeweiligen Verantwortlichen verarbeitet werden.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToRectificationOrDeletion":{
+"available":true,
+"description":"de erhobenen personenbezogenen Daten nach 60 Tagen gelöscht. Sofern Sie von Ihren Widerspruchsrechten - insbesondere gegen die Verwendung Ihrer Daten zu Werbezwecken - Gebrauch machen möchten, senden Sie bitte eine E-Mail  unter der Angabe folgenden Betreffs \"Antrag auf Löschung aus dem Mailverteiler\" mit Angabe Ihrer entsprechenden Unternehmensbezeichnung an folgende Adresse: geschaeftskunde[at]dhl.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToDataPortability":{
+"available":true,
+"description":"Der Inhalt dieser Datenschutzerklärung wird regelmäßig überprüft. Die Verantwortlichen behalten sich das Recht vor, die Datenschutzerklärung jederzeit mit oder ohne Vorankündigung abzuändern.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToWithdrawConsent":{
+"available":true,
+"description":"de erhobenen personenbezogenen Daten nach 60 Tagen gelöscht. Sofern Sie von Ihren Widerspruchsrechten - insbesondere gegen die Verwendung Ihrer Daten zu Werbezwecken - Gebrauch machen möchten, senden Sie bitte eine E-Mail  unter der Angabe folgenden Betreffs \"Antrag auf Löschung aus dem Mailverteiler\" mit Angabe Ihrer entsprechenden Unternehmensbezeichnung an folgende Adresse: geschaeftskunde[at]dhl.",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[]},
+"rightToComplain":{
+"available":true,
+"description":" 1 DSGVO das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde zu beschweren.\n\tFür die DHL Paket GmbH, die Deutsche Post AG, DHL Express Germany GmbH und die DHL 2-Mann-Handling GmbH ist die zuständige Aufsichtsbehörde im Zusammenhang mit Post- und Telekommunikationsdienstleistunge",
+"url":"[No entity of type \"URL\" found.]",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"identificationEvidences":[],
+"supervisoryAuthority":{
+"name":"Datenschutzaufsichtsbehörde",
+"address":"Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit\n\tGraurheindorfer Straße 153\n\t53117 Bonn",
+"country":"Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit\n\tGraurheindorfer Straße 153\n\t53117 Bonn",
+"email":"[No entity of type \"EMAILADDRESS\" found.]",
+"phone":"[No entity of type \"PHONENUMBER\" found.]"}},
+"automatedDecisionMaking":{
+"inUse":true,
+"logicInvolved":" Angemeldeten Nutzern werden bereits gesuchte Sendungen serverseitig automatisch über das Kundenkonto zugeordnet.",
+"scopeAndIntendedEffects":" Angemeldeten Nutzern werden bereits gesuchte Sendungen serverseitig automatisch über das Kundenkonto zugeordnet."},
+"changesOfPurpose":[{
+"description":"Konzerndatenschutzrichtlinie Zusammenfassung (PDF)\n\tpdf (201,17 KB)\n\t\n\tÄnderung der Datenschutzerklärung",
+"affectedDataCategories":[],
+"plannedDateOfChange":"dem Abbruch",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"},{
+"description":" Der Zugriff muss dann durch einen Anmeldecode verifiziert werden.\n\tAus Sicherheitsgründen werden auch Änderungen an Kundendaten und bei der Nutzung des Kundenkontos protokolliert.",
+"affectedDataCategories":[],
+"plannedDateOfChange":"dem Abbruch",
+"urlOfNewVersion":"[No entity of type \"URL\" found.]"}]}
